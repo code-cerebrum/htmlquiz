@@ -1,0 +1,1972 @@
+[
+    {
+        "q": "What will be displayed in the browser?",
+        "c": "<video controls>\n  <source src='movie.mp4' type='video/mp4'>\n  Your browser does not support the video tag.\n</video>",
+        "o": [
+            "A video with controls",
+            "A static image",
+            "An audio player",
+            "An error message"
+        ]
+    },
+    {
+        "q": "Which HTML5 tag is used for video content?",
+        "c": null,
+        "o": [
+            "<video>",
+            "<audio>",
+            "<canvas>",
+            "<img>"
+        ]
+    },
+    {
+        "q": "What is the purpose of the <canvas> element in this code?",
+        "c": "<canvas id='myCanvas' width='200' height='100'></canvas>\n<script>\n  var canvas = document.getElementById('myCanvas');\n  var ctx = canvas.getContext('2d');\n  ctx.fillStyle = 'red';\n  ctx.fillRect(0, 0, 150, 75);\n</script>",
+        "o": [
+            "Draw graphics",
+            "Play a video",
+            "Embed an image",
+            "Create an input field"
+        ]
+    },
+    {
+        "q": "Which tag represents self-contained content in HTML5?",
+        "c": null,
+        "o": [
+            "<article>",
+            "<section>",
+            "<div>",
+            "<header>"
+        ]
+    },
+    {
+        "q": "What text will be displayed in the browser?",
+        "c": "<article>\n  <h2>HTML5 Features</h2>\n  <p>HTML5 introduces semantic elements such as <strong>article</strong> and <em>section</em>.</p>\n</article>",
+        "o": [
+            "HTML5 introduces semantic elements",
+            "article and section",
+            "A blank page",
+            "An error"
+        ]
+    },
+    {
+        "q": "What tag is used to draw graphics in HTML5?",
+        "c": null,
+        "o": [
+            "<canvas>",
+            "<svg>",
+            "<img>",
+            "<map>"
+        ]
+    },
+    {
+        "q": "What will happen if this audio tag is used in the browser?",
+        "c": "<audio controls>\n  <source src='song.mp3' type='audio/mpeg'>\n  Your browser does not support the audio tag.\n</audio>",
+        "o": [
+            "An audio player will appear",
+            "A video player will appear",
+            "An image will be displayed",
+            "Nothing will happen"
+        ]
+    },
+    {
+        "q": "Which tag is used for playing audio files?",
+        "c": null,
+        "o": [
+            "<audio>",
+            "<video>",
+            "<source>",
+            "<object>"
+        ]
+    },
+    {
+        "q": "What does this <figure> and <figcaption> element represent?",
+        "c": "<figure>\n  <img src='image.jpg' alt='Nature Scene'>\n  <figcaption>A beautiful nature scene</figcaption>\n</figure>",
+        "o": [
+            "An image with a caption",
+            "A form with a submit button",
+            "An audio clip",
+            "A paragraph"
+        ]
+    },
+    {
+        "q": "Which HTML5 element is used for marking up navigation links?",
+        "c": null,
+        "o": [
+            "<nav>",
+            "<header>",
+            "<aside>",
+            "<footer>"
+        ]
+    },
+    {
+        "q": "What shape will be drawn on the canvas?",
+        "c": "<canvas id='myCanvas' width='200' height='100'></canvas>\n<script>\n  var canvas = document.getElementById('myCanvas');\n  var ctx = canvas.getContext('2d');\n  ctx.beginPath();\n  ctx.arc(95, 50, 40, 0, 2 * Math.PI);\n  ctx.stroke();\n</script>",
+        "o": [
+            "A circle",
+            "A rectangle",
+            "A line",
+            "A square"
+        ]
+    },
+    {
+        "q": "Which tag is used to define a footer for a document or section?",
+        "c": null,
+        "o": [
+            "<footer>",
+            "<header>",
+            "<nav>",
+            "<aside>"
+        ]
+    },
+    {
+        "q": "What is the function of the <section> element in this code?",
+        "c": "<section>\n  <h2>Introduction</h2>\n  <p>Welcome to HTML5</p>\n</section>",
+        "o": [
+            "Defines a section of the document",
+            "Defines a header",
+            "Styles the document",
+            "Creates an input field"
+        ]
+    },
+    {
+        "q": "What HTML5 tag defines a section of content related to a side topic?",
+        "c": null,
+        "o": [
+            "<aside>",
+            "<section>",
+            "<footer>",
+            "<article>"
+        ]
+    },
+    {
+        "q": "What will be displayed in the browser?",
+        "c": "<video width='400' controls>\n  <source src='sample.mp4' type='video/mp4'>\n  Your browser does not support HTML5 video.\n</video>",
+        "o": [
+            "A video player",
+            "An image",
+            "A blank page",
+            "An error message"
+        ]
+    },
+    {
+        "q": "Which tag represents a heading group in HTML5?",
+        "c": null,
+        "o": [
+            "<header>",
+            "<nav>",
+            "<section>",
+            "<footer>"
+        ]
+    },
+    {
+        "q": "What does the following code do?",
+        "c": "<canvas id='myCanvas' width='200' height='100'></canvas>\n<script>\n  var canvas = document.getElementById('myCanvas');\n  var ctx = canvas.getContext('2d');\n  ctx.moveTo(0,0);\n  ctx.lineTo(200,100);\n  ctx.stroke();\n</script>",
+        "o": [
+            "Draws a line",
+            "Draws a rectangle",
+            "Draws a circle",
+            "Does nothing"
+        ]
+    },
+    {
+        "q": "Which tag is used to define a section in HTML5?",
+        "c": null,
+        "o": [
+            "<section>",
+            "<article>",
+            "<aside>",
+            "<header>"
+        ]
+    },
+    {
+        "q": "What will this <mark> element highlight?",
+        "c": "<p>The <mark>HTML5</mark> specification introduces new features.</p>",
+        "o": [
+            "HTML5",
+            "The entire paragraph",
+            "Nothing",
+            "Specification"
+        ]
+    },
+    {
+        "q": "Which HTML5 tag is used to embed a video file?",
+        "c": null,
+        "o": [
+            "<video>",
+            "<embed>",
+            "<object>",
+            "<source>"
+        ]
+    },
+    {
+        "q": "What will be displayed with this <audio> element?",
+        "c": "<audio controls>\n  <source src='music.mp3' type='audio/mpeg'>\n  Your browser does not support the audio element.\n</audio>",
+        "o": [
+            "An audio player",
+            "A video player",
+            "An image",
+            "Nothing"
+        ]
+    },
+    {
+        "q": "What HTML5 tag is used to embed audio content?",
+        "c": null,
+        "o": [
+            "<audio>",
+            "<video>",
+            "<object>",
+            "<source>"
+        ]
+    },
+    {
+        "q": "What does the <canvas> tag represent?",
+        "c": "<canvas id='canvas' width='200' height='200'></canvas>",
+        "o": [
+            "A drawing area",
+            "An image area",
+            "A video player",
+            "A form field"
+        ]
+    },
+    {
+        "q": "Which tag represents the main content of a document?",
+        "c": null,
+        "o": [
+            "<main>",
+            "<article>",
+            "<section>",
+            "<footer>"
+        ]
+    },
+    {
+        "q": "What will this code snippet display?",
+        "c": "<video width='300' height='150' controls>\n  <source src='movie.mp4' type='video/mp4'>\n  Your browser does not support the video tag.\n</video>",
+        "o": [
+            "A video player",
+            "An image",
+            "Nothing",
+            "An error message"
+        ]
+    },
+    {
+        "q": "Which HTML5 feature allows you to draw graphics?",
+        "c": null,
+        "o": [
+            "<canvas>",
+            "<video>",
+            "<audio>",
+            "<img>"
+        ]
+    },
+    {
+        "q": "What will happen when this <audio> element is used?",
+        "c": "<audio controls>\n  <source src='audio.mp3' type='audio/mp3'>\n</audio>",
+        "o": [
+            "An audio player will be shown",
+            "A video will be shown",
+            "A link will be displayed",
+            "Nothing will happen"
+        ]
+    },
+    {
+        "q": "Which attribute specifies multiple media sources for audio/video?",
+        "c": null,
+        "o": [
+            "<source>",
+            "<track>",
+            "<embed>",
+            "<object>"
+        ]
+    },
+    {
+        "q": "What does the <figcaption> element do in this code?",
+        "c": "<figure>\n  <img src='image.jpg' alt='Description'>\n  <figcaption>Image description here</figcaption>\n</figure>",
+        "o": [
+            "Adds a caption to the image",
+            "Adds a title",
+            "Links the image",
+            "Styles the image"
+        ]
+    },
+    {
+        "q": "Which element is used to define a scalar measurement within a known range?",
+        "c": null,
+        "o": [
+            "<meter>",
+            "<progress>",
+            "<range>",
+            "<input>"
+        ]
+    },
+    {
+        "q": "What will be drawn on the canvas?",
+        "c": "<canvas id='myCanvas' width='200' height='200'></canvas>\n<script>\n  var canvas = document.getElementById('myCanvas');\n  var ctx = canvas.getContext('2d');\n  ctx.beginPath();\n  ctx.rect(20, 20, 150, 100);\n  ctx.stroke();\n</script>",
+        "o": [
+            "A rectangle",
+            "A circle",
+            "A line",
+            "A polygon"
+        ]
+    },
+    {
+        "q": "What does the <track> tag do in HTML5?",
+        "c": null,
+        "o": [
+            "Adds text tracks to media",
+            "Adds audio tracks",
+            "Adds video tracks",
+            "Adds subtitles"
+        ]
+    },
+    {
+        "q": "What is the purpose of the <article> element?",
+        "c": "<article>\n  <h1>HTML5 New Features</h1>\n  <p>HTML5 introduces semantic tags.</p>\n</article>",
+        "o": [
+            "Defines an independent content block",
+            "Creates a form",
+            "Links to external files",
+            "Defines a footer"
+        ]
+    },
+    {
+        "q": "What is the purpose of the <progress> tag?",
+        "c": null,
+        "o": [
+            "Displays progress of a task",
+            "Shows video progress",
+            "Indicates audio level",
+            "None of the above"
+        ]
+    },
+    {
+        "q": "What does the following code do?",
+        "c": "<canvas id='myCanvas' width='200' height='100'></canvas>\n<script>\n  var canvas = document.getElementById('myCanvas');\n  var ctx = canvas.getContext('2d');\n  ctx.fillStyle = 'green';\n  ctx.fillRect(10, 10, 50, 50);\n</script>",
+        "o": [
+            "Draws a green square",
+            "Draws a line",
+            "Draws a circle",
+            "Draws nothing"
+        ]
+    },
+    {
+        "q": "Which HTML5 element can replace <b> and <i>?",
+        "c": null,
+        "o": [
+            "<strong>",
+            "<em>",
+            "<span>",
+            "<div>"
+        ]
+    },
+    {
+        "q": "What element is used for embedding a video in HTML5?",
+        "c": "<video controls>\n  <source src='video.mp4' type='video/mp4'>\n  Your browser does not support the video element.\n</video>",
+        "o": [
+            "<video>",
+            "<embed>",
+            "<object>",
+            "<audio>"
+        ]
+    },
+    {
+        "q": "What does the <figure> tag represent?",
+        "c": null,
+        "o": [
+            "Self-contained content",
+            "An image",
+            "A video",
+            "A section"
+        ]
+    },
+    {
+        "q": "What text will be displayed inside the <article> element?",
+        "c": "<article>\n  <h2>Welcome</h2>\n  <p>This is an introduction to HTML5.</p>\n</article>",
+        "o": [
+            "Welcome and the paragraph",
+            "Only Welcome",
+            "Only the paragraph",
+            "Nothing"
+        ]
+    },
+    {
+        "q": "Which HTML5 tag is used for a navigation menu?",
+        "c": null,
+        "o": [
+            "<nav>",
+            "<menu>",
+            "<ul>",
+            "<ol>"
+        ]
+    },
+    {
+        "q": "What will be displayed when the following code is run?",
+        "c": "<canvas id='canvas' width='200' height='200'></canvas>\n<script>\n  var canvas = document.getElementById('canvas');\n  var ctx = canvas.getContext('2d');\n  ctx.moveTo(0, 0);\n  ctx.lineTo(200, 200);\n  ctx.stroke();\n</script>",
+        "o": [
+            "A diagonal line",
+            "A rectangle",
+            "A circle",
+            "Nothing"
+        ]
+    },
+    {
+        "q": "Which element is used to specify a list of pre-defined options?",
+        "c": null,
+        "o": [
+            "<datalist>",
+            "<list>",
+            "<options>",
+            "<select>"
+        ]
+    },
+    {
+        "q": "What happens when this code is run?",
+        "c": "<audio controls>\n  <source src='sound.mp3' type='audio/mp3'>\n</audio>",
+        "o": [
+            "An audio player is shown",
+            "An error is shown",
+            "Nothing happens",
+            "A video player is shown"
+        ]
+    },
+    {
+        "q": "What does the <canvas> element require to draw?",
+        "c": null,
+        "o": [
+            "JavaScript",
+            "CSS",
+            "HTML",
+            "SVG"
+        ]
+    },
+    {
+        "q": "What does the <footer> element represent?",
+        "c": "<footer>\n  <p>Copyright 2024</p>\n</footer>",
+        "o": [
+            "The footer of the page",
+            "The header",
+            "A navigation bar",
+            "A section"
+        ]
+    },
+    {
+        "q": "Which attribute is used to define the audio file for <audio>?",
+        "c": null,
+        "o": [
+            "src",
+            "file",
+            "source",
+            "data"
+        ]
+    },
+    {
+        "q": "What will this code display?",
+        "c": "<audio controls>\n  <source src='music.ogg' type='audio/ogg'>\n  <source src='music.mp3' type='audio/mpeg'>\n  Your browser does not support the audio element.\n</audio>",
+        "o": [
+            "An audio player",
+            "A video player",
+            "Nothing",
+            "An error message"
+        ]
+    },
+    {
+        "q": "What does the <source> tag specify?",
+        "c": null,
+        "o": [
+            "Media source",
+            "File type",
+            "Media size",
+            "Media description"
+        ]
+    },
+    {
+        "q": "What does the <nav> element define in this code?",
+        "c": "<nav>\n  <ul>\n    <li><a href='#'>Home</a></li>\n    <li><a href='#'>About</a></li>\n  </ul>\n</nav>",
+        "o": [
+            "Navigation links",
+            "A list",
+            "A form",
+            "A video"
+        ]
+    },
+    {
+        "q": "Which tag is used for embedding YouTube videos?",
+        "c": null,
+        "o": [
+            "<iframe>",
+            "<embed>",
+            "<video>",
+            "<source>"
+        ]
+    },
+    {
+        "q": "What is the effect of the code on the canvas?",
+        "c": "<canvas id='canvas' width='200' height='200'></canvas>\n<script>\n  var canvas = document.getElementById('canvas');\n  var ctx = canvas.getContext('2d');\n  ctx.fillStyle = 'blue';\n  ctx.fillRect(50, 50, 100, 100);\n</script>",
+        "o": [
+            "A blue square",
+            "A red circle",
+            "A black line",
+            "An error"
+        ]
+    },
+    {
+        "q": "Which HTML5 tag is used for defining a term in a description list?",
+        "c": null,
+        "o": [
+            "<dt>",
+            "<dd>",
+            "<dl>",
+            "<div>"
+        ]
+    },
+    {
+        "q": "What does this <aside> element represent?",
+        "c": "<article>\n  <p>Main content goes here</p>\n  <aside>Related links</aside>\n</article>",
+        "o": [
+            "Related content",
+            "Main content",
+            "Header",
+            "Footer"
+        ]
+    },
+    {
+        "q": "What does the <details> tag do?",
+        "c": null,
+        "o": [
+            "Creates a disclosure widget",
+            "Defines a section",
+            "Hides content",
+            "Creates a dialog"
+        ]
+    },
+    {
+        "q": "What does the following code do?",
+        "c": "<canvas id='myCanvas' width='200' height='100'></canvas>\n<script>\n  var canvas = document.getElementById('myCanvas');\n  var ctx = canvas.getContext('2d');\n  ctx.fillStyle = 'yellow';\n  ctx.fillRect(20, 20, 100, 50);\n</script>",
+        "o": [
+            "Draws a yellow rectangle",
+            "Draws a blue square",
+            "Draws a line",
+            "Does nothing"
+        ]
+    },
+    {
+        "q": "Which tag allows you to create a checkbox in HTML5?",
+        "c": null,
+        "o": [
+            "<input type='checkbox'>",
+            "<checkbox>",
+            "<input>",
+            "<select>"
+        ]
+    },
+    {
+        "q": "What happens if this video tag is used in the browser?",
+        "c": "<video width='320' height='240' controls>\n  <source src='movie.mp4' type='video/mp4'>\n</video>",
+        "o": [
+            "A video player appears",
+            "An image appears",
+            "Nothing happens",
+            "An audio player appears"
+        ]
+    },
+    {
+        "q": "Which tag is used to display a list of items in HTML5?",
+        "c": null,
+        "o": [
+            "<ul>",
+            "<ol>",
+            "<li>",
+            "<menu>"
+        ]
+    },
+    {
+        "q": "What text will be displayed in the browser?",
+        "c": "<section>\n  <h1>HTML5 Overview</h1>\n  <p>HTML5 introduces new elements.</p>\n</section>",
+        "o": [
+            "HTML5 Overview and the paragraph",
+            "Only HTML5 Overview",
+            "A blank page",
+            "An error"
+        ]
+    },
+    {
+        "q": "What attribute is used to control autoplay in <video>?",
+        "c": null,
+        "o": [
+            "autoplay",
+            "loop",
+            "controls",
+            "muted"
+        ]
+    },
+    {
+        "q": "What will be drawn on the canvas?",
+        "c": "<canvas id='canvas' width='300' height='200'></canvas>\n<script>\n  var canvas = document.getElementById('canvas');\n  var ctx = canvas.getContext('2d');\n  ctx.moveTo(50, 50);\n  ctx.lineTo(150, 100);\n  ctx.stroke();\n</script>",
+        "o": [
+            "A line",
+            "A circle",
+            "A rectangle",
+            "Nothing"
+        ]
+    },
+    {
+        "q": "Which tag is used to create a summary for a <details> element?",
+        "c": null,
+        "o": [
+            "<summary>",
+            "<title>",
+            "<header>",
+            "<caption>"
+        ]
+    },
+    {
+        "q": "What does the <header> element define?",
+        "c": "<header>\n  <h1>Welcome to My Website</h1>\n  <p>Introduction</p>\n</header>",
+        "o": [
+            "A header section",
+            "A footer",
+            "A video",
+            "A form"
+        ]
+    },
+    {
+        "q": "Which HTML5 element can contain metadata?",
+        "c": null,
+        "o": [
+            "<head>",
+            "<body>",
+            "<footer>",
+            "<main>"
+        ]
+    },
+    {
+        "q": "What will the <audio> element do in the browser?",
+        "c": "<audio controls>\n  <source src='audio.mp3' type='audio/mp3'>\n</audio>",
+        "o": [
+            "Display an audio player",
+            "Display a video",
+            "Do nothing",
+            "Show an image"
+        ]
+    },
+    {
+        "q": "Which tag is used to specify that an input field is required?",
+        "c": null,
+        "o": [
+            "required",
+            "mandatory",
+            "validate",
+            "must"
+        ]
+    },
+    {
+        "q": "What happens when the <video> tag is used in this code?",
+        "c": "<video controls>\n  <source src='video.mp4' type='video/mp4'>\n</video>",
+        "o": [
+            "A video player appears",
+            "An error is shown",
+            "A blank page",
+            "An image is displayed"
+        ]
+    },
+    {
+        "q": "What type of data does <input type='color'> accept?",
+        "c": null,
+        "o": [
+            "Color values",
+            "Text",
+            "Numbers",
+            "Dates"
+        ]
+    },
+    {
+        "q": "What does the following code display?",
+        "c": "<section>\n  <h2>Contact Information</h2>\n  <p>Phone: (555) 555-5555</p>\n</section>",
+        "o": [
+            "Contact Information",
+            "A video player",
+            "A blank page",
+            "An error message"
+        ]
+    },
+    {
+        "q": "What is the function of the <time> tag?",
+        "c": null,
+        "o": [
+            "Represents a specific time",
+            "Creates a timer",
+            "Displays a date",
+            "None of the above"
+        ]
+    },
+    {
+        "q": "What does this <footer> tag define?",
+        "c": "<footer>\n  <p>Footer content goes here.</p>\n</footer>",
+        "o": [
+            "Footer content",
+            "Main content",
+            "Header content",
+            "Navigation links"
+        ]
+    },
+    {
+        "q": "Which HTML5 tag is used to represent the main content of the document?",
+        "c": null,
+        "o": [
+            "<main>",
+            "<content>",
+            "<section>",
+            "<article>"
+        ]
+    },
+    {
+        "q": "What will be drawn using the canvas tag?",
+        "c": "<canvas id='myCanvas' width='200' height='100'></canvas>\n<script>\n  var canvas = document.getElementById('myCanvas');\n  var ctx = canvas.getContext('2d');\n  ctx.beginPath();\n  ctx.arc(100, 50, 40, 0, Math.PI * 2);\n  ctx.stroke();\n</script>",
+        "o": [
+            "A circle",
+            "A rectangle",
+            "A square",
+            "A line"
+        ]
+    },
+    {
+        "q": "What does the <dialog> tag create?",
+        "c": null,
+        "o": [
+            "A dialog box",
+            "A video player",
+            "An audio player",
+            "A canvas"
+        ]
+    },
+    {
+        "q": "What will be displayed in the browser?",
+        "c": "<article>\n  <h1>News</h1>\n  <p>Today's top stories.</p>\n</article>",
+        "o": [
+            "News and a paragraph",
+            "A blank page",
+            "Only the word 'News'",
+            "An error message"
+        ]
+    },
+    {
+        "q": "Which attribute controls playback speed in <audio>?",
+        "c": null,
+        "o": [
+            "playbackRate",
+            "speed",
+            "rate",
+            "tempo"
+        ]
+    },
+    {
+        "q": "What happens when this code is run?",
+        "c": "<canvas id='myCanvas' width='400' height='200'></canvas>\n<script>\n  var canvas = document.getElementById('myCanvas');\n  var ctx = canvas.getContext('2d');\n  ctx.moveTo(0, 0);\n  ctx.lineTo(400, 200);\n  ctx.stroke();\n</script>",
+        "o": [
+            "A diagonal line",
+            "A rectangle",
+            "A circle",
+            "Nothing"
+        ]
+    },
+    {
+        "q": "What is the purpose of the <map> tag?",
+        "c": null,
+        "o": [
+            "Defines an image map",
+            "Maps coordinates",
+            "Creates a diagram",
+            "None of the above"
+        ]
+    },
+    {
+        "q": "What will this <video> tag display?",
+        "c": "<video width='400' controls>\n  <source src='movie.mp4' type='video/mp4'>\n  Your browser does not support the video tag.\n</video>",
+        "o": [
+            "A video player",
+            "An audio player",
+            "A static image",
+            "An error message"
+        ]
+    },
+    {
+        "q": "Which HTML5 element allows users to select a date?",
+        "c": null,
+        "o": [
+            "<input type='date'>",
+            "<calendar>",
+            "<date>",
+            "<datetime>"
+        ]
+    },
+    {
+        "q": "What is the purpose of the <time> element?",
+        "c": "<p>Event starts at <time>14:00</time>.</p>",
+        "o": [
+            "Represents time",
+            "Creates a paragraph",
+            "Styles the text",
+            "Adds a link"
+        ]
+    },
+    {
+        "q": "Which tag is used to define an audio track's text track?",
+        "c": null,
+        "o": [
+            "<track>",
+            "<source>",
+            "<caption>",
+            "<text>"
+        ]
+    },
+    {
+        "q": "What will be displayed inside the <aside> tag?",
+        "c": "<aside>\n  <p>Related articles go here.</p>\n</aside>",
+        "o": [
+            "Related articles",
+            "Main content",
+            "An image",
+            "A video"
+        ]
+    },
+    {
+        "q": "Which HTML5 feature supports offline web applications?",
+        "c": null,
+        "o": [
+            "Application Cache",
+            "Local Storage",
+            "Session Storage",
+            "Cookies"
+        ]
+    },
+    {
+        "q": "What does this <article> element define?",
+        "c": "<article>\n  <h1>Blog Post</h1>\n  <p>This is a sample blog post.</p>\n</article>",
+        "o": [
+            "An independent content block",
+            "A navigation link",
+            "A form field",
+            "A footer"
+        ]
+    },
+    {
+        "q": "What does the <link> tag specify in HTML5?",
+        "c": null,
+        "o": [
+            "Stylesheets",
+            "Scripts",
+            "Images",
+            "Fonts"
+        ]
+    },
+    {
+        "q": "What will be displayed in the browser?",
+        "c": "<footer>\n  <p>&copy; 2024 My Website</p>\n</footer>",
+        "o": [
+            "\u00c2\u00a9 2024 My Website",
+            "A video",
+            "An audio player",
+            "Nothing"
+        ]
+    },
+    {
+        "q": "Which attribute specifies the media type in <source>?",
+        "c": null,
+        "o": [
+            "type",
+            "media",
+            "src",
+            "href"
+        ]
+    },
+    {
+        "q": "What does this canvas tag create?",
+        "c": "<canvas id='myCanvas' width='300' height='150'></canvas>",
+        "o": [
+            "A drawing area",
+            "A form",
+            "A video player",
+            "A table"
+        ]
+    },
+    {
+        "q": "What does the <progress> element represent?",
+        "c": null,
+        "o": [
+            "Progress of a task",
+            "A percentage",
+            "A status",
+            "An indicator"
+        ]
+    },
+    {
+        "q": "What does the <summary> element represent?",
+        "c": "<details>\n  <summary>More info</summary>\n  <p>Here is the detailed information.</p>\n</details>",
+        "o": [
+            "Summary of content",
+            "A paragraph",
+            "An image",
+            "A form"
+        ]
+    },
+    {
+        "q": "What does the <iframe> tag do?",
+        "c": null,
+        "o": [
+            "Embeds another document",
+            "Creates a frame",
+            "Defines a section",
+            "None of the above"
+        ]
+    },
+    {
+        "q": "What will this code output in the browser?",
+        "c": "<article>\n  <h2>HTML5 Features</h2>\n  <p>New tags and multimedia support.</p>\n</article>",
+        "o": [
+            "HTML5 Features and a paragraph",
+            "A blank page",
+            "Only the heading",
+            "An error message"
+        ]
+    },
+    {
+        "q": "Which tag is used for creating a list of key-value pairs?",
+        "c": null,
+        "o": [
+            "<dl>",
+            "<ol>",
+            "<ul>",
+            "<li>"
+        ]
+    },
+    {
+        "q": "What is the purpose of the <abbr> tag?",
+        "c": null,
+        "o": [
+            "Defines an abbreviation",
+            "Defines a term",
+            "Defines a link",
+            "Defines an acronym"
+        ]
+    },
+    {
+        "q": "Which tag is used to create a label for an input element?",
+        "c": null,
+        "o": [
+            "<label>",
+            "<input>",
+            "<span>",
+            "<fieldset>"
+        ]
+    },
+    {
+        "q": "Which HTML5 tag creates a self-contained piece of content?",
+        "c": null,
+        "o": [
+            "<article>",
+            "<section>",
+            "<div>",
+            "<span>"
+        ]
+    },
+    {
+        "q": "Which attribute is used to control playback volume in <audio>?",
+        "c": null,
+        "o": [
+            "volume",
+            "controls",
+            "muted",
+            "playbackRate"
+        ]
+    },
+    {
+        "q": "Which tag allows embedding multimedia?",
+        "c": null,
+        "o": [
+            "<embed>",
+            "<video>",
+            "<audio>",
+            "<iframe>"
+        ]
+    },
+    {
+        "q": "What does the <canvas> tag allow you to do?",
+        "c": null,
+        "o": [
+            "Draw graphics",
+            "Display images",
+            "Show videos",
+            "Play audio"
+        ]
+    },
+    {
+        "q": "Which tag specifies a date and time in HTML5?",
+        "c": null,
+        "o": [
+            "<time>",
+            "<date>",
+            "<datetime>",
+            "<timestamp>"
+        ]
+    },
+    {
+        "q": "What is the purpose of the <aside> tag?",
+        "c": null,
+        "o": [
+            "Side content",
+            "Main content",
+            "Footer",
+            "Header"
+        ]
+    },
+    {
+        "q": "Which element is used for defining a numeric input in HTML5?",
+        "c": null,
+        "o": [
+            "<input type='number'>",
+            "<number>",
+            "<input>",
+            "<quantity>"
+        ]
+    },
+    {
+        "q": "Which attribute can be used with <video> to loop playback?",
+        "c": null,
+        "o": [
+            "loop",
+            "repeat",
+            "autoplay",
+            "controls"
+        ]
+    },
+    {
+        "q": "Which HTML5 tag is used to define a table caption?",
+        "c": null,
+        "o": [
+            "<caption>",
+            "<title>",
+            "<thead>",
+            "<tfoot>"
+        ]
+    },
+    {
+        "q": "What does the <source> tag define?",
+        "c": null,
+        "o": [
+            "Media source",
+            "File size",
+            "Media type",
+            "Media description"
+        ]
+    },
+    {
+        "q": "What is the purpose of the <fieldset> tag?",
+        "c": null,
+        "o": [
+            "Groups related elements",
+            "Defines a form",
+            "Creates a field",
+            "None of the above"
+        ]
+    },
+    {
+        "q": "Which element is used to specify a date input?",
+        "c": null,
+        "o": [
+            "<input type='date'>",
+            "<date>",
+            "<calendar>",
+            "<datetime>"
+        ]
+    },
+    {
+        "q": "What does the <address> tag define?",
+        "c": null,
+        "o": [
+            "Contact information",
+            "Address details",
+            "Location",
+            "None of the above"
+        ]
+    },
+    {
+        "q": "Which HTML5 tag allows for rich media types?",
+        "c": null,
+        "o": [
+            "<embed>",
+            "<object>",
+            "<video>",
+            "<audio>"
+        ]
+    },
+    {
+        "q": "What does the <strong> tag represent?",
+        "c": null,
+        "o": [
+            "Strong importance",
+            "Bold text",
+            "Emphasis",
+            "Highlight"
+        ]
+    },
+    {
+        "q": "What does the <em> tag represent?",
+        "c": null,
+        "o": [
+            "Emphasis",
+            "Italic text",
+            "Important text",
+            "Highlight"
+        ]
+    },
+    {
+        "q": "Which tag is used to create a section of related content?",
+        "c": null,
+        "o": [
+            "<section>",
+            "<article>",
+            "<div>",
+            "<header>"
+        ]
+    },
+    {
+        "q": "Which tag is used for interactive controls in forms?",
+        "c": null,
+        "o": [
+            "<input>",
+            "<form>",
+            "<button>",
+            "<select>"
+        ]
+    },
+    {
+        "q": "Which element allows you to specify multiple images for <picture>?",
+        "c": null,
+        "o": [
+            "<source>",
+            "<img>",
+            "<media>",
+            "<image>"
+        ]
+    },
+    {
+        "q": "What is the purpose of the <code> tag?",
+        "c": null,
+        "o": [
+            "Defines a piece of code",
+            "Formats code",
+            "Displays HTML",
+            "Highlights text"
+        ]
+    },
+    {
+        "q": "Which HTML5 tag defines an interactive dialog?",
+        "c": null,
+        "o": [
+            "<dialog>",
+            "<popup>",
+            "<window>",
+            "<iframe>"
+        ]
+    },
+    {
+        "q": "What does the <video> tag require?",
+        "c": null,
+        "o": [
+            "Controls attribute",
+            "Audio source",
+            "Image source",
+            "Canvas context"
+        ]
+    },
+    {
+        "q": "Which tag is used to include a JavaScript file?",
+        "c": null,
+        "o": [
+            "<script>",
+            "<js>",
+            "<javascript>",
+            "<link>"
+        ]
+    },
+    {
+        "q": "What does the <time> element represent?",
+        "c": null,
+        "o": [
+            "A specific time or duration",
+            "A date",
+            "An event",
+            "None of the above"
+        ]
+    },
+    {
+        "q": "Which tag is used to define a navigation menu?",
+        "c": null,
+        "o": [
+            "<nav>",
+            "<menu>",
+            "<ul>",
+            "<ol>"
+        ]
+    },
+    {
+        "q": "What is the purpose of the <abbr> tag?",
+        "c": null,
+        "o": [
+            "Defines an abbreviation",
+            "Defines an acronym",
+            "Both A and B",
+            "None of the above"
+        ]
+    },
+    {
+        "q": "Which HTML5 tag is used for sectioning content?",
+        "c": null,
+        "o": [
+            "<section>",
+            "<article>",
+            "<div>",
+            "<span>"
+        ]
+    },
+    {
+        "q": "What does the <mark> tag highlight?",
+        "c": null,
+        "o": [
+            "Text",
+            "Code",
+            "Links",
+            "Images"
+        ]
+    },
+    {
+        "q": "Which attribute specifies the start time for a <video>?",
+        "c": null,
+        "o": [
+            "start",
+            "begin",
+            "time",
+            "autoplay"
+        ]
+    },
+    {
+        "q": "What is the function of the <cite> tag?",
+        "c": null,
+        "o": [
+            "References a citation",
+            "Defines an article",
+            "Creates a title",
+            "None of the above"
+        ]
+    },
+    {
+        "q": "Which HTML5 tag is used to define a container for navigation links?",
+        "c": null,
+        "o": [
+            "<nav>",
+            "<menu>",
+            "<header>",
+            "<footer>"
+        ]
+    },
+    {
+        "q": "What does the <video> element allow you to do?",
+        "c": null,
+        "o": [
+            "Play video",
+            "Edit video",
+            "Delete video",
+            "None of the above"
+        ]
+    },
+    {
+        "q": "Which attribute is used to set a video to play automatically?",
+        "c": null,
+        "o": [
+            "autoplay",
+            "controls",
+            "loop",
+            "muted"
+        ]
+    },
+    {
+        "q": "Which HTML5 tag is used to create a caption for a table?",
+        "c": null,
+        "o": [
+            "<caption>",
+            "<title>",
+            "<thead>",
+            "<tfoot>"
+        ]
+    },
+    {
+        "q": "Which tag is used to create a form in HTML5?",
+        "c": null,
+        "o": [
+            "<form>",
+            "<input>",
+            "<fieldset>",
+            "<section>"
+        ]
+    },
+    {
+        "q": "What is the function of the <code> tag?",
+        "c": null,
+        "o": [
+            "Defines code snippets",
+            "Displays plain text",
+            "Formats text",
+            "None of the above"
+        ]
+    },
+    {
+        "q": "Which HTML5 element is used for displaying error messages?",
+        "c": null,
+        "o": [
+            "<output>",
+            "<error>",
+            "<message>",
+            "<alert>"
+        ]
+    },
+    {
+        "q": "What is the purpose of the <svg> tag?",
+        "c": null,
+        "o": [
+            "Defines vector graphics",
+            "Draws images",
+            "Creates animations",
+            "None of the above"
+        ]
+    },
+    {
+        "q": "Which tag is used to define the main content area?",
+        "c": null,
+        "o": [
+            "<main>",
+            "<body>",
+            "<section>",
+            "<article>"
+        ]
+    },
+    {
+        "q": "What does the <kbd> tag represent?",
+        "c": null,
+        "o": [
+            "User input",
+            "Keyboard input",
+            "Text input",
+            "None of the above"
+        ]
+    },
+    {
+        "q": "Which HTML5 element is used to create interactive graphics?",
+        "c": null,
+        "o": [
+            "<canvas>",
+            "<svg>",
+            "<video>",
+            "<audio>"
+        ]
+    },
+    {
+        "q": "What is the purpose of the <noscript> tag?",
+        "c": null,
+        "o": [
+            "Defines alternate content",
+            "Displays JavaScript",
+            "Prevents script errors",
+            "None of the above"
+        ]
+    },
+    {
+        "q": "Which tag is used for grouping inline elements?",
+        "c": null,
+        "o": [
+            "<span>",
+            "<div>",
+            "<section>",
+            "<header>"
+        ]
+    },
+    {
+        "q": "What does the <time> tag represent?",
+        "c": null,
+        "o": [
+            "A time or date",
+            "An event",
+            "A duration",
+            "None of the above"
+        ]
+    },
+    {
+        "q": "What is the purpose of the <track> tag in video?",
+        "c": null,
+        "o": [
+            "Specifies text tracks",
+            "Controls video playback",
+            "Defines video dimensions",
+            "None of the above"
+        ]
+    },
+    {
+        "q": "What does the <details> tag represent?",
+        "c": null,
+        "o": [
+            "Disclosure widget",
+            "Content container",
+            "User input",
+            "None of the above"
+        ]
+    },
+    {
+        "q": "Which HTML5 element is used for creating audio content?",
+        "c": null,
+        "o": [
+            "<audio>",
+            "<sound>",
+            "<music>",
+            "<media>"
+        ]
+    },
+    {
+        "q": "What does the <dialog> tag define?",
+        "c": null,
+        "o": [
+            "An interactive dialog",
+            "A modal window",
+            "A popup",
+            "None of the above"
+        ]
+    },
+    {
+        "q": "Which tag is used to define a footer for a document or section?",
+        "c": null,
+        "o": [
+            "<footer>",
+            "<bottom>",
+            "<section>",
+            "<header>"
+        ]
+    },
+    {
+        "q": "What does the <blockquote> tag represent?",
+        "c": null,
+        "o": [
+            "A section quoted from another source",
+            "A citation",
+            "A reference",
+            "None of the above"
+        ]
+    },
+    {
+        "q": "Which tag is used to define the header for a document or section?",
+        "c": null,
+        "o": [
+            "<header>",
+            "<top>",
+            "<section>",
+            "<footer>"
+        ]
+    },
+    {
+        "q": "What does the <cite> tag represent?",
+        "c": null,
+        "o": [
+            "A citation",
+            "A reference",
+            "A quote",
+            "None of the above"
+        ]
+    },
+    {
+        "q": "Which tag is used to define a section of a page?",
+        "c": null,
+        "o": [
+            "<section>",
+            "<div>",
+            "<article>",
+            "<container>"
+        ]
+    },
+    {
+        "q": "What is the purpose of the <template> tag?",
+        "c": null,
+        "o": [
+            "Defines a template for reuse",
+            "Creates a script",
+            "Styles content",
+            "None of the above"
+        ]
+    },
+    {
+        "q": "What does the <source> tag specify?",
+        "c": null,
+        "o": [
+            "Media source",
+            "File type",
+            "Media type",
+            "Media link"
+        ]
+    },
+    {
+        "q": "Which HTML5 tag is used to define a container for items?",
+        "c": null,
+        "o": [
+            "<div>",
+            "<span>",
+            "<section>",
+            "<container>"
+        ]
+    },
+    {
+        "q": "What does the <picture> tag allow you to do?",
+        "c": null,
+        "o": [
+            "Specify multiple images",
+            "Create a gallery",
+            "Define a video",
+            "Embed an iframe"
+        ]
+    },
+    {
+        "q": "What is the purpose of the <wbr> tag?",
+        "c": null,
+        "o": [
+            "Defines a line break opportunity",
+            "Displays text",
+            "Creates a space",
+            "None of the above"
+        ]
+    },
+    {
+        "q": "Which tag is used for defining a navigation list?",
+        "c": null,
+        "o": [
+            "<nav>",
+            "<menu>",
+            "<ul>",
+            "<ol>"
+        ]
+    },
+    {
+        "q": "What does the <area> tag define?",
+        "c": null,
+        "o": [
+            "A clickable area in an image",
+            "An image map",
+            "A link",
+            "None of the above"
+        ]
+    },
+    {
+        "q": "Which HTML5 tag is used to include a video file?",
+        "c": null,
+        "o": [
+            "<video>",
+            "<media>",
+            "<source>",
+            "<embed>"
+        ]
+    },
+    {
+        "q": "What is the purpose of the <script> tag?",
+        "c": null,
+        "o": [
+            "Defines a client-side script",
+            "Includes a stylesheet",
+            "Links a file",
+            "None of the above"
+        ]
+    },
+    {
+        "q": "What does the <picture> tag enable?",
+        "c": null,
+        "o": [
+            "Responsive images",
+            "Image mapping",
+            "Video embedding",
+            "None of the above"
+        ]
+    },
+    {
+        "q": "Which tag is used to define an item in a list?",
+        "c": null,
+        "o": [
+            "<li>",
+            "<ul>",
+            "<ol>",
+            "<item>"
+        ]
+    },
+    {
+        "q": "What is the function of the <param> tag?",
+        "c": null,
+        "o": [
+            "Defines parameters for plugins",
+            "Sets attributes",
+            "Defines media properties",
+            "None of the above"
+        ]
+    },
+    {
+        "q": "Which HTML5 element is used to define a caption for a table?",
+        "c": null,
+        "o": [
+            "<caption>",
+            "<title>",
+            "<thead>",
+            "<tfoot>"
+        ]
+    },
+    {
+        "q": "What does the <kbd> tag represent?",
+        "c": null,
+        "o": [
+            "Keyboard input",
+            "User input",
+            "Text input",
+            "None of the above"
+        ]
+    },
+    {
+        "q": "What is the purpose of the <meta> tag?",
+        "c": null,
+        "o": [
+            "Defines metadata",
+            "Sets attributes",
+            "Links files",
+            "None of the above"
+        ]
+    },
+    {
+        "q": "What does the <map> tag define?",
+        "c": null,
+        "o": [
+            "An image map",
+            "A geographical map",
+            "A site map",
+            "None of the above"
+        ]
+    },
+    {
+        "q": "Which tag is used to include external CSS files?",
+        "c": null,
+        "o": [
+            "<link>",
+            "<style>",
+            "<css>",
+            "<script>"
+        ]
+    },
+    {
+        "q": "What is the purpose of the <base> tag?",
+        "c": null,
+        "o": [
+            "Sets a base URL for relative URLs",
+            "Links files",
+            "Defines a base style",
+            "None of the above"
+        ]
+    },
+    {
+        "q": "What does the <style> tag define?",
+        "c": null,
+        "o": [
+            "CSS styles",
+            "JavaScript styles",
+            "HTML styles",
+            "None of the above"
+        ]
+    },
+    {
+        "q": "Which HTML5 tag is used to define a footer for a section?",
+        "c": null,
+        "o": [
+            "<footer>",
+            "<bottom>",
+            "<section>",
+            "<header>"
+        ]
+    },
+    {
+        "q": "What is the purpose of the <script> tag?",
+        "c": null,
+        "o": [
+            "Includes JavaScript code",
+            "Defines CSS styles",
+            "Links external files",
+            "None of the above"
+        ]
+    },
+    {
+        "q": "What does the <s> tag represent?",
+        "c": null,
+        "o": [
+            "Strikethrough text",
+            "Italic text",
+            "Bold text",
+            "Highlighted text"
+        ]
+    },
+    {
+        "q": "Which HTML5 element is used for defining a group of related input controls?",
+        "c": null,
+        "o": [
+            "<fieldset>",
+            "<form>",
+            "<div>",
+            "<section>"
+        ]
+    },
+    {
+        "q": "What is the purpose of the <small> tag?",
+        "c": null,
+        "o": [
+            "Defines smaller text",
+            "Creates footnotes",
+            "Styles text",
+            "None of the above"
+        ]
+    },
+    {
+        "q": "What does the <details> tag represent?",
+        "c": null,
+        "o": [
+            "Disclosure widget",
+            "User input",
+            "Content container",
+            "None of the above"
+        ]
+    },
+    {
+        "q": "What is the purpose of the <summary> tag?",
+        "c": null,
+        "o": [
+            "Defines a summary for <details>",
+            "Creates a list",
+            "Styles content",
+            "None of the above"
+        ]
+    },
+    {
+        "q": "Which HTML5 tag defines a navigation link?",
+        "c": null,
+        "o": [
+            "<a>",
+            "<link>",
+            "<nav>",
+            "<button>"
+        ]
+    },
+    {
+        "q": "What is the purpose of the <hr> tag?",
+        "c": null,
+        "o": [
+            "Defines a thematic break",
+            "Creates a horizontal line",
+            "Styles content",
+            "None of the above"
+        ]
+    },
+    {
+        "q": "What does the <link> tag define?",
+        "c": null,
+        "o": [
+            "Defines relationships between documents",
+            "Links stylesheets",
+            "Includes JavaScript",
+            "Both A and B"
+        ]
+    },
+    {
+        "q": "What is the purpose of the <img> tag?",
+        "c": null,
+        "o": [
+            "Defines an image",
+            "Creates a hyperlink",
+            "Includes audio",
+            "None of the above"
+        ]
+    },
+    {
+        "q": "What does the <figcaption> tag represent?",
+        "c": null,
+        "o": [
+            "Caption for a <figure>",
+            "Caption for an image",
+            "Caption for a table",
+            "None of the above"
+        ]
+    },
+    {
+        "q": "What is the purpose of the <section> tag?",
+        "c": null,
+        "o": [
+            "Defines a section in a document",
+            "Styles content",
+            "Links files",
+            "None of the above"
+        ]
+    },
+    {
+        "q": "Which tag is used for defining a block of content?",
+        "c": null,
+        "o": [
+            "<div>",
+            "<span>",
+            "<section>",
+            "<block>"
+        ]
+    },
+    {
+        "q": "What does the <cite> tag represent?",
+        "c": null,
+        "o": [
+            "A citation",
+            "A quote",
+            "A reference",
+            "None of the above"
+        ]
+    },
+    {
+        "q": "What does the <mark> tag represent?",
+        "c": null,
+        "o": [
+            "Highlighted text",
+            "Bold text",
+            "Italic text",
+            "Underlined text"
+        ]
+    },
+    {
+        "q": "What is the purpose of the <var> tag?",
+        "c": null,
+        "o": [
+            "Defines a variable in a mathematical expression",
+            "Defines a constant",
+            "Styles text",
+            "None of the above"
+        ]
+    },
+    {
+        "q": "What is the purpose of the <abbr> tag?",
+        "c": null,
+        "o": [
+            "Defines an abbreviation",
+            "Defines a variable",
+            "Creates a list",
+            "None of the above"
+        ]
+    },
+    {
+        "q": "Which HTML5 tag is used for embedding a video?",
+        "c": null,
+        "o": [
+            "<video>",
+            "<media>",
+            "<embed>",
+            "<source>"
+        ]
+    },
+    {
+        "q": "What does the <wbr> tag represent?",
+        "c": null,
+        "o": [
+            "Word break opportunity",
+            "Line break",
+            "Space",
+            "None of the above"
+        ]
+    },
+    {
+        "q": "What is the purpose of the <address> tag?",
+        "c": null,
+        "o": [
+            "Defines contact information",
+            "Styles text",
+            "Defines a header",
+            "None of the above"
+        ]
+    },
+    {
+        "q": "What does the <pre> tag represent?",
+        "c": null,
+        "o": [
+            "Preformatted text",
+            "Plain text",
+            "Code",
+            "None of the above"
+        ]
+    },
+    {
+        "q": "Which HTML5 tag defines a time or date?",
+        "c": null,
+        "o": [
+            "<time>",
+            "<date>",
+            "<datetime>",
+            "<timestamp>"
+        ]
+    },
+    {
+        "q": "What does the <mark> tag represent?",
+        "c": null,
+        "o": [
+            "Highlighted text",
+            "Bold text",
+            "Italic text",
+            "Underlined text"
+        ]
+    },
+    {
+        "q": "What is the purpose of the <bdi> tag?",
+        "c": null,
+        "o": [
+            "Isolates a span of text",
+            "Defines bold text",
+            "Styles content",
+            "None of the above"
+        ]
+    },
+    {
+        "q": "What does the <ins> tag represent?",
+        "c": null,
+        "o": [
+            "Inserted text",
+            "Highlighted text",
+            "Bold text",
+            "None of the above"
+        ]
+    },
+    {
+        "q": "What is the purpose of the <code> tag?",
+        "c": null,
+        "o": [
+            "Defines a block of code",
+            "Styles text",
+            "Defines a variable",
+            "None of the above"
+        ]
+    },
+    {
+        "q": "What is the purpose of the <output> tag?",
+        "c": null,
+        "o": [
+            "Defines the result of a calculation",
+            "Styles text",
+            "Defines a variable",
+            "None of the above"
+        ]
+    },
+    {
+        "q": "Which tag is used for defining a footer for a section?",
+        "c": null,
+        "o": [
+            "<footer>",
+            "<bottom>",
+            "<section>",
+            "<header>"
+        ]
+    }
+]

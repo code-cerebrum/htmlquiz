@@ -1,0 +1,2292 @@
+[
+    {
+        "q": "What does this code create?",
+        "c": "<a href='https://www.example.com'>Click here</a>",
+        "o": [
+            "Hyperlink",
+            "Image",
+            "Button",
+            "Paragraph"
+        ]
+    },
+    {
+        "q": "What does HTML stand for?",
+        "c": "",
+        "o": [
+            "Hypertext Markup Language",
+            "High-level Text Management Language",
+            "Hyperlink and Text Markup Language",
+            "Home Tool Markup Language"
+        ]
+    },
+    {
+        "q": "Which attribute is missing?",
+        "c": "<img src='cat.jpg' alt=''>",
+        "o": [
+            "width",
+            "href",
+            "style",
+            "class"
+        ]
+    },
+    {
+        "q": "Which tag is used for the largest heading?",
+        "c": "",
+        "o": [
+            "<h1>",
+            "<h6>",
+            "<head>",
+            "<header>"
+        ]
+    },
+    {
+        "q": "What type of list is this?",
+        "c": "<ol><li>First</li><li>Second</li></ol>",
+        "o": [
+            "Ordered",
+            "Unordered",
+            "Definition",
+            "Menu"
+        ]
+    },
+    {
+        "q": "What is the correct HTML element for inserting a line break?",
+        "c": "",
+        "o": [
+            "<br>",
+            "<lb>",
+            "<break>",
+            "<newline>"
+        ]
+    },
+    {
+        "q": "What's the largest heading tag?",
+        "c": "<h1>Welcome</h1>",
+        "o": [
+            "h1",
+            "h2",
+            "h3",
+            "h6"
+        ]
+    },
+    {
+        "q": "Which attribute is used to define inline styles?",
+        "c": "",
+        "o": [
+            "style",
+            "class",
+            "font",
+            "css"
+        ]
+    },
+    {
+        "q": "What does this input create?",
+        "c": "<input type='checkbox'>",
+        "o": [
+            "Checkbox",
+            "Radio button",
+            "Text field",
+            "Submit button"
+        ]
+    },
+    {
+        "q": "What is the correct HTML for creating a hyperlink?",
+        "c": "",
+        "o": [
+            "<a href='url'>link text</a>",
+            "<link>url</link>",
+            "<hyperlink>url</hyperlink>",
+            "<url>link text</url>"
+        ]
+    },
+    {
+        "q": "What's missing in this form?",
+        "c": "<form><input type='text'></form>",
+        "o": [
+            "Submit button",
+            "Label",
+            "Fieldset",
+            "Legend"
+        ]
+    },
+    {
+        "q": "Which tag is used to define an unordered list?",
+        "c": "",
+        "o": [
+            "<ul>",
+            "<ol>",
+            "<list>",
+            "<unordered>"
+        ]
+    },
+    {
+        "q": "What does this tag do?",
+        "c": "<br>",
+        "o": [
+            "Line break",
+            "Bold text",
+            "Paragraph",
+            "Horizontal rule"
+        ]
+    },
+    {
+        "q": "What does the 'alt' attribute do in an <img> tag?",
+        "c": "",
+        "o": [
+            "Provides alternative text",
+            "Aligns the image",
+            "Alters the image size",
+            "Adds a link to the image"
+        ]
+    },
+    {
+        "q": "What's this attribute's purpose?",
+        "c": "<table border='1'>",
+        "o": [
+            "Add table border",
+            "Set table width",
+            "Align table",
+            "Set cell padding"
+        ]
+    },
+    {
+        "q": "Which HTML element is used to specify a footer for a document or section?",
+        "c": "",
+        "o": [
+            "<footer>",
+            "<bottom>",
+            "<end>",
+            "<section>"
+        ]
+    },
+    {
+        "q": "What element is this?",
+        "c": "<ul><li>Item 1</li><li>Item 2</li></ul>",
+        "o": [
+            "Unordered list",
+            "Ordered list",
+            "Menu list",
+            "Description list"
+        ]
+    },
+    {
+        "q": "What is the correct HTML for making a checkbox?",
+        "c": "",
+        "o": [
+            "<input type='checkbox'>",
+            "<checkbox>",
+            "<check>",
+            "<input type='check'>"
+        ]
+    },
+    {
+        "q": "What's this attribute for?",
+        "c": "<meta charset='UTF-8'>",
+        "o": [
+            "Character encoding",
+            "Page title",
+            "Viewport",
+            "Author info"
+        ]
+    },
+    {
+        "q": "Which tag is used to define a table row in HTML?",
+        "c": "",
+        "o": [
+            "<tr>",
+            "<td>",
+            "<th>",
+            "<table-row>"
+        ]
+    },
+    {
+        "q": "What does this create?",
+        "c": "<button type='submit'>Send</button>",
+        "o": [
+            "Submit button",
+            "Reset button",
+            "Link button",
+            "Menu button"
+        ]
+    },
+    {
+        "q": "What is the correct HTML for making a drop-down list?",
+        "c": "",
+        "o": [
+            "<select>",
+            "<input type='dropdown'>",
+            "<list>",
+            "<dropdown>"
+        ]
+    },
+    {
+        "q": "What's this element's purpose?",
+        "c": "<thead><tr><th>Name</th><th>Age</th></tr></thead>",
+        "o": [
+            "Table header",
+            "Table footer",
+            "Table body",
+            "Table caption"
+        ]
+    },
+    {
+        "q": "Which HTML attribute specifies an alternate text for an image?",
+        "c": "",
+        "o": [
+            "alt",
+            "title",
+            "src",
+            "description"
+        ]
+    },
+    {
+        "q": "What does this attribute do?",
+        "c": "<input type='text' placeholder='Enter name'>",
+        "o": [
+            "Show hint text",
+            "Set max length",
+            "Make required",
+            "Set default value"
+        ]
+    },
+    {
+        "q": "What is the correct HTML for inserting an image?",
+        "c": "",
+        "o": [
+            "<img src='image.jpg' alt='MyImage'>",
+            "<image src='image.jpg' alt='MyImage'>",
+            "<img href='image.jpg' alt='MyImage'>",
+            "<picture src='image.jpg' alt='MyImage'>"
+        ]
+    },
+    {
+        "q": "What's this tag for?",
+        "c": "<label for='username'>Username:</label>",
+        "o": [
+            "Associate label with input",
+            "Create heading",
+            "Define paragraph",
+            "Create button"
+        ]
+    },
+    {
+        "q": "Which HTML element defines the title of a document?",
+        "c": "",
+        "o": [
+            "<title>",
+            "<head>",
+            "<meta>",
+            "<header>"
+        ]
+    },
+    {
+        "q": "What does this create?",
+        "c": "<select><option>Red</option><option>Blue</option></select>",
+        "o": [
+            "Dropdown menu",
+            "Radio buttons",
+            "Checkboxes",
+            "Text area"
+        ]
+    },
+    {
+        "q": "What is the correct HTML for creating a text input field?",
+        "c": "",
+        "o": [
+            "<input type='text'>",
+            "<textfield>",
+            "<input type='textfield'>",
+            "<textinput>"
+        ]
+    },
+    {
+        "q": "What's this attribute's purpose?",
+        "c": "<div class='container'>",
+        "o": [
+            "Apply CSS styles",
+            "Set div width",
+            "Create link",
+            "Define id"
+        ]
+    },
+    {
+        "q": "Which tag is used to define an ordered list?",
+        "c": "",
+        "o": [
+            "<ol>",
+            "<ul>",
+            "<li>",
+            "<order>"
+        ]
+    },
+    {
+        "q": "What element is this?",
+        "c": "<em>Important</em>",
+        "o": [
+            "Emphasis",
+            "Strong",
+            "Italic",
+            "Underline"
+        ]
+    },
+    {
+        "q": "What does the <thead> element contain?",
+        "c": "",
+        "o": [
+            "Header content in a table",
+            "The main content of an HTML document",
+            "The head of an HTML document",
+            "Heading tags like <h1>"
+        ]
+    },
+    {
+        "q": "What does this create?",
+        "c": "<input type='radio' name='gender'>",
+        "o": [
+            "Radio button",
+            "Checkbox",
+            "Text input",
+            "Submit button"
+        ]
+    },
+    {
+        "q": "Which attribute is used to specify that an input field must be filled out?",
+        "c": "",
+        "o": [
+            "required",
+            "validate",
+            "placeholder",
+            "important"
+        ]
+    },
+    {
+        "q": "What's this attribute for?",
+        "c": "<img src='logo.png' alt='Company Logo'>",
+        "o": [
+            "Alternative text",
+            "Image title",
+            "Image source",
+            "Image size"
+        ]
+    },
+    {
+        "q": "What is the correct HTML for making a text area?",
+        "c": "",
+        "o": [
+            "<textarea>",
+            "<input type='textbox'>",
+            "<input type='textarea'>",
+            "<textbox>"
+        ]
+    },
+    {
+        "q": "What does this element do?",
+        "c": "<nav><a href='#'>Home</a><a href='#'>About</a></nav>",
+        "o": [
+            "Define navigation",
+            "Create paragraph",
+            "Make list",
+            "Add section"
+        ]
+    },
+    {
+        "q": "Which HTML element is used to specify a header for a document or section?",
+        "c": "",
+        "o": [
+            "<header>",
+            "<head>",
+            "<top>",
+            "<section>"
+        ]
+    },
+    {
+        "q": "What's this tag's purpose?",
+        "c": "<footer>\u00c2\u00a9 2023 My Company</footer>",
+        "o": [
+            "Define page footer",
+            "Create header",
+            "Make paragraph",
+            "Add section"
+        ]
+    },
+    {
+        "q": "What is the purpose of the <nav> element?",
+        "c": "",
+        "o": [
+            "Define a set of navigation links",
+            "Create a new section",
+            "Add a new paragraph",
+            "Insert a line break"
+        ]
+    },
+    {
+        "q": "What does this create?",
+        "c": "<textarea rows='4' cols='50'></textarea>",
+        "o": [
+            "Multi-line text input",
+            "Single-line text input",
+            "Password input",
+            "Dropdown menu"
+        ]
+    },
+    {
+        "q": "Which tag is used to define a table header cell in HTML?",
+        "c": "",
+        "o": [
+            "<th>",
+            "<td>",
+            "<header>",
+            "<thead>"
+        ]
+    },
+    {
+        "q": "What's this attribute do?",
+        "c": "<input type='text' required>",
+        "o": [
+            "Make field mandatory",
+            "Set maximum length",
+            "Add placeholder",
+            "Disable input"
+        ]
+    },
+    {
+        "q": "What does the <em> tag do?",
+        "c": "",
+        "o": [
+            "Emphasizes text",
+            "Embeds multimedia",
+            "Creates an email link",
+            "Defines an error message"
+        ]
+    },
+    {
+        "q": "What element is this?",
+        "c": "<strong>Warning!</strong>",
+        "o": [
+            "Strong emphasis",
+            "Bold text",
+            "Italicized text",
+            "Underlined text"
+        ]
+    },
+    {
+        "q": "Which attribute is used to specify where to open the linked document?",
+        "c": "",
+        "o": [
+            "target",
+            "href",
+            "src",
+            "link"
+        ]
+    },
+    {
+        "q": "What does this create?",
+        "c": "<iframe src='https://www.example.com'></iframe>",
+        "o": [
+            "Embedded frame",
+            "Image",
+            "Link",
+            "Video"
+        ]
+    },
+    {
+        "q": "What is the correct HTML for creating a button?",
+        "c": "",
+        "o": [
+            "<button>",
+            "<input type='button'>",
+            "Both A and B",
+            "<buttonfield>"
+        ]
+    },
+    {
+        "q": "What's the purpose of this tag?",
+        "c": "<header><h1>Page Title</h1></header>",
+        "o": [
+            "Define page header",
+            "Create footer",
+            "Make navigation",
+            "Add sidebar"
+        ]
+    },
+    {
+        "q": "Which tag is used to define an image map?",
+        "c": "",
+        "o": [
+            "<map>",
+            "<img>",
+            "<picture>",
+            "<imagemap>"
+        ]
+    },
+    {
+        "q": "What does this attribute do?",
+        "c": "<a href='page.html' target='_blank'>Link</a>",
+        "o": [
+            "Open in new tab",
+            "Set link color",
+            "Define link title",
+            "Make link bold"
+        ]
+    },
+    {
+        "q": "What does the <aside> element represent?",
+        "c": "",
+        "o": [
+            "Content aside from the page content",
+            "A side navigation menu",
+            "An advertisement",
+            "A sidebar widget"
+        ]
+    },
+    {
+        "q": "What's this element for?",
+        "c": "<article><h2>Blog Post</h2><p>Content...</p></article>",
+        "o": [
+            "Self-contained content",
+            "Navigation menu",
+            "Page footer",
+            "Sidebar content"
+        ]
+    },
+    {
+        "q": "Which attribute is used to provide a unique name for an HTML element?",
+        "c": "",
+        "o": [
+            "id",
+            "class",
+            "name",
+            "unique"
+        ]
+    },
+    {
+        "q": "What does this create?",
+        "c": "<input type='date'>",
+        "o": [
+            "Date picker",
+            "Text input",
+            "Number input",
+            "Time input"
+        ]
+    },
+    {
+        "q": "What is the correct HTML for creating a password input?",
+        "c": "",
+        "o": [
+            "<input type='password'>",
+            "<password>",
+            "<input type='secret'>",
+            "<secretinput>"
+        ]
+    },
+    {
+        "q": "What's this attribute's purpose?",
+        "c": "<img src='image.jpg' width='300' height='200'>",
+        "o": [
+            "Set image dimensions",
+            "Add image border",
+            "Align image",
+            "Set image quality"
+        ]
+    },
+    {
+        "q": "Which tag is used to group related elements in a form?",
+        "c": "",
+        "o": [
+            "<fieldset>",
+            "<group>",
+            "<form-group>",
+            "<section>"
+        ]
+    },
+    {
+        "q": "What element is this?",
+        "c": "<abbr title='World Health Organization'>WHO</abbr>",
+        "o": [
+            "Abbreviation",
+            "Acronym",
+            "Citation",
+            "Definition"
+        ]
+    },
+    {
+        "q": "What does the <strong> tag do?",
+        "c": "",
+        "o": [
+            "Defines important text",
+            "Creates a strong connection",
+            "Makes text bold",
+            "Increases font size"
+        ]
+    },
+    {
+        "q": "What does this create?",
+        "c": "<video src='movie.mp4' controls></video>",
+        "o": [
+            "Video player",
+            "Audio player",
+            "Image slideshow",
+            "Text animation"
+        ]
+    },
+    {
+        "q": "Which attribute is used to specify the character encoding for the HTML document?",
+        "c": "",
+        "o": [
+            "charset",
+            "encoding",
+            "character-set",
+            "lang"
+        ]
+    },
+    {
+        "q": "What's this attribute for?",
+        "c": "<html lang='en'>",
+        "o": [
+            "Set page language",
+            "Define character set",
+            "Specify page title",
+            "Set page direction"
+        ]
+    },
+    {
+        "q": "What is the correct HTML for creating a radio button?",
+        "c": "",
+        "o": [
+            "<input type='radio'>",
+            "<radio>",
+            "<input type='check'>",
+            "<radiobutton>"
+        ]
+    },
+    {
+        "q": "What does this element do?",
+        "c": "<blockquote>Famous quote here</blockquote>",
+        "o": [
+            "Define a quotation",
+            "Create a text block",
+            "Add a comment",
+            "Make a footnote"
+        ]
+    },
+    {
+        "q": "Which tag is used to define a caption for a table?",
+        "c": "",
+        "o": [
+            "<caption>",
+            "<title>",
+            "<header>",
+            "<desc>"
+        ]
+    },
+    {
+        "q": "What's this tag's purpose?",
+        "c": "<caption>Table 1: User Data</caption>",
+        "o": [
+            "Define table caption",
+            "Create table header",
+            "Add table footer",
+            "Make table title"
+        ]
+    },
+    {
+        "q": "What does the <article> element represent?",
+        "c": "",
+        "o": [
+            "Self-contained content",
+            "An article input field",
+            "A news article only",
+            "A section of text"
+        ]
+    },
+    {
+        "q": "What does this create?",
+        "c": "<meter value='70' min='0' max='100'>70%</meter>",
+        "o": [
+            "Gauge",
+            "Progress bar",
+            "Slider",
+            "Rating system"
+        ]
+    },
+    {
+        "q": "Which attribute is used to specify a default value for an input field?",
+        "c": "",
+        "o": [
+            "value",
+            "default",
+            "initial",
+            "placeholder"
+        ]
+    },
+    {
+        "q": "What's this attribute do?",
+        "c": "<input type='text' autocomplete='off'>",
+        "o": [
+            "Disable autocomplete",
+            "Enable spellcheck",
+            "Allow multiple values",
+            "Make input readonly"
+        ]
+    },
+    {
+        "q": "What is the correct HTML for creating a numbered list?",
+        "c": "",
+        "o": [
+            "<ol>",
+            "<ul>",
+            "<list type='numbered'>",
+            "<nl>"
+        ]
+    },
+    {
+        "q": "What element is this?",
+        "c": "<code>var x = 5;</code>",
+        "o": [
+            "Code",
+            "Pre",
+            "Kbd",
+            "Samp"
+        ]
+    },
+    {
+        "q": "Which tag is used to define a section in a document?",
+        "c": "",
+        "o": [
+            "<section>",
+            "<div>",
+            "<part>",
+            "<area>"
+        ]
+    },
+    {
+        "q": "What does this create?",
+        "c": "<details><summary>Click me</summary><p>Hidden content</p></details>",
+        "o": [
+            "Expandable section",
+            "Tooltip",
+            "Modal dialog",
+            "Accordion"
+        ]
+    },
+    {
+        "q": "What does the <blockquote> tag do?",
+        "c": "",
+        "o": [
+            "Defines a section of quoted content",
+            "Creates a block-level element",
+            "Inserts a line break",
+            "Defines a block of code"
+        ]
+    },
+    {
+        "q": "What's the purpose of this tag?",
+        "c": "<aside><h3>Related Articles</h3></aside>",
+        "o": [
+            "Define sidebar content",
+            "Create main content",
+            "Add footer information",
+            "Make navigation menu"
+        ]
+    },
+    {
+        "q": "Which attribute is used to specify an inline style for an element?",
+        "c": "",
+        "o": [
+            "style",
+            "css",
+            "format",
+            "design"
+        ]
+    },
+    {
+        "q": "What does this attribute do?",
+        "c": "<form autocomplete='on'>",
+        "o": [
+            "Enable form autofill",
+            "Auto-submit form",
+            "Validate form inputs",
+            "Clear form on submit"
+        ]
+    },
+    {
+        "q": "What is the correct HTML for creating a submit button?",
+        "c": "",
+        "o": [
+            "<input type='submit'>",
+            "<submit>",
+            "<button type='submit'>",
+            "Both A and C"
+        ]
+    },
+    {
+        "q": "What's this element for?",
+        "c": "<dl><dt>Term</dt><dd>Definition</dd></dl>",
+        "o": [
+            "Description list",
+            "Ordered list",
+            "Unordered list",
+            "Menu list"
+        ]
+    },
+    {
+        "q": "Which tag is used to define a table column?",
+        "c": "",
+        "o": [
+            "<td>",
+            "<th>",
+            "<col>",
+            "<tr>"
+        ]
+    },
+    {
+        "q": "What does this create?",
+        "c": "<progress value='70' max='100'>70%</progress>",
+        "o": [
+            "Progress bar",
+            "Loading spinner",
+            "Countdown timer",
+            "Status indicator"
+        ]
+    },
+    {
+        "q": "What does the <main> element represent?",
+        "c": "",
+        "o": [
+            "The main content of a document",
+            "The main heading",
+            "The main navigation",
+            "The main footer"
+        ]
+    },
+    {
+        "q": "What's this attribute's purpose?",
+        "c": "<input type='number' step='0.01'>",
+        "o": [
+            "Set input increment",
+            "Define max value",
+            "Set min value",
+            "Allow decimals"
+        ]
+    },
+    {
+        "q": "Which attribute is used to specify a short hint in an input field?",
+        "c": "",
+        "o": [
+            "placeholder",
+            "hint",
+            "title",
+            "description"
+        ]
+    },
+    {
+        "q": "What element is this?",
+        "c": "<time datetime='2023-09-15'>Sep 15</time>",
+        "o": [
+            "Time",
+            "Date",
+            "Span",
+            "Mark"
+        ]
+    },
+    {
+        "q": "What is the correct HTML for creating a file select box?",
+        "c": "",
+        "o": [
+            "<input type='file'>",
+            "<input type='upload'>",
+            "<file>",
+            "<upload>"
+        ]
+    },
+    {
+        "q": "What does this create?",
+        "c": "<audio src='song.mp3' controls></audio>",
+        "o": [
+            "Audio player",
+            "Video player",
+            "Music playlist",
+            "Sound effect"
+        ]
+    },
+    {
+        "q": "Which tag is used to define a description list?",
+        "c": "",
+        "o": [
+            "<dl>",
+            "<ul>",
+            "<ol>",
+            "<list>"
+        ]
+    },
+    {
+        "q": "What's this attribute for?",
+        "c": "<meta name='viewport' content='width=device-width, initial-scale=1'>",
+        "o": [
+            "Set viewport",
+            "Define keywords",
+            "Set page description",
+            "Specify author"
+        ]
+    },
+    {
+        "q": "What does the <abbr> tag do?",
+        "c": "",
+        "o": [
+            "Defines an abbreviation",
+            "Creates an abstract",
+            "Aligns text",
+            "Adds a line break"
+        ]
+    },
+    {
+        "q": "What does this element do?",
+        "c": "<q cite='https://www.example.com'>Quoted text</q>",
+        "o": [
+            "Inline quotation",
+            "Block quotation",
+            "Citation",
+            "Text highlight"
+        ]
+    },
+    {
+        "q": "Which attribute is used to specify the URL of the page the link goes to?",
+        "c": "",
+        "o": [
+            "href",
+            "src",
+            "link",
+            "url"
+        ]
+    },
+    {
+        "q": "What's this tag's purpose?",
+        "c": "<figcaption>Fig. 1: Chart title</figcaption>",
+        "o": [
+            "Define figure caption",
+            "Create image title",
+            "Add table caption",
+            "Make chart legend"
+        ]
+    },
+    {
+        "q": "What is the correct HTML for creating a text input with a maximum length?",
+        "c": "",
+        "o": [
+            "<input type='text' maxlength='10'>",
+            "<input type='text' length='10'>",
+            "<textinput max='10'>",
+            "<input type='text' max='10'>"
+        ]
+    },
+    {
+        "q": "What does this create?",
+        "c": "<input type='range' min='0' max='100'>",
+        "o": [
+            "Slider",
+            "Checkbox",
+            "Radio button",
+            "Text input"
+        ]
+    },
+    {
+        "q": "Which tag is used to define a table footer?",
+        "c": "",
+        "o": [
+            "<tfoot>",
+            "<footer>",
+            "<bottom>",
+            "<tf>"
+        ]
+    },
+    {
+        "q": "What's this attribute do?",
+        "c": "<a href='tel:+1234567890'>Call us</a>",
+        "o": [
+            "Create phone link",
+            "Add tooltip",
+            "Set link target",
+            "Define link rel"
+        ]
+    },
+    {
+        "q": "What does the <figure> element represent?",
+        "c": "",
+        "o": [
+            "Self-contained content like illustrations",
+            "A mathematical figure",
+            "A person's figure",
+            "A figurative expression"
+        ]
+    },
+    {
+        "q": "What element is this?",
+        "c": "<kbd>Ctrl + C</kbd>",
+        "o": [
+            "Keyboard input",
+            "Code",
+            "Command",
+            "Shortcut"
+        ]
+    },
+    {
+        "q": "Which attribute is used to specify that an input field is read-only?",
+        "c": "",
+        "o": [
+            "readonly",
+            "disabled",
+            "noedit",
+            "locked"
+        ]
+    },
+    {
+        "q": "What does this create?",
+        "c": "<canvas id='myCanvas' width='200' height='100'></canvas>",
+        "o": [
+            "Drawing area",
+            "Image placeholder",
+            "Video player",
+            "Chart container"
+        ]
+    },
+    {
+        "q": "What is the correct HTML for creating a date input?",
+        "c": "",
+        "o": [
+            "<input type='date'>",
+            "<date>",
+            "<input type='calendar'>",
+            "<calendar>"
+        ]
+    },
+    {
+        "q": "What's the purpose of this tag?",
+        "c": "<main><h1>Main Content</h1><p>...</p></main>",
+        "o": [
+            "Define main content",
+            "Create header",
+            "Add sidebar",
+            "Make footer"
+        ]
+    },
+    {
+        "q": "Which tag is used to define a description term in a description list?",
+        "c": "",
+        "o": [
+            "<dt>",
+            "<dd>",
+            "<description>",
+            "<term>"
+        ]
+    },
+    {
+        "q": "What does this attribute do?",
+        "c": "<input type='text' pattern='[A-Za-z]{3}'>",
+        "o": [
+            "Set input pattern",
+            "Define placeholder",
+            "Set max length",
+            "Make input required"
+        ]
+    },
+    {
+        "q": "What does the  tag do?",
+        "c": "",
+        "o": [
+            "Defines the title of a work",
+            "Creates a citation",
+            "Cites a source",
+            "Emphasizes text"
+        ]
+    },
+    {
+        "q": "What does this code create?",
+        "c": "<a href='https://www.example.com'>Click here</a>",
+        "o": [
+            "Hyperlink",
+            "Image",
+            "Button",
+            "Paragraph"
+        ]
+    },
+    {
+        "q": "Which attribute is used to specify an image to be used as a submit button?",
+        "c": "",
+        "o": [
+            "src",
+            "image",
+            "button",
+            "submit"
+        ]
+    },
+    {
+        "q": "Which attribute is missing?",
+        "c": "<img src='cat.jpg' alt=''>",
+        "o": [
+            "width",
+            "href",
+            "style",
+            "class"
+        ]
+    },
+    {
+        "q": "What is the correct HTML for creating a disabled input?",
+        "c": "",
+        "o": [
+            "<input disabled>",
+            "<input state='disabled'>",
+            "<disabled>",
+            "<input enabled='false'>"
+        ]
+    },
+    {
+        "q": "What type of list is this?",
+        "c": "<ol><li>First</li><li>Second</li></ol>",
+        "o": [
+            "Ordered",
+            "Unordered",
+            "Definition",
+            "Menu"
+        ]
+    },
+    {
+        "q": "Which tag is used to define a table body?",
+        "c": "",
+        "o": [
+            "<tbody>",
+            "<body>",
+            "<content>",
+            "<data>"
+        ]
+    },
+    {
+        "q": "What's the largest heading tag?",
+        "c": "<h1>Welcome</h1>",
+        "o": [
+            "h1",
+            "h2",
+            "h3",
+            "h6"
+        ]
+    },
+    {
+        "q": "What does the <details> element represent?",
+        "c": "",
+        "o": [
+            "Additional details that can be opened or closed",
+            "Detailed information",
+            "A list of details",
+            "A detailed description"
+        ]
+    },
+    {
+        "q": "What does this input create?",
+        "c": "<input type='checkbox'>",
+        "o": [
+            "Checkbox",
+            "Radio button",
+            "Text field",
+            "Submit button"
+        ]
+    },
+    {
+        "q": "Which attribute is used to specify autocomplete for an input field?",
+        "c": "",
+        "o": [
+            "autocomplete",
+            "complete",
+            "suggest",
+            "autofill"
+        ]
+    },
+    {
+        "q": "What's missing in this form?",
+        "c": "<form><input type='text'></form>",
+        "o": [
+            "Submit button",
+            "Label",
+            "Fieldset",
+            "Legend"
+        ]
+    },
+    {
+        "q": "What is the correct HTML for creating a time input?",
+        "c": "",
+        "o": [
+            "<input type='time'>",
+            "<time>",
+            "<input type='clock'>",
+            "<clock>"
+        ]
+    },
+    {
+        "q": "What does this tag do?",
+        "c": "<br>",
+        "o": [
+            "Line break",
+            "Bold text",
+            "Paragraph",
+            "Horizontal rule"
+        ]
+    },
+    {
+        "q": "Which tag is used to define a description description in a description list?",
+        "c": "",
+        "o": [
+            "<dd>",
+            "<dt>",
+            "<desc>",
+            "<definition>"
+        ]
+    },
+    {
+        "q": "What's this attribute's purpose?",
+        "c": "<table border='1'>",
+        "o": [
+            "Add table border",
+            "Set table width",
+            "Align table",
+            "Set cell padding"
+        ]
+    },
+    {
+        "q": "What does the <code> tag do?",
+        "c": "",
+        "o": [
+            "Defines a piece of computer code",
+            "Creates a codebook",
+            "Encodes text",
+            "Defines a color code"
+        ]
+    },
+    {
+        "q": "What element is this?",
+        "c": "<ul><li>Item 1</li><li>Item 2</li></ul>",
+        "o": [
+            "Unordered list",
+            "Ordered list",
+            "Menu list",
+            "Description list"
+        ]
+    },
+    {
+        "q": "Which attribute is used to specify the type of button?",
+        "c": "",
+        "o": [
+            "type",
+            "button",
+            "value",
+            "action"
+        ]
+    },
+    {
+        "q": "What's this attribute for?",
+        "c": "<meta charset='UTF-8'>",
+        "o": [
+            "Character encoding",
+            "Page title",
+            "Viewport",
+            "Author info"
+        ]
+    },
+    {
+        "q": "What is the correct HTML for creating a color picker?",
+        "c": "",
+        "o": [
+            "<input type='color'>",
+            "<colorpicker>",
+            "<input type='picker'>",
+            "<color>"
+        ]
+    },
+    {
+        "q": "What does this create?",
+        "c": "<button type='submit'>Send</button>",
+        "o": [
+            "Submit button",
+            "Reset button",
+            "Link button",
+            "Menu button"
+        ]
+    },
+    {
+        "q": "Which tag is used to define a table heading?",
+        "c": "",
+        "o": [
+            "<th>",
+            "<thead>",
+            "<header>",
+            "<heading>"
+        ]
+    },
+    {
+        "q": "What's this element's purpose?",
+        "c": "<thead><tr><th>Name</th><th>Age</th></tr></thead>",
+        "o": [
+            "Table header",
+            "Table footer",
+            "Table body",
+            "Table caption"
+        ]
+    },
+    {
+        "q": "What does the <mark> element represent?",
+        "c": "",
+        "o": [
+            "Marked or highlighted text",
+            "A bookmark",
+            "A marker pen",
+            "A trademark symbol"
+        ]
+    },
+    {
+        "q": "What does this attribute do?",
+        "c": "<input type='text' placeholder='Enter name'>",
+        "o": [
+            "Show hint text",
+            "Set max length",
+            "Make required",
+            "Set default value"
+        ]
+    },
+    {
+        "q": "Which attribute is used to specify that an input field must be filled out?",
+        "c": "",
+        "o": [
+            "required",
+            "mandatory",
+            "needed",
+            "important"
+        ]
+    },
+    {
+        "q": "What's this tag for?",
+        "c": "<label for='username'>Username:</label>",
+        "o": [
+            "Associate label with input",
+            "Create heading",
+            "Define paragraph",
+            "Create button"
+        ]
+    },
+    {
+        "q": "What is the correct HTML for creating a number input?",
+        "c": "",
+        "o": [
+            "<input type='number'>",
+            "<number>",
+            "<input type='numeric'>",
+            "<numeric>"
+        ]
+    },
+    {
+        "q": "What does this create?",
+        "c": "<select><option>Red</option><option>Blue</option></select>",
+        "o": [
+            "Dropdown menu",
+            "Radio buttons",
+            "Checkboxes",
+            "Text area"
+        ]
+    },
+    {
+        "q": "Which tag is used to define a form in HTML?",
+        "c": "",
+        "o": [
+            "<form>",
+            "<input>",
+            "<fieldset>",
+            "<formfield>"
+        ]
+    },
+    {
+        "q": "What's this attribute's purpose?",
+        "c": "<div class='container'>",
+        "o": [
+            "Apply CSS styles",
+            "Set div width",
+            "Create link",
+            "Define id"
+        ]
+    },
+    {
+        "q": "What does the <pre> tag do?",
+        "c": "",
+        "o": [
+            "Defines preformatted text",
+            "Creates a preview",
+            "Sets preferences",
+            "Defines a prerequisite"
+        ]
+    },
+    {
+        "q": "What element is this?",
+        "c": "<em>Important</em>",
+        "o": [
+            "Emphasis",
+            "Strong",
+            "Italic",
+            "Underline"
+        ]
+    },
+    {
+        "q": "Which attribute is used to specify the name of a form?",
+        "c": "",
+        "o": [
+            "name",
+            "id",
+            "form",
+            "title"
+        ]
+    },
+    {
+        "q": "What does this create?",
+        "c": "<input type='radio' name='gender'>",
+        "o": [
+            "Radio button",
+            "Checkbox",
+            "Text input",
+            "Submit button"
+        ]
+    },
+    {
+        "q": "What is the correct HTML for creating a range input?",
+        "c": "",
+        "o": [
+            "<input type='range'>",
+            "<range>",
+            "<input type='slider'>",
+            "<slider>"
+        ]
+    },
+    {
+        "q": "What's this attribute for?",
+        "c": "<img src='logo.png' alt='Company Logo'>",
+        "o": [
+            "Alternative text",
+            "Image title",
+            "Image source",
+            "Image size"
+        ]
+    },
+    {
+        "q": "Which tag is used to define an unordered list item?",
+        "c": "",
+        "o": [
+            "<li>",
+            "<ul>",
+            "<item>",
+            "<bullet>"
+        ]
+    },
+    {
+        "q": "What does this element do?",
+        "c": "<nav><a href='#'>Home</a><a href='#'>About</a></nav>",
+        "o": [
+            "Define navigation",
+            "Create paragraph",
+            "Make list",
+            "Add section"
+        ]
+    },
+    {
+        "q": "What does the <dfn> element represent?",
+        "c": "",
+        "o": [
+            "The defining instance of a term",
+            "A definition",
+            "A default value",
+            "A different font"
+        ]
+    },
+    {
+        "q": "What's this tag's purpose?",
+        "c": "<footer>\u00c2\u00a9 2023 My Company</footer>",
+        "o": [
+            "Define page footer",
+            "Create header",
+            "Make paragraph",
+            "Add section"
+        ]
+    },
+    {
+        "q": "Which attribute is used to specify the character encoding for an HTML document?",
+        "c": "",
+        "o": [
+            "charset",
+            "encoding",
+            "char",
+            "type"
+        ]
+    },
+    {
+        "q": "What does this create?",
+        "c": "<textarea rows='4' cols='50'></textarea>",
+        "o": [
+            "Multi-line text input",
+            "Single-line text input",
+            "Password input",
+            "Dropdown menu"
+        ]
+    },
+    {
+        "q": "What is the correct HTML for creating a search input?",
+        "c": "",
+        "o": [
+            "<input type='search'>",
+            "<search>",
+            "<input type='find'>",
+            "<finder>"
+        ]
+    },
+    {
+        "q": "What's this attribute do?",
+        "c": "<input type='text' required>",
+        "o": [
+            "Make field mandatory",
+            "Set maximum length",
+            "Add placeholder",
+            "Disable input"
+        ]
+    },
+    {
+        "q": "Which tag is used to define a line break?",
+        "c": "",
+        "o": [
+            "<br>",
+            "<lb>",
+            "<newline>",
+            "<break>"
+        ]
+    },
+    {
+        "q": "What element is this?",
+        "c": "<strong>Warning!</strong>",
+        "o": [
+            "Strong emphasis",
+            "Bold text",
+            "Italicized text",
+            "Underlined text"
+        ]
+    },
+    {
+        "q": "What does the <var> tag do?",
+        "c": "",
+        "o": [
+            "Defines a variable",
+            "Creates a variance",
+            "Adds variation",
+            "Defines a variety"
+        ]
+    },
+    {
+        "q": "What does this create?",
+        "c": "<iframe src='https://www.example.com'></iframe>",
+        "o": [
+            "Embedded frame",
+            "Image",
+            "Link",
+            "Video"
+        ]
+    },
+    {
+        "q": "Which attribute is used to specify where to send the form-data when a form is submitted?",
+        "c": "",
+        "o": [
+            "action",
+            "submit",
+            "method",
+            "destination"
+        ]
+    },
+    {
+        "q": "What's the purpose of this tag?",
+        "c": "<header><h1>Page Title</h1></header>",
+        "o": [
+            "Define page header",
+            "Create footer",
+            "Make navigation",
+            "Add sidebar"
+        ]
+    },
+    {
+        "q": "What is the correct HTML for creating a telephone input?",
+        "c": "",
+        "o": [
+            "<input type='tel'>",
+            "<telephone>",
+            "<input type='phone'>",
+            "<phone>"
+        ]
+    },
+    {
+        "q": "What does this attribute do?",
+        "c": "<a href='page.html' target='_blank'>Link</a>",
+        "o": [
+            "Open in new tab",
+            "Set link color",
+            "Define link title",
+            "Make link bold"
+        ]
+    },
+    {
+        "q": "Which tag is used to define a paragraph?",
+        "c": "",
+        "o": [
+            "<p>",
+            "<para>",
+            "<paragraph>",
+            "<text>"
+        ]
+    },
+    {
+        "q": "What's this element for?",
+        "c": "<article><h2>Blog Post</h2><p>Content...</p></article>",
+        "o": [
+            "Self-contained content",
+            "Navigation menu",
+            "Page footer",
+            "Sidebar content"
+        ]
+    },
+    {
+        "q": "What does the <kbd> element represent?",
+        "c": "",
+        "o": [
+            "Keyboard input",
+            "A keyboard",
+            "Key-based data",
+            "Keyboard shortcuts"
+        ]
+    },
+    {
+        "q": "What does this create?",
+        "c": "<input type='date'>",
+        "o": [
+            "Date picker",
+            "Text input",
+            "Number input",
+            "Time input"
+        ]
+    },
+    {
+        "q": "Which attribute is used to specify the URL of the file that processes the form submission?",
+        "c": "",
+        "o": [
+            "action",
+            "process",
+            "submit",
+            "url"
+        ]
+    },
+    {
+        "q": "What's this attribute's purpose?",
+        "c": "<img src='image.jpg' width='300' height='200'>",
+        "o": [
+            "Set image dimensions",
+            "Add image border",
+            "Align image",
+            "Set image quality"
+        ]
+    },
+    {
+        "q": "What is the correct HTML for creating an email input?",
+        "c": "",
+        "o": [
+            "<input type='email'>",
+            "<email>",
+            "<input type='mail'>",
+            "<mail>"
+        ]
+    },
+    {
+        "q": "What element is this?",
+        "c": "<abbr title='World Health Organization'>WHO</abbr>",
+        "o": [
+            "Abbreviation",
+            "Acronym",
+            "Citation",
+            "Definition"
+        ]
+    },
+    {
+        "q": "Which tag is used to define emphasized text?",
+        "c": "",
+        "o": [
+            "<em>",
+            "<i>",
+            "<italic>",
+            "<emphasize>"
+        ]
+    },
+    {
+        "q": "What does this create?",
+        "c": "<video src='movie.mp4' controls></video>",
+        "o": [
+            "Video player",
+            "Audio player",
+            "Image slideshow",
+            "Text animation"
+        ]
+    },
+    {
+        "q": "What does the <samp> tag do?",
+        "c": "",
+        "o": [
+            "Defines sample output",
+            "Creates a sample",
+            "Samples audio",
+            "Defines a sampler"
+        ]
+    },
+    {
+        "q": "What's this attribute for?",
+        "c": "<html lang='en'>",
+        "o": [
+            "Set page language",
+            "Define character set",
+            "Specify page title",
+            "Set page direction"
+        ]
+    },
+    {
+        "q": "Which attribute is used to specify the HTTP method to use when sending form-data?",
+        "c": "",
+        "o": [
+            "method",
+            "http",
+            "type",
+            "send"
+        ]
+    },
+    {
+        "q": "What does this element do?",
+        "c": "<blockquote>Famous quote here</blockquote>",
+        "o": [
+            "Define a quotation",
+            "Create a text block",
+            "Add a comment",
+            "Make a footnote"
+        ]
+    },
+    {
+        "q": "What is the correct HTML for creating a URL input?",
+        "c": "",
+        "o": [
+            "<input type='url'>",
+            "<url>",
+            "<input type='link'>",
+            "<link>"
+        ]
+    },
+    {
+        "q": "What's this tag's purpose?",
+        "c": "<caption>Table 1: User Data</caption>",
+        "o": [
+            "Define table caption",
+            "Create table header",
+            "Add table footer",
+            "Make table title"
+        ]
+    },
+    {
+        "q": "Which tag is used to define a horizontal rule?",
+        "c": "",
+        "o": [
+            "<hr>",
+            "<line>",
+            "<horizontal>",
+            "<rule>"
+        ]
+    },
+    {
+        "q": "What does this create?",
+        "c": "<meter value='70' min='0' max='100'>70%</meter>",
+        "o": [
+            "Gauge",
+            "Progress bar",
+            "Slider",
+            "Rating system"
+        ]
+    },
+    {
+        "q": "What does the <small> element represent?",
+        "c": "",
+        "o": [
+            "Smaller text",
+            "Small-sized content",
+            "A small element",
+            "Unimportant text"
+        ]
+    },
+    {
+        "q": "What's this attribute do?",
+        "c": "<input type='text' autocomplete='off'>",
+        "o": [
+            "Disable autocomplete",
+            "Enable spellcheck",
+            "Allow multiple values",
+            "Make input readonly"
+        ]
+    },
+    {
+        "q": "Which attribute is used to specify that the element is not yet, or is no longer, relevant?",
+        "c": "",
+        "o": [
+            "hidden",
+            "irrelevant",
+            "display",
+            "visible"
+        ]
+    },
+    {
+        "q": "What element is this?",
+        "c": "<code>var x = 5;</code>",
+        "o": [
+            "Code",
+            "Pre",
+            "Kbd",
+            "Samp"
+        ]
+    },
+    {
+        "q": "What is the correct HTML for creating a week input?",
+        "c": "",
+        "o": [
+            "<input type='week'>",
+            "<week>",
+            "<input type='date' format='week'>",
+            "<weekpicker>"
+        ]
+    },
+    {
+        "q": "What does this create?",
+        "c": "<details><summary>Click me</summary><p>Hidden content</p></details>",
+        "o": [
+            "Expandable section",
+            "Tooltip",
+            "Modal dialog",
+            "Accordion"
+        ]
+    },
+    {
+        "q": "Which tag is used to define subscript text?",
+        "c": "",
+        "o": [
+            "<sub>",
+            "<subscript>",
+            "<lower>",
+            "<bottom>"
+        ]
+    },
+    {
+        "q": "What's the purpose of this tag?",
+        "c": "<aside><h3>Related Articles</h3></aside>",
+        "o": [
+            "Define sidebar content",
+            "Create main content",
+            "Add footer information",
+            "Make navigation menu"
+        ]
+    },
+    {
+        "q": "What does the <ins> tag do?",
+        "c": "",
+        "o": [
+            "Defines inserted text",
+            "Inserts an object",
+            "Creates an instance",
+            "Defines an instruction"
+        ]
+    },
+    {
+        "q": "What does this attribute do?",
+        "c": "<form autocomplete='on'>",
+        "o": [
+            "Enable form autofill",
+            "Auto-submit form",
+            "Validate form inputs",
+            "Clear form on submit"
+        ]
+    },
+    {
+        "q": "Which attribute is used to specify that an input field should have focus when the page loads?",
+        "c": "",
+        "o": [
+            "autofocus",
+            "focus",
+            "default",
+            "active"
+        ]
+    },
+    {
+        "q": "What's this element for?",
+        "c": "<dl><dt>Term</dt><dd>Definition</dd></dl>",
+        "o": [
+            "Description list",
+            "Ordered list",
+            "Unordered list",
+            "Menu list"
+        ]
+    },
+    {
+        "q": "What is the correct HTML for creating a month input?",
+        "c": "",
+        "o": [
+            "<input type='month'>",
+            "<month>",
+            "<input type='date' format='month'>",
+            "<monthpicker>"
+        ]
+    },
+    {
+        "q": "What does this create?",
+        "c": "<progress value='70' max='100'>70%</progress>",
+        "o": [
+            "Progress bar",
+            "Loading spinner",
+            "Countdown timer",
+            "Status indicator"
+        ]
+    },
+    {
+        "q": "Which tag is used to define superscript text?",
+        "c": "",
+        "o": [
+            "<sup>",
+            "<superscript>",
+            "<upper>",
+            "<top>"
+        ]
+    },
+    {
+        "q": "What's this attribute's purpose?",
+        "c": "<input type='number' step='0.01'>",
+        "o": [
+            "Set input increment",
+            "Define max value",
+            "Set min value",
+            "Allow decimals"
+        ]
+    },
+    {
+        "q": "What does the <del> element represent?",
+        "c": "",
+        "o": [
+            "Deleted text",
+            "A deletion process",
+            "A delimiter",
+            "A delivery note"
+        ]
+    },
+    {
+        "q": "What element is this?",
+        "c": "<time datetime='2023-09-15'>Sep 15</time>",
+        "o": [
+            "Time",
+            "Date",
+            "Span",
+            "Mark"
+        ]
+    },
+    {
+        "q": "Which attribute is used to specify a short hint that describes the expected value of an input field?",
+        "c": "",
+        "o": [
+            "placeholder",
+            "hint",
+            "description",
+            "value"
+        ]
+    },
+    {
+        "q": "What does this create?",
+        "c": "<audio src='song.mp3' controls></audio>",
+        "o": [
+            "Audio player",
+            "Video player",
+            "Music playlist",
+            "Sound effect"
+        ]
+    },
+    {
+        "q": "What is the correct HTML for creating a datetime-local input?",
+        "c": "",
+        "o": [
+            "<input type='datetime-local'>",
+            "<datetime>",
+            "<input type='timestamp'>",
+            "<timestamp>"
+        ]
+    },
+    {
+        "q": "What's this attribute for?",
+        "c": "<meta name='viewport' content='width=device-width, initial-scale=1'>",
+        "o": [
+            "Set viewport",
+            "Define keywords",
+            "Set page description",
+            "Specify author"
+        ]
+    },
+    {
+        "q": "Which tag is used to define a thematic change in the content?",
+        "c": "",
+        "o": [
+            "<hr>",
+            "<break>",
+            "<separator>",
+            "<theme>"
+        ]
+    },
+    {
+        "q": "What does this element do?",
+        "c": "<q cite='https://www.example.com'>Quoted text</q>",
+        "o": [
+            "Inline quotation",
+            "Block quotation",
+            "Citation",
+            "Text highlight"
+        ]
+    },
+    {
+        "q": "What does the <q> tag do?",
+        "c": "",
+        "o": [
+            "Defines a short quotation",
+            "Creates a question",
+            "Defines a query",
+            "Quotes a long passage"
+        ]
+    },
+    {
+        "q": "What's this tag's purpose?",
+        "c": "<figcaption>Fig. 1: Chart title</figcaption>",
+        "o": [
+            "Define figure caption",
+            "Create image title",
+            "Add table caption",
+            "Make chart legend"
+        ]
+    },
+    {
+        "q": "Which attribute is used to specify the maximum value for an input field?",
+        "c": "",
+        "o": [
+            "max",
+            "maximum",
+            "top",
+            "limit"
+        ]
+    },
+    {
+        "q": "What does this create?",
+        "c": "<input type='range' min='0' max='100'>",
+        "o": [
+            "Slider",
+            "Checkbox",
+            "Radio button",
+            "Text input"
+        ]
+    },
+    {
+        "q": "What is the correct HTML for creating a reset button?",
+        "c": "",
+        "o": [
+            "<input type='reset'>",
+            "<reset>",
+            "<button type='reset'>",
+            "Both A and C"
+        ]
+    },
+    {
+        "q": "What's this attribute do?",
+        "c": "<a href='tel:+1234567890'>Call us</a>",
+        "o": [
+            "Create phone link",
+            "Add tooltip",
+            "Set link target",
+            "Define link rel"
+        ]
+    },
+    {
+        "q": "Which tag is used to define important text?",
+        "c": "",
+        "o": [
+            "<strong>",
+            "<b>",
+            "<important>",
+            "<em>"
+        ]
+    },
+    {
+        "q": "What element is this?",
+        "c": "<kbd>Ctrl + C</kbd>",
+        "o": [
+            "Keyboard input",
+            "Code",
+            "Command",
+            "Shortcut"
+        ]
+    },
+    {
+        "q": "What does the <bdo> element represent?",
+        "c": "",
+        "o": [
+            "Bi-Directional Override",
+            "Bold Object",
+            "Background Display Order",
+            "Browser Default Orientation"
+        ]
+    },
+    {
+        "q": "What does this create?",
+        "c": "<canvas id='myCanvas' width='200' height='100'></canvas>",
+        "o": [
+            "Drawing area",
+            "Image placeholder",
+            "Video player",
+            "Chart container"
+        ]
+    },
+    {
+        "q": "Which attribute is used to specify the minimum value for an input field?",
+        "c": "",
+        "o": [
+            "min",
+            "minimum",
+            "bottom",
+            "least"
+        ]
+    },
+    {
+        "q": "What is the correct HTML for creating a button that acts like a link?",
+        "c": "",
+        "o": [
+            "<button onclick='location.href='url''> ",
+            "<a style='button'>",
+            "<input type='button' link='url'>",
+            "<linkbutton href='url'>"
+        ]
+    },
+    {
+        "q": "Which tag is used to define a section of navigation links?",
+        "c": "",
+        "o": [
+            "<nav>",
+            "<navigation>",
+            "<menu>",
+            "<links>"
+        ]
+    },
+    {
+        "q": "What does the <wbr> tag do?",
+        "c": "",
+        "o": [
+            "Defines a possible line-break",
+            "Creates a word break",
+            "Inserts a wide blank space",
+            "Wraps text in a bubble"
+        ]
+    },
+    {
+        "q": "Which attribute is used to specify that an input field is read-only?",
+        "c": "",
+        "o": [
+            "readonly",
+            "disabled",
+            "locked",
+            "noedit"
+        ]
+    },
+    {
+        "q": "What is the correct HTML for creating a fieldset?",
+        "c": "",
+        "o": [
+            "<fieldset>",
+            "<group>",
+            "<set>",
+            "<formgroup>"
+        ]
+    },
+    {
+        "q": "Which tag is used to define a container for an external application?",
+        "c": "",
+        "o": [
+            "<object>",
+            "<applet>",
+            "<embed>",
+            "<external>"
+        ]
+    },
+    {
+        "q": "What does the <ruby> element represent?",
+        "c": "",
+        "o": [
+            "Ruby annotations",
+            "Ruby programming code",
+            "Red-colored text",
+            "A gemstone image"
+        ]
+    },
+    {
+        "q": "Which attribute is used to specify that an element is draggable?",
+        "c": "",
+        "o": [
+            "draggable",
+            "movable",
+            "drag",
+            "candrag"
+        ]
+    },
+    {
+        "q": "What is the correct HTML for creating a label for an input?",
+        "c": "",
+        "o": [
+            "<label for='id'>",
+            "<label id=''>",
+            "<label input=''>",
+            "<label name=''>"
+        ]
+    },
+    {
+        "q": "Which tag is used to define a generic container?",
+        "c": "",
+        "o": [
+            "<div>",
+            "<container>",
+            "<section>",
+            "<group>"
+        ]
+    },
+    {
+        "q": "What does the <meter> tag do?",
+        "c": "",
+        "o": [
+            "Defines a scalar measurement",
+            "Creates a metronome",
+            "Measures page load time",
+            "Defines a metric unit"
+        ]
+    },
+    {
+        "q": "Which attribute is used to specify the visible width of a text area?",
+        "c": "",
+        "o": [
+            "cols",
+            "width",
+            "size",
+            "visible"
+        ]
+    },
+    {
+        "q": "What is the correct HTML for creating an option in a drop-down list?",
+        "c": "",
+        "o": [
+            "<option>",
+            "<select>",
+            "<choice>",
+            "<item>"
+        ]
+    }
+]

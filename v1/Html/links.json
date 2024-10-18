@@ -1,0 +1,2652 @@
+[
+    {
+        "q": "What does this code create?",
+        "c": "<a href='https://www.example.com'>\n  Visit Example\n</a>",
+        "o": [
+            "A link to Example",
+            "A button",
+            "A style rule",
+            "A script"
+        ]
+    },
+    {
+        "q": "What tag is used to create a hyperlink in HTML?",
+        "c": null,
+        "o": [
+            "<a>",
+            "<link>",
+            "<nav>",
+            "<url>"
+        ]
+    },
+    {
+        "q": "What does this code do?",
+        "c": "<nav>\n  <ul>\n    <li><a href='home.html'>Home</a></li>\n    <li><a href='about.html'>About</a></li>\n  </ul>\n</nav>",
+        "o": [
+            "Creates a navigation menu",
+            "Adds metadata",
+            "Defines a footer",
+            "Styles text"
+        ]
+    },
+    {
+        "q": "Which attribute specifies the destination of a link?",
+        "c": null,
+        "o": [
+            "href",
+            "src",
+            "link",
+            "target"
+        ]
+    },
+    {
+        "q": "What type of link is this?",
+        "c": "<a href='mailto:test@example.com'>\n  Send Email\n</a>",
+        "o": [
+            "Email link",
+            "Website link",
+            "Anchor link",
+            "Phone link"
+        ]
+    },
+    {
+        "q": "What does the 'target' attribute do in a link?",
+        "c": null,
+        "o": [
+            "Specifies where to open the link",
+            "Defines link text",
+            "Sets link color",
+            "Adds an image"
+        ]
+    },
+    {
+        "q": "What is the purpose of this code?",
+        "c": "<a href='https://www.example.com' target='_blank'>\n  Open in new tab\n</a>",
+        "o": [
+            "Opens link in a new tab",
+            "Opens link in same tab",
+            "Creates a button",
+            "Displays text"
+        ]
+    },
+    {
+        "q": "What is the purpose of the <nav> tag?",
+        "c": null,
+        "o": [
+            "Defines navigation links",
+            "Adds a footer",
+            "Creates a section",
+            "Formats text"
+        ]
+    },
+    {
+        "q": "What does this code do?",
+        "c": "<a href='#section'>\n  Go to Section\n</a>",
+        "o": [
+            "Anchors to a section",
+            "Opens a new page",
+            "Sends an email",
+            "Styles text"
+        ]
+    },
+    {
+        "q": "How do you create an anchor link to a specific section on the same page?",
+        "c": null,
+        "o": [
+            "<a href='#section'>",
+            "<link to='#section'>",
+            "<a link='#section'>",
+            "<a name='#section'>"
+        ]
+    },
+    {
+        "q": "What is the result of this code?",
+        "c": "<link rel='stylesheet' href='styles.css'>",
+        "o": [
+            "Links to a CSS file",
+            "Links to a JS file",
+            "Creates a link",
+            "Styles text"
+        ]
+    },
+    {
+        "q": "What will <a href='http://example.com' target='_blank'> do?",
+        "c": null,
+        "o": [
+            "Open link in a new tab",
+            "Open link in the same tab",
+            "Display an alert",
+            "Navigate to a section"
+        ]
+    },
+    {
+        "q": "What does this snippet create?",
+        "c": "<ul>\n  <li><a href='page1.html'>Page 1</a></li>\n  <li><a href='page2.html'>Page 2</a></li>\n</ul>",
+        "o": [
+            "An unordered list of links",
+            "A navigation menu",
+            "A footer",
+            "A form"
+        ]
+    },
+    {
+        "q": "Which of the following is NOT a valid anchor tag?",
+        "c": null,
+        "o": [
+            "<a href='link'>Text</a>",
+            "<a link='link'>Text</a>",
+            "<a>Text</a>",
+            "<a href='#top'>Top</a>"
+        ]
+    },
+    {
+        "q": "What is the function of this code?",
+        "c": "<a href='https://www.example.com' rel='noopener'>\n  Visit Example\n</a>",
+        "o": [
+            "Secures the link",
+            "Creates a button",
+            "Opens link in same tab",
+            "Styles text"
+        ]
+    },
+    {
+        "q": "What is the correct way to create a link to an email address?",
+        "c": null,
+        "o": [
+            "<a href='mailto:example@example.com'>",
+            "<a mailto='example@example.com'>",
+            "<link href='mailto:example@example.com'>",
+            "<a href='email:example@example.com'>"
+        ]
+    },
+    {
+        "q": "What does this code represent?",
+        "c": "<img src='logo.png' alt='Logo'>\n<a href='home.html'>Home</a>",
+        "o": [
+            "Image with link",
+            "Link to an image",
+            "Text only",
+            "A script"
+        ]
+    },
+    {
+        "q": "What is the default target behavior for links?",
+        "c": null,
+        "o": [
+            "Same tab",
+            "New tab",
+            "Popup",
+            "Iframe"
+        ]
+    },
+    {
+        "q": "What does this snippet do?",
+        "c": "<a href='file.pdf' download>\n  Download PDF\n</a>",
+        "o": [
+            "Initiates file download",
+            "Opens file in new tab",
+            "Links to a website",
+            "Styles text"
+        ]
+    },
+    {
+        "q": "How can you open a link in a new window?",
+        "c": null,
+        "o": [
+            "target='_blank'",
+            "target='_new'",
+            "newwindow='true'",
+            "open='true'"
+        ]
+    },
+    {
+        "q": "What does this code do?",
+        "c": "<a href='http://www.example.com' target='_self'>\n  Visit Example\n</a>",
+        "o": [
+            "Opens link in same window",
+            "Opens link in new tab",
+            "Creates a button",
+            "Styles text"
+        ]
+    },
+    {
+        "q": "What HTML element is used for navigation links?",
+        "c": null,
+        "o": [
+            "<nav>",
+            "<link>",
+            "<menu>",
+            "<header>"
+        ]
+    },
+    {
+        "q": "What will this code generate?",
+        "c": "<footer>\n  <a href='privacy.html'>Privacy Policy</a>\n</footer>",
+        "o": [
+            "Footer with a link",
+            "Header with a link",
+            "Image with a link",
+            "Script tag"
+        ]
+    },
+    {
+        "q": "How do you specify a link that goes to a specific part of the same page?",
+        "c": null,
+        "o": [
+            "<a href='#id'>",
+            "<a href='id'>",
+            "<link to='id'>",
+            "<a name='id'>"
+        ]
+    },
+    {
+        "q": "What type of link is created here?",
+        "c": "<a href='tel:+1234567890'>\n  Call Us\n</a>",
+        "o": [
+            "Telephone link",
+            "Email link",
+            "Website link",
+            "Anchor link"
+        ]
+    },
+    {
+        "q": "Which HTML attribute can make a link open in a popup window?",
+        "c": null,
+        "o": [
+            "target",
+            "popup",
+            "href",
+            "window"
+        ]
+    },
+    {
+        "q": "What does this code represent?",
+        "c": "<a href='https://www.example.com' style='text-decoration:none;'>\n  No Underline Link\n</a>",
+        "o": [
+            "Link without underline",
+            "Image link",
+            "Button",
+            "Script"
+        ]
+    },
+    {
+        "q": "What does the 'rel' attribute define in a link?",
+        "c": null,
+        "o": [
+            "Relationship of linked document",
+            "Location of the link",
+            "Link style",
+            "Link target"
+        ]
+    },
+    {
+        "q": "What does this code do?",
+        "c": "<ul>\n  <li><a href='page1.html'>Page 1</a></li>\n  <li><a href='page2.html'>Page 2</a></li>\n</ul>",
+        "o": [
+            "Creates a list of links",
+            "Creates a form",
+            "Adds metadata",
+            "Styles text"
+        ]
+    },
+    {
+        "q": "What is the purpose of the <footer> tag?",
+        "c": null,
+        "o": [
+            "Defines footer content",
+            "Creates navigation",
+            "Styles links",
+            "Adds scripts"
+        ]
+    },
+    {
+        "q": "What is the purpose of this code?",
+        "c": "<a href='https://www.example.com' title='Go to Example'>\n  Example\n</a>",
+        "o": [
+            "Creates a link with tooltip",
+            "Creates a button",
+            "Opens a form",
+            "Adds metadata"
+        ]
+    },
+    {
+        "q": "What does 'http://' indicate in a link?",
+        "c": null,
+        "o": [
+            "Protocol",
+            "Domain",
+            "Path",
+            "Query string"
+        ]
+    },
+    {
+        "q": "What does this code accomplish?",
+        "c": "<nav>\n  <a href='home.html'>Home</a>\n  <a href='contact.html'>Contact</a>\n</nav>",
+        "o": [
+            "Creates a navigation menu",
+            "Creates a footer",
+            "Styles text",
+            "Adds metadata"
+        ]
+    },
+    {
+        "q": "How do you create a link to a PDF file?",
+        "c": null,
+        "o": [
+            "<a href='file.pdf'>",
+            "<link href='file.pdf'>",
+            "<a pdf='file.pdf'>",
+            "<file link='file.pdf'>"
+        ]
+    },
+    {
+        "q": "What does this code create?",
+        "c": "<a href='https://www.example.com' target='_blank'>\n  Open Example\n</a>",
+        "o": [
+            "Link to open in new tab",
+            "Link to open in same tab",
+            "Link to send email",
+            "Link with tooltip"
+        ]
+    },
+    {
+        "q": "What is the correct syntax for creating a link with an image?",
+        "c": null,
+        "o": [
+            "<a href='link'><img src='image.jpg'></a>",
+            "<link src='image.jpg'><a>link</a>",
+            "<img href='image.jpg'>link</img>",
+            "<a image='image.jpg'>link</a>"
+        ]
+    },
+    {
+        "q": "What does this code do?",
+        "c": "<form action='submit.php' method='post'>\n  <input type='text' name='name'>\n  <input type='submit'>\n</form>",
+        "o": [
+            "Creates a form with submit button",
+            "Creates a link",
+            "Creates a navigation menu",
+            "Styles text"
+        ]
+    },
+    {
+        "q": "How can you create a link that doesn't do anything?",
+        "c": null,
+        "o": [
+            "<a href='#'>",
+            "<a href='javascript:void(0)'>",
+            "<a>#</a>",
+            "<link href='nothing'>"
+        ]
+    },
+    {
+        "q": "What is the purpose of this code?",
+        "c": "<a href='http://www.example.com' rel='nofollow'>\n  Visit Example\n</a>",
+        "o": [
+            "Prevents search engines from following the link",
+            "Creates a link",
+            "Styles text",
+            "Adds metadata"
+        ]
+    },
+    {
+        "q": "What is a valid HTML comment?",
+        "c": null,
+        "o": [
+            "<!-- Comment -->",
+            "// Comment",
+            "# Comment",
+            "** Comment **"
+        ]
+    },
+    {
+        "q": "What does this code create?",
+        "c": "<a href='https://www.example.com'>\n  <img src='logo.png' alt='Logo'>\n</a>",
+        "o": [
+            "Clickable image link",
+            "Image only",
+            "Link to a script",
+            "Text link"
+        ]
+    },
+    {
+        "q": "What does the <base> tag do in an HTML document?",
+        "c": null,
+        "o": [
+            "Sets a base URL for relative links",
+            "Defines navigation",
+            "Adds meta information",
+            "Creates a footer"
+        ]
+    },
+    {
+        "q": "What is the purpose of this link?",
+        "c": "<a href='https://www.example.com' target='_blank' rel='noopener'>\n  Visit Example\n</a>",
+        "o": [
+            "Secures a new tab link",
+            "Creates a button",
+            "Opens in same tab",
+            "Styles text"
+        ]
+    },
+    {
+        "q": "How do you make a link open in a specific frame?",
+        "c": null,
+        "o": [
+            "target='frame_name'",
+            "frame='frame_name'",
+            "open='frame_name'",
+            "link='frame_name'"
+        ]
+    },
+    {
+        "q": "What does this code snippet do?",
+        "c": "<a href='#top'>\n  Back to Top\n</a>",
+        "o": [
+            "Scrolls to top",
+            "Links to homepage",
+            "Sends an email",
+            "Styles text"
+        ]
+    },
+    {
+        "q": "What tag can be used to define a menu of links?",
+        "c": null,
+        "o": [
+            "<menu>",
+            "<nav>",
+            "<ul>",
+            "<link>"
+        ]
+    },
+    {
+        "q": "What will this code generate?",
+        "c": "<a href='http://www.example.com' download='file.pdf'>\n  Download File\n</a>",
+        "o": [
+            "Downloads a file",
+            "Opens a link",
+            "Creates a button",
+            "Adds metadata"
+        ]
+    },
+    {
+        "q": "Which tag is used to define a section of navigation links?",
+        "c": null,
+        "o": [
+            "<nav>",
+            "<header>",
+            "<section>",
+            "<div>"
+        ]
+    },
+    {
+        "q": "What type of link is this?",
+        "c": "<a href='https://www.example.com' target='_blank'>\n  External Link\n</a>",
+        "o": [
+            "Opens external page",
+            "Opens internal page",
+            "Sends an email",
+            "Creates a form"
+        ]
+    },
+    {
+        "q": "What is the correct way to create a navigation menu?",
+        "c": null,
+        "o": [
+            "<nav><ul><li></li></ul></nav>",
+            "<menu><ul><li></li></ul></menu>",
+            "<div><ul><li></li></ul></div>",
+            "<header><ul><li></li></ul></header"
+        ]
+    },
+    {
+        "q": "What does this code create?",
+        "c": "<div>\n  <a href='index.html'>\n    <img src='home.png' alt='Home'>\n  </a>\n</div>",
+        "o": [
+            "Image link",
+            "Text link",
+            "Button",
+            "A form"
+        ]
+    },
+    {
+        "q": "How do you create a link that directs to another website?",
+        "c": null,
+        "o": [
+            "<a href='http://example.com'>",
+            "<link to='http://example.com'>",
+            "<a url='http://example.com'>",
+            "<a link='http://example.com'>"
+        ]
+    },
+    {
+        "q": "What does this code snippet do?",
+        "c": "<a href='https://www.example.com' class='btn'>\n  Click Here\n</a>",
+        "o": [
+            "Styled link",
+            "Image link",
+            "Button",
+            "Script"
+        ]
+    },
+    {
+        "q": "What attribute should be used to specify a link as a shortcut?",
+        "c": null,
+        "o": [
+            "rel='shortcut icon'",
+            "link='shortcut'",
+            "href='shortcut'",
+            "target='shortcut'"
+        ]
+    },
+    {
+        "q": "What does this code accomplish?",
+        "c": "<ul>\n  <li><a href='services.html'>Services</a></li>\n  <li><a href='contact.html'>Contact</a></li>\n</ul>",
+        "o": [
+            "List of links",
+            "List of images",
+            "Form",
+            "Script"
+        ]
+    },
+    {
+        "q": "Which tag is used to define a clickable area for an image?",
+        "c": null,
+        "o": [
+            "<map>",
+            "<area>",
+            "<img>",
+            "<link>"
+        ]
+    },
+    {
+        "q": "What is the function of this link?",
+        "c": "<a href='https://www.example.com' target='_self'>\n  Example\n</a>",
+        "o": [
+            "Opens link in same window",
+            "Opens in new tab",
+            "Creates a button",
+            "Styles text"
+        ]
+    },
+    {
+        "q": "What does 'mailto:' do in a link?",
+        "c": null,
+        "o": [
+            "Opens email client",
+            "Links to a webpage",
+            "Creates a text link",
+            "Defines an image link"
+        ]
+    },
+    {
+        "q": "What does this code do?",
+        "c": "<nav>\n  <a href='home.html'>Home</a>\n  <a href='about.html'>About</a>\n</nav>",
+        "o": [
+            "Navigation menu",
+            "Footer",
+            "Image link",
+            "Script tag"
+        ]
+    },
+    {
+        "q": "What HTML element can be used for creating a dropdown menu?",
+        "c": null,
+        "o": [
+            "<select>",
+            "<dropdown>",
+            "<menu>",
+            "<option>"
+        ]
+    },
+    {
+        "q": "What type of link does this code represent?",
+        "c": "<a href='ftp://ftp.example.com'>\n  FTP Link\n</a>",
+        "o": [
+            "FTP link",
+            "HTTP link",
+            "Email link",
+            "Phone link"
+        ]
+    },
+    {
+        "q": "What is the purpose of the 'download' attribute in an anchor tag?",
+        "c": null,
+        "o": [
+            "Forces download of linked file",
+            "Opens link in a new tab",
+            "Links to external resources",
+            "Defines link style"
+        ]
+    },
+    {
+        "q": "What does this code do?",
+        "c": "<a href='https://www.example.com' title='Example'>\n  Visit Example\n</a>",
+        "o": [
+            "Link with tooltip",
+            "Image link",
+            "Script tag",
+            "Form"
+        ]
+    },
+    {
+        "q": "How do you create a link to an external stylesheet?",
+        "c": null,
+        "o": [
+            "<link rel='stylesheet' href='style.css'>",
+            "<style src='style.css'>",
+            "<a href='style.css'>",
+            "<link href='style.css'>"
+        ]
+    },
+    {
+        "q": "What is the purpose of this code?",
+        "c": "<a href='https://www.example.com' target='_blank' rel='noopener'>\n  Open Example\n</a>",
+        "o": [
+            "Opens link in a new tab without security risk",
+            "Creates a button",
+            "Styles text",
+            "Links to a local file"
+        ]
+    },
+    {
+        "q": "Which element is used to create a navigation bar?",
+        "c": null,
+        "o": [
+            "<nav>",
+            "<header>",
+            "<ul>",
+            "<div>"
+        ]
+    },
+    {
+        "q": "What does this snippet do?",
+        "c": "<a href='#section'>\n  Jump to Section\n</a>",
+        "o": [
+            "Anchors to a specific section",
+            "Opens a new page",
+            "Sends an email",
+            "Styles text"
+        ]
+    },
+    {
+        "q": "How do you specify that a link should open in a new window?",
+        "c": null,
+        "o": [
+            "target='_blank'",
+            "target='_new'",
+            "open='new'",
+            "link='new'"
+        ]
+    },
+    {
+        "q": "What does this code generate?",
+        "c": "<footer>\n  <a href='terms.html'>Terms of Service</a>\n</footer>",
+        "o": [
+            "Footer with link",
+            "Header",
+            "Image link",
+            "Script tag"
+        ]
+    },
+    {
+        "q": "What tag is used to create a list of links?",
+        "c": null,
+        "o": [
+            "<ul>",
+            "<ol>",
+            "<nav>",
+            "<menu>"
+        ]
+    },
+    {
+        "q": "What does this code create?",
+        "c": "<a href='tel:+1234567890'>\n  Call Us\n</a>",
+        "o": [
+            "Telephone link",
+            "Email link",
+            "Website link",
+            "Anchor link"
+        ]
+    },
+    {
+        "q": "How can you create a link to a section with an ID?",
+        "c": null,
+        "o": [
+            "<a href='#id'>",
+            "<link to='#id'>",
+            "<a id='id'>",
+            "<a href='id'>"
+        ]
+    },
+    {
+        "q": "What does this code do?",
+        "c": "<a href='https://www.example.com' style='color:red;'>\n  Red Link\n</a>",
+        "o": [
+            "Creates a red link",
+            "Creates a button",
+            "Adds metadata",
+            "Links to an image"
+        ]
+    },
+    {
+        "q": "What does 'https://' indicate in a link?",
+        "c": null,
+        "o": [
+            "Secure protocol",
+            "Insecure protocol",
+            "Web page path",
+            "File location"
+        ]
+    },
+    {
+        "q": "What does this code do?",
+        "c": "<a href='mailto:info@example.com?subject=Hello'>\n  Email Us\n</a>",
+        "o": [
+            "Creates an email link with subject",
+            "Links to a website",
+            "Opens a form",
+            "Styles text"
+        ]
+    },
+    {
+        "q": "Which tag is used to group inline links?",
+        "c": null,
+        "o": [
+            "<span>",
+            "<div>",
+            "<section>",
+            "<link>"
+        ]
+    },
+    {
+        "q": "What does this code create?",
+        "c": "<img src='image.jpg' alt='Example'>\n<a href='home.html'>Home</a>",
+        "o": [
+            "Clickable image link",
+            "Text link",
+            "Script",
+            "Button"
+        ]
+    },
+    {
+        "q": "What is the purpose of the 'title' attribute in a link?",
+        "c": null,
+        "o": [
+            "Provides additional info",
+            "Specifies target",
+            "Sets link style",
+            "Defines relationship"
+        ]
+    },
+    {
+        "q": "What is the purpose of this link?",
+        "c": "<a href='https://www.example.com' target='_blank' rel='noreferrer'>\n  Visit Example\n</a>",
+        "o": [
+            "Opens link in a new tab without referrer",
+            "Creates a button",
+            "Opens in same tab",
+            "Styles text"
+        ]
+    },
+    {
+        "q": "How do you create a link that scrolls to the top of the page?",
+        "c": null,
+        "o": [
+            "<a href='#top'>",
+            "<a href='top'>",
+            "<link to='#top'>",
+            "<a name='top'>"
+        ]
+    },
+    {
+        "q": "What does this code do?",
+        "c": "<a href='https://www.example.com' title='Link to Example'>\n  Example\n</a>",
+        "o": [
+            "Creates a link with title",
+            "Creates a button",
+            "Opens a form",
+            "Styles text"
+        ]
+    },
+    {
+        "q": "What attribute can you use to open links in a new tab in HTML5?",
+        "c": null,
+        "o": [
+            "target='_blank'",
+            "open='new'",
+            "target='_new'",
+            "link='new'"
+        ]
+    },
+    {
+        "q": "What does this snippet do?",
+        "c": "<a href='https://www.example.com' target='_self'>\n  Self Link\n</a>",
+        "o": [
+            "Opens link in same window",
+            "Opens in new tab",
+            "Creates a button",
+            "Styles text"
+        ]
+    },
+    {
+        "q": "Which HTML element can be used for context menus?",
+        "c": null,
+        "o": [
+            "<menu>",
+            "<context>",
+            "<nav>",
+            "<dropdown>"
+        ]
+    },
+    {
+        "q": "What is the function of this link?",
+        "c": "<a href='https://www.example.com' target='_blank'>\n  Visit Example\n</a>",
+        "o": [
+            "Opens link in new tab",
+            "Opens link in same tab",
+            "Creates a button",
+            "Styles text"
+        ]
+    },
+    {
+        "q": "What tag is used to create a link that navigates back to the previous page?",
+        "c": null,
+        "o": [
+            "<a href='javascript:history.back()'>",
+            "<link href='javascript:history.back()'>",
+            "<a href='back'>",
+            "<backlink href='previous'>"
+        ]
+    },
+    {
+        "q": "What does this code represent?",
+        "c": "<a href='about.html'>\n  About Us\n</a>",
+        "o": [
+            "Link to about page",
+            "Link to homepage",
+            "Link to contact",
+            "Image link"
+        ]
+    },
+    {
+        "q": "How do you create a horizontal navigation menu?",
+        "c": null,
+        "o": [
+            "<ul style='display:inline;'>",
+            "<nav>",
+            "<menu>",
+            "<div>"
+        ]
+    },
+    {
+        "q": "What is the purpose of this code?",
+        "c": "<nav>\n  <a href='index.html'>Home</a>\n  <a href='services.html'>Services</a>\n</nav>",
+        "o": [
+            "Creates a navigation menu",
+            "Creates a footer",
+            "Creates a form",
+            "Links to an image"
+        ]
+    },
+    {
+        "q": "What is the purpose of the <link> element in HTML?",
+        "c": null,
+        "o": [
+            "Defines a relationship to an external resource",
+            "Creates navigation",
+            "Links to a script",
+            "Styles the page"
+        ]
+    },
+    {
+        "q": "What does this code do?",
+        "c": "<ul>\n  <li><a href='link1.html'>Link 1</a></li>\n  <li><a href='link2.html'>Link 2</a></li>\n</ul>",
+        "o": [
+            "Creates a list of links",
+            "Creates a form",
+            "Adds metadata",
+            "Styles text"
+        ]
+    },
+    {
+        "q": "How do you create a link with a tooltip?",
+        "c": null,
+        "o": [
+            "<a href='link' title='Tooltip'>",
+            "<link title='Tooltip'>",
+            "<a tooltip='Tooltip'>",
+            "<a href='link' tooltip='Tooltip'>"
+        ]
+    },
+    {
+        "q": "What type of link is created by this code?",
+        "c": "<a href='http://www.example.com' rel='noopener noreferrer'>\n  Secure Link\n</a>",
+        "o": [
+            "Secure external link",
+            "Internal link",
+            "Email link",
+            "Anchor link"
+        ]
+    },
+    {
+        "q": "What attribute can you use to specify that a link should be opened in a new tab?",
+        "c": null,
+        "o": [
+            "target",
+            "newtab",
+            "link",
+            "href"
+        ]
+    },
+    {
+        "q": "What does this code create?",
+        "c": "<a href='https://www.example.com' class='link'>\n  Example Link\n</a>",
+        "o": [
+            "Styled link",
+            "Image link",
+            "Button",
+            "Script"
+        ]
+    },
+    {
+        "q": "What is the function of the <area> tag?",
+        "c": null,
+        "o": [
+            "Defines clickable areas in an image map",
+            "Creates a link",
+            "Styles an image",
+            "Defines navigation"
+        ]
+    },
+    {
+        "q": "What does this code do?",
+        "c": "<a href='https://www.example.com' target='_blank'>\n  Open in new tab\n</a>",
+        "o": [
+            "Opens link in a new tab",
+            "Opens link in same tab",
+            "Creates a button",
+            "Styles text"
+        ]
+    },
+    {
+        "q": "How do you link to a JavaScript function?",
+        "c": null,
+        "o": [
+            "<a href='javascript:functionName()'>",
+            "<link href='javascript:functionName()'>",
+            "<a onclick='functionName()'>",
+            "<a function='functionName()'>"
+        ]
+    },
+    {
+        "q": "What does this code represent?",
+        "c": "<a href='mailto:contact@example.com'>\n  Contact Us\n</a>",
+        "o": [
+            "Email link",
+            "Website link",
+            "Phone link",
+            "Anchor link"
+        ]
+    },
+    {
+        "q": "What does the 'accesskey' attribute do?",
+        "c": null,
+        "o": [
+            "Defines a keyboard shortcut for a link",
+            "Sets link text color",
+            "Defines link size",
+            "Sets link destination"
+        ]
+    },
+    {
+        "q": "What does this code do?",
+        "c": "<a href='https://www.example.com' style='font-weight:bold;'>\n  Bold Link\n</a>",
+        "o": [
+            "Creates a bold link",
+            "Creates a button",
+            "Adds metadata",
+            "Links to an image"
+        ]
+    },
+    {
+        "q": "How do you create a link that triggers a download?",
+        "c": null,
+        "o": [
+            "<a href='file.txt' download>",
+            "<link href='file.txt' download>",
+            "<a download='file.txt'>",
+            "<file download='file.txt'>"
+        ]
+    },
+    {
+        "q": "What is the purpose of this code?",
+        "c": "<a href='https://www.example.com' target='_self'>\n  Open in same window\n</a>",
+        "o": [
+            "Opens link in same window",
+            "Opens in new tab",
+            "Creates a button",
+            "Styles text"
+        ]
+    },
+    {
+        "q": "What does <link rel='stylesheet' href='styles.css'> do?",
+        "c": null,
+        "o": [
+            "Links to an external CSS file",
+            "Creates a navigation link",
+            "Defines a JavaScript file",
+            "Styles the page inline"
+        ]
+    },
+    {
+        "q": "What does this code do?",
+        "c": "<a href='https://www.example.com' title='Visit Example'>\n  Example\n</a>",
+        "o": [
+            "Creates a link with tooltip",
+            "Creates a button",
+            "Opens a form",
+            "Adds metadata"
+        ]
+    },
+    {
+        "q": "What does 'tel:' do in a link?",
+        "c": null,
+        "o": [
+            "Opens phone dialer",
+            "Links to a webpage",
+            "Creates a text link",
+            "Defines an image link"
+        ]
+    },
+    {
+        "q": "What does this snippet do?",
+        "c": "<a href='tel:+1234567890'>\n  Call Now\n</a>",
+        "o": [
+            "Telephone link",
+            "Email link",
+            "Website link",
+            "Anchor link"
+        ]
+    },
+    {
+        "q": "How do you create a link with no URL?",
+        "c": null,
+        "o": [
+            "<a href='#'>",
+            "<link href=''>",
+            "<a>#</a>",
+            "<a href='javascript:void(0)'>"
+        ]
+    },
+    {
+        "q": "What does this code represent?",
+        "c": "<a href='https://www.example.com' target='_blank'>\n  External Link\n</a>",
+        "o": [
+            "Links to an external site",
+            "Links to an internal site",
+            "Sends an email",
+            "Styles text"
+        ]
+    },
+    {
+        "q": "What does the <bdo> tag do?",
+        "c": null,
+        "o": [
+            "Reverses text direction",
+            "Defines a link",
+            "Styles text",
+            "Adds navigation"
+        ]
+    },
+    {
+        "q": "What is the purpose of this link?",
+        "c": "<a href='https://www.example.com' rel='nofollow'>\n  Visit Example\n</a>",
+        "o": [
+            "Prevents search engines from following this link",
+            "Creates a button",
+            "Opens a form",
+            "Links to an image"
+        ]
+    },
+    {
+        "q": "What is the role of the <link rel='icon'> tag?",
+        "c": null,
+        "o": [
+            "Defines the favicon",
+            "Links to a stylesheet",
+            "Adds a script",
+            "Creates navigation"
+        ]
+    },
+    {
+        "q": "What does this code do?",
+        "c": "<a href='#section'>\n  Jump to Section\n</a>",
+        "o": [
+            "Anchors to a specific section",
+            "Links to another page",
+            "Opens an email client",
+            "Styles text"
+        ]
+    },
+    {
+        "q": "What is the purpose of the <section> tag?",
+        "c": null,
+        "o": [
+            "Defines a thematic grouping",
+            "Creates a link",
+            "Styles links",
+            "Adds scripts"
+        ]
+    },
+    {
+        "q": "What does this code create?",
+        "c": "<footer>\n  <a href='about.html'>About</a>\n  <a href='contact.html'>Contact</a>\n</footer>",
+        "o": [
+            "Footer with links",
+            "Header",
+            "Image link",
+            "Script tag"
+        ]
+    },
+    {
+        "q": "How do you define a link with a specific target frame?",
+        "c": null,
+        "o": [
+            "<a href='link' target='frame'>",
+            "<link target='frame'>",
+            "<a frame='frame'>",
+            "<a href='link' open='frame'>"
+        ]
+    },
+    {
+        "q": "What does this code do?",
+        "c": "<nav>\n  <a href='services.html'>Services</a>\n</nav>",
+        "o": [
+            "Navigation menu",
+            "Footer",
+            "Image link",
+            "Script tag"
+        ]
+    },
+    {
+        "q": "What does the <object> tag do?",
+        "c": null,
+        "o": [
+            "Defines an embedded object",
+            "Creates a link",
+            "Styles text",
+            "Adds navigation"
+        ]
+    },
+    {
+        "q": "What type of link does this code represent?",
+        "c": "<a href='mailto:info@example.com'>\n  Email Us\n</a>",
+        "o": [
+            "Email link",
+            "HTTP link",
+            "FTP link",
+            "Phone link"
+        ]
+    },
+    {
+        "q": "How can you create a link that goes to a different website?",
+        "c": null,
+        "o": [
+            "<a href='http://otherwebsite.com'>",
+            "<link href='http://otherwebsite.com'>",
+            "<a url='http://otherwebsite.com'>",
+            "<a link='http://otherwebsite.com'>"
+        ]
+    },
+    {
+        "q": "What does this code do?",
+        "c": "<a href='http://www.example.com' target='_blank'>\n  Open Example\n</a>",
+        "o": [
+            "Opens link in new tab",
+            "Opens link in same tab",
+            "Creates a button",
+            "Styles text"
+        ]
+    },
+    {
+        "q": "What does the 'noopener' value do in the 'rel' attribute?",
+        "c": null,
+        "o": [
+            "Prevents tab switching vulnerabilities",
+            "Opens link in a new tab",
+            "Sets link color",
+            "Defines relationship"
+        ]
+    },
+    {
+        "q": "What is the purpose of this code?",
+        "c": "<a href='https://www.example.com' rel='noopener'>\n  Visit Example\n</a>",
+        "o": [
+            "Opens link without passing referrer information",
+            "Creates a button",
+            "Links to a local file",
+            "Styles text"
+        ]
+    },
+    {
+        "q": "Which tag is used to create a list item in a navigation menu?",
+        "c": null,
+        "o": [
+            "<li>",
+            "<item>",
+            "<link>",
+            "<nav>"
+        ]
+    },
+    {
+        "q": "What does this code generate?",
+        "c": "<img src='logo.png' alt='Company Logo'>\n<a href='index.html'>Home</a>",
+        "o": [
+            "Clickable image link",
+            "Text link",
+            "Script",
+            "Button"
+        ]
+    },
+    {
+        "q": "What is the main purpose of a sitemap?",
+        "c": null,
+        "o": [
+            "To list all links in a website",
+            "To define styles",
+            "To create navigation",
+            "To add scripts"
+        ]
+    },
+    {
+        "q": "What is the function of this link?",
+        "c": "<a href='https://www.example.com' target='_blank' rel='noreferrer'>\n  Visit Example\n</a>",
+        "o": [
+            "Opens link in new tab without referrer",
+            "Creates a button",
+            "Opens in same tab",
+            "Styles text"
+        ]
+    },
+    {
+        "q": "What does the <iframe> tag do?",
+        "c": null,
+        "o": [
+            "Defines an inline frame",
+            "Creates a link",
+            "Styles text",
+            "Adds navigation"
+        ]
+    },
+    {
+        "q": "What does this code do?",
+        "c": "<a href='https://www.example.com' title='Link to Example'>\n  Example\n</a>",
+        "o": [
+            "Creates a link with title",
+            "Creates a button",
+            "Opens a form",
+            "Styles text"
+        ]
+    },
+    {
+        "q": "What is a hyperlink?",
+        "c": null,
+        "o": [
+            "A clickable link",
+            "A style",
+            "A script",
+            "A layout"
+        ]
+    },
+    {
+        "q": "What does this snippet do?",
+        "c": "<a href='https://www.example.com' target='_self'>\n  Self Link\n</a>",
+        "o": [
+            "Opens link in same window",
+            "Opens in new tab",
+            "Creates a button",
+            "Styles text"
+        ]
+    },
+    {
+        "q": "How do you create a link that refreshes the page?",
+        "c": null,
+        "o": [
+            "<a href='javascript:location.reload()'>",
+            "<link href='javascript:refresh()'>",
+            "<a href='refresh'>",
+            "<a reload='true'>"
+        ]
+    },
+    {
+        "q": "What is the purpose of this link?",
+        "c": "<a href='https://www.example.com' target='_blank'>\n  Visit Example\n</a>",
+        "o": [
+            "Opens link in new tab",
+            "Opens link in same tab",
+            "Creates a button",
+            "Styles text"
+        ]
+    },
+    {
+        "q": "What does the <canvas> element do?",
+        "c": null,
+        "o": [
+            "Defines a drawing area",
+            "Creates a link",
+            "Styles text",
+            "Adds navigation"
+        ]
+    },
+    {
+        "q": "What does this code represent?",
+        "c": "<a href='about.html'>\n  About Us\n</a>",
+        "o": [
+            "Link to about page",
+            "Link to homepage",
+            "Link to contact",
+            "Image link"
+        ]
+    },
+    {
+        "q": "How do you create a link to an FTP site?",
+        "c": null,
+        "o": [
+            "<a href='ftp://ftp.example.com'>",
+            "<link href='ftp://ftp.example.com'>",
+            "<a ftp='ftp.example.com'>",
+            "<a link='ftp://ftp.example.com'>"
+        ]
+    },
+    {
+        "q": "What is the purpose of this code?",
+        "c": "<nav>\n  <a href='index.html'>Home</a>\n  <a href='services.html'>Services</a>\n</nav>",
+        "o": [
+            "Creates a navigation menu",
+            "Creates a footer",
+            "Creates a form",
+            "Links to an image"
+        ]
+    },
+    {
+        "q": "What does 'link rel='stylesheet'' do?",
+        "c": null,
+        "o": [
+            "Links to an external stylesheet",
+            "Creates a navigation link",
+            "Defines a JavaScript file",
+            "Styles the page inline"
+        ]
+    },
+    {
+        "q": "What does this code do?",
+        "c": "<ul>\n  <li><a href='link1.html'>Link 1</a></li>\n  <li><a href='link2.html'>Link 2</a></li>\n</ul>",
+        "o": [
+            "Creates a list of links",
+            "Creates a form",
+            "Adds metadata",
+            "Styles text"
+        ]
+    },
+    {
+        "q": "How do you create a link with an ID?",
+        "c": null,
+        "o": [
+            "<a id='link'>",
+            "<link id='link'>",
+            "<a href='link' id='link'>",
+            "<link href='link' id='link'>"
+        ]
+    },
+    {
+        "q": "What type of link is created by this code?",
+        "c": "<a href='http://www.example.com' rel='noopener noreferrer'>\n  Secure Link\n</a>",
+        "o": [
+            "Secure external link",
+            "Internal link",
+            "Email link",
+            "Anchor link"
+        ]
+    },
+    {
+        "q": "What is the role of the <title> tag?",
+        "c": null,
+        "o": [
+            "Defines the document's title",
+            "Creates a link",
+            "Styles text",
+            "Adds navigation"
+        ]
+    },
+    {
+        "q": "What does this code create?",
+        "c": "<a href='https://www.example.com' class='link'>\n  Example Link\n</a>",
+        "o": [
+            "Styled link",
+            "Image link",
+            "Button",
+            "Script"
+        ]
+    },
+    {
+        "q": "How do you create a link with a custom CSS class?",
+        "c": null,
+        "o": [
+            "<a class='custom'>",
+            "<link class='custom'>",
+            "<a style='custom'>",
+            "<link href='custom'>"
+        ]
+    },
+    {
+        "q": "What does this code do?",
+        "c": "<a href='https://www.example.com' target='_blank'>\n  Open in new tab\n</a>",
+        "o": [
+            "Opens link in a new tab",
+            "Opens link in same tab",
+            "Creates a button",
+            "Styles text"
+        ]
+    },
+    {
+        "q": "What does <hr> represent in HTML?",
+        "c": null,
+        "o": [
+            "A thematic break",
+            "A link",
+            "A navigation element",
+            "A style"
+        ]
+    },
+    {
+        "q": "What does this code represent?",
+        "c": "<a href='mailto:contact@example.com'>\n  Contact Us\n</a>",
+        "o": [
+            "Email link",
+            "Website link",
+            "Phone link",
+            "Anchor link"
+        ]
+    },
+    {
+        "q": "What does the <div> tag do?",
+        "c": null,
+        "o": [
+            "Defines a division or section",
+            "Creates a link",
+            "Styles text",
+            "Adds navigation"
+        ]
+    },
+    {
+        "q": "What does this code do?",
+        "c": "<a href='https://www.example.com' style='font-weight:bold;'>\n  Bold Link\n</a>",
+        "o": [
+            "Creates a bold link",
+            "Creates a button",
+            "Adds metadata",
+            "Links to an image"
+        ]
+    },
+    {
+        "q": "How do you link to a specific section within a frame?",
+        "c": null,
+        "o": [
+            "<a href='frame.html#section'>",
+            "<link href='frame.html#section'>",
+            "<a frame='frame.html#section'>",
+            "<a href='#section' frame='frame.html'>"
+        ]
+    },
+    {
+        "q": "What is the purpose of this code?",
+        "c": "<a href='https://www.example.com' target='_self'>\n  Open in same window\n</a>",
+        "o": [
+            "Opens link in same window",
+            "Opens in new tab",
+            "Creates a button",
+            "Styles text"
+        ]
+    },
+    {
+        "q": "What does <strong> do?",
+        "c": null,
+        "o": [
+            "Defines important text",
+            "Creates a link",
+            "Styles text",
+            "Adds navigation"
+        ]
+    },
+    {
+        "q": "What does this code do?",
+        "c": "<a href='https://www.example.com' title='Visit Example'>\n  Example\n</a>",
+        "o": [
+            "Creates a link with tooltip",
+            "Creates a button",
+            "Opens a form",
+            "Adds metadata"
+        ]
+    },
+    {
+        "q": "How do you create a mailto link?",
+        "c": null,
+        "o": [
+            "<a href='mailto:example@example.com'>",
+            "<link href='mailto:example@example.com'>",
+            "<a mailto='example@example.com'>",
+            "<a href='email:example@example.com'>"
+        ]
+    },
+    {
+        "q": "What does this snippet do?",
+        "c": "<a href='tel:+1234567890'>\n  Call Now\n</a>",
+        "o": [
+            "Telephone link",
+            "Email link",
+            "Website link",
+            "Anchor link"
+        ]
+    },
+    {
+        "q": "What is the <meta> tag used for?",
+        "c": null,
+        "o": [
+            "Defines metadata about the document",
+            "Creates links",
+            "Styles the page",
+            "Adds scripts"
+        ]
+    },
+    {
+        "q": "What does this code represent?",
+        "c": "<a href='https://www.example.com' target='_blank'>\n  External Link\n</a>",
+        "o": [
+            "Links to an external site",
+            "Links to an internal site",
+            "Sends an email",
+            "Styles text"
+        ]
+    },
+    {
+        "q": "How do you create a link to a JavaScript file?",
+        "c": null,
+        "o": [
+            "<script src='script.js'></script>",
+            "<a href='script.js'>",
+            "<link href='script.js'>",
+            "<javascript src='script.js'>"
+        ]
+    },
+    {
+        "q": "What is the purpose of this link?",
+        "c": "<a href='https://www.example.com' rel='nofollow'>\n  Visit Example\n</a>",
+        "o": [
+            "Prevents search engines from following this link",
+            "Creates a button",
+            "Opens a form",
+            "Links to an image"
+        ]
+    },
+    {
+        "q": "What is the main purpose of <header>?",
+        "c": null,
+        "o": [
+            "Defines header content",
+            "Creates navigation",
+            "Styles links",
+            "Adds scripts"
+        ]
+    },
+    {
+        "q": "What does this code do?",
+        "c": "<a href='#section'>\n  Jump to Section\n</a>",
+        "o": [
+            "Anchors to a specific section",
+            "Links to another page",
+            "Opens an email client",
+            "Styles text"
+        ]
+    },
+    {
+        "q": "How do you create a link with a target frame?",
+        "c": null,
+        "o": [
+            "<a href='link' target='frame'>",
+            "<link target='frame'>",
+            "<a frame='frame'>",
+            "<a href='link' open='frame'>"
+        ]
+    },
+    {
+        "q": "What does this code create?",
+        "c": "<footer>\n  <a href='about.html'>About</a>\n  <a href='contact.html'>Contact</a>\n</footer>",
+        "o": [
+            "Footer with links",
+            "Header",
+            "Image link",
+            "Script tag"
+        ]
+    },
+    {
+        "q": "What is the purpose of the <footer> tag?",
+        "c": null,
+        "o": [
+            "Defines footer content",
+            "Creates navigation",
+            "Styles links",
+            "Adds scripts"
+        ]
+    },
+    {
+        "q": "What does this code do?",
+        "c": "<nav>\n  <a href='services.html'>Services</a>\n</nav>",
+        "o": [
+            "Navigation menu",
+            "Footer",
+            "Image link",
+            "Script tag"
+        ]
+    },
+    {
+        "q": "How do you create a link that opens a new window?",
+        "c": null,
+        "o": [
+            "<a href='link' target='_blank'>",
+            "<link href='link' target='_blank'>",
+            "<a newwindow='link'>",
+            "<a href='link' open='new'>"
+        ]
+    },
+    {
+        "q": "What type of link does this code represent?",
+        "c": "<a href='mailto:info@example.com'>\n  Email Us\n</a>",
+        "o": [
+            "Email link",
+            "HTTP link",
+            "FTP link",
+            "Phone link"
+        ]
+    },
+    {
+        "q": "What is the purpose of the <address> tag?",
+        "c": null,
+        "o": [
+            "Defines contact information",
+            "Creates navigation",
+            "Styles links",
+            "Adds scripts"
+        ]
+    },
+    {
+        "q": "What does this code do?",
+        "c": "<a href='http://www.example.com' target='_blank'>\n  Open Example\n</a>",
+        "o": [
+            "Opens link in new tab",
+            "Opens link in same tab",
+            "Creates a button",
+            "Styles text"
+        ]
+    },
+    {
+        "q": "What is the main role of <nav>?",
+        "c": null,
+        "o": [
+            "Defines navigation links",
+            "Creates a link",
+            "Styles text",
+            "Adds scripts"
+        ]
+    },
+    {
+        "q": "What is the purpose of this code?",
+        "c": "<a href='https://www.example.com' rel='noopener'>\n  Visit Example\n</a>",
+        "o": [
+            "Opens link without passing referrer information",
+            "Creates a button",
+            "Links to a local file",
+            "Styles text"
+        ]
+    },
+    {
+        "q": "What does <cite> do?",
+        "c": null,
+        "o": [
+            "Defines a citation",
+            "Creates a link",
+            "Styles text",
+            "Adds navigation"
+        ]
+    },
+    {
+        "q": "What does this code generate?",
+        "c": "<img src='logo.png' alt='Company Logo'>\n<a href='index.html'>Home</a>",
+        "o": [
+            "Clickable image link",
+            "Text link",
+            "Script",
+            "Button"
+        ]
+    },
+    {
+        "q": "How do you create a link that opens a phone dialer?",
+        "c": null,
+        "o": [
+            "<a href='tel:1234567890'>",
+            "<link href='tel:1234567890'>",
+            "<a phone='1234567890'>",
+            "<a href='phone:1234567890'>"
+        ]
+    },
+    {
+        "q": "What is the function of this link?",
+        "c": "<a href='https://www.example.com' target='_blank' rel='noreferrer'>\n  Visit Example\n</a>",
+        "o": [
+            "Opens link in new tab without referrer",
+            "Creates a button",
+            "Opens in same tab",
+            "Styles text"
+        ]
+    },
+    {
+        "q": "What is the function of <blockquote>?",
+        "c": null,
+        "o": [
+            "Defines a section for quoting",
+            "Creates a link",
+            "Styles text",
+            "Adds navigation"
+        ]
+    },
+    {
+        "q": "What does this code do?",
+        "c": "<a href='https://www.example.com' title='Link to Example'>\n  Example\n</a>",
+        "o": [
+            "Creates a link with title",
+            "Creates a button",
+            "Opens a form",
+            "Styles text"
+        ]
+    },
+    {
+        "q": "How do you create a link that opens a specific section in the same page?",
+        "c": null,
+        "o": [
+            "<a href='#section'>",
+            "<link href='#section'>",
+            "<a section='#section'>",
+            "<a href='section'>"
+        ]
+    },
+    {
+        "q": "What does this snippet do?",
+        "c": "<a href='https://www.example.com' target='_self'>\n  Self Link\n</a>",
+        "o": [
+            "Opens link in same window",
+            "Opens in new tab",
+            "Creates a button",
+            "Styles text"
+        ]
+    },
+    {
+        "q": "What does the <summary> tag do?",
+        "c": null,
+        "o": [
+            "Defines a summary for details",
+            "Creates a link",
+            "Styles text",
+            "Adds navigation"
+        ]
+    },
+    {
+        "q": "What is the purpose of this link?",
+        "c": "<a href='https://www.example.com' target='_blank'>\n  Visit Example\n</a>",
+        "o": [
+            "Opens link in new tab",
+            "Opens link in same tab",
+            "Creates a button",
+            "Styles text"
+        ]
+    },
+    {
+        "q": "How do you create a link that triggers an email?",
+        "c": null,
+        "o": [
+            "<a href='mailto:example@example.com'>",
+            "<link href='mailto:example@example.com'>",
+            "<a email='example@example.com'>",
+            "<a href='sendmail:example@example.com'>"
+        ]
+    },
+    {
+        "q": "What does this code represent?",
+        "c": "<a href='about.html'>\n  About Us\n</a>",
+        "o": [
+            "Link to about page",
+            "Link to homepage",
+            "Link to contact",
+            "Image link"
+        ]
+    },
+    {
+        "q": "What does the <label> tag do?",
+        "c": null,
+        "o": [
+            "Defines a label for an input element",
+            "Creates a link",
+            "Styles text",
+            "Adds navigation"
+        ]
+    },
+    {
+        "q": "What is the purpose of this code?",
+        "c": "<nav>\n  <a href='index.html'>Home</a>\n  <a href='services.html'>Services</a>\n</nav>",
+        "o": [
+            "Creates a navigation menu",
+            "Creates a footer",
+            "Creates a form",
+            "Links to an image"
+        ]
+    },
+    {
+        "q": "How do you create a link to a PDF file?",
+        "c": null,
+        "o": [
+            "<a href='document.pdf'>",
+            "<link href='document.pdf'>",
+            "<a pdf='document.pdf'>",
+            "<a href='file.pdf'>"
+        ]
+    },
+    {
+        "q": "What does this code do?",
+        "c": "<ul>\n  <li><a href='link1.html'>Link 1</a></li>\n  <li><a href='link2.html'>Link 2</a></li>\n</ul>",
+        "o": [
+            "Creates a list of links",
+            "Creates a form",
+            "Adds metadata",
+            "Styles text"
+        ]
+    },
+    {
+        "q": "What is the purpose of the <time> tag?",
+        "c": null,
+        "o": [
+            "Defines a specific time or date",
+            "Creates a link",
+            "Styles text",
+            "Adds navigation"
+        ]
+    },
+    {
+        "q": "What type of link is created by this code?",
+        "c": "<a href='http://www.example.com' rel='noopener noreferrer'>\n  Secure Link\n</a>",
+        "o": [
+            "Secure external link",
+            "Internal link",
+            "Email link",
+            "Anchor link"
+        ]
+    },
+    {
+        "q": "How do you create a link that navigates to a specific page in a PDF?",
+        "c": null,
+        "o": [
+            "<a href='document.pdf#page=2'>",
+            "<link href='document.pdf#page=2'>",
+            "<a pdf='document.pdf#page=2'>",
+            "<a href='file.pdf#page=2'>"
+        ]
+    },
+    {
+        "q": "What does this code create?",
+        "c": "<a href='https://www.example.com' class='link'>\n  Example Link\n</a>",
+        "o": [
+            "Styled link",
+            "Image link",
+            "Button",
+            "Script"
+        ]
+    },
+    {
+        "q": "What does <code> do?",
+        "c": null,
+        "o": [
+            "Defines computer code",
+            "Creates a link",
+            "Styles text",
+            "Adds navigation"
+        ]
+    },
+    {
+        "q": "What does this code do?",
+        "c": "<a href='https://www.example.com' target='_blank'>\n  Open in new tab\n</a>",
+        "o": [
+            "Opens link in a new tab",
+            "Opens link in same tab",
+            "Creates a button",
+            "Styles text"
+        ]
+    },
+    {
+        "q": "How do you create a link to an image file?",
+        "c": null,
+        "o": [
+            "<a href='image.jpg'>",
+            "<link href='image.jpg'>",
+            "<a image='image.jpg'>",
+            "<a href='file.jpg'>"
+        ]
+    },
+    {
+        "q": "What does this code represent?",
+        "c": "<a href='mailto:contact@example.com'>\n  Contact Us\n</a>",
+        "o": [
+            "Email link",
+            "Website link",
+            "Phone link",
+            "Anchor link"
+        ]
+    },
+    {
+        "q": "What does the <pre> tag do?",
+        "c": null,
+        "o": [
+            "Defines preformatted text",
+            "Creates a link",
+            "Styles text",
+            "Adds navigation"
+        ]
+    },
+    {
+        "q": "What does this code do?",
+        "c": "<a href='https://www.example.com' style='font-weight:bold;'>\n  Bold Link\n</a>",
+        "o": [
+            "Creates a bold link",
+            "Creates a button",
+            "Adds metadata",
+            "Links to an image"
+        ]
+    },
+    {
+        "q": "How do you create a link to a different section in the same document?",
+        "c": null,
+        "o": [
+            "<a href='#section'>",
+            "<link href='#section'>",
+            "<a section='#section'>",
+            "<a href='section'>"
+        ]
+    },
+    {
+        "q": "What is the purpose of this code?",
+        "c": "<a href='https://www.example.com' target='_self'>\n  Open in same window\n</a>",
+        "o": [
+            "Opens link in same window",
+            "Opens in new tab",
+            "Creates a button",
+            "Styles text"
+        ]
+    },
+    {
+        "q": "What is the purpose of the <mark> tag?",
+        "c": null,
+        "o": [
+            "Defines highlighted text",
+            "Creates a link",
+            "Styles text",
+            "Adds navigation"
+        ]
+    },
+    {
+        "q": "What does this code do?",
+        "c": "<a href='https://www.example.com' title='Visit Example'>\n  Example\n</a>",
+        "o": [
+            "Creates a link with tooltip",
+            "Creates a button",
+            "Opens a form",
+            "Adds metadata"
+        ]
+    },
+    {
+        "q": "How do you create a link to a text file?",
+        "c": null,
+        "o": [
+            "<a href='document.txt'>",
+            "<link href='document.txt'>",
+            "<a txt='document.txt'>",
+            "<a href='file.txt'>"
+        ]
+    },
+    {
+        "q": "What does this snippet do?",
+        "c": "<a href='tel:+1234567890'>\n  Call Now\n</a>",
+        "o": [
+            "Telephone link",
+            "Email link",
+            "Website link",
+            "Anchor link"
+        ]
+    },
+    {
+        "q": "What does <abbr> do?",
+        "c": null,
+        "o": [
+            "Defines an abbreviation",
+            "Creates a link",
+            "Styles text",
+            "Adds navigation"
+        ]
+    },
+    {
+        "q": "What does this code represent?",
+        "c": "<a href='https://www.example.com' target='_blank'>\n  External Link\n</a>",
+        "o": [
+            "Links to an external site",
+            "Links to an internal site",
+            "Sends an email",
+            "Styles text"
+        ]
+    },
+    {
+        "q": "How do you create a link to an external CSS file?",
+        "c": null,
+        "o": [
+            "<link rel='stylesheet' href='styles.css'>",
+            "<a href='styles.css'>",
+            "<link href='styles.css'>",
+            "<a css='styles.css'>"
+        ]
+    },
+    {
+        "q": "What is the purpose of this link?",
+        "c": "<a href='https://www.example.com' rel='nofollow'>\n  Visit Example\n</a>",
+        "o": [
+            "Prevents search engines from following this link",
+            "Creates a button",
+            "Opens a form",
+            "Links to an image"
+        ]
+    },
+    {
+        "q": "What does <ins> do?",
+        "c": null,
+        "o": [
+            "Defines inserted text",
+            "Creates a link",
+            "Styles text",
+            "Adds navigation"
+        ]
+    },
+    {
+        "q": "What does this code do?",
+        "c": "<a href='#section'>\n  Jump to Section\n</a>",
+        "o": [
+            "Anchors to a specific section",
+            "Links to another page",
+            "Opens an email client",
+            "Styles text"
+        ]
+    },
+    {
+        "q": "How do you create a link that scrolls to the top of the page?",
+        "c": null,
+        "o": [
+            "<a href='#top'>",
+            "<link href='#top'>",
+            "<a top='#top'>",
+            "<a href='top'>"
+        ]
+    },
+    {
+        "q": "What does this code create?",
+        "c": "<footer>\n  <a href='about.html'>About</a>\n  <a href='contact.html'>Contact</a>\n</footer>",
+        "o": [
+            "Footer with links",
+            "Header",
+            "Image link",
+            "Script tag"
+        ]
+    },
+    {
+        "q": "What is the purpose of the <noscript> tag?",
+        "c": null,
+        "o": [
+            "Defines content for users without scripts",
+            "Creates a link",
+            "Styles text",
+            "Adds navigation"
+        ]
+    },
+    {
+        "q": "How do you create a link to a video file?",
+        "c": null,
+        "o": [
+            "<a href='video.mp4'>",
+            "<link href='video.mp4'>",
+            "<a video='video.mp4'>",
+            "<a href='file.mp4'>"
+        ]
+    },
+    {
+        "q": "What does <sub> do?",
+        "c": null,
+        "o": [
+            "Defines subscript text",
+            "Creates a link",
+            "Styles text",
+            "Adds navigation"
+        ]
+    },
+    {
+        "q": "How do you create a link to a JavaScript function?",
+        "c": null,
+        "o": [
+            "<a href='javascript:functionName()'>",
+            "<link href='javascript:functionName()'>",
+            "<a onclick='functionName()'>",
+            "<a function='functionName()'>"
+        ]
+    },
+    {
+        "q": "What is the purpose of the <footer> tag?",
+        "c": null,
+        "o": [
+            "Defines footer content",
+            "Creates navigation",
+            "Styles links",
+            "Adds scripts"
+        ]
+    },
+    {
+        "q": "How do you create a link that opens a specific webpage?",
+        "c": null,
+        "o": [
+            "<a href='http://example.com'>",
+            "<link href='http://example.com'>",
+            "<a url='http://example.com'>",
+            "<a link='http://example.com'>"
+        ]
+    },
+    {
+        "q": "What does <sup> do?",
+        "c": null,
+        "o": [
+            "Defines superscript text",
+            "Creates a link",
+            "Styles text",
+            "Adds navigation"
+        ]
+    },
+    {
+        "q": "How do you create a link that triggers a file download?",
+        "c": null,
+        "o": [
+            "<a href='file.zip' download>",
+            "<link href='file.zip' download>",
+            "<a download='file.zip'>",
+            "<file download='file.zip'>"
+        ]
+    },
+    {
+        "q": "What is the purpose of the <cite> tag?",
+        "c": null,
+        "o": [
+            "Defines a citation",
+            "Creates a link",
+            "Styles text",
+            "Adds navigation"
+        ]
+    },
+    {
+        "q": "How do you create a link that scrolls down the page?",
+        "c": null,
+        "o": [
+            "<a href='#section'>",
+            "<link href='#section'>",
+            "<a scroll='#section'>",
+            "<a href='section'>"
+        ]
+    },
+    {
+        "q": "What does <em> do?",
+        "c": null,
+        "o": [
+            "Defines emphasized text",
+            "Creates a link",
+            "Styles text",
+            "Adds navigation"
+        ]
+    },
+    {
+        "q": "How do you create a link to a resource with a specific media type?",
+        "c": null,
+        "o": [
+            "<link rel='stylesheet' href='styles.css' media='screen'>",
+            "<a href='styles.css'>",
+            "<link href='styles.css'>",
+            "<a media='screen'>"
+        ]
+    },
+    {
+        "q": "What does <q> do?",
+        "c": null,
+        "o": [
+            "Defines a short inline quotation",
+            "Creates a link",
+            "Styles text",
+            "Adds navigation"
+        ]
+    },
+    {
+        "q": "How do you create a link that opens an external website in a new tab?",
+        "c": null,
+        "o": [
+            "<a href='http://example.com' target='_blank'>",
+            "<link href='http://example.com' target='_blank'>",
+            "<a newtab='http://example.com'>",
+            "<a href='http://example.com' open='new'>"
+        ]
+    },
+    {
+        "q": "What is the purpose of the <meta> tag?",
+        "c": null,
+        "o": [
+            "Defines metadata about an HTML document",
+            "Creates a link",
+            "Styles text",
+            "Adds navigation"
+        ]
+    },
+    {
+        "q": "What does <kbd> do?",
+        "c": null,
+        "o": [
+            "Defines keyboard input",
+            "Creates a link",
+            "Styles text",
+            "Adds navigation"
+        ]
+    },
+    {
+        "q": "How do you create a link that opens a new email?",
+        "c": null,
+        "o": [
+            "<a href='mailto:example@example.com'>",
+            "<link href='mailto:example@example.com'>",
+            "<a email='example@example.com'>",
+            "<a href='sendmail:example@example.com'>"
+        ]
+    },
+    {
+        "q": "How do you create a link that anchors to another page?",
+        "c": null,
+        "o": [
+            "<a href='page.html'>",
+            "<link href='page.html'>",
+            "<a page='page.html'>",
+            "<a href='url'>"
+        ]
+    },
+    {
+        "q": "What does <nav> contain?",
+        "c": null,
+        "o": [
+            "Navigation links",
+            "Style rules",
+            "Scripts",
+            "Content metadata"
+        ]
+    },
+    {
+        "q": "How do you create an anchor link?",
+        "c": null,
+        "o": [
+            "<a href='#anchor'>",
+            "<link href='#anchor'>",
+            "<a anchor='#anchor'>",
+            "<a href='anchor'>"
+        ]
+    },
+    {
+        "q": "What is the correct HTML for a link?",
+        "c": null,
+        "o": [
+            "<a href='url'>Text</a>",
+            "<link href='url'>Text</link>",
+            "<a link='url'>Text</a>",
+            "<a url='url'>Text</a>"
+        ]
+    },
+    {
+        "q": "How do you link to a section within an HTML page?",
+        "c": null,
+        "o": [
+            "<a href='#section'>",
+            "<link href='#section'>",
+            "<a section='#section'>",
+            "<a href='section'>"
+        ]
+    },
+    {
+        "q": "What does <a> tag stand for?",
+        "c": null,
+        "o": [
+            "Anchor",
+            "Append",
+            "Action",
+            "Address"
+        ]
+    },
+    {
+        "q": "How to create a link that redirects to a mail client?",
+        "c": null,
+        "o": [
+            "<a href='mailto:email@example.com'>",
+            "<link href='mailto:email@example.com'>",
+            "<a mailto='email@example.com'>",
+            "<a href='sendto:email@example.com'>"
+        ]
+    },
+    {
+        "q": "What attribute specifies where to open the linked document?",
+        "c": null,
+        "o": [
+            "target",
+            "link",
+            "open",
+            "href"
+        ]
+    },
+    {
+        "q": "How do you create a link that opens a URL in the same tab?",
+        "c": null,
+        "o": [
+            "<a href='url'>",
+            "<link href='url'>",
+            "<a target='self'>",
+            "<a link='url'>"
+        ]
+    },
+    {
+        "q": "How do you link to an email address with a subject?",
+        "c": null,
+        "o": [
+            "<a href='mailto:email@example.com?subject=Hello'>",
+            "<link href='mailto:email@example.com?subject=Hello'>",
+            "<a mail='email@example.com?subject=Hello'>",
+            "<a href='sendto:email@example.com?subject=Hello'>"
+        ]
+    },
+    {
+        "q": "What is a link that doesn't navigate?",
+        "c": null,
+        "o": [
+            "<a href='javascript:void(0)'>",
+            "<link href='javascript:void(0)'>",
+            "<a click='void(0)'>",
+            "<a href='nothing'>"
+        ]
+    },
+    {
+        "q": "How do you create a link that shows a tooltip?",
+        "c": null,
+        "o": [
+            "<a href='url' title='Tooltip'>",
+            "<link href='url' title='Tooltip'>",
+            "<a tooltip='Tooltip'>",
+            "<a href='url' info='Tooltip'>"
+        ]
+    },
+    {
+        "q": "What does <link> tag do?",
+        "c": null,
+        "o": [
+            "Links external resources",
+            "Creates links",
+            "Styles text",
+            "Adds scripts"
+        ]
+    },
+    {
+        "q": "How to create a link with no underline?",
+        "c": null,
+        "o": [
+            "<a href='url' style='text-decoration:none;'>",
+            "<link href='url' style='text-decoration:none;'>",
+            "<a no-underline='url'>",
+            "<a href='url' underline='none'>"
+        ]
+    },
+    {
+        "q": "How do you link to a JavaScript file?",
+        "c": null,
+        "o": [
+            "<script src='file.js'></script>",
+            "<a href='file.js'>",
+            "<link rel='script' href='file.js'>",
+            "<a js='file.js'>"
+        ]
+    },
+    {
+        "q": "How do you add a target to open a link in a new window?",
+        "c": null,
+        "o": [
+            "target='_blank'",
+            "target='new'",
+            "target='self'",
+            "target='tab'"
+        ]
+    },
+    {
+        "q": "What does <area> do in an image map?",
+        "c": null,
+        "o": [
+            "Defines clickable areas",
+            "Creates links",
+            "Styles images",
+            "Adds scripts"
+        ]
+    },
+    {
+        "q": "What does <link rel='stylesheet'> do?",
+        "c": null,
+        "o": [
+            "Links a CSS file",
+            "Creates a link",
+            "Styles text",
+            "Adds scripts"
+        ]
+    },
+    {
+        "q": "How to create a link that downloads a file?",
+        "c": null,
+        "o": [
+            "<a href='file.zip' download>",
+            "<link href='file.zip' download>",
+            "<a download='file.zip'>",
+            "<a href='file.zip' fetch>"
+        ]
+    },
+    {
+        "q": "What is the correct way to add an external JavaScript file?",
+        "c": null,
+        "o": [
+            "<script src='script.js'></script>",
+            "<link href='script.js'>",
+            "<a href='script.js'>",
+            "<script link='script.js'></script>"
+        ]
+    },
+    {
+        "q": "How do you make an image a clickable link?",
+        "c": null,
+        "o": [
+            "<a href='url'><img src='image.jpg'></a>",
+            "<link href='url'><img src='image.jpg'></link>",
+            "<a img='image.jpg'>Text</a>",
+            "<a href='url' img='image.jpg'>Text</a"
+        ]
+    },
+    {
+        "q": "What does <button> do in a link?",
+        "c": null,
+        "o": [
+            "Defines a clickable button",
+            "Creates a link",
+            "Styles text",
+            "Adds scripts"
+        ]
+    },
+    {
+        "q": "How to specify a target for an iframe link?",
+        "c": null,
+        "o": [
+            "target='iframe'",
+            "link='iframe'",
+            "href='iframe'",
+            "a target='iframe'"
+        ]
+    },
+    {
+        "q": "What does <meta> tag define?",
+        "c": null,
+        "o": [
+            "Metadata of the page",
+            "Links to styles",
+            "Links to scripts",
+            "Defines links"
+        ]
+    },
+    {
+        "q": "How to create a navigation bar?",
+        "c": null,
+        "o": [
+            "Using <nav> with <a>",
+            "Using <link> with <nav>",
+            "Using <header>",
+            "Using <section>"
+        ]
+    },
+    {
+        "q": "What does <details> do?",
+        "c": null,
+        "o": [
+            "Defines a disclosure widget",
+            "Creates links",
+            "Styles text",
+            "Adds scripts"
+        ]
+    },
+    {
+        "q": "How do you create a back to top link?",
+        "c": null,
+        "o": [
+            "<a href='#top'>Back to Top</a>",
+            "<link href='#top'>Back to Top</link>",
+            "<a top='top'>Back</a>",
+            "<a href='top'>Back</a"
+        ]
+    },
+    {
+        "q": "What is <base> used for?",
+        "c": null,
+        "o": [
+            "Specifies base URL for links",
+            "Creates links",
+            "Styles text",
+            "Adds scripts"
+        ]
+    },
+    {
+        "q": "How to create an anchor link to a specific page?",
+        "c": null,
+        "o": [
+            "<a href='page.html#anchor'>",
+            "<link href='page.html#anchor'>",
+            "<a page='page.html#anchor'>",
+            "<a href='anchor'>"
+        ]
+    },
+    {
+        "q": "How do you create a link to a CSS file?",
+        "c": null,
+        "o": [
+            "<link rel='stylesheet' href='style.css'>",
+            "<a href='style.css'>",
+            "<link href='style.css'>",
+            "<a css='style.css'>"
+        ]
+    },
+    {
+        "q": "What is <track> used for?",
+        "c": null,
+        "o": [
+            "Specifies text tracks for <video>",
+            "Creates links",
+            "Styles videos",
+            "Adds scripts"
+        ]
+    },
+    {
+        "q": "What does <iframe> do?",
+        "c": null,
+        "o": [
+            "Defines an inline frame",
+            "Creates links",
+            "Styles text",
+            "Adds scripts"
+        ]
+    },
+    {
+        "q": "How to create a link that opens a chat application?",
+        "c": null,
+        "o": [
+            "<a href='chat:example'>",
+            "<link href='chat:example'>",
+            "<a chat='example'>",
+            "<a href='send:example'>"
+        ]
+    },
+    {
+        "q": "What is the purpose of <input type='submit'>?",
+        "c": null,
+        "o": [
+            "Submits a form",
+            "Creates a link",
+            "Styles text",
+            "Adds scripts"
+        ]
+    },
+    {
+        "q": "How do you create a link that leads to a survey?",
+        "c": null,
+        "o": [
+            "<a href='survey.html'>",
+            "<link href='survey.html'>",
+            "<a survey='survey.html'>",
+            "<a href='form'>"
+        ]
+    },
+    {
+        "q": "What does <meta name='viewport'> do?",
+        "c": null,
+        "o": [
+            "Sets viewport for responsive design",
+            "Creates links",
+            "Styles text",
+            "Adds scripts"
+        ]
+    },
+    {
+        "q": "How do you create a link with a tooltip?",
+        "c": null,
+        "o": [
+            "<a href='url' title='Tooltip'>",
+            "<link href='url' title='Tooltip'>",
+            "<a tooltip='Tooltip'>",
+            "<a href='url' info='Tooltip'>"
+        ]
+    }
+]

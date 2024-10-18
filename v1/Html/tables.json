@@ -1,0 +1,2572 @@
+[
+    {
+        "q": "What does this code create?",
+        "c": "<table>\n\t<thead>\n\t\t<tr>\n\t\t\t<th>Header</th>\n\t\t</tr>\n\t</thead>\n</table>",
+        "o": [
+            "Table with header",
+            "Empty table",
+            "Table with rows",
+            "Table with captions"
+        ]
+    },
+    {
+        "q": "Which tag is used to define a table header?",
+        "c": null,
+        "o": [
+            "<th>",
+            "<tr>",
+            "<td>",
+            "<table>"
+        ]
+    },
+    {
+        "q": "What will be the output of this code?",
+        "c": "<table>\n\t<tr>\n\t\t<td>1</td>\n\t\t<td>2</td>\n\t</tr>\n\t<tr>\n\t\t<td>3</td>\n\t\t<td>4</td>\n\t</tr>\n</table>",
+        "o": [
+            "2 rows, 2 columns",
+            "1 row, 4 columns",
+            "2 rows, 1 column",
+            "Invalid markup"
+        ]
+    },
+    {
+        "q": "What does the 'colspan' attribute do?",
+        "c": null,
+        "o": [
+            "Merge columns",
+            "Merge rows",
+            "Add a column",
+            "Add a row"
+        ]
+    },
+    {
+        "q": "What does the colspan attribute do here?",
+        "c": "<td colspan='2'>Merged Cell</td>",
+        "o": [
+            "Spans 2 columns",
+            "Spans 2 rows",
+            "Creates a footer",
+            "Defines a header"
+        ]
+    },
+    {
+        "q": "Which tag defines a table row?",
+        "c": null,
+        "o": [
+            "<tr>",
+            "<th>",
+            "<td>",
+            "<tbody>"
+        ]
+    },
+    {
+        "q": "How many rows does this code display?",
+        "c": "<table>\n\t<tr>\n\t\t<td>Row 1</td>\n\t</tr>\n\t<tr>\n\t\t<td>Row 2</td>\n\t</tr>\n</table>",
+        "o": [
+            "2 rows",
+            "1 row",
+            "3 rows",
+            "No rows"
+        ]
+    },
+    {
+        "q": "How do you define a table caption?",
+        "c": null,
+        "o": [
+            "<caption>",
+            "<head>",
+            "<title>",
+            "<foot>"
+        ]
+    },
+    {
+        "q": "What is the purpose of this code?",
+        "c": "<caption>Table Title</caption>",
+        "o": [
+            "Adds a title",
+            "Creates a footer",
+            "Defines a header",
+            "Merges cells"
+        ]
+    },
+    {
+        "q": "What does 'rowspan' attribute do?",
+        "c": null,
+        "o": [
+            "Merge rows",
+            "Merge columns",
+            "Add a row",
+            "Add a column"
+        ]
+    },
+    {
+        "q": "What does this code produce?",
+        "c": "<table>\n\t<tr>\n\t\t<td>Item 1</td>\n\t\t<td rowspan='2'>Item 2</td>\n\t</tr>\n\t<tr>\n\t\t<td>Item 3</td>\n\t</tr>\n</table>",
+        "o": [
+            "2 rows, 2 columns",
+            "3 rows",
+            "1 column, 2 rows",
+            "Invalid markup"
+        ]
+    },
+    {
+        "q": "Which tag is used to define a table?",
+        "c": null,
+        "o": [
+            "<table>",
+            "<tr>",
+            "<td>",
+            "<th>"
+        ]
+    },
+    {
+        "q": "What does this code indicate?",
+        "c": "<th>Column Header</th>",
+        "o": [
+            "Defines a header cell",
+            "Defines a data cell",
+            "Creates a row",
+            "Creates a caption"
+        ]
+    },
+    {
+        "q": "Which tag defines a table data cell?",
+        "c": null,
+        "o": [
+            "<td>",
+            "<th>",
+            "<tr>",
+            "<tbody>"
+        ]
+    },
+    {
+        "q": "What happens with this code snippet?",
+        "c": "<table>\n\t<tr>\n\t\t<th>Header</th>\n\t</tr>\n\t<tr>\n\t\t<td>Data</td>\n\t</tr>\n</table>",
+        "o": [
+            "Table with header and data",
+            "Only header",
+            "Only data",
+            "Invalid markup"
+        ]
+    },
+    {
+        "q": "Which tag defines a table body?",
+        "c": null,
+        "o": [
+            "<tbody>",
+            "<table>",
+            "<tfoot>",
+            "<thead>"
+        ]
+    },
+    {
+        "q": "What does rowspan do in this code?",
+        "c": "<td rowspan='3'>Spans 3 Rows</td>",
+        "o": [
+            "Spans 3 rows",
+            "Spans 3 columns",
+            "Invalid markup",
+            "Creates a header"
+        ]
+    },
+    {
+        "q": "Which tag defines a table footer?",
+        "c": null,
+        "o": [
+            "<tfoot>",
+            "<tbody>",
+            "<thead>",
+            "<tr>"
+        ]
+    },
+    {
+        "q": "What does this code produce?",
+        "c": "<table>\n\t<tfoot>\n\t\t<tr>\n\t\t\t<td>Footer Data</td>\n\t\t</tr>\n\t</tfoot>\n</table>",
+        "o": [
+            "Table footer",
+            "Table header",
+            "Table body",
+            "Invalid markup"
+        ]
+    },
+    {
+        "q": "Which attribute allows a cell to span multiple columns?",
+        "c": null,
+        "o": [
+            "colspan",
+            "rowspan",
+            "cellpadding",
+            "cellspacing"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "c": "<table>\n\t<tr>\n\t\t<td>Data 1</td>\n\t\t<td>Data 2</td>\n\t</tr>\n</table>",
+        "o": [
+            "1 row, 2 columns",
+            "2 rows, 1 column",
+            "1 column, 2 rows",
+            "Invalid markup"
+        ]
+    },
+    {
+        "q": "Which attribute allows a cell to span multiple rows?",
+        "c": null,
+        "o": [
+            "rowspan",
+            "colspan",
+            "cellpadding",
+            "cellspacing"
+        ]
+    },
+    {
+        "q": "What does this code illustrate?",
+        "c": "<td style='text-align:center;'>Centered Text</td>",
+        "o": [
+            "Centers text",
+            "Aligns text left",
+            "Aligns text right",
+            "Invalid markup"
+        ]
+    },
+    {
+        "q": "What tag is used to group table rows?",
+        "c": null,
+        "o": [
+            "<tbody>",
+            "<thead>",
+            "<tfoot>",
+            "<caption>"
+        ]
+    },
+    {
+        "q": "What does this code represent?",
+        "c": "<table>\n\t<caption>Sample Table</caption>\n</table>",
+        "o": [
+            "Table with caption",
+            "Empty table",
+            "Table with rows",
+            "Table with headers"
+        ]
+    },
+    {
+        "q": "Where is the table caption placed?",
+        "c": null,
+        "o": [
+            "Above the table",
+            "Below the table",
+            "Inside a cell",
+            "At the side"
+        ]
+    },
+    {
+        "q": "How many columns are defined here?",
+        "c": "<tr>\n\t<td>Cell 1</td>\n\t<td>Cell 2</td>\n\t<td>Cell 3</td>\n</tr>",
+        "o": [
+            "3 columns",
+            "2 columns",
+            "1 column",
+            "Invalid markup"
+        ]
+    },
+    {
+        "q": "Which tag groups the header content in a table?",
+        "c": null,
+        "o": [
+            "<thead>",
+            "<th>",
+            "<tr>",
+            "<tbody>"
+        ]
+    },
+    {
+        "q": "What does this code produce?",
+        "c": "<table>\n\t<tr>\n\t\t<td colspan='2'>Merged Cell</td>\n\t</tr>\n\t<tr>\n\t\t<td>Data 1</td>\n\t\t<td>Data 2</td>\n\t</tr>\n</table>",
+        "o": [
+            "3 rows",
+            "2 rows",
+            "1 row, 3 columns",
+            "Invalid markup"
+        ]
+    },
+    {
+        "q": "What is the default alignment of table text?",
+        "c": null,
+        "o": [
+            "Left",
+            "Center",
+            "Right",
+            "Justified"
+        ]
+    },
+    {
+        "q": "What does this code achieve?",
+        "c": "<td align='left'>Left Aligned</td>",
+        "o": [
+            "Aligns text left",
+            "Aligns text center",
+            "Aligns text right",
+            "Invalid markup"
+        ]
+    },
+    {
+        "q": "How can you add a border to a table?",
+        "c": null,
+        "o": [
+            "border",
+            "colspan",
+            "cellpadding",
+            "rowspan"
+        ]
+    },
+    {
+        "q": "What does the <colgroup> tag do?",
+        "c": "<colgroup>\n\t<col style='background-color:yellow;'>\n</colgroup>",
+        "o": [
+            "Defines column properties",
+            "Defines row properties",
+            "Defines cell properties",
+            "Invalid markup"
+        ]
+    },
+    {
+        "q": "Which tag is used to define a column group?",
+        "c": null,
+        "o": [
+            "<colgroup>",
+            "<col>",
+            "<thead>",
+            "<tbody>"
+        ]
+    },
+    {
+        "q": "What does this code create?",
+        "c": "<table>\n\t<thead>\n\t\t<tr>\n\t\t\t<th>Header 1</th>\n\t\t\t<th>Header 2</th>\n\t\t</tr>\n\t</thead>\n</table>",
+        "o": [
+            "Table with 2 headers",
+            "Table with data",
+            "Empty table",
+            "Invalid markup"
+        ]
+    },
+    {
+        "q": "What tag is used to define each column in a group?",
+        "c": null,
+        "o": [
+            "<col>",
+            "<tr>",
+            "<td>",
+            "<thead>"
+        ]
+    },
+    {
+        "q": "What is the effect of this code?",
+        "c": "<td style='border:1px solid black;'>Cell</td>",
+        "o": [
+            "Cell with border",
+            "Cell without border",
+            "Invalid markup",
+            "Only table"
+        ]
+    },
+    {
+        "q": "Which attribute adds space inside table cells?",
+        "c": null,
+        "o": [
+            "cellpadding",
+            "cellspacing",
+            "rowspan",
+            "colspan"
+        ]
+    },
+    {
+        "q": "What does the following code represent?",
+        "c": "<table>\n\t<colgroup>\n\t\t<col span='2'>\n\t</colgroup>\n</table>",
+        "o": [
+            "Defines a column group",
+            "Defines a row group",
+            "Defines a header group",
+            "Invalid markup"
+        ]
+    },
+    {
+        "q": "Which attribute adds space between table cells?",
+        "c": null,
+        "o": [
+            "cellspacing",
+            "cellpadding",
+            "border",
+            "width"
+        ]
+    },
+    {
+        "q": "How does this code affect the table?",
+        "c": "<tr style='background-color:grey;'>\n\t<td>Row</td>\n</tr>",
+        "o": [
+            "Colors the row",
+            "Adds a border",
+            "Merges cells",
+            "Invalid markup"
+        ]
+    },
+    {
+        "q": "Which tag is used to create a clickable link in a table cell?",
+        "c": null,
+        "o": [
+            "<a>",
+            "<td>",
+            "<tr>",
+            "<link>"
+        ]
+    },
+    {
+        "q": "What does this code represent?",
+        "c": "<td colspan='3' style='text-align:center;'>Centered Merged Cell</td>",
+        "o": [
+            "Cell spans 3 columns",
+            "Cell spans 3 rows",
+            "Invalid markup",
+            "Defines a header"
+        ]
+    },
+    {
+        "q": "What tag should wrap the entire table content?",
+        "c": null,
+        "o": [
+            "<table>",
+            "<div>",
+            "<section>",
+            "<thead>"
+        ]
+    },
+    {
+        "q": "What is the result of this code?",
+        "c": "<table>\n\t<tr>\n\t\t<td>Data</td>\n\t\t<td>Data</td>\n\t</tr>\n</table>",
+        "o": [
+            "1 row, 2 columns",
+            "2 rows, 1 column",
+            "3 rows",
+            "Invalid markup"
+        ]
+    },
+    {
+        "q": "How do you create a table with a border?",
+        "c": null,
+        "o": [
+            "border",
+            "width",
+            "rowspan",
+            "colspan"
+        ]
+    },
+    {
+        "q": "What does this code achieve?",
+        "c": "<table>\n\t<tfoot>\n\t\t<tr>\n\t\t\t<td>Total</td>\n\t\t</tr>\n\t</tfoot>\n</table>",
+        "o": [
+            "Defines table footer",
+            "Defines header",
+            "Defines body",
+            "Invalid markup"
+        ]
+    },
+    {
+        "q": "Which HTML element specifies a table heading?",
+        "c": null,
+        "o": [
+            "<th>",
+            "<td>",
+            "<tr>",
+            "<thead>"
+        ]
+    },
+    {
+        "q": "What will this code output?",
+        "c": "<table>\n\t<tr>\n\t\t<th>Heading</th>\n\t</tr>\n</table>",
+        "o": [
+            "Table with heading",
+            "Table with data",
+            "Empty table",
+            "Invalid markup"
+        ]
+    },
+    {
+        "q": "What tag defines each row of the table?",
+        "c": null,
+        "o": [
+            "<tr>",
+            "<td>",
+            "<th>",
+            "<table>"
+        ]
+    },
+    {
+        "q": "What does this code illustrate?",
+        "c": "<th style='background-color:red;'>Header</th>",
+        "o": [
+            "Header with red background",
+            "Data cell",
+            "Invalid markup",
+            "Empty header"
+        ]
+    },
+    {
+        "q": "What does the `<colgroup>` tag do?",
+        "c": null,
+        "o": [
+            "Groups columns",
+            "Groups rows",
+            "Defines a header",
+            "Defines a footer"
+        ]
+    },
+    {
+        "q": "What does this code do?",
+        "c": "<td colspan='4' rowspan='2'>Merged Cell</td>",
+        "o": [
+            "Spans 4 columns, 2 rows",
+            "Spans 2 columns",
+            "Defines a header",
+            "Invalid markup"
+        ]
+    },
+    {
+        "q": "What does the `<thead>` tag contain?",
+        "c": null,
+        "o": [
+            "Table headers",
+            "Table rows",
+            "Table data",
+            "Table footer"
+        ]
+    },
+    {
+        "q": "How many rows are in this table?",
+        "c": "<table>\n\t<tr>\n\t\t<td>Row 1</td>\n\t</tr>\n\t<tr>\n\t\t<td>Row 2</td>\n\t</tr>\n\t<tr>\n\t\t<td>Row 3</td>\n\t</tr>\n</table>",
+        "o": [
+            "3 rows",
+            "2 rows",
+            "1 row",
+            "Invalid markup"
+        ]
+    },
+    {
+        "q": "What does the `<tfoot>` tag do?",
+        "c": null,
+        "o": [
+            "Defines a footer",
+            "Defines a header",
+            "Groups rows",
+            "Groups columns"
+        ]
+    },
+    {
+        "q": "What does this code demonstrate?",
+        "c": "<tr>\n\t<td style='font-weight:bold;'>Bold Text</td>\n</tr>",
+        "o": [
+            "Bold text in cell",
+            "Italic text",
+            "Underlined text",
+            "Invalid markup"
+        ]
+    },
+    {
+        "q": "What is the purpose of the `<td>` tag?",
+        "c": null,
+        "o": [
+            "Table cell",
+            "Table header",
+            "Table row",
+            "Table body"
+        ]
+    },
+    {
+        "q": "What does this code produce?",
+        "c": "<table>\n\t<thead>\n\t\t<tr>\n\t\t\t<th>Column 1</th>\n\t\t\t<th>Column 2</th>\n\t\t</tr>\n\t</thead>\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>Data 1</td>\n\t\t\t<td>Data 2</td>\n\t\t</tr>\n\t</tbody>\n</table>",
+        "o": [
+            "Table with headers and data",
+            "Only headers",
+            "Only data",
+            "Invalid markup"
+        ]
+    },
+    {
+        "q": "Which tag is used to merge two or more table cells horizontally?",
+        "c": null,
+        "o": [
+            "colspan",
+            "rowspan",
+            "cellpadding",
+            "cellspacing"
+        ]
+    },
+    {
+        "q": "What does this code create?",
+        "c": "<td style='padding:10px;'>Padded Cell</td>",
+        "o": [
+            "Cell with padding",
+            "Cell without padding",
+            "Invalid markup",
+            "Creates a table"
+        ]
+    },
+    {
+        "q": "How do you merge two or more cells vertically in HTML?",
+        "c": null,
+        "o": [
+            "rowspan",
+            "colspan",
+            "cellpadding",
+            "cellspacing"
+        ]
+    },
+    {
+        "q": "What does this code achieve?",
+        "c": "<table>\n\t<tr>\n\t\t<td rowspan='2'>Data 1</td>\n\t\t<td>Data 2</td>\n\t</tr>\n\t<tr>\n\t\t<td>Data 3</td>\n\t</tr>\n</table>",
+        "o": [
+            "2 rows, 2 columns",
+            "3 rows",
+            "1 column, 2 rows",
+            "Invalid markup"
+        ]
+    },
+    {
+        "q": "What tag is used to define a cell in a table?",
+        "c": null,
+        "o": [
+            "<td>",
+            "<th>",
+            "<tr>",
+            "<caption>"
+        ]
+    },
+    {
+        "q": "What is the effect of this code?",
+        "c": "<table>\n\t<tr>\n\t\t<td style='border-collapse:collapse;'>Cell</td>\n\t</tr>\n</table>",
+        "o": [
+            "Collapses borders",
+            "Creates separate borders",
+            "Invalid markup",
+            "Only table"
+        ]
+    },
+    {
+        "q": "Which tag is used to add a heading to a table?",
+        "c": null,
+        "o": [
+            "<caption>",
+            "<th>",
+            "<thead>",
+            "<footer>"
+        ]
+    },
+    {
+        "q": "What will this code produce?",
+        "c": "<table>\n\t<tr>\n\t\t<th>Title</th>\n\t\t<td>Content</td>\n\t</tr>\n</table>",
+        "o": [
+            "1 header, 1 data cell",
+            "2 headers",
+            "Invalid markup",
+            "Only title"
+        ]
+    },
+    {
+        "q": "How many columns will a cell with colspan='3' span?",
+        "c": null,
+        "o": [
+            "3",
+            "2",
+            "4",
+            "1"
+        ]
+    },
+    {
+        "q": "What is the purpose of this code?",
+        "c": "<td style='vertical-align:bottom;'>Bottom Aligned</td>",
+        "o": [
+            "Aligns text bottom",
+            "Aligns text top",
+            "Aligns text center",
+            "Invalid markup"
+        ]
+    },
+    {
+        "q": "How many rows will a cell with rowspan='2' span?",
+        "c": null,
+        "o": [
+            "2",
+            "1",
+            "3",
+            "4"
+        ]
+    },
+    {
+        "q": "How does this code affect the table?",
+        "c": "<tr>\n\t<td colspan='2' style='background-color:lightblue;'>Merged Row</td>\n</tr>",
+        "o": [
+            "Creates merged row",
+            "Creates separate rows",
+            "Invalid markup",
+            "Defines a header"
+        ]
+    },
+    {
+        "q": "What is the default border size for a table?",
+        "c": null,
+        "o": [
+            "0",
+            "1",
+            "2",
+            "3"
+        ]
+    },
+    {
+        "q": "What does this code produce?",
+        "c": "<table>\n\t<tr>\n\t\t<td>Data 1</td>\n\t\t<td>Data 2</td>\n\t</tr>\n\t<tr>\n\t\t<td>Data 3</td>\n\t</tr>\n</table>",
+        "o": [
+            "2 rows, 2 columns",
+            "3 rows, 1 column",
+            "1 row, 2 columns",
+            "Invalid markup"
+        ]
+    },
+    {
+        "q": "What tag adds captions to a table?",
+        "c": null,
+        "o": [
+            "<caption>",
+            "<colgroup>",
+            "<tfoot>",
+            "<thead>"
+        ]
+    },
+    {
+        "q": "What does this code represent?",
+        "c": "<table>\n\t<caption>Table Title</caption>\n</table>",
+        "o": [
+            "Table with title",
+            "Empty table",
+            "Only header",
+            "Invalid markup"
+        ]
+    },
+    {
+        "q": "Where should the <caption> tag be placed in a table?",
+        "c": null,
+        "o": [
+            "Above the table",
+            "Below the table",
+            "Inside a row",
+            "Next to a cell"
+        ]
+    },
+    {
+        "q": "What is the result of this code?",
+        "c": "<tr>\n\t<td>Cell 1</td>\n\t<td>Cell 2</td>\n</tr>",
+        "o": [
+            "1 row, 2 columns",
+            "2 rows, 1 column",
+            "3 rows",
+            "Invalid markup"
+        ]
+    },
+    {
+        "q": "How do you add padding inside cells?",
+        "c": null,
+        "o": [
+            "cellpadding",
+            "cellspacing",
+            "border",
+            "width"
+        ]
+    },
+    {
+        "q": "What does the <tbody> tag do?",
+        "c": "<tbody>\n\t<tr>\n\t\t<td>Data</td>\n\t</tr>\n</tbody>",
+        "o": [
+            "Defines table body",
+            "Defines header",
+            "Defines footer",
+            "Invalid markup"
+        ]
+    },
+    {
+        "q": "What tag defines the rows of a table?",
+        "c": null,
+        "o": [
+            "<tr>",
+            "<td>",
+            "<th>",
+            "<thead>"
+        ]
+    },
+    {
+        "q": "What does this code do?",
+        "c": "<td style='width:100px;'>Fixed Width</td>",
+        "o": [
+            "Sets cell width",
+            "Sets cell height",
+            "Invalid markup",
+            "Only table"
+        ]
+    },
+    {
+        "q": "What attribute merges cells horizontally?",
+        "c": null,
+        "o": [
+            "colspan",
+            "rowspan",
+            "cellpadding",
+            "cellspacing"
+        ]
+    },
+    {
+        "q": "How many columns are in this table?",
+        "c": "<table>\n\t<tr>\n\t\t<td>Cell 1</td>\n\t\t<td>Cell 2</td>\n\t</tr>\n</table>",
+        "o": [
+            "2 columns",
+            "1 column",
+            "3 columns",
+            "Invalid markup"
+        ]
+    },
+    {
+        "q": "Which attribute merges cells vertically?",
+        "c": null,
+        "o": [
+            "rowspan",
+            "colspan",
+            "cellpadding",
+            "cellspacing"
+        ]
+    },
+    {
+        "q": "What does this code achieve?",
+        "c": "<table>\n\t<tr>\n\t\t<th>Header 1</th>\n\t\t<th>Header 2</th>\n\t</tr>\n</table>",
+        "o": [
+            "2 headers",
+            "2 data cells",
+            "Invalid markup",
+            "Empty table"
+        ]
+    },
+    {
+        "q": "How do you define the number of rows a cell should span?",
+        "c": null,
+        "o": [
+            "rowspan",
+            "colspan",
+            "cellpadding",
+            "cellspacing"
+        ]
+    },
+    {
+        "q": "What is the purpose of this code?",
+        "c": "<td style='height:50px;'>Fixed Height</td>",
+        "o": [
+            "Sets cell height",
+            "Sets cell width",
+            "Invalid markup",
+            "Only table"
+        ]
+    },
+    {
+        "q": "What tag is used to group footer content in a table?",
+        "c": null,
+        "o": [
+            "<tfoot>",
+            "<thead>",
+            "<tbody>",
+            "<caption>"
+        ]
+    },
+    {
+        "q": "What does this code produce?",
+        "c": "<tr>\n\t<td>Row 1</td>\n\t<td>Row 1, Col 2</td>\n</tr>\n<tr>\n\t<td>Row 2</td>\n\t<td>Row 2, Col 2</td>\n</tr>",
+        "o": [
+            "2 rows, 2 columns",
+            "3 rows, 1 column",
+            "1 row, 2 columns",
+            "Invalid markup"
+        ]
+    },
+    {
+        "q": "What tag defines the body section of a table?",
+        "c": null,
+        "o": [
+            "<tbody>",
+            "<thead>",
+            "<tfoot>",
+            "<caption>"
+        ]
+    },
+    {
+        "q": "What does this code illustrate?",
+        "c": "<th colspan='2'>Merged Header</th>",
+        "o": [
+            "Header spans 2 columns",
+            "Header spans 2 rows",
+            "Invalid markup",
+            "Defines a footer"
+        ]
+    },
+    {
+        "q": "How can you control the space between table cells?",
+        "c": null,
+        "o": [
+            "cellspacing",
+            "cellpadding",
+            "border",
+            "width"
+        ]
+    },
+    {
+        "q": "What does this code produce?",
+        "c": "<table>\n\t<tr>\n\t\t<td>Item 1</td>\n\t\t<td>Item 2</td>\n\t</tr>\n</table>",
+        "o": [
+            "1 row, 2 columns",
+            "2 rows, 1 column",
+            "3 rows",
+            "Invalid markup"
+        ]
+    },
+    {
+        "q": "Which tag contains table rows in the body?",
+        "c": null,
+        "o": [
+            "<tbody>",
+            "<tfoot>",
+            "<thead>",
+            "<caption>"
+        ]
+    },
+    {
+        "q": "What will this code produce?",
+        "c": "<table>\n\t<tr>\n\t\t<td>Item 1</td>\n\t\t<td>Item 2</td>\n\t</tr>\n\t<tr>\n\t\t<td>Item 3</td>\n\t</tr>\n</table>",
+        "o": [
+            "2 rows, 2 columns",
+            "3 rows",
+            "1 column, 2 rows",
+            "Invalid markup"
+        ]
+    },
+    {
+        "q": "Which tag is used to define each row in a table body?",
+        "c": null,
+        "o": [
+            "<tr>",
+            "<td>",
+            "<th>",
+            "<tbody>"
+        ]
+    },
+    {
+        "q": "What does this code achieve?",
+        "c": "<tr style='border:1px solid black;'>\n\t<td>Row with Border</td>\n</tr>",
+        "o": [
+            "Row with border",
+            "Row without border",
+            "Invalid markup",
+            "Only table"
+        ]
+    },
+    {
+        "q": "How do you make table cells span multiple rows?",
+        "c": null,
+        "o": [
+            "rowspan",
+            "colspan",
+            "border",
+            "cellspacing"
+        ]
+    },
+    {
+        "q": "What does this code create?",
+        "c": "<table>\n\t<thead>\n\t\t<tr>\n\t\t\t<th>Header 1</th>\n\t\t\t<th>Header 2</th>\n\t\t</tr>\n\t</thead>\n</table>",
+        "o": [
+            "Table with 2 headers",
+            "Table with data",
+            "Empty table",
+            "Invalid markup"
+        ]
+    },
+    {
+        "q": "How do you make table cells span multiple columns?",
+        "c": null,
+        "o": [
+            "colspan",
+            "rowspan",
+            "border",
+            "cellspacing"
+        ]
+    },
+    {
+        "q": "What will this code produce?",
+        "c": "<td style='text-align:right;'>Right Aligned</td>",
+        "o": [
+            "Aligns text right",
+            "Aligns text center",
+            "Aligns text left",
+            "Invalid markup"
+        ]
+    },
+    {
+        "q": "What is the role of <thead> in an HTML table?",
+        "c": null,
+        "o": [
+            "Contains header rows",
+            "Contains footer rows",
+            "Contains body rows",
+            "Defines a column"
+        ]
+    },
+    {
+        "q": "What does this code demonstrate?",
+        "c": "<table>\n\t<tr>\n\t\t<td>Row 1</td>\n\t</tr>\n</table>",
+        "o": [
+            "1 row, 1 column",
+            "2 rows, 1 column",
+            "Invalid markup",
+            "Only header"
+        ]
+    },
+    {
+        "q": "What does cellpadding control in a table?",
+        "c": null,
+        "o": [
+            "Space inside cells",
+            "Space between cells",
+            "Cell width",
+            "Table border"
+        ]
+    },
+    {
+        "q": "What does this code produce?",
+        "c": "<tr>\n\t<td colspan='2'>Merged Cell</td>\n</tr>",
+        "o": [
+            "1 merged cell",
+            "2 separate cells",
+            "Invalid markup",
+            "Defines a header"
+        ]
+    },
+    {
+        "q": "What does cellspacing control in a table?",
+        "c": null,
+        "o": [
+            "Space between cells",
+            "Space inside cells",
+            "Border width",
+            "Cell padding"
+        ]
+    },
+    {
+        "q": "What is the result of this code?",
+        "c": "<td style='color:red;'>Red Text</td>",
+        "o": [
+            "Red colored text",
+            "Blue colored text",
+            "Invalid markup",
+            "Only table"
+        ]
+    },
+    {
+        "q": "What tag is used to define a column in a table?",
+        "c": null,
+        "o": [
+            "<col>",
+            "<thead>",
+            "<td>",
+            "<tr>"
+        ]
+    },
+    {
+        "q": "What does this code create?",
+        "c": "<table>\n\t<tr>\n\t\t<td>Data 1</td>\n\t\t<td>Data 2</td>\n\t</tr>\n</table>",
+        "o": [
+            "1 row, 2 columns",
+            "2 rows, 1 column",
+            "Invalid markup",
+            "Only header"
+        ]
+    },
+    {
+        "q": "What is the function of the <tfoot> element?",
+        "c": null,
+        "o": [
+            "Footer content",
+            "Header content",
+            "Body content",
+            "Group columns"
+        ]
+    },
+    {
+        "q": "What is the purpose of this code?",
+        "c": "<tr style='background-color:yellow;'>\n\t<td>Yellow Row</td>\n</tr>",
+        "o": [
+            "Creates yellow row",
+            "Creates white row",
+            "Invalid markup",
+            "Defines a footer"
+        ]
+    },
+    {
+        "q": "Which attribute defines the number of columns a cell should span?",
+        "c": null,
+        "o": [
+            "colspan",
+            "rowspan",
+            "cellpadding",
+            "cellspacing"
+        ]
+    },
+    {
+        "q": "What does this code achieve?",
+        "c": "<td colspan='2'>Wide Cell</td>",
+        "o": [
+            "Cell spans 2 columns",
+            "Cell spans 2 rows",
+            "Invalid markup",
+            "Defines a header"
+        ]
+    },
+    {
+        "q": "What is the purpose of the <colgroup> tag?",
+        "c": null,
+        "o": [
+            "Group columns",
+            "Group rows",
+            "Group headers",
+            "Group footers"
+        ]
+    },
+    {
+        "q": "What will this code produce?",
+        "c": "<table>\n\t<tr>\n\t\t<td>Data 1</td>\n\t\t<td>Data 2</td>\n\t\t<td>Data 3</td>\n\t</tr>\n</table>",
+        "o": [
+            "1 row, 3 columns",
+            "3 rows, 1 column",
+            "Invalid markup",
+            "Only header"
+        ]
+    },
+    {
+        "q": "How do you align text inside a table cell?",
+        "c": null,
+        "o": [
+            "align",
+            "colspan",
+            "rowspan",
+            "border"
+        ]
+    },
+    {
+        "q": "What does this code represent?",
+        "c": "<table>\n\t<caption>Sample Table</caption>\n</table>",
+        "o": [
+            "Table with caption",
+            "Empty table",
+            "Only header",
+            "Invalid markup"
+        ]
+    },
+    {
+        "q": "Which attribute is used to specify the width of a table?",
+        "c": null,
+        "o": [
+            "width",
+            "height",
+            "border",
+            "cellspacing"
+        ]
+    },
+    {
+        "q": "What does this code do?",
+        "c": "<td style='font-style:italic;'>Italic Text</td>",
+        "o": [
+            "Italicizes text",
+            "Bold text",
+            "Underlined text",
+            "Invalid markup"
+        ]
+    },
+    {
+        "q": "What is the default value for cellspacing?",
+        "c": null,
+        "o": [
+            "0",
+            "1",
+            "2",
+            "3"
+        ]
+    },
+    {
+        "q": "What will this code produce?",
+        "c": "<table>\n\t<tr>\n\t\t<td>Data 1</td>\n\t</tr>\n\t<tr>\n\t\t<td>Data 2</td>\n\t</tr>\n</table>",
+        "o": [
+            "2 rows, 1 column",
+            "1 row, 2 columns",
+            "Invalid markup",
+            "Only header"
+        ]
+    },
+    {
+        "q": "What is the purpose of the <table> tag?",
+        "c": null,
+        "o": [
+            "Define a table",
+            "Define a row",
+            "Define a cell",
+            "Define a header"
+        ]
+    },
+    {
+        "q": "What is the result of this code?",
+        "c": "<th>Header Cell</th>",
+        "o": [
+            "Defines a header cell",
+            "Defines a data cell",
+            "Invalid markup",
+            "Only table"
+        ]
+    },
+    {
+        "q": "Which tag creates a header cell?",
+        "c": null,
+        "o": [
+            "<th>",
+            "<td>",
+            "<tr>",
+            "<thead>"
+        ]
+    },
+    {
+        "q": "What does this code produce?",
+        "c": "<table>\n\t<tr>\n\t\t<td>Item 1</td>\n\t\t<td>Item 2</td>\n\t</tr>\n\t<tr>\n\t\t<td>Item 3</td>\n\t</tr>\n</table>",
+        "o": [
+            "2 rows, 2 columns",
+            "1 row, 3 columns",
+            "Invalid markup",
+            "Only header"
+        ]
+    },
+    {
+        "q": "What does the <caption> tag do?",
+        "c": null,
+        "o": [
+            "Defines a title",
+            "Defines a row",
+            "Defines a footer",
+            "Defines a header"
+        ]
+    },
+    {
+        "q": "What is the purpose of this code?",
+        "c": "<td style='border:1px solid black;'>Bordered Cell</td>",
+        "o": [
+            "Creates bordered cell",
+            "Creates unbordered cell",
+            "Invalid markup",
+            "Only table"
+        ]
+    },
+    {
+        "q": "What is the role of the <tr> tag?",
+        "c": null,
+        "o": [
+            "Defines a table row",
+            "Defines a cell",
+            "Defines a header",
+            "Defines a footer"
+        ]
+    },
+    {
+        "q": "What does this code create?",
+        "c": "<table>\n\t<thead>\n\t\t<tr>\n\t\t\t<th>Header 1</th>\n\t\t\t<th>Header 2</th>\n\t\t</tr>\n\t</thead>\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>Data 1</td>\n\t\t\t<td>Data 2</td>\n\t\t</tr>\n\t</tbody>\n</table>",
+        "o": [
+            "Table with headers and data",
+            "Only headers",
+            "Only data",
+            "Invalid markup"
+        ]
+    },
+    {
+        "q": "How do you make a table header bold?",
+        "c": null,
+        "o": [
+            "By default",
+            "Using <strong>",
+            "Using <b>",
+            "Using CSS"
+        ]
+    },
+    {
+        "q": "What does this code demonstrate?",
+        "c": "<tr>\n\t<td style='font-weight:bold;'>Bold Text</td>\n</tr>",
+        "o": [
+            "Bold text in cell",
+            "Italic text",
+            "Underlined text",
+            "Invalid markup"
+        ]
+    },
+    {
+        "q": "Which attribute can be added to a table to make it scrollable?",
+        "c": null,
+        "o": [
+            "overflow",
+            "scroll",
+            "display",
+            "position"
+        ]
+    },
+    {
+        "q": "What does this code produce?",
+        "c": "<table>\n\t<thead>\n\t\t<tr>\n\t\t\t<th>Column 1</th>\n\t\t\t<th>Column 2</th>\n\t\t</tr>\n\t</thead>\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>Data 1</td>\n\t\t\t<td>Data 2</td>\n\t\t</tr>\n\t</tbody>\n</table>",
+        "o": [
+            "Table with headers and data",
+            "Only headers",
+            "Only data",
+            "Invalid markup"
+        ]
+    },
+    {
+        "q": "What does the <thead> section usually contain?",
+        "c": null,
+        "o": [
+            "Column headers",
+            "Footer data",
+            "Body data",
+            "Row data"
+        ]
+    },
+    {
+        "q": "What does this code create?",
+        "c": "<td style='padding:10px;'>Padded Cell</td>",
+        "o": [
+            "Cell with padding",
+            "Cell without padding",
+            "Invalid markup",
+            "Creates a table"
+        ]
+    },
+    {
+        "q": "How do you apply styles to a specific table?",
+        "c": null,
+        "o": [
+            "Using CSS classes",
+            "Using inline styles",
+            "Using IDs",
+            "All of the above"
+        ]
+    },
+    {
+        "q": "What does this code achieve?",
+        "c": "<table>\n\t<tr>\n\t\t<td rowspan='2'>Data 1</td>\n\t\t<td>Data 2</td>\n\t</tr>\n\t<tr>\n\t\t<td>Data 3</td>\n\t</tr>\n</table>",
+        "o": [
+            "2 rows, 2 columns",
+            "3 rows",
+            "1 column, 2 rows",
+            "Invalid markup"
+        ]
+    },
+    {
+        "q": "Which tag is used to start a new cell in a row?",
+        "c": null,
+        "o": [
+            "<td>",
+            "<tr>",
+            "<th>",
+            "<tfoot>"
+        ]
+    },
+    {
+        "q": "What is the effect of this code?",
+        "c": "<table>\n\t<tr>\n\t\t<td style='border-collapse:collapse;'>Cell</td>\n\t</tr>\n</table>",
+        "o": [
+            "Collapses borders",
+            "Creates separate borders",
+            "Invalid markup",
+            "Only table"
+        ]
+    },
+    {
+        "q": "How do you make the borders of a table collapse?",
+        "c": null,
+        "o": [
+            "border-collapse",
+            "cellspacing",
+            "cellpadding",
+            "border"
+        ]
+    },
+    {
+        "q": "What will this code produce?",
+        "c": "<table>\n\t<tr>\n\t\t<th>Title</th>\n\t\t<td>Content</td>\n\t</tr>\n</table>",
+        "o": [
+            "1 header, 1 data cell",
+            "2 headers",
+            "Invalid markup",
+            "Only title"
+        ]
+    },
+    {
+        "q": "What attribute specifies the height of a table cell?",
+        "c": null,
+        "o": [
+            "height",
+            "width",
+            "cellpadding",
+            "cellspacing"
+        ]
+    },
+    {
+        "q": "What is the purpose of this code?",
+        "c": "<td style='vertical-align:bottom;'>Bottom Aligned</td>",
+        "o": [
+            "Aligns text bottom",
+            "Aligns text top",
+            "Aligns text center",
+            "Invalid markup"
+        ]
+    },
+    {
+        "q": "Which tag defines the first header in a table?",
+        "c": null,
+        "o": [
+            "<th>",
+            "<td>",
+            "<tr>",
+            "<caption>"
+        ]
+    },
+    {
+        "q": "How does this code affect the table?",
+        "c": "<tr>\n\t<td colspan='2' style='background-color:lightblue;'>Merged Row</td>\n</tr>",
+        "o": [
+            "Creates merged row",
+            "Creates separate rows",
+            "Invalid markup",
+            "Defines a header"
+        ]
+    },
+    {
+        "q": "Which CSS property is used to set the table layout?",
+        "c": null,
+        "o": [
+            "table-layout",
+            "layout",
+            "border",
+            "cellpadding"
+        ]
+    },
+    {
+        "q": "What does this code produce?",
+        "c": "<table>\n\t<tr>\n\t\t<td>Data 1</td>\n\t\t<td>Data 2</td>\n\t</tr>\n\t<tr>\n\t\t<td>Data 3</td>\n\t</tr>\n</table>",
+        "o": [
+            "2 rows, 2 columns",
+            "3 rows, 1 column",
+            "1 row, 2 columns",
+            "Invalid markup"
+        ]
+    },
+    {
+        "q": "What will happen if no colspan is specified?",
+        "c": null,
+        "o": [
+            "Single column",
+            "Merge cells",
+            "Double column",
+            "Invalid markup"
+        ]
+    },
+    {
+        "q": "What does this code represent?",
+        "c": "<table>\n\t<caption>Table Title</caption>\n</table>",
+        "o": [
+            "Table with title",
+            "Empty table",
+            "Only header",
+            "Invalid markup"
+        ]
+    },
+    {
+        "q": "What happens to a cell with rowspan='3'?",
+        "c": null,
+        "o": [
+            "Spans 3 rows",
+            "Spans 2 rows",
+            "Spans 1 row",
+            "Spans 4 rows"
+        ]
+    },
+    {
+        "q": "What is the result of this code?",
+        "c": "<tr>\n\t<td>Cell 1</td>\n\t<td>Cell 2</td>\n</tr>",
+        "o": [
+            "1 row, 2 columns",
+            "2 rows, 1 column",
+            "3 rows",
+            "Invalid markup"
+        ]
+    },
+    {
+        "q": "Which attribute sets the spacing inside a cell?",
+        "c": null,
+        "o": [
+            "cellpadding",
+            "cellspacing",
+            "width",
+            "border"
+        ]
+    },
+    {
+        "q": "What does the <tbody> tag do?",
+        "c": "<tbody>\n\t<tr>\n\t\t<td>Data</td>\n\t</tr>\n</tbody>",
+        "o": [
+            "Defines table body",
+            "Defines header",
+            "Defines footer",
+            "Invalid markup"
+        ]
+    },
+    {
+        "q": "How do you change the text color in a table?",
+        "c": null,
+        "o": [
+            "Using CSS",
+            "Using <font>",
+            "Using <color>",
+            "Using <text>"
+        ]
+    },
+    {
+        "q": "What does this code do?",
+        "c": "<td style='width:100px;'>Narrow Cell</td>",
+        "o": [
+            "Creates narrow cell",
+            "Creates wide cell",
+            "Invalid markup",
+            "Defines a header"
+        ]
+    },
+    {
+        "q": "Which property controls the border color of a table?",
+        "c": null,
+        "o": [
+            "border-color",
+            "border-style",
+            "border-width",
+            "border"
+        ]
+    },
+    {
+        "q": "What does this code demonstrate?",
+        "c": "<tr>\n\t<td colspan='2'>Combined Cell</td>\n</tr>",
+        "o": [
+            "Combines two cells",
+            "Only header",
+            "Invalid markup",
+            "Defines a footer"
+        ]
+    },
+    {
+        "q": "What tag can contain multiple header cells?",
+        "c": null,
+        "o": [
+            "<tr>",
+            "<th>",
+            "<td>",
+            "<thead>"
+        ]
+    },
+    {
+        "q": "What will this code produce?",
+        "c": "<table>\n\t<thead>\n\t\t<tr>\n\t\t\t<th>Column A</th>\n\t\t\t<th>Column B</th>\n\t\t</tr>\n\t</thead>\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>Value 1</td>\n\t\t\t<td>Value 2</td>\n\t\t</tr>\n\t</tbody>\n</table>",
+        "o": [
+            "Table with headers and data",
+            "Only headers",
+            "Only data",
+            "Invalid markup"
+        ]
+    },
+    {
+        "q": "What does the 'align' attribute do?",
+        "c": null,
+        "o": [
+            "Aligns text",
+            "Merges cells",
+            "Spans rows",
+            "Defines width"
+        ]
+    },
+    {
+        "q": "What does this code produce?",
+        "c": "<td style='text-align:center;'>Centered Text</td>",
+        "o": [
+            "Center aligns text",
+            "Left aligns text",
+            "Right aligns text",
+            "Invalid markup"
+        ]
+    },
+    {
+        "q": "What happens if a table is too wide for its container?",
+        "c": null,
+        "o": [
+            "Overflow",
+            "Hide",
+            "Adjust width",
+            "Invalid markup"
+        ]
+    },
+    {
+        "q": "What does this code achieve?",
+        "c": "<table>\n\t<tr>\n\t\t<td colspan='2' style='border:2px solid black;'>Bordered Cell</td>\n\t</tr>\n</table>",
+        "o": [
+            "Creates bordered merged cell",
+            "Creates unbordered cell",
+            "Invalid markup",
+            "Only table"
+        ]
+    },
+    {
+        "q": "What does the <caption> tag allow?",
+        "c": null,
+        "o": [
+            "Adds a title",
+            "Adds a footer",
+            "Adds a row",
+            "Adds a cell"
+        ]
+    },
+    {
+        "q": "What does this code produce?",
+        "c": "<table>\n\t<tr>\n\t\t<td>Data 1</td>\n\t\t<td>Data 2</td>\n\t</tr>\n</table>",
+        "o": [
+            "1 row, 2 columns",
+            "2 rows, 1 column",
+            "Invalid markup",
+            "Only header"
+        ]
+    },
+    {
+        "q": "Which attribute is used for vertical alignment?",
+        "c": null,
+        "o": [
+            "valign",
+            "align",
+            "height",
+            "width"
+        ]
+    },
+    {
+        "q": "What is the result of this code?",
+        "c": "<tr>\n\t<td colspan='2'>Merged Cell</td>\n</tr>",
+        "o": [
+            "1 merged cell",
+            "2 separate cells",
+            "Invalid markup",
+            "Defines a header"
+        ]
+    },
+    {
+        "q": "What tag is used to create a nested table?",
+        "c": null,
+        "o": [
+            "<table>",
+            "<div>",
+            "<section>",
+            "<tr>"
+        ]
+    },
+    {
+        "q": "What is the result of this code?",
+        "c": "<td style='color:red;'>Red Text</td>",
+        "o": [
+            "Red colored text",
+            "Blue colored text",
+            "Invalid markup",
+            "Only table"
+        ]
+    },
+    {
+        "q": "What tag defines the last row of a table?",
+        "c": null,
+        "o": [
+            "<tr>",
+            "<td>",
+            "<th>",
+            "<tfoot>"
+        ]
+    },
+    {
+        "q": "What does this code create?",
+        "c": "<table>\n\t<tr>\n\t\t<td>Data 1</td>\n\t\t<td>Data 2</td>\n\t</tr>\n</table>",
+        "o": [
+            "1 row, 2 columns",
+            "2 rows, 1 column",
+            "Invalid markup",
+            "Only header"
+        ]
+    },
+    {
+        "q": "Which property can make table rows alternate colors?",
+        "c": null,
+        "o": [
+            "nth-child",
+            "color",
+            "background",
+            "opacity"
+        ]
+    },
+    {
+        "q": "What is the purpose of this code?",
+        "c": "<tr style='background-color:yellow;'>\n\t<td>Yellow Row</td>\n</tr>",
+        "o": [
+            "Creates yellow row",
+            "Creates white row",
+            "Invalid markup",
+            "Defines a footer"
+        ]
+    },
+    {
+        "q": "Which element represents a set of rows in a table?",
+        "c": null,
+        "o": [
+            "<tbody>",
+            "<thead>",
+            "<tfoot>",
+            "<tr>"
+        ]
+    },
+    {
+        "q": "What does this code achieve?",
+        "c": "<td colspan='2'>Wide Cell</td>",
+        "o": [
+            "Cell spans 2 columns",
+            "Cell spans 2 rows",
+            "Invalid markup",
+            "Defines a header"
+        ]
+    },
+    {
+        "q": "How do you add a header to a table?",
+        "c": null,
+        "o": [
+            "<th>",
+            "<td>",
+            "<tr>",
+            "<caption>"
+        ]
+    },
+    {
+        "q": "What will this code produce?",
+        "c": "<table>\n\t<tr>\n\t\t<td>Data 1</td>\n\t\t<td>Data 2</td>\n\t\t<td>Data 3</td>\n\t</tr>\n</table>",
+        "o": [
+            "1 row, 3 columns",
+            "3 rows, 1 column",
+            "Invalid markup",
+            "Only header"
+        ]
+    },
+    {
+        "q": "What is a common use of <thead>?",
+        "c": null,
+        "o": [
+            "Repeat headers",
+            "Repeat footers",
+            "Style cells",
+            "Group data"
+        ]
+    },
+    {
+        "q": "What does this code represent?",
+        "c": "<table>\n\t<caption>Sample Table</caption>\n</table>",
+        "o": [
+            "Table with caption",
+            "Empty table",
+            "Only header",
+            "Invalid markup"
+        ]
+    },
+    {
+        "q": "How is <tfoot> usually used?",
+        "c": null,
+        "o": [
+            "At the end of a table",
+            "At the beginning",
+            "In the middle",
+            "Randomly"
+        ]
+    },
+    {
+        "q": "What does this code do?",
+        "c": "<td style='font-style:italic;'>Italic Text</td>",
+        "o": [
+            "Italicizes text",
+            "Bold text",
+            "Underlined text",
+            "Invalid markup"
+        ]
+    },
+    {
+        "q": "Which tag is used for adding data to a cell?",
+        "c": null,
+        "o": [
+            "<td>",
+            "<tr>",
+            "<th>",
+            "<tbody>"
+        ]
+    },
+    {
+        "q": "What will this code produce?",
+        "c": "<table>\n\t<tr>\n\t\t<td>Data 1</td>\n\t</tr>\n\t<tr>\n\t\t<td>Data 2</td>\n\t</tr>\n</table>",
+        "o": [
+            "2 rows, 1 column",
+            "1 row, 2 columns",
+            "Invalid markup",
+            "Only header"
+        ]
+    },
+    {
+        "q": "What does a cell with colspan='1' do?",
+        "c": null,
+        "o": [
+            "Stays the same",
+            "Merges",
+            "Spans rows",
+            "Spans columns"
+        ]
+    },
+    {
+        "q": "What is the result of this code?",
+        "c": "<th>Header Cell</th>",
+        "o": [
+            "Defines a header cell",
+            "Defines a data cell",
+            "Invalid markup",
+            "Only table"
+        ]
+    },
+    {
+        "q": "How can you specify a table as a fixed layout?",
+        "c": null,
+        "o": [
+            "table-layout: fixed;",
+            "layout: fixed;",
+            "border: fixed;",
+            "overflow: fixed;"
+        ]
+    },
+    {
+        "q": "What does this code produce?",
+        "c": "<table>\n\t<tr>\n\t\t<td>Item 1</td>\n\t\t<td>Item 2</td>\n\t</tr>\n\t<tr>\n\t\t<td>Item 3</td>\n\t</tr>\n</table>",
+        "o": [
+            "2 rows, 2 columns",
+            "1 row, 3 columns",
+            "Invalid markup",
+            "Only header"
+        ]
+    },
+    {
+        "q": "Which attribute adjusts the table's overall width?",
+        "c": null,
+        "o": [
+            "width",
+            "height",
+            "border",
+            "cellspacing"
+        ]
+    },
+    {
+        "q": "What is the purpose of this code?",
+        "c": "<td style='border:1px solid black;'>Bordered Cell</td>",
+        "o": [
+            "Creates bordered cell",
+            "Creates unbordered cell",
+            "Invalid markup",
+            "Only table"
+        ]
+    },
+    {
+        "q": "What does <tr> contain?",
+        "c": null,
+        "o": [
+            "Table rows",
+            "Table headers",
+            "Table cells",
+            "Table captions"
+        ]
+    },
+    {
+        "q": "What does this code create?",
+        "c": "<table>\n\t<thead>\n\t\t<tr>\n\t\t\t<th>Header 1</th>\n\t\t\t<th>Header 2</th>\n\t\t</tr>\n\t</thead>\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>Data 1</td>\n\t\t\t<td>Data 2</td>\n\t\t</tr>\n\t</tbody>\n</table>",
+        "o": [
+            "Table with headers and data",
+            "Only headers",
+            "Only data",
+            "Invalid markup"
+        ]
+    },
+    {
+        "q": "What type of content is allowed inside <th>?",
+        "c": null,
+        "o": [
+            "Header content",
+            "Footer content",
+            "Body content",
+            "Group content"
+        ]
+    },
+    {
+        "q": "What does this code demonstrate?",
+        "c": "<tr>\n\t<td style='font-weight:bold;'>Bold Text</td>\n</tr>",
+        "o": [
+            "Bold text in cell",
+            "Italic text",
+            "Underlined text",
+            "Invalid markup"
+        ]
+    },
+    {
+        "q": "What attribute aligns text within a table cell?",
+        "c": null,
+        "o": [
+            "align",
+            "valign",
+            "style",
+            "width"
+        ]
+    },
+    {
+        "q": "What does this code produce?",
+        "c": "<table>\n\t<thead>\n\t\t<tr>\n\t\t\t<th>Column 1</th>\n\t\t\t<th>Column 2</th>\n\t\t</tr>\n\t</thead>\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>Data 1</td>\n\t\t\t<td>Data 2</td>\n\t\t</tr>\n\t</tbody>\n</table>",
+        "o": [
+            "Table with headers and data",
+            "Only headers",
+            "Only data",
+            "Invalid markup"
+        ]
+    },
+    {
+        "q": "What does the <table> element represent?",
+        "c": null,
+        "o": [
+            "A table structure",
+            "A row structure",
+            "A header structure",
+            "A footer structure"
+        ]
+    },
+    {
+        "q": "What does this code create?",
+        "c": "<td style='padding:10px;'>Padded Cell</td>",
+        "o": [
+            "Cell with padding",
+            "Cell without padding",
+            "Invalid markup",
+            "Creates a table"
+        ]
+    },
+    {
+        "q": "What does <td> stand for?",
+        "c": null,
+        "o": [
+            "Table Data",
+            "Table Division",
+            "Table Description",
+            "Table Definition"
+        ]
+    },
+    {
+        "q": "What does this code achieve?",
+        "c": "<table>\n\t<tr>\n\t\t<td rowspan='2'>Data 1</td>\n\t\t<td>Data 2</td>\n\t</tr>\n\t<tr>\n\t\t<td>Data 3</td>\n\t</tr>\n</table>",
+        "o": [
+            "2 rows, 2 columns",
+            "3 rows",
+            "1 column, 2 rows",
+            "Invalid markup"
+        ]
+    },
+    {
+        "q": "How do you indicate a column header?",
+        "c": null,
+        "o": [
+            "<th>",
+            "<td>",
+            "<tr>",
+            "<tbody>"
+        ]
+    },
+    {
+        "q": "What is the effect of this code?",
+        "c": "<table>\n\t<tr>\n\t\t<td style='border-collapse:collapse;'>Cell</td>\n\t</tr>\n</table>",
+        "o": [
+            "Collapses borders",
+            "Creates separate borders",
+            "Invalid markup",
+            "Only table"
+        ]
+    },
+    {
+        "q": "What is the primary purpose of <tfoot>?",
+        "c": null,
+        "o": [
+            "Display footer data",
+            "Display header data",
+            "Display body data",
+            "Display column data"
+        ]
+    },
+    {
+        "q": "What will this code produce?",
+        "c": "<table>\n\t<tr>\n\t\t<td colspan='2'>Combined Cell</td>\n</tr>",
+        "o": [
+            "Combines two cells",
+            "Only header",
+            "Invalid markup",
+            "Defines a footer"
+        ]
+    },
+    {
+        "q": "Which tag creates a new table cell?",
+        "c": null,
+        "o": [
+            "<td>",
+            "<th>",
+            "<tr>",
+            "<thead>"
+        ]
+    },
+    {
+        "q": "What does this code produce?",
+        "c": "<td style='text-align:center;'>Centered Text</td>",
+        "o": [
+            "Center aligns text",
+            "Left aligns text",
+            "Right aligns text",
+            "Invalid markup"
+        ]
+    },
+    {
+        "q": "What does a rowspan of 2 do?",
+        "c": null,
+        "o": [
+            "Spans 2 rows",
+            "Spans 2 columns",
+            "Spans 1 row",
+            "Spans 3 rows"
+        ]
+    },
+    {
+        "q": "What does this code achieve?",
+        "c": "<table>\n\t<tr>\n\t\t<td colspan='2' style='border:2px solid black;'>Bordered Cell</td>\n\t</tr>\n</table>",
+        "o": [
+            "Creates bordered merged cell",
+            "Creates unbordered cell",
+            "Invalid markup",
+            "Only table"
+        ]
+    },
+    {
+        "q": "What happens if you set colspan greater than the number of columns?",
+        "c": null,
+        "o": [
+            "Invalid markup",
+            "No effect",
+            "Spans remaining columns",
+            "Merges all cells"
+        ]
+    },
+    {
+        "q": "What attribute adjusts space inside a table cell?",
+        "c": null,
+        "o": [
+            "cellpadding",
+            "cellspacing",
+            "border",
+            "width"
+        ]
+    },
+    {
+        "q": "What is the default alignment for <th>?",
+        "c": null,
+        "o": [
+            "Center",
+            "Left",
+            "Right",
+            "Justified"
+        ]
+    },
+    {
+        "q": "Which CSS property can make a table header sticky?",
+        "c": null,
+        "o": [
+            "position: sticky;",
+            "overflow: hidden;",
+            "display: block;",
+            "float: left;"
+        ]
+    },
+    {
+        "q": "Which tag defines a group of header cells?",
+        "c": null,
+        "o": [
+            "<thead>",
+            "<tfoot>",
+            "<tbody>",
+            "<colgroup>"
+        ]
+    },
+    {
+        "q": "What is the purpose of the <tbody> tag?",
+        "c": null,
+        "o": [
+            "Group body rows",
+            "Group header rows",
+            "Group footer rows",
+            "Group column groups"
+        ]
+    },
+    {
+        "q": "How do you create a simple table?",
+        "c": null,
+        "o": [
+            "Use <table>, <tr>, <td>",
+            "Use <div>",
+            "Use <form>",
+            "Use <ul>"
+        ]
+    },
+    {
+        "q": "What attribute sets the padding inside a cell?",
+        "c": null,
+        "o": [
+            "cellpadding",
+            "border",
+            "width",
+            "height"
+        ]
+    },
+    {
+        "q": "How do you specify a header in a row?",
+        "c": null,
+        "o": [
+            "<th>",
+            "<td>",
+            "<tr>",
+            "<tbody>"
+        ]
+    },
+    {
+        "q": "What does the <col> tag define?",
+        "c": null,
+        "o": [
+            "Column properties",
+            "Row properties",
+            "Cell properties",
+            "Header properties"
+        ]
+    },
+    {
+        "q": "What does a table with no borders look like?",
+        "c": null,
+        "o": [
+            "Invisible borders",
+            "Visible borders",
+            "Dashed borders",
+            "Dotted borders"
+        ]
+    },
+    {
+        "q": "How do you make a table responsive?",
+        "c": null,
+        "o": [
+            "Use CSS",
+            "Use JavaScript",
+            "Use tables",
+            "Use divs"
+        ]
+    },
+    {
+        "q": "Which attribute is deprecated in HTML5?",
+        "c": null,
+        "o": [
+            "border",
+            "cellspacing",
+            "cellpadding",
+            "align"
+        ]
+    },
+    {
+        "q": "How do you insert a line break in a cell?",
+        "c": null,
+        "o": [
+            "<br>",
+            "<hr>",
+            "<tr>",
+            "<td>"
+        ]
+    },
+    {
+        "q": "What attribute makes a table cell invisible?",
+        "c": null,
+        "o": [
+            "style='display:none'",
+            "hidden",
+            "invisible",
+            "style='visibility:hidden'"
+        ]
+    },
+    {
+        "q": "How do you center a table?",
+        "c": null,
+        "o": [
+            "margin:auto;",
+            "align:center;",
+            "display:block;",
+            "float:center;"
+        ]
+    },
+    {
+        "q": "What is the default border style of a table?",
+        "c": null,
+        "o": [
+            "None",
+            "Solid",
+            "Dashed",
+            "Dotted"
+        ]
+    },
+    {
+        "q": "How can you specify a table's border width?",
+        "c": null,
+        "o": [
+            "border-width",
+            "border",
+            "width",
+            "height"
+        ]
+    },
+    {
+        "q": "Which attribute sets the cell's background color?",
+        "c": null,
+        "o": [
+            "bgcolor",
+            "background-color",
+            "color",
+            "style"
+        ]
+    },
+    {
+        "q": "How do you make a table cell editable?",
+        "c": null,
+        "o": [
+            "contenteditable",
+            "editable",
+            "editable='true'",
+            "style='editable'"
+        ]
+    },
+    {
+        "q": "What does the <tr> tag do?",
+        "c": null,
+        "o": [
+            "Defines a table row",
+            "Defines a header cell",
+            "Defines a footer cell",
+            "Defines a column"
+        ]
+    },
+    {
+        "q": "What attribute can specify a table's caption position?",
+        "c": null,
+        "o": [
+            "caption-side",
+            "position",
+            "align",
+            "style"
+        ]
+    },
+    {
+        "q": "Which element groups the footer of a table?",
+        "c": null,
+        "o": [
+            "<tfoot>",
+            "<thead>",
+            "<tbody>",
+            "<tr>"
+        ]
+    },
+    {
+        "q": "What is the purpose of the <th> tag?",
+        "c": null,
+        "o": [
+            "Define header cells",
+            "Define data cells",
+            "Define rows",
+            "Define columns"
+        ]
+    },
+    {
+        "q": "How do you style a table row?",
+        "c": null,
+        "o": [
+            "Using CSS",
+            "Using HTML",
+            "Using JavaScript",
+            "Using PHP"
+        ]
+    },
+    {
+        "q": "What happens to a table with no <tbody> tag?",
+        "c": null,
+        "o": [
+            "Invalid markup",
+            "Still valid",
+            "Empty",
+            "Only headers"
+        ]
+    },
+    {
+        "q": "How do you add a border to a table?",
+        "c": null,
+        "o": [
+            "border='1'",
+            "style='border:1px'",
+            "border='solid'",
+            "border-color='black'"
+        ]
+    },
+    {
+        "q": "What will the colspan attribute accept?",
+        "c": null,
+        "o": [
+            "Positive integers",
+            "Negative integers",
+            "Zero",
+            "Strings"
+        ]
+    },
+    {
+        "q": "What attribute specifies the width of a cell?",
+        "c": null,
+        "o": [
+            "width",
+            "cellspacing",
+            "cellpadding",
+            "border"
+        ]
+    },
+    {
+        "q": "Which tag defines a single cell in a row?",
+        "c": null,
+        "o": [
+            "<td>",
+            "<tr>",
+            "<th>",
+            "<tbody>"
+        ]
+    },
+    {
+        "q": "What is the default cell padding value?",
+        "c": null,
+        "o": [
+            "0",
+            "5",
+            "10",
+            "15"
+        ]
+    },
+    {
+        "q": "What does the align attribute do?",
+        "c": null,
+        "o": [
+            "Aligns cell content",
+            "Sets border",
+            "Defines cell type",
+            "Sets spacing"
+        ]
+    },
+    {
+        "q": "How do you merge two rows?",
+        "c": null,
+        "o": [
+            "rowspan",
+            "colspan",
+            "align",
+            "valign"
+        ]
+    },
+    {
+        "q": "What is a table footer used for?",
+        "c": null,
+        "o": [
+            "Summary data",
+            "Header information",
+            "Body content",
+            "Column definitions"
+        ]
+    },
+    {
+        "q": "Which property controls cell spacing?",
+        "c": null,
+        "o": [
+            "cellspacing",
+            "cellpadding",
+            "border",
+            "align"
+        ]
+    },
+    {
+        "q": "How do you specify a table as striped?",
+        "c": null,
+        "o": [
+            "Use CSS",
+            "Use <tr>",
+            "Use <td>",
+            "Use <th>"
+        ]
+    },
+    {
+        "q": "What happens to a cell without any content?",
+        "c": null,
+        "o": [
+            "Empty cell",
+            "Visible space",
+            "Invalid",
+            "Hidden"
+        ]
+    },
+    {
+        "q": "What does a table without a caption indicate?",
+        "c": null,
+        "o": [
+            "No title",
+            "Invalid markup",
+            "Hidden",
+            "Empty"
+        ]
+    },
+    {
+        "q": "Which element defines the structure of a table?",
+        "c": null,
+        "o": [
+            "<table>",
+            "<tr>",
+            "<td>",
+            "<th>"
+        ]
+    },
+    {
+        "q": "How do you specify a custom font for table content?",
+        "c": null,
+        "o": [
+            "Using CSS",
+            "Using HTML",
+            "Using JavaScript",
+            "Using attributes"
+        ]
+    },
+    {
+        "q": "What happens if a cell has colspan='2'?",
+        "c": null,
+        "o": [
+            "Spans 2 columns",
+            "Spans 2 rows",
+            "Spans 1 column",
+            "Invalid markup"
+        ]
+    },
+    {
+        "q": "What is the purpose of the <style> tag in tables?",
+        "c": null,
+        "o": [
+            "Apply CSS styles",
+            "Define table properties",
+            "Create headers",
+            "Set borders"
+        ]
+    },
+    {
+        "q": "How do you create a hidden column?",
+        "c": null,
+        "o": [
+            "Use CSS display:none",
+            "Use colspan",
+            "Use rowspan",
+            "Use hidden attribute"
+        ]
+    },
+    {
+        "q": "Which tag is used to create a caption for a table?",
+        "c": null,
+        "o": [
+            "<caption>",
+            "<title>",
+            "<header>",
+            "<summary>"
+        ]
+    },
+    {
+        "q": "What attribute adjusts space between table cells?",
+        "c": null,
+        "o": [
+            "cellspacing",
+            "cellpadding",
+            "border",
+            "width"
+        ]
+    },
+    {
+        "q": "What does the <caption> tag do?",
+        "c": null,
+        "o": [
+            "Adds a title to a table",
+            "Groups cells",
+            "Defines rows",
+            "Creates a header"
+        ]
+    },
+    {
+        "q": "How do you make a cell span multiple columns?",
+        "c": null,
+        "o": [
+            "colspan",
+            "rowspan",
+            "merge",
+            "combine"
+        ]
+    },
+    {
+        "q": "What is the purpose of using <tbody>?",
+        "c": null,
+        "o": [
+            "Group body content",
+            "Group header content",
+            "Group footer content",
+            "Define styles"
+        ]
+    },
+    {
+        "q": "How do you make the first column fixed in a scrolling table?",
+        "c": null,
+        "o": [
+            "Use CSS",
+            "Use HTML",
+            "Use JavaScript",
+            "Use <th>"
+        ]
+    },
+    {
+        "q": "What happens to a table with only <thead> and <tfoot>?",
+        "c": null,
+        "o": [
+            "No body",
+            "Invalid markup",
+            "Empty",
+            "Only headers and footers"
+        ]
+    }
+]

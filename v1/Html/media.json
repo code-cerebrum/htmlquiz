@@ -1,0 +1,1912 @@
+[
+    {
+        "q": "What does this code embed?",
+        "c": "<video src='movie.mp4' \ncontrols></video>",
+        "o": [
+            "A video",
+            "An image",
+            "An audio",
+            "A canvas"
+        ]
+    },
+    {
+        "q": "What tag is used to embed a video?",
+        "c": null,
+        "o": [
+            "<video>",
+            "<embed>",
+            "<audio>",
+            "<img>"
+        ]
+    },
+    {
+        "q": "What does this code define?",
+        "c": "<audio src='song.mp3' \nautoplay></audio>",
+        "o": [
+            "An autoplay audio",
+            "An image",
+            "A video",
+            "A text track"
+        ]
+    },
+    {
+        "q": "Which attribute specifies the source of an audio file?",
+        "c": null,
+        "o": [
+            "src",
+            "href",
+            "link",
+            "audio"
+        ]
+    },
+    {
+        "q": "What is the purpose of 'controls' in this code?",
+        "c": "<video src='movie.mp4' \ncontrols></video>",
+        "o": [
+            "Shows video controls",
+            "Defines video source",
+            "Sets video size",
+            "Links audio"
+        ]
+    },
+    {
+        "q": "What tag is used for displaying images?",
+        "c": null,
+        "o": [
+            "<img>",
+            "<picture>",
+            "<video>",
+            "<media>"
+        ]
+    },
+    {
+        "q": "What will this code do?",
+        "c": "<img src='picture.jpg' \nalt='Description'>",
+        "o": [
+            "Displays an image",
+            "Plays audio",
+            "Embeds video",
+            "Creates a link"
+        ]
+    },
+    {
+        "q": "Which attribute is used to control video playback?",
+        "c": null,
+        "o": [
+            "controls",
+            "play",
+            "pause",
+            "start"
+        ]
+    },
+    {
+        "q": "What does 'loop' do in this code?",
+        "c": "<audio src='tune.mp3' \nloop></audio>",
+        "o": [
+            "Repeats audio",
+            "Stops playback",
+            "Defines volume",
+            "Changes source"
+        ]
+    },
+    {
+        "q": "What is the correct way to link an audio file?",
+        "c": null,
+        "o": [
+            "<audio src='file.mp3'>",
+            "<sound src='file.mp3'>",
+            "<music file='file.mp3'>",
+            "<audio href='file.mp3'>"
+        ]
+    },
+    {
+        "q": "What does this code represent?",
+        "c": "<iframe src='https://www.example.com'></iframe>",
+        "o": [
+            "An embedded page",
+            "An image",
+            "An audio file",
+            "A video"
+        ]
+    },
+    {
+        "q": "What tag is used for audio elements?",
+        "c": null,
+        "o": [
+            "<audio>",
+            "<sound>",
+            "<media>",
+            "<video>"
+        ]
+    },
+    {
+        "q": "What is defined by this code?",
+        "c": "<source src='video.mp4' \ntype='video/mp4'>",
+        "o": [
+            "Video source",
+            "Audio source",
+            "Image source",
+            "File type"
+        ]
+    },
+    {
+        "q": "Which attribute allows you to loop a video?",
+        "c": null,
+        "o": [
+            "loop",
+            "repeat",
+            "cycle",
+            "playback"
+        ]
+    },
+    {
+        "q": "What will happen with this code?",
+        "c": "<picture>\n<source srcset='img.webp' type='image/webp'>\n<img src='img.jpg' alt='Image'>\n</picture>",
+        "o": [
+            "Displays a responsive image",
+            "Plays a video",
+            "Defines audio source",
+            "Shows text"
+        ]
+    },
+    {
+        "q": "What format is commonly used for web images?",
+        "c": null,
+        "o": [
+            "JPEG",
+            "DOC",
+            "PDF",
+            "TXT"
+        ]
+    },
+    {
+        "q": "What does this code add to the video?",
+        "c": "<video src='clip.mp4' \nposter='thumbnail.jpg'></video>",
+        "o": [
+            "A thumbnail image",
+            "An audio track",
+            "A subtitle",
+            "A video source"
+        ]
+    },
+    {
+        "q": "Which element can include a caption for a video?",
+        "c": null,
+        "o": [
+            "<figure>",
+            "<caption>",
+            "<video>",
+            "<details>"
+        ]
+    },
+    {
+        "q": "What is this code used for?",
+        "c": "<track src='subtitles.vtt' \nkind='subtitles'>",
+        "o": [
+            "Defines subtitles",
+            "Embeds audio",
+            "Links video",
+            "Creates captions"
+        ]
+    },
+    {
+        "q": "How can you make an image responsive?",
+        "c": null,
+        "o": [
+            "style='max-width:100%'",
+            "responsive",
+            "img-responsive",
+            "flex"
+        ]
+    },
+    {
+        "q": "What is specified by this code?",
+        "c": "<audio controls \nautoplay src='music.mp3'></audio>",
+        "o": [
+            "An autoplay audio player",
+            "An image",
+            "A video",
+            "A text track"
+        ]
+    },
+    {
+        "q": "Which tag is used to specify a media source?",
+        "c": null,
+        "o": [
+            "<source>",
+            "<media>",
+            "<video>",
+            "<audio>"
+        ]
+    },
+    {
+        "q": "What does this code do?",
+        "c": "<embed src='animation.swf' \nwidth='300' height='200'>",
+        "o": [
+            "Embeds a Flash animation",
+            "Shows an image",
+            "Links video",
+            "Defines audio"
+        ]
+    },
+    {
+        "q": "What attribute is used to specify the video width?",
+        "c": null,
+        "o": [
+            "width",
+            "size",
+            "height",
+            "scale"
+        ]
+    },
+    {
+        "q": "What is this code for?",
+        "c": "<video src='video.mp4' \nmuted></video>",
+        "o": [
+            "Plays video without sound",
+            "Defines audio track",
+            "Links to audio",
+            "Sets video size"
+        ]
+    },
+    {
+        "q": "What is the default behavior of the <video> tag?",
+        "c": null,
+        "o": [
+            "not playing",
+            "autoplay",
+            "loop",
+            "controls"
+        ]
+    },
+    {
+        "q": "What type of media does this code represent?",
+        "c": "<audio src='sound.mp3' \ncontrols></audio>",
+        "o": [
+            "An audio file",
+            "An image",
+            "A video",
+            "A canvas"
+        ]
+    },
+    {
+        "q": "Which audio format is supported in HTML5?",
+        "c": null,
+        "o": [
+            "MP3",
+            "WAV",
+            "OGG",
+            "All of the above"
+        ]
+    },
+    {
+        "q": "What is the role of 'controls' in this code?",
+        "c": "<video src='movie.mp4' \ncontrols></video>",
+        "o": [
+            "Shows video controls",
+            "Sets video source",
+            "Defines audio track",
+            "Links image"
+        ]
+    },
+    {
+        "q": "Which HTML element can be used to create a video playlist?",
+        "c": null,
+        "o": [
+            "<video>",
+            "<source>",
+            "<track>",
+            "<playlist>"
+        ]
+    },
+    {
+        "q": "What does this code display?",
+        "c": "<img src='image.png' \nalt='Image'>",
+        "o": [
+            "An image",
+            "A video",
+            "An audio file",
+            "A link"
+        ]
+    },
+    {
+        "q": "What does the preload attribute do in media tags?",
+        "c": null,
+        "o": [
+            "Specifies loading behavior",
+            "Sets playback speed",
+            "Controls volume",
+            "Defines file type"
+        ]
+    },
+    {
+        "q": "What does 'autoplay' do in this code?",
+        "c": "<audio src='tune.mp3' \nautoplay></audio>",
+        "o": [
+            "Starts audio automatically",
+            "Repeats audio",
+            "Sets volume",
+            "Defines type"
+        ]
+    },
+    {
+        "q": "Which attribute can mute audio in an <audio> tag?",
+        "c": null,
+        "o": [
+            "muted",
+            "silent",
+            "off",
+            "quiet"
+        ]
+    },
+    {
+        "q": "What will this code show?",
+        "c": "<video src='video.mp4' \ncontrols autoplay></video>",
+        "o": [
+            "A video that plays automatically",
+            "An image",
+            "An audio",
+            "A text"
+        ]
+    },
+    {
+        "q": "What tag is used to include subtitles in a video?",
+        "c": null,
+        "o": [
+            "<track>",
+            "<subtitle>",
+            "<caption>",
+            "<video>"
+        ]
+    },
+    {
+        "q": "What does this code embed?",
+        "c": "<iframe src='https://www.youtube.com'></iframe>",
+        "o": [
+            "A YouTube video",
+            "An image",
+            "An audio file",
+            "A text track"
+        ]
+    },
+    {
+        "q": "What does the autoplay attribute do?",
+        "c": null,
+        "o": [
+            "Starts video automatically",
+            "Pauses video",
+            "Skips to end",
+            "Shows controls"
+        ]
+    },
+    {
+        "q": "What does this code define?",
+        "c": "<source src='audio.mp3' \ntype='audio/mpeg'>",
+        "o": [
+            "Audio source",
+            "Video source",
+            "Image source",
+            "File type"
+        ]
+    },
+    {
+        "q": "What is the purpose of the <figure> tag?",
+        "c": null,
+        "o": [
+            "Groups images with captions",
+            "Defines videos",
+            "Creates lists",
+            "Styles text"
+        ]
+    },
+    {
+        "q": "What is represented by this code?",
+        "c": "<picture>\n<source srcset='image.webp' type='image/webp'>\n<img src='image.jpg' alt='Image'>\n</picture>",
+        "o": [
+            "A responsive image",
+            "A video",
+            "An audio file",
+            "A link"
+        ]
+    },
+    {
+        "q": "How can you control audio playback in HTML?",
+        "c": null,
+        "o": [
+            "Using controls attribute",
+            "With autoplay",
+            "By default",
+            "With play attribute"
+        ]
+    },
+    {
+        "q": "What does this code add to the video?",
+        "c": "<video src='clip.mp4' \nposter='thumbnail.jpg'></video>",
+        "o": [
+            "A thumbnail image",
+            "An audio track",
+            "A subtitle",
+            "A video source"
+        ]
+    },
+    {
+        "q": "Which HTML element is used for responsive images?",
+        "c": null,
+        "o": [
+            "<img>",
+            "<responsive>",
+            "<picture>",
+            "<video>"
+        ]
+    },
+    {
+        "q": "What is defined by this code?",
+        "c": "<track src='subtitles.vtt' \nkind='subtitles'>",
+        "o": [
+            "Subtitles",
+            "Video source",
+            "Audio type",
+            "Image quality"
+        ]
+    },
+    {
+        "q": "What is the purpose of the <audio> tag?",
+        "c": null,
+        "o": [
+            "Plays sound",
+            "Displays videos",
+            "Shows images",
+            "Creates links"
+        ]
+    },
+    {
+        "q": "What does this code do?",
+        "c": "<audio src='song.mp3' \nautoplay loop></audio>",
+        "o": [
+            "Plays audio on loop",
+            "Stops audio",
+            "Defines volume",
+            "Changes source"
+        ]
+    },
+    {
+        "q": "Which audio tag allows streaming?",
+        "c": null,
+        "o": [
+            "<audio>",
+            "<source>",
+            "<media>",
+            "<stream>"
+        ]
+    },
+    {
+        "q": "What does this code embed?",
+        "c": "<embed src='flash.swf' \nwidth='400' height='300'>",
+        "o": [
+            "Flash content",
+            "An image",
+            "An audio file",
+            "A video"
+        ]
+    },
+    {
+        "q": "How do you define a fallback content for audio?",
+        "c": null,
+        "o": [
+            "Inside <audio>",
+            "With <fallback>",
+            "Using <source>",
+            "With <track>"
+        ]
+    },
+    {
+        "q": "What does 'muted' mean in this code?",
+        "c": "<video src='video.mp4' \nmuted></video>",
+        "o": [
+            "No sound",
+            "Plays automatically",
+            "Defines source",
+            "Sets quality"
+        ]
+    },
+    {
+        "q": "Which format is used for vector images?",
+        "c": null,
+        "o": [
+            "SVG",
+            "JPEG",
+            "PNG",
+            "GIF"
+        ]
+    },
+    {
+        "q": "What is specified by this code?",
+        "c": "<audio controls \nautoplay src='track.mp3'></audio>",
+        "o": [
+            "An autoplay audio player",
+            "An image",
+            "A video",
+            "A text track"
+        ]
+    },
+    {
+        "q": "Which tag specifies alternative media sources?",
+        "c": null,
+        "o": [
+            "<source>",
+            "<alt>",
+            "<media>",
+            "<track>"
+        ]
+    },
+    {
+        "q": "What does this code create?",
+        "c": "<iframe src='https://example.com'></iframe>",
+        "o": [
+            "An embedded webpage",
+            "An image",
+            "An audio file",
+            "A video"
+        ]
+    },
+    {
+        "q": "What does the 'controls' attribute do in <video>?",
+        "c": null,
+        "o": [
+            "Adds play/pause buttons",
+            "Sets volume",
+            "Loops video",
+            "Mutes audio"
+        ]
+    },
+    {
+        "q": "What does this code embed?",
+        "c": "<audio src='background.mp3' \nloop></audio>",
+        "o": [
+            "Background audio",
+            "An image",
+            "A video",
+            "A text track"
+        ]
+    },
+    {
+        "q": "How to specify the poster image for a video?",
+        "c": null,
+        "o": [
+            "poster='image.jpg'",
+            "src='image.jpg'",
+            "background='image.jpg'",
+            "img='image.jpg'"
+        ]
+    },
+    {
+        "q": "What type of media is represented here?",
+        "c": "<video src='movie.mp4' \nwidth='640' height='360'></video>",
+        "o": [
+            "A video",
+            "An audio",
+            "An image",
+            "A canvas"
+        ]
+    },
+    {
+        "q": "What does the 'loop' attribute do in <audio>?",
+        "c": null,
+        "o": [
+            "Repeats audio",
+            "Stops audio",
+            "Skips audio",
+            "Lowers volume"
+        ]
+    },
+    {
+        "q": "What does this code show?",
+        "c": "<img src='logo.png' \nalt='Company Logo'>",
+        "o": [
+            "A logo image",
+            "A video",
+            "An audio file",
+            "A link"
+        ]
+    },
+    {
+        "q": "Which tag can display multiple media types?",
+        "c": null,
+        "o": [
+            "<picture>",
+            "<audio>",
+            "<video>",
+            "<source>"
+        ]
+    },
+    {
+        "q": "What does 'preload' do in this code?",
+        "c": "<audio src='tune.mp3' \npreload='auto'></audio>",
+        "o": [
+            "Loads audio automatically",
+            "Defines source",
+            "Stops playback",
+            "Sets volume"
+        ]
+    },
+    {
+        "q": "How can you provide captions in <video>?",
+        "c": null,
+        "o": [
+            "Using <track>",
+            "With <caption>",
+            "Inside <video>",
+            "Using <subtitle>"
+        ]
+    },
+    {
+        "q": "What is specified by this code?",
+        "c": "<video src='clip.mp4' \nposter='image.jpg' \ncontrols></video>",
+        "o": [
+            "A video with a poster",
+            "An audio file",
+            "An image",
+            "A text track"
+        ]
+    },
+    {
+        "q": "What is the purpose of the 'src' attribute?",
+        "c": null,
+        "o": [
+            "Defines file location",
+            "Sets width",
+            "Controls playback",
+            "Specifies type"
+        ]
+    },
+    {
+        "q": "What does 'muted' mean here?",
+        "c": "<audio src='sound.mp3' \nmuted controls></audio>",
+        "o": [
+            "No audio",
+            "Audio plays automatically",
+            "Sets volume",
+            "Defines source"
+        ]
+    },
+    {
+        "q": "What does 'autoplay' do in a <video> tag?",
+        "c": null,
+        "o": [
+            "Starts automatically",
+            "Loops the video",
+            "Mutes the audio",
+            "Adds controls"
+        ]
+    },
+    {
+        "q": "What does this code do?",
+        "c": "<iframe src='https://maps.google.com'></iframe>",
+        "o": [
+            "Shows a map",
+            "Plays audio",
+            "Displays an image",
+            "Links a video"
+        ]
+    },
+    {
+        "q": "Which HTML element is used for a gallery of images?",
+        "c": null,
+        "o": [
+            "<figure>",
+            "<gallery>",
+            "<media>",
+            "<img>"
+        ]
+    },
+    {
+        "q": "What type of file does this code link to?",
+        "c": "<source src='audio.ogg' \ntype='audio/ogg'>",
+        "o": [
+            "An audio file",
+            "A video file",
+            "An image file",
+            "A text file"
+        ]
+    },
+    {
+        "q": "Which tag is used for a sound file?",
+        "c": null,
+        "o": [
+            "<audio>",
+            "<sound>",
+            "<file>",
+            "<media>"
+        ]
+    },
+    {
+        "q": "What is this code used for?",
+        "c": "<video src='movie.mp4' \ncontrols autoplay></video>",
+        "o": [
+            "An autoplay video player",
+            "An image",
+            "An audio file",
+            "A link"
+        ]
+    },
+    {
+        "q": "What is the function of the 'muted' attribute?",
+        "c": null,
+        "o": [
+            "Silences audio",
+            "Adds subtitles",
+            "Controls playback",
+            "Sets volume"
+        ]
+    },
+    {
+        "q": "What does this code represent?",
+        "c": "<track src='captions.vtt' \nkind='captions'>",
+        "o": [
+            "Captions for a video",
+            "An audio track",
+            "A video source",
+            "An image source"
+        ]
+    },
+    {
+        "q": "What does 'preload' attribute determine?",
+        "c": null,
+        "o": [
+            "Loading strategy",
+            "File type",
+            "Volume",
+            "Playback speed"
+        ]
+    },
+    {
+        "q": "What is the purpose of 'controls' in this code?",
+        "c": "<audio src='music.mp3' \ncontrols></audio>",
+        "o": [
+            "Shows audio controls",
+            "Defines audio source",
+            "Links to a video",
+            "Sets audio type"
+        ]
+    },
+    {
+        "q": "Which tag is used to create a hyperlink to a video?",
+        "c": null,
+        "o": [
+            "<a>",
+            "<video>",
+            "<link>",
+            "<source>"
+        ]
+    },
+    {
+        "q": "What does this code do?",
+        "c": "<video src='clip.mp4' \nloop muted></video>",
+        "o": [
+            "Loops video without sound",
+            "Plays audio",
+            "Defines source",
+            "Sets size"
+        ]
+    },
+    {
+        "q": "How to add a caption to an image?",
+        "c": null,
+        "o": [
+            "Use <figcaption>",
+            "With <caption>",
+            "Inside <img>",
+            "Using <text>"
+        ]
+    },
+    {
+        "q": "What does this code create?",
+        "c": "<embed src='animation.gif' \nwidth='500' height='300'>",
+        "o": [
+            "An embedded animation",
+            "An image",
+            "An audio file",
+            "A video"
+        ]
+    },
+    {
+        "q": "Which format is ideal for animated images?",
+        "c": null,
+        "o": [
+            "GIF",
+            "JPEG",
+            "PNG",
+            "SVG"
+        ]
+    },
+    {
+        "q": "What is the role of 'autoplay' in this code?",
+        "c": "<audio src='theme.mp3' \nautoplay></audio>",
+        "o": [
+            "Starts audio automatically",
+            "Stops audio",
+            "Defines type",
+            "Changes source"
+        ]
+    },
+    {
+        "q": "What does the 'controlsList' attribute do?",
+        "c": null,
+        "o": [
+            "Customizes controls",
+            "Sets volume",
+            "Controls playback",
+            "Defines file type"
+        ]
+    },
+    {
+        "q": "What does this code represent?",
+        "c": "<video src='video.mp4' \ncontrols preload='metadata'></video>",
+        "o": [
+            "Video with metadata loading",
+            "An image",
+            "An audio file",
+            "A text track"
+        ]
+    },
+    {
+        "q": "How to specify a fallback for audio?",
+        "c": null,
+        "o": [
+            "Inside <audio>",
+            "With <fallback>",
+            "Using <source>",
+            "With <track>"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "c": "<picture>\n<source srcset='image.jpg' media='(min-width: 800px)'>\n<img src='fallback.png' alt='Fallback Image'>\n</picture>",
+        "o": [
+            "Responsive image display",
+            "A video",
+            "An audio file",
+            "A link"
+        ]
+    },
+    {
+        "q": "What attribute can be used to preload media?",
+        "c": null,
+        "o": [
+            "preload",
+            "load",
+            "src",
+            "controls"
+        ]
+    },
+    {
+        "q": "What does 'height' define in this code?",
+        "c": "<embed src='movie.mov' \nwidth='600' height='400'>",
+        "o": [
+            "Height of embedded content",
+            "Audio file size",
+            "Video format",
+            "Image resolution"
+        ]
+    },
+    {
+        "q": "What does the 'poster' attribute specify?",
+        "c": null,
+        "o": [
+            "Preview image",
+            "Video source",
+            "Playback time",
+            "Volume level"
+        ]
+    },
+    {
+        "q": "What type of media does this code represent?",
+        "c": "<video src='clip.mp4' \ncontrols autoplay loop></video>",
+        "o": [
+            "A looping video",
+            "An audio file",
+            "An image",
+            "A link"
+        ]
+    },
+    {
+        "q": "Which audio format is known for high quality?",
+        "c": null,
+        "o": [
+            "WAV",
+            "MP3",
+            "OGG",
+            "AAC"
+        ]
+    },
+    {
+        "q": "What does this code embed?",
+        "c": "<iframe src='https://www.reddit.com'></iframe>",
+        "o": [
+            "An embedded Reddit page",
+            "An audio file",
+            "A video",
+            "An image"
+        ]
+    },
+    {
+        "q": "What is the purpose of the <track> tag?",
+        "c": null,
+        "o": [
+            "Defines subtitles",
+            "Specifies video type",
+            "Controls playback",
+            "Adds audio"
+        ]
+    },
+    {
+        "q": "What is defined by this code?",
+        "c": "<audio src='track.mp3' \nloop autoplay></audio>",
+        "o": [
+            "An audio track that loops",
+            "An image",
+            "A video",
+            "A text track"
+        ]
+    },
+    {
+        "q": "How to add multiple audio formats?",
+        "c": null,
+        "o": [
+            "Use <source>",
+            "With <audio>",
+            "Inside <media>",
+            "With <file>"
+        ]
+    },
+    {
+        "q": "What does this code display?",
+        "c": "<img src='banner.png' \nalt='Website Banner'>",
+        "o": [
+            "A website banner",
+            "An audio file",
+            "A video",
+            "A link"
+        ]
+    },
+    {
+        "q": "What does 'loop' attribute do in <video>?",
+        "c": null,
+        "o": [
+            "Repeats video",
+            "Starts automatically",
+            "Silences audio",
+            "Sets resolution"
+        ]
+    },
+    {
+        "q": "What is the role of 'src' in this code?",
+        "c": "<video src='film.mp4' \ncontrols></video>",
+        "o": [
+            "Defines video source",
+            "Sets width",
+            "Controls playback",
+            "Links audio"
+        ]
+    },
+    {
+        "q": "Which tag is suitable for responsive images?",
+        "c": null,
+        "o": [
+            "<picture>",
+            "<img>",
+            "<video>",
+            "<media>"
+        ]
+    },
+    {
+        "q": "What does this code do?",
+        "c": "<audio src='soundtrack.mp3' \ncontrols preload='none'></audio>",
+        "o": [
+            "Loads audio on demand",
+            "Defines volume",
+            "Stops playback",
+            "Changes source"
+        ]
+    },
+    {
+        "q": "Which attribute provides an alternative text for images?",
+        "c": null,
+        "o": [
+            "alt",
+            "title",
+            "text",
+            "description"
+        ]
+    },
+    {
+        "q": "What is the main use of the <embed> tag?",
+        "c": null,
+        "o": [
+            "Embed media",
+            "Create lists",
+            "Show images",
+            "Define styles"
+        ]
+    },
+    {
+        "q": "Which attribute controls the display of audio controls?",
+        "c": null,
+        "o": [
+            "controls",
+            "display",
+            "show",
+            "visible"
+        ]
+    },
+    {
+        "q": "What does the 'muted' attribute do in <audio>?",
+        "c": null,
+        "o": [
+            "Silences audio",
+            "Controls playback",
+            "Sets volume",
+            "Defines source"
+        ]
+    },
+    {
+        "q": "How can you play video in fullscreen?",
+        "c": null,
+        "o": [
+            "fullscreen",
+            "controls",
+            "autoplay",
+            "loop"
+        ]
+    },
+    {
+        "q": "What format is commonly used for web videos?",
+        "c": null,
+        "o": [
+            "MP4",
+            "DOC",
+            "XLS",
+            "PPT"
+        ]
+    },
+    {
+        "q": "Which tag allows specifying different resolutions for images?",
+        "c": null,
+        "o": [
+            "<picture>",
+            "<img>",
+            "<source>",
+            "<media>"
+        ]
+    },
+    {
+        "q": "What does the 'srcset' attribute do?",
+        "c": null,
+        "o": [
+            "Specifies image sources",
+            "Defines video source",
+            "Controls playback",
+            "Sets width"
+        ]
+    },
+    {
+        "q": "What does 'playsinline' do in mobile video?",
+        "c": null,
+        "o": [
+            "Plays video inline",
+            "Auto plays",
+            "Mutes audio",
+            "Loops video"
+        ]
+    },
+    {
+        "q": "How to define multiple sources for video?",
+        "c": null,
+        "o": [
+            "Using <source>",
+            "With <video>",
+            "Inside <track>",
+            "With <embed>"
+        ]
+    },
+    {
+        "q": "Which attribute can adjust audio playback speed?",
+        "c": null,
+        "o": [
+            "playbackRate",
+            "speed",
+            "rate",
+            "tempo"
+        ]
+    },
+    {
+        "q": "How can you visually hide an audio element?",
+        "c": null,
+        "o": [
+            "style='display:none'",
+            "hidden",
+            "invisible",
+            "style='visibility:hidden'"
+        ]
+    },
+    {
+        "q": "What does the 'media' attribute in <source> specify?",
+        "c": null,
+        "o": [
+            "Media type",
+            "Source location",
+            "Playback speed",
+            "File size"
+        ]
+    },
+    {
+        "q": "What tag defines an image map?",
+        "c": null,
+        "o": [
+            "<map>",
+            "<area>",
+            "<img>",
+            "<figure>"
+        ]
+    },
+    {
+        "q": "Which format supports transparent backgrounds?",
+        "c": null,
+        "o": [
+            "PNG",
+            "JPEG",
+            "GIF",
+            "BMP"
+        ]
+    },
+    {
+        "q": "What does the 'download' attribute do in <a>?",
+        "c": null,
+        "o": [
+            "Forces file download",
+            "Opens file",
+            "Plays audio",
+            "Displays video"
+        ]
+    },
+    {
+        "q": "Which tag is used for sound effects?",
+        "c": null,
+        "o": [
+            "<audio>",
+            "<sound>",
+            "<media>",
+            "<file>"
+        ]
+    },
+    {
+        "q": "What is the correct syntax for an image?",
+        "c": null,
+        "o": [
+            "<img src='img.jpg'>",
+            "<image src='img.jpg'>",
+            "<picture src='img.jpg'>",
+            "<figure src='img.jpg'>"
+        ]
+    },
+    {
+        "q": "Which attribute adjusts video height?",
+        "c": null,
+        "o": [
+            "height",
+            "size",
+            "width",
+            "scale"
+        ]
+    },
+    {
+        "q": "What does the <video> tag do?",
+        "c": null,
+        "o": [
+            "Displays video",
+            "Creates audio",
+            "Shows images",
+            "Defines lists"
+        ]
+    },
+    {
+        "q": "How to specify an alternate audio file?",
+        "c": null,
+        "o": [
+            "Using <source>",
+            "With <audio>",
+            "Inside <media>",
+            "With <track>"
+        ]
+    },
+    {
+        "q": "What does 'loop' do in <audio>?",
+        "c": null,
+        "o": [
+            "Repeats audio",
+            "Starts automatically",
+            "Mutes sound",
+            "Sets volume"
+        ]
+    },
+    {
+        "q": "How do you add a playlist in HTML?",
+        "c": null,
+        "o": [
+            "Use <audio>",
+            "With <video>",
+            "Inside <source>",
+            "With <track>"
+        ]
+    },
+    {
+        "q": "What tag specifies alternative media sources?",
+        "c": null,
+        "o": [
+            "<source>",
+            "<media>",
+            "<video>",
+            "<track>"
+        ]
+    },
+    {
+        "q": "What is the purpose of the 'autoplay' attribute?",
+        "c": null,
+        "o": [
+            "Starts playback automatically",
+            "Loops video",
+            "Mutes sound",
+            "Displays controls"
+        ]
+    },
+    {
+        "q": "Which format is suitable for high-quality images?",
+        "c": null,
+        "o": [
+            "PNG",
+            "JPEG",
+            "GIF",
+            "BMP"
+        ]
+    },
+    {
+        "q": "What is the main use of <track>?",
+        "c": null,
+        "o": [
+            "Defines subtitles",
+            "Shows images",
+            "Controls playback",
+            "Creates audio"
+        ]
+    },
+    {
+        "q": "How to create a simple audio player?",
+        "c": null,
+        "o": [
+            "<audio controls>",
+            "<player audio>",
+            "<sound>",
+            "<audio player>"
+        ]
+    },
+    {
+        "q": "Which element is used for embedding multimedia content?",
+        "c": null,
+        "o": [
+            "<embed>",
+            "<media>",
+            "<source>",
+            "<object>"
+        ]
+    },
+    {
+        "q": "What attribute is used to specify media type?",
+        "c": null,
+        "o": [
+            "type",
+            "media",
+            "src",
+            "controls"
+        ]
+    },
+    {
+        "q": "Which tag is used for video captions?",
+        "c": null,
+        "o": [
+            "<track>",
+            "<caption>",
+            "<video>",
+            "<subtitle>"
+        ]
+    },
+    {
+        "q": "How can you link a video file?",
+        "c": null,
+        "o": [
+            "<video src='video.mp4'>",
+            "<link video='video.mp4'>",
+            "<embed video='video.mp4'>",
+            "<source video='video.mp4'>"
+        ]
+    },
+    {
+        "q": "What does the 'preload' attribute control?",
+        "c": null,
+        "o": [
+            "Loading behavior",
+            "Playback speed",
+            "Volume level",
+            "File type"
+        ]
+    },
+    {
+        "q": "Which attribute can set a default volume level?",
+        "c": null,
+        "o": [
+            "volume",
+            "level",
+            "controls",
+            "settings"
+        ]
+    },
+    {
+        "q": "What is the use of <figure>?",
+        "c": null,
+        "o": [
+            "Group images with captions",
+            "Define styles",
+            "Create lists",
+            "Show videos"
+        ]
+    },
+    {
+        "q": "How to make an audio element visible?",
+        "c": null,
+        "o": [
+            "Remove style='display:none'",
+            "Set visible",
+            "Make active",
+            "Add controls"
+        ]
+    },
+    {
+        "q": "Which attribute defines a video source?",
+        "c": null,
+        "o": [
+            "src",
+            "href",
+            "source",
+            "link"
+        ]
+    },
+    {
+        "q": "What does the <audio> element do?",
+        "c": null,
+        "o": [
+            "Plays sound",
+            "Shows video",
+            "Displays images",
+            "Creates links"
+        ]
+    },
+    {
+        "q": "What is the correct syntax for video?",
+        "c": null,
+        "o": [
+            "<video src='video.mp4'>",
+            "<media src='video.mp4'>",
+            "<video href='video.mp4'>",
+            "<embed src='video.mp4'>"
+        ]
+    },
+    {
+        "q": "How can you create an image gallery?",
+        "c": null,
+        "o": [
+            "Use <img>",
+            "With <figure>",
+            "Using <picture>",
+            "With <media>"
+        ]
+    },
+    {
+        "q": "What does the 'poster' attribute do in <video>?",
+        "c": null,
+        "o": [
+            "Specifies thumbnail",
+            "Sets resolution",
+            "Defines controls",
+            "Links source"
+        ]
+    },
+    {
+        "q": "What is the main advantage of SVG format?",
+        "c": null,
+        "o": [
+            "Scalable without loss",
+            "High quality",
+            "Small size",
+            "Easy to edit"
+        ]
+    },
+    {
+        "q": "What is the role of the <source> tag?",
+        "c": null,
+        "o": [
+            "Specifies media sources",
+            "Defines captions",
+            "Controls playback",
+            "Creates audio"
+        ]
+    },
+    {
+        "q": "How to define an audio playlist?",
+        "c": null,
+        "o": [
+            "<audio controls>",
+            "<media playlist>",
+            "<audio playlist>",
+            "<source>"
+        ]
+    },
+    {
+        "q": "Which tag is used for showing alternative media sources?",
+        "c": null,
+        "o": [
+            "<source>",
+            "<track>",
+            "<media>",
+            "<audio>"
+        ]
+    },
+    {
+        "q": "What is the purpose of <picture>?",
+        "c": null,
+        "o": [
+            "Responsive images",
+            "Defines captions",
+            "Creates lists",
+            "Shows videos"
+        ]
+    },
+    {
+        "q": "What is the function of <area>?",
+        "c": null,
+        "o": [
+            "Defines clickable areas",
+            "Creates lists",
+            "Shows images",
+            "Defines styles"
+        ]
+    },
+    {
+        "q": "How do you create an audio element?",
+        "c": null,
+        "o": [
+            "<audio>",
+            "<media>",
+            "<track>",
+            "<sound>"
+        ]
+    },
+    {
+        "q": "What does the <video> tag require?",
+        "c": null,
+        "o": [
+            "Video source",
+            "Audio track",
+            "Image file",
+            "File size"
+        ]
+    },
+    {
+        "q": "How to control audio playback in HTML?",
+        "c": null,
+        "o": [
+            "Use <audio controls>",
+            "With <video>",
+            "Using <media>",
+            "With <embed>"
+        ]
+    },
+    {
+        "q": "What attribute adjusts video width?",
+        "c": null,
+        "o": [
+            "width",
+            "size",
+            "height",
+            "scale"
+        ]
+    },
+    {
+        "q": "Which format is typically used for vector graphics?",
+        "c": null,
+        "o": [
+            "SVG",
+            "PNG",
+            "JPEG",
+            "GIF"
+        ]
+    },
+    {
+        "q": "What is the function of <object> tag?",
+        "c": null,
+        "o": [
+            "Embed any media",
+            "Show images",
+            "Create lists",
+            "Define styles"
+        ]
+    },
+    {
+        "q": "What is the correct format for embedding a video?",
+        "c": null,
+        "o": [
+            "<video src='video.mp4'>",
+            "<embed src='video.mp4'>",
+            "<source src='video.mp4'>",
+            "<link src='video.mp4'>"
+        ]
+    },
+    {
+        "q": "How to link an audio file?",
+        "c": null,
+        "o": [
+            "<audio src='audio.mp3'>",
+            "<link audio='audio.mp3'>",
+            "<source audio='audio.mp3'>",
+            "<embed audio='audio.mp3'>"
+        ]
+    },
+    {
+        "q": "What does the 'controls' attribute do?",
+        "c": null,
+        "o": [
+            "Shows playback controls",
+            "Sets audio volume",
+            "Defines video type",
+            "Links source"
+        ]
+    },
+    {
+        "q": "Which tag is used for embedding a YouTube video?",
+        "c": null,
+        "o": [
+            "<iframe>",
+            "<embed>",
+            "<video>",
+            "<object>"
+        ]
+    },
+    {
+        "q": "What does the 'autoplay' attribute do?",
+        "c": null,
+        "o": [
+            "Starts playback automatically",
+            "Loops audio",
+            "Sets volume",
+            "Displays captions"
+        ]
+    },
+    {
+        "q": "What attribute specifies a fallback image?",
+        "c": null,
+        "o": [
+            "poster",
+            "fallback",
+            "src",
+            "media"
+        ]
+    },
+    {
+        "q": "Which format supports animations?",
+        "c": null,
+        "o": [
+            "GIF",
+            "PNG",
+            "JPEG",
+            "SVG"
+        ]
+    },
+    {
+        "q": "What does the 'loop' attribute do in <audio>?",
+        "c": null,
+        "o": [
+            "Repeats audio",
+            "Starts automatically",
+            "Mutes sound",
+            "Sets volume"
+        ]
+    },
+    {
+        "q": "What is the main purpose of <canvas>?",
+        "c": null,
+        "o": [
+            "Draw graphics",
+            "Play audio",
+            "Show images",
+            "Create lists"
+        ]
+    },
+    {
+        "q": "Which attribute defines a custom volume level?",
+        "c": null,
+        "o": [
+            "volume",
+            "level",
+            "controls",
+            "settings"
+        ]
+    },
+    {
+        "q": "How can you create a video gallery?",
+        "c": null,
+        "o": [
+            "Using <video>",
+            "With <img>",
+            "Using <source>",
+            "With <media>"
+        ]
+    },
+    {
+        "q": "What does the 'src' attribute do?",
+        "c": null,
+        "o": [
+            "Defines media source",
+            "Controls playback",
+            "Sets volume",
+            "Creates audio"
+        ]
+    },
+    {
+        "q": "How to create an audio file link?",
+        "c": null,
+        "o": [
+            "<audio href='audio.mp3'>",
+            "<link audio='audio.mp3'>",
+            "<source audio='audio.mp3'>",
+            "<embed audio='audio.mp3'>"
+        ]
+    },
+    {
+        "q": "What is the correct syntax for an <embed> tag?",
+        "c": null,
+        "o": [
+            "<embed src='file'>",
+            "<media src='file'>",
+            "<video src='file'>",
+            "<source src='file'>"
+        ]
+    },
+    {
+        "q": "Which format is best for high-resolution images?",
+        "c": null,
+        "o": [
+            "PNG",
+            "JPEG",
+            "GIF",
+            "BMP"
+        ]
+    },
+    {
+        "q": "What does the 'muted' attribute do in <video>?",
+        "c": null,
+        "o": [
+            "Silences audio",
+            "Controls playback",
+            "Defines source",
+            "Sets resolution"
+        ]
+    },
+    {
+        "q": "What is the main use of <canvas>?",
+        "c": null,
+        "o": [
+            "Draw 2D graphics",
+            "Create audio",
+            "Define styles",
+            "Show videos"
+        ]
+    },
+    {
+        "q": "How can you control video playback speed?",
+        "c": null,
+        "o": [
+            "Using playbackRate",
+            "With speed",
+            "Adjusting rate",
+            "Using tempo"
+        ]
+    },
+    {
+        "q": "Which attribute specifies video duration?",
+        "c": null,
+        "o": [
+            "duration",
+            "length",
+            "time",
+            "controls"
+        ]
+    },
+    {
+        "q": "How to create an HTML audio playlist?",
+        "c": null,
+        "o": [
+            "Use <audio>",
+            "<media playlist>",
+            "<track>",
+            "<source>"
+        ]
+    },
+    {
+        "q": "What is the use of <video> in HTML?",
+        "c": null,
+        "o": [
+            "Embed videos",
+            "Show images",
+            "Create lists",
+            "Define styles"
+        ]
+    },
+    {
+        "q": "What attribute defines the media type for <source>?",
+        "c": null,
+        "o": [
+            "type",
+            "media",
+            "src",
+            "controls"
+        ]
+    },
+    {
+        "q": "Which tag is used to define a video aspect ratio?",
+        "c": null,
+        "o": [
+            "<video>",
+            "<ratio>",
+            "<embed>",
+            "<canvas>"
+        ]
+    },
+    {
+        "q": "What is the primary use of <embed>?",
+        "c": null,
+        "o": [
+            "Embed multimedia",
+            "Create lists",
+            "Show images",
+            "Define styles"
+        ]
+    },
+    {
+        "q": "How to create a simple audio player in HTML?",
+        "c": null,
+        "o": [
+            "<audio controls>",
+            "<media player>",
+            "<sound>",
+            "<audio player>"
+        ]
+    },
+    {
+        "q": "What does the <track> element define?",
+        "c": null,
+        "o": [
+            "Text tracks",
+            "Video source",
+            "Audio type",
+            "Image quality"
+        ]
+    },
+    {
+        "q": "How to set video to autoplay?",
+        "c": null,
+        "o": [
+            "Use autoplay attribute",
+            "With controls",
+            "Inside <source>",
+            "With <embed>"
+        ]
+    },
+    {
+        "q": "What does the 'controls' attribute do in <audio>?",
+        "c": null,
+        "o": [
+            "Shows playback controls",
+            "Sets audio level",
+            "Defines video type",
+            "Links source"
+        ]
+    },
+    {
+        "q": "What is the correct syntax for audio element?",
+        "c": null,
+        "o": [
+            "<audio src='audio.mp3'>",
+            "<sound src='audio.mp3'>",
+            "<media src='audio.mp3'>",
+            "<track src='audio.mp3'>"
+        ]
+    },
+    {
+        "q": "What does the <picture> tag do?",
+        "c": null,
+        "o": [
+            "Responsive images",
+            "Defines captions",
+            "Creates lists",
+            "Shows videos"
+        ]
+    },
+    {
+        "q": "How to create an HTML video player?",
+        "c": null,
+        "o": [
+            "Use <video controls>",
+            "<media player>",
+            "<video player>",
+            "<source>"
+        ]
+    },
+    {
+        "q": "What is the main purpose of <iframe>?",
+        "c": null,
+        "o": [
+            "Embed other content",
+            "Show images",
+            "Define styles",
+            "Create lists"
+        ]
+    },
+    {
+        "q": "Which attribute defines a fallback source for <audio>?",
+        "c": null,
+        "o": [
+            "src",
+            "fallback",
+            "media",
+            "controls"
+        ]
+    },
+    {
+        "q": "How can you set audio playback to loop?",
+        "c": null,
+        "o": [
+            "Use loop attribute",
+            "With controls",
+            "Inside <source>",
+            "With <embed>"
+        ]
+    },
+    {
+        "q": "What is the correct syntax for embedding audio?",
+        "c": null,
+        "o": [
+            "<audio src='audio.mp3'>",
+            "<sound src='audio.mp3'>",
+            "<track src='audio.mp3'>",
+            "<media src='audio.mp3'>"
+        ]
+    },
+    {
+        "q": "How to specify media sources for <video>?",
+        "c": null,
+        "o": [
+            "Use <source>",
+            "<track>",
+            "<media>",
+            "<embed>"
+        ]
+    },
+    {
+        "q": "What is the main purpose of <audio> in HTML?",
+        "c": null,
+        "o": [
+            "Embed audio files",
+            "Show images",
+            "Create lists",
+            "Define styles"
+        ]
+    }
+]

@@ -1,0 +1,1512 @@
+[
+    {
+        "q": "What does this code create?",
+        "c": "<ul>\n\t<li>Item 1</li>\n\t<li>Item 2</li>\n</ul>",
+        "o": [
+            "Unordered list",
+            "Ordered list",
+            "Description list",
+            "None"
+        ]
+    },
+    {
+        "q": "Which tag defines an ordered list in HTML?",
+        "c": null,
+        "o": [
+            "<ol>",
+            "<ul>",
+            "<li>",
+            "<dl>"
+        ]
+    },
+    {
+        "q": "What will this code display?",
+        "c": "<ol>\n\t<li>First</li>\n\t<li>Second</li>\n</ol>",
+        "o": [
+            "1. First\n2. Second",
+            "First\nSecond",
+            "First\nSecond\n3.",
+            "1. First\n1. Second"
+        ]
+    },
+    {
+        "q": "What does <ul> stand for?",
+        "c": null,
+        "o": [
+            "unordered list",
+            "ordered list",
+            "description list",
+            "unique list"
+        ]
+    },
+    {
+        "q": "What is defined by this code?",
+        "c": "<dl>\n\t<dt>Term</dt>\n\t<dd>Description</dd>\n</dl>",
+        "o": [
+            "Definition list",
+            "Ordered list",
+            "Unordered list",
+            "Nested list"
+        ]
+    },
+    {
+        "q": "Which tag is used for a list item?",
+        "c": null,
+        "o": [
+            "<li>",
+            "<item>",
+            "<list>",
+            "<ol>"
+        ]
+    },
+    {
+        "q": "What type of list is created here?",
+        "c": "<ul style='list-style-type:square;'>\n\t<li>Item A</li>\n</ul>",
+        "o": [
+            "Square bullet list",
+            "Circle bullet list",
+            "Numbered list",
+            "None"
+        ]
+    },
+    {
+        "q": "What tag is used for a description list?",
+        "c": null,
+        "o": [
+            "<dl>",
+            "<ol>",
+            "<ul>",
+            "<li>"
+        ]
+    },
+    {
+        "q": "What does this code display?",
+        "c": "<ol type='A'>\n\t<li>First</li>\n\t<li>Second</li>\n</ol>",
+        "o": [
+            "A. First\nB. Second",
+            "1. First\n2. Second",
+            "First\nSecond",
+            "A. First\nA. Second"
+        ]
+    },
+    {
+        "q": "Which list type is numbered?",
+        "c": null,
+        "o": [
+            "ordered",
+            "unordered",
+            "description",
+            "nested"
+        ]
+    },
+    {
+        "q": "What is the purpose of <dd> in this code?",
+        "c": "<dl>\n\t<dt>HTML</dt>\n\t<dd>HyperText Markup Language</dd>\n</dl>",
+        "o": [
+            "Defines a description",
+            "Defines a term",
+            "Creates a list",
+            "None"
+        ]
+    },
+    {
+        "q": "What does <dl> contain?",
+        "c": null,
+        "o": [
+            "<dt> and <dd>",
+            "<ol> and <li>",
+            "<ul> and <li>",
+            "<li> only"
+        ]
+    },
+    {
+        "q": "What does this code create?",
+        "c": "<ul>\n\t<li>Item 1</li>\n\t<li>Item 2</li>\n\t<li>Item 3</li>\n</ul>",
+        "o": [
+            "Three bullet items",
+            "Three numbered items",
+            "Two bullet items",
+            "None"
+        ]
+    },
+    {
+        "q": "Which list uses bullet points?",
+        "c": null,
+        "o": [
+            "unordered",
+            "ordered",
+            "description",
+            "nested"
+        ]
+    },
+    {
+        "q": "What will this code render?",
+        "c": "<ol start='5'>\n\t<li>Item 1</li>\n\t<li>Item 2</li>\n</ol>",
+        "o": [
+            "Ordered list starting at 5",
+            "Unordered list",
+            "Definition list",
+            "None"
+        ]
+    },
+    {
+        "q": "What is <dt> used for in a description list?",
+        "c": null,
+        "o": [
+            "term",
+            "definition",
+            "item",
+            "list"
+        ]
+    },
+    {
+        "q": "What type of list is indicated by this code?",
+        "c": "<ol reversed>\n\t<li>One</li>\n\t<li>Two</li>\n</ol>",
+        "o": [
+            "2. Two\n1. One",
+            "1. One\n2. Two",
+            "A. One\nB. Two",
+            "None"
+        ]
+    },
+    {
+        "q": "Which attribute can be used to change the type of numbering in <ol>?",
+        "c": null,
+        "o": [
+            "type",
+            "style",
+            "class",
+            "value"
+        ]
+    },
+    {
+        "q": "What does this code produce?",
+        "c": "<ul>\n\t<li>Item 1\n\t\t<ol>\n\t\t\t<li>Subitem A</li>\n\t\t</ol>\n\t</li>\n</ul>",
+        "o": [
+            "Nested list",
+            "Flat list",
+            "Description list",
+            "None"
+        ]
+    },
+    {
+        "q": "How do you create a nested list?",
+        "c": null,
+        "o": [
+            "<ul><li><ul></ul></li></ul>",
+            "<ol><li><li></li></li></ol>",
+            "<li><ul></li>",
+            "<dl><dt></dt></dl>"
+        ]
+    },
+    {
+        "q": "What type of list is created by this code?",
+        "c": "<ol type='I'>\n\t<li>First</li>\n\t<li>Second</li>\n</ol>",
+        "o": [
+            "Roman numeral list",
+            "Alphabetical list",
+            "Numeric list",
+            "None"
+        ]
+    },
+    {
+        "q": "What is the default bullet style for <ul>?",
+        "c": null,
+        "o": [
+            "disc",
+            "circle",
+            "square",
+            "none"
+        ]
+    },
+    {
+        "q": "What is defined by this code?",
+        "c": "<dl>\n\t<dt>CSS</dt>\n\t<dd>Cascading Style Sheets</dd>\n</dl>",
+        "o": [
+            "Definition list",
+            "Ordered list",
+            "Unordered list",
+            "None"
+        ]
+    },
+    {
+        "q": "Which element defines a description in a <dl>?",
+        "c": null,
+        "o": [
+            "<dd>",
+            "<dt>",
+            "<dl>",
+            "<li>"
+        ]
+    },
+    {
+        "q": "What does this code indicate?",
+        "c": "<ul>\n\t<li style='color:red;'>Red Item</li>\n</ul>",
+        "o": [
+            "Red bullet item",
+            "Red list item",
+            "Circle bullet",
+            "None"
+        ]
+    },
+    {
+        "q": "Which list is ideal for glossary terms?",
+        "c": null,
+        "o": [
+            "description list",
+            "unordered list",
+            "ordered list",
+            "nested list"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "c": "<ol>\n\t<li>Step 1</li>\n\t<li>Step 2</li>\n</ol>",
+        "o": [
+            "Ordered steps",
+            "Unordered items",
+            "Descriptions",
+            "None"
+        ]
+    },
+    {
+        "q": "What does <li> stand for?",
+        "c": null,
+        "o": [
+            "list item",
+            "list index",
+            "list info",
+            "list inclusion"
+        ]
+    },
+    {
+        "q": "What does this code create?",
+        "c": "<ul>\n\t<li>Fruit</li>\n\t<li>Vegetable\n\t\t<ul>\n\t\t\t<li>Carrot</li>\n\t\t</ul>\n\t</li>\n</ul>",
+        "o": [
+            "Nested unordered list",
+            "Nested ordered list",
+            "Flat list",
+            "None"
+        ]
+    },
+    {
+        "q": "Which tag wraps the entire ordered list?",
+        "c": null,
+        "o": [
+            "<ol>",
+            "<li>",
+            "<ul>",
+            "<dl>"
+        ]
+    },
+    {
+        "q": "What does this code display?",
+        "c": "<ol>\n\t<li>First</li>\n\t<li>Second</li>\n</ol>",
+        "o": [
+            "1. First\n2. Second",
+            "First\nSecond",
+            "A. First\nB. Second",
+            "None"
+        ]
+    },
+    {
+        "q": "What type of list is <ol type='A'>?",
+        "c": null,
+        "o": [
+            "Alphabetical",
+            "Numerical",
+            "Bullet",
+            "Description"
+        ]
+    },
+    {
+        "q": "What is the purpose of <dt> in this code?",
+        "c": "<dl>\n\t<dt>JavaScript</dt>\n\t<dd>Programming Language</dd>\n</dl>",
+        "o": [
+            "Defines a term",
+            "Defines a description",
+            "Creates a list",
+            "None"
+        ]
+    },
+    {
+        "q": "What will <ol start='3'> create?",
+        "c": null,
+        "o": [
+            "Starts at 3",
+            "Starts at 0",
+            "Starts at 1",
+            "Starts at 2"
+        ]
+    },
+    {
+        "q": "What type of list is indicated by this code?",
+        "c": "<ul>\n\t<li>Item 1\n\t\t<ol>\n\t\t\t<li>Subitem A</li>\n\t\t</ol>\n\t</li>\n</ul>",
+        "o": [
+            "Nested list",
+            "Flat list",
+            "Description list",
+            "None"
+        ]
+    },
+    {
+        "q": "What does the <dd> tag do?",
+        "c": null,
+        "o": [
+            "Defines a description",
+            "Defines a term",
+            "Defines an item",
+            "Defines a list"
+        ]
+    },
+    {
+        "q": "What does this code produce?",
+        "c": "<dl>\n\t<dt>PHP</dt>\n\t<dd>Hypertext Preprocessor</dd>\n</dl>",
+        "o": [
+            "Definition list",
+            "Ordered list",
+            "Unordered list",
+            "None"
+        ]
+    },
+    {
+        "q": "Which tag is not used for lists?",
+        "c": null,
+        "o": [
+            "<li>",
+            "<ol>",
+            "<dl>",
+            "<span>"
+        ]
+    },
+    {
+        "q": "What will this code display?",
+        "c": "<ol>\n\t<li>Task 1</li>\n\t<li>Task 2</li>\n</ol>",
+        "o": [
+            "1. Task 1\n2. Task 2",
+            "Task 1\nTask 2",
+            "A. Task 1\nB. Task 2",
+            "None"
+        ]
+    },
+    {
+        "q": "What is the purpose of <ul>?",
+        "c": null,
+        "o": [
+            "To create unordered lists",
+            "To create ordered lists",
+            "To create definition lists",
+            "To create paragraph lists"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "c": "<ul>\n\t<li>Item A</li>\n\t<li>Item B</li>\n</ul>",
+        "o": [
+            "Two bullet items",
+            "Two numbered items",
+            "One bullet item",
+            "None"
+        ]
+    },
+    {
+        "q": "What happens if you nest <ul> inside <ol>?",
+        "c": null,
+        "o": [
+            "Creates a mixed list",
+            "Creates an invalid list",
+            "Creates a submenu",
+            "Nothing special"
+        ]
+    },
+    {
+        "q": "What type of list is created by this code?",
+        "c": "<ol type='1'>\n\t<li>First</li>\n\t<li>Second</li>\n</ol>",
+        "o": [
+            "Numeric list",
+            "Alphabetical list",
+            "Bullet list",
+            "None"
+        ]
+    },
+    {
+        "q": "Which attribute is not valid for <ul>?",
+        "c": null,
+        "o": [
+            "type",
+            "class",
+            "id",
+            "style"
+        ]
+    },
+    {
+        "q": "What does this code represent?",
+        "c": "<ul>\n\t<li>Animal</li>\n\t<li>Dog</li>\n\t\t<ul>\n\t\t\t<li>Beagle</li>\n\t\t</ul>\n\t</li>\n</ul>",
+        "o": [
+            "Nested unordered list",
+            "Flat list",
+            "Description list",
+            "None"
+        ]
+    },
+    {
+        "q": "What kind of list is typically used for steps in a process?",
+        "c": null,
+        "o": [
+            "ordered list",
+            "unordered list",
+            "description list",
+            "nested list"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "c": "<ol>\n\t<li>Step A</li>\n\t<li>Step B</li>\n</ol>",
+        "o": [
+            "1. Step A\n2. Step B",
+            "Step A\nStep B",
+            "A. Step A\nB. Step B",
+            "None"
+        ]
+    },
+    {
+        "q": "What is the default type of an <ol> list?",
+        "c": null,
+        "o": [
+            "decimal",
+            "alpha",
+            "roman",
+            "none"
+        ]
+    },
+    {
+        "q": "What type of list is produced by this code?",
+        "c": "<ul>\n\t<li>Item 1</li>\n\t<li>Item 2</li>\n\t<li>Item 3</li>\n</ul>",
+        "o": [
+            "Unordered list",
+            "Ordered list",
+            "Description list",
+            "None"
+        ]
+    },
+    {
+        "q": "Which HTML element is used for a nested description list?",
+        "c": null,
+        "o": [
+            "<dl>",
+            "<dt>",
+            "<dd>",
+            "<ul>"
+        ]
+    },
+    {
+        "q": "What does this code indicate?",
+        "c": "<ol>\n\t<li>Step 1</li>\n\t<li>Step 2</li>\n</ol>",
+        "o": [
+            "Ordered steps",
+            "Unordered items",
+            "Descriptions",
+            "None"
+        ]
+    },
+    {
+        "q": "What type of list is represented by <ol type='i'>?",
+        "c": null,
+        "o": [
+            "Lowercase Roman",
+            "Uppercase Roman",
+            "Alphabetical",
+            "Numeric"
+        ]
+    },
+    {
+        "q": "What type of list is indicated by this code?",
+        "c": "<dl>\n\t<dt>HTML</dt>\n\t<dd>HyperText Markup Language</dd>\n</dl>",
+        "o": [
+            "Definition list",
+            "Ordered list",
+            "Unordered list",
+            "None"
+        ]
+    },
+    {
+        "q": "What will <ul style='list-style-type:square'> create?",
+        "c": null,
+        "o": [
+            "Square bullets",
+            "Circle bullets",
+            "Disc bullets",
+            "No bullets"
+        ]
+    },
+    {
+        "q": "What is defined by this code?",
+        "c": "<ul>\n\t<li>Apple</li>\n\t<li>Banana</li>\n</ul>",
+        "o": [
+            "Unordered fruit list",
+            "Ordered fruit list",
+            "Description list",
+            "None"
+        ]
+    },
+    {
+        "q": "How can you create a bulleted list without bullets?",
+        "c": null,
+        "o": [
+            "style='list-style-type:none'",
+            "class='no-bullets'",
+            "style='display:none'",
+            "no-bullet='true'"
+        ]
+    },
+    {
+        "q": "What does this code produce?",
+        "c": "<ol start='10'>\n\t<li>Item A</li>\n\t<li>Item B</li>\n</ol>",
+        "o": [
+            "Ordered list starting at 10",
+            "Unordered list",
+            "Definition list",
+            "None"
+        ]
+    },
+    {
+        "q": "Which tag is used to define an item in an ordered list?",
+        "c": null,
+        "o": [
+            "<li>",
+            "<ol>",
+            "<dl>",
+            "<item>"
+        ]
+    },
+    {
+        "q": "What type of list is produced by this code?",
+        "c": "<ol type='I'>\n\t<li>Item A</li>\n\t<li>Item B</li>\n</ol>",
+        "o": [
+            "Roman numeral list",
+            "Alphabetical list",
+            "Bullet list",
+            "None"
+        ]
+    },
+    {
+        "q": "How do you add a class to an <ol>?",
+        "c": null,
+        "o": [
+            "<ol class='myClass'>",
+            "<ol id='myId'>",
+            "<ol style='...'>",
+            "<ol type='...'/>"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "c": "<ul>\n\t<li>Item 1</li>\n\t<li>Item 2</li>\n</ul>",
+        "o": [
+            "Two bullet items",
+            "Two numbered items",
+            "One bullet item",
+            "None"
+        ]
+    },
+    {
+        "q": "What attribute in <dl> specifies the term?",
+        "c": null,
+        "o": [
+            "<dt>",
+            "<dd>",
+            "<li>",
+            "<item>"
+        ]
+    },
+    {
+        "q": "What does this code represent?",
+        "c": "<dl>\n\t<dt>CSS</dt>\n\t<dd>Cascading Style Sheets</dd>\n</dl>",
+        "o": [
+            "Definition list",
+            "Ordered list",
+            "Unordered list",
+            "None"
+        ]
+    },
+    {
+        "q": "Which tag creates a list with no bullets by default?",
+        "c": null,
+        "o": [
+            "<ol>",
+            "<ul>",
+            "<dl>",
+            "<li>"
+        ]
+    },
+    {
+        "q": "What does this code create?",
+        "c": "<ol>\n\t<li>First Item</li>\n\t<li>Second Item</li>\n</ol>",
+        "o": [
+            "1. First Item\n2. Second Item",
+            "First Item\nSecond Item",
+            "A. First Item\nB. Second Item",
+            "None"
+        ]
+    },
+    {
+        "q": "Which attribute can specify a different bullet style?",
+        "c": null,
+        "o": [
+            "style",
+            "type",
+            "class",
+            "id"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "c": "<ul>\n\t<li>Item A\n\t\t<ol>\n\t\t\t<li>Subitem A1</li>\n\t\t</ol>\n\t</li>\n</ul>",
+        "o": [
+            "Nested list",
+            "Flat list",
+            "Definition list",
+            "None"
+        ]
+    },
+    {
+        "q": "What does a nested <ul> inside a <li> represent?",
+        "c": null,
+        "o": [
+            "Sublist",
+            "Main list",
+            "Item detail",
+            "Description"
+        ]
+    },
+    {
+        "q": "What type of list is created here?",
+        "c": "<ol>\n\t<li>Task 1</li>\n\t<li>Task 2</li>\n</ol>",
+        "o": [
+            "Ordered task list",
+            "Unordered list",
+            "Definition list",
+            "None"
+        ]
+    },
+    {
+        "q": "What is the correct way to define a term in a description list?",
+        "c": null,
+        "o": [
+            "<dt>Term</dt>",
+            "<dd>Term</dd>",
+            "<li>Term</li>",
+            "<ul>Term</ul>"
+        ]
+    },
+    {
+        "q": "What does this code create?",
+        "c": "<ul>\n\t<li>Item 1</li>\n\t<li>Item 2</li>\n</ul>",
+        "o": [
+            "Two bullet items",
+            "Two numbered items",
+            "One bullet item",
+            "None"
+        ]
+    },
+    {
+        "q": "What will <ol start='5'> do?",
+        "c": null,
+        "o": [
+            "Start numbering at 5",
+            "Start at 0",
+            "Start at 1",
+            "Start at 2"
+        ]
+    },
+    {
+        "q": "What is defined by this code?",
+        "c": "<ol>\n\t<li>Step 1</li>\n\t<li>Step 2</li>\n</ol>",
+        "o": [
+            "Ordered steps",
+            "Unordered items",
+            "Descriptions",
+            "None"
+        ]
+    },
+    {
+        "q": "Which of the following is not a valid list?",
+        "c": null,
+        "o": [
+            "<dl>",
+            "<ul>",
+            "<ol>",
+            "<li>"
+        ]
+    },
+    {
+        "q": "What does this code display?",
+        "c": "<dl>\n\t<dt>JavaScript</dt>\n\t<dd>Programming Language</dd>\n</dl>",
+        "o": [
+            "Definition list",
+            "Ordered list",
+            "Unordered list",
+            "None"
+        ]
+    },
+    {
+        "q": "What does the 'type' attribute in <ol> do?",
+        "c": null,
+        "o": [
+            "Changes list style",
+            "Sets the starting number",
+            "Adds a class",
+            "Sets the ID"
+        ]
+    },
+    {
+        "q": "What type of list is produced by this code?",
+        "c": "<ul>\n\t<li>Item 1</li>\n\t<li>Item 2</li>\n</ul>",
+        "o": [
+            "Unordered list",
+            "Ordered list",
+            "Description list",
+            "None"
+        ]
+    },
+    {
+        "q": "How do you make an ordered list start from 10?",
+        "c": null,
+        "o": [
+            "<ol start='10'>",
+            "<ol type='10'>",
+            "<ol begin='10'>",
+            "<ol value='10'>"
+        ]
+    },
+    {
+        "q": "What will this code display?",
+        "c": "<ol>\n\t<li>Step A</li>\n\t<li>Step B</li>\n</ol>",
+        "o": [
+            "1. Step A\n2. Step B",
+            "Step A\nStep B",
+            "A. Step A\nB. Step B",
+            "None"
+        ]
+    },
+    {
+        "q": "Which element is used to represent a definition description?",
+        "c": null,
+        "o": [
+            "<dd>",
+            "<dt>",
+            "<dl>",
+            "<li>"
+        ]
+    },
+    {
+        "q": "What is the purpose of <li> in this code?",
+        "c": "<ul>\n\t<li>Item 1</li>\n</ul>",
+        "o": [
+            "Defines a list item",
+            "Defines a term",
+            "Creates a list",
+            "None"
+        ]
+    },
+    {
+        "q": "What kind of list is used for menus?",
+        "c": null,
+        "o": [
+            "unordered list",
+            "ordered list",
+            "description list",
+            "none"
+        ]
+    },
+    {
+        "q": "What does this code create?",
+        "c": "<ol type='A'>\n\t<li>First</li>\n\t<li>Second</li>\n</ol>",
+        "o": [
+            "Alphabetical list",
+            "Numeric list",
+            "Bullet list",
+            "None"
+        ]
+    },
+    {
+        "q": "Which attribute can style an <ol> to look like an unordered list?",
+        "c": null,
+        "o": [
+            "list-style-type:none",
+            "type:none",
+            "style='list:none'",
+            "class='no-bullets'"
+        ]
+    },
+    {
+        "q": "What does this code produce?",
+        "c": "<ul>\n\t<li>Fruit</li>\n\t<li>Vegetable\n\t\t<ul>\n\t\t\t<li>Carrot</li>\n\t\t</ul>\n\t</li>\n</ul>",
+        "o": [
+            "Nested unordered list",
+            "Flat list",
+            "Description list",
+            "None"
+        ]
+    },
+    {
+        "q": "What tag creates a definition list?",
+        "c": null,
+        "o": [
+            "<dl>",
+            "<ol>",
+            "<ul>",
+            "<list>"
+        ]
+    },
+    {
+        "q": "What is defined by this code?",
+        "c": "<ol>\n\t<li>Task A</li>\n\t<li>Task B</li>\n</ol>",
+        "o": [
+            "Ordered task list",
+            "Unordered list",
+            "Definition list",
+            "None"
+        ]
+    },
+    {
+        "q": "Which element wraps the entire unordered list?",
+        "c": null,
+        "o": [
+            "<ul>",
+            "<ol>",
+            "<li>",
+            "<dl>"
+        ]
+    },
+    {
+        "q": "What does this code indicate?",
+        "c": "<dl>\n\t<dt>HTML</dt>\n\t<dd>HyperText Markup Language</dd>\n</dl>",
+        "o": [
+            "Definition list",
+            "Ordered list",
+            "Unordered list",
+            "None"
+        ]
+    },
+    {
+        "q": "How can you customize the bullet style in <ul>?",
+        "c": null,
+        "o": [
+            "style='list-style-type:circle'",
+            "type='circle'",
+            "class='custom-bullet'",
+            "id='bullet'"
+        ]
+    },
+    {
+        "q": "What does this code create?",
+        "c": "<ul>\n\t<li>Item A</li>\n\t<li>Item B</li>\n</ul>",
+        "o": [
+            "Two bullet items",
+            "Two numbered items",
+            "One bullet item",
+            "None"
+        ]
+    },
+    {
+        "q": "What is the purpose of using <ul> over <ol>?",
+        "c": null,
+        "o": [
+            "Unordered items",
+            "Ordered items",
+            "Definitions",
+            "None"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "c": "<ol>\n\t<li>Step 1</li>\n\t<li>Step 2</li>\n</ol>",
+        "o": [
+            "Ordered steps",
+            "Unordered items",
+            "Descriptions",
+            "None"
+        ]
+    },
+    {
+        "q": "What will <ol type='A'> display?",
+        "c": null,
+        "o": [
+            "Capital letters",
+            "Lowercase letters",
+            "Numbers",
+            "Roman numerals"
+        ]
+    },
+    {
+        "q": "What type of list is indicated by this code?",
+        "c": "<dl>\n\t<dt>CSS</dt>\n\t<dd>Cascading Style Sheets</dd>\n</dl>",
+        "o": [
+            "Definition list",
+            "Ordered list",
+            "Unordered list",
+            "None"
+        ]
+    },
+    {
+        "q": "How can you set a specific bullet style for an unordered list?",
+        "c": null,
+        "o": [
+            "list-style-type",
+            "type",
+            "class",
+            "style"
+        ]
+    },
+    {
+        "q": "What does this code produce?",
+        "c": "<ul>\n\t<li>Item 1</li>\n\t<li>Item 2</li>\n</ul>",
+        "o": [
+            "Two bullet items",
+            "Two numbered items",
+            "One bullet item",
+            "None"
+        ]
+    },
+    {
+        "q": "What happens when you use <li> inside <dl>?",
+        "c": null,
+        "o": [
+            "Invalid markup",
+            "Creates a list",
+            "Defines a term",
+            "Creates a description"
+        ]
+    },
+    {
+        "q": "What is defined by this code?",
+        "c": "<ol start='1'>\n\t<li>First</li>\n\t<li>Second</li>\n</ol>",
+        "o": [
+            "Ordered list starting at 1",
+            "Unordered list",
+            "Definition list",
+            "None"
+        ]
+    },
+    {
+        "q": "Which list is best for step-by-step instructions?",
+        "c": null,
+        "o": [
+            "Ordered list",
+            "Unordered list",
+            "Description list",
+            "Definition list"
+        ]
+    },
+    {
+        "q": "What does this code indicate?",
+        "c": "<ul>\n\t<li>Item A\n\t\t<ol>\n\t\t\t<li>Subitem A1</li>\n\t\t</ol>\n\t</li>\n</ul>",
+        "o": [
+            "Nested list",
+            "Flat list",
+            "Definition list",
+            "None"
+        ]
+    },
+    {
+        "q": "What does a <dt> tag define?",
+        "c": null,
+        "o": [
+            "A term",
+            "A description",
+            "An item",
+            "A list"
+        ]
+    },
+    {
+        "q": "What type of list is created by this code?",
+        "c": "<ol>\n\t<li>Step 1</li>\n\t<li>Step 2</li>\n</ol>",
+        "o": [
+            "Ordered steps",
+            "Unordered items",
+            "Descriptions",
+            "None"
+        ]
+    },
+    {
+        "q": "Which of the following is a correct nested list?",
+        "c": null,
+        "o": [
+            "<ul><li><ul></li></ul></li>",
+            "<ol><li><li></li></li></ol>",
+            "<li><ol></li>",
+            "<dl><dt></dt></dl>"
+        ]
+    },
+    {
+        "q": "What is defined by this code?",
+        "c": "<dl>\n\t<dt>JavaScript</dt>\n\t<dd>Programming Language</dd>\n</dl>",
+        "o": [
+            "Definition list",
+            "Ordered list",
+            "Unordered list",
+            "None"
+        ]
+    },
+    {
+        "q": "What does <ul type='square'> do?",
+        "c": null,
+        "o": [
+            "Creates square bullets",
+            "Creates circular bullets",
+            "Creates no bullets",
+            "Creates dashed bullets"
+        ]
+    },
+    {
+        "q": "What does this code create?",
+        "c": "<ul>\n\t<li>Item A</li>\n\t<li>Item B</li>\n</ul>",
+        "o": [
+            "Two bullet items",
+            "Two numbered items",
+            "One bullet item",
+            "None"
+        ]
+    },
+    {
+        "q": "Which element is incorrect for defining items in a description list?",
+        "c": null,
+        "o": [
+            "<li>",
+            "<dd>",
+            "<dt>",
+            "<dl>"
+        ]
+    },
+    {
+        "q": "What is the output of this code?",
+        "c": "<ol>\n\t<li>First</li>\n\t<li>Second</li>\n</ol>",
+        "o": [
+            "1. First\n2. Second",
+            "First\nSecond",
+            "A. First\nB. Second",
+            "None"
+        ]
+    },
+    {
+        "q": "How can you make a list item bold?",
+        "c": null,
+        "o": [
+            "<li><strong>Item</strong></li>",
+            "<li><b>Item</b></li>",
+            "<li><item>Item</item></li>",
+            "<li>Item</li>"
+        ]
+    },
+    {
+        "q": "What is the function of <dd> in a description list?",
+        "c": null,
+        "o": [
+            "Describes a term",
+            "Defines a term",
+            "Lists items",
+            "Groups terms"
+        ]
+    },
+    {
+        "q": "What will <ol reversed> do?",
+        "c": null,
+        "o": [
+            "Display in reverse order",
+            "Start from the highest number",
+            "Start from the lowest number",
+            "None"
+        ]
+    },
+    {
+        "q": "What does <ol type='1'> mean?",
+        "c": null,
+        "o": [
+            "Numeric list",
+            "Alphabetical list",
+            "Bullet list",
+            "None"
+        ]
+    },
+    {
+        "q": "What is an appropriate use of a definition list?",
+        "c": null,
+        "o": [
+            "Glossary",
+            "Numbered items",
+            "Bulleted items",
+            "Sub-items"
+        ]
+    },
+    {
+        "q": "What tag would you use for a nested <ol>?",
+        "c": null,
+        "o": [
+            "<li><ol></ol></li>",
+            "<ol><li></li></ol>",
+            "<ul><li></li></ul>",
+            "<dl><dt></dt></dl>"
+        ]
+    },
+    {
+        "q": "How do you create a list with no bullets?",
+        "c": null,
+        "o": [
+            "<ul style='list-style:none'>",
+            "<ul type='none'>",
+            "<ul class='no-bullets'>",
+            "<ul list='none'>"
+        ]
+    },
+    {
+        "q": "Which list is suitable for categories?",
+        "c": null,
+        "o": [
+            "unordered list",
+            "ordered list",
+            "description list",
+            "none"
+        ]
+    },
+    {
+        "q": "What does the <ol start='1'> indicate?",
+        "c": null,
+        "o": [
+            "Start from 1",
+            "Start from 0",
+            "Start from 2",
+            "None"
+        ]
+    },
+    {
+        "q": "Which of these creates a bullet list?",
+        "c": null,
+        "o": [
+            "<ul>",
+            "<ol>",
+            "<dl>",
+            "<li>"
+        ]
+    },
+    {
+        "q": "How to create a definition description?",
+        "c": null,
+        "o": [
+            "<dd>Description</dd>",
+            "<dl>Description</dl>",
+            "<dt>Description</dt>",
+            "<li>Description</li>"
+        ]
+    },
+    {
+        "q": "What is the default bullet style in an unordered list?",
+        "c": null,
+        "o": [
+            "Disc",
+            "Circle",
+            "Square",
+            "None"
+        ]
+    },
+    {
+        "q": "How can you change the list style to circle?",
+        "c": null,
+        "o": [
+            "<ul style='list-style-type:circle'>",
+            "<ul type='circle'>",
+            "<ul class='circle'>",
+            "<ul type='disc'>"
+        ]
+    },
+    {
+        "q": "Which tag defines a term in a description list?",
+        "c": null,
+        "o": [
+            "<dt>",
+            "<dd>",
+            "<dl>",
+            "<li>"
+        ]
+    },
+    {
+        "q": "What does <ol type='A'> display?",
+        "c": null,
+        "o": [
+            "Uppercase letters",
+            "Lowercase letters",
+            "Numbers",
+            "None"
+        ]
+    },
+    {
+        "q": "How to create a nested list?",
+        "c": null,
+        "o": [
+            "<ul><li><ul></li></li></ul>",
+            "<ol><li><ol></li></li></ol>",
+            "<li><ul></li>",
+            "<dl><dt></dt></dl>"
+        ]
+    },
+    {
+        "q": "What does <li> represent in a list?",
+        "c": null,
+        "o": [
+            "List item",
+            "List index",
+            "List inclusion",
+            "List option"
+        ]
+    },
+    {
+        "q": "How do you specify a custom bullet?",
+        "c": null,
+        "o": [
+            "style='list-style-type:circle'",
+            "type='circle'",
+            "list='circle'",
+            "bullet='circle'"
+        ]
+    },
+    {
+        "q": "Which of the following tags is invalid in a list?",
+        "c": null,
+        "o": [
+            "<li>",
+            "<ol>",
+            "<ul>",
+            "<div>"
+        ]
+    },
+    {
+        "q": "What does <dl> represent?",
+        "c": null,
+        "o": [
+            "Description list",
+            "Definition list",
+            "Data list",
+            "None"
+        ]
+    },
+    {
+        "q": "What will <ol reversed> do?",
+        "c": null,
+        "o": [
+            "Display in reverse order",
+            "Display in random order",
+            "Display alphabetically",
+            "Display by length"
+        ]
+    },
+    {
+        "q": "How can you add a class to a <ul>?",
+        "c": null,
+        "o": [
+            "<ul class='myClass'>",
+            "<ul id='myId'>",
+            "<ul style='...'>",
+            "<ul type='...'/>"
+        ]
+    },
+    {
+        "q": "Which element wraps all list items in an unordered list?",
+        "c": null,
+        "o": [
+            "<ul>",
+            "<ol>",
+            "<li>",
+            "<dl>"
+        ]
+    },
+    {
+        "q": "What does <dd> describe in a definition list?",
+        "c": null,
+        "o": [
+            "Definition",
+            "Term",
+            "List",
+            "Item"
+        ]
+    },
+    {
+        "q": "Which tag creates an unordered list?",
+        "c": null,
+        "o": [
+            "<ul>",
+            "<ol>",
+            "<dl>",
+            "<li>"
+        ]
+    },
+    {
+        "q": "How do you create a list with no bullets?",
+        "c": null,
+        "o": [
+            "<ul style='list-style:none'>",
+            "<ul type='none'>",
+            "<ul class='no-bullets'>",
+            "<ul list='none'>"
+        ]
+    },
+    {
+        "q": "What is the main use of <li>?",
+        "c": null,
+        "o": [
+            "List items",
+            "Display terms",
+            "Create headers",
+            "Define descriptions"
+        ]
+    },
+    {
+        "q": "What is the correct way to create a definition?",
+        "c": null,
+        "o": [
+            "<dl><dt>Term</dt><dd>Description</dd></dl>",
+            "<ul><li>Term</li><li>Description</li></ul>",
+            "<ol><li>Term</li><li>Description</li></ol>",
+            "<dl><li>Term</li><li>Description</li></dl>"
+        ]
+    },
+    {
+        "q": "How do you create a sublist?",
+        "c": null,
+        "o": [
+            "<ul><li><ul></ul></li></ul>",
+            "<ol><li><ol></ol></li></ol>",
+            "<li><ul></ul></li>",
+            "<dl><dt></dt></dl>"
+        ]
+    },
+    {
+        "q": "What does <ol type='I'> indicate?",
+        "c": null,
+        "o": [
+            "Roman numerals",
+            "Uppercase letters",
+            "Lowercase letters",
+            "None"
+        ]
+    },
+    {
+        "q": "How do you apply a custom class to an ordered list?",
+        "c": null,
+        "o": [
+            "<ol class='myClass'>",
+            "<ol id='myId'>",
+            "<ol style='...'>",
+            "<ol type='...'/>"
+        ]
+    },
+    {
+        "q": "What is the first item in an ordered list starting at 5?",
+        "c": null,
+        "o": [
+            "5",
+            "1",
+            "0",
+            "None"
+        ]
+    },
+    {
+        "q": "What does <ul type='disc'> do?",
+        "c": null,
+        "o": [
+            "Creates a disc bullet",
+            "Creates a square bullet",
+            "Creates no bullet",
+            "Creates a dashed bullet"
+        ]
+    },
+    {
+        "q": "Which element is not valid in a list?",
+        "c": null,
+        "o": [
+            "<li>",
+            "<ol>",
+            "<ul>",
+            "<span>"
+        ]
+    },
+    {
+        "q": "How to style a <dl>?",
+        "c": null,
+        "o": [
+            "<dl style='...'>",
+            "<dl class='...'/>",
+            "<dl id='...'/>",
+            "<dl type='...'/>"
+        ]
+    },
+    {
+        "q": "Which attribute defines the starting number of an ordered list?",
+        "c": null,
+        "o": [
+            "start",
+            "type",
+            "id",
+            "class"
+        ]
+    },
+    {
+        "q": "What is the default list type for an ordered list?",
+        "c": null,
+        "o": [
+            "Numbers",
+            "Bullets",
+            "None",
+            "None"
+        ]
+    },
+    {
+        "q": "What is the purpose of <dd> in a <dl>?",
+        "c": null,
+        "o": [
+            "Defines a description",
+            "Defines a term",
+            "Creates a list",
+            "Creates an item"
+        ]
+    },
+    {
+        "q": "How do you create a list item with a link?",
+        "c": null,
+        "o": [
+            "<li><a href='...'>Item</a></li>",
+            "<li>Item<a href='...'></a></li>",
+            "<li>Item link='...'</li>",
+            "<li><link href='...'>Item</link></li>"
+        ]
+    },
+    {
+        "q": "What does <ol type='1'> indicate?",
+        "c": null,
+        "o": [
+            "Numeric list",
+            "Alphabetical list",
+            "Bullet list",
+            "None"
+        ]
+    },
+    {
+        "q": "Which list type is suitable for definitions?",
+        "c": null,
+        "o": [
+            "Definition list",
+            "Ordered list",
+            "Unordered list",
+            "Sub-list"
+        ]
+    },
+    {
+        "q": "How can you remove the default bullet style?",
+        "c": null,
+        "o": [
+            "<ul style='list-style:none'>",
+            "<ul type='none'>",
+            "<ul class='no-bullets'>",
+            "<ul list='none'>"
+        ]
+    }
+]
