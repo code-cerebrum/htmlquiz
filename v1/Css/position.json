@@ -1,6 +1,7 @@
 [
     {
         "q": "What will be the position of the div?",
+        "l": "css",
         "c": "div {\n    position: static;\n}",
         "o": [
             "normal flow",
@@ -20,6 +21,7 @@
     },
     {
         "q": "How does this div behave?",
+        "l": "css",
         "c": "div {\n    position: relative;\n    top: 10px;\n}",
         "o": [
             "moves down",
@@ -39,6 +41,7 @@
     },
     {
         "q": "What does this code achieve?",
+        "l": "css",
         "c": "div {\n    position: absolute;\n    left: 0;\n    top: 0;\n}",
         "o": [
             "overlaps parent",
@@ -58,6 +61,7 @@
     },
     {
         "q": "How will the div be positioned?",
+        "l": "css",
         "c": "div {\n    position: fixed;\n    bottom: 0;\n}",
         "o": [
             "bottom of viewport",
@@ -77,6 +81,7 @@
     },
     {
         "q": "What does sticky positioning do?",
+        "l": "css",
         "c": "div {\n    position: sticky;\n    top: 0;\n}",
         "o": [
             "remains visible",
@@ -96,6 +101,7 @@
     },
     {
         "q": "What happens to static positioned elements?",
+        "l": "css",
         "c": "div {\n    position: static;\n}",
         "o": [
             "follows normal flow",
@@ -115,6 +121,7 @@
     },
     {
         "q": "How does relative positioning affect layout?",
+        "l": "css",
         "c": "div {\n    position: relative;\n    left: 20px;\n}",
         "o": [
             "moves right",
@@ -134,6 +141,7 @@
     },
     {
         "q": "What does absolute positioning ignore?",
+        "l": "css",
         "c": "div {\n    position: absolute;\n    right: 0;\n}",
         "o": [
             "document flow",
@@ -153,6 +161,7 @@
     },
     {
         "q": "What will this code do?",
+        "l": "css",
         "c": "div {\n    position: fixed;\n    top: 10px;\n    left: 10px;\n}",
         "o": [
             "stays on screen",
@@ -172,6 +181,7 @@
     },
     {
         "q": "What effect does sticky positioning have?",
+        "l": "css",
         "c": "div {\n    position: sticky;\n    top: 10px;\n}",
         "o": [
             "remains visible",
@@ -191,6 +201,7 @@
     },
     {
         "q": "How does static positioning behave?",
+        "l": "css",
         "c": "div {\n    position: static;\n}",
         "o": [
             "normal flow",
@@ -210,6 +221,7 @@
     },
     {
         "q": "What happens to a relative element?",
+        "l": "css",
         "c": "div {\n    position: relative;\n    top: -20px;\n}",
         "o": [
             "moves up",
@@ -229,6 +241,7 @@
     },
     {
         "q": "What does this absolute positioning do?",
+        "l": "css",
         "c": "div {\n    position: absolute;\n    z-index: 10;\n}",
         "o": [
             "overlaps elements",
@@ -248,6 +261,7 @@
     },
     {
         "q": "What happens to a fixed positioned element?",
+        "l": "css",
         "c": "div {\n    position: fixed;\n    right: 5px;\n}",
         "o": [
             "stays on viewport",
@@ -267,6 +281,7 @@
     },
     {
         "q": "How does sticky work during scrolling?",
+        "l": "css",
         "c": "div {\n    position: sticky;\n    top: 50px;\n}",
         "o": [
             "stays visible",
@@ -286,6 +301,7 @@
     },
     {
         "q": "What will be the output of this CSS?",
+        "l": "css",
         "c": "div {\n    position: static;\n    margin: 10px;\n}",
         "o": [
             "normal flow",
@@ -305,6 +321,7 @@
     },
     {
         "q": "How does relative positioning impact siblings?",
+        "l": "css",
         "c": "div {\n    position: relative;\n    z-index: 1;\n}",
         "o": [
             "keeps flow",
@@ -324,6 +341,7 @@
     },
     {
         "q": "What does this code snippet define?",
+        "l": "css",
         "c": "div {\n    position: absolute;\n    bottom: 0;\n}",
         "o": [
             "floats",
@@ -343,6 +361,7 @@
     },
     {
         "q": "What effect does fixed positioning have?",
+        "l": "css",
         "c": "div {\n    position: fixed;\n    left: 20px;\n}",
         "o": [
             "stays visible",
@@ -362,6 +381,7 @@
     },
     {
         "q": "What will happen when this code is applied?",
+        "l": "css",
         "c": "div {\n    position: sticky;\n    bottom: 0;\n}",
         "o": [
             "stays visible",
@@ -381,6 +401,7 @@
     },
     {
         "q": "How does static positioning work?",
+        "l": "css",
         "c": "div {\n    position: static;\n}",
         "o": [
             "in normal flow",
@@ -400,6 +421,7 @@
     },
     {
         "q": "What is the effect of relative positioning?",
+        "l": "css",
         "c": "div {\n    position: relative;\n    top: 30px;\n}",
         "o": [
             "moves down",
@@ -419,6 +441,7 @@
     },
     {
         "q": "What will this code do?",
+        "l": "css",
         "c": "div {\n    position: absolute;\n    left: 50%;\n}",
         "o": [
             "centers element",
@@ -438,6 +461,7 @@
     },
     {
         "q": "How will a fixed element behave?",
+        "l": "css",
         "c": "div {\n    position: fixed;\n    top: 10px;\n    left: 10px;\n}",
         "o": [
             "stays on viewport",
@@ -457,6 +481,7 @@
     },
     {
         "q": "What does sticky positioning require?",
+        "l": "css",
         "c": "div {\n    position: sticky;\n    top: 0;\n}",
         "o": [
             "scrollable ancestor",
@@ -476,6 +501,7 @@
     },
     {
         "q": "How does static positioning affect layout?",
+        "l": "css",
         "c": "div {\n    position: static;\n}",
         "o": [
             "in normal flow",
@@ -495,6 +521,7 @@
     },
     {
         "q": "What happens with relative positioning?",
+        "l": "css",
         "c": "div {\n    position: relative;\n    right: 15px;\n}",
         "o": [
             "moves left",
@@ -514,6 +541,7 @@
     },
     {
         "q": "What does absolute positioning allow?",
+        "l": "css",
         "c": "div {\n    position: absolute;\n    top: 10px;\n}",
         "o": [
             "overlap",
@@ -533,6 +561,7 @@
     },
     {
         "q": "What will this fixed element do?",
+        "l": "css",
         "c": "div {\n    position: fixed;\n    right: 0;\n    bottom: 0;\n}",
         "o": [
             "stay in viewport",
@@ -552,6 +581,7 @@
     },
     {
         "q": "What happens to sticky elements?",
+        "l": "css",
         "c": "div {\n    position: sticky;\n    top: 100px;\n}",
         "o": [
             "stays visible",
@@ -571,6 +601,7 @@
     },
     {
         "q": "What effect does static positioning have?",
+        "l": "css",
         "c": "div {\n    position: static;\n}",
         "o": [
             "normal flow",
@@ -590,6 +621,7 @@
     },
     {
         "q": "How does relative positioning affect siblings?",
+        "l": "css",
         "c": "div {\n    position: relative;\n    left: 10px;\n}",
         "o": [
             "keeps them in flow",
@@ -609,6 +641,7 @@
     },
     {
         "q": "What does absolute positioning ignore?",
+        "l": "css",
         "c": "div {\n    position: absolute;\n    z-index: 2;\n}",
         "o": [
             "normal flow",
@@ -628,6 +661,7 @@
     },
     {
         "q": "What is a feature of fixed positioning?",
+        "l": "css",
         "c": "div {\n    position: fixed;\n    top: 0;\n    left: 0;\n}",
         "o": [
             "stays visible",
@@ -647,6 +681,7 @@
     },
     {
         "q": "What does sticky positioning enable?",
+        "l": "css",
         "c": "div {\n    position: sticky;\n    top: 50px;\n}",
         "o": [
             "scrolls with page",
@@ -666,6 +701,7 @@
     },
     {
         "q": "What happens to static positioned elements?",
+        "l": "css",
         "c": "div {\n    position: static;\n}",
         "o": [
             "follows normal flow",
@@ -685,6 +721,7 @@
     },
     {
         "q": "How does relative positioning modify an element?",
+        "l": "css",
         "c": "div {\n    position: relative;\n    top: 15px;\n}",
         "o": [
             "moves down",
@@ -704,6 +741,7 @@
     },
     {
         "q": "What does this code achieve?",
+        "l": "css",
         "c": "div {\n    position: absolute;\n    right: 10px;\n}",
         "o": [
             "overlaps parent",
@@ -723,6 +761,7 @@
     },
     {
         "q": "What will this fixed element do?",
+        "l": "css",
         "c": "div {\n    position: fixed;\n    bottom: 10px;\n}",
         "o": [
             "stay at bottom",
@@ -742,6 +781,7 @@
     },
     {
         "q": "What is the effect of sticky positioning?",
+        "l": "css",
         "c": "div {\n    position: sticky;\n    top: 20px;\n}",
         "o": [
             "remains visible",
@@ -761,6 +801,7 @@
     },
     {
         "q": "What is the output of this CSS?",
+        "l": "css",
         "c": "div {\n    position: static;\n    padding: 10px;\n}",
         "o": [
             "normal flow",
@@ -780,6 +821,7 @@
     },
     {
         "q": "What does this relative positioning do?",
+        "l": "css",
         "c": "div {\n    position: relative;\n    bottom: 5px;\n}",
         "o": [
             "moves up",
@@ -799,6 +841,7 @@
     },
     {
         "q": "What effect does absolute positioning have?",
+        "l": "css",
         "c": "div {\n    position: absolute;\n    top: 5px;\n}",
         "o": [
             "ignores flow",
@@ -818,6 +861,7 @@
     },
     {
         "q": "What will this fixed code do?",
+        "l": "css",
         "c": "div {\n    position: fixed;\n    left: 0;\n    top: 0;\n}",
         "o": [
             "stays on viewport",
@@ -837,6 +881,7 @@
     },
     {
         "q": "What happens to a sticky element when scrolled?",
+        "l": "css",
         "c": "div {\n    position: sticky;\n    top: 0;\n}",
         "o": [
             "stays visible",
@@ -856,6 +901,7 @@
     },
     {
         "q": "What happens with static positioned elements?",
+        "l": "css",
         "c": "div {\n    position: static;\n}",
         "o": [
             "normal flow",
@@ -875,6 +921,7 @@
     },
     {
         "q": "How does relative positioning affect layout?",
+        "l": "css",
         "c": "div {\n    position: relative;\n    left: 10px;\n}",
         "o": [
             "moves right",
@@ -894,6 +941,7 @@
     },
     {
         "q": "What will absolute positioning do?",
+        "l": "css",
         "c": "div {\n    position: absolute;\n    bottom: 0;\n}",
         "o": [
             "moves to bottom",
@@ -913,6 +961,7 @@
     },
     {
         "q": "What happens to a fixed element?",
+        "l": "css",
         "c": "div {\n    position: fixed;\n    top: 10px;\n}",
         "o": [
             "stays in viewport",
@@ -932,6 +981,7 @@
     },
     {
         "q": "What does sticky positioning allow?",
+        "l": "css",
         "c": "div {\n    position: sticky;\n    top: 50px;\n}",
         "o": [
             "stays during scroll",
@@ -951,6 +1001,7 @@
     },
     {
         "q": "How does static positioning behave?",
+        "l": "css",
         "c": "div {\n    position: static;\n}",
         "o": [
             "in normal flow",
@@ -970,6 +1021,7 @@
     },
     {
         "q": "What does relative positioning cause?",
+        "l": "css",
         "c": "div {\n    position: relative;\n    right: 20px;\n}",
         "o": [
             "moves left",
@@ -989,6 +1041,7 @@
     },
     {
         "q": "What will absolute positioning ignore?",
+        "l": "css",
         "c": "div {\n    position: absolute;\n    left: 0;\n}",
         "o": [
             "normal flow",
@@ -1008,6 +1061,7 @@
     },
     {
         "q": "What will fixed position do?",
+        "l": "css",
         "c": "div {\n    position: fixed;\n    left: 10px;\n}",
         "o": [
             "stays on screen",
@@ -1027,6 +1081,7 @@
     },
     {
         "q": "What does sticky allow?",
+        "l": "css",
         "c": "div {\n    position: sticky;\n    top: 30px;\n}",
         "o": [
             "remains visible",
@@ -1046,6 +1101,7 @@
     },
     {
         "q": "What is the behavior of static positioning?",
+        "l": "css",
         "c": "div {\n    position: static;\n}",
         "o": [
             "in normal flow",
@@ -1065,6 +1121,7 @@
     },
     {
         "q": "How does relative positioning affect siblings?",
+        "l": "css",
         "c": "div {\n    position: relative;\n    top: 10px;\n}",
         "o": [
             "remains in flow",
@@ -1084,6 +1141,7 @@
     },
     {
         "q": "What happens with absolute positioning?",
+        "l": "css",
         "c": "div {\n    position: absolute;\n    right: 5px;\n}",
         "o": [
             "ignores normal flow",
@@ -1103,6 +1161,7 @@
     },
     {
         "q": "What does fixed positioning enable?",
+        "l": "css",
         "c": "div {\n    position: fixed;\n    bottom: 0;\n}",
         "o": [
             "stays at bottom",
@@ -1122,6 +1181,7 @@
     },
     {
         "q": "What is the effect of sticky positioning?",
+        "l": "css",
         "c": "div {\n    position: sticky;\n    top: 0;\n}",
         "o": [
             "remains during scroll",
@@ -1141,6 +1201,7 @@
     },
     {
         "q": "What happens to static positioned elements?",
+        "l": "css",
         "c": "div {\n    position: static;\n}",
         "o": [
             "follows normal flow",
@@ -1160,6 +1221,7 @@
     },
     {
         "q": "How does relative positioning affect layout?",
+        "l": "css",
         "c": "div {\n    position: relative;\n    left: 30px;\n}",
         "o": [
             "moves right",
@@ -1179,6 +1241,7 @@
     },
     {
         "q": "What does absolute positioning do?",
+        "l": "css",
         "c": "div {\n    position: absolute;\n    top: 20px;\n}",
         "o": [
             "moves down",
@@ -1198,6 +1261,7 @@
     },
     {
         "q": "What does fixed positioning achieve?",
+        "l": "css",
         "c": "div {\n    position: fixed;\n    left: 10px;\n}",
         "o": [
             "stays on screen",
@@ -1217,6 +1281,7 @@
     },
     {
         "q": "What happens to sticky positioned elements?",
+        "l": "css",
         "c": "div {\n    position: sticky;\n    top: 10px;\n}",
         "o": [
             "remains during scroll",
@@ -1236,6 +1301,7 @@
     },
     {
         "q": "What does static positioning lead to?",
+        "l": "css",
         "c": "div {\n    position: static;\n}",
         "o": [
             "in normal flow",
@@ -1255,6 +1321,7 @@
     },
     {
         "q": "What is the effect of relative positioning?",
+        "l": "css",
         "c": "div {\n    position: relative;\n    top: 5px;\n}",
         "o": [
             "moves down",
@@ -1274,6 +1341,7 @@
     },
     {
         "q": "What will absolute positioning ignore?",
+        "l": "css",
         "c": "div {\n    position: absolute;\n    left: 10px;\n}",
         "o": [
             "normal flow",
@@ -1293,6 +1361,7 @@
     },
     {
         "q": "What will fixed positioning do?",
+        "l": "css",
         "c": "div {\n    position: fixed;\n    top: 10px;\n}",
         "o": [
             "stay on viewport",
@@ -1312,6 +1381,7 @@
     },
     {
         "q": "What does sticky positioning do?",
+        "l": "css",
         "c": "div {\n    position: sticky;\n    top: 40px;\n}",
         "o": [
             "stays during scroll",
@@ -1331,6 +1401,7 @@
     },
     {
         "q": "What is static positioning?",
+        "l": "css",
         "c": "div {\n    position: static;\n}",
         "o": [
             "normal flow",
@@ -1350,6 +1421,7 @@
     },
     {
         "q": "How does relative positioning work?",
+        "l": "css",
         "c": "div {\n    position: relative;\n    left: 10px;\n}",
         "o": [
             "moves right",
@@ -1369,6 +1441,7 @@
     },
     {
         "q": "What does absolute positioning allow?",
+        "l": "css",
         "c": "div {\n    position: absolute;\n    top: 0;\n}",
         "o": [
             "ignores flow",
@@ -1388,6 +1461,7 @@
     },
     {
         "q": "What does fixed position do?",
+        "l": "css",
         "c": "div {\n    position: fixed;\n    bottom: 5px;\n}",
         "o": [
             "stays at bottom",
@@ -1407,6 +1481,7 @@
     },
     {
         "q": "What happens to a sticky element?",
+        "l": "css",
         "c": "div {\n    position: sticky;\n    top: 50px;\n}",
         "o": [
             "remains during scroll",
@@ -1426,6 +1501,7 @@
     },
     {
         "q": "What does static positioning entail?",
+        "l": "css",
         "c": "div {\n    position: static;\n}",
         "o": [
             "normal flow",
@@ -1445,6 +1521,7 @@
     },
     {
         "q": "What is the outcome of relative positioning?",
+        "l": "css",
         "c": "div {\n    position: relative;\n    top: 15px;\n}",
         "o": [
             "moves down",
@@ -1464,6 +1541,7 @@
     },
     {
         "q": "What does absolute positioning affect?",
+        "l": "css",
         "c": "div {\n    position: absolute;\n    right: 5px;\n}",
         "o": [
             "ignores normal flow",
@@ -1483,6 +1561,7 @@
     },
     {
         "q": "What does fixed position result in?",
+        "l": "css",
         "c": "div {\n    position: fixed;\n    top: 0;\n}",
         "o": [
             "stays in viewport",
@@ -1502,6 +1581,7 @@
     },
     {
         "q": "What will sticky positioning do?",
+        "l": "css",
         "c": "div {\n    position: sticky;\n    top: 20px;\n}",
         "o": [
             "remains during scroll",
@@ -1521,6 +1601,7 @@
     },
     {
         "q": "What is the effect of static positioning?",
+        "l": "css",
         "c": "div {\n    position: static;\n}",
         "o": [
             "follows normal flow",
@@ -1540,6 +1621,7 @@
     },
     {
         "q": "How does relative positioning work?",
+        "l": "css",
         "c": "div {\n    position: relative;\n    left: 5px;\n}",
         "o": [
             "moves right",
@@ -1559,6 +1641,7 @@
     },
     {
         "q": "What happens with absolute positioning?",
+        "l": "css",
         "c": "div {\n    position: absolute;\n    bottom: 0;\n}",
         "o": [
             "ignores flow",
@@ -1578,6 +1661,7 @@
     },
     {
         "q": "What does fixed positioning accomplish?",
+        "l": "css",
         "c": "div {\n    position: fixed;\n    left: 0;\n}",
         "o": [
             "stays on screen",
@@ -1597,6 +1681,7 @@
     },
     {
         "q": "What does sticky positioning allow?",
+        "l": "css",
         "c": "div {\n    position: sticky;\n    top: 10px;\n}",
         "o": [
             "remains during scroll",
@@ -1616,6 +1701,7 @@
     },
     {
         "q": "What happens to static positioned elements?",
+        "l": "css",
         "c": "div {\n    position: static;\n}",
         "o": [
             "follows normal flow",
@@ -1635,6 +1721,7 @@
     },
     {
         "q": "What does relative positioning do?",
+        "l": "css",
         "c": "div {\n    position: relative;\n    bottom: 10px;\n}",
         "o": [
             "moves up",
@@ -1654,6 +1741,7 @@
     },
     {
         "q": "What happens with absolute positioning?",
+        "l": "css",
         "c": "div {\n    position: absolute;\n    top: 5px;\n}",
         "o": [
             "ignores flow",
@@ -1673,6 +1761,7 @@
     },
     {
         "q": "What does fixed positioning achieve?",
+        "l": "css",
         "c": "div {\n    position: fixed;\n    right: 0;\n}",
         "o": [
             "stays on screen",
@@ -1692,6 +1781,7 @@
     },
     {
         "q": "What does sticky positioning do?",
+        "l": "css",
         "c": "div {\n    position: sticky;\n    top: 25px;\n}",
         "o": [
             "remains visible",
@@ -1711,6 +1801,7 @@
     },
     {
         "q": "What happens with static positioning?",
+        "l": "css",
         "c": "div {\n    position: static;\n}",
         "o": [
             "follows normal flow",
@@ -1730,6 +1821,7 @@
     },
     {
         "q": "How does relative positioning affect layout?",
+        "l": "css",
         "c": "div {\n    position: relative;\n    top: 5px;\n}",
         "o": [
             "moves down",
@@ -1749,6 +1841,7 @@
     },
     {
         "q": "What does absolute positioning do?",
+        "l": "css",
         "c": "div {\n    position: absolute;\n    left: 10px;\n}",
         "o": [
             "ignores normal flow",
@@ -1768,6 +1861,7 @@
     },
     {
         "q": "What does fixed positioning result in?",
+        "l": "css",
         "c": "div {\n    position: fixed;\n    bottom: 10px;\n}",
         "o": [
             "stays at bottom",
@@ -1787,6 +1881,7 @@
     },
     {
         "q": "What happens to sticky positioned elements?",
+        "l": "css",
         "c": "div {\n    position: sticky;\n    top: 10px;\n}",
         "o": [
             "remains during scroll",
@@ -1806,6 +1901,7 @@
     },
     {
         "q": "What does static positioning lead to?",
+        "l": "css",
         "c": "div {\n    position: static;\n}",
         "o": [
             "normal flow",
@@ -1825,6 +1921,7 @@
     },
     {
         "q": "What is the outcome of relative positioning?",
+        "l": "css",
         "c": "div {\n    position: relative;\n    right: 5px;\n}",
         "o": [
             "moves left",
@@ -1844,6 +1941,7 @@
     },
     {
         "q": "What does absolute positioning affect?",
+        "l": "css",
         "c": "div {\n    position: absolute;\n    top: 0;\n}",
         "o": [
             "ignores normal flow",
@@ -1863,6 +1961,7 @@
     },
     {
         "q": "What does fixed positioning do?",
+        "l": "css",
         "c": "div {\n    position: fixed;\n    left: 10px;\n}",
         "o": [
             "stays on screen",
@@ -1882,6 +1981,7 @@
     },
     {
         "q": "What happens to sticky positioned elements?",
+        "l": "css",
         "c": "div {\n    position: sticky;\n    top: 30px;\n}",
         "o": [
             "remains visible",
@@ -1901,6 +2001,7 @@
     },
     {
         "q": "What is static positioning?",
+        "l": "css",
         "c": "div {\n    position: static;\n}",
         "o": [
             "normal flow",
@@ -1920,6 +2021,7 @@
     },
     {
         "q": "How does relative positioning work?",
+        "l": "css",
         "c": "div {\n    position: relative;\n    bottom: 5px;\n}",
         "o": [
             "moves up",
@@ -1939,6 +2041,7 @@
     },
     {
         "q": "What does absolute positioning allow?",
+        "l": "css",
         "c": "div {\n    position: absolute;\n    right: 10px;\n}",
         "o": [
             "ignores flow",
@@ -1958,6 +2061,7 @@
     },
     {
         "q": "What does fixed position do?",
+        "l": "css",
         "c": "div {\n    position: fixed;\n    top: 0;\n}",
         "o": [
             "stays in viewport",
@@ -1977,6 +2081,7 @@
     },
     {
         "q": "What will sticky positioning do?",
+        "l": "css",
         "c": "div {\n    position: sticky;\n    top: 50px;\n}",
         "o": [
             "remains during scroll",
@@ -1996,6 +2101,7 @@
     },
     {
         "q": "What is the effect of static positioning?",
+        "l": "css",
         "c": "div {\n    position: static;\n}",
         "o": [
             "follows normal flow",

@@ -1,6 +1,7 @@
 [
     {
         "q": "What does this code target?",
+        "l": "css",
         "c": "@media (max-width: 600px) {\n    body {\n        background-color: lightblue;\n    }\n}",
         "o": [
             "Screens less than 600px",
@@ -20,6 +21,7 @@
     },
     {
         "q": "What is applied when the viewport is at least 600px wide?",
+        "l": "css",
         "c": "@media (min-width: 600px) {\n    h1 {\n        font-size: 2em;\n    }\n}",
         "o": [
             "h1 font size is 2em",
@@ -39,6 +41,7 @@
     },
     {
         "q": "What does this media query check?",
+        "l": "css",
         "c": "@media (orientation: landscape) {\n    .container {\n        width: 100%;\n    }\n}",
         "o": [
             "Screen orientation is landscape",
@@ -58,6 +61,7 @@
     },
     {
         "q": "What happens at a resolution of 2dppx?",
+        "l": "css",
         "c": "@media (min-resolution: 2dppx) {\n    img {\n        width: 200px;\n    }\n}",
         "o": [
             "Images width is 200px",
@@ -77,6 +81,7 @@
     },
     {
         "q": "What is the effect of this media query?",
+        "l": "css",
         "c": "@media (max-height: 500px) {\n    p {\n        font-size: 12px;\n    }\n}",
         "o": [
             "p font size becomes 12px",
@@ -96,6 +101,7 @@
     },
     {
         "q": "What does this code modify?",
+        "l": "css",
         "c": "@media (hover: hover) {\n    a {\n        color: blue;\n    }\n}",
         "o": [
             "Links become blue on hover",
@@ -115,6 +121,7 @@
     },
     {
         "q": "What does the following media query accomplish?",
+        "l": "css",
         "c": "@media (prefers-color-scheme: dark) {\n    body {\n        background: black;\n    }\n}",
         "o": [
             "Sets background to black in dark mode",
@@ -134,6 +141,7 @@
     },
     {
         "q": "What is the purpose of this media query?",
+        "l": "css",
         "c": "@media (min-width: 768px) {\n    nav {\n        display: block;\n    }\n}",
         "o": [
             "Shows navigation for screens wider than 768px",
@@ -153,6 +161,7 @@
     },
     {
         "q": "What does this code accomplish for small screens?",
+        "l": "css",
         "c": "@media (max-width: 400px) {\n    img {\n        width: 100%;\n    }\n}",
         "o": [
             "Images become full width on small screens",
@@ -172,6 +181,7 @@
     },
     {
         "q": "What is the effect of this media query on text color?",
+        "l": "css",
         "c": "@media (min-width: 600px) {\n    .text {\n        color: red;\n    }\n}",
         "o": [
             "Text color turns red on wider screens",
@@ -191,6 +201,7 @@
     },
     {
         "q": "What does this code change for portrait mode?",
+        "l": "css",
         "c": "@media (orientation: portrait) {\n    .sidebar {\n        display: none;\n    }\n}",
         "o": [
             "Hides sidebar in portrait mode",
@@ -210,6 +221,7 @@
     },
     {
         "q": "What happens at a minimum resolution of 150dpi?",
+        "l": "css",
         "c": "@media (min-resolution: 150dpi) {\n    .background {\n        background: url('bg.jpg');\n    }\n}",
         "o": [
             "Background image applies at 150dpi",
@@ -229,6 +241,7 @@
     },
     {
         "q": "What does this media query affect?",
+        "l": "css",
         "c": "@media (max-aspect-ratio: 16/9) {\n    video {\n        width: 100%;\n    }\n}",
         "o": [
             "Videos become full width for screens narrower than 16:9",
@@ -248,6 +261,7 @@
     },
     {
         "q": "What happens when the viewport is greater than 1200px?",
+        "l": "css",
         "c": "@media (min-width: 1200px) {\n    .large {\n        display: block;\n    }\n}",
         "o": [
             "Element displays as block",
@@ -267,6 +281,7 @@
     },
     {
         "q": "What is the effect of this media query on font size?",
+        "l": "css",
         "c": "@media (min-width: 500px) {\n    h2 {\n        font-size: 24px;\n    }\n}",
         "o": [
             "h2 font size is 24px on wider screens",
@@ -286,6 +301,7 @@
     },
     {
         "q": "What is the purpose of this media query?",
+        "l": "css",
         "c": "@media (hover: none) {\n    button {\n        cursor: default;\n    }\n}",
         "o": [
             "Changes cursor for non-hover devices",
@@ -305,6 +321,7 @@
     },
     {
         "q": "What happens for screens with a height of 600px or less?",
+        "l": "css",
         "c": "@media (max-height: 600px) {\n    .footer {\n        font-size: 10px;\n    }\n}",
         "o": [
             "Footer font size is 10px",
@@ -324,6 +341,7 @@
     },
     {
         "q": "What is this media query checking?",
+        "l": "css",
         "c": "@media (min-device-width: 768px) {\n    .container {\n        padding: 20px;\n    }\n}",
         "o": [
             "Targets devices wider than 768px",
@@ -343,6 +361,7 @@
     },
     {
         "q": "What does this code change for mobile devices?",
+        "l": "css",
         "c": "@media (max-width: 480px) {\n    .header {\n        display: none;\n    }\n}",
         "o": [
             "Hides header on mobile",
@@ -362,6 +381,7 @@
     },
     {
         "q": "What happens when the viewport is less than 600px?",
+        "l": "css",
         "c": "@media (max-width: 600px) {\n    nav {\n        font-size: 14px;\n    }\n}",
         "o": [
             "Nav font size becomes 14px",
@@ -381,6 +401,7 @@
     },
     {
         "q": "What is targeted by this media query?",
+        "l": "css",
         "c": "@media (min-width: 320px) and (max-width: 480px) {\n    .mobile {\n        display: block;\n    }\n}",
         "o": [
             "Displays .mobile on small screens",
@@ -400,6 +421,7 @@
     },
     {
         "q": "What does this media query do?",
+        "l": "css",
         "c": "@media (prefers-reduced-motion: reduce) {\n    .animation {\n        animation: none;\n    }\n}",
         "o": [
             "Disables animations for users who prefer less motion",
@@ -419,6 +441,7 @@
     },
     {
         "q": "What does this media query apply?",
+        "l": "css",
         "c": "@media (min-resolution: 192dpi) {\n    img {\n        border: 2px solid red;\n    }\n}",
         "o": [
             "Adds border to images on high-resolution displays",
@@ -438,6 +461,7 @@
     },
     {
         "q": "What does this code do for large screens?",
+        "l": "css",
         "c": "@media (min-width: 1200px) {\n    .banner {\n        height: 300px;\n    }\n}",
         "o": [
             "Sets banner height to 300px",
@@ -457,6 +481,7 @@
     },
     {
         "q": "What happens on devices with a minimum width of 768px?",
+        "l": "css",
         "c": "@media (min-width: 768px) {\n    .menu {\n        display: flex;\n    }\n}",
         "o": [
             "Menu displays as flex",
@@ -476,6 +501,7 @@
     },
     {
         "q": "What does this media query change for low-resolution screens?",
+        "l": "css",
         "c": "@media (max-resolution: 300dpi) {\n    .image {\n        display: none;\n    }\n}",
         "o": [
             "Hides images on low-resolution screens",
@@ -495,6 +521,7 @@
     },
     {
         "q": "What is the outcome of this media query?",
+        "l": "css",
         "c": "@media (min-width: 1024px) {\n    .grid {\n        grid-template-columns: repeat(3, 1fr);\n    }\n}",
         "o": [
             "Creates a 3-column grid",
@@ -514,6 +541,7 @@
     },
     {
         "q": "What is the effect of this code on devices in portrait orientation?",
+        "l": "css",
         "c": "@media (orientation: portrait) {\n    .banner {\n        height: 150px;\n    }\n}",
         "o": [
             "Sets banner height to 150px",
@@ -533,6 +561,7 @@
     },
     {
         "q": "What does this code do for screens wider than 800px?",
+        "l": "css",
         "c": "@media (min-width: 800px) {\n    .card {\n        padding: 20px;\n    }\n}",
         "o": [
             "Adds padding to .card",
@@ -552,6 +581,7 @@
     },
     {
         "q": "What effect does this media query have?",
+        "l": "css",
         "c": "@media (hover: hover) {\n    button {\n        cursor: pointer;\n    }\n}",
         "o": [
             "Sets button cursor to pointer if hover is possible",
@@ -571,6 +601,7 @@
     },
     {
         "q": "What does this code check?",
+        "l": "css",
         "c": "@media (max-width: 1200px) {\n    .sidebar {\n        display: block;\n    }\n}",
         "o": [
             "Displays sidebar on narrower screens",
@@ -590,6 +621,7 @@
     },
     {
         "q": "What happens for screens with a max height of 500px?",
+        "l": "css",
         "c": "@media (max-height: 500px) {\n    .header {\n        display: none;\n    }\n}",
         "o": [
             "Hides header on small screens",
@@ -609,6 +641,7 @@
     },
     {
         "q": "What effect does this media query have for large devices?",
+        "l": "css",
         "c": "@media (min-width: 992px) {\n    .footer {\n        text-align: center;\n    }\n}",
         "o": [
             "Centers footer text",
@@ -628,6 +661,7 @@
     },
     {
         "q": "What does this code do for small screens?",
+        "l": "css",
         "c": "@media (max-width: 480px) {\n    .nav {\n        font-size: 12px;\n    }\n}",
         "o": [
             "Sets nav font size to 12px",
@@ -647,6 +681,7 @@
     },
     {
         "q": "What happens for devices with a width of 768px or more?",
+        "l": "css",
         "c": "@media (min-width: 768px) {\n    .card {\n        display: flex;\n    }\n}",
         "o": [
             "Cards display as flex",
@@ -666,6 +701,7 @@
     },
     {
         "q": "What does this media query check for tablets?",
+        "l": "css",
         "c": "@media (min-width: 600px) and (max-width: 900px) {\n    .tablet {\n        display: block;\n    }\n}",
         "o": [
             "Displays tablet layout",
@@ -685,6 +721,7 @@
     },
     {
         "q": "What is the outcome of this media query?",
+        "l": "css",
         "c": "@media (max-width: 720px) {\n    .text {\n        font-size: 14px;\n    }\n}",
         "o": [
             "Text size is 14px on small screens",
@@ -704,6 +741,7 @@
     },
     {
         "q": "What does this media query accomplish for screens above 1024px?",
+        "l": "css",
         "c": "@media (min-width: 1024px) {\n    .header {\n        display: flex;\n    }\n}",
         "o": [
             "Displays header as flex",
@@ -723,6 +761,7 @@
     },
     {
         "q": "What is checked by this media query?",
+        "l": "css",
         "c": "@media (orientation: landscape) {\n    .menu {\n        display: block;\n    }\n}",
         "o": [
             "Shows menu in landscape mode",
@@ -742,6 +781,7 @@
     },
     {
         "q": "What does this media query target?",
+        "l": "css",
         "c": "@media (max-width: 600px) and (min-width: 480px) {\n    .content {\n        padding: 10px;\n    }\n}",
         "o": [
             "Targets specific small screens",
@@ -761,6 +801,7 @@
     },
     {
         "q": "What happens at a min-resolution of 1.5dppx?",
+        "l": "css",
         "c": "@media (min-resolution: 1.5dppx) {\n    img {\n        width: 100%;\n    }\n}",
         "o": [
             "Images are full width",
@@ -780,6 +821,7 @@
     },
     {
         "q": "What does this media query do?",
+        "l": "css",
         "c": "@media (max-device-width: 600px) {\n    .mobile {\n        display: block;\n    }\n}",
         "o": [
             "Displays mobile layout",
@@ -799,6 +841,7 @@
     },
     {
         "q": "What is targeted by this media query?",
+        "l": "css",
         "c": "@media (min-width: 768px) {\n    .navbar {\n        background-color: blue;\n    }\n}",
         "o": [
             "Sets navbar background to blue",
@@ -818,6 +861,7 @@
     },
     {
         "q": "What effect does this media query have for large screens?",
+        "l": "css",
         "c": "@media (min-width: 1200px) {\n    .footer {\n        display: grid;\n    }\n}",
         "o": [
             "Footer displays as grid",
@@ -837,6 +881,7 @@
     },
     {
         "q": "What does this media query apply?",
+        "l": "css",
         "c": "@media (min-width: 1024px) {\n    .main {\n        padding: 20px;\n    }\n}",
         "o": [
             "Adds padding to main content",
@@ -856,6 +901,7 @@
     },
     {
         "q": "What does this code modify for narrow screens?",
+        "l": "css",
         "c": "@media (max-width: 320px) {\n    .text {\n        font-size: 10px;\n    }\n}",
         "o": [
             "Sets font size to 10px",
@@ -875,6 +921,7 @@
     },
     {
         "q": "What does this media query do for wider screens?",
+        "l": "css",
         "c": "@media (min-width: 600px) {\n    .button {\n        padding: 15px;\n    }\n}",
         "o": [
             "Sets button padding to 15px",
@@ -894,6 +941,7 @@
     },
     {
         "q": "What happens when the device width is less than 480px?",
+        "l": "css",
         "c": "@media (max-width: 480px) {\n    .sidebar {\n        display: none;\n    }\n}",
         "o": [
             "Hides sidebar on small devices",
@@ -913,6 +961,7 @@
     },
     {
         "q": "What is the result of this media query?",
+        "l": "css",
         "c": "@media (max-width: 768px) {\n    .header {\n        font-size: 16px;\n    }\n}",
         "o": [
             "Header font size is 16px",
@@ -932,6 +981,7 @@
     },
     {
         "q": "What does this code achieve for screens wider than 1024px?",
+        "l": "css",
         "c": "@media (min-width: 1024px) {\n    .nav {\n        display: inline;\n    }\n}",
         "o": [
             "Displays nav inline",
@@ -951,6 +1001,7 @@
     },
     {
         "q": "What happens when the resolution is at least 2dppx?",
+        "l": "css",
         "c": "@media (min-resolution: 2dppx) {\n    img {\n        display: block;\n    }\n}",
         "o": [
             "Images display as block",
@@ -970,6 +1021,7 @@
     },
     {
         "q": "What does this media query do?",
+        "l": "css",
         "c": "@media (min-width: 768px) {\n    .footer {\n        padding: 30px;\n    }\n}",
         "o": [
             "Adds padding to footer",
@@ -989,6 +1041,7 @@
     },
     {
         "q": "What happens on devices with a height greater than 900px?",
+        "l": "css",
         "c": "@media (min-height: 900px) {\n    .content {\n        display: block;\n    }\n}",
         "o": [
             "Displays content block",
@@ -1008,6 +1061,7 @@
     },
     {
         "q": "What is the effect of this code for devices in landscape orientation?",
+        "l": "css",
         "c": "@media (orientation: landscape) {\n    .banner {\n        height: 400px;\n    }\n}",
         "o": [
             "Sets banner height to 400px",
@@ -1027,6 +1081,7 @@
     },
     {
         "q": "What does this media query check for screens with high pixel density?",
+        "l": "css",
         "c": "@media (min-resolution: 192dpi) {\n    img {\n        height: auto;\n    }\n}",
         "o": [
             "Sets image height to auto",
@@ -1046,6 +1101,7 @@
     },
     {
         "q": "What is the outcome of this media query for max-width of 600px?",
+        "l": "css",
         "c": "@media (max-width: 600px) {\n    .header {\n        background-color: yellow;\n    }\n}",
         "o": [
             "Sets header background to yellow",
@@ -1065,6 +1121,7 @@
     },
     {
         "q": "What does this code target?",
+        "l": "css",
         "c": "@media (min-width: 768px) and (max-width: 1024px) {\n    .nav {\n        display: flex;\n    }\n}",
         "o": [
             "Targets medium screens",
@@ -1084,6 +1141,7 @@
     },
     {
         "q": "What happens when the screen size is less than 320px?",
+        "l": "css",
         "c": "@media (max-width: 320px) {\n    .content {\n        font-size: 8px;\n    }\n}",
         "o": [
             "Sets font size to 8px",
@@ -1103,6 +1161,7 @@
     },
     {
         "q": "What does this media query do for large screens?",
+        "l": "css",
         "c": "@media (min-width: 1200px) {\n    .sidebar {\n        display: grid;\n    }\n}",
         "o": [
             "Displays sidebar as grid",
@@ -1122,6 +1181,7 @@
     },
     {
         "q": "What does this code change for screens smaller than 600px?",
+        "l": "css",
         "c": "@media (max-width: 600px) {\n    .text {\n        font-size: 14px;\n    }\n}",
         "o": [
             "Sets text size to 14px",
@@ -1141,6 +1201,7 @@
     },
     {
         "q": "What happens for screens below 768px?",
+        "l": "css",
         "c": "@media (max-width: 768px) {\n    .footer {\n        display: block;\n    }\n}",
         "o": [
             "Displays footer block",
@@ -1160,6 +1221,7 @@
     },
     {
         "q": "What does this media query check?",
+        "l": "css",
         "c": "@media (min-width: 600px) and (orientation: portrait) {\n    .container {\n        padding: 20px;\n    }\n}",
         "o": [
             "Adds padding in portrait mode",
@@ -1179,6 +1241,7 @@
     },
     {
         "q": "What is the outcome of this code for screens larger than 900px?",
+        "l": "css",
         "c": "@media (min-width: 900px) {\n    .nav {\n        font-size: 18px;\n    }\n}",
         "o": [
             "Sets nav font size to 18px",
@@ -1198,6 +1261,7 @@
     },
     {
         "q": "What happens on devices with a height greater than 700px?",
+        "l": "css",
         "c": "@media (min-height: 700px) {\n    .header {\n        display: flex;\n    }\n}",
         "o": [
             "Displays header as flex",
@@ -1217,6 +1281,7 @@
     },
     {
         "q": "What does this media query check?",
+        "l": "css",
         "c": "@media (orientation: portrait) and (max-width: 600px) {\n    .content {\n        font-size: 14px;\n    }\n}",
         "o": [
             "Sets font size to 14px in portrait",
@@ -1236,6 +1301,7 @@
     },
     {
         "q": "What is targeted by this media query?",
+        "l": "css",
         "c": "@media (max-width: 480px) {\n    .footer {\n        display: none;\n    }\n}",
         "o": [
             "Hides footer on small devices",
@@ -1255,6 +1321,7 @@
     },
     {
         "q": "What does this media query do for landscape orientation?",
+        "l": "css",
         "c": "@media (orientation: landscape) {\n    .nav {\n        font-size: 16px;\n    }\n}",
         "o": [
             "Sets nav font size to 16px",
@@ -1274,6 +1341,7 @@
     },
     {
         "q": "What happens for screens larger than 1200px?",
+        "l": "css",
         "c": "@media (min-width: 1200px) {\n    .banner {\n        display: block;\n    }\n}",
         "o": [
             "Displays banner",
@@ -1293,6 +1361,7 @@
     },
     {
         "q": "What effect does this media query have on max-width of 600px?",
+        "l": "css",
         "c": "@media (max-width: 600px) {\n    .nav {\n        display: flex;\n    }\n}",
         "o": [
             "Displays nav as flex",
@@ -1312,6 +1381,7 @@
     },
     {
         "q": "What does this media query change for high-resolution screens?",
+        "l": "css",
         "c": "@media (min-resolution: 192dpi) {\n    img {\n        max-width: 100%;\n    }\n}",
         "o": [
             "Sets image max width to 100%",
@@ -1331,6 +1401,7 @@
     },
     {
         "q": "What is checked by this media query?",
+        "l": "css",
         "c": "@media (min-width: 500px) and (max-width: 800px) {\n    .main {\n        padding: 15px;\n    }\n}",
         "o": [
             "Targets specific width range",
@@ -1350,6 +1421,7 @@
     },
     {
         "q": "What happens for screens below 400px?",
+        "l": "css",
         "c": "@media (max-width: 400px) {\n    .content {\n        display: none;\n    }\n}",
         "o": [
             "Hides content on small screens",
@@ -1369,6 +1441,7 @@
     },
     {
         "q": "What does this media query accomplish for devices with a minimum height of 800px?",
+        "l": "css",
         "c": "@media (min-height: 800px) {\n    .sidebar {\n        display: block;\n    }\n}",
         "o": [
             "Displays sidebar",
@@ -1388,6 +1461,7 @@
     },
     {
         "q": "What does this media query do for screens larger than 600px?",
+        "l": "css",
         "c": "@media (min-width: 600px) {\n    .text {\n        color: blue;\n    }\n}",
         "o": [
             "Sets text color to blue",
@@ -1407,6 +1481,7 @@
     },
     {
         "q": "What happens when the viewport width is 480px?",
+        "l": "css",
         "c": "@media (max-width: 480px) {\n    .header {\n        display: none;\n    }\n}",
         "o": [
             "Hides header",
@@ -1426,6 +1501,7 @@
     },
     {
         "q": "What is the effect of this media query for portrait orientation?",
+        "l": "css",
         "c": "@media (orientation: portrait) {\n    .main {\n        padding: 10px;\n    }\n}",
         "o": [
             "Adds padding to main",
@@ -1445,6 +1521,7 @@
     },
     {
         "q": "What does this code do for devices with a maximum width of 768px?",
+        "l": "css",
         "c": "@media (max-width: 768px) {\n    .nav {\n        flex-direction: column;\n    }\n}",
         "o": [
             "Changes nav direction to column",
@@ -1464,6 +1541,7 @@
     },
     {
         "q": "What is targeted by this media query?",
+        "l": "css",
         "c": "@media (min-width: 768px) and (max-width: 1024px) {\n    .content {\n        font-size: 20px;\n    }\n}",
         "o": [
             "Targets medium screens",
@@ -1483,6 +1561,7 @@
     },
     {
         "q": "What happens when the resolution is at least 150dpi?",
+        "l": "css",
         "c": "@media (min-resolution: 150dpi) {\n    img {\n        width: 100%;\n    }\n}",
         "o": [
             "Sets image width to 100%",
@@ -1502,6 +1581,7 @@
     },
     {
         "q": "What does this media query check for a maximum height of 600px?",
+        "l": "css",
         "c": "@media (max-height: 600px) {\n    .footer {\n        display: none;\n    }\n}",
         "o": [
             "Hides footer",
@@ -1521,6 +1601,7 @@
     },
     {
         "q": "What effect does this media query have on screens wider than 1200px?",
+        "l": "css",
         "c": "@media (min-width: 1200px) {\n    .container {\n        margin: auto;\n    }\n}",
         "o": [
             "Centers container",
@@ -1540,6 +1621,7 @@
     },
     {
         "q": "What happens for devices with a width less than 360px?",
+        "l": "css",
         "c": "@media (max-width: 360px) {\n    .button {\n        font-size: 12px;\n    }\n}",
         "o": [
             "Sets button font size to 12px",
@@ -1559,6 +1641,7 @@
     },
     {
         "q": "What does this media query achieve for screens in landscape mode?",
+        "l": "css",
         "c": "@media (orientation: landscape) {\n    .banner {\n        height: 300px;\n    }\n}",
         "o": [
             "Sets banner height to 300px",
@@ -1578,6 +1661,7 @@
     },
     {
         "q": "What does this media query do for screens between 480px and 768px?",
+        "l": "css",
         "c": "@media (min-width: 480px) and (max-width: 768px) {\n    .sidebar {\n        display: block;\n    }\n}",
         "o": [
             "Displays sidebar",
@@ -1597,6 +1681,7 @@
     },
     {
         "q": "What happens for screens below 320px?",
+        "l": "css",
         "c": "@media (max-width: 320px) {\n    .header {\n        font-size: 10px;\n    }\n}",
         "o": [
             "Sets header font size to 10px",
@@ -1616,6 +1701,7 @@
     },
     {
         "q": "What does this media query do for a minimum height of 700px?",
+        "l": "css",
         "c": "@media (min-height: 700px) {\n    .nav {\n        display: flex;\n    }\n}",
         "o": [
             "Displays nav as flex",
@@ -1635,6 +1721,7 @@
     },
     {
         "q": "What is the effect of this media query on a screen wider than 1280px?",
+        "l": "css",
         "c": "@media (min-width: 1280px) {\n    .footer {\n        font-size: 18px;\n    }\n}",
         "o": [
             "Sets footer font size to 18px",
@@ -1654,6 +1741,7 @@
     },
     {
         "q": "What does this code do for high-resolution screens?",
+        "l": "css",
         "c": "@media (min-resolution: 300dpi) {\n    img {\n        border: 1px solid black;\n    }\n}",
         "o": [
             "Adds border to images",
@@ -1673,6 +1761,7 @@
     },
     {
         "q": "What happens for a maximum height of 500px?",
+        "l": "css",
         "c": "@media (max-height: 500px) {\n    .content {\n        display: block;\n    }\n}",
         "o": [
             "Displays content block",
@@ -1692,6 +1781,7 @@
     },
     {
         "q": "What does this media query check for maximum width and portrait orientation?",
+        "l": "css",
         "c": "@media (max-width: 600px) and (orientation: portrait) {\n    .header {\n        padding: 5px;\n    }\n}",
         "o": [
             "Adds padding to header",
@@ -1711,6 +1801,7 @@
     },
     {
         "q": "What does this code achieve for screens larger than 1024px?",
+        "l": "css",
         "c": "@media (min-width: 1024px) {\n    .sidebar {\n        display: grid;\n    }\n}",
         "o": [
             "Displays sidebar as grid",
@@ -1730,6 +1821,7 @@
     },
     {
         "q": "What happens when the screen width is 480px?",
+        "l": "css",
         "c": "@media (max-width: 480px) {\n    .content {\n        font-size: 12px;\n    }\n}",
         "o": [
             "Sets content font size to 12px",
@@ -1749,6 +1841,7 @@
     },
     {
         "q": "What does this media query do for devices with height over 600px?",
+        "l": "css",
         "c": "@media (min-height: 600px) {\n    .nav {\n        font-size: 16px;\n    }\n}",
         "o": [
             "Sets nav font size to 16px",
@@ -1768,6 +1861,7 @@
     },
     {
         "q": "What is targeted by this media query?",
+        "l": "css",
         "c": "@media (min-width: 700px) and (max-width: 1200px) {\n    .container {\n        width: 80%;\n    }\n}",
         "o": [
             "Targets specific width range",
@@ -1787,6 +1881,7 @@
     },
     {
         "q": "What happens for devices with a width of 320px?",
+        "l": "css",
         "c": "@media (max-width: 320px) {\n    .footer {\n        font-size: 10px;\n    }\n}",
         "o": [
             "Sets footer font size to 10px",
@@ -1806,6 +1901,7 @@
     },
     {
         "q": "What does this code do for screens larger than 900px?",
+        "l": "css",
         "c": "@media (min-width: 900px) {\n    .header {\n        display: flex;\n    }\n}",
         "o": [
             "Displays header as flex",
@@ -1825,6 +1921,7 @@
     },
     {
         "q": "What effect does this media query have on max-width of 600px?",
+        "l": "css",
         "c": "@media (max-width: 600px) {\n    .nav {\n        display: none;\n    }\n}",
         "o": [
             "Hides nav",
@@ -1844,6 +1941,7 @@
     },
     {
         "q": "What happens when the viewport height is less than 400px?",
+        "l": "css",
         "c": "@media (max-height: 400px) {\n    .sidebar {\n        display: block;\n    }\n}",
         "o": [
             "Displays sidebar",
@@ -1863,6 +1961,7 @@
     },
     {
         "q": "What is the effect of this media query on landscape orientation?",
+        "l": "css",
         "c": "@media (orientation: landscape) {\n    .banner {\n        height: 250px;\n    }\n}",
         "o": [
             "Sets banner height to 250px",
@@ -1882,6 +1981,7 @@
     },
     {
         "q": "What happens for screens with a height greater than 800px?",
+        "l": "css",
         "c": "@media (min-height: 800px) {\n    .main {\n        display: block;\n    }\n}",
         "o": [
             "Displays main",
@@ -1901,6 +2001,7 @@
     },
     {
         "q": "What does this media query do for a width less than 480px?",
+        "l": "css",
         "c": "@media (max-width: 480px) {\n    .footer {\n        padding: 5px;\n    }\n}",
         "o": [
             "Adds padding to footer",
@@ -1920,6 +2021,7 @@
     },
     {
         "q": "What happens when the screen width is 1024px?",
+        "l": "css",
         "c": "@media (width: 1024px) {\n    .header {\n        display: flex;\n    }\n}",
         "o": [
             "Displays header as flex",
@@ -1939,6 +2041,7 @@
     },
     {
         "q": "What is targeted by this media query?",
+        "l": "css",
         "c": "@media (max-width: 1200px) and (min-height: 600px) {\n    .content {\n        font-size: 14px;\n    }\n}",
         "o": [
             "Targets specific dimensions",
@@ -1958,6 +2061,7 @@
     },
     {
         "q": "What does this code achieve for screens smaller than 500px?",
+        "l": "css",
         "c": "@media (max-width: 500px) {\n    .btn {\n        font-size: 10px;\n    }\n}",
         "o": [
             "Sets button font size to 10px",
@@ -1977,6 +2081,7 @@
     },
     {
         "q": "What happens for screens wider than 1024px?",
+        "l": "css",
         "c": "@media (min-width: 1024px) {\n    .container {\n        margin: 0;\n    }\n}",
         "o": [
             "Removes margin from container",
@@ -1996,6 +2101,7 @@
     },
     {
         "q": "What effect does this media query have on minimum height of 500px?",
+        "l": "css",
         "c": "@media (min-height: 500px) {\n    .header {\n        display: block;\n    }\n}",
         "o": [
             "Displays header",
@@ -2015,6 +2121,7 @@
     },
     {
         "q": "What does this media query do for a maximum width of 400px?",
+        "l": "css",
         "c": "@media (max-width: 400px) {\n    .card {\n        padding: 10px;\n    }\n}",
         "o": [
             "Adds padding to card",
@@ -2034,6 +2141,7 @@
     },
     {
         "q": "What happens for devices with height less than 300px?",
+        "l": "css",
         "c": "@media (max-height: 300px) {\n    .footer {\n        display: none;\n    }\n}",
         "o": [
             "Hides footer",
@@ -2053,6 +2161,7 @@
     },
     {
         "q": "What does this media query do for orientation landscape?",
+        "l": "css",
         "c": "@media (orientation: landscape) {\n    .nav {\n        display: block;\n    }\n}",
         "o": [
             "Displays nav",
@@ -2072,6 +2181,7 @@
     },
     {
         "q": "What happens for screens smaller than 320px?",
+        "l": "css",
         "c": "@media (max-width: 320px) {\n    .sidebar {\n        display: none;\n    }\n}",
         "o": [
             "Hides sidebar",
@@ -2091,6 +2201,7 @@
     },
     {
         "q": "What does this media query achieve for max-width of 768px?",
+        "l": "css",
         "c": "@media (max-width: 768px) {\n    .header {\n        font-size: 14px;\n    }\n}",
         "o": [
             "Sets header font size to 14px",
@@ -2110,6 +2221,7 @@
     },
     {
         "q": "What effect does this media query have for devices wider than 1024px?",
+        "l": "css",
         "c": "@media (min-width: 1024px) {\n    .main {\n        display: flex;\n    }\n}",
         "o": [
             "Displays main as flex",
@@ -2129,6 +2241,7 @@
     },
     {
         "q": "What is targeted by this media query?",
+        "l": "css",
         "c": "@media (min-width: 600px) and (max-height: 800px) {\n    .content {\n        display: grid;\n    }\n}",
         "o": [
             "Targets specific dimensions",

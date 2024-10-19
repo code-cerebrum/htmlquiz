@@ -1,6 +1,7 @@
 [
     {
         "q": "What does this code do?",
+        "l": "css",
         "c": "div {\n    margin: 10px;\n}",
         "o": [
             "Sets margin around the div",
@@ -11,7 +12,6 @@
     },
     {
         "q": "What does the margin property do?",
-        "c": null,
         "o": [
             "Space outside the box",
             "Space inside the box",
@@ -21,6 +21,7 @@
     },
     {
         "q": "What does this code do?",
+        "l": "css",
         "c": "div {\n    padding: 20px;\n}",
         "o": [
             "Adds space inside the div",
@@ -31,7 +32,6 @@
     },
     {
         "q": "What is the purpose of padding?",
-        "c": null,
         "o": [
             "Space inside the box",
             "Space outside the box",
@@ -41,6 +41,7 @@
     },
     {
         "q": "What does this code achieve?",
+        "l": "css",
         "c": "div {\n    border: 1px solid black;\n}",
         "o": [
             "Adds a solid black border",
@@ -51,7 +52,6 @@
     },
     {
         "q": "Which property defines the border width?",
-        "c": null,
         "o": [
             "border-width",
             "border-size",
@@ -61,6 +61,7 @@
     },
     {
         "q": "What is the effect of this code?",
+        "l": "css",
         "c": "div {\n    margin: 0 auto;\n}",
         "o": [
             "Centers the div",
@@ -71,7 +72,6 @@
     },
     {
         "q": "What does the content area represent?",
-        "c": null,
         "o": [
             "Actual content",
             "Padding space",
@@ -81,6 +81,7 @@
     },
     {
         "q": "What does this code do?",
+        "l": "css",
         "c": "div {\n    padding: 15px 10px;\n}",
         "o": [
             "Sets vertical and horizontal padding",
@@ -91,7 +92,6 @@
     },
     {
         "q": "How do you reset margin in CSS?",
-        "c": null,
         "o": [
             "margin: 0;",
             "margin: none;",
@@ -101,6 +101,7 @@
     },
     {
         "q": "What is the outcome of this code?",
+        "l": "css",
         "c": "div {\n    margin: 10px 5px;\n}",
         "o": [
             "Sets vertical and horizontal margins",
@@ -111,7 +112,6 @@
     },
     {
         "q": "Which value can padding not accept?",
-        "c": null,
         "o": [
             "Percentage",
             "Length",
@@ -121,6 +121,7 @@
     },
     {
         "q": "What does this code specify?",
+        "l": "css",
         "c": "div {\n    border: 2px dashed red;\n}",
         "o": [
             "Sets a dashed red border",
@@ -131,7 +132,6 @@
     },
     {
         "q": "Which of the following affects layout?",
-        "c": null,
         "o": [
             "Margin",
             "Color",
@@ -141,6 +141,7 @@
     },
     {
         "q": "What does this code achieve?",
+        "l": "css",
         "c": "div {\n    padding: 10px 20px;\n}",
         "o": [
             "Sets top/bottom and left/right padding",
@@ -151,7 +152,6 @@
     },
     {
         "q": "What is the default value of margin?",
-        "c": null,
         "o": [
             "0",
             "auto",
@@ -161,6 +161,7 @@
     },
     {
         "q": "What does this code accomplish?",
+        "l": "css",
         "c": "div {\n    border: 1px solid blue;\n}",
         "o": [
             "Adds a solid blue border",
@@ -171,7 +172,6 @@
     },
     {
         "q": "How do you define a solid border style?",
-        "c": null,
         "o": [
             "border: solid;",
             "border: style solid;",
@@ -181,6 +181,7 @@
     },
     {
         "q": "What is the effect of this code?",
+        "l": "css",
         "c": "div {\n    margin-top: 20px;\n}",
         "o": [
             "Adds top margin",
@@ -191,7 +192,6 @@
     },
     {
         "q": "Which property is used for setting the border color?",
-        "c": null,
         "o": [
             "border-color",
             "color",
@@ -201,6 +201,7 @@
     },
     {
         "q": "What does this code do?",
+        "l": "css",
         "c": "div {\n    padding: 0;\n}",
         "o": [
             "Removes all padding",
@@ -211,7 +212,6 @@
     },
     {
         "q": "How can you set equal padding on all sides?",
-        "c": null,
         "o": [
             "padding: 10px;",
             "padding: 10px 10px;",
@@ -221,6 +221,7 @@
     },
     {
         "q": "What does this code specify?",
+        "l": "css",
         "c": "div {\n    border-radius: 5px;\n}",
         "o": [
             "Rounds the corners",
@@ -231,7 +232,6 @@
     },
     {
         "q": "What is the box model used for?",
-        "c": null,
         "o": [
             "Layout design",
             "Text styling",
@@ -241,6 +241,7 @@
     },
     {
         "q": "What does this code achieve?",
+        "l": "css",
         "c": "div {\n    margin: 0;\n}",
         "o": [
             "Removes all margins",
@@ -251,7 +252,6 @@
     },
     {
         "q": "What does 'box-sizing: border-box;' do?",
-        "c": null,
         "o": [
             "Includes padding and border in width",
             "Excludes padding from width",
@@ -261,6 +261,7 @@
     },
     {
         "q": "What is the outcome of this code?",
+        "l": "css",
         "c": "div {\n    padding: 10px;\n}",
         "o": [
             "Adds padding inside the div",
@@ -271,7 +272,6 @@
     },
     {
         "q": "What is the effect of 'margin: auto;'?",
-        "c": null,
         "o": [
             "Centering an element",
             "Removing margin",
@@ -281,6 +281,7 @@
     },
     {
         "q": "What does this code accomplish?",
+        "l": "css",
         "c": "div {\n    border: none;\n}",
         "o": [
             "Removes border",
@@ -291,7 +292,6 @@
     },
     {
         "q": "Which value will not work with margin?",
-        "c": null,
         "o": [
             "Auto",
             "Length",
@@ -301,6 +301,7 @@
     },
     {
         "q": "What does this code do?",
+        "l": "css",
         "c": "div {\n    margin-left: 20px;\n}",
         "o": [
             "Adds left margin",
@@ -311,7 +312,6 @@
     },
     {
         "q": "What is the initial state of padding in CSS?",
-        "c": null,
         "o": [
             "0",
             "10px",
@@ -321,6 +321,7 @@
     },
     {
         "q": "What does this code achieve?",
+        "l": "css",
         "c": "div {\n    padding: 5px 15px;\n}",
         "o": [
             "Sets top/bottom and left/right padding",
@@ -331,7 +332,6 @@
     },
     {
         "q": "Which is the correct order of box model properties?",
-        "c": null,
         "o": [
             "Content, Padding, Border, Margin",
             "Margin, Border, Padding, Content",
@@ -341,6 +341,7 @@
     },
     {
         "q": "What is the effect of this code?",
+        "l": "css",
         "c": "div {\n    margin: 10px 5px 20px;\n}",
         "o": [
             "Sets margins for top, sides, and bottom",
@@ -351,7 +352,6 @@
     },
     {
         "q": "How do you remove the default margin of a body element?",
-        "c": null,
         "o": [
             "body { margin: 0; }",
             "body { margin: none; }",
@@ -361,6 +361,7 @@
     },
     {
         "q": "What does this code specify?",
+        "l": "css",
         "c": "div {\n    border: 3px solid green;\n}",
         "o": [
             "Sets a solid green border",
@@ -371,7 +372,6 @@
     },
     {
         "q": "What unit can margin be set in?",
-        "c": null,
         "o": [
             "px",
             "em",
@@ -381,6 +381,7 @@
     },
     {
         "q": "What does this code do?",
+        "l": "css",
         "c": "div {\n    padding: 20px;\n}",
         "o": [
             "Adds space inside the div",
@@ -391,7 +392,6 @@
     },
     {
         "q": "How do you add padding to only the top?",
-        "c": null,
         "o": [
             "padding-top: 10px;",
             "padding: 10px top;",
@@ -401,6 +401,7 @@
     },
     {
         "q": "What is the outcome of this code?",
+        "l": "css",
         "c": "div {\n    margin: 0 10px;\n}",
         "o": [
             "Sets left and right margins",
@@ -411,7 +412,6 @@
     },
     {
         "q": "How can you set different margins for each side?",
-        "c": null,
         "o": [
             "margin: 5px 10px 15px 20px;",
             "margin: 5px 10px;",
@@ -421,6 +421,7 @@
     },
     {
         "q": "What does this code achieve?",
+        "l": "css",
         "c": "div {\n    border: 2px dotted black;\n}",
         "o": [
             "Sets a dotted black border",
@@ -431,7 +432,6 @@
     },
     {
         "q": "What happens if you set negative margin?",
-        "c": null,
         "o": [
             "Pulls the element closer",
             "Removes margin",
@@ -441,6 +441,7 @@
     },
     {
         "q": "What does this code accomplish?",
+        "l": "css",
         "c": "div {\n    margin-bottom: 15px;\n}",
         "o": [
             "Adds bottom margin",
@@ -451,7 +452,6 @@
     },
     {
         "q": "What is the default value of border-style?",
-        "c": null,
         "o": [
             "none",
             "solid",
@@ -461,6 +461,7 @@
     },
     {
         "q": "What is the effect of this code?",
+        "l": "css",
         "c": "div {\n    padding: 0 30px;\n}",
         "o": [
             "Sets left/right padding",
@@ -471,7 +472,6 @@
     },
     {
         "q": "How do you specify different padding values?",
-        "c": null,
         "o": [
             "padding: 5px 10px 15px 20px;",
             "padding: 5px; 10px;",
@@ -481,6 +481,7 @@
     },
     {
         "q": "What does this code specify?",
+        "l": "css",
         "c": "div {\n    border: 1px groove gray;\n}",
         "o": [
             "Sets a groove gray border",
@@ -491,7 +492,6 @@
     },
     {
         "q": "What does padding affect?",
-        "c": null,
         "o": [
             "Inner space of an element",
             "Outer space of an element",
@@ -501,6 +501,7 @@
     },
     {
         "q": "What does this code do?",
+        "l": "css",
         "c": "div {\n    padding: 5px 10px 15px;\n}",
         "o": [
             "Sets top, left/right, and bottom padding",
@@ -511,7 +512,6 @@
     },
     {
         "q": "Which property controls the space between elements?",
-        "c": null,
         "o": [
             "Margin",
             "Padding",
@@ -521,6 +521,7 @@
     },
     {
         "q": "What is the outcome of this code?",
+        "l": "css",
         "c": "div {\n    margin: 0 5%;\n}",
         "o": [
             "Sets left/right margins",
@@ -531,7 +532,6 @@
     },
     {
         "q": "What does the border property combine?",
-        "c": null,
         "o": [
             "Width, style, color",
             "Padding, margin, content",
@@ -541,6 +541,7 @@
     },
     {
         "q": "What does this code achieve?",
+        "l": "css",
         "c": "div {\n    border: 1px inset blue;\n}",
         "o": [
             "Sets an inset blue border",
@@ -551,7 +552,6 @@
     },
     {
         "q": "Which property is shorthand for all margins?",
-        "c": null,
         "o": [
             "margin",
             "margins",
@@ -561,6 +561,7 @@
     },
     {
         "q": "What does this code specify?",
+        "l": "css",
         "c": "div {\n    padding: 10px 5px;\n}",
         "o": [
             "Sets vertical and horizontal padding",
@@ -571,7 +572,6 @@
     },
     {
         "q": "What effect does padding have on an element's size?",
-        "c": null,
         "o": [
             "Increases size",
             "Decreases size",
@@ -581,6 +581,7 @@
     },
     {
         "q": "What is the effect of this code?",
+        "l": "css",
         "c": "div {\n    margin: auto;\n}",
         "o": [
             "Centers the div",
@@ -591,7 +592,6 @@
     },
     {
         "q": "Which margin value will center an element?",
-        "c": null,
         "o": [
             "auto",
             "0",
@@ -601,6 +601,7 @@
     },
     {
         "q": "What does this code do?",
+        "l": "css",
         "c": "div {\n    border: 4px double red;\n}",
         "o": [
             "Sets a double red border",
@@ -611,7 +612,6 @@
     },
     {
         "q": "How to define a dashed border?",
-        "c": null,
         "o": [
             "border: 1px dashed;",
             "border: dashed 1px;",
@@ -621,6 +621,7 @@
     },
     {
         "q": "What does this code achieve?",
+        "l": "css",
         "c": "div {\n    padding: 15px;\n}",
         "o": [
             "Adds padding inside the div",
@@ -631,7 +632,6 @@
     },
     {
         "q": "Which CSS property is not part of the box model?",
-        "c": null,
         "o": [
             "font-size",
             "border",
@@ -641,6 +641,7 @@
     },
     {
         "q": "What is the outcome of this code?",
+        "l": "css",
         "c": "div {\n    margin-right: 10px;\n}",
         "o": [
             "Adds right margin",
@@ -651,7 +652,6 @@
     },
     {
         "q": "What is the margin collapse?",
-        "c": null,
         "o": [
             "Margins combine",
             "Margins split",
@@ -661,6 +661,7 @@
     },
     {
         "q": "What does this code accomplish?",
+        "l": "css",
         "c": "div {\n    margin: 5px 10px 15px;\n}",
         "o": [
             "Sets margins for top, sides, and bottom",
@@ -671,7 +672,6 @@
     },
     {
         "q": "How can padding be defined in percentages?",
-        "c": null,
         "o": [
             "padding: 10%;",
             "padding: 10px%;",
@@ -681,6 +681,7 @@
     },
     {
         "q": "What does this code do?",
+        "l": "css",
         "c": "div {\n    border: 1px solid purple;\n}",
         "o": [
             "Adds a solid purple border",
@@ -691,7 +692,6 @@
     },
     {
         "q": "Which property adds a shadow effect?",
-        "c": null,
         "o": [
             "box-shadow",
             "shadow",
@@ -701,6 +701,7 @@
     },
     {
         "q": "What is the effect of this code?",
+        "l": "css",
         "c": "div {\n    padding: 0;\n}",
         "o": [
             "Removes all padding",
@@ -711,7 +712,6 @@
     },
     {
         "q": "What does box-shadow require?",
-        "c": null,
         "o": [
             "Offsets, blur, spread",
             "Color only",
@@ -721,6 +721,7 @@
     },
     {
         "q": "What does this code specify?",
+        "l": "css",
         "c": "div {\n    border: 2px solid orange;\n}",
         "o": [
             "Sets a solid orange border",
@@ -731,7 +732,6 @@
     },
     {
         "q": "How to specify a double border style?",
-        "c": null,
         "o": [
             "border-style: double;",
             "border: double;",
@@ -741,6 +741,7 @@
     },
     {
         "q": "What does this code achieve?",
+        "l": "css",
         "c": "div {\n    margin-top: 10px;\n}",
         "o": [
             "Adds top margin",
@@ -751,7 +752,6 @@
     },
     {
         "q": "What is the maximum margin value?",
-        "c": null,
         "o": [
             "Depends on element",
             "50px",
@@ -761,6 +761,7 @@
     },
     {
         "q": "What does this code do?",
+        "l": "css",
         "c": "div {\n    padding: 20px 30px;\n}",
         "o": [
             "Sets top/bottom and left/right padding",
@@ -771,7 +772,6 @@
     },
     {
         "q": "How do you set a margin only on the left side?",
-        "c": null,
         "o": [
             "margin-left: 10px;",
             "margin: 10px left;",
@@ -781,6 +781,7 @@
     },
     {
         "q": "What is the outcome of this code?",
+        "l": "css",
         "c": "div {\n    margin: 5px 0;\n}",
         "o": [
             "Sets vertical margins",
@@ -791,7 +792,6 @@
     },
     {
         "q": "What does border-radius do?",
-        "c": null,
         "o": [
             "Rounds corners",
             "Adds padding",
@@ -801,6 +801,7 @@
     },
     {
         "q": "What does this code achieve?",
+        "l": "css",
         "c": "div {\n    border: 3px solid teal;\n}",
         "o": [
             "Sets a solid teal border",
@@ -811,7 +812,6 @@
     },
     {
         "q": "How do you apply a solid border on all sides?",
-        "c": null,
         "o": [
             "border: 1px solid;",
             "border: solid 1px;",
@@ -821,6 +821,7 @@
     },
     {
         "q": "What does this code specify?",
+        "l": "css",
         "c": "div {\n    padding: 5px;\n}",
         "o": [
             "Adds padding inside the div",
@@ -831,7 +832,6 @@
     },
     {
         "q": "What is the purpose of the box model?",
-        "c": null,
         "o": [
             "Define element dimensions",
             "Control text size",
@@ -841,6 +841,7 @@
     },
     {
         "q": "What does this code do?",
+        "l": "css",
         "c": "div {\n    margin: 0;\n}",
         "o": [
             "Removes all margins",
@@ -851,7 +852,6 @@
     },
     {
         "q": "How can margin be specified with different units?",
-        "c": null,
         "o": [
             "margin: 1px 2em 3% 4px;",
             "margin: 1em 2px;",
@@ -861,6 +861,7 @@
     },
     {
         "q": "What is the effect of this code?",
+        "l": "css",
         "c": "div {\n    border: 2px dashed yellow;\n}",
         "o": [
             "Sets a dashed yellow border",
@@ -871,7 +872,6 @@
     },
     {
         "q": "What property adjusts space around content?",
-        "c": null,
         "o": [
             "Padding",
             "Margin",
@@ -881,6 +881,7 @@
     },
     {
         "q": "What does this code achieve?",
+        "l": "css",
         "c": "div {\n    padding: 10px 0;\n}",
         "o": [
             "Sets top/bottom padding",
@@ -891,7 +892,6 @@
     },
     {
         "q": "How to set a margin of 20 pixels on top and bottom?",
-        "c": null,
         "o": [
             "margin: 20px 0;",
             "margin: 20px auto;",
@@ -901,6 +901,7 @@
     },
     {
         "q": "What is the outcome of this code?",
+        "l": "css",
         "c": "div {\n    margin-left: auto;\n}",
         "o": [
             "Automatically adjusts left margin",
@@ -911,7 +912,6 @@
     },
     {
         "q": "How to add margin using shorthand?",
-        "c": null,
         "o": [
             "margin: 10px 20px;",
             "margin: all 10px;",
@@ -921,6 +921,7 @@
     },
     {
         "q": "What does this code do?",
+        "l": "css",
         "c": "div {\n    border: 1px solid pink;\n}",
         "o": [
             "Adds a solid pink border",
@@ -931,7 +932,6 @@
     },
     {
         "q": "Which property defines the space between border and content?",
-        "c": null,
         "o": [
             "Padding",
             "Margin",
@@ -941,6 +941,7 @@
     },
     {
         "q": "What does this code specify?",
+        "l": "css",
         "c": "div {\n    padding: 15px 5px;\n}",
         "o": [
             "Sets vertical and horizontal padding",
@@ -951,7 +952,6 @@
     },
     {
         "q": "What is the CSS syntax for setting a 5px border?",
-        "c": null,
         "o": [
             "border: 5px;",
             "border: 5px solid;",
@@ -961,6 +961,7 @@
     },
     {
         "q": "What does this code achieve?",
+        "l": "css",
         "c": "div {\n    margin-bottom: 10px;\n}",
         "o": [
             "Adds bottom margin",
@@ -971,7 +972,6 @@
     },
     {
         "q": "How do you specify a top border only?",
-        "c": null,
         "o": [
             "border-top: 2px solid;",
             "border: top 2px;",
@@ -981,6 +981,7 @@
     },
     {
         "q": "What is the effect of this code?",
+        "l": "css",
         "c": "div {\n    border: 1px solid gray;\n}",
         "o": [
             "Adds a solid gray border",
@@ -991,7 +992,6 @@
     },
     {
         "q": "How to add margin using percentage?",
-        "c": null,
         "o": [
             "margin: 10%;",
             "margin: 10% 20%;",
@@ -1001,6 +1001,7 @@
     },
     {
         "q": "What does this code do?",
+        "l": "css",
         "c": "div {\n    padding: 0 10px;\n}",
         "o": [
             "Sets left/right padding",
@@ -1011,7 +1012,6 @@
     },
     {
         "q": "What does padding do in layout?",
-        "c": null,
         "o": [
             "Creates space inside",
             "Removes space",
@@ -1021,6 +1021,7 @@
     },
     {
         "q": "What does this code achieve?",
+        "l": "css",
         "c": "div {\n    margin: 5%;\n}",
         "o": [
             "Sets 5% margin on all sides",
@@ -1031,7 +1032,6 @@
     },
     {
         "q": "How to set different margins for top, right, bottom, left?",
-        "c": null,
         "o": [
             "margin: 10px 5px 15px 20px;",
             "margin: 10px; 5px;",
@@ -1041,6 +1041,7 @@
     },
     {
         "q": "What is the outcome of this code?",
+        "l": "css",
         "c": "div {\n    border: 2px outset orange;\n}",
         "o": [
             "Sets an outset orange border",
@@ -1051,7 +1052,6 @@
     },
     {
         "q": "What is a common use for padding?",
-        "c": null,
         "o": [
             "Add space inside elements",
             "Center elements",
@@ -1061,6 +1061,7 @@
     },
     {
         "q": "What does this code specify?",
+        "l": "css",
         "c": "div {\n    padding: 25px 10px;\n}",
         "o": [
             "Sets top/bottom and left/right padding",
@@ -1071,7 +1072,6 @@
     },
     {
         "q": "How to remove padding?",
-        "c": null,
         "o": [
             "padding: 0;",
             "padding: none;",
@@ -1081,6 +1081,7 @@
     },
     {
         "q": "What does this code do?",
+        "l": "css",
         "c": "div {\n    margin-right: 15px;\n}",
         "o": [
             "Adds right margin",
@@ -1091,7 +1092,6 @@
     },
     {
         "q": "What is the shorthand for all borders?",
-        "c": null,
         "o": [
             "border",
             "borders",
@@ -1101,6 +1101,7 @@
     },
     {
         "q": "What is the effect of this code?",
+        "l": "css",
         "c": "div {\n    border: 1px solid brown;\n}",
         "o": [
             "Adds a solid brown border",
@@ -1111,7 +1112,6 @@
     },
     {
         "q": "How to center an element horizontally?",
-        "c": null,
         "o": [
             "margin: auto;",
             "padding: auto;",
@@ -1121,6 +1121,7 @@
     },
     {
         "q": "What does this code achieve?",
+        "l": "css",
         "c": "div {\n    padding: 5px 20px;\n}",
         "o": [
             "Sets top/bottom and left/right padding",
@@ -1131,7 +1132,6 @@
     },
     {
         "q": "What unit is best for responsive padding?",
-        "c": null,
         "o": [
             "em",
             "px",
@@ -1141,6 +1141,7 @@
     },
     {
         "q": "What does this code do?",
+        "l": "css",
         "c": "div {\n    margin: 10px;\n}",
         "o": [
             "Sets margin around the div",
@@ -1151,7 +1152,6 @@
     },
     {
         "q": "How do you set a 10px margin on top?",
-        "c": null,
         "o": [
             "margin-top: 10px;",
             "margin: 10px top;",
@@ -1161,6 +1161,7 @@
     },
     {
         "q": "What is the outcome of this code?",
+        "l": "css",
         "c": "div {\n    margin: 0 auto;\n}",
         "o": [
             "Centers the div",
@@ -1171,7 +1172,6 @@
     },
     {
         "q": "What property controls the border style?",
-        "c": null,
         "o": [
             "border-style",
             "border-color",
@@ -1181,6 +1181,7 @@
     },
     {
         "q": "What does this code achieve?",
+        "l": "css",
         "c": "div {\n    border: 2px solid red;\n}",
         "o": [
             "Sets a solid red border",
@@ -1191,7 +1192,6 @@
     },
     {
         "q": "Which property can set a margin in pixels?",
-        "c": null,
         "o": [
             "margin: 10px;",
             "margin: 10em;",
@@ -1201,6 +1201,7 @@
     },
     {
         "q": "What does this code do?",
+        "l": "css",
         "c": "div {\n    padding: 10px;\n}",
         "o": [
             "Adds padding inside the div",
@@ -1211,7 +1212,6 @@
     },
     {
         "q": "How to make all margins equal?",
-        "c": null,
         "o": [
             "margin: 10px;",
             "margin: 10px 10px;",
@@ -1221,6 +1221,7 @@
     },
     {
         "q": "What is the effect of this code?",
+        "l": "css",
         "c": "div {\n    margin-left: 20px;\n}",
         "o": [
             "Adds left margin",
@@ -1231,7 +1232,6 @@
     },
     {
         "q": "Which property is used for margin collapsing?",
-        "c": null,
         "o": [
             "margin",
             "padding",
@@ -1241,6 +1241,7 @@
     },
     {
         "q": "What does this code specify?",
+        "l": "css",
         "c": "div {\n    padding: 10px 5px;\n}",
         "o": [
             "Sets vertical and horizontal padding",
@@ -1251,7 +1252,6 @@
     },
     {
         "q": "How do you remove all borders?",
-        "c": null,
         "o": [
             "border: none;",
             "border: clear;",
@@ -1261,6 +1261,7 @@
     },
     {
         "q": "What is the outcome of this code?",
+        "l": "css",
         "c": "div {\n    margin: 10px 0;\n}",
         "o": [
             "Sets vertical margins",
@@ -1271,7 +1272,6 @@
     },
     {
         "q": "How can padding be increased?",
-        "c": null,
         "o": [
             "padding: 20px;",
             "padding: auto;",
@@ -1281,6 +1281,7 @@
     },
     {
         "q": "What does this code achieve?",
+        "l": "css",
         "c": "div {\n    border: 1px solid purple;\n}",
         "o": [
             "Adds a solid purple border",
@@ -1291,7 +1292,6 @@
     },
     {
         "q": "What happens if padding is set to a negative value?",
-        "c": null,
         "o": [
             "Ignored",
             "Creates overlap",
@@ -1301,6 +1301,7 @@
     },
     {
         "q": "What does this code do?",
+        "l": "css",
         "c": "div {\n    padding: 0;\n}",
         "o": [
             "Removes all padding",
@@ -1311,7 +1312,6 @@
     },
     {
         "q": "Which of the following is a valid CSS unit?",
-        "c": null,
         "o": [
             "em",
             "px",
@@ -1321,6 +1321,7 @@
     },
     {
         "q": "What is the effect of this code?",
+        "l": "css",
         "c": "div {\n    border: 3px dashed blue;\n}",
         "o": [
             "Sets a dashed blue border",
@@ -1331,7 +1332,6 @@
     },
     {
         "q": "How do you set a margin of 5%?",
-        "c": null,
         "o": [
             "margin: 5%;",
             "margin: 5px;",
@@ -1341,6 +1341,7 @@
     },
     {
         "q": "What does this code specify?",
+        "l": "css",
         "c": "div {\n    margin: 5px 15px;\n}",
         "o": [
             "Sets margins for top, sides, and bottom",
@@ -1351,7 +1352,6 @@
     },
     {
         "q": "What defines the thickness of a border?",
-        "c": null,
         "o": [
             "border-width",
             "border-thickness",
@@ -1361,6 +1361,7 @@
     },
     {
         "q": "What does this code do?",
+        "l": "css",
         "c": "div {\n    border: 2px solid teal;\n}",
         "o": [
             "Sets a solid teal border",
@@ -1371,7 +1372,6 @@
     },
     {
         "q": "What can cause elements to overlap?",
-        "c": null,
         "o": [
             "Negative margins",
             "Padding",
@@ -1381,6 +1381,7 @@
     },
     {
         "q": "What is the outcome of this code?",
+        "l": "css",
         "c": "div {\n    padding: 15px 10px;\n}",
         "o": [
             "Sets top/bottom and left/right padding",
@@ -1391,7 +1392,6 @@
     },
     {
         "q": "How do you change the border color?",
-        "c": null,
         "o": [
             "border-color: red;",
             "border: red;",
@@ -1401,6 +1401,7 @@
     },
     {
         "q": "What does this code achieve?",
+        "l": "css",
         "c": "div {\n    margin-bottom: 15px;\n}",
         "o": [
             "Adds bottom margin",
@@ -1411,7 +1412,6 @@
     },
     {
         "q": "How can padding be set on all sides equally?",
-        "c": null,
         "o": [
             "padding: 10px;",
             "padding: 10px 10px;",
@@ -1421,6 +1421,7 @@
     },
     {
         "q": "What does this code do?",
+        "l": "css",
         "c": "div {\n    border: 1px solid gray;\n}",
         "o": [
             "Adds a solid gray border",
@@ -1431,7 +1432,6 @@
     },
     {
         "q": "What does the 'padding-top' property do?",
-        "c": null,
         "o": [
             "Sets top padding",
             "Sets bottom padding",
@@ -1441,6 +1441,7 @@
     },
     {
         "q": "What is the effect of this code?",
+        "l": "css",
         "c": "div {\n    padding: 0 20px;\n}",
         "o": [
             "Sets left/right padding",
@@ -1451,7 +1452,6 @@
     },
     {
         "q": "How do you set different border widths?",
-        "c": null,
         "o": [
             "border-width: 1px 2px 3px 4px;",
             "border: 1px; 2px;",
@@ -1461,6 +1461,7 @@
     },
     {
         "q": "What does this code achieve?",
+        "l": "css",
         "c": "div {\n    margin: 20px;\n}",
         "o": [
             "Sets margin around the div",
@@ -1471,7 +1472,6 @@
     },
     {
         "q": "How can you make borders transparent?",
-        "c": null,
         "o": [
             "border-color: transparent;",
             "border: transparent;",
@@ -1481,6 +1481,7 @@
     },
     {
         "q": "What is the outcome of this code?",
+        "l": "css",
         "c": "div {\n    margin: auto;\n}",
         "o": [
             "Centers the div",
@@ -1491,7 +1492,6 @@
     },
     {
         "q": "How to specify a border on the right only?",
-        "c": null,
         "o": [
             "border-right: 2px solid;",
             "border: right 2px;",
@@ -1501,6 +1501,7 @@
     },
     {
         "q": "What does this code do?",
+        "l": "css",
         "c": "div {\n    border: 2px dashed orange;\n}",
         "o": [
             "Sets a dashed orange border",
@@ -1511,7 +1512,6 @@
     },
     {
         "q": "What happens when padding is applied?",
-        "c": null,
         "o": [
             "Increases the element's total size",
             "Removes content",
@@ -1521,6 +1521,7 @@
     },
     {
         "q": "What does this code specify?",
+        "l": "css",
         "c": "div {\n    padding: 5px;\n}",
         "o": [
             "Adds padding inside the div",
@@ -1531,7 +1532,6 @@
     },
     {
         "q": "How to define a margin on the bottom only?",
-        "c": null,
         "o": [
             "margin-bottom: 10px;",
             "margin: bottom 10px;",
@@ -1541,6 +1541,7 @@
     },
     {
         "q": "What does this code achieve?",
+        "l": "css",
         "c": "div {\n    margin: 15px 0;\n}",
         "o": [
             "Sets vertical margins",
@@ -1551,7 +1552,6 @@
     },
     {
         "q": "What does 'margin: 0 auto;' achieve?",
-        "c": null,
         "o": [
             "Centers an element",
             "Sets margin to zero",
@@ -1561,6 +1561,7 @@
     },
     {
         "q": "What does this code do?",
+        "l": "css",
         "c": "div {\n    border: 2px solid black;\n}",
         "o": [
             "Adds a solid black border",
@@ -1571,7 +1572,6 @@
     },
     {
         "q": "Which is a valid way to add padding on left and right?",
-        "c": null,
         "o": [
             "padding: 0 10px;",
             "padding: left 10px right 10px;",
@@ -1581,6 +1581,7 @@
     },
     {
         "q": "What is the effect of this code?",
+        "l": "css",
         "c": "div {\n    padding: 30px 15px;\n}",
         "o": [
             "Sets top/bottom and left/right padding",
@@ -1591,7 +1592,6 @@
     },
     {
         "q": "What value does 'border: 0;' set?",
-        "c": null,
         "o": [
             "Removes border",
             "Sets border width",
@@ -1601,6 +1601,7 @@
     },
     {
         "q": "What does this code achieve?",
+        "l": "css",
         "c": "div {\n    margin: 5%;\n}",
         "o": [
             "Sets 5% margin on all sides",
@@ -1611,7 +1612,6 @@
     },
     {
         "q": "How do you make all sides of a border transparent?",
-        "c": null,
         "o": [
             "border-color: transparent;",
             "border: transparent;",
@@ -1621,6 +1621,7 @@
     },
     {
         "q": "What is the outcome of this code?",
+        "l": "css",
         "c": "div {\n    border: 3px solid green;\n}",
         "o": [
             "Sets a solid green border",
@@ -1631,7 +1632,6 @@
     },
     {
         "q": "What does 'padding: 10px 20px;' specify?",
-        "c": null,
         "o": [
             "Top/bottom and left/right padding",
             "Only top padding",
@@ -1641,6 +1641,7 @@
     },
     {
         "q": "What does this code specify?",
+        "l": "css",
         "c": "div {\n    padding: 20px 10px;\n}",
         "o": [
             "Sets top/bottom and left/right padding",
@@ -1651,7 +1652,6 @@
     },
     {
         "q": "How can margin be set to auto in CSS?",
-        "c": null,
         "o": [
             "margin: auto;",
             "margin: auto 0;",
@@ -1661,6 +1661,7 @@
     },
     {
         "q": "What does this code do?",
+        "l": "css",
         "c": "div {\n    margin-right: 10px;\n}",
         "o": [
             "Adds right margin",
@@ -1671,7 +1672,6 @@
     },
     {
         "q": "What is a common mistake with margin?",
-        "c": null,
         "o": [
             "Using negative values",
             "Using units",
@@ -1681,6 +1681,7 @@
     },
     {
         "q": "What is the effect of this code?",
+        "l": "css",
         "c": "div {\n    border: 1px solid blue;\n}",
         "o": [
             "Adds a solid blue border",
@@ -1691,7 +1692,6 @@
     },
     {
         "q": "How to add padding to a specific element?",
-        "c": null,
         "o": [
             "element { padding: 10px; }",
             "padding: element 10px;",
@@ -1701,6 +1701,7 @@
     },
     {
         "q": "What does this code achieve?",
+        "l": "css",
         "c": "div {\n    padding: 10px;\n}",
         "o": [
             "Adds padding inside the div",
@@ -1711,7 +1712,6 @@
     },
     {
         "q": "What is the maximum number of values for border?",
-        "c": null,
         "o": [
             "Four",
             "Three",
@@ -1721,6 +1721,7 @@
     },
     {
         "q": "What does this code do?",
+        "l": "css",
         "c": "div {\n    margin: 5px 10px;\n}",
         "o": [
             "Sets vertical and horizontal margins",
@@ -1731,7 +1732,6 @@
     },
     {
         "q": "Which property controls element spacing?",
-        "c": null,
         "o": [
             "margin",
             "padding",
@@ -1741,6 +1741,7 @@
     },
     {
         "q": "What is the outcome of this code?",
+        "l": "css",
         "c": "div {\n    margin: auto;\n}",
         "o": [
             "Centers the div",
@@ -1751,7 +1752,6 @@
     },
     {
         "q": "How to remove margin in CSS?",
-        "c": null,
         "o": [
             "margin: 0;",
             "margin: none;",
@@ -1761,6 +1761,7 @@
     },
     {
         "q": "What does this code do?",
+        "l": "css",
         "c": "div {\n    border: 4px solid crimson;\n}",
         "o": [
             "Adds a solid crimson border",
@@ -1771,7 +1772,6 @@
     },
     {
         "q": "How to apply padding to the left side?",
-        "c": null,
         "o": [
             "padding-left: 10px;",
             "padding: left 10px;",
@@ -1781,6 +1781,7 @@
     },
     {
         "q": "What is the effect of this code?",
+        "l": "css",
         "c": "div {\n    padding: 0 5px;\n}",
         "o": [
             "Sets left/right padding",
@@ -1791,7 +1792,6 @@
     },
     {
         "q": "How do you add a border with a color?",
-        "c": null,
         "o": [
             "border-color: red;",
             "border: red;",
@@ -1801,6 +1801,7 @@
     },
     {
         "q": "What does this code achieve?",
+        "l": "css",
         "c": "div {\n    margin-bottom: 5px;\n}",
         "o": [
             "Adds bottom margin",
@@ -1811,7 +1812,6 @@
     },
     {
         "q": "What does 'margin: 10px 20px;' achieve?",
-        "c": null,
         "o": [
             "Sets vertical and horizontal margins",
             "Sets all margins",
@@ -1821,6 +1821,7 @@
     },
     {
         "q": "What does this code do?",
+        "l": "css",
         "c": "div {\n    border: 1px dashed gray;\n}",
         "o": [
             "Adds a dashed gray border",
@@ -1831,7 +1832,6 @@
     },
     {
         "q": "How can you check if an element has margin?",
-        "c": null,
         "o": [
             "Inspect element",
             "Check CSS",
@@ -1841,6 +1841,7 @@
     },
     {
         "q": "What is the outcome of this code?",
+        "l": "css",
         "c": "div {\n    padding: 10px 20px;\n}",
         "o": [
             "Sets top/bottom and left/right padding",
@@ -1851,7 +1852,6 @@
     },
     {
         "q": "What is the default value of padding?",
-        "c": null,
         "o": [
             "0",
             "auto",
@@ -1861,6 +1861,7 @@
     },
     {
         "q": "What does this code specify?",
+        "l": "css",
         "c": "div {\n    margin: 0 auto;\n}",
         "o": [
             "Centers the div",
@@ -1871,7 +1872,6 @@
     },
     {
         "q": "How to set a border with dashed style?",
-        "c": null,
         "o": [
             "border: 1px dashed;",
             "border-style: dashed;",
@@ -1881,6 +1881,7 @@
     },
     {
         "q": "What does this code achieve?",
+        "l": "css",
         "c": "div {\n    border: 1px solid orange;\n}",
         "o": [
             "Adds a solid orange border",
@@ -1891,7 +1892,6 @@
     },
     {
         "q": "Which property can define a margin in em?",
-        "c": null,
         "o": [
             "margin: 10em;",
             "margin: 10px;",
@@ -1901,6 +1901,7 @@
     },
     {
         "q": "What does this code do?",
+        "l": "css",
         "c": "div {\n    padding: 20px 0;\n}",
         "o": [
             "Sets top/bottom padding",
@@ -1911,7 +1912,6 @@
     },
     {
         "q": "How do you specify a border on all sides?",
-        "c": null,
         "o": [
             "border: 1px solid;",
             "border: solid 1px;",
@@ -1921,6 +1921,7 @@
     },
     {
         "q": "What is the effect of this code?",
+        "l": "css",
         "c": "div {\n    border: 1px solid teal;\n}",
         "o": [
             "Adds a solid teal border",
@@ -1931,7 +1932,6 @@
     },
     {
         "q": "What does 'margin: 5px;' do?",
-        "c": null,
         "o": [
             "Sets equal margins",
             "Sets only bottom margin",
@@ -1941,6 +1941,7 @@
     },
     {
         "q": "What does this code achieve?",
+        "l": "css",
         "c": "div {\n    margin: 10px 5px;\n}",
         "o": [
             "Sets vertical and horizontal margins",
@@ -1951,7 +1952,6 @@
     },
     {
         "q": "How can you add spacing between elements?",
-        "c": null,
         "o": [
             "Use margin",
             "Use padding",
@@ -1961,6 +1961,7 @@
     },
     {
         "q": "What is the outcome of this code?",
+        "l": "css",
         "c": "div {\n    margin-top: 10px;\n}",
         "o": [
             "Adds top margin",
@@ -1971,7 +1972,6 @@
     },
     {
         "q": "What happens if padding is set to auto?",
-        "c": null,
         "o": [
             "Ignored",
             "Set to zero",
@@ -1981,6 +1981,7 @@
     },
     {
         "q": "What does this code do?",
+        "l": "css",
         "c": "div {\n    border: 2px solid white;\n}",
         "o": [
             "Adds a solid white border",
@@ -1991,7 +1992,6 @@
     },
     {
         "q": "How do you set a border radius?",
-        "c": null,
         "o": [
             "border-radius: 10px;",
             "border: radius 10px;",
@@ -2001,6 +2001,7 @@
     },
     {
         "q": "What is the effect of this code?",
+        "l": "css",
         "c": "div {\n    padding: 5px 10px;\n}",
         "o": [
             "Sets top/bottom and left/right padding",
@@ -2011,7 +2012,6 @@
     },
     {
         "q": "What does 'padding: 5px 10px;' achieve?",
-        "c": null,
         "o": [
             "Sets top/bottom and left/right padding",
             "Sets only left padding",
@@ -2021,6 +2021,7 @@
     },
     {
         "q": "What does this code achieve?",
+        "l": "css",
         "c": "div {\n    margin: 10px;\n}",
         "o": [
             "Sets margin around the div",
@@ -2031,7 +2032,6 @@
     },
     {
         "q": "How to set margin on all sides?",
-        "c": null,
         "o": [
             "margin: 10px;",
             "margin: all 10px;",
@@ -2041,6 +2041,7 @@
     },
     {
         "q": "What is the outcome of this code?",
+        "l": "css",
         "c": "div {\n    border: 1px dashed purple;\n}",
         "o": [
             "Adds a dashed purple border",
@@ -2051,7 +2052,6 @@
     },
     {
         "q": "How do you specify a solid border?",
-        "c": null,
         "o": [
             "border: 1px solid;",
             "border: solid;",
@@ -2061,6 +2061,7 @@
     },
     {
         "q": "What does this code do?",
+        "l": "css",
         "c": "div {\n    padding: 15px 0;\n}",
         "o": [
             "Sets top/bottom padding",
@@ -2071,7 +2072,6 @@
     },
     {
         "q": "How can you make margin auto?",
-        "c": null,
         "o": [
             "margin: auto;",
             "margin: auto 10px;",
@@ -2081,6 +2081,7 @@
     },
     {
         "q": "What does this code specify?",
+        "l": "css",
         "c": "div {\n    margin: 10px 20px;\n}",
         "o": [
             "Sets vertical and horizontal margins",
@@ -2091,7 +2092,6 @@
     },
     {
         "q": "How to check border width?",
-        "c": null,
         "o": [
             "border-width: 1px;",
             "border: width 1px;",
@@ -2101,6 +2101,7 @@
     },
     {
         "q": "What does this code do?",
+        "l": "css",
         "c": "div {\n    border: 3px solid red;\n}",
         "o": [
             "Adds a solid red border",
@@ -2111,7 +2112,6 @@
     },
     {
         "q": "How do you set a border on the left only?",
-        "c": null,
         "o": [
             "border-left: 2px solid;",
             "border: left 2px;",
@@ -2121,6 +2121,7 @@
     },
     {
         "q": "What is the effect of this code?",
+        "l": "css",
         "c": "div {\n    padding: 0;\n}",
         "o": [
             "Removes padding",
@@ -2131,7 +2132,6 @@
     },
     {
         "q": "What does 'padding: 0;' achieve?",
-        "c": null,
         "o": [
             "Removes padding",
             "Adds padding",
@@ -2141,6 +2141,7 @@
     },
     {
         "q": "What does this code achieve?",
+        "l": "css",
         "c": "div {\n    margin-left: 15px;\n}",
         "o": [
             "Adds left margin",
@@ -2151,7 +2152,6 @@
     },
     {
         "q": "How to set a margin-bottom of 15px?",
-        "c": null,
         "o": [
             "margin-bottom: 15px;",
             "margin: bottom 15px;",
@@ -2161,6 +2161,7 @@
     },
     {
         "q": "What is the outcome of this code?",
+        "l": "css",
         "c": "div {\n    border: 2px double black;\n}",
         "o": [
             "Adds a double black border",
@@ -2171,7 +2172,6 @@
     },
     {
         "q": "What does 'border: solid red;' set?",
-        "c": null,
         "o": [
             "Sets a solid red border",
             "Sets a dashed border",
@@ -2181,6 +2181,7 @@
     },
     {
         "q": "What does this code do?",
+        "l": "css",
         "c": "div {\n    padding: 25px;\n}",
         "o": [
             "Adds padding inside the div",
@@ -2191,7 +2192,6 @@
     },
     {
         "q": "How do you set a bottom padding?",
-        "c": null,
         "o": [
             "padding-bottom: 10px;",
             "padding: bottom 10px;",
@@ -2201,6 +2201,7 @@
     },
     {
         "q": "What does this code achieve?",
+        "l": "css",
         "c": "div {\n    margin: 0 5px;\n}",
         "o": [
             "Sets left/right margin",
@@ -2211,7 +2212,6 @@
     },
     {
         "q": "What does 'margin: 20px 10px;' do?",
-        "c": null,
         "o": [
             "Sets vertical and horizontal margins",
             "Sets all margins",
@@ -2221,6 +2221,7 @@
     },
     {
         "q": "What is the effect of this code?",
+        "l": "css",
         "c": "div {\n    border: 1px solid transparent;\n}",
         "o": [
             "Adds a transparent border",
@@ -2231,7 +2232,6 @@
     },
     {
         "q": "How to remove a specific margin?",
-        "c": null,
         "o": [
             "margin-top: 0;",
             "margin: top 0;",
@@ -2241,6 +2241,7 @@
     },
     {
         "q": "What does this code specify?",
+        "l": "css",
         "c": "div {\n    padding: 5px 10px 15px;\n}",
         "o": [
             "Sets padding for top, sides, and bottom",
@@ -2251,7 +2252,6 @@
     },
     {
         "q": "What does 'padding: auto;' do?",
-        "c": null,
         "o": [
             "Ignored",
             "Sets equal padding",
@@ -2261,6 +2261,7 @@
     },
     {
         "q": "What does this code do?",
+        "l": "css",
         "c": "div {\n    margin: 50%;\n}",
         "o": [
             "Sets 50% margin on all sides",
@@ -2271,7 +2272,6 @@
     },
     {
         "q": "How to set margin with pixels?",
-        "c": null,
         "o": [
             "margin: 10px;",
             "margin: 10em;",
@@ -2281,6 +2281,7 @@
     },
     {
         "q": "What is the outcome of this code?",
+        "l": "css",
         "c": "div {\n    margin-top: 20px;\n}",
         "o": [
             "Adds top margin",
@@ -2291,7 +2292,6 @@
     },
     {
         "q": "What does 'border: dashed 5px;' specify?",
-        "c": null,
         "o": [
             "Sets a dashed border",
             "Sets a solid border",
@@ -2301,6 +2301,7 @@
     },
     {
         "q": "What does this code achieve?",
+        "l": "css",
         "c": "div {\n    border-radius: 5px;\n}",
         "o": [
             "Rounds the corners of the div",
@@ -2311,7 +2312,6 @@
     },
     {
         "q": "How do you specify a border on the top only?",
-        "c": null,
         "o": [
             "border-top: 2px solid;",
             "border: top 2px;",
@@ -2321,6 +2321,7 @@
     },
     {
         "q": "What does this code do?",
+        "l": "css",
         "c": "div {\n    margin: 0 auto;\n}",
         "o": [
             "Centers the div",
@@ -2331,7 +2332,6 @@
     },
     {
         "q": "What happens when a margin is negative?",
-        "c": null,
         "o": [
             "Elements overlap",
             "Margin is ignored",
@@ -2341,6 +2341,7 @@
     },
     {
         "q": "What is the effect of this code?",
+        "l": "css",
         "c": "div {\n    padding: 10px 5%;\n}",
         "o": [
             "Sets vertical padding and horizontal padding in %",
@@ -2351,7 +2352,6 @@
     },
     {
         "q": "How to add a border to all sides?",
-        "c": null,
         "o": [
             "border: 1px solid;",
             "border: all 1px;",
@@ -2361,6 +2361,7 @@
     },
     {
         "q": "What does this code achieve?",
+        "l": "css",
         "c": "div {\n    margin: 2px 4px;\n}",
         "o": [
             "Sets vertical and horizontal margins",
@@ -2371,7 +2372,6 @@
     },
     {
         "q": "How do you set a border with width?",
-        "c": null,
         "o": [
             "border-width: 5px;",
             "border: width 5px;",
@@ -2381,6 +2381,7 @@
     },
     {
         "q": "What does this code do?",
+        "l": "css",
         "c": "div {\n    border: 5px groove yellow;\n}",
         "o": [
             "Adds a groove yellow border",
@@ -2391,7 +2392,6 @@
     },
     {
         "q": "What is the shorthand for setting padding?",
-        "c": null,
         "o": [
             "padding: 10px;",
             "padding: all 10px;",
@@ -2401,6 +2401,7 @@
     },
     {
         "q": "What is the outcome of this code?",
+        "l": "css",
         "c": "div {\n    padding: 12px;\n}",
         "o": [
             "Adds padding inside the div",
@@ -2411,7 +2412,6 @@
     },
     {
         "q": "How to add a margin on right only?",
-        "c": null,
         "o": [
             "margin-right: 10px;",
             "margin: right 10px;",
@@ -2421,6 +2421,7 @@
     },
     {
         "q": "What does this code specify?",
+        "l": "css",
         "c": "div {\n    margin-right: auto;\n}",
         "o": [
             "Aligns the div to the left",
@@ -2431,7 +2432,6 @@
     },
     {
         "q": "How to set padding using percentage?",
-        "c": null,
         "o": [
             "padding: 10%;",
             "padding: 10px 20%;",
@@ -2441,6 +2441,7 @@
     },
     {
         "q": "What does this code achieve?",
+        "l": "css",
         "c": "div {\n    border: 2px inset blue;\n}",
         "o": [
             "Adds an inset blue border",
@@ -2451,7 +2452,6 @@
     },
     {
         "q": "What does 'border: double 2px;' specify?",
-        "c": null,
         "o": [
             "Sets a double border",
             "Sets a solid border",
@@ -2461,6 +2461,7 @@
     },
     {
         "q": "What does this code do?",
+        "l": "css",
         "c": "div {\n    padding: 1em;\n}",
         "o": [
             "Sets padding based on the font size",
@@ -2471,7 +2472,6 @@
     },
     {
         "q": "How to set padding for all sides?",
-        "c": null,
         "o": [
             "padding: 10px;",
             "padding: all 10px;",
@@ -2481,6 +2481,7 @@
     },
     {
         "q": "What is the effect of this code?",
+        "l": "css",
         "c": "div {\n    border: 1px solid #ccc;\n}",
         "o": [
             "Adds a solid gray border",
@@ -2491,7 +2492,6 @@
     },
     {
         "q": "What does 'margin: 5px 10px;' do?",
-        "c": null,
         "o": [
             "Sets vertical and horizontal margins",
             "Sets all margins",
@@ -2501,6 +2501,7 @@
     },
     {
         "q": "What does this code achieve?",
+        "l": "css",
         "c": "div {\n    margin: 0;\n}",
         "o": [
             "Removes all margins",
@@ -2511,7 +2512,6 @@
     },
     {
         "q": "How to set a border with solid color?",
-        "c": null,
         "o": [
             "border: solid blue;",
             "border: blue;",
@@ -2521,6 +2521,7 @@
     },
     {
         "q": "What does this code do?",
+        "l": "css",
         "c": "div {\n    padding: 2rem;\n}",
         "o": [
             "Sets padding in rem units",
@@ -2531,7 +2532,6 @@
     },
     {
         "q": "How to check if padding is applied?",
-        "c": null,
         "o": [
             "Inspect element",
             "Check CSS",
@@ -2541,6 +2541,7 @@
     },
     {
         "q": "What is the outcome of this code?",
+        "l": "css",
         "c": "div {\n    margin: 0 0 10px;\n}",
         "o": [
             "Adds bottom margin",
@@ -2551,6 +2552,7 @@
     },
     {
         "q": "What does this code do?",
+        "l": "css",
         "c": "div {\n    border: 3px solid purple;\n}",
         "o": [
             "Adds a solid purple border",
@@ -2561,6 +2563,7 @@
     },
     {
         "q": "What is the effect of this code?",
+        "l": "css",
         "c": "div {\n    padding: 5px 15px;\n}",
         "o": [
             "Sets top/bottom and left/right padding",
@@ -2571,6 +2574,7 @@
     },
     {
         "q": "What does this code achieve?",
+        "l": "css",
         "c": "div {\n    margin-top: 5%;\n}",
         "o": [
             "Adds top margin in percentage",
@@ -2581,6 +2585,7 @@
     },
     {
         "q": "What does this code do?",
+        "l": "css",
         "c": "div {\n    border: 1px dotted #f00;\n}",
         "o": [
             "Adds a dotted red border",
@@ -2591,6 +2596,7 @@
     },
     {
         "q": "What is the outcome of this code?",
+        "l": "css",
         "c": "div {\n    padding: 10px 20%;\n}",
         "o": [
             "Sets top/bottom padding and horizontal padding in %",
@@ -2601,6 +2607,7 @@
     },
     {
         "q": "What does this code specify?",
+        "l": "css",
         "c": "div {\n    margin: 0 10px;\n}",
         "o": [
             "Sets horizontal margins",
@@ -2611,6 +2618,7 @@
     },
     {
         "q": "What does this code achieve?",
+        "l": "css",
         "c": "div {\n    border: 1px solid rgb(255, 0, 0);\n}",
         "o": [
             "Adds a solid red border",
@@ -2621,6 +2629,7 @@
     },
     {
         "q": "What does this code do?",
+        "l": "css",
         "c": "div {\n    padding: 20px 5px;\n}",
         "o": [
             "Sets top/bottom and left/right padding",
@@ -2631,6 +2640,7 @@
     },
     {
         "q": "What is the effect of this code?",
+        "l": "css",
         "c": "div {\n    margin: 0px;\n}",
         "o": [
             "Removes all margins",

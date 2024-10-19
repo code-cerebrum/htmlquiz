@@ -1,6 +1,7 @@
 [
     {
         "q": "What does this code change on hover?",
+        "l": "css",
         "c": "a:hover {\n    color: blue;\n}",
         "o": [
             "Text color to blue",
@@ -20,6 +21,7 @@
     },
     {
         "q": "What element does :first-child select?",
+        "l": "css",
         "c": "ul > li:first-child {\n    font-weight: bold;\n}",
         "o": [
             "First li in ul",
@@ -39,6 +41,7 @@
     },
     {
         "q": "What does this code do?",
+        "l": "css",
         "c": "p::before {\n    content: 'Note: ';\n}",
         "o": [
             "Adds 'Note: ' before p",
@@ -58,6 +61,7 @@
     },
     {
         "q": "What does this style apply to?",
+        "l": "css",
         "c": "li:hover {\n    background-color: yellow;\n}",
         "o": [
             "Hovered list items",
@@ -77,6 +81,7 @@
     },
     {
         "q": "What does this code achieve?",
+        "l": "css",
         "c": "h1::after {\n    content: ' !';\n}",
         "o": [
             "Adds '!' after h1",
@@ -96,6 +101,7 @@
     },
     {
         "q": "What does :nth-child(2) select?",
+        "l": "css",
         "c": "p:nth-child(2) {\n    color: red;\n}",
         "o": [
             "Second p in parent",
@@ -115,6 +121,7 @@
     },
     {
         "q": "What happens when an element is focused?",
+        "l": "css",
         "c": "input:focus {\n    border: 2px solid green;\n}",
         "o": [
             "Green border",
@@ -134,6 +141,7 @@
     },
     {
         "q": "What does this selector target?",
+        "l": "css",
         "c": "a:visited {\n    color: purple;\n}",
         "o": [
             "Visited links",
@@ -153,6 +161,7 @@
     },
     {
         "q": "What does ::first-line style?",
+        "l": "css",
         "c": "p::first-line {\n    font-weight: bold;\n}",
         "o": [
             "First line of p",
@@ -172,6 +181,7 @@
     },
     {
         "q": "What effect does this code create?",
+        "l": "css",
         "c": "button:active {\n    background-color: grey;\n}",
         "o": [
             "Grey background when active",
@@ -191,6 +201,7 @@
     },
     {
         "q": "What does this selector do?",
+        "l": "css",
         "c": "input:disabled {\n    opacity: 0.5;\n}",
         "o": [
             "Styles disabled inputs",
@@ -210,6 +221,7 @@
     },
     {
         "q": "What does :not(.active) select?",
+        "l": "css",
         "c": "li:not(.active) {\n    color: grey;\n}",
         "o": [
             "Non-active li",
@@ -229,6 +241,7 @@
     },
     {
         "q": "What does this code achieve?",
+        "l": "css",
         "c": "div::before {\n    content: 'Start';\n}",
         "o": [
             "Adds 'Start' before div",
@@ -248,6 +261,7 @@
     },
     {
         "q": "What does :last-child select?",
+        "l": "css",
         "c": "ul > li:last-child {\n    color: blue;\n}",
         "o": [
             "Last li in ul",
@@ -267,6 +281,7 @@
     },
     {
         "q": "What does this code apply to?",
+        "l": "css",
         "c": "h2:focus {\n    outline: none;\n}",
         "o": [
             "No outline on focus",
@@ -286,6 +301,7 @@
     },
     {
         "q": "What does this style do?",
+        "l": "css",
         "c": "input::placeholder {\n    color: grey;\n}",
         "o": [
             "Styles placeholder text",
@@ -305,6 +321,7 @@
     },
     {
         "q": "What does this code do?",
+        "l": "css",
         "c": "li:nth-of-type(3) {\n    font-size: 20px;\n}",
         "o": [
             "Third li in type",
@@ -324,6 +341,7 @@
     },
     {
         "q": "What does this selector target?",
+        "l": "css",
         "c": "p:hover {\n    background-color: lightblue;\n}",
         "o": [
             "Hovered p",
@@ -343,6 +361,7 @@
     },
     {
         "q": "What is the effect of this code?",
+        "l": "css",
         "c": "a::before {\n    content: 'Link: ';\n}",
         "o": [
             "Adds 'Link: ' before anchor",
@@ -362,6 +381,7 @@
     },
     {
         "q": "What does this style do?",
+        "l": "css",
         "c": "span:empty {\n    display: none;\n}",
         "o": [
             "Hides empty spans",
@@ -381,6 +401,7 @@
     },
     {
         "q": "What does :nth-last-child(2) select?",
+        "l": "css",
         "c": "div:nth-last-child(2) {\n    background: yellow;\n}",
         "o": [
             "Second last div",
@@ -400,6 +421,7 @@
     },
     {
         "q": "What happens when this code is applied?",
+        "l": "css",
         "c": "input:checked {\n    background-color: green;\n}",
         "o": [
             "Checked inputs turn green",
@@ -419,6 +441,7 @@
     },
     {
         "q": "What does this selector target?",
+        "l": "css",
         "c": "h3:first-of-type {\n    color: red;\n}",
         "o": [
             "First h3 in parent",
@@ -438,6 +461,7 @@
     },
     {
         "q": "What does this style achieve?",
+        "l": "css",
         "c": "input:focus-visible {\n    outline: 2px solid blue;\n}",
         "o": [
             "Blue outline on keyboard focus",
@@ -457,6 +481,7 @@
     },
     {
         "q": "What does this code apply to?",
+        "l": "css",
         "c": "p:last-of-type {\n    color: orange;\n}",
         "o": [
             "Last p in parent",
@@ -476,6 +501,7 @@
     },
     {
         "q": "What does this selector do?",
+        "l": "css",
         "c": "button:hover {\n    background: green;\n}",
         "o": [
             "Green background on hover",
@@ -495,6 +521,7 @@
     },
     {
         "q": "What does this code achieve?",
+        "l": "css",
         "c": "p::after {\n    content: ' - End';\n}",
         "o": [
             "Adds ' - End' after p",
@@ -514,6 +541,7 @@
     },
     {
         "q": "What does :not(:hover) select?",
+        "l": "css",
         "c": "a:not(:hover) {\n    color: grey;\n}",
         "o": [
             "Non-hovered anchors",
@@ -533,6 +561,7 @@
     },
     {
         "q": "What does :nth-of-type(odd) select?",
+        "l": "css",
         "c": "li:nth-of-type(odd) {\n    background-color: lightgrey;\n}",
         "o": [
             "Odd li",
@@ -552,6 +581,7 @@
     },
     {
         "q": "What does this style apply to?",
+        "l": "css",
         "c": "div:focus {\n    border: 2px solid red;\n}",
         "o": [
             "Focused div",
@@ -571,6 +601,7 @@
     },
     {
         "q": "What does this code do?",
+        "l": "css",
         "c": "h2:first-child {\n    color: green;\n}",
         "o": [
             "First h2 in parent",
@@ -590,6 +621,7 @@
     },
     {
         "q": "What does :not(:active) select?",
+        "l": "css",
         "c": "button:not(:active) {\n    opacity: 0.5;\n}",
         "o": [
             "Non-active buttons",
@@ -609,6 +641,7 @@
     },
     {
         "q": "What does this code achieve?",
+        "l": "css",
         "c": "p::first-letter {\n    font-size: 2em;\n}",
         "o": [
             "Styles first letter of p",
@@ -628,6 +661,7 @@
     },
     {
         "q": "What does :nth-last-of-type(odd) select?",
+        "l": "css",
         "c": "li:nth-last-of-type(odd) {\n    color: red;\n}",
         "o": [
             "Odd last li",
@@ -647,6 +681,7 @@
     },
     {
         "q": "What does this code apply to?",
+        "l": "css",
         "c": "input:enabled {\n    background-color: white;\n}",
         "o": [
             "Enabled inputs",
@@ -666,6 +701,7 @@
     },
     {
         "q": "What does this selector do?",
+        "l": "css",
         "c": "h2:hover {\n    text-decoration: underline;\n}",
         "o": [
             "Underlines on hover",
@@ -685,6 +721,7 @@
     },
     {
         "q": "What does this style achieve?",
+        "l": "css",
         "c": "p:target {\n    display: block;\n}",
         "o": [
             "Shows targeted p",
@@ -704,6 +741,7 @@
     },
     {
         "q": "What does ::before do?",
+        "l": "css",
         "c": "span::before {\n    content: '*';\n}",
         "o": [
             "Adds '*' before span",
@@ -723,6 +761,7 @@
     },
     {
         "q": "What does :nth-child(3n) select?",
+        "l": "css",
         "c": "li:nth-child(3n) {\n    color: blue;\n}",
         "o": [
             "Every third li",
@@ -742,6 +781,7 @@
     },
     {
         "q": "What does this code apply to?",
+        "l": "css",
         "c": "div:focus-within {\n    border: 1px solid black;\n}",
         "o": [
             "Div with focused child",
@@ -761,6 +801,7 @@
     },
     {
         "q": "What does :hover select?",
+        "l": "css",
         "c": "a:hover {\n    color: red;\n}",
         "o": [
             "Hovered links",
@@ -780,6 +821,7 @@
     },
     {
         "q": "What does this selector target?",
+        "l": "css",
         "c": "h3::first-letter {\n    font-size: 1.5em;\n}",
         "o": [
             "First letter of h3",
@@ -799,6 +841,7 @@
     },
     {
         "q": "What does this style do?",
+        "l": "css",
         "c": "input:required {\n    border: 1px solid blue;\n}",
         "o": [
             "Required inputs",
@@ -818,6 +861,7 @@
     },
     {
         "q": "What does :last-of-type select?",
+        "l": "css",
         "c": "div:last-of-type {\n    display: none;\n}",
         "o": [
             "Hides last div",
@@ -837,6 +881,7 @@
     },
     {
         "q": "What does this code achieve?",
+        "l": "css",
         "c": "h1:focus {\n    color: green;\n}",
         "o": [
             "Green on focus",
@@ -856,6 +901,7 @@
     },
     {
         "q": "What does ::marker style?",
+        "l": "css",
         "c": "li::marker {\n    color: red;\n}",
         "o": [
             "Styles list item marker",
@@ -875,6 +921,7 @@
     },
     {
         "q": "What does this code do?",
+        "l": "css",
         "c": "a:active {\n    color: orange;\n}",
         "o": [
             "Active links turn orange",
@@ -894,6 +941,7 @@
     },
     {
         "q": "What does :not(:first-of-type) select?",
+        "l": "css",
         "c": "p:not(:first-of-type) {\n    margin-top: 10px;\n}",
         "o": [
             "All but first p",
@@ -913,6 +961,7 @@
     },
     {
         "q": "What does this style apply to?",
+        "l": "css",
         "c": "button:disabled {\n    opacity: 0.3;\n}",
         "o": [
             "Disabled buttons",
@@ -932,6 +981,7 @@
     },
     {
         "q": "What does :focus-within select?",
+        "l": "css",
         "c": "div:focus-within {\n    background-color: lightgrey;\n}",
         "o": [
             "Div with focused child",
@@ -951,6 +1001,7 @@
     },
     {
         "q": "What does this code achieve?",
+        "l": "css",
         "c": "h2:last-child {\n    font-style: italic;\n}",
         "o": [
             "Italicizes last h2",
@@ -970,6 +1021,7 @@
     },
     {
         "q": "What does :not(:hover) select?",
+        "l": "css",
         "c": "a:not(:hover) {\n    color: black;\n}",
         "o": [
             "Non-hovered links",
@@ -989,6 +1041,7 @@
     },
     {
         "q": "What does this code do?",
+        "l": "css",
         "c": "p:only-of-type {\n    background-color: yellow;\n}",
         "o": [
             "Styles p if only one",
@@ -1008,6 +1061,7 @@
     },
     {
         "q": "What does :nth-last-child(1) select?",
+        "l": "css",
         "c": "ul > li:nth-last-child(1) {\n    color: green;\n}",
         "o": [
             "Last li in ul",
@@ -1027,6 +1081,7 @@
     },
     {
         "q": "What does this style achieve?",
+        "l": "css",
         "c": "p:hover::before {\n    content: '***';\n}",
         "o": [
             "Adds '***' on hover",
@@ -1046,6 +1101,7 @@
     },
     {
         "q": "What does this code apply to?",
+        "l": "css",
         "c": "h1:first-of-type {\n    color: blue;\n}",
         "o": [
             "First h1 in parent",
@@ -1065,6 +1121,7 @@
     },
     {
         "q": "What does :first-of-type select?",
+        "l": "css",
         "c": "div:first-of-type {\n    color: red;\n}",
         "o": [
             "First div in parent",
@@ -1084,6 +1141,7 @@
     },
     {
         "q": "What does this selector target?",
+        "l": "css",
         "c": "h2::after {\n    content: ' !';\n}",
         "o": [
             "Adds '!' after h2",
@@ -1103,6 +1161,7 @@
     },
     {
         "q": "What does :nth-of-type(4) select?",
+        "l": "css",
         "c": "p:nth-of-type(4) {\n    color: pink;\n}",
         "o": [
             "Fourth p in parent",
@@ -1122,6 +1181,7 @@
     },
     {
         "q": "What does this code do?",
+        "l": "css",
         "c": "li:nth-last-of-type(1) {\n    text-decoration: underline;\n}",
         "o": [
             "Underlines last li",
@@ -1141,6 +1201,7 @@
     },
     {
         "q": "What does :nth-of-type(even) select?",
+        "l": "css",
         "c": "li:nth-of-type(even) {\n    background-color: grey;\n}",
         "o": [
             "Even li",
@@ -1160,6 +1221,7 @@
     },
     {
         "q": "What does this code achieve?",
+        "l": "css",
         "c": "h3:focus {\n    color: purple;\n}",
         "o": [
             "Purple on focus",
@@ -1179,6 +1241,7 @@
     },
     {
         "q": "What does this selector do?",
+        "l": "css",
         "c": "button:hover::after {\n    content: ' !';\n}",
         "o": [
             "Adds '!' after button on hover",
@@ -1198,6 +1261,7 @@
     },
     {
         "q": "What does this code do?",
+        "l": "css",
         "c": "input:read-only {\n    background-color: lightgrey;\n}",
         "o": [
             "Styles read-only inputs",
@@ -1217,6 +1281,7 @@
     },
     {
         "q": "What does this style achieve?",
+        "l": "css",
         "c": "a:focus {\n    outline: 2px solid orange;\n}",
         "o": [
             "Orange outline on focus",
@@ -1236,6 +1301,7 @@
     },
     {
         "q": "What does :empty select?",
+        "l": "css",
         "c": "div:empty {\n    display: none;\n}",
         "o": [
             "Hides empty divs",
@@ -1255,6 +1321,7 @@
     },
     {
         "q": "What does this code apply to?",
+        "l": "css",
         "c": "li:first-child {\n    font-size: 14px;\n}",
         "o": [
             "First li in parent",
@@ -1274,6 +1341,7 @@
     },
     {
         "q": "What does :first-letter style?",
+        "l": "css",
         "c": "p::first-letter {\n    font-size: 2em;\n}",
         "o": [
             "Styles first letter",
@@ -1293,6 +1361,7 @@
     },
     {
         "q": "What does this code do?",
+        "l": "css",
         "c": "button:focus {\n    background-color: blue;\n}",
         "o": [
             "Blue background on focus",
@@ -1312,6 +1381,7 @@
     },
     {
         "q": "What does this style apply to?",
+        "l": "css",
         "c": "h4:hover {\n    color: teal;\n}",
         "o": [
             "Hovered h4",
@@ -1331,6 +1401,7 @@
     },
     {
         "q": "What does :nth-child(odd) select?",
+        "l": "css",
         "c": "li:nth-child(odd) {\n    background-color: lightblue;\n}",
         "o": [
             "Odd li",
@@ -1350,6 +1421,7 @@
     },
     {
         "q": "What does this selector target?",
+        "l": "css",
         "c": "h1::before {\n    content: 'Start';\n}",
         "o": [
             "Adds 'Start' before h1",
@@ -1369,6 +1441,7 @@
     },
     {
         "q": "What does this style achieve?",
+        "l": "css",
         "c": "input:invalid {\n    border: 1px solid red;\n}",
         "o": [
             "Invalid inputs",
@@ -1388,6 +1461,7 @@
     },
     {
         "q": "What does this code do?",
+        "l": "css",
         "c": "ul > li:last-child {\n    font-weight: bold;\n}",
         "o": [
             "Bold last li",
@@ -1407,6 +1481,7 @@
     },
     {
         "q": "What does :hover::after do?",
+        "l": "css",
         "c": "a:hover::after {\n    content: ' !';\n}",
         "o": [
             "Adds '!' after link on hover",
@@ -1426,6 +1501,7 @@
     },
     {
         "q": "What does this code apply to?",
+        "l": "css",
         "c": "h2:first-child {\n    color: orange;\n}",
         "o": [
             "First h2 in parent",
@@ -1445,6 +1521,7 @@
     },
     {
         "q": "What does :nth-last-of-type(2) select?",
+        "l": "css",
         "c": "div:nth-last-of-type(2) {\n    color: purple;\n}",
         "o": [
             "Second last div",
@@ -1464,6 +1541,7 @@
     },
     {
         "q": "What does this code achieve?",
+        "l": "css",
         "c": "h4:last-child {\n    font-weight: bold;\n}",
         "o": [
             "Bold last h4",
@@ -1483,6 +1561,7 @@
     },
     {
         "q": "What does ::before add?",
+        "l": "css",
         "c": "div::before {\n    content: 'Note: ';\n}",
         "o": [
             "Adds 'Note: '",
@@ -1502,6 +1581,7 @@
     },
     {
         "q": "What does this code apply to?",
+        "l": "css",
         "c": "p:first-child {\n    color: green;\n}",
         "o": [
             "First p in parent",
@@ -1521,6 +1601,7 @@
     },
     {
         "q": "What does :hover style?",
+        "l": "css",
         "c": "button:hover {\n    background-color: yellow;\n}",
         "o": [
             "Yellow background on hover",
@@ -1540,6 +1621,7 @@
     },
     {
         "q": "What does this code do?",
+        "l": "css",
         "c": "li:not(:last-of-type) {\n    margin-bottom: 10px;\n}",
         "o": [
             "Margin for non-last li",
@@ -1559,6 +1641,7 @@
     },
     {
         "q": "What does :first-of-type style?",
+        "l": "css",
         "c": "h1:first-of-type {\n    color: red;\n}",
         "o": [
             "First h1 in parent",
@@ -1578,6 +1661,7 @@
     },
     {
         "q": "What does this selector target?",
+        "l": "css",
         "c": "span:hover::after {\n    content: ' !';\n}",
         "o": [
             "Adds '!' after span on hover",
@@ -1597,6 +1681,7 @@
     },
     {
         "q": "What does this style achieve?",
+        "l": "css",
         "c": "h3:visited {\n    color: grey;\n}",
         "o": [
             "Visited h3",
@@ -1616,6 +1701,7 @@
     },
     {
         "q": "What does this code apply to?",
+        "l": "css",
         "c": "h1:first-letter {\n    text-transform: uppercase;\n}",
         "o": [
             "Capitalizes first letter",
@@ -1635,6 +1721,7 @@
     },
     {
         "q": "What does :focus select?",
+        "l": "css",
         "c": "input:focus {\n    outline: none;\n}",
         "o": [
             "No outline on focus",
@@ -1654,6 +1741,7 @@
     },
     {
         "q": "What does this code do?",
+        "l": "css",
         "c": "li:nth-of-type(n+2) {\n    display: none;\n}",
         "o": [
             "Hides all but first li",
@@ -1673,6 +1761,7 @@
     },
     {
         "q": "What does this selector target?",
+        "l": "css",
         "c": "button::before {\n    content: 'Click';\n}",
         "o": [
             "Adds 'Click' before button",
@@ -1692,6 +1781,7 @@
     },
     {
         "q": "What does this style achieve?",
+        "l": "css",
         "c": "p:hover {\n    color: blue;\n}",
         "o": [
             "Blue on hover",
@@ -1711,6 +1801,7 @@
     },
     {
         "q": "What does this code apply to?",
+        "l": "css",
         "c": "a:first-of-type {\n    color: teal;\n}",
         "o": [
             "First a in parent",
@@ -1730,6 +1821,7 @@
     },
     {
         "q": "What does this selector do?",
+        "l": "css",
         "c": "h2:not(:last-child) {\n    font-size: 1.2em;\n}",
         "o": [
             "Styles non-last h2",
@@ -1749,6 +1841,7 @@
     },
     {
         "q": "What does this code do?",
+        "l": "css",
         "c": "button:hover:first-of-type {\n    background-color: pink;\n}",
         "o": [
             "Pink for first button on hover",
@@ -1768,6 +1861,7 @@
     },
     {
         "q": "What does this style apply to?",
+        "l": "css",
         "c": "h3:last-of-type {\n    color: orange;\n}",
         "o": [
             "Last h3 in parent",
@@ -1787,6 +1881,7 @@
     },
     {
         "q": "What does :nth-last-child(3) select?",
+        "l": "css",
         "c": "li:nth-last-child(3) {\n    color: blue;\n}",
         "o": [
             "Third last li",
@@ -1806,6 +1901,7 @@
     },
     {
         "q": "What does this code do?",
+        "l": "css",
         "c": "span:hover::before {\n    content: '>>';\n}",
         "o": [
             "Adds '>>' before span on hover",
@@ -1825,6 +1921,7 @@
     },
     {
         "q": "What does this style achieve?",
+        "l": "css",
         "c": "p:not(:empty) {\n    font-weight: bold;\n}",
         "o": [
             "Bold non-empty p",
@@ -1844,6 +1941,7 @@
     },
     {
         "q": "What does this selector target?",
+        "l": "css",
         "c": "h2::before {\n    content: 'Note:';\n}",
         "o": [
             "Adds 'Note:' before h2",
@@ -1863,6 +1961,7 @@
     },
     {
         "q": "What does this code do?",
+        "l": "css",
         "c": "ul > li:nth-child(even) {\n    background-color: lightgray;\n}",
         "o": [
             "Styles even li",
@@ -1882,6 +1981,7 @@
     },
     {
         "q": "What does :focus-within select?",
+        "l": "css",
         "c": "div:focus-within {\n    border: 2px solid red;\n}",
         "o": [
             "Div with focused child",
@@ -1901,6 +2001,7 @@
     },
     {
         "q": "What does this code apply to?",
+        "l": "css",
         "c": "p:link {\n    color: blue;\n}",
         "o": [
             "Unvisited links",
@@ -1920,6 +2021,7 @@
     },
     {
         "q": "What does this style achieve?",
+        "l": "css",
         "c": "a:visited {\n    color: purple;\n}",
         "o": [
             "Visited links",
@@ -1939,6 +2041,7 @@
     },
     {
         "q": "What does this code do?",
+        "l": "css",
         "c": "h1:hover {\n    text-decoration: underline;\n}",
         "o": [
             "Underlines h1 on hover",
@@ -1958,6 +2061,7 @@
     },
     {
         "q": "What does this selector target?",
+        "l": "css",
         "c": "h2:first-child {\n    font-weight: bold;\n}",
         "o": [
             "Bold first h2 in parent",
@@ -1977,6 +2081,7 @@
     },
     {
         "q": "What does this style achieve?",
+        "l": "css",
         "c": "h4:nth-of-type(2) {\n    color: pink;\n}",
         "o": [
             "Second h4",
@@ -1996,6 +2101,7 @@
     },
     {
         "q": "What does this code do?",
+        "l": "css",
         "c": "li:hover {\n    background-color: yellow;\n}",
         "o": [
             "Yellow on hover",
@@ -2015,6 +2121,7 @@
     },
     {
         "q": "What does this code apply to?",
+        "l": "css",
         "c": "div:nth-of-type(n+3) {\n    display: none;\n}",
         "o": [
             "Hides first two divs",
@@ -2034,6 +2141,7 @@
     },
     {
         "q": "What does this style achieve?",
+        "l": "css",
         "c": "input:enabled {\n    background-color: lightgreen;\n}",
         "o": [
             "Enabled inputs",
@@ -2053,6 +2161,7 @@
     },
     {
         "q": "What does :nth-of-type(even) select?",
+        "l": "css",
         "c": "li:nth-of-type(even) {\n    background-color: lightblue;\n}",
         "o": [
             "Even li",
@@ -2072,6 +2181,7 @@
     },
     {
         "q": "What does this code do?",
+        "l": "css",
         "c": "h1:active {\n    color: red;\n}",
         "o": [
             "Active h1",
@@ -2091,6 +2201,7 @@
     },
     {
         "q": "What does this style apply to?",
+        "l": "css",
         "c": "h3:nth-last-of-type(1) {\n    font-weight: bold;\n}",
         "o": [
             "Bold last h3",
@@ -2110,6 +2221,7 @@
     },
     {
         "q": "What does :last-child select?",
+        "l": "css",
         "c": "p:last-child {\n    color: green;\n}",
         "o": [
             "Last p in parent",
@@ -2129,6 +2241,7 @@
     },
     {
         "q": "What does this code do?",
+        "l": "css",
         "c": "span:hover {\n    color: red;\n}",
         "o": [
             "Red on hover",
@@ -2148,6 +2261,7 @@
     },
     {
         "q": "What does this code apply to?",
+        "l": "css",
         "c": "div:not(:first-child) {\n    margin-top: 10px;\n}",
         "o": [
             "Margin for non-first divs",
@@ -2167,6 +2281,7 @@
     },
     {
         "q": "What does this code apply to?",
+        "l": "css",
         "c": "p:hover {\n    text-decoration: underline;\n}",
         "o": [
             "Underlines p on hover",
@@ -2186,6 +2301,7 @@
     },
     {
         "q": "What does this style achieve?",
+        "l": "css",
         "c": "a:focus {\n    outline: none;\n}",
         "o": [
             "No outline on focus",
@@ -2205,6 +2321,7 @@
     },
     {
         "q": "What does this selector target?",
+        "l": "css",
         "c": "div::after {\n    content: 'End';\n}",
         "o": [
             "Adds 'End' after div",
@@ -2224,6 +2341,7 @@
     },
     {
         "q": "What does this code do?",
+        "l": "css",
         "c": "button:disabled {\n    opacity: 0.5;\n}",
         "o": [
             "Fades disabled button",
@@ -2243,6 +2361,7 @@
     },
     {
         "q": "What does :nth-child(3n) select?",
+        "l": "css",
         "c": "li:nth-child(3n) {\n    background-color: lightgreen;\n}",
         "o": [
             "Every third li",
@@ -2262,6 +2381,7 @@
     },
     {
         "q": "What does this style apply to?",
+        "l": "css",
         "c": "h1::after {\n    content: '!!!';\n}",
         "o": [
             "Adds '!!!' after h1",
@@ -2281,6 +2401,7 @@
     },
     {
         "q": "What does :not(.active) select?",
+        "l": "css",
         "c": "button:not(.active) {\n    background-color: grey;\n}",
         "o": [
             "Inactive buttons",
@@ -2300,6 +2421,7 @@
     },
     {
         "q": "What does this code do?",
+        "l": "css",
         "c": "input:required {\n    border: 1px solid blue;\n}",
         "o": [
             "Styles required inputs",
@@ -2319,6 +2441,7 @@
     },
     {
         "q": "What does this style achieve?",
+        "l": "css",
         "c": "h3:first-of-type {\n    color: brown;\n}",
         "o": [
             "First h3 in parent",
@@ -2338,6 +2461,7 @@
     },
     {
         "q": "What does :hover::before do?",
+        "l": "css",
         "c": "a:hover::before {\n    content: '>>';\n}",
         "o": [
             "Adds '>>' before link on hover",
@@ -2357,6 +2481,7 @@
     },
     {
         "q": "What does this code apply to?",
+        "l": "css",
         "c": "p:last-of-type {\n    color: red;\n}",
         "o": [
             "Last p in parent",
@@ -2376,6 +2501,7 @@
     },
     {
         "q": "What does :nth-child(2n+1) select?",
+        "l": "css",
         "c": "li:nth-child(2n+1) {\n    color: yellow;\n}",
         "o": [
             "Odd li",
@@ -2395,6 +2521,7 @@
     },
     {
         "q": "What does this code do?",
+        "l": "css",
         "c": "ul li:first-child {\n    font-weight: bold;\n}",
         "o": [
             "Bold first li in ul",
@@ -2414,6 +2541,7 @@
     },
     {
         "q": "What does this style apply to?",
+        "l": "css",
         "c": "h2:last-of-type {\n    text-transform: uppercase;\n}",
         "o": [
             "Uppercase last h2",
@@ -2433,6 +2561,7 @@
     },
     {
         "q": "What does ::before do in this code?",
+        "l": "css",
         "c": "div::before {\n    content: 'Start: ';\n}",
         "o": [
             "Adds 'Start: ' before div",
@@ -2452,6 +2581,7 @@
     },
     {
         "q": "What does this code do?",
+        "l": "css",
         "c": "input[type='text']:hover {\n    border-color: green;\n}",
         "o": [
             "Green border on hover",
@@ -2471,6 +2601,7 @@
     },
     {
         "q": "What does this style achieve?",
+        "l": "css",
         "c": "button:first-child {\n    background-color: blue;\n}",
         "o": [
             "Styles first button",
@@ -2490,6 +2621,7 @@
     },
     {
         "q": "What does this code do?",
+        "l": "css",
         "c": "li:nth-of-type(n) {\n    list-style-type: square;\n}",
         "o": [
             "All li as squares",
@@ -2509,6 +2641,7 @@
     },
     {
         "q": "What does :checked select?",
+        "l": "css",
         "c": "input:checked {\n    background-color: yellow;\n}",
         "o": [
             "Checked inputs",
@@ -2528,6 +2661,7 @@
     },
     {
         "q": "What does this code apply to?",
+        "l": "css",
         "c": "h1:lang(en) {\n    font-size: 2em;\n}",
         "o": [
             "English h1",
@@ -2547,6 +2681,7 @@
     },
     {
         "q": "What does this style achieve?",
+        "l": "css",
         "c": "h3:hover {\n    text-decoration: line-through;\n}",
         "o": [
             "Strikes through h3 on hover",
@@ -2566,6 +2701,7 @@
     },
     {
         "q": "What does this selector target?",
+        "l": "css",
         "c": "div:hover::after {\n    content: ' (hovered)';\n}",
         "o": [
             "Adds '(hovered)' after div on hover",
@@ -2585,6 +2721,7 @@
     },
     {
         "q": "What does :first-child select?",
+        "l": "css",
         "c": "li:first-child {\n    font-weight: bold;\n}",
         "o": [
             "Bold first li",
@@ -2604,6 +2741,7 @@
     },
     {
         "q": "What does this code do?",
+        "l": "css",
         "c": "h4:not(:last-of-type) {\n    margin-bottom: 5px;\n}",
         "o": [
             "Margin for non-last h4",
@@ -2623,6 +2761,7 @@
     },
     {
         "q": "What does this style achieve?",
+        "l": "css",
         "c": "h2:focus {\n    outline: 2px dashed red;\n}",
         "o": [
             "Dashed outline on focus",
@@ -2642,6 +2781,7 @@
     },
     {
         "q": "What does this code apply to?",
+        "l": "css",
         "c": "p:nth-last-of-type(2) {\n    font-style: italic;\n}",
         "o": [
             "Second last p",
@@ -2661,6 +2801,7 @@
     },
     {
         "q": "What does this style achieve?",
+        "l": "css",
         "c": "h1:hover {\n    color: green;\n}",
         "o": [
             "Green color on hover",
@@ -2680,6 +2821,7 @@
     },
     {
         "q": "What does this code do?",
+        "l": "css",
         "c": "a:active {\n    color: red;\n}",
         "o": [
             "Red on click",
@@ -2699,6 +2841,7 @@
     },
     {
         "q": "What does :last-of-type select?",
+        "l": "css",
         "c": "p:last-of-type {\n    color: blue;\n}",
         "o": [
             "Last p in parent",
@@ -2718,6 +2861,7 @@
     },
     {
         "q": "What does this code do?",
+        "l": "css",
         "c": "span:hover {\n    font-weight: bold;\n}",
         "o": [
             "Bold on hover",
@@ -2737,6 +2881,7 @@
     },
     {
         "q": "What does this style achieve?",
+        "l": "css",
         "c": "div:first-of-type {\n    background-color: lightyellow;\n}",
         "o": [
             "First div styled",
@@ -2756,6 +2901,7 @@
     },
     {
         "q": "What does this code do?",
+        "l": "css",
         "c": "li:hover {\n    color: orange;\n}",
         "o": [
             "Orange on hover",
@@ -2775,6 +2921,7 @@
     },
     {
         "q": "What does this style apply to?",
+        "l": "css",
         "c": "button:focus {\n    box-shadow: 0 0 5px black;\n}",
         "o": [
             "Adds shadow on focus",

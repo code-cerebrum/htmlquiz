@@ -1,6 +1,7 @@
 [
     {
         "q": "What effect does this CSS transition create?",
+        "l": "css",
         "c": "div {\n  transition: width 2s ease-in-out;\n}",
         "o": [
             "Smooth start and end, 2s width change",
@@ -20,6 +21,7 @@
     },
     {
         "q": "What does this animation do?",
+        "l": "css",
         "c": "@keyframes example {\n  0% {opacity: 0;}\n  100% {opacity: 1;}\n}\ndiv {\n  animation: example 3s linear;\n}",
         "o": [
             "Fades in over 3 seconds",
@@ -39,6 +41,7 @@
     },
     {
         "q": "What happens when the button is hovered?",
+        "l": "css",
         "c": "button {\n  transition: background-color 0.5s ease;\n}\nbutton:hover {\n  background-color: blue;\n}",
         "o": [
             "Smooth color change to blue",
@@ -58,6 +61,7 @@
     },
     {
         "q": "What does the following animation achieve?",
+        "l": "css",
         "c": "@keyframes move {\n  0% {transform: translateX(0);}\n  100% {transform: translateX(100px);}\n}\ndiv {\n  animation: move 2s ease-out;\n}",
         "o": [
             "Moves 100px to the right with a fast start",
@@ -77,6 +81,7 @@
     },
     {
         "q": "What happens to the element with this transition?",
+        "l": "css",
         "c": "div {\n  transition: opacity 1s ease-in-out;\n}\ndiv:hover {\n  opacity: 0;\n}",
         "o": [
             "Fades out slowly when hovered",
@@ -96,6 +101,7 @@
     },
     {
         "q": "What happens with the background-color change?",
+        "l": "css",
         "c": "div {\n  background-color: red;\n  transition: background-color 0.5s;\n}\ndiv:hover {\n  background-color: green;\n}",
         "o": [
             "Changes to green over 0.5 seconds",
@@ -115,6 +121,7 @@
     },
     {
         "q": "What does this keyframe animation do?",
+        "l": "css",
         "c": "@keyframes pulse {\n  0% {transform: scale(1);}\n  50% {transform: scale(1.2);}\n  100% {transform: scale(1);}\n}\ndiv {\n  animation: pulse 1s infinite;\n}",
         "o": [
             "Element expands and contracts repeatedly",
@@ -134,6 +141,7 @@
     },
     {
         "q": "What happens to the element's width with this CSS?",
+        "l": "css",
         "c": "div {\n  transition: width 2s ease-in-out;\n  width: 100px;\n}\ndiv:hover {\n  width: 200px;\n}",
         "o": [
             "Width changes smoothly to 200px",
@@ -153,6 +161,7 @@
     },
     {
         "q": "What does this CSS animation achieve?",
+        "l": "css",
         "c": "@keyframes rotate {\n  0% {transform: rotate(0deg);}\n  100% {transform: rotate(360deg);}\n}\ndiv {\n  animation: rotate 4s infinite linear;\n}",
         "o": [
             "Rotates continuously at constant speed",
@@ -172,6 +181,7 @@
     },
     {
         "q": "What happens to the text opacity with this CSS?",
+        "l": "css",
         "c": "p {\n  transition: opacity 1.5s ease;\n}\np:hover {\n  opacity: 0.5;\n}",
         "o": [
             "Text fades to 50% opacity",
@@ -191,6 +201,7 @@
     },
     {
         "q": "What does this CSS snippet do?",
+        "l": "css",
         "c": "div {\n  transition: all 1s ease;\n}\ndiv:hover {\n  width: 150px;\n  height: 150px;\n  background-color: yellow;\n}",
         "o": [
             "Smooth transition of width, height, and color",
@@ -210,6 +221,7 @@
     },
     {
         "q": "What effect does the delay cause in this animation?",
+        "l": "css",
         "c": "@keyframes fadeIn {\n  0% {opacity: 0;}\n  100% {opacity: 1;}\n}\ndiv {\n  animation: fadeIn 2s 1s ease;\n}",
         "o": [
             "Starts fading in after 1 second",
@@ -229,6 +241,7 @@
     },
     {
         "q": "What does the following CSS create?",
+        "l": "css",
         "c": "div {\n  transition: transform 0.5s ease-out;\n}\ndiv:hover {\n  transform: scale(1.5);\n}",
         "o": [
             "Smoothly scales up when hovered",
@@ -248,6 +261,7 @@
     },
     {
         "q": "What happens to the element's color with this CSS?",
+        "l": "css",
         "c": "div {\n  background-color: orange;\n  transition: background-color 1s ease;\n}\ndiv:hover {\n  background-color: purple;\n}",
         "o": [
             "Smoothly changes color to purple",
@@ -267,6 +281,7 @@
     },
     {
         "q": "What happens to the element during this animation?",
+        "l": "css",
         "c": "@keyframes slideIn {\n  from {transform: translateX(-100%);}\n  to {transform: translateX(0);}\n}\ndiv {\n  animation: slideIn 2s ease-in-out;\n}",
         "o": [
             "Slides in from the left",
@@ -286,6 +301,7 @@
     },
     {
         "q": "What happens to the height of the element?",
+        "l": "css",
         "c": "div {\n  height: 100px;\n  transition: height 1s ease-in;\n}\ndiv:hover {\n  height: 200px;\n}",
         "o": [
             "Height increases gradually",
@@ -305,6 +321,7 @@
     },
     {
         "q": "What is the outcome of this CSS?",
+        "l": "css",
         "c": "div {\n  transition: margin-left 1s ease;\n}\ndiv:hover {\n  margin-left: 50px;\n}",
         "o": [
             "Moves 50px to the right smoothly",
@@ -324,6 +341,7 @@
     },
     {
         "q": "What happens when the element is hovered?",
+        "l": "css",
         "c": "div {\n  transition: background-color 1s ease-in-out, transform 2s ease;\n}\ndiv:hover {\n  background-color: yellow;\n  transform: rotate(45deg);\n}",
         "o": [
             "Color changes and rotates",
@@ -343,6 +361,7 @@
     },
     {
         "q": "What is the effect of this CSS on the element?",
+        "l": "css",
         "c": "div {\n  transition: width 2s linear;\n}\ndiv:hover {\n  width: 300px;\n}",
         "o": [
             "Width increases at constant speed",
@@ -362,6 +381,7 @@
     },
     {
         "q": "What does this CSS do to the background color?",
+        "l": "css",
         "c": "@keyframes colorChange {\n  0% {background-color: red;}\n  100% {background-color: blue;}\n}\ndiv {\n  animation: colorChange 3s infinite;\n}",
         "o": [
             "Continuously transitions from red to blue",
@@ -381,6 +401,7 @@
     },
     {
         "q": "What happens to the element's border color?",
+        "l": "css",
         "c": "div {\n  transition: border-color 1s ease;\n  border: 2px solid black;\n}\ndiv:hover {\n  border-color: red;\n}",
         "o": [
             "Border color changes to red smoothly",
@@ -400,6 +421,7 @@
     },
     {
         "q": "What happens when this animation is applied?",
+        "l": "css",
         "c": "@keyframes grow {\n  0% {height: 100px;}\n  100% {height: 300px;}\n}\ndiv {\n  animation: grow 4s ease-in-out;\n}",
         "o": [
             "Element height grows to 300px",
@@ -419,6 +441,7 @@
     },
     {
         "q": "What does this transition do when the button is clicked?",
+        "l": "css",
         "c": "button {\n  transition: font-size 0.5s ease-out;\n}\nbutton:active {\n  font-size: 20px;\n}",
         "o": [
             "Font size increases smoothly",
@@ -438,6 +461,7 @@
     },
     {
         "q": "What is the result of this animation?",
+        "l": "css",
         "c": "@keyframes bounce {\n  0% {transform: translateY(0);}\n  50% {transform: translateY(-50px);}\n  100% {transform: translateY(0);}\n}\ndiv {\n  animation: bounce 2s infinite;\n}",
         "o": [
             "Element bounces up and down",
@@ -457,6 +481,7 @@
     },
     {
         "q": "What does this CSS animation achieve?",
+        "l": "css",
         "c": "@keyframes rotate {\n  0% {transform: rotate(0deg);}\n  100% {transform: rotate(90deg);}\n}\ndiv {\n  animation: rotate 1s ease-in-out;\n}",
         "o": [
             "Rotates 90 degrees",
@@ -476,6 +501,7 @@
     },
     {
         "q": "What happens when the element is hovered?",
+        "l": "css",
         "c": "div {\n  transition: transform 1s ease;\n}\ndiv:hover {\n  transform: translateX(100px) scale(1.2);\n}",
         "o": [
             "Moves 100px right and scales up",
@@ -495,6 +521,7 @@
     },
     {
         "q": "What happens to the opacity of the text?",
+        "l": "css",
         "c": "p {\n  transition: opacity 2s ease-in-out;\n}\np:hover {\n  opacity: 0.2;\n}",
         "o": [
             "Text fades to 20% opacity",
@@ -514,6 +541,7 @@
     },
     {
         "q": "What does this keyframe animation do?",
+        "l": "css",
         "c": "@keyframes fadeOut {\n  0% {opacity: 1;}\n  100% {opacity: 0;}\n}\ndiv {\n  animation: fadeOut 3s linear;\n}",
         "o": [
             "Element fades out over 3 seconds",
@@ -533,6 +561,7 @@
     },
     {
         "q": "What happens with this animation on hover?",
+        "l": "css",
         "c": "div {\n  transition: transform 0.6s;\n}\ndiv:hover {\n  transform: rotate(180deg) scale(1.5);\n}",
         "o": [
             "Element rotates and scales up",
@@ -552,6 +581,7 @@
     },
     {
         "q": "What does this CSS achieve?",
+        "l": "css",
         "c": "div {\n  transition: transform 1s ease-in;\n}\ndiv:hover {\n  transform: translateY(-100px);\n}",
         "o": [
             "Moves up 100px slowly",
@@ -571,6 +601,7 @@
     },
     {
         "q": "What happens to the element's background color?",
+        "l": "css",
         "c": "div {\n  background-color: yellow;\n  transition: background-color 2s ease;\n}\ndiv:hover {\n  background-color: red;\n}",
         "o": [
             "Changes smoothly to red",
@@ -590,6 +621,7 @@
     },
     {
         "q": "What effect does this CSS animation create?",
+        "l": "css",
         "c": "@keyframes shake {\n  0% {transform: translateX(0);}\n  50% {transform: translateX(-10px);}\n  100% {transform: translateX(0);}\n}\ndiv {\n  animation: shake 0.5s linear;\n}",
         "o": [
             "Element shakes horizontally",
@@ -609,6 +641,7 @@
     },
     {
         "q": "What happens when the button is hovered?",
+        "l": "css",
         "c": "button {\n  transition: background-color 1s linear;\n}\nbutton:hover {\n  background-color: green;\n}",
         "o": [
             "Button background changes to green smoothly",
@@ -628,6 +661,7 @@
     },
     {
         "q": "What effect does this transition create on hover?",
+        "l": "css",
         "c": "div {\n  transition: all 0.3s ease;\n  width: 100px;\n  height: 100px;\n  background-color: blue;\n}\ndiv:hover {\n  width: 150px;\n  height: 150px;\n  background-color: red;\n}",
         "o": [
             "Smooth change in size and color",
@@ -647,6 +681,7 @@
     },
     {
         "q": "What happens to the element's scale?",
+        "l": "css",
         "c": "div {\n  transition: transform 1s ease-out;\n}\ndiv:hover {\n  transform: scale(1.5);\n}",
         "o": [
             "Element scales up smoothly",
@@ -666,6 +701,7 @@
     },
     {
         "q": "What is the effect of this CSS code?",
+        "l": "css",
         "c": "div {\n  transition: background-color 0.5s ease;\n}\ndiv:hover {\n  background-color: lightblue;\n}",
         "o": [
             "Changes background color to lightblue smoothly",
@@ -685,6 +721,7 @@
     },
     {
         "q": "What does this animation do?",
+        "l": "css",
         "c": "@keyframes zoomIn {\n  0% {transform: scale(1);}\n  100% {transform: scale(2);}\n}\ndiv {\n  animation: zoomIn 2s ease;\n}",
         "o": [
             "Element scales up to 2x size",
@@ -704,6 +741,7 @@
     },
     {
         "q": "What does this CSS transition do to the element?",
+        "l": "css",
         "c": "div {\n  transition: height 1.5s ease-in-out;\n  height: 100px;\n}\ndiv:hover {\n  height: 200px;\n}",
         "o": [
             "Height increases smoothly to 200px",
@@ -723,6 +761,7 @@
     },
     {
         "q": "What happens to the opacity with this CSS?",
+        "l": "css",
         "c": "div {\n  transition: opacity 2s ease;\n}\ndiv:hover {\n  opacity: 0.5;\n}",
         "o": [
             "Fades to 50% opacity smoothly",
@@ -742,6 +781,7 @@
     },
     {
         "q": "What happens when the animation runs?",
+        "l": "css",
         "c": "@keyframes expand {\n  0% {width: 100px;}\n  100% {width: 300px;}\n}\ndiv {\n  animation: expand 4s ease-in;\n}",
         "o": [
             "Element width expands to 300px",
@@ -761,6 +801,7 @@
     },
     {
         "q": "What happens to the element's width during the transition?",
+        "l": "css",
         "c": "div {\n  transition: width 2s ease-in-out;\n  width: 100px;\n}\ndiv:hover {\n  width: 300px;\n}",
         "o": [
             "Width expands to 300px smoothly",
@@ -780,6 +821,7 @@
     },
     {
         "q": "What effect does this keyframe animation create?",
+        "l": "css",
         "c": "@keyframes slideRight {\n  0% {left: 0;}\n  100% {left: 200px;}\n}\ndiv {\n  position: relative;\n  animation: slideRight 3s ease;\n}",
         "o": [
             "Element moves 200px to the right",
@@ -799,6 +841,7 @@
     },
     {
         "q": "What will happen to the height of the element when hovered?",
+        "l": "css",
         "c": "div {\n  transition: height 1s linear;\n  height: 150px;\n}\ndiv:hover {\n  height: 250px;\n}",
         "o": [
             "Height increases to 250px smoothly",
@@ -818,6 +861,7 @@
     },
     {
         "q": "What does this code cause the element to do?",
+        "l": "css",
         "c": "@keyframes colorChange {\n  0% {background-color: blue;}\n  100% {background-color: green;}\n}\ndiv {\n  animation: colorChange 2s ease-in-out;\n}",
         "o": [
             "Background changes from blue to green",
@@ -837,6 +881,7 @@
     },
     {
         "q": "What effect will this transition have?",
+        "l": "css",
         "c": "button {\n  transition: all 0.4s ease;\n}\nbutton:hover {\n  background-color: yellow;\n  border-radius: 50%;\n}",
         "o": [
             "Button becomes circular and turns yellow",
@@ -856,6 +901,7 @@
     },
     {
         "q": "What will this animation do to the element?",
+        "l": "css",
         "c": "@keyframes growHeight {\n  0% {height: 50px;}\n  100% {height: 200px;}\n}\ndiv {\n  animation: growHeight 5s ease-in;\n}",
         "o": [
             "Height grows to 200px",
@@ -875,6 +921,7 @@
     },
     {
         "q": "What happens when the animation is applied?",
+        "l": "css",
         "c": "@keyframes fadeIn {\n  0% {opacity: 0;}\n  100% {opacity: 1;}\n}\nimg {\n  animation: fadeIn 3s ease-out;\n}",
         "o": [
             "Image fades in gradually",
@@ -894,6 +941,7 @@
     },
     {
         "q": "What effect does this code produce?",
+        "l": "css",
         "c": "div {\n  transition: transform 1s ease-in;\n  transform: rotate(0deg);\n}\ndiv:hover {\n  transform: rotate(45deg);\n}",
         "o": [
             "Element rotates 45 degrees",
@@ -913,6 +961,7 @@
     },
     {
         "q": "What will the animation do to the text?",
+        "l": "css",
         "c": "@keyframes textGrow {\n  0% {font-size: 16px;}\n  100% {font-size: 32px;}\n}\np {\n  animation: textGrow 2s linear;\n}",
         "o": [
             "Text size increases to 32px",
@@ -932,6 +981,7 @@
     },
     {
         "q": "What happens to the position of the element during this animation?",
+        "l": "css",
         "c": "@keyframes moveUp {\n  0% {top: 100px;}\n  100% {top: 0;}\n}\ndiv {\n  position: relative;\n  animation: moveUp 3s ease-in;\n}",
         "o": [
             "Element moves upward",
@@ -951,6 +1001,7 @@
     },
     {
         "q": "What is the effect of this CSS animation?",
+        "l": "css",
         "c": "@keyframes pulse {\n  0% {transform: scale(1);}\n  50% {transform: scale(1.2);}\n  100% {transform: scale(1);}\n}\ndiv {\n  animation: pulse 2s infinite ease-in-out;\n}",
         "o": [
             "Element pulses by scaling up and down",
@@ -970,6 +1021,7 @@
     },
     {
         "q": "What effect will this transition have on hover?",
+        "l": "css",
         "c": "div {\n  transition: background-color 0.3s ease;\n  background-color: blue;\n}\ndiv:hover {\n  background-color: pink;\n}",
         "o": [
             "Changes to pink smoothly",
@@ -989,6 +1041,7 @@
     },
     {
         "q": "What happens to the element's scale?",
+        "l": "css",
         "c": "div {\n  transition: transform 0.8s linear;\n}\ndiv:hover {\n  transform: scale(1.3);\n}",
         "o": [
             "Element scales up to 1.3",
@@ -1008,6 +1061,7 @@
     },
     {
         "q": "What happens when this animation is applied?",
+        "l": "css",
         "c": "@keyframes shrink {\n  0% {width: 300px;}\n  100% {width: 100px;}\n}\ndiv {\n  animation: shrink 4s ease;\n}",
         "o": [
             "Element width shrinks to 100px",
@@ -1027,6 +1081,7 @@
     },
     {
         "q": "What happens to the opacity of the element when hovered?",
+        "l": "css",
         "c": "div {\n  transition: opacity 1.5s ease-out;\n}\ndiv:hover {\n  opacity: 0.7;\n}",
         "o": [
             "Element fades to 70% opacity",
@@ -1046,6 +1101,7 @@
     },
     {
         "q": "What happens when the button is clicked?",
+        "l": "css",
         "c": "button {\n  transition: all 0.3s ease-in;\n}\nbutton:active {\n  transform: translateY(5px);\n}",
         "o": [
             "Button moves down by 5px",
@@ -1065,6 +1121,7 @@
     },
     {
         "q": "What happens to the border-radius when hovered?",
+        "l": "css",
         "c": "div {\n  transition: border-radius 1s ease;\n  border-radius: 0;\n}\ndiv:hover {\n  border-radius: 50%;\n}",
         "o": [
             "Element becomes circular",
@@ -1084,6 +1141,7 @@
     },
     {
         "q": "What will happen to the element's position during this animation?",
+        "l": "css",
         "c": "@keyframes slideUp {\n  0% {bottom: 0;}\n  100% {bottom: 50px;}\n}\ndiv {\n  position: relative;\n  animation: slideUp 1s ease-in-out;\n}",
         "o": [
             "Element slides up 50px",
@@ -1103,6 +1161,7 @@
     },
     {
         "q": "What happens to the background color when hovered?",
+        "l": "css",
         "c": "div {\n  transition: background-color 0.5s linear;\n  background-color: red;\n}\ndiv:hover {\n  background-color: purple;\n}",
         "o": [
             "Background changes to purple",
@@ -1122,6 +1181,7 @@
     },
     {
         "q": "What does this CSS code do to the text?",
+        "l": "css",
         "c": "@keyframes fadeOutText {\n  0% {opacity: 1;}\n  100% {opacity: 0;}\n}\np {\n  animation: fadeOutText 2s linear;\n}",
         "o": [
             "Text fades out completely",

@@ -1,6 +1,7 @@
 [
     {
         "q": "What is the effect of this CSS on the text?",
+        "l": "css",
         "c": "p {\n  font-weight: bold;\n}",
         "o": [
             "Bold text",
@@ -20,6 +21,7 @@
     },
     {
         "q": "What does the following code do?",
+        "l": "css",
         "c": "h1 {\n  text-align: center;\n}",
         "o": [
             "Centers text",
@@ -39,6 +41,7 @@
     },
     {
         "q": "What will be the font size of the text?",
+        "l": "css",
         "c": "p {\n  font-size: 20px;\n}",
         "o": [
             "20px",
@@ -58,6 +61,7 @@
     },
     {
         "q": "What does this code do?",
+        "l": "css",
         "c": "h2 {\n  letter-spacing: 2px;\n}",
         "o": [
             "Adds 2px space between letters",
@@ -77,6 +81,7 @@
     },
     {
         "q": "What effect does this CSS have?",
+        "l": "css",
         "c": "h3 {\n  text-transform: uppercase;\n}",
         "o": [
             "Uppercase text",
@@ -96,6 +101,7 @@
     },
     {
         "q": "What does the following code do?",
+        "l": "css",
         "c": "p {\n  font-style: italic;\n}",
         "o": [
             "Italic text",
@@ -115,6 +121,7 @@
     },
     {
         "q": "What is the line height of this text?",
+        "l": "css",
         "c": "p {\n  line-height: 1.5;\n}",
         "o": [
             "1.5 times the font size",
@@ -134,6 +141,7 @@
     },
     {
         "q": "What will the text color be?",
+        "l": "css",
         "c": "h1 {\n  color: red;\n}",
         "o": [
             "Red",
@@ -153,6 +161,7 @@
     },
     {
         "q": "What will be the text alignment?",
+        "l": "css",
         "c": "p {\n  text-align: justify;\n}",
         "o": [
             "Justified",
@@ -172,6 +181,7 @@
     },
     {
         "q": "What does this CSS do?",
+        "l": "css",
         "c": "p {\n  font-family: 'Arial', sans-serif;\n}",
         "o": [
             "Sets font to Arial",
@@ -191,6 +201,7 @@
     },
     {
         "q": "What happens to the text in this CSS?",
+        "l": "css",
         "c": "p {\n  text-decoration: underline;\n}",
         "o": [
             "Underlined text",
@@ -210,6 +221,7 @@
     },
     {
         "q": "What will be the font size?",
+        "l": "css",
         "c": "h2 {\n  font-size: 2em;\n}",
         "o": [
             "2 times the parent font size",
@@ -229,6 +241,7 @@
     },
     {
         "q": "What does this code do to the text?",
+        "l": "css",
         "c": "h1 {\n  text-transform: lowercase;\n}",
         "o": [
             "Lowercase text",
@@ -248,6 +261,7 @@
     },
     {
         "q": "What effect does this CSS have?",
+        "l": "css",
         "c": "p {\n  font-weight: 700;\n}",
         "o": [
             "Bold text",
@@ -267,6 +281,7 @@
     },
     {
         "q": "What happens to text spacing here?",
+        "l": "css",
         "c": "p {\n  word-spacing: 10px;\n}",
         "o": [
             "Adds 10px space between words",
@@ -286,6 +301,7 @@
     },
     {
         "q": "What does this code do?",
+        "l": "css",
         "c": "p {\n  letter-spacing: -1px;\n}",
         "o": [
             "Decreases letter spacing",
@@ -305,6 +321,7 @@
     },
     {
         "q": "What will be the text alignment?",
+        "l": "css",
         "c": "h1 {\n  text-align: left;\n}",
         "o": [
             "Left-aligned",
@@ -324,6 +341,7 @@
     },
     {
         "q": "What will be the line height?",
+        "l": "css",
         "c": "p {\n  line-height: 2;\n}",
         "o": [
             "2 times the font size",
@@ -343,6 +361,7 @@
     },
     {
         "q": "What will this code do to the text?",
+        "l": "css",
         "c": "h2 {\n  font-style: normal;\n}",
         "o": [
             "Normal text",
@@ -362,6 +381,7 @@
     },
     {
         "q": "What font will be applied to the text?",
+        "l": "css",
         "c": "p {\n  font-family: 'Courier New', monospace;\n}",
         "o": [
             "Courier New",
@@ -381,6 +401,7 @@
     },
     {
         "q": "What does this code do to the font size?",
+        "l": "css",
         "c": "h1 {\n  font-size: 150%;\n}",
         "o": [
             "Increases size to 150%",
@@ -400,6 +421,7 @@
     },
     {
         "q": "What will be the font style?",
+        "l": "css",
         "c": "p {\n  font-style: oblique;\n}",
         "o": [
             "Oblique text",
@@ -419,6 +441,7 @@
     },
     {
         "q": "What effect does this code have?",
+        "l": "css",
         "c": "h2 {\n  text-transform: capitalize;\n}",
         "o": [
             "Capitalizes each word",
@@ -438,6 +461,7 @@
     },
     {
         "q": "What does this CSS do to the text?",
+        "l": "css",
         "c": "p {\n  font-weight: lighter;\n}",
         "o": [
             "Lighter text",
@@ -457,6 +481,7 @@
     },
     {
         "q": "What will be the letter spacing?",
+        "l": "css",
         "c": "h3 {\n  letter-spacing: 0.5em;\n}",
         "o": [
             "0.5em",
@@ -476,6 +501,7 @@
     },
     {
         "q": "What happens to the text alignment?",
+        "l": "css",
         "c": "h1 {\n  text-align: right;\n}",
         "o": [
             "Right-aligned",
@@ -495,6 +521,7 @@
     },
     {
         "q": "What will be the font size?",
+        "l": "css",
         "c": "p {\n  font-size: 1.2rem;\n}",
         "o": [
             "1.2 times the root element's size",
@@ -514,6 +541,7 @@
     },
     {
         "q": "What is the effect of this CSS?",
+        "l": "css",
         "c": "p {\n  font-variant: small-caps;\n}",
         "o": [
             "Small-caps text",
@@ -533,6 +561,7 @@
     },
     {
         "q": "What is the effect of this code?",
+        "l": "css",
         "c": "h2 {\n  color: blue;\n}",
         "o": [
             "Blue text",
@@ -552,6 +581,7 @@
     },
     {
         "q": "What is the default font size for this code?",
+        "l": "css",
         "c": "body {\n  font-size: 100%;\n}",
         "o": [
             "16px",
@@ -571,6 +601,7 @@
     },
     {
         "q": "What does this CSS rule do?",
+        "l": "css",
         "c": "p {\n  font-family: 'Times New Roman', serif;\n}",
         "o": [
             "Applies Times New Roman",
@@ -590,6 +621,7 @@
     },
     {
         "q": "What will happen to the font size of all h1 tags?",
+        "l": "css",
         "c": "h1 {\n  font-size: calc(10px + 2vw);\n}",
         "o": [
             "Font size increases with viewport width",
@@ -609,6 +641,7 @@
     },
     {
         "q": "Which of the following best describes the output of the code?",
+        "l": "css",
         "c": "p {\n  text-align: right;\n  font-weight: bold;\n}",
         "o": [
             "Bold, right-aligned text",
@@ -628,6 +661,7 @@
     },
     {
         "q": "What happens to the font size of the paragraph?",
+        "l": "css",
         "c": "p {\n  font-size: 1.5rem;\n  line-height: 2;\n}",
         "o": [
             "Font size is 1.5 times the root element",
@@ -647,6 +681,7 @@
     },
     {
         "q": "Which font will apply first?",
+        "l": "css",
         "c": "body {\n  font-family: 'Verdana', 'Arial', sans-serif;\n}",
         "o": [
             "Verdana",
@@ -666,6 +701,7 @@
     },
     {
         "q": "What happens to the letter spacing in this paragraph?",
+        "l": "css",
         "c": "p {\n  letter-spacing: 0.1em;\n}",
         "o": [
             "Adds 0.1em space between letters",
@@ -685,6 +721,7 @@
     },
     {
         "q": "Which CSS property controls the space between text lines?",
+        "l": "css",
         "c": "p {\n  line-height: 1.8;\n}",
         "o": [
             "line-height",
@@ -704,6 +741,7 @@
     },
     {
         "q": "What is the effect of the following CSS code on text?",
+        "l": "css",
         "c": "p {\n  font-variant: small-caps;\n}",
         "o": [
             "Displays text in small caps",
@@ -723,6 +761,7 @@
     },
     {
         "q": "What happens when 'inherit' is used for font size?",
+        "l": "css",
         "c": "p {\n  font-size: inherit;\n}",
         "o": [
             "Inherits the parent's font size",
@@ -742,6 +781,7 @@
     },
     {
         "q": "Which value will result in bold text?",
+        "l": "css",
         "c": "p {\n  font-weight: 600;\n}",
         "o": [
             "Bold text",
@@ -761,6 +801,7 @@
     },
     {
         "q": "Which value makes the text italic?",
+        "l": "css",
         "c": "p {\n  font-style: italic;\n}",
         "o": [
             "Italic",
@@ -780,6 +821,7 @@
     },
     {
         "q": "What does this CSS code do to text alignment?",
+        "l": "css",
         "c": "p {\n  text-align: justify;\n}",
         "o": [
             "Justifies text",
@@ -799,6 +841,7 @@
     },
     {
         "q": "What does this code do to letter spacing?",
+        "l": "css",
         "c": "p {\n  letter-spacing: normal;\n}",
         "o": [
             "Resets letter spacing to normal",
@@ -818,6 +861,7 @@
     },
     {
         "q": "What is the output of the following CSS?",
+        "l": "css",
         "c": "h1 {\n  font-variant: normal;\n}",
         "o": [
             "Normal text",
@@ -837,6 +881,7 @@
     },
     {
         "q": "What effect does the 'text-transform: capitalize' have on the text?",
+        "l": "css",
         "c": "p {\n  text-transform: capitalize;\n}",
         "o": [
             "Capitalizes first letter of each word",
@@ -856,6 +901,7 @@
     },
     {
         "q": "Which CSS value increases the spacing between words?",
+        "l": "css",
         "c": "p {\n  word-spacing: 5px;\n}",
         "o": [
             "Adds 5px space between words",
@@ -875,6 +921,7 @@
     },
     {
         "q": "What happens to text with 'text-align: center'?",
+        "l": "css",
         "c": "p {\n  text-align: center;\n}",
         "o": [
             "Centers the text",
@@ -894,6 +941,7 @@
     },
     {
         "q": "What will be the output if 'font-size: 2em' is applied?",
+        "l": "css",
         "c": "p {\n  font-size: 2em;\n}",
         "o": [
             "Twice the parent font size",
@@ -913,6 +961,7 @@
     },
     {
         "q": "What happens when the following CSS is applied?",
+        "l": "css",
         "c": "p {\n  line-height: 3;\n}",
         "o": [
             "Line height is 3 times the font size",
@@ -932,6 +981,7 @@
     },
     {
         "q": "What will the text look like with the following CSS?",
+        "l": "css",
         "c": "h2 {\n  font-weight: bolder;\n}",
         "o": [
             "Bolder text",
@@ -951,6 +1001,7 @@
     },
     {
         "q": "What does this code do to the text's font family?",
+        "l": "css",
         "c": "p {\n  font-family: 'Times New Roman', serif;\n}",
         "o": [
             "Applies Times New Roman",
@@ -970,6 +1021,7 @@
     },
     {
         "q": "What is the default font style for this element?",
+        "l": "css",
         "c": "h1 {\n  font-style: normal;\n}",
         "o": [
             "Normal",
@@ -989,6 +1041,7 @@
     },
     {
         "q": "What happens to the text alignment?",
+        "l": "css",
         "c": "h2 {\n  text-align: left;\n}",
         "o": [
             "Aligns text to the left",
@@ -1008,6 +1061,7 @@
     },
     {
         "q": "Which font will be applied here?",
+        "l": "css",
         "c": "p {\n  font-family: 'Georgia', serif;\n}",
         "o": [
             "Georgia",
@@ -1027,6 +1081,7 @@
     },
     {
         "q": "What does the 'line-height' property affect?",
+        "l": "css",
         "c": "p {\n  line-height: 1.6;\n}",
         "o": [
             "Vertical spacing between lines",
@@ -1046,6 +1101,7 @@
     },
     {
         "q": "Which text transformation is applied?",
+        "l": "css",
         "c": "h1 {\n  text-transform: lowercase;\n}",
         "o": [
             "Converts text to lowercase",
@@ -1065,6 +1121,7 @@
     },
     {
         "q": "What does this CSS rule do?",
+        "l": "css",
         "c": "p {\n  font-family: 'Helvetica', sans-serif;\n}",
         "o": [
             "Applies Helvetica",
@@ -1084,6 +1141,7 @@
     },
     {
         "q": "What will be the effect of this CSS?",
+        "l": "css",
         "c": "h2 {\n  font-variant: small-caps;\n}",
         "o": [
             "Displays small-caps",
@@ -1103,6 +1161,7 @@
     },
     {
         "q": "Which of the following properties sets the text color?",
+        "l": "css",
         "c": "p {\n  color: #333;\n}",
         "o": [
             "Sets text color to #333",
@@ -1122,6 +1181,7 @@
     },
     {
         "q": "What does the 'letter-spacing' property affect?",
+        "l": "css",
         "c": "p {\n  letter-spacing: 1px;\n}",
         "o": [
             "Spacing between letters",
@@ -1141,6 +1201,7 @@
     },
     {
         "q": "What does 'font-style: oblique' do?",
+        "l": "css",
         "c": "p {\n  font-style: oblique;\n}",
         "o": [
             "Makes text oblique",
@@ -1160,6 +1221,7 @@
     },
     {
         "q": "What happens when this CSS is applied?",
+        "l": "css",
         "c": "h1 {\n  font-size: 4vw;\n}",
         "o": [
             "Font size is 4% of viewport width",
