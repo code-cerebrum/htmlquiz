@@ -1,0 +1,542 @@
+[
+    {
+        "q": "Which statement is used to execute a block of code if a specified condition is true?", 
+        "o": [
+            "if",
+            "switch",
+            "for",
+            "while"
+        ]
+    },
+    {
+        "q": "What is the default keyword used for in a switch statement?", 
+        "o": [
+            "To specify code to run if no case matches",
+            "To declare the first case",
+            "To end the switch statement",
+            "To jump to another case"
+        ]
+    },
+    {
+        "q": "Which loop is guaranteed to execute at least once?", 
+        "o": [
+            "do-while",
+            "for",
+            "while",
+            "None of the above"
+        ]
+    },
+    {
+        "q": "What happens if no break statement is used in a switch case?", 
+        "o": [
+            "The execution will continue into the next case",
+            "The program will throw an error",
+            "The switch will terminate immediately",
+            "Only the default case will execute"
+        ]
+    },
+    {
+        "q": "Which loop is typically used when the number of iterations is known?", 
+        "o": [
+            "for",
+            "while",
+            "do-while",
+            "switch"
+        ]
+    },
+    {
+        "q": "What does the else block in an if-else statement execute?", 
+        "o": [
+            "Code when the if condition is false",
+            "Code when the if condition is true",
+            "Code for all conditions",
+            "Code for unexpected errors"
+        ]
+    },
+    {
+        "q": "What is the purpose of the continue statement in a loop?", 
+        "o": [
+            "To skip the current iteration and continue with the next one",
+            "To terminate the loop",
+            "To jump to the end of the loop",
+            "To restart the loop from the beginning"
+        ]
+    },
+    {
+        "q": "What is the primary purpose of a switch statement?", 
+        "o": [
+            "To execute one block of code out of multiple options",
+            "To repeat code a specific number of times",
+            "To evaluate a condition and run code based on true or false",
+            "To terminate a loop"
+        ]
+    },
+    {
+        "q": "Which keyword is used to stop a loop entirely?", 
+        "o": [
+            "break",
+            "continue",
+            "return",
+            "exit"
+        ]
+    },
+    {
+        "q": "Which loop evaluates its condition at the end of the loop?", 
+        "o": [
+            "do-while",
+            "while",
+            "for",
+            "None of the above"
+        ]
+    },
+    {
+        "q": "What is the main difference between if-else and switch-case?", 
+        "o": [
+            "Switch is used for multiple fixed values, while if-else is for complex conditions",
+            "If-else is faster than switch-case",
+            "Switch can handle only numeric values",
+            "If-else always requires a default block"
+        ]
+    },
+    {
+        "q": "What keyword is optional in a switch statement but recommended for clarity?", 
+        "o": [
+            "break",
+            "case",
+            "default",
+            "return"
+        ]
+    },
+    {
+        "q": "Which loop will execute zero times if the condition is false initially?", 
+        "o": [
+            "while",
+            "do-while",
+            "for",
+            "All of the above"
+        ]
+    },
+    {
+        "q": "What happens when a condition in an if statement is not met?", 
+        "o": [
+            "The else block executes if present",
+            "The program throws an error",
+            "The next if block is executed",
+            "The program skips to the end"
+        ]
+    },
+    {
+        "q": "What is the purpose of the for loop initialization statement?", 
+        "o": [
+            "To set a starting value for the loop variable",
+            "To define the loop's exit condition",
+            "To skip iterations",
+            "To restart the loop"
+        ]
+    },
+    {
+        "q": "Which loop is most suitable for iterating through an array?", 
+        "o": [
+            "for",
+            "while",
+            "do-while",
+            "switch"
+        ]
+    },
+    {
+        "q": "In a switch-case, which value is matched to execute a case?", 
+        "o": [
+            "The value of the switch expression",
+            "The value of the first case",
+            "The value of the default block",
+            "The value returned by a function"
+        ]
+    },
+    {
+        "q": "What happens if a loop’s condition is always true?", 
+        "o": [
+            "The loop runs indefinitely unless a break is used",
+            "The loop terminates immediately",
+            "The program crashes",
+            "The loop executes only once"
+        ]
+    },
+    {
+        "q": "How do you stop a specific iteration in a loop but allow the loop to continue?", 
+        "o": [
+            "Use the continue statement",
+            "Use the break statement",
+            "Use a return statement",
+            "Use an exit statement"
+        ]
+    },
+    {
+        "q": "In a nested if-else, which block is executed first?", 
+        "o": [
+            "The innermost true condition",
+            "The else block",
+            "The last if condition",
+            "The default block"
+        ]
+    },
+    {
+        "q": "Which part of a for loop is executed after each iteration?", 
+        "o": [
+            "The increment/decrement statement",
+            "The initialization statement",
+            "The condition statement",
+            "The break statement"
+        ]
+    },
+    {
+        "q": "What happens if there is no default block in a switch statement and no cases match?", 
+        "o": [
+            "No code is executed",
+            "The program throws an error",
+            "The first case is executed by default",
+            "The switch statement is skipped entirely"
+        ]
+    },
+    {
+        "q": "Which loop type is best for executing code while a condition is true?", 
+        "o": [
+            "while",
+            "for",
+            "do-while",
+            "switch"
+        ]
+    },
+    {
+        "q": "What is the primary difference between while and do-while loops?", 
+        "o": [
+            "do-while executes the code at least once, while while may not execute at all",
+            "while executes faster than do-while",
+            "do-while supports multiple conditions, while while does not",
+            "while is only used for infinite loops"
+        ]
+    },
+    {
+        "q": "In a switch-case statement, can multiple cases execute the same block of code?", 
+        "o": [
+            "Yes, by omitting a break between cases",
+            "No, each case must have its own block",
+            "Only if a special keyword is used",
+            "No, cases cannot share code"
+        ]
+    },
+    {
+        "q": "What is the condition for exiting a for loop?", 
+        "o": [
+            "When the condition in the loop header evaluates to false",
+            "When the loop variable becomes negative",
+            "When the increment statement reaches a certain value",
+            "When the loop executes more than 10 times"
+        ]
+    },
+    {
+        "q": "What is the output of an if statement when the condition is neither true nor false?", 
+        "o": [
+            "The condition is evaluated as false",
+            "The condition throws an error",
+            "The condition is evaluated as true",
+            "The condition is skipped"
+        ]
+    },
+    {
+        "q": "How can you skip an entire iteration in a while loop?", 
+        "o": [
+            "Using the continue statement",
+            "Using the break statement",
+            "Using an else block",
+            "Using the default statement"
+        ]
+    },
+    {
+        "q": "What will happen if a break is used inside a nested loop?", 
+        "o": [
+            "It will exit only the innermost loop",
+            "It will exit all loops",
+            "It will skip the current iteration of the outer loop",
+            "It will restart the entire loop structure"
+        ]
+    },
+    {
+        "q": "What is the purpose of a default case in a switch statement?", 
+        "o": [
+            "To handle values not explicitly matched by cases",
+            "To terminate the switch statement",
+            "To set the initial value for the switch expression",
+            "To provide an optional starting point"
+        ]
+    },
+    {
+        "q": "Which part of a switch statement determines the value to compare against each case?", 
+        "o": [
+            "The expression inside the switch parentheses",
+            "The default block",
+            "The first case in the statement",
+            "The break keyword"
+        ]
+    },
+    {
+        "q": "Which loop is best for iterating when the number of iterations is unknown beforehand?", 
+        "o": [
+            "while",
+            "for",
+            "do-while",
+            "switch"
+        ]
+    },
+    {
+        "q": "What happens if the condition in a while loop is always false initially?", 
+        "o": [
+            "The loop never executes",
+            "The loop runs infinitely",
+            "The loop executes once",
+            "The program throws an error"
+        ]
+    },
+    {
+        "q": "Can a for loop have multiple initialization statements?", 
+        "o": [
+            "Yes, separated by commas",
+            "No, only one is allowed",
+            "Yes, but only in specific cases",
+            "No, initialization must occur outside the loop"
+        ]
+    },
+    {
+        "q": "What is the result of omitting the break statement in a case block of a switch statement?", 
+        "o": [
+            "The execution falls through to the next case",
+            "The program throws a runtime error",
+            "The default case executes immediately",
+            "The switch statement ends"
+        ]
+    },
+    {
+        "q": "Which statement is used to test multiple conditions in a single structure?", 
+        "o": [
+            "if-else if",
+            "for loop",
+            "while loop",
+            "default block"
+        ]
+    },
+    {
+        "q": "Which loop is least likely to result in an infinite loop if the condition is mismanaged?", 
+        "o": [
+            "for",
+            "while",
+            "do-while",
+            "None of the above"
+        ]
+    },
+    {
+        "q": "What is the key characteristic of a nested loop?", 
+        "o": [
+            "A loop inside another loop",
+            "A loop that runs indefinitely",
+            "A loop with multiple conditions",
+            "A loop that requires a break"
+        ]
+    },
+    {
+        "q": "When is a default block in a switch statement executed?", 
+        "o": [
+            "When no matching case is found",
+            "When the first case fails",
+            "When the switch expression is null",
+            "When the last case is reached"
+        ]
+    },
+    {
+        "q": "Which loop structure allows updating multiple variables in each iteration?", 
+        "o": [
+            "for",
+            "while",
+            "do-while",
+            "switch"
+        ]
+    },
+    {
+        "q": "What is the purpose of the increment/decrement expression in a for loop?", 
+        "o": [
+            "To update the loop variable after each iteration",
+            "To initialize the loop variable",
+            "To check the exit condition",
+            "To terminate the loop immediately"
+        ]
+    },
+    {
+        "q": "What happens if a break statement is used in a switch-case but no default block is defined?", 
+        "o": [
+            "The switch ends without executing any further cases",
+            "An error is thrown",
+            "The program executes the default block by default",
+            "The first case is re-executed"
+        ]
+    },
+    {
+        "q": "Which loop guarantees execution of its code block at least once?", 
+        "o": [
+            "do-while",
+            "while",
+            "for",
+            "None of the above"
+        ]
+    },
+    {
+        "q": "What happens if the condition in a for loop is omitted?", 
+        "o": [
+            "The loop runs indefinitely",
+            "The loop does not execute",
+            "The loop runs only once",
+            "The program throws an error"
+        ]
+    },
+    {
+        "q": "Which keyword is used to exit a loop prematurely?", 
+        "o": [
+            "break",
+            "continue",
+            "exit",
+            "return"
+        ]
+    },
+    {
+        "q": "In a switch-case, what happens if two cases have the same value?", 
+        "o": [
+            "A compile-time error occurs",
+            "The first case is executed",
+            "The program chooses randomly between the two",
+            "The default block is executed"
+        ]
+    },
+    {
+        "q": "What is the primary advantage of using a switch statement over if-else?", 
+        "o": [
+            "Switch statements are more readable for fixed values",
+            "Switch statements execute faster than if-else",
+            "Switch statements handle complex conditions better",
+            "Switch statements allow nested conditions"
+        ]
+    },
+    {
+        "q": "What is the typical use case for a nested loop?", 
+        "o": [
+            "Processing multi-dimensional data like arrays or matrices",
+            "Executing a condition only once",
+            "Simplifying single-level logic",
+            "Avoiding infinite loops"
+        ]
+    },
+    {
+        "q": "Which of the following is NOT a valid switch-case value type?", 
+        "o": [
+            "Boolean",
+            "Integer",
+            "Character",
+            "String"
+        ]
+    },
+    {
+        "q": "What will the continue statement do when encountered in a loop?", 
+        "o": [
+            "Skip the rest of the current iteration and move to the next",
+            "Exit the loop entirely",
+            "Pause the loop execution temporarily",
+            "Reset the loop variable to its initial value"
+        ]
+    },
+    {
+        "q": "What happens if no condition is provided in a while loop?", 
+        "o": [
+            "The loop results in a syntax error",
+            "The loop runs indefinitely",
+            "The loop does not execute at all",
+            "The loop runs exactly once"
+        ]
+    },
+    {
+        "q": "Which loop is ideal for iterating over elements in a collection or array?", 
+        "o": [
+            "for",
+            "while",
+            "do-while",
+            "switch"
+        ]
+    },
+    {
+        "q": "In a switch statement, can a case label contain an expression?", 
+        "o": [
+            "No, case labels must have constant values",
+            "Yes, any valid expression can be used",
+            "Yes, but only for numeric expressions",
+            "Yes, if it evaluates to a boolean value"
+        ]
+    },
+    {
+        "q": "What happens if you place a semicolon directly after the while condition in a while loop?", 
+        "o": [
+            "The loop executes but the body is skipped",
+            "The loop runs infinitely",
+            "The program throws a syntax error",
+            "The semicolon is ignored"
+        ]
+    },
+    {
+        "q": "Which keyword is used to prevent fall-through in a switch statement?", 
+        "o": [
+            "break",
+            "default",
+            "continue",
+            "return"
+        ]
+    },
+    {
+        "q": "What will happen if a loop has no termination condition and no break statement?", 
+        "o": [
+            "It will result in an infinite loop",
+            "It will execute once and stop",
+            "It will throw a runtime error",
+            "It will terminate after a fixed number of iterations"
+        ]
+    },
+    {
+        "q": "What is the correct placement of a default block in a switch statement?", 
+        "o": [
+            "It can be placed anywhere but typically at the end",
+            "It must be the first block",
+            "It must always be placed after the last case",
+            "It cannot be included if cases are present"
+        ]
+    },
+    {
+        "q": "How many times does the initialization part of a for loop execute?", 
+        "o": [
+            "Only once at the beginning",
+            "Once during each iteration",
+            "Twice if the condition is false",
+            "It depends on the loop condition"
+        ]
+    },
+    {
+        "q": "Which statement skips the current iteration and moves to the next in a loop?", 
+        "o": [
+            "continue",
+            "break",
+            "return",
+            "exit"
+        ]
+    },
+    {
+        "q": "What happens if a condition in a for loop is always true?", 
+        "o": [
+            "The loop runs infinitely unless a break statement is used",
+            "The loop runs only once",
+            "The loop throws an error",
+            "The loop automatically terminates after 10 iterations"
+        ]
+    }
+]
