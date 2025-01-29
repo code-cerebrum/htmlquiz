@@ -538,5 +538,95 @@
             "The loop throws an error",
             "The loop automatically terminates after 10 iterations"
         ]
+    },
+    {
+        "q": "What is the purpose of the condition in a do-while loop?", 
+        "o": [
+            "To determine whether the loop should continue after the first iteration",
+            "To initialize the loop variable",
+            "To immediately terminate the loop",
+            "To increment the loop variable"
+        ]
+    },
+    {
+        "q": "What happens if there is no break in any of the case blocks in a switch statement?", 
+        "o": [
+            "All subsequent cases are executed until a break or the end of the switch",
+            "Only the default case is executed",
+            "The first case is executed repeatedly",
+            "The program throws a runtime error"
+        ]
+    },
+    {
+        "q": "What is a potential issue with using nested loops?", 
+        "o": [
+            "They can significantly impact performance for large datasets",
+            "They cannot handle conditional statements",
+            "They cannot include break statements",
+            "They only work with arrays"
+        ]
+    },
+    {
+        "q": "Which statement is used to exit the innermost loop only, even if loops are nested?", 
+        "o": [
+            "break",
+            "continue",
+            "return",
+            "exit"
+        ]
+    },
+    {
+        "q": "In a for loop, what happens if the increment expression is omitted?", 
+        "o": [
+            "The loop still works but the loop variable must be updated manually",
+            "The loop runs indefinitely",
+            "The loop does not execute",
+            "The program throws a syntax error"
+        ]
+    },
+    {
+        "q": "Which keyword is used to skip a specific case in a switch statement without exiting it?", 
+        "o": [
+            "continue",
+            "break",
+            "default",
+            "return"
+        ]
+    },
+    {
+        "q": "What happens if multiple cases in a switch statement match the value?", 
+        "o": [
+            "Only the first matching case is executed",
+            "All matching cases are executed",
+            "The program throws a syntax error",
+            "The default case is executed instead"
+        ]
+    },
+    {
+        "q": "What type of condition is required for a for loop to terminate?", 
+        "o": [
+            "A falsy condition",
+            "A truthy condition",
+            "An undefined condition",
+            "A null condition"
+        ]
+    },
+    {
+        "q": "Which type of loop is specifically useful for infinite loops with manual break conditions?", 
+        "o": [
+            "while",
+            "for",
+            "do-while",
+            "switch"
+        ]
+    },
+    {
+        "q": "In a nested loop, which part is executed the most number of times?", 
+        "o": [
+            "The innermost loop",
+            "The outermost loop",
+            "The initialization part",
+            "The condition evaluation"
+        ]
     }
 ]

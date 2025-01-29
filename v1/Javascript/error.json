@@ -1,0 +1,722 @@
+[
+    {
+        "q": "What is the purpose of the 'try' block in JavaScript?",
+        "o": [
+            "To catch and handle errors",
+            "To declare variables",
+            "To define a function",
+            "To create custom errors"
+        ]
+    },
+    {
+        "q": "Which of the following is used to throw a custom error in JavaScript?",
+        "o": [
+            "throw new Error('message')",
+            "catch Error('message')",
+            "new Error('message')",
+            "try new Error('message')"
+        ]
+    },
+    {
+        "q": "What does the 'catch' block do in a 'try-catch' statement?",
+        "o": [
+            "Executes code if no error occurs",
+            "Catches and handles errors thrown in the 'try' block",
+            "Catches warnings and logs them",
+            "Declares a function to handle errors"
+        ]
+    },
+    {
+        "q": "How do you throw a custom error with a specific message in JavaScript?",
+        "o": [
+            "throw 'Error message'",
+            "throw new Error('Error message')",
+            "throw Error('Error message')",
+            "new Error('Error message')"
+        ]
+    },
+    {
+        "q": "Which method is used to log error details to the console in JavaScript?",
+        "o": [
+            "console.error()",
+            "console.log()",
+            "console.warning()",
+            "console.trace()"
+        ]
+    },
+    {
+        "q": "What will happen if an error is thrown in the 'try' block and no 'catch' block is provided?",
+        "o": [
+            "The program will crash immediately",
+            "The error will be caught by the default global error handler",
+            "The program will continue running normally",
+            "The program will pause execution"
+        ]
+    },
+    {
+        "q": "Which of the following is a common use case for the 'finally' block in JavaScript?",
+        "o": [
+            "To ensure that cleanup code is always executed",
+            "To log the error message",
+            "To define custom error types",
+            "To prevent the program from crashing"
+        ]
+    },
+    {
+        "q": "What is the syntax to define a custom error type in JavaScript?",
+        "o": [
+            "function CustomError(message) { this.message = message; }",
+            "function CustomError(message) { Error.call(this, message); }",
+            "class CustomError extends Error { constructor(message) { this.message = message; } }",
+            "class CustomError { constructor(message) { this.message = message; } }"
+        ]
+    },
+    {
+        "q": "Which of the following will help in debugging JavaScript code more efficiently?",
+        "o": [
+            "Using console.log() to print variable values",
+            "Using a try-catch block for all errors",
+            "Turning off all error messages",
+            "Ignoring the warnings in the code"
+        ]
+    },
+    {
+        "q": "What does the 'debugger' statement do in JavaScript?",
+        "o": [
+            "Pauses code execution and allows you to inspect the variables",
+            "Throws a custom error",
+            "Catches all errors in the code",
+            "Logs the errors to the console"
+        ]
+    },
+    {
+        "q": "Which object does a JavaScript error belong to?",
+        "o": [
+            "Error",
+            "Exception",
+            "Throwable",
+            "Issue"
+        ]
+    },
+    {
+        "q": "What is the main advantage of using 'try-catch' in JavaScript?",
+        "o": [
+            "Prevents the application from crashing due to runtime errors",
+            "Improves execution speed",
+            "Automatically fixes the error",
+            "Stops execution completely on any error"
+        ]
+    },
+    {
+        "q": "Which built-in error type is thrown when a variable is used before being defined?",
+        "o": [
+            "ReferenceError",
+            "SyntaxError",
+            "TypeError",
+            "RangeError"
+        ]
+    },
+    {
+        "q": "What happens if there is an error inside the 'catch' block?",
+        "o": [
+            "The error will propagate up the call stack",
+            "It will be ignored",
+            "It will automatically be logged to the console",
+            "The program will restart"
+        ]
+    },
+    {
+        "q": "Which built-in JavaScript error occurs when accessing an invalid array index?",
+        "o": [
+            "RangeError",
+            "TypeError",
+            "ReferenceError",
+            "SyntaxError"
+        ]
+    },
+    {
+        "q": "How can you check if an error is an instance of a specific error type?",
+        "o": [
+            "error instanceof TypeError",
+            "typeof error === 'TypeError'",
+            "error.isType('TypeError')",
+            "checkType(error, 'TypeError')"
+        ]
+    },
+    {
+        "q": "What is the purpose of a stack trace in debugging?",
+        "o": [
+            "Shows the sequence of function calls that led to an error",
+            "Fixes errors automatically",
+            "Hides the error details",
+            "Stops the program execution"
+        ]
+    },
+    {
+        "q": "Which statement will allow an error to be re-thrown inside a 'catch' block?",
+        "o": [
+            "throw error",
+            "rethrow error",
+            "error.throw()",
+            "error.raise()"
+        ]
+    },
+    {
+        "q": "What type of errors can be handled using a 'try-catch' block?",
+        "o": [
+            "Runtime errors",
+            "Syntax errors",
+            "Logical errors",
+            "Warnings"
+        ]
+    },
+    {
+        "q": "Which function can be used to convert an error object into a readable string?",
+        "o": [
+            "error.toString()",
+            "JSON.stringify(error)",
+            "String(error)",
+            "error.convertToString()"
+        ]
+    },
+    {
+        "q": "Which keyword is used to manually trigger an error in JavaScript?",
+        "o": [
+            "throw",
+            "error",
+            "raise",
+            "exception"
+        ]
+    },
+    {
+        "q": "Which error type is thrown when a function is called on an incompatible data type?",
+        "o": [
+            "TypeError",
+            "ReferenceError",
+            "SyntaxError",
+            "RangeError"
+        ]
+    },
+    {
+        "q": "What does 'catch (error)' provide inside a catch block?",
+        "o": [
+            "The error object containing details about the exception",
+            "A function to fix the error automatically",
+            "A way to prevent all errors",
+            "A method to restart execution from the beginning"
+        ]
+    },
+    {
+        "q": "Which debugging tool allows step-by-step execution of JavaScript code?",
+        "o": [
+            "Browser Developer Tools",
+            "console.log()",
+            "try-catch",
+            "debug.log()"
+        ]
+    },
+    {
+        "q": "What will happen if an error occurs outside of a try-catch block?",
+        "o": [
+            "The script execution will stop unless handled globally",
+            "The error will be ignored",
+            "The error will be logged but execution continues",
+            "It will be caught by any available try-catch block"
+        ]
+    },
+    {
+        "q": "Which error type occurs when parsing an invalid JSON string?",
+        "o": [
+            "SyntaxError",
+            "ReferenceError",
+            "TypeError",
+            "RangeError"
+        ]
+    },
+    {
+        "q": "What is the best practice when handling errors in production?",
+        "o": [
+            "Log errors and provide user-friendly messages",
+            "Display the full error stack to the user",
+            "Silently ignore all errors",
+            "Immediately reload the page"
+        ]
+    },
+    {
+        "q": "Which JavaScript method can be used to set a global error handler?",
+        "o": [
+            "window.onerror",
+            "console.error()",
+            "document.catch()",
+            "error.handle()"
+        ]
+    },
+    {
+        "q": "What is the purpose of the 'message' property in an error object?",
+        "o": [
+            "Contains a human-readable description of the error",
+            "Holds the function where the error occurred",
+            "Stores the error's line number",
+            "Indicates whether the error is critical"
+        ]
+    },
+    {
+        "q": "What is a common reason for a 'RangeError' in JavaScript?",
+        "o": [
+            "Using a number outside of an allowed range",
+            "Calling an undefined variable",
+            "Using incorrect syntax",
+            "Accessing an invalid object property"
+        ]
+    },
+    {
+        "q": "Which built-in JavaScript object is used as the base for all error types?",
+        "o": [
+            "Error",
+            "Exception",
+            "Throwable",
+            "Debug"
+        ]
+    },
+    {
+        "q": "What happens if 'finally' is included in a 'try-catch-finally' block?",
+        "o": [
+            "It always executes, regardless of errors",
+            "It only executes if an error occurs",
+            "It executes before the 'catch' block",
+            "It prevents errors from being thrown"
+        ]
+    },
+    {
+        "q": "Which tool is commonly used for setting breakpoints and inspecting JavaScript execution?",
+        "o": [
+            "Browser Developer Console",
+            "console.warn()",
+            "window.debug()",
+            "try-catch-finally"
+        ]
+    },
+    {
+        "q": "What property of an error object provides information about where the error occurred?",
+        "o": [
+            "stack",
+            "line",
+            "trace",
+            "source"
+        ]
+    },
+    {
+        "q": "How can you suppress errors in JavaScript without handling them?",
+        "o": [
+            "By using try without catch",
+            "By using catch without try",
+            "By calling error.suppress()",
+            "By setting window.errorHandling = false"
+        ]
+    },
+    {
+        "q": "Which of the following is NOT a standard JavaScript error type?",
+        "o": [
+            "LogicError",
+            "TypeError",
+            "SyntaxError",
+            "ReferenceError"
+        ]
+    },
+    {
+        "q": "What should you do when logging errors for debugging?",
+        "o": [
+            "Include contextual information to help identify the issue",
+            "Only log the error message without details",
+            "Log all errors directly to the user interface",
+            "Ignore minor errors to improve performance"
+        ]
+    },
+    {
+        "q": "Which of the following can be used to gracefully handle asynchronous errors in JavaScript?",
+        "o": [
+            "Using '.catch()' with Promises",
+            "Wrapping code in a try-catch block",
+            "Using 'window.onasyncerror'",
+            "Handling all errors inside 'finally'"
+        ]
+    },
+    {
+        "q": "Which JavaScript event can be used to detect unhandled promise rejections?",
+        "o": [
+            "'unhandledrejection'",
+            "'error'",
+            "'promiseerror'",
+            "'reject'"
+        ]
+    },
+    {
+        "q": "Why is using 'throw' inside a catch block sometimes necessary?",
+        "o": [
+            "To propagate the error for higher-level handling",
+            "To prevent execution of the finally block",
+            "To log the error without handling it",
+            "To ensure the error does not appear in logs"
+        ]
+    },
+    {
+        "q": "What happens if a 'return' statement is used inside a 'finally' block?",
+        "o": [
+            "It overrides any return value from the try or catch block",
+            "It gets ignored and execution continues",
+            "It only executes if there was no error",
+            "It causes a syntax error"
+        ]
+    },
+    {
+        "q": "Which method can be used to create a custom error type in JavaScript?",
+        "o": [
+            "Extending the Error class",
+            "Using console.error()",
+            "Calling new CustomError() directly",
+            "Overriding the default Error object"
+        ]
+    },
+    {
+        "q": "Why is it important to catch and handle errors in production applications?",
+        "o": [
+            "To improve user experience and application stability",
+            "To make debugging easier for developers",
+            "To prevent all errors from occurring",
+            "To speed up JavaScript execution"
+        ]
+    },
+    {
+        "q": "Which statement is true about 'try-catch' in JavaScript?",
+        "o": [
+            "It only catches runtime errors, not syntax errors",
+            "It can catch syntax errors before execution",
+            "It automatically corrects errors",
+            "It stops execution immediately when an error is caught"
+        ]
+    },
+    {
+        "q": "What property of an error object holds the actual error message?",
+        "o": [
+            "message",
+            "errorText",
+            "description",
+            "info"
+        ]
+    },
+    {
+        "q": "How can you ensure that a block of code always executes, regardless of errors?",
+        "o": [
+            "By placing it inside a 'finally' block",
+            "By using multiple 'catch' blocks",
+            "By wrapping it in another 'try' block",
+            "By calling the function recursively"
+        ]
+    },
+    {
+        "q": "Which error occurs when trying to access a property of an undefined variable?",
+        "o": [
+            "TypeError",
+            "ReferenceError",
+            "SyntaxError",
+            "RangeError"
+        ]
+    },
+    {
+        "q": "What is the purpose of 'console.trace()' in debugging?",
+        "o": [
+            "To print the function call stack leading to the error",
+            "To clear all previous console logs",
+            "To terminate script execution on error",
+            "To prevent errors from being logged"
+        ]
+    },
+    {
+        "q": "Which approach is best for handling errors in asynchronous JavaScript?",
+        "o": [
+            "Using try-catch inside async/await functions",
+            "Wrapping promises inside a synchronous try-catch",
+            "Relying only on console.error() logs",
+            "Ignoring errors and letting them crash the application"
+        ]
+    },
+    {
+        "q": "What should you do when handling sensitive error messages?",
+        "o": [
+            "Avoid exposing detailed error messages to users",
+            "Display the full stack trace for transparency",
+            "Store error messages in local storage",
+            "Automatically send errors to all users"
+        ]
+    },
+    {
+        "q": "Which object does every built-in JavaScript error inherit from?",
+        "o": [
+            "Error",
+            "Exception",
+            "Throwable",
+            "BaseError"
+        ]
+    },
+    {
+        "q": "What does the 'name' property of an error object represent?",
+        "o": [
+            "The type of error that occurred",
+            "A user-defined error message",
+            "The function where the error happened",
+            "The file name where the error occurred"
+        ]
+    },
+    {
+        "q": "Which JavaScript method is used to catch errors in a Promise chain?",
+        "o": [
+            ".catch()",
+            ".then()",
+            ".error()",
+            ".reject()"
+        ]
+    },
+    {
+        "q": "What is the main reason for using custom error classes?",
+        "o": [
+            "To provide more meaningful error messages and types",
+            "To replace built-in error types",
+            "To automatically fix errors",
+            "To reduce the need for try-catch blocks"
+        ]
+    },
+    {
+        "q": "Which type of error occurs when calling a function that doesn’t exist?",
+        "o": [
+            "ReferenceError",
+            "TypeError",
+            "SyntaxError",
+            "RangeError"
+        ]
+    },
+    {
+        "q": "What is the role of 'window.addEventListener(\"error\", handler)'?",
+        "o": [
+            "To catch and handle global JavaScript errors",
+            "To prevent all JavaScript errors",
+            "To replace the browser’s default error messages",
+            "To log errors directly to the database"
+        ]
+    },
+    {
+        "q": "Which debugging technique allows you to pause execution and inspect variables?",
+        "o": [
+            "Using the 'debugger' statement",
+            "Using console.log() everywhere",
+            "Wrapping code in a try-catch block",
+            "Disabling JavaScript in the browser"
+        ]
+    },
+    {
+        "q": "What is the main drawback of using 'alert()' for debugging?",
+        "o": [
+            "It blocks execution until the user dismisses the alert",
+            "It does not display error details",
+            "It cannot be used in modern browsers",
+            "It automatically clears console logs"
+        ]
+    },
+    {
+        "q": "Which browser tool provides a timeline for performance analysis during debugging?",
+        "o": [
+            "Chrome DevTools Performance Tab",
+            "JavaScript Console",
+            "Network Tab",
+            "Elements Inspector"
+        ]
+    },
+    {
+        "q": "Why should you avoid using 'eval()' in error handling?",
+        "o": [
+            "It can introduce security risks and performance issues",
+            "It automatically fixes syntax errors",
+            "It makes debugging easier",
+            "It logs all errors silently"
+        ]
+    },
+    {
+        "q": "Which method can be used to rethrow an error inside a catch block?",
+        "o": [
+            "throw error;",
+            "console.error(error);",
+            "return error;",
+            "catch(error);"
+        ]
+    },
+    {
+        "q": "What happens if an error occurs inside a 'catch' block?",
+        "o": [
+            "It propagates up the call stack unless handled",
+            "It is ignored by JavaScript",
+            "It automatically logs to the console",
+            "The script execution stops immediately"
+        ]
+    },
+    {
+        "q": "Which of the following is true about 'try-catch' with asynchronous code?",
+        "o": [
+            "It does not catch errors inside setTimeout",
+            "It can handle all errors, including syntax errors",
+            "It stops all asynchronous execution",
+            "It improves JavaScript performance"
+        ]
+    },
+    {
+        "q": "Which error type is thrown when a function is called with an invalid argument type?",
+        "o": [
+            "TypeError",
+            "ReferenceError",
+            "SyntaxError",
+            "RangeError"
+        ]
+    },
+    {
+        "q": "What is the best way to handle errors in a large-scale JavaScript application?",
+        "o": [
+            "Using centralized error logging and monitoring",
+            "Using try-catch in every function",
+            "Ignoring minor errors to improve performance",
+            "Disabling JavaScript error reporting"
+        ]
+    },
+    {
+        "q": "What does 'onerror' do in JavaScript?",
+        "o": [
+            "Catches unhandled global errors",
+            "Fixes errors automatically",
+            "Prevents all errors from occurring",
+            "Replaces the default console.error behavior"
+        ]
+    },
+    {
+        "q": "Which debugging technique helps identify performance bottlenecks?",
+        "o": [
+            "Using performance profiling tools",
+            "Adding more try-catch blocks",
+            "Disabling error logging",
+            "Increasing the script execution speed"
+        ]
+    },
+    {
+        "q": "What is a common mistake when using 'finally'?",
+        "o": [
+            "Placing a return statement inside it",
+            "Using it without a catch block",
+            "Throwing an error inside it",
+            "Skipping the finally block entirely"
+        ]
+    },
+    {
+        "q": "How can you capture unhandled promise rejections globally?",
+        "o": [
+            "Using 'window.addEventListener(\"unhandledrejection\", handler)'",
+            "Using a try-catch block",
+            "Adding a reject() statement in the promise",
+            "Calling console.log() in every promise"
+        ]
+    },
+    {
+        "q": "What is the purpose of a stack trace in debugging?",
+        "o": [
+            "To show the sequence of function calls leading to an error",
+            "To automatically fix errors",
+            "To improve JavaScript performance",
+            "To remove syntax errors from code"
+        ]
+    },
+    {
+        "q": "Which error is thrown when a value is outside the allowable range?",
+        "o": [
+            "RangeError",
+            "TypeError",
+            "ReferenceError",
+            "SyntaxError"
+        ]
+    },
+    {
+        "q": "What does 'catch(error)' provide access to?",
+        "o": [
+            "The error object containing details about the exception",
+            "The line number where the error occurred",
+            "A function that fixes the error automatically",
+            "A list of all past errors in the script"
+        ]
+    },
+    {
+        "q": "Which of the following is a recommended practice for error logging?",
+        "o": [
+            "Sending logs to a remote monitoring service",
+            "Displaying all errors in an alert box",
+            "Ignoring minor errors to avoid clutter",
+            "Storing errors in localStorage"
+        ]
+    },
+    {
+        "q": "What happens if there is no 'catch' block after a 'try'?",
+        "o": [
+            "The error propagates up the call stack",
+            "The script automatically recovers",
+            "The program stops execution immediately",
+            "JavaScript logs a warning but continues execution"
+        ]
+    },
+    {
+        "q": "Which JavaScript function can be used to test for errors during debugging?",
+        "o": [
+            "console.assert()",
+            "console.warn()",
+            "console.group()",
+            "console.clear()"
+        ]
+    },
+    {
+        "q": "What is the best way to create a detailed error message for debugging?",
+        "o": [
+            "Including error details like stack trace and variable states",
+            "Hiding all error details from developers",
+            "Logging only the error message without context",
+            "Ignoring error messages in production"
+        ]
+    },
+    {
+        "q": "Which of these is NOT a built-in JavaScript error type?",
+        "o": [
+            "MemoryError",
+            "SyntaxError",
+            "TypeError",
+            "RangeError"
+        ]
+    },
+    {
+        "q": "How can you handle multiple specific error types in JavaScript?",
+        "o": [
+            "Using multiple if-else conditions inside a catch block",
+            "Using multiple try blocks for different errors",
+            "Relying only on the default error handling",
+            "Ignoring minor error types"
+        ]
+    },
+    {
+        "q": "Why should you avoid using generic error messages?",
+        "o": [
+            "They make debugging harder by hiding details",
+            "They improve application security",
+            "They help users understand technical issues",
+            "They reduce memory usage"
+        ]
+    },
+    {
+        "q": "What is the impact of excessive try-catch usage in JavaScript?",
+        "o": [
+            "It can reduce code readability and maintainability",
+            "It completely prevents all runtime errors",
+            "It speeds up script execution significantly",
+            "It is required for all JavaScript functions"
+        ]
+    }
+]

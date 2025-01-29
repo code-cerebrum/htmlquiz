@@ -1,0 +1,407 @@
+[
+    {
+        "q": "Which method is used to make a network request using the Fetch API?",
+        "o": [
+            "fetch()",
+            "request()",
+            "getRequest()",
+            "httpFetch()"
+        ]
+    },
+    {
+        "q": "What type of object does the Fetch API return?",
+        "o": [
+            "Promise",
+            "Array",
+            "String",
+            "JSON"
+        ]
+    },
+    {
+        "q": "Which method is used to convert a Fetch response to JSON?",
+        "o": [
+            "response.json()",
+            "response.text()",
+            "response.parse()",
+            "response.convert()"
+        ]
+    },
+    {
+        "q": "What does localStorage store data as?",
+        "o": [
+            "String",
+            "Object",
+            "Array",
+            "Number"
+        ]
+    },
+    {
+        "q": "Which method is used to retrieve data from localStorage?",
+        "o": [
+            "localStorage.getItem()",
+            "localStorage.fetch()",
+            "localStorage.retrieve()",
+            "localStorage.load()"
+        ]
+    },
+    {
+        "q": "How long does data persist in localStorage?",
+        "o": [
+            "Until manually deleted",
+            "Until the session ends",
+            "Until the page reloads",
+            "For 24 hours"
+        ]
+    },
+    {
+        "q": "Which method retrieves the user's current location using the Geolocation API?",
+        "o": [
+            "navigator.geolocation.getCurrentPosition()",
+            "navigator.getLocation()",
+            "geolocation.get()",
+            "window.getPosition()"
+        ]
+    },
+    {
+        "q": "Which object is used to access geolocation in JavaScript?",
+        "o": [
+            "navigator.geolocation",
+            "window.geolocation",
+            "document.location",
+            "geoAPI"
+        ]
+    },
+    {
+        "q": "What does the Geolocation API return when location access is denied?",
+        "o": [
+            "PermissionDenied error",
+            "null",
+            "Undefined",
+            "403 Forbidden"
+        ]
+    },
+    {
+        "q": "What is the default request method used by the Fetch API?",
+        "o": [
+            "GET",
+            "POST",
+            "PUT",
+            "DELETE"
+        ]
+    },
+    {
+        "q": "Which Fetch API method is used to handle network errors?",
+        "o": [
+            "catch()",
+            "error()",
+            "fail()",
+            "reject()"
+        ]
+    },
+    {
+        "q": "Which function should be used to store an object in localStorage?",
+        "o": [
+            "JSON.stringify()",
+            "JSON.parse()",
+            "localStorage.store()",
+            "localStorage.setObject()"
+        ]
+    },
+    {
+        "q": "What is the maximum data size limit for localStorage?",
+        "o": [
+            "Around 5MB",
+            "Unlimited",
+            "1GB",
+            "100MB"
+        ]
+    },
+    {
+        "q": "Which method continuously tracks a user's location?",
+        "o": [
+            "navigator.geolocation.watchPosition()",
+            "navigator.geolocation.trackLocation()",
+            "navigator.getContinuousLocation()",
+            "navigator.locationFollow()"
+        ]
+    },
+    {
+        "q": "Which event triggers when the user's location changes using watchPosition()?",
+        "o": [
+            "success callback",
+            "locationUpdate",
+            "geoChange",
+            "positionChange"
+        ]
+    },
+    {
+        "q": "How do you cancel a watchPosition() request in the Geolocation API?",
+        "o": [
+            "navigator.geolocation.clearWatch()",
+            "navigator.geolocation.stopWatch()",
+            "navigator.geolocation.cancelWatch()",
+            "navigator.clearLocation()"
+        ]
+    },
+    {
+        "q": "What method is used to remove an item from localStorage?",
+        "o": [
+            "localStorage.removeItem()",
+            "localStorage.delete()",
+            "localStorage.clearItem()",
+            "localStorage.erase()"
+        ]
+    },
+    {
+        "q": "How can you check if an item exists in localStorage?",
+        "o": [
+            "localStorage.getItem() !== null",
+            "localStorage.hasItem()",
+            "localStorage.exists()",
+            "localStorage.isAvailable()"
+        ]
+    },
+    {
+        "q": "What does the Fetch API return if a network request fails?",
+        "o": [
+            "A rejected promise",
+            "null",
+            "error object",
+            "undefined"
+        ]
+    },
+    {
+        "q": "Which of the following is NOT a valid response status code in the Fetch API?",
+        "o": [
+            "404 - Not Found",
+            "500 - Internal Server Error",
+            "301 - Moved Permanently",
+            "505 - Method Not Allowed"
+        ]
+    },
+    {
+        "q": "Which property provides the accuracy of the location in the Geolocation API?",
+        "o": [
+            "accuracy",
+            "precision",
+            "locationAccuracy",
+            "geoAccuracy"
+        ]
+    },
+    {
+        "q": "Which method is used to convert a Fetch response into text?",
+        "o": [
+            "response.text()",
+            "response.toString()",
+            "response.convert()",
+            "response.parse()"
+        ]
+    },
+    {
+        "q": "What is the maximum duration for which the Geolocation API can track a user's location?",
+        "o": [
+            "Indefinitely (as long as watchPosition() is active)",
+            "5 minutes",
+            "30 minutes",
+            "1 hour"
+        ]
+    },
+    {
+        "q": "How do you check if the Fetch API response is successful?",
+        "o": [
+            "By checking response.ok",
+            "By checking response.status",
+            "By checking response.success",
+            "By checking response.valid"
+        ]
+    },
+    {
+        "q": "What type of data can be stored in localStorage?",
+        "o": [
+            "Only strings",
+            "Strings, Arrays, Objects",
+            "Any JavaScript object",
+            "Only JSON data"
+        ]
+    },
+    {
+        "q": "Which method is used to obtain the user's latitude and longitude using the Geolocation API?",
+        "o": [
+            "position.coords.latitude and position.coords.longitude",
+            "position.latitude and position.longitude",
+            "location.lat and location.lon",
+            "user.coords.latitude and user.coords.longitude"
+        ]
+    },
+    {
+        "q": "What type of object does localStorage return when retrieving a stored item?",
+        "o": [
+            "String",
+            "Object",
+            "Array",
+            "Boolean"
+        ]
+    },
+    {
+        "q": "Which Fetch API method is used to send data with a POST request?",
+        "o": [
+            "body: JSON.stringify(data)",
+            "body: data",
+            "method: POST",
+            "data: POST()"
+        ]
+    },
+    {
+        "q": "How do you check the type of data stored in localStorage?",
+        "o": [
+            "By using typeof",
+            "By calling localStorage.getType()",
+            "By inspecting the value directly",
+            "By using Object.type()"
+        ]
+    },
+    {
+        "q": "What does the Geolocation API provide to the success callback function?",
+        "o": [
+            "A Position object",
+            "A Geolocation object",
+            "A Location object",
+            "A Coordinates object"
+        ]
+    },
+    {
+        "q": "Which method can you use to remove all items from localStorage?",
+        "o": [
+            "localStorage.clear()",
+            "localStorage.removeAll()",
+            "localStorage.deleteAll()",
+            "localStorage.clearItems()"
+        ]
+    },
+    {
+        "q": "What method is used to convert a Fetch response to a Blob?",
+        "o": [
+            "response.blob()",
+            "response.toBlob()",
+            "response.parseBlob()",
+            "response.fetchBlob()"
+        ]
+    },
+    {
+        "q": "Which property of a Position object contains the timestamp of the location?",
+        "o": [
+            "timestamp",
+            "time",
+            "locationTime",
+            "geoTime"
+        ]
+    },
+    {
+        "q": "Which method in the Fetch API is used to handle response headers?",
+        "o": [
+            "response.headers.get()",
+            "response.headers()",
+            "response.getHeader()",
+            "response.header()"
+        ]
+    },
+    {
+        "q": "How do you update an item stored in localStorage?",
+        "o": [
+            "localStorage.setItem()",
+            "localStorage.updateItem()",
+            "localStorage.modifyItem()",
+            "localStorage.replaceItem()"
+        ]
+    },
+    {
+        "q": "What kind of data is returned by the Geolocation API's error callback?",
+        "o": [
+            "PositionError object",
+            "Error object",
+            "LocationError object",
+            "GeoError object"
+        ]
+    },
+    {
+        "q": "What does localStorage's length property return?",
+        "o": [
+            "The number of stored items",
+            "The size of the stored data",
+            "The last stored item index",
+            "The total available storage space"
+        ]
+    },
+    {
+        "q": "Which method is used to make a Fetch request with custom headers?",
+        "o": [
+            "fetch(url, { headers: { ... } })",
+            "fetch(url, { customHeaders: { ... } })",
+            "fetch(url, { addHeaders: { ... } })",
+            "fetch(url, { header: { ... } })"
+        ]
+    },
+    {
+        "q": "Which object is used to access geolocation information in the browser?",
+        "o": [
+            "navigator.geolocation",
+            "window.geolocation",
+            "geoAPI",
+            "navigator.location"
+        ]
+    },
+    {
+        "q": "Which method of the Geolocation API provides the user's speed?",
+        "o": [
+            "position.coords.speed",
+            "position.speed",
+            "location.speed",
+            "coords.velocity"
+        ]
+    },
+    {
+        "q": "What is the default value of the Fetch API's `mode` property?",
+        "o": [
+            "cors",
+            "no-cors",
+            "same-origin",
+            "opaque"
+        ]
+    },
+    {
+        "q": "Which method is used to check if a request was successful in Fetch API based on status codes?",
+        "o": [
+            "response.ok",
+            "response.statusCode",
+            "response.success",
+            "response.statusValid"
+        ]
+    },
+    {
+        "q": "Which method in Fetch API allows you to send a PUT request?",
+        "o": [
+            "fetch(url, { method: 'PUT' })",
+            "fetch(url, { method: 'POST' })",
+            "fetch(url, { putData: 'true' })",
+            "fetch(url, { send: 'PUT' })"
+        ]
+    },
+    {
+        "q": "What is the size limit for localStorage in modern browsers?",
+        "o": [
+            "Around 5MB per domain",
+            "1MB per domain",
+            "50MB per domain",
+            "100KB per domain"
+        ]
+    },
+    {
+        "q": "How do you handle errors in a Fetch API call?",
+        "o": [
+            "By chaining a .catch() method",
+            "By using response.error()",
+            "By using try-catch blocks",
+            "By checking response.status"
+        ]
+    }
+]

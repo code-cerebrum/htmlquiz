@@ -1,0 +1,605 @@
+[
+    {
+        "q": "What is a callback function in JavaScript?", 
+        "o": [
+            "A function passed into another function as an argument",
+            "A function that returns a promise",
+            "A function that is invoked immediately",
+            "A function that is asynchronous"
+        ]
+    },
+    {
+        "q": "Which of the following creates a promise in JavaScript?", 
+        "o": [
+            "new Promise()",
+            "function(){}",
+            "setTimeout()",
+            "async function(){}"
+        ]
+    },
+    {
+        "q": "What does the 'resolve' function do in a promise?", 
+        "o": [
+            "It marks the promise as fulfilled",
+            "It marks the promise as rejected",
+            "It pauses the promise execution",
+            "It throws an error"
+        ]
+    },
+    {
+        "q": "Which of the following methods can be used to handle a promise's result?", 
+        "o": [
+            ".then()",
+            ".catch()",
+            ".finally()",
+            "All of the above"
+        ]
+    },
+    {
+        "q": "What is the purpose of async/await in JavaScript?", 
+        "o": [
+            "To work with asynchronous code in a synchronous manner",
+            "To handle errors in synchronous code",
+            "To execute all promises sequentially",
+            "To avoid callbacks"
+        ]
+    },
+    {
+        "q": "What does the 'await' keyword do in JavaScript?", 
+        "o": [
+            "Pauses the execution of an async function until a promise resolves",
+            "Executes a function asynchronously",
+            "Creates a new promise",
+            "Reverses a promise"
+        ]
+    },
+    {
+        "q": "Which of the following is required to use async/await?", 
+        "o": [
+            "The function must be declared as async",
+            "The function must return a promise",
+            "The function must contain at least one promise",
+            "None of the above"
+        ]
+    },
+    {
+        "q": "What happens if an error occurs inside an async function?", 
+        "o": [
+            "The promise will be rejected",
+            "The error will be silently ignored",
+            "The function will return undefined",
+            "The error will be logged to the console"
+        ]
+    },
+    {
+        "q": "How do you handle errors in an async function?", 
+        "o": [
+            "Using try/catch blocks",
+            "Using .catch() on the promise",
+            "Using .finally()",
+            "Both A and B"
+        ]
+    },
+    {
+        "q": "Which of the following is a valid promise state?", 
+        "o": [
+            "Pending",
+            "Completed",
+            "Resolved",
+            "None of the above"
+        ]
+    },
+    {
+        "q": "What does 'Promise.all()' do in JavaScript?", 
+        "o": [
+            "Waits for multiple promises to resolve",
+            "Returns the first promise that resolves",
+            "Creates a new promise",
+            "Rejects as soon as one promise fails"
+        ]
+    },
+    {
+        "q": "Can you use 'await' outside of an async function?", 
+        "o": [
+            "No",
+            "Yes, but only in a promise chain",
+            "Yes, inside a normal function",
+            "Yes, anywhere in the script"
+        ]
+    },
+    {
+        "q": "What will happen if you try to 'await' a non-promise value?", 
+        "o": [
+            "It will immediately return the value",
+            "It will cause an error",
+            "It will be treated as a resolved promise",
+            "It will be rejected"
+        ]
+    },
+    {
+        "q": "Which statement is true about promises in JavaScript?", 
+        "o": [
+            "A promise can be in one of three states: pending, resolved, or rejected",
+            "A promise can only be in one state at a time",
+            "A promise cannot be resolved more than once",
+            "All of the above"
+        ]
+    },
+    {
+        "q": "Which method is used to handle successful promise resolution?", 
+        "o": [
+            ".then()",
+            ".resolve()",
+            ".catch()",
+            ".async()"
+        ]
+    },
+    {
+        "q": "What happens if a promise is rejected?", 
+        "o": [
+            "The promise enters the rejected state and executes the catch handler",
+            "The promise automatically resolves",
+            "It throws a syntax error",
+            "The promise is ignored"
+        ]
+    },
+    {
+        "q": "Which of the following is true about 'async' functions?", 
+        "o": [
+            "They always return a promise",
+            "They can only be used with 'await'",
+            "They are synchronous functions",
+            "They must have at least one 'resolve' function"
+        ]
+    },
+    {
+        "q": "What is the result of 'await Promise.reject('Error')' in an async function?", 
+        "o": [
+            "It throws an error",
+            "It returns 'Error'",
+            "It resolves to 'Error'",
+            "It results in a rejected promise"
+        ]
+    },
+    {
+        "q": "What is the output of 'Promise.resolve().then(() => console.log('Resolved'))'?", 
+        "o": [
+            "It logs 'Resolved'",
+            "It throws an error",
+            "It logs nothing",
+            "It logs 'Pending'"
+        ]
+    },
+    {
+        "q": "What is the purpose of the '.finally()' method in a promise?", 
+        "o": [
+            "To execute a block of code after the promise resolves or rejects",
+            "To catch errors in the promise",
+            "To transform the resolved value",
+            "To resolve a promise"
+        ]
+    },
+    {
+        "q": "How can you make sure that a promise is always resolved, regardless of success or failure?", 
+        "o": [
+            "By using .finally()",
+            "By using .catch()",
+            "By using .then()",
+            "By using async/await"
+        ]
+    },
+    {
+        "q": "What is the result of 'await setTimeout(() => {}, 1000)' in an async function?", 
+        "o": [
+            "It returns a promise that resolves after 1 second",
+            "It throws an error",
+            "It resolves immediately",
+            "It doesn't affect the execution flow"
+        ]
+    },
+    {
+        "q": "What is the purpose of 'Promise.race()' in JavaScript?", 
+        "o": [
+            "It resolves as soon as any of the promises resolves",
+            "It waits for all promises to resolve",
+            "It rejects as soon as any of the promises rejects",
+            "It creates a new promise with multiple results"
+        ]
+    },
+    {
+        "q": "Can you use 'await' in a non-async function?", 
+        "o": [
+            "No, it must be used inside an async function",
+            "Yes, but it won't work correctly",
+            "Yes, inside a callback",
+            "Yes, with a promise"
+        ]
+    },
+    {
+        "q": "What is the main difference between 'setTimeout()' and 'Promise' in JavaScript?", 
+        "o": [
+            "setTimeout() is used for timing, while Promise handles asynchronous operations",
+            "setTimeout() returns a promise",
+            "Promises always execute synchronously, while setTimeout() is asynchronous",
+            "setTimeout() only works with callbacks"
+        ]
+    },
+    {
+        "q": "What will happen if you don't handle a rejected promise?", 
+        "o": [
+            "It will return a rejected promise",
+            "It will silently ignore the error",
+            "It will throw an uncaught promise rejection warning",
+            "It will resolve the promise automatically"
+        ]
+    },
+    {
+        "q": "Which of the following will execute the async function first?", 
+        "o": [
+            "async function first() { await second(); } function second() { console.log('Second'); } first();",
+            "async function second() { console.log('Second'); } async function first() { await second(); } first();",
+            "Both will execute simultaneously",
+            "Neither will execute"
+        ]
+    },
+    {
+        "q": "What will the following code output? 'Promise.reject('Error').catch(error => console.log(error))'", 
+        "o": [
+            "'Error'",
+            "'undefined'",
+            "A promise object",
+            "Nothing"
+        ]
+    },
+    {
+        "q": "What happens if you use 'await' on a non-promise object?", 
+        "o": [
+            "It returns the object immediately",
+            "It throws an error",
+            "It converts the object into a promise",
+            "It waits for the object to resolve"
+        ]
+    },
+    {
+        "q": "Which statement is true about 'Promise.resolve(value)'?", 
+        "o": [
+            "It returns a promise that resolves with the given value",
+            "It always returns a rejected promise",
+            "It creates a new function",
+            "It creates a resolved callback"
+        ]
+    },
+    {
+        "q": "What does 'async' do in front of a function declaration?", 
+        "o": [
+            "It makes the function return a promise",
+            "It makes the function run asynchronously in the background",
+            "It allows the function to handle promises using await",
+            "All of the above"
+        ]
+    },
+    {
+        "q": "How do you handle a promise rejection using async/await?", 
+        "o": [
+            "Using try/catch blocks",
+            "Using .catch() after await",
+            "Using .then() after await",
+            "Both A and B"
+        ]
+    },
+    {
+        "q": "What happens when a promise is neither resolved nor rejected?", 
+        "o": [
+            "It stays in the pending state",
+            "It is automatically rejected",
+            "It is automatically resolved",
+            "It throws an error"
+        ]
+    },
+    {
+        "q": "What is the difference between 'await' and '.then()'?", 
+        "o": [
+            "await pauses the async function until the promise resolves, while .then() is used in promise chains",
+            "There is no difference",
+            "await can only be used with promises, while .then() can be used with any value",
+            "await handles multiple promises, while .then() only handles one"
+        ]
+    },
+    {
+        "q": "Which of the following correctly handles a rejected promise in an async function?", 
+        "o": [
+            "try { await someFunction(); } catch (error) { console.log(error); }",
+            "await someFunction().catch(error => console.log(error));",
+            "Promise.reject().catch(error => console.log(error));",
+            "None of the above"
+        ]
+    },
+    {
+        "q": "Which statement is true about 'Promise.all()'?", 
+        "o": [
+            "It resolves only when all promises in the array have resolved",
+            "It resolves as soon as the first promise resolves",
+            "It can be used with only one promise",
+            "It ignores rejected promises"
+        ]
+    },
+    {
+        "q": "What is the purpose of the 'catch()' method in a promise?", 
+        "o": [
+            "It handles promise rejection",
+            "It resolves a promise",
+            "It is used to execute functions synchronously",
+            "It pauses the promise execution"
+        ]
+    },
+    {
+        "q": "What is the default behavior of a promise when it is not explicitly resolved or rejected?", 
+        "o": [
+            "It stays in the pending state",
+            "It resolves automatically",
+            "It rejects automatically",
+            "It throws an error"
+        ]
+    },
+    {
+        "q": "What is the main advantage of using async/await over promises?", 
+        "o": [
+            "It makes asynchronous code look and behave more like synchronous code",
+            "It executes asynchronous code faster",
+            "It eliminates the need for callbacks",
+            "It allows promises to run in parallel"
+        ]
+    },
+    {
+        "q": "What happens when an async function throws an error?", 
+        "o": [
+            "It returns a rejected promise",
+            "It causes a program crash",
+            "It resolves with the error",
+            "It ignores the error"
+        ]
+    },
+    {
+        "q": "Which of the following will prevent a promise from being automatically rejected?", 
+        "o": [
+            "Using .catch()",
+            "Using .finally()",
+            "Using try/catch in async functions",
+            "Handling promise rejection"
+        ]
+    },
+    {
+        "q": "Can you await multiple promises simultaneously?", 
+        "o": [
+            "Yes, by using 'Promise.all()' or 'await Promise.all()'",
+            "No, only one promise can be awaited at a time",
+            "Yes, by chaining 'await' calls",
+            "Yes, by using 'Promise.resolve()'"
+        ]
+    },
+    {
+        "q": "What will be the output of 'await Promise.reject('Failed').catch(err => console.log(err))'?", 
+        "o": [
+            "'Failed'",
+            "'undefined'",
+            "A rejected promise",
+            "Nothing"
+        ]
+    },
+    {
+        "q": "What does 'async function foo() {}' return?", 
+        "o": [
+            "A promise",
+            "A function",
+            "The value 'undefined'",
+            "Nothing"
+        ]
+    },
+    {
+        "q": "Which of the following can be used to handle multiple asynchronous operations sequentially?", 
+        "o": [
+            "Using async/await with a try/catch block",
+            "Using .then() chaining",
+            "Using Promise.all()",
+            "Both A and B"
+        ]
+    },
+    {
+        "q": "What is the difference between 'setTimeout()' and 'setInterval()' in JavaScript?", 
+        "o": [
+            "'setTimeout()' runs a function once after a delay, while 'setInterval()' runs the function repeatedly at intervals",
+            "'setInterval()' runs a function once, while 'setTimeout()' runs it repeatedly",
+            "'setTimeout()' and 'setInterval()' are the same",
+            "'setTimeout()' pauses the execution, while 'setInterval()' doesn't"
+        ]
+    },
+    {
+        "q": "What happens when you call 'Promise.all()' with an empty array?", 
+        "o": [
+            "It resolves immediately with an empty array",
+            "It rejects immediately",
+            "It throws an error",
+            "It returns a resolved promise"
+        ]
+    },
+    {
+        "q": "What will the following code output? 'Promise.resolve(42).then(value => console.log(value))'", 
+        "o": [
+            "42",
+            "undefined",
+            "A promise object",
+            "Nothing"
+        ]
+    },
+    {
+        "q": "What is the difference between 'async function' and 'function' in JavaScript?", 
+        "o": [
+            "async functions always return a promise, while regular functions may not",
+            "async functions are synchronous, while regular functions are asynchronous",
+            "async functions can only return 'undefined'",
+            "There is no difference"
+        ]
+    },
+    {
+        "q": "What is the output of 'await Promise.reject('Error')'?", 
+        "o": [
+            "It throws an error",
+            "It resolves with 'Error'",
+            "It resolves with undefined",
+            "It logs 'Error'"
+        ]
+    },
+    {
+        "q": "Which method is used to create a promise that resolves after a specific time?", 
+        "o": [
+            "setTimeout()",
+            "setInterval()",
+            "Promise.resolve()",
+            "Promise.race()"
+        ]
+    },
+    {
+        "q": "What is the purpose of 'Promise.allSettled()'?", 
+        "o": [
+            "It waits for all promises to settle, regardless of whether they resolve or reject",
+            "It resolves only when all promises are successful",
+            "It rejects as soon as one promise rejects",
+            "It returns the first resolved promise"
+        ]
+    },
+    {
+        "q": "What is the benefit of using 'async/await' instead of 'Promise.then()'?", 
+        "o": [
+            "It allows writing asynchronous code in a more synchronous manner",
+            "It can handle multiple promises simultaneously",
+            "It always results in faster execution",
+            "It simplifies error handling"
+        ]
+    },
+    {
+        "q": "What is the purpose of 'Promise.resolve()'?", 
+        "o": [
+            "It creates a promise that is resolved with the given value",
+            "It creates a promise that is rejected with the given value",
+            "It creates an immediately rejected promise",
+            "It pauses execution until the promise is resolved"
+        ]
+    },
+    {
+        "q": "How does 'Promise.all()' behave when one of the promises rejects?", 
+        "o": [
+            "It immediately rejects and returns the rejection reason",
+            "It waits for all promises to resolve before rejecting",
+            "It resolves with the results of all resolved promises",
+            "It ignores rejected promises"
+        ]
+    },
+    {
+        "q": "What happens if you don't handle a promise rejection using 'catch()'?", 
+        "o": [
+            "It causes an unhandled promise rejection warning",
+            "The promise is ignored",
+            "It automatically resolves the promise",
+            "Nothing happens"
+        ]
+    },
+    {
+        "q": "What will 'await Promise.all([Promise.resolve(1), Promise.resolve(2)])' return?", 
+        "o": [
+            "[1, 2]",
+            "1",
+            "2",
+            "Promise"
+        ]
+    },
+    {
+        "q": "What happens if you try to 'await' a non-Promise value?", 
+        "o": [
+            "It returns the value immediately",
+            "It throws a syntax error",
+            "It automatically converts the value into a Promise",
+            "It rejects the promise"
+        ]
+    },
+    {
+        "q": "What is the purpose of 'Promise.race()'?", 
+        "o": [
+            "It returns the result of the first promise that resolves or rejects",
+            "It resolves only after all promises are resolved",
+            "It returns the result of the last promise to resolve",
+            "It ignores rejected promises"
+        ]
+    },
+    {
+        "q": "How do you handle multiple promises sequentially using async/await?", 
+        "o": [
+            "By using await in a loop",
+            "By using Promise.all()",
+            "By chaining promises with .then()",
+            "By using setTimeout()"
+        ]
+    },
+    {
+        "q": "What does 'await' do when used in a try block?", 
+        "o": [
+            "It pauses the function execution until the promise resolves",
+            "It makes the promise return immediately",
+            "It throws an error if the promise rejects",
+            "It ignores the promise rejection"
+        ]
+    },
+    {
+        "q": "Which of the following is true about 'Promise.all()'?", 
+        "o": [
+            "It resolves when all promises have resolved or rejects when any promise rejects",
+            "It resolves when the first promise resolves",
+            "It resolves only if all promises resolve with the same value",
+            "It never rejects"
+        ]
+    },
+    {
+        "q": "What does 'async/await' help to avoid in asynchronous code?", 
+        "o": [
+            "Callback hell",
+            "Promise chaining",
+            "Parallel execution",
+            "Promise rejection"
+        ]
+    },
+    {
+        "q": "What happens when 'await' is used outside an async function?", 
+        "o": [
+            "It throws a syntax error",
+            "It works normally in the global scope",
+            "It returns a rejected promise",
+            "It has no effect"
+        ]
+    },
+    {
+        "q": "How does 'Promise.allSettled()' behave differently from 'Promise.all()'?", 
+        "o": [
+            "It waits for all promises to settle, regardless of whether they resolve or reject",
+            "It rejects as soon as one promise rejects",
+            "It resolves as soon as one promise resolves",
+            "It resolves with the first successful promise"
+        ]
+    },
+    {
+        "q": "What is the output of 'await Promise.resolve().then(() => console.log('Resolved'))'?", 
+        "o": [
+            "'Resolved'",
+            "Nothing",
+            "Promise object",
+            "Error"
+        ]
+    },
+    {
+        "q": "What will happen if you use 'await' inside a synchronous function?", 
+        "o": [
+            "It will throw a syntax error",
+            "It will work like a regular promise",
+            "It will pause the synchronous function",
+            "It will create a new promise"
+        ]
+    }
+]

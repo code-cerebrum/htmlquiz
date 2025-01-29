@@ -1,0 +1,578 @@
+[
+    {
+        "q": "Which keyword allows you to declare block-scoped variables?",
+        "o": [
+            "let",
+            "var",
+            "function",
+            "define"
+        ]
+    },
+    {
+        "q": "Which keyword is used to declare a constant variable?",
+        "o": [
+            "const",
+            "let",
+            "var",
+            "static"
+        ]
+    },
+    {
+        "q": "Which feature allows embedding expressions inside strings?",
+        "o": [
+            "template literals",
+            "string interpolation",
+            "string concatenation",
+            "arrow functions"
+        ]
+    },
+    {
+        "q": "What syntax is used for template literals?",
+        "o": [
+            "Backticks",
+            "Single quotes",
+            "Double quotes",
+            "Parentheses"
+        ]
+    },
+    {
+        "q": "What operator is used to combine multiple array elements into a new array?",
+        "o": [
+            "spread operator",
+            "rest operator",
+            "concatenation",
+            "merge operator"
+        ]
+    },
+    {
+        "q": "Which operator allows you to collect multiple function arguments into a single array?",
+        "o": [
+            "rest operator",
+            "spread operator",
+            "destructuring",
+            "bind operator"
+        ]
+    },
+    {
+        "q": "Which feature allows splitting JavaScript code into separate files?",
+        "o": [
+            "modules",
+            "functions",
+            "closures",
+            "namespaces"
+        ]
+    },
+    {
+        "q": "Which keyword is used to export a function from a module?",
+        "o": [
+            "export",
+            "module",
+            "return",
+            "include"
+        ]
+    },
+    {
+        "q": "What happens if you try to reassign a variable declared with const?",
+        "o": [
+            "It throws an error",
+            "It gets reassigned",
+            "It creates a new variable",
+            "It changes type automatically"
+        ]
+    },
+    {
+        "q": "Which operator helps in function parameter default values?",
+        "o": [
+            "rest operator",
+            "spread operator",
+            "ternary operator",
+            "assignment operator"
+        ]
+    },
+    {
+        "q": "How do modules improve code organization?",
+        "o": [
+            "By enabling code reuse",
+            "By making code run faster",
+            "By replacing functions",
+            "By forcing synchronous execution"
+        ]
+    },
+    {
+        "q": "Which keyword is used to import named exports?",
+        "o": [
+            "import",
+            "require",
+            "fetch",
+            "include"
+        ]
+    },
+    {
+        "q": "Which feature allows unpacking values from arrays or objects?",
+        "o": [
+            "destructuring",
+            "spread operator",
+            "rest operator",
+            "closures"
+        ]
+    },
+    {
+        "q": "Which operator expands an iterable into individual elements?",
+        "o": [
+            "spread operator",
+            "rest operator",
+            "destructuring",
+            "assignment operator"
+        ]
+    },
+    {
+        "q": "Which syntax is valid for importing all exports from a module?",
+        "o": [
+            "import * as alias",
+            "import all",
+            "require module",
+            "fetch module"
+        ]
+    },
+    {
+        "q": "Which statement about let and var is true?",
+        "o": [
+            "let has block scope, var has function scope",
+            "Both have global scope",
+            "let allows redeclaration in the same scope",
+            "var prevents hoisting"
+        ]
+    },
+    {
+        "q": "Which keyword prevents reassignment of a variable after declaration?",
+        "o": [
+            "const",
+            "let",
+            "var",
+            "static"
+        ]
+    },
+    {
+        "q": "What advantage do template literals have over regular strings?",
+        "o": [
+            "They allow multi-line strings",
+            "They execute faster",
+            "They prevent syntax errors",
+            "They use single quotes"
+        ]
+    },
+    {
+        "q": "Which operator is used to gather multiple elements into an array?",
+        "o": [
+            "rest operator",
+            "spread operator",
+            "destructuring",
+            "comma operator"
+        ]
+    },
+    {
+        "q": "What does the spread operator do when used with objects?",
+        "o": [
+            "Copies properties into a new object",
+            "Removes properties",
+            "Creates a reference to the object",
+            "Merges two objects destructively"
+        ]
+    },
+    {
+        "q": "What is the default type of module in JavaScript ES6?",
+        "o": [
+            "ES module",
+            "CommonJS module",
+            "AMD module",
+            "Global module"
+        ]
+    },
+    {
+        "q": "Which keyword is required when exporting multiple named functions from a module?",
+        "o": [
+            "export",
+            "exports",
+            "default",
+            "module.exports"
+        ]
+    },
+    {
+        "q": "Which import syntax allows renaming of a named export?",
+        "o": [
+            "import { name as alias }",
+            "import * as alias",
+            "import alias from 'module'",
+            "import name from 'module'"
+        ]
+    },
+    {
+        "q": "Which statement about let and const is true?",
+        "o": [
+            "Both have block scope",
+            "let is function-scoped",
+            "const variables can be reassigned",
+            "let and var behave the same way"
+        ]
+    },
+    {
+        "q": "Which feature allows for a cleaner way of concatenating strings in JavaScript?",
+        "o": [
+            "template literals",
+            "string operators",
+            "string methods",
+            "string interpolation"
+        ]
+    },
+    {
+        "q": "Which keyword makes a variable scoped to the block it is defined in?",
+        "o": [
+            "let",
+            "const",
+            "var",
+            "global"
+        ]
+    },
+    {
+        "q": "What does the rest operator do when used in a function parameter?",
+        "o": [
+            "Collects all remaining arguments into an array",
+            "Unpacks all arguments",
+            "Creates a new variable",
+            "Converts arguments into a string"
+        ]
+    },
+    {
+        "q": "Which of the following statements about the spread operator is true?",
+        "o": [
+            "It unpacks elements from arrays or objects",
+            "It combines multiple arrays into one",
+            "It is used to copy functions",
+            "It is used for destructuring"
+        ]
+    },
+    {
+        "q": "Which export syntax allows for a default export in JavaScript modules?",
+        "o": [
+            "export default",
+            "export *",
+            "module.exports",
+            "export { name }"
+        ]
+    },
+    {
+        "q": "What is the purpose of using modules in JavaScript?",
+        "o": [
+            "To separate code into reusable units",
+            "To increase execution speed",
+            "To execute code asynchronously",
+            "To optimize memory usage"
+        ]
+    },
+    {
+        "q": "Which operator can be used to pass the entire array as individual elements in a function?",
+        "o": [
+            "spread operator",
+            "rest operator",
+            "destructuring",
+            "comma operator"
+        ]
+    },
+    {
+        "q": "Which of the following cannot be re-declared in the same scope?",
+        "o": [
+            "const",
+            "let",
+            "var",
+            "function"
+        ]
+    },
+    {
+        "q": "Which of the following can be used to create a copy of an array in JavaScript?",
+        "o": [
+            "spread operator",
+            "rest operator",
+            "map method",
+            "slice method"
+        ]
+    },
+    {
+        "q": "Which feature allows you to import only specific items from a module?",
+        "o": [
+            "named imports",
+            "default import",
+            "dynamic import",
+            "global import"
+        ]
+    },
+    {
+        "q": "Which operator can be used to merge two objects in JavaScript?",
+        "o": [
+            "spread operator",
+            "rest operator",
+            "concat operator",
+            "merge operator"
+        ]
+    },
+    {
+        "q": "Which statement is correct about const variables in JavaScript?",
+        "o": [
+            "They cannot be reassigned but can be modified if they are objects",
+            "They can be reassigned",
+            "They can be redeclared",
+            "They are hoisted"
+        ]
+    },
+    {
+        "q": "What is the correct way to create a multi-line string in JavaScript?",
+        "o": [
+            "using template literals",
+            "using string concatenation",
+            "using escape characters",
+            "using string methods"
+        ]
+    },
+    {
+        "q": "What does the rest operator collect when used in function parameters?",
+        "o": [
+            "remaining arguments",
+            "all arguments",
+            "first argument",
+            "second argument"
+        ]
+    },
+    {
+        "q": "Which feature allows you to export a single function from a module as the default export?",
+        "o": [
+            "export default",
+            "export function",
+            "module.exports",
+            "export"
+        ]
+    },
+    {
+        "q": "Which operator allows combining the values of two arrays into one new array?",
+        "o": [
+            "spread operator",
+            "rest operator",
+            "concat method",
+            "merge operator"
+        ]
+    },
+    {
+        "q": "Which method allows importing everything from a module as a single object?",
+        "o": [
+            "import * as alias",
+            "import default",
+            "import { name }",
+            "import all"
+        ]
+    },
+    {
+        "q": "Which feature enables the use of variables outside their block scope when using let/const?",
+        "o": [
+            "hoisting",
+            "closures",
+            "block scoping",
+            "function scope"
+        ]
+    },
+    {
+        "q": "Which operator is used to pass individual elements of an array into a function?",
+        "o": [
+            "spread operator",
+            "rest operator",
+            "map method",
+            "filter method"
+        ]
+    },
+    {
+        "q": "Which feature allows handling modules asynchronously in JavaScript?",
+        "o": [
+            "dynamic import",
+            "default export",
+            "named export",
+            "async functions"
+        ]
+    },
+    {
+        "q": "What type of data can be unpacked using the rest operator?",
+        "o": [
+            "arrays and objects",
+            "numbers and strings",
+            "only arrays",
+            "only objects"
+        ]
+    },
+    {
+        "q": "Which syntax is used to rename an imported module or function?",
+        "o": [
+            "import { name as alias }",
+            "import name from 'module'",
+            "import * from 'module'",
+            "import { alias }"
+        ]
+    },
+    {
+        "q": "Which keyword is used to import a single default export from a module?",
+        "o": [
+            "import",
+            "require",
+            "default",
+            "module"
+        ]
+    },
+    {
+        "q": "Which statement is true about ES6 modules?",
+        "o": [
+            "They support named and default exports",
+            "They are not compatible with older JavaScript versions",
+            "They work only in Node.js",
+            "They do not support asynchronous imports"
+        ]
+    },
+    {
+        "q": "Which of the following will throw an error when trying to reassign the value?",
+        "o": [
+            "const",
+            "let",
+            "var",
+            "function"
+        ]
+    },
+    {
+        "q": "Which feature allows dynamically importing a module when needed?",
+        "o": [
+            "dynamic import",
+            "named export",
+            "default export",
+            "import alias"
+        ]
+    },
+    {
+        "q": "Which operator is used to copy all properties from one object into another?",
+        "o": [
+            "spread operator",
+            "rest operator",
+            "copy operator",
+            "merge operator"
+        ]
+    },
+    {
+        "q": "Which syntax is used to import only one named export from a module?",
+        "o": [
+            "import { name }",
+            "import name from 'module'",
+            "import * as name",
+            "import all from 'module'"
+        ]
+    },
+    {
+        "q": "Which feature allows including expressions directly within strings?",
+        "o": [
+            "template literals",
+            "string concatenation",
+            "string interpolation",
+            "regular expressions"
+        ]
+    },
+    {
+        "q": "What does the rest operator do when used in function parameters?",
+        "o": [
+            "Collects arguments into an array",
+            "Converts arguments into an object",
+            "Returns the first argument",
+            "Splits arguments into individual parameters"
+        ]
+    },
+    {
+        "q": "Which operator is used to unpack values from an array or object?",
+        "o": [
+            "destructuring",
+            "spread operator",
+            "rest operator",
+            "template literals"
+        ]
+    },
+    {
+        "q": "Which of the following can be used to merge two arrays into one in JavaScript?",
+        "o": [
+            "spread operator",
+            "concat method",
+            "map method",
+            "filter method"
+        ]
+    },
+    {
+        "q": "Which keyword allows creating a block-scoped variable that cannot be reassigned?",
+        "o": [
+            "const",
+            "let",
+            "var",
+            "static"
+        ]
+    },
+    {
+        "q": "Which feature allows importing a module without blocking the main thread?",
+        "o": [
+            "dynamic import",
+            "named export",
+            "default export",
+            "import alias"
+        ]
+    },
+    {
+        "q": "Which of the following can be used to copy elements from an array into a new one?",
+        "o": [
+            "spread operator",
+            "slice method",
+            "map method",
+            "rest operator"
+        ]
+    },
+    {
+        "q": "What is a key advantage of template literals over regular strings?",
+        "o": [
+            "Supports expressions and multi-line strings",
+            "Increases performance",
+            "Prevents errors in code",
+            "Can be used with arrays only"
+        ]
+    },
+    {
+        "q": "Which of the following is true about the rest operator in function arguments?",
+        "o": [
+            "It collects all remaining arguments into an array",
+            "It creates a new variable",
+            "It changes the function signature",
+            "It allows multiple values of the same name"
+        ]
+    },
+    {
+        "q": "Which operator is used to spread the properties of one object into another?",
+        "o": [
+            "spread operator",
+            "rest operator",
+            "copy operator",
+            "merge operator"
+        ]
+    },
+    {
+        "q": "What is the default behavior of imports in JavaScript ES6?",
+        "o": [
+            "They are statically imported",
+            "They are dynamically imported",
+            "They are executed after the script",
+            "They are hoisted like variables"
+        ]
+    },
+    {
+        "q": "Which syntax allows for aliasing when importing a named export?",
+        "o": [
+            "import { name as alias }",
+            "import alias from 'module'",
+            "import { alias } from 'module'",
+            "import * as alias"
+        ]
+    }
+]

@@ -1,0 +1,542 @@
+[
+    {
+        "q": "Which keyword is used to declare a variable in JavaScript?",
+        "o": [
+            "var",
+            "let",
+            "const",
+            "function"
+        ]
+    },
+    {
+        "q": "Which method adds a new element to the end of an array?",
+        "o": [
+            "push",
+            "pop",
+            "shift",
+            "unshift"
+        ]
+    },
+    {
+        "q": "Which method returns a new array with selected elements?",
+        "o": [
+            "slice",
+            "splice",
+            "map",
+            "filter"
+        ]
+    },
+    {
+        "q": "Which keyword is used to extract values from an array or object?",
+        "o": [
+            "destructuring",
+            "spreading",
+            "assign",
+            "merge"
+        ]
+    },
+    {
+        "q": "Which method removes the last element from an array?",
+        "o": [
+            "pop",
+            "push",
+            "shift",
+            "slice"
+        ]
+    },
+    {
+        "q": "What is the correct way to create an empty array?",
+        "o": [
+            "[]",
+            "{}",
+            "new Array()",
+            "None of the above"
+        ]
+    },
+    {
+        "q": "Which array method is used to add one or more elements at a specific index?",
+        "o": [
+            "splice",
+            "slice",
+            "push",
+            "concat"
+        ]
+    },
+    {
+        "q": "What does array destructuring allow you to do?",
+        "o": [
+            "Extract values from an array into variables",
+            "Convert an object into an array",
+            "Sort an array in ascending order",
+            "Combine two arrays into one"
+        ]
+    },
+    {
+        "q": "Which method checks if all elements in an array pass a test?",
+        "o": [
+            "every",
+            "filter",
+            "some",
+            "forEach"
+        ]
+    },
+    {
+        "q": "Which method is used to create a new array with the results of calling a function on each element?",
+        "o": [
+            "map",
+            "filter",
+            "reduce",
+            "forEach"
+        ]
+    },
+    {
+        "q": "Which method combines two or more arrays?",
+        "o": [
+            "concat",
+            "join",
+            "push",
+            "merge"
+        ]
+    },
+    {
+        "q": "Which method removes the first element from an array?",
+        "o": [
+            "shift",
+            "pop",
+            "splice",
+            "unshift"
+        ]
+    },
+    {
+        "q": "What will array destructuring return if there are more variables than array elements?",
+        "o": [
+            "Undefined for extra variables",
+            "Throws an error",
+            "Duplicates last value",
+            "Returns an empty string"
+        ]
+    },
+    {
+        "q": "Which method is used to convert an array to a string?",
+        "o": [
+            "join",
+            "toString",
+            "concat",
+            "split"
+        ]
+    },
+    {
+        "q": "Which of the following is a correct way to swap two variables using array destructuring?",
+        "o": [
+            "[a, b] = [b, a]",
+            "[a, b] => [b, a]",
+            "[a b] = [b a]",
+            "(a, b) = (b, a)"
+        ]
+    },
+    {
+        "q": "Which method returns the first element that satisfies a condition?",
+        "o": [
+            "find",
+            "filter",
+            "some",
+            "every"
+        ]
+    },
+    {
+        "q": "Which array method executes a function once for each element?",
+        "o": [
+            "forEach",
+            "map",
+            "reduce",
+            "some"
+        ]
+    },
+    {
+        "q": "Which method returns a new array containing elements that pass a test?",
+        "o": [
+            "filter",
+            "find",
+            "some",
+            "map"
+        ]
+    },
+    {
+        "q": "Which of the following is a valid way to create an object in JavaScript?",
+        "o": [
+            "{}",
+            "new Object[]",
+            "Object()",
+            "create Object"
+        ]
+    },
+    {
+        "q": "Which method extracts values from an object using destructuring?",
+        "o": [
+            "Object destructuring",
+            "Array destructuring",
+            "Object.assign",
+            "Object.keys"
+        ]
+    },
+    {
+        "q": "Which method adds one or more elements to the beginning of an array?",
+        "o": [
+            "unshift",
+            "push",
+            "concat",
+            "splice"
+        ]
+    },
+    {
+        "q": "Which array method reduces an array to a single value?",
+        "o": [
+            "reduce",
+            "map",
+            "filter",
+            "every"
+        ]
+    },
+    {
+        "q": "Which syntax correctly performs object destructuring?",
+        "o": [
+            "const { name, age } = person",
+            "const [ name, age ] = person",
+            "const name = person{name}",
+            "const name = person[name]"
+        ]
+    },
+    {
+        "q": "Which method checks if an array contains a specific element?",
+        "o": [
+            "includes",
+            "indexOf",
+            "find",
+            "some"
+        ]
+    },
+    {
+        "q": "Which method is used to copy part of an array without modifying the original?",
+        "o": [
+            "slice",
+            "splice",
+            "filter",
+            "map"
+        ]
+    },
+    {
+        "q": "What happens if you use array destructuring on an empty array?",
+        "o": [
+            "All variables receive undefined",
+            "Throws an error",
+            "Variables are assigned null",
+            "Variables retain previous values"
+        ]
+    },
+    {
+        "q": "Which method sorts an array in place?",
+        "o": [
+            "sort",
+            "map",
+            "filter",
+            "reduce"
+        ]
+    },
+    {
+        "q": "Which array method reverses the order of elements in place?",
+        "o": [
+            "reverse",
+            "sort",
+            "slice",
+            "concat"
+        ]
+    },
+    {
+        "q": "Which method removes elements from an array and optionally replaces them?",
+        "o": [
+            "splice",
+            "slice",
+            "filter",
+            "reduce"
+        ]
+    },
+    {
+        "q": "Which method creates a shallow copy of an array?",
+        "o": [
+            "slice",
+            "splice",
+            "map",
+            "concat"
+        ]
+    },
+    {
+        "q": "Which method returns the index of the first occurrence of an element in an array?",
+        "o": [
+            "indexOf",
+            "findIndex",
+            "includes",
+            "some"
+        ]
+    },
+    {
+        "q": "Which method returns the index of the first element that satisfies a condition?",
+        "o": [
+            "findIndex",
+            "indexOf",
+            "filter",
+            "some"
+        ]
+    },
+    {
+        "q": "What is the default return value of the find method if no element matches?",
+        "o": [
+            "undefined",
+            "null",
+            "-1",
+            "false"
+        ]
+    },
+    {
+        "q": "Which array method returns a string representation of the array?",
+        "o": [
+            "toString",
+            "join",
+            "concat",
+            "split"
+        ]
+    },
+    {
+        "q": "Which operator is used for rest syntax in function parameters?",
+        "o": [
+            "...",
+            "*",
+            "&",
+            "$"
+        ]
+    },
+    {
+        "q": "Which method merges multiple arrays without modifying them?",
+        "o": [
+            "concat",
+            "push",
+            "splice",
+            "slice"
+        ]
+    },
+    {
+        "q": "Which array method determines whether at least one element satisfies a condition?",
+        "o": [
+            "some",
+            "every",
+            "filter",
+            "find"
+        ]
+    },
+    {
+        "q": "Which method creates an array from an iterable or array-like object?",
+        "o": [
+            "Array.from",
+            "Array.of",
+            "Array.create",
+            "Array.generate"
+        ]
+    },
+    {
+        "q": "Which syntax correctly performs nested object destructuring?",
+        "o": [
+            "const { user: { name } } = data",
+            "const [ user: { name } ] = data",
+            "const { user[name] } = data",
+            "const { name: user } = data"
+        ]
+    },
+    {
+        "q": "Which method is used to fill an array with a static value?",
+        "o": [
+            "fill",
+            "map",
+            "push",
+            "concat"
+        ]
+    },
+    {
+        "q": "Which method returns a new array with the results of calling a function on each element?",
+        "o": [
+            "map",
+            "forEach",
+            "reduce",
+            "filter"
+        ]
+    },
+    {
+        "q": "Which keyword is used to create an immutable variable in JavaScript?",
+        "o": [
+            "const",
+            "let",
+            "var",
+            "static"
+        ]
+    },
+    {
+        "q": "Which operator is used for spreading elements from an array?",
+        "o": [
+            "...",
+            "*",
+            "&",
+            "#"
+        ]
+    },
+    {
+        "q": "Which method checks if all elements in an array pass a test?",
+        "o": [
+            "every",
+            "some",
+            "filter",
+            "find"
+        ]
+    },
+    {
+        "q": "Which method removes the last element from an array?",
+        "o": [
+            "pop",
+            "shift",
+            "splice",
+            "slice"
+        ]
+    },
+    {
+        "q": "Which function is used to create an array with specified elements?",
+        "o": [
+            "Array.of",
+            "Array.from",
+            "new Array()",
+            "Array.create"
+        ]
+    },
+    {
+        "q": "Which method returns the keys of an object as an array?",
+        "o": [
+            "Object.keys",
+            "Object.values",
+            "Object.entries",
+            "Object.getKeys"
+        ]
+    },
+    {
+        "q": "Which method returns an array of key-value pairs from an object?",
+        "o": [
+            "Object.entries",
+            "Object.keys",
+            "Object.values",
+            "Object.pairs"
+        ]
+    },
+    {
+        "q": "What does array destructuring allow you to do?",
+        "o": [
+            "Extract values from an array into variables",
+            "Convert an array to an object",
+            "Sort an array",
+            "Remove elements from an array"
+        ]
+    },
+    {
+        "q": "Which method returns the values of an object as an array?",
+        "o": [
+            "Object.values",
+            "Object.keys",
+            "Object.entries",
+            "Object.getValues"
+        ]
+    },
+    {
+        "q": "Which method executes a provided function once for each array element?",
+        "o": [
+            "forEach",
+            "map",
+            "reduce",
+            "filter"
+        ]
+    },
+    {
+        "q": "Which method creates an array with a given length and fills it with values?",
+        "o": [
+            "Array.fill",
+            "Array.from",
+            "Array.of",
+            "Array.create"
+        ]
+    },
+    {
+        "q": "Which method is used to merge properties from multiple objects into one?",
+        "o": [
+            "Object.assign",
+            "Object.merge",
+            "Object.combine",
+            "Object.concat"
+        ]
+    },
+    {
+        "q": "What will be the result of using Object.freeze on an object?",
+        "o": [
+            "Prevents modifications to the object",
+            "Allows only adding new properties",
+            "Allows only deleting properties",
+            "Makes all properties undefined"
+        ]
+    },
+    {
+        "q": "Which method returns a new object with specific properties picked?",
+        "o": [
+            "Object.fromEntries",
+            "Object.pick",
+            "Object.extract",
+            "Object.select"
+        ]
+    },
+    {
+        "q": "Which method can be used to check if an object has a property?",
+        "o": [
+            "hasOwnProperty",
+            "includes",
+            "indexOf",
+            "exists"
+        ]
+    },
+    {
+        "q": "Which method removes the first element of an array and returns it?",
+        "o": [
+            "shift",
+            "pop",
+            "splice",
+            "slice"
+        ]
+    },
+    {
+        "q": "Which method can be used to clone an object?",
+        "o": [
+            "structuredClone",
+            "Object.clone",
+            "Object.duplicate",
+            "Object.copy"
+        ]
+    },
+    {
+        "q": "Which keyword is used to define a variable that can be reassigned?",
+        "o": [
+            "let",
+            "const",
+            "var",
+            "mutable"
+        ]
+    },
+    {
+        "q": "Which method returns the length of an array?",
+        "o": [
+            "length",
+            "size",
+            "count",
+            "measure"
+        ]
+    }
+]

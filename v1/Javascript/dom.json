@@ -1,0 +1,632 @@
+[
+    {
+        "q": "Which method is used to select an element by its ID?", 
+        "o": [
+            "getElementById",
+            "querySelectorAll",
+            "getElementsByClassName",
+            "getElementsByTagName"
+        ]
+    },
+    {
+        "q": "Which method selects the first matching element of a given CSS selector?", 
+        "o": [
+            "querySelector",
+            "getElementById",
+            "getElementsByName",
+            "getElementsByClassName"
+        ]
+    },
+    {
+        "q": "Which event is triggered when a user clicks an element?", 
+        "o": [
+            "click",
+            "mouseover",
+            "keydown",
+            "submit"
+        ]
+    },
+    {
+        "q": "Which property is used to change the text inside an HTML element?", 
+        "o": [
+            "innerText",
+            "innerHTML",
+            "textContent",
+            "value"
+        ]
+    },
+    {
+        "q": "Which method adds an event listener to an element?", 
+        "o": [
+            "addEventListener",
+            "setEvent",
+            "onEvent",
+            "triggerEvent"
+        ]
+    },
+    {
+        "q": "Which method changes the background color of an element?", 
+        "o": [
+            "element.style.backgroundColor",
+            "element.setBackground",
+            "element.css.background",
+            "element.background"
+        ]
+    },
+    {
+        "q": "Which method removes an HTML element from the DOM?", 
+        "o": [
+            "remove",
+            "delete",
+            "detach",
+            "erase"
+        ]
+    },
+    {
+        "q": "Which method adds a new child element to a parent element?", 
+        "o": [
+            "appendChild",
+            "addChild",
+            "insertElement",
+            "setChild"
+        ]
+    },
+    {
+        "q": "Which property is used to modify the font size of an element?", 
+        "o": [
+            "style.fontSize",
+            "setFontSize",
+            "font.size",
+            "modify.font"
+        ]
+    },
+    {
+        "q": "Which event is triggered when the mouse moves over an element?", 
+        "o": [
+            "mouseover",
+            "mousemove",
+            "mouseenter",
+            "mouseout"
+        ]
+    },
+    {
+        "q": "Which method selects all elements matching a given CSS selector?",
+        "o": [
+            "querySelectorAll",
+            "querySelector",
+            "getElementsByClassName",
+            "getElementById"
+        ]
+    },
+    {
+        "q": "Which event is fired when a form is submitted?",
+        "o": [
+            "submit",
+            "change",
+            "input",
+            "click"
+        ]
+    },
+    {
+        "q": "Which property is used to change an element's visibility?",
+        "o": [
+            "style.visibility",
+            "style.display",
+            "style.opacity",
+            "style.hidden"
+        ]
+    },
+    {
+        "q": "Which event is triggered when an input field value is changed?",
+        "o": [
+            "change",
+            "input",
+            "keyup",
+            "focus"
+        ]
+    },
+    {
+        "q": "Which method is used to add a new class to an element?",
+        "o": [
+            "classList.add",
+            "className.add",
+            "addClass",
+            "setClass"
+        ]
+    },
+    {
+        "q": "Which property retrieves or changes an element’s HTML content?",
+        "o": [
+            "innerHTML",
+            "innerText",
+            "textContent",
+            "outerHTML"
+        ]
+    },
+    {
+        "q": "Which method inserts an element before another element?",
+        "o": [
+            "insertBefore",
+            "prepend",
+            "insertAdjacentElement",
+            "appendChild"
+        ]
+    },
+    {
+        "q": "Which property is used to change an element's width dynamically?",
+        "o": [
+            "style.width",
+            "element.width",
+            "setWidth",
+            "modify.width"
+        ]
+    },
+    {
+        "q": "Which event is fired when an element gains focus?",
+        "o": [
+            "focus",
+            "blur",
+            "click",
+            "select"
+        ]
+    },
+    {
+        "q": "Which method clones an existing element?",
+        "o": [
+            "cloneNode",
+            "copyElement",
+            "duplicateNode",
+            "replicateElement"
+        ]
+    },
+    {
+        "q": "Which method removes a specific class from an element?",
+        "o": [
+            "classList.remove",
+            "removeClass",
+            "deleteClass",
+            "className.remove"
+        ]
+    },
+    {
+        "q": "Which event is triggered when an element is double-clicked?",
+        "o": [
+            "dblclick",
+            "click",
+            "mouseup",
+            "mousedown"
+        ]
+    },
+    {
+        "q": "Which method is used to toggle a class on an element?",
+        "o": [
+            "classList.toggle",
+            "toggleClass",
+            "switchClass",
+            "className.toggle"
+        ]
+    },
+    {
+        "q": "Which property is used to set the border color of an element?",
+        "o": [
+            "style.borderColor",
+            "style.border",
+            "style.color",
+            "setBorderColor"
+        ]
+    },
+    {
+        "q": "Which event is fired when an element loses focus?",
+        "o": [
+            "blur",
+            "focusout",
+            "change",
+            "unfocus"
+        ]
+    },
+    {
+        "q": "Which method adds an element at the beginning of a parent element?",
+        "o": [
+            "prepend",
+            "append",
+            "insertBefore",
+            "insertAdjacentElement"
+        ]
+    },
+    {
+        "q": "Which property changes the cursor style when hovering over an element?",
+        "o": [
+            "style.cursor",
+            "cursorType",
+            "setCursor",
+            "pointerStyle"
+        ]
+    },
+    {
+        "q": "Which method is used to replace an existing element in the DOM?",
+        "o": [
+            "replaceChild",
+            "swapElement",
+            "replaceElement",
+            "setChild"
+        ]
+    },
+    {
+        "q": "Which property controls an element’s transparency?",
+        "o": [
+            "style.opacity",
+            "style.visibility",
+            "style.display",
+            "setTransparency"
+        ]
+    },
+    {
+        "q": "Which event fires when the mouse leaves an element?",
+        "o": [
+            "mouseleave",
+            "mouseout",
+            "hoverout",
+            "blur"
+        ]
+    },
+    {
+        "q": "Which method inserts HTML content at a specified position relative to an element?",
+        "o": [
+            "insertAdjacentHTML",
+            "innerHTML",
+            "appendChild",
+            "replaceChild"
+        ]
+    },
+    {
+        "q": "Which event is triggered when a key is pressed down?",
+        "o": [
+            "keydown",
+            "keypress",
+            "keyup",
+            "input"
+        ]
+    },
+    {
+        "q": "Which method removes all child elements from a parent element?",
+        "o": [
+            "innerHTML = ''",
+            "removeChild",
+            "clearChildren",
+            "emptyNode"
+        ]
+    },
+    {
+        "q": "Which property retrieves or sets the URL of a hyperlink?",
+        "o": [
+            "href",
+            "src",
+            "link",
+            "path"
+        ]
+    },
+    {
+        "q": "Which method checks if an element contains a specific class?",
+        "o": [
+            "classList.contains",
+            "hasClass",
+            "checkClass",
+            "containsClass"
+        ]
+    },
+    {
+        "q": "Which event is triggered when a user right-clicks on an element?",
+        "o": [
+            "contextmenu",
+            "rightclick",
+            "mousedown",
+            "mouseup"
+        ]
+    },
+    {
+        "q": "Which property is used to modify an element’s text color?",
+        "o": [
+            "style.color",
+            "style.textColor",
+            "color",
+            "setTextColor"
+        ]
+    },
+    {
+        "q": "Which method allows smooth scrolling to a specific position on a page?",
+        "o": [
+            "scrollTo",
+            "scrollIntoView",
+            "setScroll",
+            "moveTo"
+        ]
+    },
+    {
+        "q": "Which property is used to change the font family of an element?",
+        "o": [
+            "style.fontFamily",
+            "style.typeface",
+            "setFont",
+            "font.style"
+        ]
+    },
+    {
+        "q": "Which event is triggered when an image has fully loaded?",
+        "o": [
+            "load",
+            "DOMContentLoaded",
+            "imageReady",
+            "onRender"
+        ]
+    },
+    {
+        "q": "Which method is used to scroll an element into view?",
+        "o": [
+            "scrollIntoView",
+            "scrollTo",
+            "moveTo",
+            "setScroll"
+        ]
+    },
+    {
+        "q": "Which event is fired when a user starts selecting text?",
+        "o": [
+            "select",
+            "textSelect",
+            "highlight",
+            "copy"
+        ]
+    },
+    {
+        "q": "Which property is used to change the alignment of text in an element?",
+        "o": [
+            "style.textAlign",
+            "style.align",
+            "setTextAlign",
+            "textPosition"
+        ]
+    },
+    {
+        "q": "Which method is used to get the parent element of a given element?",
+        "o": [
+            "parentElement",
+            "getParent",
+            "findParent",
+            "parentNode"
+        ]
+    },
+    {
+        "q": "Which event is triggered when an element is resized?",
+        "o": [
+            "resize",
+            "windowResize",
+            "elementResize",
+            "changeSize"
+        ]
+    },
+    {
+        "q": "Which property controls whether an element is displayed as a block or inline?",
+        "o": [
+            "style.display",
+            "style.visibility",
+            "style.position",
+            "blockMode"
+        ]
+    },
+    {
+        "q": "Which method is used to copy text to the clipboard?",
+        "o": [
+            "navigator.clipboard.writeText",
+            "copyText",
+            "setClipboard",
+            "textToClipboard"
+        ]
+    },
+    {
+        "q": "Which event is fired when a user pastes content into an input field?",
+        "o": [
+            "paste",
+            "inputPaste",
+            "onPaste",
+            "insert"
+        ]
+    },
+    {
+        "q": "Which method retrieves all sibling elements of a specific element?",
+        "o": [
+            "parentElement.children",
+            "getSiblings",
+            "findSiblings",
+            "siblingNodes"
+        ]
+    },
+    {
+        "q": "Which property is used to set the maximum height of an element?",
+        "o": [
+            "style.maxHeight",
+            "style.height",
+            "maxHeight",
+            "limitHeight"
+        ]
+    },
+    {
+        "q": "Which method removes an element from the DOM?",
+        "o": [
+            "remove",
+            "deleteElement",
+            "detach",
+            "clearNode"
+        ]
+    },
+    {
+        "q": "Which event fires when the mouse enters an element?",
+        "o": [
+            "mouseenter",
+            "mouseover",
+            "hover",
+            "focus"
+        ]
+    },
+    {
+        "q": "Which property is used to change the background color of an element?",
+        "o": [
+            "style.backgroundColor",
+            "style.bgColor",
+            "setBackground",
+            "background.style"
+        ]
+    },
+    {
+        "q": "Which method is used to stop an event from propagating?",
+        "o": [
+            "stopPropagation",
+            "preventDefault",
+            "haltEvent",
+            "stopEvent"
+        ]
+    },
+    {
+        "q": "Which property controls the spacing between letters in text?",
+        "o": [
+            "style.letterSpacing",
+            "style.wordSpacing",
+            "textSpacing",
+            "charSpacing"
+        ]
+    },
+    {
+        "q": "Which event is triggered when a media element starts playing?",
+        "o": [
+            "play",
+            "start",
+            "mediaPlay",
+            "onPlay"
+        ]
+    },
+    {
+        "q": "Which method is used to replace the entire content of an element?",
+        "o": [
+            "outerHTML",
+            "innerHTML",
+            "replaceContent",
+            "setHTML"
+        ]
+    },
+    {
+        "q": "Which event is fired when a checkbox or radio button is selected?",
+        "o": [
+            "change",
+            "select",
+            "input",
+            "toggle"
+        ]
+    },
+    {
+        "q": "Which property sets the vertical alignment of an inline element?",
+        "o": [
+            "style.verticalAlign",
+            "style.textAlign",
+            "setVerticalPosition",
+            "alignment.vertical"
+        ]
+    },
+    {
+        "q": "Which event fires when the user moves the mouse over an element?",
+        "o": [
+            "mouseover",
+            "mouseenter",
+            "hover",
+            "mousefocus"
+        ]
+    },
+    {
+        "q": "Which method is used to clone an existing element?",
+        "o": [
+            "cloneNode",
+            "copyElement",
+            "duplicateNode",
+            "replicateElement"
+        ]
+    },
+    {
+        "q": "Which event is triggered when an input field value changes?",
+        "o": [
+            "input",
+            "change",
+            "keyup",
+            "modify"
+        ]
+    },
+    {
+        "q": "Which property is used to set or get the inner text of an element?",
+        "o": [
+            "innerText",
+            "textContent",
+            "nodeValue",
+            "innerHTML"
+        ]
+    },
+    {
+        "q": "Which method adds an event listener to an element?",
+        "o": [
+            "addEventListener",
+            "attachEvent",
+            "bindEvent",
+            "registerListener"
+        ]
+    },
+    {
+        "q": "Which event is fired when a form is submitted?",
+        "o": [
+            "submit",
+            "formSubmit",
+            "send",
+            "onsubmit"
+        ]
+    },
+    {
+        "q": "Which property retrieves or modifies the value of an input field?",
+        "o": [
+            "value",
+            "innerText",
+            "textContent",
+            "nodeValue"
+        ]
+    },
+    {
+        "q": "Which method removes an event listener from an element?",
+        "o": [
+            "removeEventListener",
+            "detachEvent",
+            "unbindEvent",
+            "clearListener"
+        ]
+    },
+    {
+        "q": "Which event fires when the browser window is resized?",
+        "o": [
+            "resize",
+            "windowResize",
+            "onchangeSize",
+            "screenChange"
+        ]
+    },
+    {
+        "q": "Which property is used to make an element invisible but still occupy space?",
+        "o": [
+            "visibility",
+            "display",
+            "opacity",
+            "hidden"
+        ]
+    },
+    {
+        "q": "Which method inserts a new node before a specified child node?",
+        "o": [
+            "insertBefore",
+            "prependChild",
+            "addBefore",
+            "insertPrevious"
+        ]
+    }
+]

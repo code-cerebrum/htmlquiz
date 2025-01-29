@@ -1,0 +1,317 @@
+[
+    {
+        "q": "Which of the following is the correct syntax for a function declaration?",
+        "o": [
+            "function myFunc() {}",
+            "const myFunc = function() {}",
+            "myFunc() = function() {}",
+            "function = myFunc() {}"
+        ]
+    },
+    {
+        "q": "Which of the following is an example of a function expression?",
+        "o": [
+            "const myFunc = function() {}",
+            "function myFunc() {}",
+            "const myFunc = () => {}",
+            "myFunc() = function() {}"
+        ]
+    },
+    {
+        "q": "How do you write an arrow function in JavaScript?",
+        "o": [
+            "() => {}",
+            "function() => {}",
+            "function => () {}",
+            "() {}"
+        ]
+    },
+    {
+        "q": "What is the scope of a variable declared with 'let' inside a block?",
+        "o": [
+            "Block-scoped",
+            "Function-scoped",
+            "Globally scoped",
+            "No scope"
+        ]
+    },
+    {
+        "q": "What is the main difference between function declarations and function expressions?",
+        "o": [
+            "Function declarations are hoisted, function expressions are not.",
+            "Function expressions are hoisted, function declarations are not.",
+            "Both are hoisted in the same way.",
+            "There is no difference."
+        ]
+    },
+    {
+        "q": "What is the value of 'this' in an arrow function?",
+        "o": [
+            "It inherits 'this' from the surrounding scope.",
+            "It points to the global object.",
+            "It is undefined.",
+            "It points to the function itself."
+        ]
+    },
+    {
+        "q": "Which of the following scopes does a 'var' variable have?",
+        "o": [
+            "Function-scoped",
+            "Block-scoped",
+            "Global-scoped",
+            "No scope"
+        ]
+    },
+    {
+        "q": "Which of the following statements is true about 'const' variables?",
+        "o": [
+            "They cannot be reassigned after initialization.",
+            "They are block-scoped but can be reassigned.",
+            "They are function-scoped and can be reassigned.",
+            "They can be redeclared within the same scope."
+        ]
+    },
+    {
+        "q": "What will be the result of calling the following function: 'function greet() { console.log('Hello'); }'?",
+        "o": [
+            "'Hello' will be logged to the console.",
+            "'Hello' will not be logged to the console.",
+            "An error will be thrown.",
+            "The function won't be defined."
+        ]
+    },
+    {
+        "q": "Which of the following is the correct way to define a function expression using an anonymous function?",
+        "o": [
+            "const myFunc = function() {};",
+            "function myFunc() {};",
+            "const myFunc = () => {};",
+            "function = myFunc() {};"
+        ]
+    },
+    {
+        "q": "Which of the following is true about the 'this' keyword in a regular function vs an arrow function?",
+        "o": [
+            "'this' behaves differently in arrow functions than in regular functions.",
+            "'this' behaves the same in both types of functions.",
+            "'this' in arrow functions always refers to the global object.",
+            "'this' in regular functions is always undefined."
+        ]
+    },
+    {
+        "q": "Which function is hoisted in JavaScript?",
+        "o": [
+            "Function declarations.",
+            "Function expressions.",
+            "Arrow functions.",
+            "None of the above."
+        ]
+    },
+    {
+        "q": "Which of the following can be used to declare a function in JavaScript?",
+        "o": [
+            "function myFunc() {}",
+            "const myFunc = function() {}",
+            "const myFunc = () => {}",
+            "All of the above."
+        ]
+    },
+    {
+        "q": "What happens when a variable is declared inside a function using 'var'?",
+        "o": [
+            "It is function-scoped.",
+            "It is block-scoped.",
+            "It is globally scoped.",
+            "It is not scoped."
+        ]
+    },
+    {
+        "q": "How does the scope of a 'let' variable differ from that of a 'var' variable?",
+        "o": [
+            "'let' is block-scoped, while 'var' is function-scoped.",
+            "'let' is function-scoped, while 'var' is block-scoped.",
+            "'let' is global-scoped, while 'var' is block-scoped.",
+            "'let' and 'var' have the same scope."
+        ]
+    },
+    {
+        "q": "Which statement is true about an arrow function?",
+        "o": [
+            "It does not have its own 'this' context.",
+            "It can be used with the 'new' keyword.",
+            "It cannot be assigned to a variable.",
+            "It can be used only in ES6."
+        ]
+    },
+    {
+        "q": "Which of the following will result in a SyntaxError?",
+        "o": [
+            "const greet = () => { let message = 'Hello'; };",
+            "const greet = () => { message = 'Hello'; };",
+            "function greet() { var message = 'Hello'; }",
+            "const greet = function() {};"
+        ]
+    },
+    {
+        "q": "Which of the following will cause a ReferenceError?",
+        "o": [
+            "console.log(myFunc()); function myFunc() {}",
+            "console.log(myFunc()); const myFunc = function() {};",
+            "console.log(myFunc()); let myFunc = function() {};",
+            "console.log(myFunc()); var myFunc = function() {};"
+        ]
+    },
+    {
+        "q": "What is the result of the following code? 'var a = 5; if (true) { var a = 10; } console.log(a);'",
+        "o": [
+            "10",
+            "5",
+            "undefined",
+            "ReferenceError"
+        ]
+    },
+    {
+        "q": "How does the behavior of a 'const' declaration differ from 'let'?",
+        "o": [
+            "'const' variables cannot be reassigned, but 'let' variables can.",
+            "'const' variables can be reassigned, but 'let' variables cannot.",
+            "'const' and 'let' have identical behaviors.",
+            "'const' is only block-scoped, but 'let' is globally scoped."
+        ]
+    },
+    {
+        "q": "What is the output of the following code? 'function test() { console.log(arguments); } test(1, 2, 3);'",
+        "o": [
+            "Arguments { '0': 1, '1': 2, '2': 3 }",
+            "[1, 2, 3]",
+            "undefined",
+            "Error: arguments is not defined"
+        ]
+    },
+    {
+        "q": "Which type of function can be used with the 'new' keyword in JavaScript?",
+        "o": [
+            "Function declarations and function expressions.",
+            "Arrow functions.",
+            "Only function declarations.",
+            "None of the above."
+        ]
+    },
+    {
+        "q": "Which of the following statements is correct about function expressions?",
+        "o": [
+            "Function expressions are executed immediately after they are defined.",
+            "Function expressions are hoisted to the top of the scope.",
+            "Function expressions can be assigned to variables or passed as arguments.",
+            "Function expressions are not callable."
+        ]
+    },
+    {
+        "q": "What will the following code log to the console? 'const foo = () => { console.log(this); }; foo();'",
+        "o": [
+            "It will log the global object (or undefined in strict mode).",
+            "It will log 'undefined'.",
+            "It will log the arrow function itself.",
+            "It will throw a SyntaxError."
+        ]
+    },
+    {
+        "q": "What happens if a function is defined inside a block using 'var'?",
+        "o": [
+            "It will be accessible outside the block.",
+            "It will be accessible only inside the block.",
+            "It will throw an error.",
+            "It will not be defined."
+        ]
+    },
+    {
+        "q": "Which of the following is true about a function declared with 'function' in JavaScript?",
+        "o": [
+            "It can be called before its definition.",
+            "It cannot be called before its definition.",
+            "It throws an error if called before its definition.",
+            "It can only be called after it is executed."
+        ]
+    },
+    {
+        "q": "What is the output of the following code? 'const x = (a, b) => a + b; console.log(x(5, 3));'",
+        "o": [
+            "8",
+            "undefined",
+            "NaN",
+            "Error"
+        ]
+    },
+    {
+        "q": "Which of the following will NOT throw a SyntaxError?",
+        "o": [
+            "const greet = () => { let message = 'Hello'; };",
+            "const greet = () => { const message = 'Hello'; };",
+            "const greet = () => { message = 'Hello'; };",
+            "let greet = () => { const message = 'Hello'; };"
+        ]
+    },
+    {
+        "q": "Which of the following types of functions can return a value?",
+        "o": [
+            "Function declarations",
+            "Function expressions",
+            "Arrow functions",
+            "All of the above"
+        ]
+    },
+    {
+        "q": "What does 'this' refer to in an arrow function?",
+        "o": [
+            "The value of 'this' is inherited from the surrounding scope.",
+            "The value of 'this' is always the global object.",
+            "The value of 'this' is undefined.",
+            "The value of 'this' is the function itself."
+        ]
+    },
+    {
+        "q": "What is the difference between 'var' and 'let' in terms of scoping?",
+        "o": [
+            "'var' is function-scoped, while 'let' is block-scoped.",
+            "'var' is block-scoped, while 'let' is function-scoped.",
+            "'var' is globally scoped, while 'let' is function-scoped.",
+            "'var' and 'let' are both block-scoped."
+        ]
+    },
+    {
+        "q": "What will be the output of 'console.log(typeof myFunc);' if myFunc is a function declaration?",
+        "o": [
+            "'function'",
+            "'object'",
+            "'undefined'",
+            "'function() {}'"
+        ]
+    },
+    {
+        "q": "What will the following code output? 'function foo() { return; } console.log(foo());'",
+        "o": [
+            "undefined",
+            "null",
+            "Error",
+            "Nothing will be logged"
+        ]
+    },
+    {
+        "q": "What happens when an arrow function is called without parentheses around its parameters?",
+        "o": [
+            "It throws a syntax error.",
+            "It works fine if there is one parameter.",
+            "It only works when there are multiple parameters.",
+            "It ignores the parameter list."
+        ]
+    },
+    {
+        "q": "What happens if a function is defined within a block using 'var' and called outside the block?",
+        "o": [
+            "It is accessible outside the block.",
+            "It is not accessible outside the block.",
+            "It will throw a ReferenceError.",
+            "It will log 'undefined'."
+        ]
+    }
+]

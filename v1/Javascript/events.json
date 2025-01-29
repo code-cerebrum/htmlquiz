@@ -1,0 +1,794 @@
+[
+    {
+        "q": "Which method is used to attach an event listener to an element?", 
+        "o": [
+            "addEventListener",
+            "attachEvent",
+            "onEvent",
+            "setEvent"
+        ]
+    },
+    {
+        "q": "What happens when event bubbling occurs?", 
+        "o": [
+            "The event propagates from the target element to its ancestors",
+            "The event starts from the document and reaches the target element",
+            "The event only affects the target element",
+            "The event is canceled before execution"
+        ]
+    },
+    {
+        "q": "Which event propagation method ensures the event moves from the top down to the target element?", 
+        "o": [
+            "Capturing",
+            "Bubbling",
+            "Delegation",
+            "Stopping"
+        ]
+    },
+    {
+        "q": "Which technique allows handling events for dynamically added elements?", 
+        "o": [
+            "Event delegation",
+            "Event bubbling",
+            "Event capturing",
+            "Event stopping"
+        ]
+    },
+    {
+        "q": "Which method prevents the default behavior of an event?", 
+        "o": [
+            "preventDefault",
+            "stopPropagation",
+            "removeEventListener",
+            "haltEvent"
+        ]
+    },
+    {
+        "q": "Which property can be used to check which element triggered an event in event delegation?", 
+        "o": [
+            "event.target",
+            "event.currentTarget",
+            "event.sourceElement",
+            "event.relatedTarget"
+        ]
+    },
+    {
+        "q": "What does stopPropagation do?", 
+        "o": [
+            "Prevents the event from propagating to parent elements",
+            "Stops the default behavior of an event",
+            "Prevents the event from being triggered",
+            "Removes an event listener"
+        ]
+    },
+    {
+        "q": "What is the default behavior of a submit event on a form?", 
+        "o": [
+            "It reloads the page",
+            "It prevents the form from being submitted",
+            "It stops the event propagation",
+            "It triggers an alert message"
+        ]
+    },
+    {
+        "q": "Which event phase executes first when both capturing and bubbling are used?", 
+        "o": [
+            "Capturing",
+            "Bubbling",
+            "Target",
+            "None of the above"
+        ]
+    },
+    {
+        "q": "Which event property helps determine if an event’s default action was prevented?", 
+        "o": [
+            "event.defaultPrevented",
+            "event.preventDefault",
+            "event.isStopped",
+            "event.cancelBubble"
+        ]
+    },
+    {
+        "q": "What is true about event delegation?", 
+        "o": [
+            "It allows a parent element to handle events for child elements",
+            "It prevents an event from bubbling up",
+            "It disables all event listeners on a page",
+            "It forces an event to trigger twice"
+        ]
+    },
+    {
+        "q": "Which event method is used to remove an event listener?", 
+        "o": [
+            "removeEventListener",
+            "stopPropagation",
+            "detachEvent",
+            "clearEvent"
+        ]
+    },
+    {
+        "q": "Which of the following is an example of a default action?", 
+        "o": [
+            "A link navigating to a new page",
+            "A button click changing its color",
+            "A keypress triggering an alert",
+            "An image being resized"
+        ]
+    },
+    {
+        "q": "Which parameter is required when using addEventListener?", 
+        "o": [
+            "Event type",
+            "Event name",
+            "Event phase",
+            "Propagation mode"
+        ]
+    },
+    {
+        "q": "Which of the following events does NOT have a default action?", 
+        "o": [
+            "mousemove",
+            "click",
+            "keydown",
+            "submit"
+        ]
+    },
+    {
+        "q": "What does event.currentTarget refer to?", 
+        "o": [
+            "The element that the event handler is attached to",
+            "The element that triggered the event",
+            "The root element of the document",
+            "The last element in the event propagation chain"
+        ]
+    },
+    {
+        "q": "Which event type is commonly used for implementing event delegation?", 
+        "o": [
+            "click",
+            "mouseover",
+            "keydown",
+            "scroll"
+        ]
+    },
+    {
+        "q": "Which event listener option ensures an event runs only once?", 
+        "o": [
+            "{ once: true }",
+            "{ capture: true }",
+            "{ passive: true }",
+            "{ prevent: true }"
+        ]
+    },
+    {
+        "q": "Which property can be used to stop an event from bubbling up the DOM tree?", 
+        "o": [
+            "event.stopPropagation()",
+            "event.preventDefault()",
+            "event.cancelBubble = true",
+            "event.stopImmediatePropagation()"
+        ]
+    },
+    {
+        "q": "What does event.stopImmediatePropagation() do?", 
+        "o": [
+            "Prevents all other event listeners on the same element from running",
+            "Stops the default action from occurring",
+            "Cancels event delegation",
+            "Removes the event listener"
+        ]
+    },
+    {
+        "q": "Which event phase does the event.target property refer to?", 
+        "o": [
+            "Target",
+            "Capturing",
+            "Bubbling",
+            "None"
+        ]
+    },
+    {
+        "q": "Which option can be passed to addEventListener to improve performance for scroll events?", 
+        "o": [
+            "{ passive: true }",
+            "{ once: true }",
+            "{ capture: true }",
+            "{ async: true }"
+        ]
+    },
+    {
+        "q": "Which event does NOT bubble up the DOM?", 
+        "o": [
+            "focus",
+            "click",
+            "keydown",
+            "mouseover"
+        ]
+    },
+    {
+        "q": "What is the default value of the third parameter in addEventListener?", 
+        "o": [
+            "false",
+            "true",
+            "null",
+            "undefined"
+        ]
+    },
+    {
+        "q": "Which event method can be used to cancel the default action of a link?", 
+        "o": [
+            "event.preventDefault()",
+            "event.stopPropagation()",
+            "event.cancelDefault()",
+            "event.blockAction()"
+        ]
+    },
+    {
+        "q": "What is true about the event.target property?", 
+        "o": [
+            "It refers to the element that triggered the event",
+            "It refers to the element that the event handler is attached to",
+            "It is only available during the capturing phase",
+            "It prevents the event from propagating"
+        ]
+    },
+    {
+        "q": "Which event type is NOT commonly used with event delegation?", 
+        "o": [
+            "submit",
+            "click",
+            "focus",
+            "mousemove"
+        ]
+    },
+    {
+        "q": "Which method can be used to prevent an anchor tag from navigating to a new page?", 
+        "o": [
+            "event.preventDefault()",
+            "event.stopPropagation()",
+            "event.cancelDefault()",
+            "event.stopImmediatePropagation()"
+        ]
+    },
+    {
+        "q": "Which of the following is true about event delegation?", 
+        "o": [
+            "It allows the parent element to handle events for its child elements",
+            "It prevents the event from propagating",
+            "It prevents the event from triggering on the child elements",
+            "It only works on form elements"
+        ]
+    },
+    {
+        "q": "Which event is triggered when the user clicks anywhere within a document?", 
+        "o": [
+            "click",
+            "mousedown",
+            "mouseup",
+            "keydown"
+        ]
+    },
+    {
+        "q": "What is the default value of the capture parameter in addEventListener?", 
+        "o": [
+            "false",
+            "true",
+            "null",
+            "undefined"
+        ]
+    },
+    {
+        "q": "Which event phase is executed after the target phase?", 
+        "o": [
+            "Bubbling",
+            "Capturing",
+            "None",
+            "Immediate"
+        ]
+    },
+    {
+        "q": "Which method is used to check if an event has been canceled?", 
+        "o": [
+            "event.defaultPrevented",
+            "event.isCanceled",
+            "event.prevented",
+            "event.isStopped"
+        ]
+    },
+    {
+        "q": "Which of the following events supports event delegation the most effectively?", 
+        "o": [
+            "click",
+            "focus",
+            "blur",
+            "change"
+        ]
+    },
+    {
+        "q": "What happens when you call event.stopPropagation()?", 
+        "o": [
+            "The event does not propagate to parent elements",
+            "The event does not trigger the default action",
+            "The event triggers again on the target element",
+            "The event is canceled and no action occurs"
+        ]
+    },
+    {
+        "q": "Which event type should be used to handle events triggered by mouse wheel scrolling?", 
+        "o": [
+            "wheel",
+            "scroll",
+            "mousemove",
+            "mousedown"
+        ]
+    },
+    {
+        "q": "Which of the following events does NOT trigger the default action when handled?", 
+        "o": [
+            "keypress",
+            "submit",
+            "change",
+            "resize"
+        ]
+    },
+    {
+        "q": "What does the 'passive' option in addEventListener do?", 
+        "o": [
+            "It improves performance by allowing the event to run without waiting for the event listener to be executed",
+            "It prevents the event from being triggered",
+            "It stops the event from propagating",
+            "It makes the event non-bubbling"
+        ]
+    },
+    {
+        "q": "Which property is used to identify the element that the event listener was registered on?", 
+        "o": [
+            "event.currentTarget",
+            "event.target",
+            "event.source",
+            "event.node"
+        ]
+    },
+    {
+        "q": "Which of the following can prevent the default action of a form submission?", 
+        "o": [
+            "event.preventDefault()",
+            "event.stopPropagation()",
+            "event.cancelDefault()",
+            "event.stopImmediatePropagation()"
+        ]
+    },
+    {
+        "q": "Which event listener option ensures the event listener only runs once?", 
+        "o": [
+            "{ once: true }",
+            "{ capture: true }",
+            "{ passive: true }",
+            "{ repeat: false }"
+        ]
+    },
+    {
+        "q": "What is the result of setting event.stopImmediatePropagation() on an event?", 
+        "o": [
+            "It stops all other listeners on the same element from being called",
+            "It stops the event from reaching the target element",
+            "It prevents the event from being triggered",
+            "It cancels the default action"
+        ]
+    },
+    {
+        "q": "Which of the following is true about event delegation?", 
+        "o": [
+            "Event delegation allows events to be handled by a parent element for child elements",
+            "Event delegation disables event propagation",
+            "Event delegation is only for form elements",
+            "Event delegation makes events execute synchronously"
+        ]
+    },
+    {
+        "q": "Which of the following events cannot be canceled by preventDefault()?", 
+        "o": [
+            "submit",
+            "load",
+            "keypress",
+            "mousedown"
+        ]
+    },
+    {
+        "q": "Which of the following event types is best suited for event delegation in dynamic elements?", 
+        "o": [
+            "click",
+            "focus",
+            "blur",
+            "keypress"
+        ]
+    },
+    {
+        "q": "What does the 'capture' option in addEventListener do?", 
+        "o": [
+            "It ensures the event is captured in the capturing phase before bubbling",
+            "It prevents the event from being triggered",
+            "It makes the event listener passive",
+            "It stops the event from propagating to parent elements"
+        ]
+    },
+    {
+        "q": "Which method allows an event to be executed only once per listener in addEventListener?", 
+        "o": [
+            "once: true",
+            "passive: true",
+            "capture: true",
+            "event.stopPropagation()"
+        ]
+    },
+    {
+        "q": "Which event does NOT trigger the default action on a double-click?", 
+        "o": [
+            "dblclick",
+            "mousedown",
+            "mouseup",
+            "click"
+        ]
+    },
+    {
+        "q": "Which of the following is a common use case for event delegation?", 
+        "o": [
+            "Handling click events on dynamically added elements",
+            "Handling form validation",
+            "Handling mouse events on the window",
+            "Preventing the page from refreshing"
+        ]
+    },
+    {
+        "q": "Which event type is automatically triggered when a form is submitted?", 
+        "o": [
+            "submit",
+            "click",
+            "change",
+            "focus"
+        ]
+    },
+    {
+        "q": "What does event.stopPropagation() prevent in event handling?", 
+        "o": [
+            "The event from bubbling up the DOM",
+            "The default action from being executed",
+            "The event from being triggered",
+            "The event from being handled by the target element"
+        ]
+    },
+    {
+        "q": "Which of the following is NOT an event property used to prevent default actions?", 
+        "o": [
+            "event.preventDefault()",
+            "event.stopPropagation()",
+            "event.returnValue = false",
+            "event.cancelBubble = true"
+        ]
+    },
+    {
+        "q": "What is the purpose of the passive option in addEventListener?", 
+        "o": [
+            "It improves performance by allowing events like scroll and touch to be non-blocking",
+            "It prevents event delegation",
+            "It stops the event from being captured",
+            "It enables event bubbling"
+        ]
+    },
+    {
+        "q": "Which of the following events is a good candidate for using event delegation?", 
+        "o": [
+            "click",
+            "mouseenter",
+            "focus",
+            "blur"
+        ]
+    },
+    {
+        "q": "What is the default value for the capture parameter when adding an event listener?", 
+        "o": [
+            "false",
+            "true",
+            "null",
+            "undefined"
+        ]
+    },
+    {
+        "q": "Which event method allows you to trigger an event on a specific element?", 
+        "o": [
+            "dispatchEvent()",
+            "addEventListener()",
+            "removeEventListener()",
+            "triggerEvent()"
+        ]
+    },
+    {
+        "q": "Which method is used to add an event listener to an element?", 
+        "o": [
+            "addEventListener()",
+            "attachEvent()",
+            "bind()",
+            "on()"
+        ]
+    },
+    {
+        "q": "What is the purpose of event delegation?", 
+        "o": [
+            "To handle events on parent elements for dynamically added child elements",
+            "To stop events from being triggered",
+            "To bind events directly to child elements",
+            "To make event listeners execute asynchronously"
+        ]
+    },
+    {
+        "q": "Which event does NOT bubble by default?", 
+        "o": [
+            "focus",
+            "click",
+            "keydown",
+            "mouseenter"
+        ]
+    },
+    {
+        "q": "What happens when event.preventDefault() is called in a form submission event?", 
+        "o": [
+            "The form is not submitted",
+            "The event is canceled",
+            "The event is removed from the event queue",
+            "The form is still submitted"
+        ]
+    },
+    {
+        "q": "Which event is most commonly used for event delegation on buttons?", 
+        "o": [
+            "click",
+            "submit",
+            "change",
+            "focus"
+        ]
+    },
+    {
+        "q": "Which method is used to remove an event listener from an element?", 
+        "o": [
+            "removeEventListener()",
+            "detachEvent()",
+            "unbind()",
+            "off()"
+        ]
+    },
+    {
+        "q": "What is the default action when a form button is clicked?", 
+        "o": [
+            "Submit the form",
+            "Trigger a focus event",
+            "Trigger a mouseover event",
+            "Trigger a change event"
+        ]
+    },
+    {
+        "q": "What does event.currentTarget refer to in an event handler?", 
+        "o": [
+            "The element to which the event listener is attached",
+            "The element that triggered the event",
+            "The element that was originally clicked",
+            "The parent element"
+        ]
+    },
+    {
+        "q": "Which event method can be used to stop an event from propagating to other listeners?", 
+        "o": [
+            "event.stopPropagation()",
+            "event.preventDefault()",
+            "event.cancelBubble()",
+            "event.blockEvent()"
+        ]
+    },
+    {
+        "q": "What is the purpose of event.preventDefault()?", 
+        "o": [
+            "To prevent the browser's default action for the event",
+            "To stop the event from propagating",
+            "To capture the event during the capturing phase",
+            "To add a custom event listener"
+        ]
+    },
+    {
+        "q": "Which of the following events triggers when an element is clicked on?", 
+        "o": [
+            "click",
+            "mousedown",
+            "mouseup",
+            "mousemove"
+        ]
+    },
+    {
+        "q": "In which event phase does event delegation typically occur?", 
+        "o": [
+            "Bubbling phase",
+            "Capturing phase",
+            "Target phase",
+            "Default phase"
+        ]
+    },
+    {
+        "q": "Which method can you use to add an event listener to an element and specify whether it should capture or bubble?", 
+        "o": [
+            "addEventListener()",
+            "attachEvent()",
+            "bind()",
+            "on()"
+        ]
+    },
+    {
+        "q": "What is the difference between event.target and event.currentTarget?", 
+        "o": [
+            "event.target is the element that triggered the event, event.currentTarget is the element the event listener is attached to",
+            "event.target and event.currentTarget are always the same",
+            "event.target refers to the parent element, event.currentTarget refers to the target element",
+            "event.target is only available during the capturing phase"
+        ]
+    },
+    {
+        "q": "What is true about events that have been prevented with event.preventDefault()?", 
+        "o": [
+            "They do not trigger the browser's default action",
+            "They still propagate through the DOM",
+            "They do not stop event bubbling",
+            "They trigger the event's default action immediately"
+        ]
+    },
+    {
+        "q": "Which of the following is NOT a phase in event propagation?", 
+        "o": [
+            "Disabling phase",
+            "Capturing phase",
+            "Target phase",
+            "Bubbling phase"
+        ]
+    },
+    {
+        "q": "Which event type should be used to handle keyboard input events?", 
+        "o": [
+            "keydown",
+            "click",
+            "focus",
+            "submit"
+        ]
+    },
+    {
+        "q": "What happens when event.stopImmediatePropagation() is called on an event?", 
+        "o": [
+            "It stops all other listeners on the same event from being executed",
+            "It prevents the event from reaching its target",
+            "It cancels the default action of the event",
+            "It disables bubbling"
+        ]
+    },
+    {
+        "q": "Which of the following events does NOT trigger the default action when it occurs?", 
+        "o": [
+            "keydown",
+            "submit",
+            "change",
+            "load"
+        ]
+    },
+    {
+        "q": "What does the event.target property refer to?", 
+        "o": [
+            "The element that triggered the event",
+            "The parent element of the event",
+            "The element the event listener is attached to",
+            "The element at the highest level in the DOM"
+        ]
+    },
+    {
+        "q": "Which of the following is used to make an event listener passive?", 
+        "o": [
+            "{ passive: true }",
+            "{ capture: false }",
+            "{ once: false }",
+            "{ event: 'passive' }"
+        ]
+    },
+    {
+        "q": "Which event is triggered when a user moves the mouse over an element?", 
+        "o": [
+            "mouseover",
+            "mouseenter",
+            "mousemove",
+            "mouseout"
+        ]
+    },
+    {
+        "q": "What happens if you set the capture option to true in addEventListener?", 
+        "o": [
+            "The event is handled during the capturing phase before it reaches the target",
+            "The event is handled after it reaches the target",
+            "The event is ignored",
+            "The event is handled during the target phase"
+        ]
+    },
+    {
+        "q": "Which method is used to trigger an event on a specific DOM element?", 
+        "o": [
+            "dispatchEvent()",
+            "triggerEvent()",
+            "trigger()",
+            "fireEvent()"
+        ]
+    },
+    {
+        "q": "Which of the following events does NOT bubble by default?", 
+        "o": [
+            "focus",
+            "blur",
+            "submit",
+            "click"
+        ]
+    },
+    {
+        "q": "What happens if you use event.preventDefault() on a submit event?", 
+        "o": [
+            "The form will not be submitted",
+            "The form will be submitted after a delay",
+            "The form will be submitted, but with no data",
+            "The page will reload"
+        ]
+    },
+    {
+        "q": "Which of the following is NOT a valid way to remove an event listener?", 
+        "o": [
+            "removeEventListener()",
+            "off()",
+            "detachEvent()",
+            "unbind()"
+        ]
+    },
+    {
+        "q": "Which event listener method is used to handle events during the capturing phase?", 
+        "o": [
+            "addEventListener() with the capture option set to true",
+            "addEventListener() with the capture option set to false",
+            "attachEvent()",
+            "bind()"
+        ]
+    },
+    {
+        "q": "What is the main advantage of using event delegation?", 
+        "o": [
+            "It allows handling events for dynamically added elements",
+            "It stops event propagation",
+            "It triggers events asynchronously",
+            "It allows for events to be handled before they are triggered"
+        ]
+    },
+    {
+        "q": "What is the result of calling event.stopPropagation() in an event handler?", 
+        "o": [
+            "It stops the event from propagating to parent elements",
+            "It prevents the default action from being executed",
+            "It triggers the event again",
+            "It removes the event listener"
+        ]
+    },
+    {
+        "q": "Which of the following is a method used to prevent the default action of an event?", 
+        "o": [
+            "event.preventDefault()",
+            "event.stopPropagation()",
+            "event.cancelBubble()",
+            "event.stopImmediatePropagation()"
+        ]
+    },
+    {
+        "q": "In event delegation, where is the event listener typically added?", 
+        "o": [
+            "To a parent element that contains dynamically added child elements",
+            "To each individual child element",
+            "To the document object",
+            "To the root element of the DOM"
+        ]
+    }
+]
