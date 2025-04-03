@@ -1,7 +1,6 @@
 [
   {
     "q": "Which HTML tag is used to define a table?",
-    "c": null,
     "o": [
       "<table>",
       "<tab>",
@@ -21,7 +20,6 @@
   },
   {
     "q": "Which tag is used to define table headers?",
-    "c": null,
     "o": [
       "<th>",
       "<header>",
@@ -41,7 +39,6 @@
   },
   {
     "q": "Which tag is used to add a caption to an HTML table?",
-    "c": null,
     "o": [
       "<caption>",
       "<title>",
@@ -51,7 +48,6 @@
   },
   {
     "q": "What is the effect of using colspan in a table cell?",
-    "c": null,
     "o": [
       "It allows a cell to span multiple columns.",
       "It allows a cell to span multiple rows.",
@@ -71,7 +67,6 @@
   },
   {
     "q": "Which attribute is used to make a table cell span multiple rows?",
-    "c": null,
     "o": [
       "rowspan",
       "colspan",
@@ -91,7 +86,6 @@
   },
   {
     "q": "Which of the following is the correct structure of an HTML table?",
-    "c": null,
     "o": [
       "<table> <tr> <td>Data</td> </tr> </table>",
       "<table> <td>Data</td> <tr></tr> </table>",
@@ -101,7 +95,6 @@
   },
   {
     "q": "Which tag is used to create a table row in HTML?",
-    "c": null,
     "o": [
       "<tr>",
       "<td>",
@@ -121,7 +114,6 @@
   },
   {
     "q": "Which tag is used to define the body section of a table?",
-    "c": null,
     "o": [
       "<tbody>",
       "<tgroup>",
@@ -141,7 +133,6 @@
   },
   {
     "q": "Which attribute is used to control the spacing between table cells?",
-    "c": null,
     "o": [
       "cellspacing",
       "cellpadding",
@@ -151,7 +142,6 @@
   },
   {
     "q": "What does the 'cellpadding' attribute do in an HTML table?",
-    "c": null,
     "o": [
       "It controls the space inside a table cell, between the content and the cell border.",
       "It controls the space between table cells.",
@@ -171,7 +161,6 @@
   },
   {
     "q": "Which tag is used to group column-related information in an HTML table?",
-    "c": null,
     "o": [
       "<colgroup>",
       "<col>",
@@ -191,7 +180,6 @@
   },
   {
     "q": "Which attribute is used to specify the width of a table column?",
-    "c": null,
     "o": [
       "width",
       "colwidth",
@@ -201,7 +189,6 @@
   },
   {
     "q": "Which tag is used to define a single cell in an HTML table?",
-    "c": null,
     "o": [
       "<td>",
       "<th>",
@@ -221,7 +208,6 @@
   },
   {
     "q": "Which tag is used to group header content in an HTML table?",
-    "c": null,
     "o": [
       "<thead>",
       "<header>",
@@ -231,7 +217,6 @@
   },
   {
     "q": "What is the correct HTML syntax to create a table with a border?",
-    "c": null,
     "o": [
       "<table border='1'>",
       "<table bordered>",
@@ -251,7 +236,6 @@
   },
   {
     "q": "Which tag is used to group footer content in an HTML table?",
-    "c": null,
     "o": [
       "<tfoot>",
       "<tfooters>",
@@ -261,7 +245,6 @@
   },
   {
     "q": "What does the 'scope' attribute in <th> specify?",
-    "c": null,
     "o": [
       "It defines whether the header applies to a row, column, or group of cells.",
       "It specifies the width of the column.",
@@ -281,7 +264,6 @@
   },
   {
     "q": "Which tag is used to define a column inside a <colgroup>?",
-    "c": null,
     "o": [
       "<col>",
       "<column>",
@@ -301,7 +283,6 @@
   },
   {
     "q": "Which attribute is used to merge two or more table columns?",
-    "c": null,
     "o": [
       "colspan",
       "rowspan",
@@ -321,7 +302,6 @@
   },
   {
     "q": "Which attribute is used to merge two or more table rows?",
-    "c": null,
     "o": [
       "rowspan",
       "colspan",
@@ -341,7 +321,6 @@
   },
   {
     "q": "Which HTML table element is used to structure multiple column headers and footer groups?",
-    "c": null,
     "o": [
       "<thead>, <tfoot>, <tbody>",
       "<tr>, <th>, <td>",
@@ -351,7 +330,6 @@
   },
   {
     "q": "Which tag is used to define the main content section of a table?",
-    "c": null,
     "o": [
       "<tbody>",
       "<tcontent>",
@@ -371,7 +349,6 @@
   },
   {
     "q": "Which attribute controls the space between the table content and cell borders?",
-    "c": null,
     "o": [
       "cellpadding",
       "cellspacing",
@@ -381,7 +358,6 @@
   },
   {
     "q": "What will be the effect of setting 'cellspacing=0' in a table?",
-    "c": null,
     "o": [
       "It removes the space between table cells.",
       "It removes the padding inside table cells.",
@@ -391,7 +367,6 @@
   },
   {
     "q": "Which tag is used to define a multi-column structure in an HTML table?",
-    "c": null,
     "o": [
       "<colgroup>",
       "<columns>",
@@ -411,7 +386,6 @@
   },
   {
     "q": "Which attribute in the <table> tag makes the table border collapse into a single border?",
-    "c": null,
     "o": [
       "border-collapse",
       "border-spacing",
@@ -421,7 +395,6 @@
   },
   {
     "q": "What does 'border-collapse: collapse;' do to an HTML table?",
-    "c": null,
     "o": [
       "It merges table borders into a single border.",
       "It removes the table border completely.",
@@ -431,7 +404,6 @@
   },
   {
     "q": "Which of the following is NOT a valid way to style a table?",
-    "c": null,
     "o": [
       "Using the <style> tag inside <table>",
       "Using CSS in an external stylesheet",
@@ -451,7 +423,6 @@
   },
   {
     "q": "Which tag is used to add a table summary for screen readers?",
-    "c": null,
     "o": [
       "<caption>",
       "<summary>",
@@ -461,7 +432,6 @@
   },
   {
     "q": "What will happen if you use multiple <caption> tags in a table?",
-    "c": null,
     "o": [
       "Only the first caption will be displayed.",
       "All captions will be displayed one after another.",
@@ -471,7 +441,6 @@
   },
   {
     "q": "Which HTML table element is used to define multiple column headers and footer sections?",
-    "c": null,
     "o": [
       "<thead>, <tfoot>, <tbody>",
       "<header>, <footer>, <section>",
@@ -491,7 +460,6 @@
   },
   {
     "q": "Which attribute is used to specify the width of a table column?",
-    "c": null,
     "o": [
       "width",
       "colwidth",
@@ -511,7 +479,6 @@
   },
   {
     "q": "Which HTML element is used to define a table row?",
-    "c": null,
     "o": [
       "<tr>",
       "<th>",
@@ -531,7 +498,6 @@
   },
   {
     "q": "Which HTML attribute is used to define the number of rows a cell should span?",
-    "c": null,
     "o": [
       "rowspan",
       "colspan",
@@ -541,7 +507,6 @@
   },
   {
     "q": "What is the purpose of the <thead> element in an HTML table?",
-    "c": null,
     "o": [
       "It groups the header content of the table.",
       "It merges all the header cells.",
@@ -561,7 +526,6 @@
   },
   {
     "q": "Which tag is used to define a group of columns in an HTML table?",
-    "c": null,
     "o": [
       "<colgroup>",
       "<columns>",
@@ -581,7 +545,6 @@
   },
   {
     "q": "Which attribute defines the space between individual table cells?",
-    "c": null,
     "o": [
       "cellspacing",
       "cellpadding",
@@ -591,7 +554,6 @@
   },
   {
     "q": "Which CSS property can be used to remove the spacing between table cells?",
-    "c": null,
     "o": [
       "border-collapse: collapse;",
       "table-spacing: none;",
@@ -611,7 +573,6 @@
   },
   {
     "q": "Which attribute is used to specify the width of a table column?",
-    "c": null,
     "o": [
       "width",
       "colwidth",
@@ -621,7 +582,6 @@
   },
   {
     "q": "What happens if you use the 'align' attribute in a <td> tag?",
-    "c": null,
     "o": [
       "It aligns the text inside the cell to the specified direction.",
       "It aligns the entire row.",
@@ -631,7 +591,6 @@
   },
   {
     "q": "Which tag is used to add a caption to an HTML table?",
-    "c": null,
     "o": [
       "<caption>",
       "<title>",
@@ -651,7 +610,6 @@
   },
   {
     "q": "What happens if you apply 'border-collapse: separate;' to a table?",
-    "c": null,
     "o": [
       "The table cells will have spacing between their borders.",
       "The table borders will merge into a single border.",
@@ -661,7 +619,6 @@
   },
   {
     "q": "Which CSS property controls the space between table cells when 'border-collapse' is set to 'separate'?",
-    "c": null,
     "o": [
       "border-spacing",
       "cellspacing",
@@ -671,7 +628,6 @@
   },
   {
     "q": "Which HTML table element is used to define a section for footer content?",
-    "c": null,
     "o": [
       "<tfoot>",
       "<footer>",
@@ -691,7 +647,6 @@
   },
   {
     "q": "Which HTML element is used to define a table header cell?",
-    "c": null,
     "o": [
       "<th>",
       "<thead>",
@@ -711,7 +666,6 @@
   },
   {
     "q": "Which attribute specifies the alignment of content inside a <td> cell?",
-    "c": null,
     "o": [
       "align",
       "position",
@@ -721,7 +675,6 @@
   },
   {
     "q": "What will be the effect of setting 'valign=\"top\"' inside a <td> tag?",
-    "c": null,
     "o": [
       "The cell content will be aligned to the top.",
       "The cell content will be aligned to the center.",
@@ -731,7 +684,6 @@
   },
   {
     "q": "Which HTML attribute allows a cell to span multiple columns?",
-    "c": null,
     "o": [
       "colspan",
       "rowspan",
@@ -741,7 +693,6 @@
   },
   {
     "q": "What is the purpose of the <tbody> element in an HTML table?",
-    "c": null,
     "o": [
       "It groups the main body content of the table.",
       "It makes the table responsive.",
@@ -751,7 +702,6 @@
   },
   {
     "q": "Which CSS property is used to specify the space between table borders?",
-    "c": null,
     "o": [
       "border-spacing",
       "border-width",
@@ -761,7 +711,6 @@
   },
   {
     "q": "What happens when 'border-collapse: collapse;' is applied to a table?",
-    "c": null,
     "o": [
       "The table borders will merge into a single border.",
       "The table cells will have extra padding.",
@@ -771,7 +720,6 @@
   },
   {
     "q": "Which HTML element is used to define a footer row in a table?",
-    "c": null,
     "o": [
       "<tfoot>",
       "<tfootrow>",
@@ -791,7 +739,6 @@
   },
   {
     "q": "Which of the following is NOT a valid way to set table cell width?",
-    "c": null,
     "o": [
       "Using the 'height' attribute on <td>",
       "Using the 'width' attribute on <td>",
@@ -801,7 +748,6 @@
   },
   {
     "q": "What happens if you use multiple <caption> elements in a table?",
-    "c": null,
     "o": [
       "Only the first caption is displayed.",
       "All captions appear in order.",
@@ -811,7 +757,6 @@
   },
   {
     "q": "Which of the following is a valid way to define a table with a border?",
-    "c": null,
     "o": [
       "<table border='1'>...</table>",
       "<table style='border: 1;'>...</table>",
@@ -831,7 +776,6 @@
   },
   {
     "q": "Which attribute is used to define a title for a table that helps screen readers?",
-    "c": null,
     "o": [
       "summary",
       "title",
@@ -841,7 +785,6 @@
   },
   {
     "q": "What happens if you omit the <tbody> element in an HTML table?",
-    "c": null,
     "o": [
       "The browser automatically adds a <tbody> section.",
       "The table will not be displayed.",
@@ -851,7 +794,6 @@
   },
   {
     "q": "Which CSS property is used to change the background color of an entire table?",
-    "c": null,
     "o": [
       "background-color",
       "table-color",
@@ -861,7 +803,6 @@
   },
   {
     "q": "What will be the effect of using 'width: 100%' on a table?",
-    "c": null,
     "o": [
       "The table will expand to fit the full width of its container.",
       "The table width will remain fixed.",
@@ -871,7 +812,6 @@
   },
   {
     "q": "Which attribute is used to set the thickness of a table border?",
-    "c": null,
     "o": [
       "border",
       "border-width",
@@ -881,7 +821,6 @@
   },
   {
     "q": "What happens when 'table-layout: fixed;' is applied to an HTML table?",
-    "c": null,
     "o": [
       "The table cells will have equal width regardless of content.",
       "The table columns will adjust based on content.",
@@ -891,7 +830,6 @@
   },
   {
     "q": "Which HTML tag is used to define a table?",
-    "c": null,
     "o": [
       "<table>",
       "<tbl>",
@@ -911,7 +849,6 @@
   },
   {
     "q": "Which attribute is used to define the space between the cell content and its border?",
-    "c": null,
     "o": [
       "cellpadding",
       "cellspacing",
@@ -921,7 +858,6 @@
   },
   {
     "q": "What does the 'scope' attribute do in a <th> element?",
-    "c": null,
     "o": [
       "Defines whether the header applies to a row, column, or group.",
       "Merges the header with adjacent columns.",
@@ -931,7 +867,6 @@
   },
   {
     "q": "Which tag is used to specify a column that should have a specific style applied?",
-    "c": null,
     "o": [
       "<col>",
       "<colgroup>",
@@ -951,7 +886,6 @@
   },
   {
     "q": "Which CSS property is used to change the border color of a table?",
-    "c": null,
     "o": [
       "border-color",
       "border-style",
@@ -961,7 +895,6 @@
   },
   {
     "q": "What is the effect of setting 'width: auto;' on a table?",
-    "c": null,
     "o": [
       "The table width will adjust based on content size.",
       "The table will expand to 100% width of the container.",
@@ -971,7 +904,6 @@
   },
   {
     "q": "Which attribute is used to merge multiple rows in a table?",
-    "c": null,
     "o": [
       "rowspan",
       "colspan",
@@ -991,7 +923,6 @@
   },
   {
     "q": "Which HTML tag is used to define table column headers?",
-    "c": null,
     "o": [
       "<th>",
       "<td>",
@@ -1001,7 +932,6 @@
   },
   {
     "q": "Which attribute is used to provide a brief description of a table for accessibility?",
-    "c": null,
     "o": [
       "summary",
       "title",
@@ -1021,7 +951,6 @@
   },
   {
     "q": "Which of the following is a correct way to apply CSS to a table?",
-    "c": null,
     "o": [
       "table { border: 1px solid black; }",
       "<table style='border: 1px solid black;'>",
@@ -1031,7 +960,6 @@
   },
   {
     "q": "Which CSS property is used to add a space between table cells when 'border-collapse' is set to 'separate'?",
-    "c": null,
     "o": [
       "border-spacing",
       "cell-padding",
@@ -1041,7 +969,6 @@
   },
   {
     "q": "What happens when 'border-collapse: collapse;' is applied to a table?",
-    "c": null,
     "o": [
       "Adjacent table cell borders merge into a single border.",
       "The table becomes unstyled.",
@@ -1051,7 +978,6 @@
   },
   {
     "q": "Which tag is used to define a footer in an HTML table?",
-    "c": null,
     "o": [
       "<tfoot>",
       "<footer>",
@@ -1061,7 +987,6 @@
   },
   {
     "q": "What is the default alignment of text inside a <td> cell?",
-    "c": null,
     "o": [
       "Left-aligned",
       "Center-aligned",
@@ -1071,7 +996,6 @@
   },
   {
     "q": "Which attribute is used to make a table responsive?",
-    "c": null,
     "o": [
       "CSS media queries",
       "responsive='true'",
@@ -1081,7 +1005,6 @@
   },
   {
     "q": "What is the correct way to set a table header to span multiple columns?",
-    "c": null,
     "o": [
       "<th colspan='2'>Title</th>",
       "<td colspan='2'>Title</td>",
@@ -1101,7 +1024,6 @@
   },
   {
     "q": "Which HTML element is used to group the body content of a table?",
-    "c": null,
     "o": [
       "<tbody>",
       "<tr>",
@@ -1111,7 +1033,6 @@
   },
   {
     "q": "What does the 'scope' attribute in a <th> element specify?",
-    "c": null,
     "o": [
       "Whether the header applies to a row, column, or group.",
       "The width of the header cell.",
@@ -1121,7 +1042,6 @@
   },
   {
     "q": "Which CSS property is used to control the thickness of table borders?",
-    "c": null,
     "o": [
       "border-width",
       "border-size",
@@ -1131,7 +1051,6 @@
   },
   {
     "q": "What happens when 'border-collapse: collapse;' is applied to a table?",
-    "c": null,
     "o": [
       "Adjacent table borders are merged into a single border.",
       "Table borders are removed.",
@@ -1141,7 +1060,6 @@
   },
   {
     "q": "Which HTML attribute allows you to merge multiple rows in a table?",
-    "c": null,
     "o": [
       "rowspan",
       "colspan",
@@ -1161,7 +1079,6 @@
   },
   {
     "q": "Which HTML tag is used to define a table footer?",
-    "c": null,
     "o": [
       "<tfoot>",
       "<footer>",
@@ -1171,7 +1088,6 @@
   },
   {
     "q": "What does the 'align' attribute do in a <td> element?",
-    "c": null,
     "o": [
       "Specifies the horizontal alignment of content inside the cell.",
       "Changes the vertical alignment of text.",
@@ -1181,7 +1097,6 @@
   },
   {
     "q": "Which HTML tag is used to create a table row?",
-    "c": null,
     "o": [
       "<tr>",
       "<td>",
@@ -1191,7 +1106,6 @@
   },
   {
     "q": "Which attribute is used to provide a title or description for a table?",
-    "c": null,
     "o": [
       "<caption>",
       "<title>",
@@ -1201,7 +1115,6 @@
   },
   {
     "q": "Which CSS property controls the spacing between individual table cells?",
-    "c": null,
     "o": [
       "border-spacing",
       "cell-padding",
@@ -1211,7 +1124,6 @@
   },
   {
     "q": "Which HTML element groups multiple columns in a table?",
-    "c": null,
     "o": [
       "<colgroup>",
       "<col>",
@@ -1231,7 +1143,6 @@
   },
   {
     "q": "Which attribute is used to control the width of a table?",
-    "c": null,
     "o": [
       "width",
       "size",
@@ -1241,7 +1152,6 @@
   },
   {
     "q": "What is the purpose of the <thead> element in an HTML table?",
-    "c": null,
     "o": [
       "To group table header rows together.",
       "To add a title to the table.",
@@ -1251,7 +1161,6 @@
   },
   {
     "q": "Which CSS property is used to apply a background color to table cells?",
-    "c": null,
     "o": [
       "background-color",
       "color",
@@ -1261,7 +1170,6 @@
   },
   {
     "q": "Which HTML attribute specifies that a table header applies to a group of rows or columns?",
-    "c": null,
     "o": [
       "scope",
       "headers",
@@ -1271,7 +1179,6 @@
   },
   {
     "q": "What will happen if 'table-layout: fixed;' is applied to a table?",
-    "c": null,
     "o": [
       "All columns will have equal width, regardless of content.",
       "Columns will adjust their width based on content.",
@@ -1281,7 +1188,6 @@
   },
   {
     "q": "Which tag is used to create a header row in a table?",
-    "c": null,
     "o": [
       "<th>",
       "<thead>",
@@ -1291,7 +1197,6 @@
   },
   {
     "q": "Which attribute is used to specify the background color of a table cell?",
-    "c": null,
     "o": [
       "bgcolor",
       "background",
@@ -1311,7 +1216,6 @@
   },
   {
     "q": "Which tag is used to define a single cell in a table?",
-    "c": null,
     "o": [
       "<td>",
       "<tr>",
@@ -1321,7 +1225,6 @@
   },
   {
     "q": "What does the 'valign' attribute do in a table cell?",
-    "c": null,
     "o": [
       "Controls the vertical alignment of content inside the cell.",
       "Specifies the background color of the cell.",
@@ -1331,7 +1234,6 @@
   },
   {
     "q": "Which CSS property is used to set equal spacing between table columns?",
-    "c": null,
     "o": [
       "border-spacing",
       "column-gap",
@@ -1341,7 +1243,6 @@
   },
   {
     "q": "What is the correct way to merge three columns into a single cell?",
-    "c": null,
     "o": [
       "<td colspan='3'>Merged Cell</td>",
       "<td rowspan='3'>Merged Cell</td>",
@@ -1351,7 +1252,6 @@
   },
   {
     "q": "Which HTML tag is used to define column properties in a table?",
-    "c": null,
     "o": [
       "<col>",
       "<column>",
@@ -1361,7 +1261,6 @@
   },
   {
     "q": "What is the default alignment of text in a <th> element?",
-    "c": null,
     "o": [
       "Center-aligned",
       "Left-aligned",
@@ -1371,7 +1270,6 @@
   },
   {
     "q": "Which attribute allows a table header to span multiple columns?",
-    "c": null,
     "o": [
       "colspan",
       "rowspan",
@@ -1381,7 +1279,6 @@
   },
   {
     "q": "What is the purpose of the <tfoot> element in an HTML table?",
-    "c": null,
     "o": [
       "To group footer rows together.",
       "To add a summary row at the top.",
@@ -1401,7 +1298,6 @@
   },
   {
     "q": "Which CSS property is used to remove the default spacing between table cells?",
-    "c": null,
     "o": [
       "border-collapse",
       "cell-spacing",
@@ -1411,7 +1307,6 @@
   },
   {
     "q": "Which tag is used to group columns in an HTML table?",
-    "c": null,
     "o": [
       "<colgroup>",
       "<thead>",
@@ -1421,7 +1316,6 @@
   },
   {
     "q": "What will be the result of applying 'border-collapse: separate;' to a table?",
-    "c": null,
     "o": [
       "Table borders remain separate.",
       "Table borders merge into a single border.",
@@ -1431,7 +1325,6 @@
   },
   {
     "q": "What does the 'nowrap' attribute do in a table cell?",
-    "c": null,
     "o": [
       "Prevents text from wrapping inside the cell.",
       "Forces text to be center-aligned.",
@@ -1441,7 +1334,6 @@
   },
   {
     "q": "Which tag is used to define a header cell in a table?",
-    "c": null,
     "o": [
       "<th>",
       "<td>",
@@ -1451,7 +1343,6 @@
   },
   {
     "q": "Which HTML attribute helps associate a table cell with specific headers?",
-    "c": null,
     "o": [
       "headers",
       "scope",
@@ -1471,7 +1362,6 @@
   },
   {
     "q": "Which CSS property controls the spacing between columns in a table?",
-    "c": null,
     "o": [
       "border-spacing",
       "column-gap",
@@ -1481,7 +1371,6 @@
   },
   {
     "q": "Which HTML element is used to create a single table row?",
-    "c": null,
     "o": [
       "<tr>",
       "<td>",
@@ -1491,7 +1380,6 @@
   },
   {
     "q": "What happens when the 'scope' attribute is set to 'col' in a <th> element?",
-    "c": null,
     "o": [
       "It associates the header with the entire column.",
       "It associates the header with the entire row.",
@@ -1501,7 +1389,6 @@
   },
   {
     "q": "Which attribute allows a single table cell to span multiple columns?",
-    "c": null,
     "o": [
       "colspan",
       "rowspan",
@@ -1511,7 +1398,6 @@
   },
   {
     "q": "Which HTML tag is used to provide a description for a table?",
-    "c": null,
     "o": [
       "<caption>",
       "<summary>",
@@ -1521,7 +1407,6 @@
   },
   {
     "q": "What will happen if a table cell has both 'colspan' and 'rowspan' attributes?",
-    "c": null,
     "o": [
       "It will span multiple rows and columns.",
       "It will only span rows.",
@@ -1531,7 +1416,6 @@
   },
   {
     "q": "Which CSS property is used to set the width of a table?",
-    "c": null,
     "o": [
       "width",
       "table-width",
@@ -1541,7 +1425,6 @@
   },
   {
     "q": "What happens when 'table-layout: fixed;' is applied to a table?",
-    "c": null,
     "o": [
       "Column widths are fixed and do not adjust based on content.",
       "Columns adjust automatically based on content.",
@@ -1561,7 +1444,6 @@
   },
   {
     "q": "Which HTML tag is used to define the main heading of a table?",
-    "c": null,
     "o": [
       "<caption>",
       "<thead>",
@@ -1571,7 +1453,6 @@
   },
   {
     "q": "Which CSS property controls the height of table rows?",
-    "c": null,
     "o": [
       "height",
       "row-height",
@@ -1591,7 +1472,6 @@
   },
   {
     "q": "Which HTML attribute is used to set the width of a table column?",
-    "c": null,
     "o": [
       "width",
       "size",
@@ -1601,7 +1481,6 @@
   },
   {
     "q": "Which element should be used to define the group of column headers in a table?",
-    "c": null,
     "o": [
       "<thead>",
       "<th>",
@@ -1611,7 +1490,6 @@
   },
   {
     "q": "What will happen if a <td> element has a 'colspan' value greater than the number of columns?",
-    "c": null,
     "o": [
       "It will extend beyond the table's width, possibly causing layout issues.",
       "It will automatically adjust to fit the correct number of columns.",
@@ -1621,7 +1499,6 @@
   },
   {
     "q": "Which CSS property defines the space between the content and the border of a table cell?",
-    "c": null,
     "o": [
       "padding",
       "margin",
@@ -1631,7 +1508,6 @@
   },
   {
     "q": "What does the <col> tag do inside a <colgroup>?",
-    "c": null,
     "o": [
       "Defines properties for individual columns.",
       "Creates new rows in a table.",
@@ -1641,7 +1517,6 @@
   },
   {
     "q": "What happens when the 'align' attribute is used in a <table> element?",
-    "c": null,
     "o": [
       "It sets the alignment of the entire table relative to its container.",
       "It sets the alignment of text inside table cells.",
@@ -1651,7 +1526,6 @@
   },
   {
     "q": "Which attribute is used to control the vertical alignment of content within a table cell?",
-    "c": null,
     "o": [
       "valign",
       "v-align",
@@ -1661,7 +1535,6 @@
   },
   {
     "q": "What is the correct way to make a table with no visible borders?",
-    "c": null,
     "o": [
       "Set 'border' to 0 or use CSS 'border: none;'",
       "Remove all <tr> elements.",
@@ -1671,7 +1544,6 @@
   },
   {
     "q": "What does the 'frame' attribute in a table do?",
-    "c": null,
     "o": [
       "Specifies which parts of the table's border are displayed.",
       "Defines the width of the table.",
@@ -1691,7 +1563,6 @@
   },
   {
     "q": "Which HTML element groups the footer content of a table?",
-    "c": null,
     "o": [
       "<tfoot>",
       "<tfootgroup>",
@@ -1701,7 +1572,6 @@
   },
   {
     "q": "What is the default padding of table cells in most browsers?",
-    "c": null,
     "o": [
       "Varies by browser but often around 2-4px.",
       "0px, unless specified.",
@@ -1711,7 +1581,6 @@
   },
   {
     "q": "Which attribute allows you to specify a table header that applies to multiple rows?",
-    "c": null,
     "o": [
       "scope='rowgroup'",
       "rowspan='all'",
@@ -1721,7 +1590,6 @@
   },
   {
     "q": "What happens when you use 'border-spacing: 0px;' on a table?",
-    "c": null,
     "o": [
       "All table cell borders are collapsed together.",
       "Table borders become invisible.",
@@ -1731,7 +1599,6 @@
   },
   {
     "q": "What will happen if the 'width' attribute is set to 100% in a table?",
-    "c": null,
     "o": [
       "The table will stretch to the full width of its container.",
       "The table will maintain its original size.",
@@ -1741,7 +1608,6 @@
   },
   {
     "q": "Which attribute is used to set the background color of a table?",
-    "c": null,
     "o": [
       "bgcolor",
       "background",
@@ -1751,7 +1617,6 @@
   },
   {
     "q": "Which CSS property is used to apply a background image to a table?",
-    "c": null,
     "o": [
       "background-image",
       "table-image",
@@ -1761,7 +1626,6 @@
   },
   {
     "q": "Which HTML attribute defines alternate text for tables?",
-    "c": null,
     "o": [
       "summary",
       "alt",
@@ -1781,7 +1645,6 @@
   },
   {
     "q": "Which attribute is used to control whether a table has a fixed or auto-adjusting layout?",
-    "c": null,
     "o": [
       "table-layout",
       "layout-type",
@@ -1791,7 +1654,6 @@
   },
   {
     "q": "Which HTML attribute defines the number of columns a cell should span?",
-    "c": null,
     "o": [
       "colspan",
       "rowspan",
@@ -1801,7 +1663,6 @@
   },
   {
     "q": "What does the 'border' attribute do when applied to a <table> element?",
-    "c": null,
     "o": [
       "Defines the thickness of table borders.",
       "Controls the spacing between table rows.",
@@ -1811,7 +1672,6 @@
   },
   {
     "q": "Which CSS property controls the spacing between individual table cells?",
-    "c": null,
     "o": [
       "border-spacing",
       "margin",
@@ -1831,7 +1691,6 @@
   },
   {
     "q": "Which table element is used to group the body content of a table?",
-    "c": null,
     "o": [
       "<tbody>",
       "<tfoot>",
@@ -1841,7 +1700,6 @@
   },
   {
     "q": "Which HTML element is used to define a table column header?",
-    "c": null,
     "o": [
       "<th>",
       "<td>",
@@ -1851,7 +1709,6 @@
   },
   {
     "q": "What is the default vertical alignment for table cell content?",
-    "c": null,
     "o": [
       "Middle",
       "Top",
@@ -1861,7 +1718,6 @@
   },
   {
     "q": "Which HTML element is used to define a table footer?",
-    "c": null,
     "o": [
       "<tfoot>",
       "<tfootgroup>",
@@ -1881,7 +1737,6 @@
   },
   {
     "q": "Which HTML element is used to group multiple columns in a table?",
-    "c": null,
     "o": [
       "<colgroup>",
       "<col>",
@@ -1891,7 +1746,6 @@
   },
   {
     "q": "What does 'table-layout: fixed;' do in CSS?",
-    "c": null,
     "o": [
       "Ensures equal column widths regardless of content.",
       "Makes the table width adjust dynamically to content.",
@@ -1901,7 +1755,6 @@
   },
   {
     "q": "What is the effect of 'border-collapse: separate;' on a table?",
-    "c": null,
     "o": [
       "Table cells will have individual borders with spacing.",
       "Table borders will disappear.",
@@ -1911,7 +1764,6 @@
   },
   {
     "q": "Which HTML attribute is used to specify a title for a table?",
-    "c": null,
     "o": [
       "title",
       "caption",
@@ -1921,7 +1773,6 @@
   },
   {
     "q": "What happens if you set 'border-collapse: collapse;' in CSS?",
-    "c": null,
     "o": [
       "Adjacent table cell borders merge into a single border.",
       "Table borders disappear completely.",
@@ -1931,7 +1782,6 @@
   },
   {
     "q": "Which HTML tag is used to define a table caption?",
-    "c": null,
     "o": [
       "<caption>",
       "<title>",
@@ -1941,7 +1791,6 @@
   },
   {
     "q": "Which CSS property is used to define the width of table columns?",
-    "c": null,
     "o": [
       "width",
       "col-width",
@@ -1951,7 +1800,6 @@
   },
   {
     "q": "Which attribute defines whether a table cell should span multiple columns?",
-    "c": null,
     "o": [
       "colspan",
       "rowspan",
@@ -1961,7 +1809,6 @@
   },
   {
     "q": "What is the effect of using 'width: 100%;' on a table?",
-    "c": null,
     "o": [
       "The table expands to fill the container width.",
       "The table shrinks to fit content.",
@@ -1971,7 +1818,6 @@
   },
   {
     "q": "Which HTML element defines the structure of a table?",
-    "c": null,
     "o": [
       "<table>",
       "<tbody>",
@@ -1981,7 +1827,6 @@
   },
   {
     "q": "Which attribute is used to define the background color of a table?",
-    "c": null,
     "o": [
       "bgcolor",
       "background",
@@ -1991,7 +1836,6 @@
   },
   {
     "q": "Which CSS property is used to apply a background image to a table?",
-    "c": null,
     "o": [
       "background-image",
       "table-image",
@@ -2001,7 +1845,6 @@
   },
   {
     "q": "Which table element is used to define column headers?",
-    "c": null,
     "o": [
       "<thead>",
       "<th>",
@@ -2011,7 +1854,6 @@
   },
   {
     "q": "What is the purpose of the 'summary' attribute in a table?",
-    "c": null,
     "o": [
       "Provides an overview of the table's content for accessibility.",
       "Adds a title to the table.",
@@ -2021,7 +1863,6 @@
   },
   {
     "q": "Which CSS property controls the space between the content and the border of a table cell?",
-    "c": null,
     "o": [
       "padding",
       "margin",
@@ -2031,7 +1872,6 @@
   },
   {
     "q": "Which HTML attribute is used to specify that a table header applies to multiple columns?",
-    "c": null,
     "o": [
       "scope",
       "colspan",
@@ -2041,7 +1881,6 @@
   },
   {
     "q": "What is the purpose of the <thead> element in an HTML table?",
-    "c": null,
     "o": [
       "To group table header content separately from body and footer content.",
       "To define a single header row for the table.",
@@ -2051,7 +1890,6 @@
   },
   {
     "q": "Which HTML tag is used to specify a group of table columns for styling?",
-    "c": null,
     "o": [
       "<colgroup>",
       "<thead>",
@@ -2071,7 +1909,6 @@
   },
   {
     "q": "Which of the following is the correct way to span multiple rows in a table?",
-    "c": null,
     "o": [
       "<td rowspan='2'>Merged</td>",
       "<td colspan='2'>Merged</td>",
@@ -2081,7 +1918,6 @@
   },
   {
     "q": "What is the default width behavior of table columns in HTML?",
-    "c": null,
     "o": [
       "Columns adjust their width based on the content inside them.",
       "All columns have equal width by default.",
@@ -2091,7 +1927,6 @@
   },
   {
     "q": "Which attribute can be used inside the <th> tag to define its relationship with table cells?",
-    "c": null,
     "o": [
       "scope",
       "colspan",
@@ -2101,7 +1936,6 @@
   },
   {
     "q": "What happens if you apply 'border-collapse: separate;' in CSS?",
-    "c": null,
     "o": [
       "Cells will have separate borders with spacing between them.",
       "All borders will be merged into one.",
@@ -2111,7 +1945,6 @@
   },
   {
     "q": "Which of the following is true about the <caption> element?",
-    "c": null,
     "o": [
       "It provides a title for the table and improves accessibility.",
       "It merges table columns.",
@@ -2121,7 +1954,6 @@
   },
   {
     "q": "Which CSS property controls the width of a specific column inside a table?",
-    "c": null,
     "o": [
       "width",
       "column-width",
@@ -2141,7 +1973,6 @@
   },
   {
     "q": "Which HTML tag is used to apply styles to a single table column?",
-    "c": null,
     "o": [
       "<col>",
       "<column>",
@@ -2151,7 +1982,6 @@
   },
   {
     "q": "What happens if you omit the <thead> and <tfoot> elements in a table?",
-    "c": null,
     "o": [
       "The table will still function but lacks explicit structure.",
       "The table will not render properly.",
@@ -2161,7 +1991,6 @@
   },
   {
     "q": "Which CSS property is used to specify space inside table cells?",
-    "c": null,
     "o": [
       "padding",
       "margin",
@@ -2171,7 +2000,6 @@
   },
   {
     "q": "What does 'table-layout: auto;' do in CSS?",
-    "c": null,
     "o": [
       "Columns adjust their width based on content.",
       "All columns have equal width.",
@@ -2181,7 +2009,6 @@
   },
   {
     "q": "Which of the following is true about <tfoot>?",
-    "c": null,
     "o": [
       "It is placed before <tbody> in HTML structure.",
       "It is mandatory in every table.",
@@ -2201,7 +2028,6 @@
   },
   {
     "q": "Which attribute can be used to specify that a table column should be hidden?",
-    "c": null,
     "o": [
       "hidden",
       "display",
@@ -2211,7 +2037,6 @@
   },
   {
     "q": "Which of the following is a correct way to add a table border using CSS?",
-    "c": null,
     "o": [
       "table { border: 1px solid black; }",
       "table { border-width: 1px; }",
@@ -2221,7 +2046,6 @@
   },
   {
     "q": "What is the purpose of the <colgroup> element in an HTML table?",
-    "c": null,
     "o": [
       "To group and style multiple columns.",
       "To merge multiple columns.",
@@ -2231,7 +2055,6 @@
   },
   {
     "q": "Which HTML tag is used to define a header cell spanning multiple columns?",
-    "c": null,
     "o": [
       "<th colspan='2'>Header</th>",
       "<td colspan='2'>Header</td>",
@@ -2241,7 +2064,6 @@
   },
   {
     "q": "Which HTML element is used to group rows in a table?",
-    "c": null,
     "o": [
       "<tbody>",
       "<thead>",
@@ -2261,7 +2083,6 @@
   },
   {
     "q": "Which attribute is used to define a unique identifier for a table?",
-    "c": null,
     "o": [
       "id",
       "class",
@@ -2271,7 +2092,6 @@
   },
   {
     "q": "What is the correct way to merge two rows in a table?",
-    "c": null,
     "o": [
       "<td rowspan='2'>Merged</td>",
       "<td colspan='2'>Merged</td>",
@@ -2281,7 +2101,6 @@
   },
   {
     "q": "Which CSS property is used to align text inside a table cell?",
-    "c": null,
     "o": [
       "text-align",
       "align",
@@ -2291,7 +2110,6 @@
   },
   {
     "q": "Which HTML tag is used to define a table header cell?",
-    "c": null,
     "o": [
       "<th>",
       "<td>",
@@ -2301,7 +2119,6 @@
   },
   {
     "q": "What is the default alignment of text inside a <th> element?",
-    "c": null,
     "o": [
       "Center",
       "Left",
@@ -2311,7 +2128,6 @@
   },
   {
     "q": "Which attribute can be used to add a tooltip to a table cell?",
-    "c": null,
     "o": [
       "title",
       "tooltip",
@@ -2321,7 +2137,6 @@
   },
   {
     "q": "What does the 'scope' attribute in a <th> element do?",
-    "c": null,
     "o": [
       "Defines whether the header applies to a row, column, or group.",
       "Sets the color of the header cell.",
@@ -2341,7 +2156,6 @@
   },
   {
     "q": "Which CSS property removes the space between table borders?",
-    "c": null,
     "o": [
       "border-collapse",
       "border-spacing",
@@ -2351,7 +2165,6 @@
   },
   {
     "q": "Which attribute is used to merge cells vertically in an HTML table?",
-    "c": null,
     "o": [
       "rowspan",
       "colspan",
@@ -2361,7 +2174,6 @@
   },
   {
     "q": "Which of the following CSS properties affects the spacing between table cells?",
-    "c": null,
     "o": [
       "border-spacing",
       "cell-padding",
@@ -2371,7 +2183,6 @@
   },
   {
     "q": "What happens if you define 'table-layout: fixed;' in CSS?",
-    "c": null,
     "o": [
       "Columns will have a fixed width regardless of content.",
       "Columns will adjust dynamically based on content.",
@@ -2381,7 +2192,6 @@
   },
   {
     "q": "Which HTML element is used to define a footer for a table?",
-    "c": null,
     "o": [
       "<tfoot>",
       "<tbody>",
@@ -2401,7 +2211,6 @@
   },
   {
     "q": "Which HTML element defines a single row in a table?",
-    "c": null,
     "o": [
       "<tr>",
       "<td>",
@@ -2411,7 +2220,6 @@
   },
   {
     "q": "Which CSS property is used to apply a background color to table headers?",
-    "c": null,
     "o": [
       "background-color",
       "header-color",
@@ -2421,7 +2229,6 @@
   },
   {
     "q": "Which HTML attribute is used to define a summary for a table?",
-    "c": null,
     "o": [
       "summary",
       "title",
@@ -2431,7 +2238,6 @@
   },
   {
     "q": "What is the purpose of the <caption> element?",
-    "c": null,
     "o": [
       "It provides a title for the table.",
       "It merges columns in a table.",
@@ -2441,7 +2247,6 @@
   },
   {
     "q": "Which CSS property controls the width of table borders?",
-    "c": null,
     "o": [
       "border-width",
       "border-spacing",
@@ -2451,7 +2256,6 @@
   },
   {
     "q": "What will happen if you apply 'border-collapse: collapse;' to a table?",
-    "c": null,
     "o": [
       "Adjacent table borders will merge into a single border.",
       "Table borders will disappear.",
@@ -2461,7 +2265,6 @@
   },
   {
     "q": "Which HTML attribute specifies whether a table cell should span multiple columns?",
-    "c": null,
     "o": [
       "colspan",
       "rowspan",
@@ -2471,7 +2274,6 @@
   },
   {
     "q": "Which of the following is the correct way to define a table with a border in HTML?",
-    "c": null,
     "o": [
       "<table border='1'>",
       "<table border-width='1px'>",
@@ -2481,7 +2283,6 @@
   },
   {
     "q": "Which HTML element is used to group column headers in a table?",
-    "c": null,
     "o": [
       "<thead>",
       "<tfoot>",
@@ -2491,7 +2292,6 @@
   },
   {
     "q": "Which attribute is used to specify an alternative text for a table?",
-    "c": null,
     "o": [
       "summary",
       "alt",
@@ -2511,7 +2311,6 @@
   },
   {
     "q": "Which of the following CSS properties controls the horizontal alignment of table text?",
-    "c": null,
     "o": [
       "text-align",
       "align",
@@ -2521,7 +2320,6 @@
   },
   {
     "q": "What will happen if you apply 'border-collapse: separate;' to a table?",
-    "c": null,
     "o": [
       "Cells will have individual borders with spacing between them.",
       "Table borders will disappear.",
@@ -2531,7 +2329,6 @@
   },
   {
     "q": "Which CSS property can be used to style alternate rows in a table?",
-    "c": null,
     "o": [
       "nth-child()",
       "row-color",
@@ -2551,7 +2348,6 @@
   },
   {
     "q": "Which attribute is used to define the width of a table column?",
-    "c": null,
     "o": [
       "width",
       "col-width",
@@ -2561,7 +2357,6 @@
   },
   {
     "q": "Which of the following will correctly create a table row with three cells?",
-    "c": null,
     "o": [
       "<tr><td>A</td><td>B</td><td>C</td></tr>",
       "<row><td>A</td><td>B</td><td>C</td></row>",
@@ -2571,7 +2366,6 @@
   },
   {
     "q": "What is the default behavior of table borders in HTML?",
-    "c": null,
     "o": [
       "They are not displayed unless specified with CSS or 'border' attribute.",
       "They appear as solid black lines.",
@@ -2581,7 +2375,6 @@
   },
   {
     "q": "What does the 'caption-side' CSS property control?",
-    "c": null,
     "o": [
       "The position of a table caption (top or bottom).",
       "The alignment of table data.",
@@ -2591,7 +2384,6 @@
   },
   {
     "q": "Which HTML tag is used to specify a column in a <colgroup>?",
-    "c": null,
     "o": [
       "<col>",
       "<column>",
@@ -2601,7 +2393,6 @@
   },
   {
     "q": "What is the default vertical alignment of table cell content?",
-    "c": null,
     "o": [
       "Middle",
       "Top",
@@ -2611,7 +2402,6 @@
   },
   {
     "q": "Which of the following is the correct way to make a table responsive?",
-    "c": null,
     "o": [
       "Using 'overflow-x: auto' with a wrapper div.",
       "Setting 'table-width: auto'.",
@@ -2621,7 +2411,6 @@
   },
   {
     "q": "What will happen if you omit the <tbody> element in a table?",
-    "c": null,
     "o": [
       "The table will still work, but browsers may insert it automatically.",
       "The table will not render.",
@@ -2631,7 +2420,6 @@
   },
   {
     "q": "Which of the following is a valid CSS property to change the border color of a table?",
-    "c": null,
     "o": [
       "border-color",
       "table-border",
@@ -2641,7 +2429,6 @@
   },
   {
     "q": "What does 'table-layout: fixed;' do?",
-    "c": null,
     "o": [
       "Fixes column widths, ignoring content size.",
       "Automatically resizes table width based on content.",
@@ -2651,7 +2438,6 @@
   },
   {
     "q": "Which tag should be used for defining a table footer?",
-    "c": null,
     "o": [
       "<tfoot>",
       "<tbody>",
@@ -2661,7 +2447,6 @@
   },
   {
     "q": "Which attribute is used to define the relationship between table header cells and data cells?",
-    "c": null,
     "o": [
       "scope",
       "headers",
@@ -2671,7 +2456,6 @@
   },
   {
     "q": "Which of the following is the correct way to set padding inside table cells using CSS?",
-    "c": null,
     "o": [
       "padding",
       "cell-padding",
@@ -2681,7 +2465,6 @@
   },
   {
     "q": "Which HTML attribute specifies that a table cell should span multiple columns?",
-    "c": null,
     "o": [
       "colspan",
       "rowspan",
@@ -2691,7 +2474,6 @@
   },
   {
     "q": "What does 'border-spacing: 0;' do in CSS?",
-    "c": null,
     "o": [
       "Removes space between table cells.",
       "Collapses table borders.",
@@ -2701,7 +2483,6 @@
   },
   {
     "q": "Which of the following is the correct way to define a header cell in a table?",
-    "c": null,
     "o": [
       "<th>Header</th>",
       "<td header='true'>Header</td>",
@@ -2711,7 +2492,6 @@
   },
   {
     "q": "Which of the following is the correct way to merge two adjacent table cells horizontally?",
-    "c": null,
     "o": [
       "<td colspan='2'>Merged</td>",
       "<td rowspan='2'>Merged</td>",
@@ -2721,7 +2501,6 @@
   },
   {
     "q": "Which HTML element is used to group multiple columns together in a table?",
-    "c": null,
     "o": [
       "<colgroup>",
       "<thead>",
@@ -2731,7 +2510,6 @@
   },
   {
     "q": "What does the 'scope' attribute in a <th> element specify?",
-    "c": null,
     "o": [
       "Defines whether the header applies to a row, column, or group.",
       "Specifies the width of the column.",
@@ -2751,7 +2529,6 @@
   },
   {
     "q": "Which of the following CSS properties controls the vertical alignment of text in a table cell?",
-    "c": null,
     "o": [
       "vertical-align",
       "text-align",
@@ -2761,7 +2538,6 @@
   },
   {
     "q": "What is the difference between 'border-collapse: separate;' and 'border-collapse: collapse;'?",
-    "c": null,
     "o": [
       "'collapse' merges adjacent table borders, while 'separate' keeps them distinct.",
       "'separate' removes table borders, while 'collapse' keeps them visible.",
@@ -2771,7 +2547,6 @@
   },
   {
     "q": "Which HTML element is used to define a table row?",
-    "c": null,
     "o": [
       "<tr>",
       "<td>",
@@ -2781,7 +2556,6 @@
   },
   {
     "q": "What will happen if you set 'table-layout: fixed;' in CSS?",
-    "c": null,
     "o": [
       "Columns will have a fixed width regardless of content.",
       "Table width will adjust dynamically based on content.",
@@ -2791,7 +2565,6 @@
   },
   {
     "q": "Which HTML attribute specifies a table summary for accessibility?",
-    "c": null,
     "o": [
       "summary",
       "alt",
@@ -2811,7 +2584,6 @@
   },
   {
     "q": "Which CSS property sets the spacing between table cells?",
-    "c": null,
     "o": [
       "border-spacing",
       "padding",
@@ -2821,7 +2593,6 @@
   },
   {
     "q": "Which attribute specifies the background color of a table cell?",
-    "c": null,
     "o": [
       "style='background-color'",
       "bgcolor",
@@ -2831,7 +2602,6 @@
   },
   {
     "q": "Which of the following is a correct way to create a table with borders in HTML?",
-    "c": null,
     "o": [
       "<table border='1'>",
       "<table border-width='1px'>",
@@ -2841,7 +2611,6 @@
   },
   {
     "q": "What is the function of the <caption> tag in a table?",
-    "c": null,
     "o": [
       "Provides a title for the table.",
       "Defines a footer for the table.",
@@ -2851,7 +2620,6 @@
   },
   {
     "q": "Which of the following is the correct way to span two columns in a table?",
-    "c": null,
     "o": [
       "<td colspan='2'>Merged</td>",
       "<td rowspan='2'>Merged</td>",
@@ -2861,7 +2629,6 @@
   },
   {
     "q": "What does 'border-collapse: collapse;' do to a table?",
-    "c": null,
     "o": [
       "Merges adjacent table borders into a single border.",
       "Hides all table borders.",
@@ -2871,7 +2638,6 @@
   },
   {
     "q": "Which of the following CSS properties can be used to change the background color of alternate rows in a table?",
-    "c": null,
     "o": [
       "nth-child()",
       "row-color",
@@ -2881,7 +2647,6 @@
   },
   {
     "q": "Which of the following correctly sets the width of a table?",
-    "c": null,
     "o": [
       "<table style='width: 100%'>",
       "<table width='full'>",
@@ -2891,7 +2656,6 @@
   },
   {
     "q": "Which of the following CSS properties is used to align text horizontally in table cells?",
-    "c": null,
     "o": [
       "text-align",
       "align",
@@ -2901,7 +2665,6 @@
   },
   {
     "q": "What happens if a table has more <td> elements than <th> elements in a row?",
-    "c": null,
     "o": [
       "The extra <td> cells are still displayed, aligned with the row.",
       "The table will break and not render.",
@@ -2911,7 +2674,6 @@
   },
   {
     "q": "Which of the following is the correct way to span multiple rows in a table?",
-    "c": null,
     "o": [
       "<td rowspan='3'>Merged</td>",
       "<td colspan='3'>Merged</td>",
@@ -2921,7 +2683,6 @@
   },
   {
     "q": "Which of the following is the correct way to define a table with a fixed header?",
-    "c": null,
     "o": [
       "Using 'position: sticky' on the <th> elements.",
       "Applying 'float: left' to the <th> elements.",
@@ -2931,7 +2692,6 @@
   },
   {
     "q": "Which CSS property controls the space between the border and content inside a table cell?",
-    "c": null,
     "o": [
       "padding",
       "margin",
@@ -2941,7 +2701,6 @@
   },
   {
     "q": "Which HTML attribute is used to define the width of a table?",
-    "c": null,
     "o": [
       "width",
       "table-width",
@@ -2951,7 +2710,6 @@
   },
   {
     "q": "What is the default value of the 'border-collapse' property?",
-    "c": null,
     "o": [
       "separate",
       "collapse",
@@ -2961,7 +2719,6 @@
   },
   {
     "q": "Which of the following is used to apply a different background color to even rows in a table?",
-    "c": null,
     "o": [
       "tr:nth-child(even)",
       "table:even",
@@ -2971,7 +2728,6 @@
   },
   {
     "q": "Which HTML element represents a table header cell?",
-    "c": null,
     "o": [
       "<th>",
       "<thead>",
@@ -2991,7 +2747,6 @@
   },
   {
     "q": "What is the purpose of the 'headers' attribute in a <td> element?",
-    "c": null,
     "o": [
       "Links a data cell to one or more header cells for accessibility.",
       "Defines the font size of the table header.",
@@ -3001,7 +2756,6 @@
   },
   {
     "q": "Which of the following properties ensures that a table does not exceed its container width?",
-    "c": null,
     "o": [
       "max-width",
       "width",
@@ -3021,7 +2775,6 @@
   },
   {
     "q": "Which CSS property is used to remove the space between table borders?",
-    "c": null,
     "o": [
       "border-collapse",
       "border-spacing",
@@ -3031,7 +2784,6 @@
   },
   {
     "q": "Which of the following is a valid way to define a column in a table?",
-    "c": null,
     "o": [
       "<colgroup><col span='2'></colgroup>",
       "<colgroup><td colspan='2'></td></colgroup>",
@@ -3041,7 +2793,6 @@
   },
   {
     "q": "Which CSS property can be used to set a background color for a table?",
-    "c": null,
     "o": [
       "background-color",
       "table-bg",
@@ -3051,7 +2802,6 @@
   },
   {
     "q": "Which HTML element is used to define a table footer?",
-    "c": null,
     "o": [
       "<tfoot>",
       "<footer>",
@@ -3061,7 +2811,6 @@
   },
   {
     "q": "What happens if a <tr> element has fewer <td> elements than other rows?",
-    "c": null,
     "o": [
       "The missing cells will be empty but the table structure remains intact.",
       "The table will not render.",
@@ -3071,7 +2820,6 @@
   },
   {
     "q": "Which of the following is the correct way to align text to the center in table cells?",
-    "c": null,
     "o": [
       "text-align: center;",
       "align: center;",
@@ -3081,7 +2829,6 @@
   },
   {
     "q": "What is the default horizontal alignment of text inside a <td> element?",
-    "c": null,
     "o": [
       "Left",
       "Center",
@@ -3091,7 +2838,6 @@
   },
   {
     "q": "Which of the following ensures that table columns are evenly distributed?",
-    "c": null,
     "o": [
       "table-layout: fixed;",
       "width: auto;",
@@ -3101,7 +2847,6 @@
   },
   {
     "q": "Which of the following will create a table with no visible borders?",
-    "c": null,
     "o": [
       "<table>",
       "<table border='0'>",
@@ -3111,7 +2856,6 @@
   },
   {
     "q": "What will happen if 'overflow: auto;' is applied to a table inside a div?",
-    "c": null,
     "o": [
       "The table will scroll if it exceeds the div's dimensions.",
       "The table will resize to fit the div.",
@@ -3121,7 +2865,6 @@
   },
   {
     "q": "Which HTML attribute is used to define a tooltip text for a table cell?",
-    "c": null,
     "o": [
       "title",
       "alt",
@@ -3131,7 +2874,6 @@
   },
   {
     "q": "Which CSS property controls the space between table rows?",
-    "c": null,
     "o": [
       "border-spacing",
       "row-gap",
@@ -3141,7 +2883,6 @@
   },
   {
     "q": "What does the 'nowrap' attribute do in a <td> element?",
-    "c": null,
     "o": [
       "Prevents text from wrapping inside the cell.",
       "Removes all spacing inside the cell.",
@@ -3151,7 +2892,6 @@
   },
   {
     "q": "Which of the following is a valid way to merge two adjacent rows in a table?",
-    "c": null,
     "o": [
       "<td rowspan='2'>Merged</td>",
       "<td colspan='2'>Merged</td>",
@@ -3161,7 +2901,6 @@
   },
   {
     "q": "Which HTML element is used to group the body content of a table?",
-    "c": null,
     "o": [
       "<tbody>",
       "<tfoot>",
@@ -3171,7 +2910,6 @@
   },
   {
     "q": "What does the 'colspan' attribute do in a table cell?",
-    "c": null,
     "o": [
       "It allows a cell to span multiple columns.",
       "It merges multiple rows into a single row.",
@@ -3181,7 +2919,6 @@
   },
   {
     "q": "Which of the following is the correct way to define a table cell that spans three rows?",
-    "c": null,
     "o": [
       "<td rowspan='3'>Merged</td>",
       "<td colspan='3'>Merged</td>",
@@ -3191,7 +2928,6 @@
   },
   {
     "q": "What is the purpose of the <col> element in a table?",
-    "c": null,
     "o": [
       "It applies styling to entire columns.",
       "It merges multiple table cells.",
@@ -3201,7 +2937,6 @@
   },
   {
     "q": "Which CSS property is used to control the spacing between the table and its border?",
-    "c": null,
     "o": [
       "border-spacing",
       "padding",
@@ -3221,7 +2956,6 @@
   },
   {
     "q": "What is the correct way to add a caption to a table?",
-    "c": null,
     "o": [
       "<caption>Table Title</caption>",
       "<title>Table Title</title>",
@@ -3231,7 +2965,6 @@
   },
   {
     "q": "What happens if a table has more columns in one row than another?",
-    "c": null,
     "o": [
       "The table adjusts to fit the extra columns.",
       "The extra columns are ignored.",
@@ -3241,7 +2974,6 @@
   },
   {
     "q": "Which CSS property ensures that text inside a table cell does not wrap?",
-    "c": null,
     "o": [
       "white-space: nowrap;",
       "text-wrap: none;",
@@ -3251,7 +2983,6 @@
   },
   {
     "q": "Which of the following is the correct way to set a fixed width for a table?",
-    "c": null,
     "o": [
       "<table style='width: 500px;'>",
       "<table width='500px'>",
@@ -3261,7 +2992,6 @@
   },
   {
     "q": "Which of the following ensures that a table column does not exceed a specific width?",
-    "c": null,
     "o": [
       "max-width",
       "table-width",
@@ -3271,7 +3001,6 @@
   },
   {
     "q": "Which CSS property is used to specify the horizontal alignment of text in a table cell?",
-    "c": null,
     "o": [
       "text-align",
       "align-items",
@@ -3281,7 +3010,6 @@
   },
   {
     "q": "What will happen if 'overflow: scroll;' is applied to a table container?",
-    "c": null,
     "o": [
       "A scrollbar appears when the table exceeds the container's size.",
       "The table shrinks to fit the container.",
@@ -3291,7 +3019,6 @@
   },
   {
     "q": "What is the function of the <thead> tag in a table?",
-    "c": null,
     "o": [
       "It groups header content in a table.",
       "It makes the header row bold.",
@@ -3301,7 +3028,6 @@
   },
   {
     "q": "What happens if a table has a <tfoot> before a <tbody>?",
-    "c": null,
     "o": [
       "The browser still renders it correctly.",
       "The table will not be displayed.",
@@ -3311,7 +3037,6 @@
   },
   {
     "q": "Which of the following correctly defines a table cell with a background image?",
-    "c": null,
     "o": [
       "<td style='background-image: url(image.jpg);'>",
       "<td bg='image.jpg'>",
@@ -3321,7 +3046,6 @@
   },
   {
     "q": "Which of the following CSS properties controls the width of individual table columns?",
-    "c": null,
     "o": [
       "width",
       "column-width",
@@ -3341,7 +3065,6 @@
   },
   {
     "q": "What is the difference between <thead> and <th>?",
-    "c": null,
     "o": [
       "<thead> groups header rows, while <th> defines individual header cells.",
       "<th> groups header rows, while <thead> defines header cells.",
@@ -3351,7 +3074,6 @@
   },
   {
     "q": "Which of the following correctly centers text inside a table cell?",
-    "c": null,
     "o": [
       "text-align: center;",
       "align: middle;",
@@ -3361,7 +3083,6 @@
   },
   {
     "q": "Which HTML attribute is used to specify an alternative text description for a table?",
-    "c": null,
     "o": [
       "summary",
       "alt",
@@ -3371,7 +3092,6 @@
   },
   {
     "q": "Which of the following HTML elements is NOT valid inside a <table>?",
-    "c": null,
     "o": [
       "<div>",
       "<thead>",
@@ -3381,7 +3101,6 @@
   },
   {
     "q": "Which CSS property is used to collapse table borders into a single border?",
-    "c": null,
     "o": [
       "border-collapse",
       "border-spacing",
@@ -3391,7 +3110,6 @@
   },
   {
     "q": "Which of the following will make a table header fixed while scrolling?",
-    "c": null,
     "o": [
       "position: sticky; top: 0;",
       "position: fixed;",
@@ -3401,7 +3119,6 @@
   },
   {
     "q": "Which HTML attribute is used to define the space between table cells?",
-    "c": null,
     "o": [
       "cellspacing",
       "cellpadding",
@@ -3411,7 +3128,6 @@
   },
   {
     "q": "Which HTML element is used to define a group of columns in a table?",
-    "c": null,
     "o": [
       "<colgroup>",
       "<columns>",
@@ -3431,7 +3147,6 @@
   },
   {
     "q": "Which CSS property is used to control the height of table rows?",
-    "c": null,
     "o": [
       "height",
       "row-height",
@@ -3441,7 +3156,6 @@
   },
   {
     "q": "Which of the following statements is true about the <caption> element?",
-    "c": null,
     "o": [
       "It must be the first child of the <table> element.",
       "It is used to define column headers.",
@@ -3451,7 +3165,6 @@
   },
   {
     "q": "What happens if a <td> element is left empty?",
-    "c": null,
     "o": [
       "It still occupies space in the table layout.",
       "The entire row collapses.",
@@ -3461,7 +3174,6 @@
   },
   {
     "q": "Which CSS property defines the spacing between table borders when 'border-collapse' is set to 'separate'?",
-    "c": null,
     "o": [
       "border-spacing",
       "cellspacing",
@@ -3481,7 +3193,6 @@
   },
   {
     "q": "Which CSS property can be used to set different background colors for alternating rows in a table?",
-    "c": null,
     "o": [
       "nth-child()",
       "row-color",
@@ -3491,7 +3202,6 @@
   },
   {
     "q": "Which of the following is the correct way to create a table row with three columns?",
-    "c": null,
     "o": [
       "<tr><td>1</td><td>2</td><td>3</td></tr>",
       "<row><td>1</td><td>2</td><td>3</td></row>",
@@ -3501,7 +3211,6 @@
   },
   {
     "q": "Which of the following correctly defines a table with a 2-pixel border?",
-    "c": null,
     "o": [
       "<table style='border: 2px solid black;'>",
       "<table border='2px'>",
@@ -3511,7 +3220,6 @@
   },
   {
     "q": "Which of the following is a valid HTML5 table structure?",
-    "c": null,
     "o": [
       "<table><thead><tr><th>Header</th></tr></thead><tbody><tr><td>Data</td></tr></tbody></table>",
       "<table><th>Header</th><tr><td>Data</td></tr></table>",
@@ -3521,7 +3229,6 @@
   },
   {
     "q": "Which HTML element is used to define the footer section of a table?",
-    "c": null,
     "o": [
       "<tfoot>",
       "<footer>",
@@ -3531,7 +3238,6 @@
   },
   {
     "q": "Which HTML attribute makes a table cell span multiple columns?",
-    "c": null,
     "o": [
       "colspan",
       "rowspan",
@@ -3541,7 +3247,6 @@
   },
   {
     "q": "What happens if a table is too wide for the screen?",
-    "c": null,
     "o": [
       "It overflows or scrolls based on CSS settings.",
       "The browser automatically resizes it.",
@@ -3551,7 +3256,6 @@
   },
   {
     "q": "Which of the following is a valid way to set a table’s width to 100% of its container?",
-    "c": null,
     "o": [
       "<table style='width: 100%;'>",
       "<table width='100%'>",
@@ -3561,7 +3265,6 @@
   },
   {
     "q": "Which of the following ensures equal column width in a table?",
-    "c": null,
     "o": [
       "table-layout: fixed;",
       "width: auto;",
@@ -3571,7 +3274,6 @@
   },
   {
     "q": "What is the purpose of the 'scope' attribute in a <th> element?",
-    "c": null,
     "o": [
       "It specifies whether the header applies to a row or column.",
       "It merges header cells.",
@@ -3581,7 +3283,6 @@
   },
   {
     "q": "Which CSS property is used to define the vertical alignment of content in a table cell?",
-    "c": null,
     "o": [
       "vertical-align",
       "align-items",
@@ -3591,7 +3292,6 @@
   },
   {
     "q": "Which of the following is the correct way to specify a fixed height for a table?",
-    "c": null,
     "o": [
       "<table style='height: 300px;'>",
       "<table height='300px'>",
@@ -3601,7 +3301,6 @@
   },
   {
     "q": "Which HTML element is used to define column headers in a table?",
-    "c": null,
     "o": [
       "<th>",
       "<thead>",
@@ -3621,7 +3320,6 @@
   },
   {
     "q": "Which attribute is used to specify that a table cell should span multiple rows?",
-    "c": null,
     "o": [
       "rowspan",
       "colspan",
@@ -3631,7 +3329,6 @@
   },
   {
     "q": "Which CSS property is used to make a table fit its content?",
-    "c": null,
     "o": [
       "table-layout: auto;",
       "width: 100%;",
@@ -3641,7 +3338,6 @@
   },
   {
     "q": "Which of the following CSS properties can be used to style the border around table cells?",
-    "c": null,
     "o": [
       "border",
       "outline",
@@ -3651,7 +3347,6 @@
   },
   {
     "q": "What happens when 'border-collapse: collapse;' is applied to a table?",
-    "c": null,
     "o": [
       "Adjacent cell borders are merged into a single border.",
       "Borders are removed from the table.",
@@ -3661,7 +3356,6 @@
   },
   {
     "q": "Which of the following is the correct way to define a table header row?",
-    "c": null,
     "o": [
       "<thead><tr><th>Header 1</th><th>Header 2</th></tr></thead>",
       "<header><tr><th>Header 1</th><th>Header 2</th></tr></header>",
@@ -3671,7 +3365,6 @@
   },
   {
     "q": "What will happen if you apply 'table-layout: fixed;' to a table?",
-    "c": null,
     "o": [
       "The column widths are determined by the width of the table and not the content.",
       "The table automatically adjusts column widths based on content.",
@@ -3681,7 +3374,6 @@
   },
   {
     "q": "Which of the following is the correct way to add a table with a border and padding in CSS?",
-    "c": null,
     "o": [
       "table { border: 1px solid black; padding: 5px; }",
       "table { border-width: 1px; padding: 5px; }",
@@ -3691,7 +3383,6 @@
   },
   {
     "q": "Which CSS property is used to define the width of table columns?",
-    "c": null,
     "o": [
       "width",
       "column-width",
@@ -3701,7 +3392,6 @@
   },
   {
     "q": "What is the purpose of the <colgroup> element in a table?",
-    "c": null,
     "o": [
       "It allows you to apply styles to entire columns.",
       "It groups table headers together.",
@@ -3711,7 +3401,6 @@
   },
   {
     "q": "Which of the following HTML structures correctly defines a table with a caption?",
-    "c": null,
     "o": [
       "<table><caption>Table Title</caption><tr><td>Data</td></tr></table>",
       "<caption><table>Table Title</table></caption>",
@@ -3721,7 +3410,6 @@
   },
   {
     "q": "Which of the following ensures that a table does not exceed the width of its container?",
-    "c": null,
     "o": [
       "max-width: 100%;",
       "table-size: auto;",
@@ -3731,7 +3419,6 @@
   },
   {
     "q": "What does the 'scope' attribute in a <th> element define?",
-    "c": null,
     "o": [
       "It specifies whether the header is for a row, column, or group of cells.",
       "It merges the header with adjacent cells.",
@@ -3741,7 +3428,6 @@
   },
   {
     "q": "What happens if you do not specify the number of columns in a table?",
-    "c": null,
     "o": [
       "The browser automatically adjusts the column layout based on the rows.",
       "The table does not render.",
@@ -3751,7 +3437,6 @@
   },
   {
     "q": "Which of the following correctly defines a table with a fixed height of 200 pixels?",
-    "c": null,
     "o": [
       "<table style='height: 200px;'>",
       "<table height='200px'>",
@@ -3761,7 +3446,6 @@
   },
   {
     "q": "What is the default alignment of text inside a <td> element?",
-    "c": null,
     "o": [
       "Left-aligned",
       "Centered",
@@ -3771,7 +3455,6 @@
   },
   {
     "q": "Which of the following ensures that the first row of a table remains visible while scrolling?",
-    "c": null,
     "o": [
       "position: sticky; top: 0;",
       "position: absolute;",
@@ -3791,7 +3474,6 @@
   },
   {
     "q": "Which HTML attribute defines the background color of a table?",
-    "c": null,
     "o": [
       "bgcolor",
       "background",
@@ -3801,7 +3483,6 @@
   },
   {
     "q": "Which of the following is true about the <tbody> element?",
-    "c": null,
     "o": [
       "It groups the main content of the table.",
       "It is required in every table.",
@@ -3811,7 +3492,6 @@
   },
   {
     "q": "Which HTML element is used to define a table row?",
-    "c": null,
     "o": [
       "<tr>",
       "<row>",
@@ -3821,7 +3501,6 @@
   },
   {
     "q": "Which attribute is used to control the space inside a table cell?",
-    "c": null,
     "o": [
       "cellpadding",
       "cellspacing",
@@ -3831,7 +3510,6 @@
   },
   {
     "q": "Which of the following will merge two adjacent cells horizontally?",
-    "c": null,
     "o": [
       "<td colspan='2'>",
       "<td rowspan='2'>",
@@ -3851,7 +3529,6 @@
   },
   {
     "q": "Which HTML element is used to define the body section of a table?",
-    "c": null,
     "o": [
       "<tbody>",
       "<tablebody>",
@@ -3861,7 +3538,6 @@
   },
   {
     "q": "Which of the following CSS properties is used to add spacing between table cells when 'border-collapse' is set to 'separate'?",
-    "c": null,
     "o": [
       "border-spacing",
       "cellpadding",
@@ -3871,7 +3547,6 @@
   },
   {
     "q": "What does the 'align' attribute in a <table> element control?",
-    "c": null,
     "o": [
       "The alignment of the table within its container.",
       "The alignment of text within table cells.",
@@ -3881,7 +3556,6 @@
   },
   {
     "q": "What is the default border style of an HTML table?",
-    "c": null,
     "o": [
       "No border",
       "Solid black border",
@@ -3891,7 +3565,6 @@
   },
   {
     "q": "Which CSS property is used to control the thickness of table borders?",
-    "c": null,
     "o": [
       "border-width",
       "border-thickness",
@@ -3901,7 +3574,6 @@
   },
   {
     "q": "What is the correct way to define a table with alternating row colors using CSS?",
-    "c": null,
     "o": [
       "tr:nth-child(even) { background-color: #f2f2f2; }",
       "tr:nth-child(2n+1) { background-color: #f2f2f2; }",
@@ -3911,7 +3583,6 @@
   },
   {
     "q": "What will happen if the number of <td> elements in a row is less than the number of columns in other rows?",
-    "c": null,
     "o": [
       "The missing columns will be empty.",
       "The table will generate an error.",
@@ -3921,7 +3592,6 @@
   },
   {
     "q": "Which of the following correctly defines a table with no borders?",
-    "c": null,
     "o": [
       "<table style='border: none;'>",
       "<table noborder>",
@@ -3931,7 +3601,6 @@
   },
   {
     "q": "Which attribute can be used to specify the width of a table column?",
-    "c": null,
     "o": [
       "width",
       "colspan",
@@ -3941,7 +3610,6 @@
   },
   {
     "q": "Which HTML attribute defines a tooltip for a table cell?",
-    "c": null,
     "o": [
       "title",
       "alt",
@@ -3951,7 +3619,6 @@
   },
   {
     "q": "Which of the following is a correct way to set an HTML table’s height?",
-    "c": null,
     "o": [
       "<table style='height: 100px;'>",
       "<table height='100px'>",
@@ -3961,7 +3628,6 @@
   },
   {
     "q": "What will happen if a <td> element contains an image larger than the cell itself?",
-    "c": null,
     "o": [
       "The image will overflow unless styled with CSS.",
       "The table will automatically resize to fit the image.",
@@ -3971,7 +3637,6 @@
   },
   {
     "q": "Which CSS property can be used to make table rows evenly spaced?",
-    "c": null,
     "o": [
       "height",
       "row-gap",
@@ -3981,7 +3646,6 @@
   },
   {
     "q": "Which HTML attribute defines a default alignment for table text?",
-    "c": null,
     "o": [
       "align",
       "valign",
@@ -3991,7 +3655,6 @@
   },
   {
     "q": "Which of the following ensures that table headers remain visible when scrolling?",
-    "c": null,
     "o": [
       "position: sticky; top: 0;",
       "position: absolute;",
@@ -4001,7 +3664,6 @@
   },
   {
     "q": "Which attribute specifies that a table header applies to a specific section of the table?",
-    "c": null,
     "o": [
       "scope",
       "header",
@@ -4021,7 +3683,6 @@
   },
   {
     "q": "Which tag is used to group multiple columns in an HTML table?",
-    "c": null,
     "o": [
       "<colgroup>",
       "<colspan>",
@@ -4031,7 +3692,6 @@
   },
   {
     "q": "Which HTML element represents a table footer?",
-    "c": null,
     "o": [
       "<tfoot>",
       "<tfootter>",
@@ -4041,7 +3701,6 @@
   },
   {
     "q": "What will happen if you do not specify a <tbody> element in an HTML table?",
-    "c": null,
     "o": [
       "The browser automatically adds it.",
       "The table will not be displayed.",
@@ -4051,7 +3710,6 @@
   },
   {
     "q": "Which CSS property is used to make a table take the full width of its container?",
-    "c": null,
     "o": [
       "width: 100%;",
       "table-width: full;",
@@ -4061,7 +3719,6 @@
   },
   {
     "q": "Which attribute is used to set the space between adjacent cells in an HTML table?",
-    "c": null,
     "o": [
       "cellspacing",
       "cellpadding",
@@ -4071,7 +3728,6 @@
   },
   {
     "q": "What is the correct way to set a border for all table cells?",
-    "c": null,
     "o": [
       "table, th, td { border: 1px solid black; }",
       "table.border { all: 1px solid black; }",
@@ -4081,7 +3737,6 @@
   },
   {
     "q": "Which tag should be used to add a title to an HTML table?",
-    "c": null,
     "o": [
       "<caption>",
       "<title>",
@@ -4101,7 +3756,6 @@
   },
   {
     "q": "What does the 'scope' attribute do in a <th> element?",
-    "c": null,
     "o": [
       "It specifies whether the header applies to a row, column, or group.",
       "It defines the width of the column.",
@@ -4111,7 +3765,6 @@
   },
   {
     "q": "Which CSS property removes double borders between table cells?",
-    "c": null,
     "o": [
       "border-collapse: collapse;",
       "border-spacing: 0;",
@@ -4121,7 +3774,6 @@
   },
   {
     "q": "Which HTML attribute is used to define the background color of a table?",
-    "c": null,
     "o": [
       "bgcolor",
       "background",
@@ -4131,7 +3783,6 @@
   },
   {
     "q": "Which tag is used to define a column inside a <colgroup>?",
-    "c": null,
     "o": [
       "<col>",
       "<column>",
@@ -4141,7 +3792,6 @@
   },
   {
     "q": "How can you center the text inside all table cells?",
-    "c": null,
     "o": [
       "table, th, td { text-align: center; }",
       "table { align: center; }",
@@ -4151,7 +3801,6 @@
   },
   {
     "q": "What will happen if a <th> element is used inside <tbody>?",
-    "c": null,
     "o": [
       "It will be styled like a normal <td> unless explicitly defined.",
       "The table will not render.",
@@ -4161,7 +3810,6 @@
   },
   {
     "q": "Which HTML attribute defines how a table should align within its container?",
-    "c": null,
     "o": [
       "align",
       "position",
@@ -4171,7 +3819,6 @@
   },
   {
     "q": "Which tag is used to define table column headers?",
-    "c": null,
     "o": [
       "<th>",
       "<td>",
@@ -4181,7 +3828,6 @@
   },
   {
     "q": "What does the 'table-layout: fixed;' CSS property do?",
-    "c": null,
     "o": [
       "It forces the column widths to be equal and not adjust based on content.",
       "It allows the table to dynamically resize based on its content.",
@@ -4191,7 +3837,6 @@
   },
   {
     "q": "Which HTML attribute defines a tooltip for a table cell?",
-    "c": null,
     "o": [
       "title",
       "alt",
@@ -4201,7 +3846,6 @@
   },
   {
     "q": "Which of the following is the correct way to span two columns inside a table?",
-    "c": null,
     "o": [
       "<td colspan='2'>",
       "<td rowspan='2'>",
@@ -4211,7 +3855,6 @@
   },
   {
     "q": "What will happen if a <td> element contains more content than the available cell width?",
-    "c": null,
     "o": [
       "The content will overflow unless styled with CSS.",
       "The table will automatically expand to fit the content.",
@@ -4221,7 +3864,6 @@
   },
   {
     "q": "What is the correct way to set the width of the first column in a table?",
-    "c": null,
     "o": [
       "col:first-child { width: 200px; }",
       "column:first-child { width: 200px; }",
@@ -4231,7 +3873,6 @@
   },
   {
     "q": "What happens if you set 'display: flex;' on a <table>?",
-    "c": null,
     "o": [
       "It will break the table structure.",
       "It will align table rows horizontally.",
@@ -4241,7 +3882,6 @@
   },
   {
     "q": "Which tag is used to define a table's header section?",
-    "c": null,
     "o": [
       "<thead>",
       "<th>",
@@ -4251,7 +3891,6 @@
   },
   {
     "q": "Which CSS property ensures a table remains within its parent container without overflowing?",
-    "c": null,
     "o": [
       "max-width: 100%;",
       "width: auto;",
@@ -4261,7 +3900,6 @@
   },
   {
     "q": "Which HTML tag is used to define a table?",
-    "c": null,
     "o": [
       "<table>",
       "<tbl>",
@@ -4271,7 +3909,6 @@
   },
   {
     "q": "Which tag is used to define a single row in an HTML table?",
-    "c": null,
     "o": [
       "<tr>",
       "<td>",
@@ -4281,7 +3918,6 @@
   },
   {
     "q": "Which tag is used to define a single data cell in an HTML table?",
-    "c": null,
     "o": [
       "<td>",
       "<tr>",
@@ -4301,7 +3937,6 @@
   },
   {
     "q": "Which tag is used to group header content in an HTML table?",
-    "c": null,
     "o": [
       "<thead>",
       "<thgroup>",
@@ -4311,7 +3946,6 @@
   },
   {
     "q": "Which attribute is used to merge multiple rows in a table cell?",
-    "c": null,
     "o": [
       "rowspan",
       "colspan",
@@ -4331,7 +3965,6 @@
   },
   {
     "q": "Which attribute is used to merge multiple columns in a table cell?",
-    "c": null,
     "o": [
       "colspan",
       "rowspan",
@@ -4341,7 +3974,6 @@
   },
   {
     "q": "Which CSS property can be used to add space between table borders?",
-    "c": null,
     "o": [
       "border-spacing",
       "border-padding",
@@ -4351,7 +3983,6 @@
   },
   {
     "q": "What will happen if 'border-collapse: collapse;' is applied to a table?",
-    "c": null,
     "o": [
       "Table borders will merge into a single border.",
       "Table rows will merge into a single row.",
@@ -4361,7 +3992,6 @@
   },
   {
     "q": "Which CSS property allows controlling whether table headers repeat on each printed page?",
-    "c": null,
     "o": [
       "page-break-inside: avoid;",
       "print-repeat: headers;",
@@ -4371,7 +4001,6 @@
   },
   {
     "q": "Which CSS property can be used to make a table’s width adjust automatically based on its content?",
-    "c": null,
     "o": [
       "table-layout: auto;",
       "width: fit-content;",
@@ -4381,7 +4010,6 @@
   },
   {
     "q": "Which tag is used to define a footer for an HTML table?",
-    "c": null,
     "o": [
       "<tfoot>",
       "<tablefooter>",
@@ -4391,7 +4019,6 @@
   },
   {
     "q": "Which HTML attribute is used to specify the number of rows a cell should span?",
-    "c": null,
     "o": [
       "rowspan",
       "colspan",
@@ -4401,7 +4028,6 @@
   },
   {
     "q": "What is the default text alignment for table data (<td>)?",
-    "c": null,
     "o": [
       "Left-aligned",
       "Center-aligned",
@@ -4411,7 +4037,6 @@
   },
   {
     "q": "What will happen if a table does not contain any <tr> elements?",
-    "c": null,
     "o": [
       "The table will be empty and not display any data.",
       "The browser will automatically generate rows.",
@@ -4421,7 +4046,6 @@
   },
   {
     "q": "Which CSS property is used to control the height of table rows?",
-    "c": null,
     "o": [
       "height",
       "row-height",
@@ -4431,7 +4055,6 @@
   },
   {
     "q": "Which of the following tags is optional when defining an HTML table?",
-    "c": null,
     "o": [
       "<tbody>",
       "<thead>",
@@ -4441,7 +4064,6 @@
   },
   {
     "q": "What is the correct way to center a table horizontally within its container?",
-    "c": null,
     "o": [
       "table { margin: 0 auto; }",
       "table { align: center; }",
@@ -4451,7 +4073,6 @@
   },
   {
     "q": "Which attribute is used to specify a title or description for a table?",
-    "c": null,
     "o": [
       "<caption>",
       "<title>",
@@ -4461,7 +4082,6 @@
   },
   {
     "q": "Which tag is used to define a table column group?",
-    "c": null,
     "o": [
       "<colgroup>",
       "<col>",
@@ -4471,7 +4091,6 @@
   },
   {
     "q": "Which tag is used to define an individual column inside a <colgroup>?",
-    "c": null,
     "o": [
       "<col>",
       "<column>",
@@ -4481,7 +4100,6 @@
   },
   {
     "q": "What is the default behavior of text inside a <th> element?",
-    "c": null,
     "o": [
       "Bold and centered",
       "Bold and left-aligned",
@@ -4491,7 +4109,6 @@
   },
   {
     "q": "Which HTML attribute is used to define the width of a table?",
-    "c": null,
     "o": [
       "width",
       "table-width",
@@ -4501,7 +4118,6 @@
   },
   {
     "q": "Which CSS property can be used to change the background color of table cells?",
-    "c": null,
     "o": [
       "background-color",
       "bgcolor",
@@ -4511,7 +4127,6 @@
   },
   {
     "q": "Which attribute is used to align table text to the top of a cell?",
-    "c": null,
     "o": [
       "valign='top'",
       "align='top'",
@@ -4521,7 +4136,6 @@
   },
   {
     "q": "What happens if a table cell contains more text than its defined width?",
-    "c": null,
     "o": [
       "The text overflows unless styled with CSS.",
       "The text automatically shrinks.",
@@ -4531,7 +4145,6 @@
   },
   {
     "q": "Which HTML tag is used to define the main body of a table?",
-    "c": null,
     "o": [
       "<tbody>",
       "<tablebody>",
@@ -4541,7 +4154,6 @@
   },
   {
     "q": "Which tag is used to define a table row?",
-    "c": null,
     "o": [
       "<tr>",
       "<td>",
@@ -4551,7 +4163,6 @@
   },
   {
     "q": "Which attribute is used to specify the space inside table cells?",
-    "c": null,
     "o": [
       "cellpadding",
       "cellspacing",
@@ -4571,7 +4182,6 @@
   },
   {
     "q": "Which attribute specifies an alternative text for a table when it cannot be displayed?",
-    "c": null,
     "o": [
       "summary",
       "alt",
@@ -4581,7 +4191,6 @@
   },
   {
     "q": "Which HTML tag is used to define a caption for a table?",
-    "c": null,
     "o": [
       "<caption>",
       "<title>",
@@ -4591,7 +4200,6 @@
   },
   {
     "q": "What does the 'scope' attribute in a <th> tag do?",
-    "c": null,
     "o": [
       "It defines whether the header applies to a row, column, or group.",
       "It specifies the font size of the header.",
@@ -4601,7 +4209,6 @@
   },
   {
     "q": "What will happen if you use rowspan='2' on a table cell?",
-    "c": null,
     "o": [
       "The cell will span two rows.",
       "The cell will span two columns.",
@@ -4611,7 +4218,6 @@
   },
   {
     "q": "Which CSS property ensures that a table fits within its parent container?",
-    "c": null,
     "o": [
       "max-width: 100%;",
       "table-size: contain;",
@@ -4621,7 +4227,6 @@
   },
   {
     "q": "What will happen if you apply 'table-layout: fixed;' to an HTML table?",
-    "c": null,
     "o": [
       "The column widths will be equal and not adjust based on content.",
       "The table will automatically resize based on content.",
@@ -4631,7 +4236,6 @@
   },
   {
     "q": "Which HTML tag is used to define a table column group?",
-    "c": null,
     "o": [
       "<colgroup>",
       "<columns>",
@@ -4641,7 +4245,6 @@
   },
   {
     "q": "Which HTML tag is used to define an individual column inside a <colgroup>?",
-    "c": null,
     "o": [
       "<col>",
       "<column>",
@@ -4651,7 +4254,6 @@
   },
   {
     "q": "Which of the following CSS properties is used to control the space between adjacent table cells?",
-    "c": null,
     "o": [
       "border-spacing",
       "cell-spacing",
@@ -4661,7 +4263,6 @@
   },
   {
     "q": "Which tag should be used to define a table's header section?",
-    "c": null,
     "o": [
       "<thead>",
       "<header>",
@@ -4671,7 +4272,6 @@
   },
   {
     "q": "What will happen if you use <td> inside <thead>?",
-    "c": null,
     "o": [
       "It will be styled as a normal <td> unless explicitly defined.",
       "The table will not render.",
@@ -4681,7 +4281,6 @@
   },
   {
     "q": "What is the default text alignment for content inside a <th> element?",
-    "c": null,
     "o": [
       "Centered",
       "Left-aligned",
@@ -4691,7 +4290,6 @@
   },
   {
     "q": "Which of the following will correctly set a border for a table and all its cells?",
-    "c": null,
     "o": [
       "table, th, td { border: 1px solid black; }",
       "table { all-borders: 1px solid black; }",
@@ -4701,7 +4299,6 @@
   },
   {
     "q": "Which attribute is used to specify a tooltip text for a table cell?",
-    "c": null,
     "o": [
       "title",
       "tooltip",
@@ -4711,7 +4308,6 @@
   },
   {
     "q": "Which attribute controls the alignment of table text vertically?",
-    "c": null,
     "o": [
       "valign",
       "align",
@@ -4721,7 +4317,6 @@
   },
   {
     "q": "Which CSS property is used to remove the double border effect between adjacent table cells?",
-    "c": null,
     "o": [
       "border-collapse: collapse;",
       "border-spacing: 0;",
@@ -4731,7 +4326,6 @@
   },
   {
     "q": "What will happen if you specify <tbody> but do not include any <tr> elements inside it?",
-    "c": null,
     "o": [
       "The table body will be empty, and nothing will be displayed.",
       "The browser will automatically add empty rows.",
@@ -4741,7 +4335,6 @@
   },
   {
     "q": "Which attribute is used to merge adjacent cells horizontally?",
-    "c": null,
     "o": [
       "colspan",
       "rowspan",
@@ -4751,7 +4344,6 @@
   },
   {
     "q": "Which CSS property ensures that text within table cells wraps properly?",
-    "c": null,
     "o": [
       "word-wrap: break-word;",
       "white-space: nowrap;",
@@ -4761,7 +4353,6 @@
   },
   {
     "q": "Which HTML tag is used to define a footer row in a table?",
-    "c": null,
     "o": [
       "<tfoot>",
       "<footer>",
@@ -4771,7 +4362,6 @@
   },
   {
     "q": "Which CSS property controls whether a table header remains visible while scrolling?",
-    "c": null,
     "o": [
       "position: sticky;",
       "table-header: fixed;",
@@ -4781,7 +4371,6 @@
   },
   {
     "q": "Which HTML attribute is used to specify that a table cell should span multiple columns?",
-    "c": null,
     "o": [
       "colspan",
       "rowspan",
@@ -4791,7 +4380,6 @@
   },
   {
     "q": "Which HTML attribute is used to specify that a table cell should span multiple rows?",
-    "c": null,
     "o": [
       "rowspan",
       "colspan",
@@ -4801,7 +4389,6 @@
   },
   {
     "q": "Which element is used to define a section of columns in an HTML table?",
-    "c": null,
     "o": [
       "<colgroup>",
       "<thead>",
@@ -4811,7 +4398,6 @@
   },
   {
     "q": "What is the default alignment of text inside a <td> element?",
-    "c": null,
     "o": [
       "Left-aligned",
       "Center-aligned",
@@ -4821,7 +4407,6 @@
   },
   {
     "q": "What is the default alignment of text inside a <th> element?",
-    "c": null,
     "o": [
       "Center-aligned",
       "Left-aligned",
@@ -4841,7 +4426,6 @@
   },
   {
     "q": "Which CSS property removes the space between table borders?",
-    "c": null,
     "o": [
       "border-collapse",
       "border-spacing",
@@ -4851,7 +4435,6 @@
   },
   {
     "q": "Which tag is used to create a header section in a table?",
-    "c": null,
     "o": [
       "<thead>",
       "<th>",
@@ -4861,7 +4444,6 @@
   },
   {
     "q": "Which CSS property can be used to make table headers remain visible while scrolling?",
-    "c": null,
     "o": [
       "position: sticky;",
       "table-layout: fixed;",
@@ -4871,7 +4453,6 @@
   },
   {
     "q": "What is the role of the <tfoot> element in an HTML table?",
-    "c": null,
     "o": [
       "It defines a footer section for a table.",
       "It makes the table scrollable.",
@@ -4881,7 +4462,6 @@
   },
   {
     "q": "What will happen if a <th> element is placed inside <tfoot>?",
-    "c": null,
     "o": [
       "It will still be rendered as a table header but inside the footer section.",
       "It will generate an error because <th> can only be used inside <thead>.",
@@ -4891,7 +4471,6 @@
   },
   {
     "q": "Which of the following correctly applies a background color to all table headers?",
-    "c": null,
     "o": [
       "th { background-color: gray; }",
       "thead { background: red; }",
@@ -4901,7 +4480,6 @@
   },
   {
     "q": "Which CSS property sets a table's width to adjust automatically based on its content?",
-    "c": null,
     "o": [
       "table-layout: auto;",
       "width: auto;",
@@ -4911,7 +4489,6 @@
   },
   {
     "q": "Which attribute allows a table cell to contain an image that aligns to the center?",
-    "c": null,
     "o": [
       "style='text-align: center;'",
       "align='center'",
@@ -4921,7 +4498,6 @@
   },
   {
     "q": "Which HTML tag is used to define an individual column in a <colgroup>?",
-    "c": null,
     "o": [
       "<col>",
       "<column>",
@@ -4931,7 +4507,6 @@
   },
   {
     "q": "Which of the following HTML elements are optional when defining a table?",
-    "c": null,
     "o": [
       "<tbody>",
       "<thead>",
@@ -4941,7 +4516,6 @@
   },
   {
     "q": "Which of the following CSS properties is used to specify space between table cells?",
-    "c": null,
     "o": [
       "border-spacing",
       "margin",
@@ -4951,7 +4525,6 @@
   },
   {
     "q": "What will happen if a <thead> section is omitted in a table?",
-    "c": null,
     "o": [
       "The table will still work, but no distinct header section will be created.",
       "The table will not be displayed.",
@@ -4961,7 +4534,6 @@
   },
   {
     "q": "What does the 'scope' attribute in a <th> element do?",
-    "c": null,
     "o": [
       "It defines whether the header applies to a row, column, or group.",
       "It specifies the width of the column.",
@@ -4971,7 +4543,6 @@
   },
   {
     "q": "Which of the following will correctly set the width of all <td> elements to 200px?",
-    "c": null,
     "o": [
       "td { width: 200px; }",
       "table td { height: 200px; }",
@@ -4981,7 +4552,6 @@
   },
   {
     "q": "Which attribute is used to align text vertically inside a table cell?",
-    "c": null,
     "o": [
       "valign",
       "align",
@@ -4991,7 +4561,6 @@
   },
   {
     "q": "Which CSS property allows a table row to have a different background color when hovered over?",
-    "c": null,
     "o": [
       "tr:hover { background-color: yellow; }",
       "row:hover { background-color: yellow; }",
@@ -5001,7 +4570,6 @@
   },
   {
     "q": "What does the 'border' attribute do in a <table> tag?",
-    "c": null,
     "o": [
       "It defines the width of the table border.",
       "It adds space between table cells.",
@@ -5011,7 +4579,6 @@
   },
   {
     "q": "Which CSS property allows a table to collapse its borders into a single line?",
-    "c": null,
     "o": [
       "border-collapse: collapse;",
       "border-spacing: 0;",
@@ -5021,7 +4588,6 @@
   },
   {
     "q": "Which tag is used to define a table in HTML?",
-    "c": null,
     "o": [
       "<table>",
       "<tbl>",
@@ -5031,7 +4597,6 @@
   },
   {
     "q": "Which attribute is used to set the width of a table in HTML?",
-    "c": null,
     "o": [
       "width",
       "size",
@@ -5041,7 +4606,6 @@
   },
   {
     "q": "Which tag is used to create a new row in an HTML table?",
-    "c": null,
     "o": [
       "<tr>",
       "<td>",
@@ -5051,7 +4615,6 @@
   },
   {
     "q": "Which tag is used to define the data inside a table cell?",
-    "c": null,
     "o": [
       "<td>",
       "<th>",
@@ -5061,7 +4624,6 @@
   },
   {
     "q": "Which tag is used to create a table header?",
-    "c": null,
     "o": [
       "<th>",
       "<thead>",
@@ -5071,7 +4633,6 @@
   },
   {
     "q": "What is the correct way to span two columns in an HTML table?",
-    "c": null,
     "o": [
       "<td colspan='2'>",
       "<td rowspan='2'>",
@@ -5091,7 +4652,6 @@
   },
   {
     "q": "Which attribute is used to specify the background color of a table cell?",
-    "c": null,
     "o": [
       "bgcolor",
       "color",
@@ -5101,7 +4661,6 @@
   },
   {
     "q": "Which of the following is the correct way to add a caption to an HTML table?",
-    "c": null,
     "o": [
       "<caption>Table Title</caption>",
       "<title>Table Title</title>",
@@ -5111,7 +4670,6 @@
   },
   {
     "q": "What does the cellspacing attribute do in a table?",
-    "c": null,
     "o": [
       "Controls the space between table cells.",
       "Controls the space inside table cells.",
@@ -5121,7 +4679,6 @@
   },
   {
     "q": "Which CSS property is used to remove the space between table cells?",
-    "c": null,
     "o": [
       "border-collapse",
       "cell-spacing",
@@ -5131,7 +4688,6 @@
   },
   {
     "q": "Which HTML tag is used to define the body of a table?",
-    "c": null,
     "o": [
       "<tbody>",
       "<tablebody>",
@@ -5141,7 +4697,6 @@
   },
   {
     "q": "Which attribute is used to merge two or more rows in an HTML table?",
-    "c": null,
     "o": [
       "rowspan",
       "colspan",
@@ -5151,7 +4706,6 @@
   },
   {
     "q": "Which of the following is correct to merge three columns into a single cell?",
-    "c": null,
     "o": [
       "<td colspan='3'>Merged Cell</td>",
       "<td rowspan='3'>Merged Cell</td>",
@@ -5161,7 +4715,6 @@
   },
   {
     "q": "Which HTML tag is used to group multiple rows inside a table?",
-    "c": null,
     "o": [
       "<tbody>",
       "<thead>",
@@ -5171,7 +4724,6 @@
   },
   {
     "q": "What does the <tfoot> element do?",
-    "c": null,
     "o": [
       "Defines a footer for a table.",
       "Defines a header for a table.",
@@ -5181,7 +4733,6 @@
   },
   {
     "q": "Which HTML tag is used to define a group of columns in a table?",
-    "c": null,
     "o": [
       "<colgroup>",
       "<columns>",
@@ -5201,7 +4752,6 @@
   },
   {
     "q": "Which attribute is used to set the alignment of text inside a table cell?",
-    "c": null,
     "o": [
       "align",
       "text-align",
@@ -5211,7 +4761,6 @@
   },
   {
     "q": "What is the default text alignment in table data cells (<td>)?",
-    "c": null,
     "o": [
       "Left-aligned",
       "Center-aligned",
@@ -5221,7 +4770,6 @@
   },
   {
     "q": "What is the default text alignment in table header cells (<th>)?",
-    "c": null,
     "o": [
       "Center-aligned",
       "Left-aligned",
@@ -5231,7 +4779,6 @@
   },
   {
     "q": "Which CSS property ensures that text inside a table does not overflow its cell?",
-    "c": null,
     "o": [
       "overflow: hidden;",
       "text-wrap: nowrap;",
@@ -5241,7 +4788,6 @@
   },
   {
     "q": "Which CSS property is used to make table rows change color when hovered?",
-    "c": null,
     "o": [
       "tr:hover { background-color: lightgray; }",
       "td:hover { color: red; }",
@@ -5251,7 +4797,6 @@
   },
   {
     "q": "What will happen if you add <th> inside a <tbody> section?",
-    "c": null,
     "o": [
       "It will still be treated as a header cell but inside the table body.",
       "The browser will ignore the <th> element.",
@@ -5261,7 +4806,6 @@
   },
   {
     "q": "Which attribute is used to merge multiple adjacent cells in a column?",
-    "c": null,
     "o": [
       "rowspan",
       "colspan",
@@ -5271,7 +4815,6 @@
   },
   {
     "q": "What does the 'cellpadding' attribute do in an HTML table?",
-    "c": null,
     "o": [
       "It defines the space inside table cells.",
       "It defines the space between table cells.",
@@ -5281,7 +4824,6 @@
   },
   {
     "q": "Which element is used to provide a title for an HTML table?",
-    "c": null,
     "o": [
       "<caption>",
       "<title>",
@@ -5301,7 +4843,6 @@
   },
   {
     "q": "What is the correct way to set a table border in CSS?",
-    "c": null,
     "o": [
       "table { border: 1px solid black; }",
       "table-border: 1px solid black;",
@@ -5311,7 +4852,6 @@
   },
   {
     "q": "What will happen if you set 'border-collapse: collapse;' in a table?",
-    "c": null,
     "o": [
       "Table cell borders will be merged into a single border.",
       "Table borders will be removed.",
@@ -5321,7 +4861,6 @@
   },
   {
     "q": "Which HTML element is used to define a single column in a table's column group?",
-    "c": null,
     "o": [
       "<col>",
       "<column>",
@@ -5331,7 +4870,6 @@
   },
   {
     "q": "Which HTML element is used to group multiple columns in a table?",
-    "c": null,
     "o": [
       "<colgroup>",
       "<thead>",
@@ -5341,7 +4879,6 @@
   },
   {
     "q": "Which attribute is used in <col> to specify the width of a column?",
-    "c": null,
     "o": [
       "width",
       "size",
@@ -5351,7 +4888,6 @@
   },
   {
     "q": "Which CSS property ensures that a table's columns have a fixed width?",
-    "c": null,
     "o": [
       "table-layout: fixed;",
       "width: auto;",
@@ -5361,7 +4897,6 @@
   },
   {
     "q": "What is the default alignment of text inside table headers (<th>)?",
-    "c": null,
     "o": [
       "Center-aligned",
       "Left-aligned",
@@ -5371,7 +4906,6 @@
   },
   {
     "q": "Which CSS property is used to add space between table cells?",
-    "c": null,
     "o": [
       "border-spacing",
       "padding",
@@ -5381,7 +4915,6 @@
   },
   {
     "q": "What is the correct way to make a table header sticky when scrolling?",
-    "c": null,
     "o": [
       "th { position: sticky; top: 0; }",
       "th { position: absolute; }",
@@ -5391,7 +4924,6 @@
   },
   {
     "q": "What will happen if a <th> element is used inside <tfoot>?",
-    "c": null,
     "o": [
       "It will still be rendered as a table header but inside the footer section.",
       "It will generate an error because <th> can only be used inside <thead>.",
@@ -5401,7 +4933,6 @@
   },
   {
     "q": "Which attribute is used to control the vertical alignment of content inside a table cell?",
-    "c": null,
     "o": [
       "valign",
       "align",
@@ -5411,7 +4942,6 @@
   },
   {
     "q": "Which CSS property is used to apply different colors to alternating table rows?",
-    "c": null,
     "o": [
       "tr:nth-child(even) { background-color: #f2f2f2; }",
       "tr { background: alternate; }",
@@ -5421,7 +4951,6 @@
   },
   {
     "q": "What will happen if a <thead> section is omitted in a table?",
-    "c": null,
     "o": [
       "The table will still work, but no distinct header section will be created.",
       "The table will not be displayed.",
@@ -5431,7 +4960,6 @@
   },
   {
     "q": "Which tag is used to define a footer row in an HTML table?",
-    "c": null,
     "o": [
       "<tfoot>",
       "<footer>",
@@ -5441,7 +4969,6 @@
   },
   {
     "q": "Which HTML attribute is used to define the number of columns in a <colgroup>?",
-    "c": null,
     "o": [
       "span",
       "colspan",
@@ -5451,7 +4978,6 @@
   },
   {
     "q": "What does the 'scope' attribute in a <th> element do?",
-    "c": null,
     "o": [
       "It defines whether the header applies to a row, column, or group.",
       "It specifies the width of the column.",
@@ -5461,7 +4987,6 @@
   },
   {
     "q": "Which of the following will create a responsive table?",
-    "c": null,
     "o": [
       "<div style='overflow-x:auto;'><table>...</table></div>",
       "<table class='responsive-table'>...</table>",
@@ -5471,7 +4996,6 @@
   },
   {
     "q": "What is the role of the 'border' attribute in a table?",
-    "c": null,
     "o": [
       "Defines the width of the table border.",
       "Centers the table on the page.",
@@ -5481,7 +5005,6 @@
   },
   {
     "q": "Which CSS property allows a table to stretch its width automatically based on content?",
-    "c": null,
     "o": [
       "width: auto;",
       "table-layout: auto;",
@@ -5491,7 +5014,6 @@
   },
   {
     "q": "Which CSS property ensures that table borders do not collapse into a single border?",
-    "c": null,
     "o": [
       "border-collapse: separate;",
       "border-spacing: none;",
@@ -5501,7 +5023,6 @@
   },
   {
     "q": "Which attribute is used to align text horizontally inside a table cell?",
-    "c": null,
     "o": [
       "align",
       "text-align",
@@ -5511,7 +5032,6 @@
   },
   {
     "q": "Which HTML attribute provides a brief description of a table for accessibility?",
-    "c": null,
     "o": [
       "summary",
       "alt",
@@ -5531,7 +5051,6 @@
   },
   {
     "q": "Which JavaScript method is used to insert a new row in an HTML table?",
-    "c": null,
     "o": [
       "insertRow()",
       "addRow()",
@@ -5541,7 +5060,6 @@
   },
   {
     "q": "Which JavaScript method is used to delete a specific row from an HTML table?",
-    "c": null,
     "o": [
       "deleteRow()",
       "removeRow()",
@@ -5551,7 +5069,6 @@
   },
   {
     "q": "Which of the following HTML elements is NOT a valid child of a <table> element?",
-    "c": null,
     "o": [
       "<div>",
       "<thead>",
@@ -5561,7 +5078,6 @@
   },
   {
     "q": "What does the 'headers' attribute do in a table cell?",
-    "c": null,
     "o": [
       "Associates a <td> with its corresponding <th> for accessibility.",
       "Adds a tooltip to a table cell.",
@@ -5571,7 +5087,6 @@
   },
   {
     "q": "Which CSS property ensures that a table does not shrink below its content width?",
-    "c": null,
     "o": [
       "table-layout: fixed;",
       "min-width: auto;",
@@ -5581,7 +5096,6 @@
   },
   {
     "q": "Which HTML tag is used to create a responsive scrolling table?",
-    "c": null,
     "o": [
       "<div style='overflow-x:auto;'><table>...</table></div>",
       "<table class='responsive'>...</table>",
@@ -5591,7 +5105,6 @@
   },
   {
     "q": "Which JavaScript property retrieves the number of rows in a table?",
-    "c": null,
     "o": [
       "table.rows.length",
       "table.length",
@@ -5601,7 +5114,6 @@
   },
   {
     "q": "Which CSS property allows a table cell's content to wrap instead of overflowing?",
-    "c": null,
     "o": [
       "word-wrap: break-word;",
       "overflow: hidden;",
@@ -5611,7 +5123,6 @@
   },
   {
     "q": "Which CSS property removes extra spacing between table borders?",
-    "c": null,
     "o": [
       "border-collapse: collapse;",
       "border-spacing: 0;",
@@ -5621,7 +5132,6 @@
   },
   {
     "q": "What happens if you apply 'border-collapse: separate;' to a table?",
-    "c": null,
     "o": [
       "Cell borders remain distinct with spacing between them.",
       "Table borders disappear.",
@@ -5631,7 +5141,6 @@
   },
   {
     "q": "What is the correct way to add a table row dynamically using JavaScript?",
-    "c": null,
     "o": [
       "table.insertRow();",
       "table.createRow();",
@@ -5641,7 +5150,6 @@
   },
   {
     "q": "Which of the following statements about the <colgroup> tag is true?",
-    "c": null,
     "o": [
       "It is used to style multiple columns at once.",
       "It defines a group of rows inside a table.",
@@ -5651,7 +5159,6 @@
   },
   {
     "q": "What is the purpose of the 'scope' attribute in a table header?",
-    "c": null,
     "o": [
       "It specifies whether a header applies to a row, column, or group.",
       "It defines the header's font size.",
@@ -5661,7 +5168,6 @@
   },
   {
     "q": "Which CSS property enables alternating row colors in a table?",
-    "c": null,
     "o": [
       "tr:nth-child(even) { background-color: #f2f2f2; }",
       "tr { background: alternate; }",
@@ -5671,7 +5177,6 @@
   },
   {
     "q": "What is the default alignment of text inside table data cells (<td>)?",
-    "c": null,
     "o": [
       "Left-aligned",
       "Center-aligned",
@@ -5681,7 +5186,6 @@
   },
   {
     "q": "Which CSS property ensures that a table's columns do not shrink based on content?",
-    "c": null,
     "o": [
       "table-layout: fixed;",
       "width: auto;",
@@ -5691,7 +5195,6 @@
   },
   {
     "q": "Which JavaScript property retrieves all rows from a table body?",
-    "c": null,
     "o": [
       "table.tBodies[0].rows",
       "table.getRows()",
@@ -5701,7 +5204,6 @@
   },
   {
     "q": "Which JavaScript method is used to create a new table cell dynamically?",
-    "c": null,
     "o": [
       "insertCell()",
       "addCell()",
@@ -5711,7 +5213,6 @@
   },
   {
     "q": "Which CSS property controls the space between table cells?",
-    "c": null,
     "o": [
       "border-spacing",
       "cell-padding",
@@ -5721,7 +5222,6 @@
   },
   {
     "q": "What happens if you apply 'border-collapse: collapse;' and 'border-spacing: 5px' together?",
-    "c": null,
     "o": [
       "Border spacing will be ignored.",
       "The table will have 5px spacing between cells.",
@@ -5731,7 +5231,6 @@
   },
   {
     "q": "Which of the following is the correct way to make a table header sticky?",
-    "c": null,
     "o": [
       "th { position: sticky; top: 0; }",
       "table-header { fixed: true; }",
@@ -5741,7 +5240,6 @@
   },
   {
     "q": "Which JavaScript method retrieves a table cell based on its row and column index?",
-    "c": null,
     "o": [
       "table.rows[rowIndex].cells[colIndex]",
       "table.getCell(rowIndex, colIndex)",
@@ -5751,7 +5249,6 @@
   },
   {
     "q": "Which of the following CSS properties prevents table content from wrapping?",
-    "c": null,
     "o": [
       "white-space: nowrap;",
       "overflow: hidden;",
@@ -5761,7 +5258,6 @@
   },
   {
     "q": "Which HTML attribute defines the space between the content and the border of a table cell?",
-    "c": null,
     "o": [
       "cellpadding",
       "cellspacing",
@@ -5771,7 +5267,6 @@
   },
   {
     "q": "Which tag is used to define a header cell in a table?",
-    "c": null,
     "o": [
       "<th>",
       "<td>",
@@ -5791,7 +5286,6 @@
   },
   {
     "q": "Which HTML attribute defines the space between table cells?",
-    "c": null,
     "o": [
       "cellspacing",
       "cellpadding",
@@ -5801,7 +5295,6 @@
   },
   {
     "q": "Which CSS property ensures that a table stretches its width to fit the content?",
-    "c": null,
     "o": [
       "width: auto;",
       "table-layout: fixed;",
@@ -5811,7 +5304,6 @@
   },
   {
     "q": "What is the correct way to merge two rows in a table?",
-    "c": null,
     "o": [
       "<td rowspan='2'>Merged</td>",
       "<td colspan='2'>Merged</td>",
@@ -5821,7 +5313,6 @@
   },
   {
     "q": "Which JavaScript method can you use to delete all rows in a table?",
-    "c": null,
     "o": [
       "table.innerHTML = '';",
       "table.removeRows();",
@@ -5831,7 +5322,6 @@
   },
   {
     "q": "Which HTML element is used to create a section within a table for grouping columns?",
-    "c": null,
     "o": [
       "<colgroup>",
       "<col>",
@@ -5841,7 +5331,6 @@
   },
   {
     "q": "Which JavaScript property is used to get the number of columns in a table row?",
-    "c": null,
     "o": [
       "row.cells.length",
       "row.columns",
@@ -5851,7 +5340,6 @@
   },
   {
     "q": "Which of the following CSS properties ensures equal column widths?",
-    "c": null,
     "o": [
       "table-layout: fixed;",
       "width: auto;",
@@ -5861,7 +5349,6 @@
   },
   {
     "q": "Which HTML element is used to associate table data cells with table headers for screen readers?",
-    "c": null,
     "o": [
       "headers",
       "scope",
@@ -5871,7 +5358,6 @@
   },
   {
     "q": "What happens if a <tfoot> element is placed before a <tbody>?",
-    "c": null,
     "o": [
       "The table will still render correctly, but the footer will appear after the body in visual rendering.",
       "An error will occur.",
@@ -5881,7 +5367,6 @@
   },
   {
     "q": "Which JavaScript method is used to dynamically add a column to a table?",
-    "c": null,
     "o": [
       "Loop through rows and insert a new cell with insertCell()",
       "table.insertColumn()",
@@ -5891,7 +5376,6 @@
   },
   {
     "q": "What is the default width of a table if no width attribute is specified?",
-    "c": null,
     "o": [
       "It adjusts based on the content.",
       "It defaults to 100% of the parent container.",
@@ -5901,7 +5385,6 @@
   },
   {
     "q": "Which CSS property should be used to allow a table to scroll horizontally when content overflows?",
-    "c": null,
     "o": [
       "overflow-x: auto;",
       "table-scroll: enable;",
@@ -5911,7 +5394,6 @@
   },
   {
     "q": "Which of the following will make table rows alternate colors?",
-    "c": null,
     "o": [
       "tr:nth-child(even) { background-color: lightgray; }",
       "table { row-alternate: true; }",
@@ -5921,7 +5403,6 @@
   },
   {
     "q": "Which attribute is used to define the number of columns spanned by a table header (<th>)?",
-    "c": null,
     "o": [
       "colspan",
       "rowspan",
@@ -5931,7 +5412,6 @@
   },
   {
     "q": "Which CSS property allows text inside table cells to break onto the next line?",
-    "c": null,
     "o": [
       "word-wrap: break-word;",
       "text-overflow: clip;",
@@ -5941,7 +5421,6 @@
   },
   {
     "q": "What is the best way to make a table responsive?",
-    "c": null,
     "o": [
       "Wrap the table inside a <div> with overflow-x: auto;",
       "Apply a width of 100% to the table.",
@@ -5951,7 +5430,6 @@
   },
   {
     "q": "Which CSS property can be used to ensure that a table column does not shrink below a certain size?",
-    "c": null,
     "o": [
       "min-width",
       "max-width",
@@ -5961,7 +5439,6 @@
   },
   {
     "q": "Which CSS property is used to control the space between adjacent table cells?",
-    "c": null,
     "o": [
       "border-spacing",
       "cell-padding",
@@ -5971,7 +5448,6 @@
   },
   {
     "q": "Which of the following will make a table header sticky?",
-    "c": null,
     "o": [
       "th { position: sticky; top: 0; }",
       "thead { fixed: true; }",
@@ -5981,7 +5457,6 @@
   },
   {
     "q": "What is the correct way to create a table row with three cells using JavaScript?",
-    "c": null,
     "o": [
       "let row = table.insertRow(); row.insertCell(); row.insertCell(); row.insertCell();",
       "table.addRow(3);",
@@ -5991,7 +5466,6 @@
   },
   {
     "q": "Which of the following will correctly retrieve a table cell using JavaScript?",
-    "c": null,
     "o": [
       "table.rows[rowIndex].cells[colIndex]",
       "table.getCell(rowIndex, colIndex)",
@@ -6001,7 +5475,6 @@
   },
   {
     "q": "Which HTML tag is used to define a table?",
-    "c": null,
     "o": [
       "<table>",
       "<grid>",
@@ -6011,7 +5484,6 @@
   },
   {
     "q": "Which tag is used to define a row in an HTML table?",
-    "c": null,
     "o": [
       "<tr>",
       "<td>",
@@ -6021,7 +5493,6 @@
   },
   {
     "q": "Which attribute specifies the number of columns a table cell should span?",
-    "c": null,
     "o": [
       "colspan",
       "rowspan",
@@ -6031,7 +5502,6 @@
   },
   {
     "q": "Which HTML element is used to group header content in a table?",
-    "c": null,
     "o": [
       "<thead>",
       "<header>",
@@ -6041,7 +5511,6 @@
   },
   {
     "q": "Which CSS property controls the spacing between table cells?",
-    "c": null,
     "o": [
       "border-spacing",
       "cellspacing",
@@ -6061,7 +5530,6 @@
   },
   {
     "q": "Which attribute specifies that a header cell applies to multiple columns or rows?",
-    "c": null,
     "o": [
       "scope",
       "headers",
@@ -6071,7 +5539,6 @@
   },
   {
     "q": "Which JavaScript method is used to insert a new row in an HTML table?",
-    "c": null,
     "o": [
       "insertRow()",
       "addRow()",
@@ -6081,7 +5548,6 @@
   },
   {
     "q": "What is the purpose of the <caption> tag in an HTML table?",
-    "c": null,
     "o": [
       "Provides a title or description for the table",
       "Defines the main heading of a table",
@@ -6091,7 +5557,6 @@
   },
   {
     "q": "Which of the following correctly applies a border to a table?",
-    "c": null,
     "o": [
       "table { border: 1px solid black; }",
       "<table border='1px'>",
@@ -6101,7 +5566,6 @@
   },
   {
     "q": "Which CSS property removes extra spacing between table borders?",
-    "c": null,
     "o": [
       "border-collapse: collapse;",
       "border-spacing: 0;",
@@ -6111,7 +5575,6 @@
   },
   {
     "q": "Which CSS property ensures that a table's columns do not shrink based on content?",
-    "c": null,
     "o": [
       "table-layout: fixed;",
       "width: auto;",
@@ -6121,7 +5584,6 @@
   },
   {
     "q": "Which HTML attribute helps improve accessibility by associating a table data cell with its corresponding header?",
-    "c": null,
     "o": [
       "headers",
       "scope",
@@ -6131,7 +5593,6 @@
   },
   {
     "q": "Which JavaScript property retrieves the number of rows in a table?",
-    "c": null,
     "o": [
       "table.rows.length",
       "table.length",
@@ -6141,7 +5602,6 @@
   },
   {
     "q": "Which of the following ensures a table is responsive?",
-    "c": null,
     "o": [
       "Wrapping it in a <div> with overflow-x: auto;",
       "Applying width: 100% to the table;",
@@ -6151,7 +5611,6 @@
   },
   {
     "q": "What does the 'scope' attribute do in a table header?",
-    "c": null,
     "o": [
       "Specifies whether a header applies to a row, column, or group.",
       "Defines the header's font size.",
@@ -6161,7 +5620,6 @@
   },
   {
     "q": "Which JavaScript method retrieves a table cell based on its row and column index?",
-    "c": null,
     "o": [
       "table.rows[rowIndex].cells[colIndex]",
       "table.getCell(rowIndex, colIndex)",
@@ -6171,7 +5629,6 @@
   },
   {
     "q": "Which of the following is the correct way to make a table header sticky?",
-    "c": null,
     "o": [
       "th { position: sticky; top: 0; }",
       "table-header { fixed: true; }",
@@ -6181,7 +5638,6 @@
   },
   {
     "q": "What will happen if you apply 'border-collapse: separate;' to a table?",
-    "c": null,
     "o": [
       "Cell borders remain distinct with spacing between them.",
       "Table borders disappear.",
@@ -6191,7 +5647,6 @@
   },
   {
     "q": "What is the default text alignment inside <td> elements?",
-    "c": null,
     "o": [
       "Left-aligned",
       "Center-aligned",
@@ -6201,7 +5656,6 @@
   },
   {
     "q": "Which CSS property ensures table content does not overflow outside its container?",
-    "c": null,
     "o": [
       "overflow: hidden;",
       "white-space: nowrap;",
@@ -6211,7 +5665,6 @@
   },
   {
     "q": "Which CSS property enables alternating row colors in a table?",
-    "c": null,
     "o": [
       "tr:nth-child(even) { background-color: #f2f2f2; }",
       "tr { background: alternate; }",
@@ -6221,7 +5674,6 @@
   },
   {
     "q": "Which tag defines the footer section of a table?",
-    "c": null,
     "o": [
       "<tfoot>",
       "<footer>",
@@ -6231,7 +5683,6 @@
   },
   {
     "q": "Which HTML attribute specifies the number of rows a table cell should span?",
-    "c": null,
     "o": [
       "rowspan",
       "colspan",
@@ -6241,7 +5692,6 @@
   },
   {
     "q": "What does the <thead> element represent in an HTML table?",
-    "c": null,
     "o": [
       "It groups the header content of a table.",
       "It defines a table caption.",
@@ -6251,7 +5701,6 @@
   },
   {
     "q": "Which attribute in a <th> tag helps define the relationship between table headers and data for screen readers?",
-    "c": null,
     "o": [
       "scope",
       "aria-label",
@@ -6271,7 +5720,6 @@
   },
   {
     "q": "Which CSS property controls whether a table should collapse its borders into a single border?",
-    "c": null,
     "o": [
       "border-collapse",
       "border-spacing",
@@ -6281,7 +5729,6 @@
   },
   {
     "q": "Which JavaScript method removes the last row of an HTML table?",
-    "c": null,
     "o": [
       "table.deleteRow(-1)",
       "table.removeLastRow()",
@@ -6291,7 +5738,6 @@
   },
   {
     "q": "Which HTML element is used to define a title or description for a table?",
-    "c": null,
     "o": [
       "<caption>",
       "<legend>",
@@ -6301,7 +5747,6 @@
   },
   {
     "q": "What is the default behavior of a <table> when no width is specified?",
-    "c": null,
     "o": [
       "It adjusts to the content size.",
       "It expands to 100% width.",
@@ -6311,7 +5756,6 @@
   },
   {
     "q": "Which CSS property ensures that a table does not shrink below a specific size?",
-    "c": null,
     "o": [
       "min-width",
       "max-width",
@@ -6321,7 +5765,6 @@
   },
   {
     "q": "Which of the following is the correct way to make a table responsive?",
-    "c": null,
     "o": [
       "Wrap it inside a <div> with overflow-x: auto;",
       "Set table-layout: fixed;",
@@ -6331,7 +5774,6 @@
   },
   {
     "q": "Which HTML tag is used to define a table footer?",
-    "c": null,
     "o": [
       "<tfoot>",
       "<tfooted>",
@@ -6341,7 +5783,6 @@
   },
   {
     "q": "What does the 'headers' attribute do in a table cell?",
-    "c": null,
     "o": [
       "Associates a data cell with its header for screen readers.",
       "Applies a bold style to the text.",
@@ -6351,7 +5792,6 @@
   },
   {
     "q": "Which JavaScript method is used to dynamically insert a column into an existing table?",
-    "c": null,
     "o": [
       "Loop through each row and use insertCell()",
       "table.insertColumn()",
@@ -6361,7 +5801,6 @@
   },
   {
     "q": "Which of the following is true about <colgroup>?",
-    "c": null,
     "o": [
       "It allows styling specific columns in a table.",
       "It merges multiple columns together.",
@@ -6371,7 +5810,6 @@
   },
   {
     "q": "What is the purpose of the 'scope' attribute in a <th> element?",
-    "c": null,
     "o": [
       "It specifies whether the header is for a row, column, or group.",
       "It applies bold formatting to the header.",
@@ -6381,7 +5819,6 @@
   },
   {
     "q": "Which of the following CSS properties allows a table to scroll horizontally if it overflows?",
-    "c": null,
     "o": [
       "overflow-x: auto;",
       "table-layout: scroll;",
@@ -6391,7 +5828,6 @@
   },
   {
     "q": "Which tag is used to group multiple columns in a table for styling?",
-    "c": null,
     "o": [
       "<colgroup>",
       "<columns>",
@@ -6401,7 +5837,6 @@
   },
   {
     "q": "Which of the following ensures that alternating rows in a table have different background colors?",
-    "c": null,
     "o": [
       "tr:nth-child(even) { background-color: lightgray; }",
       "table { row-color: alternate; }",
@@ -6411,7 +5846,6 @@
   },
   {
     "q": "Which of the following CSS properties ensures table headers remain visible while scrolling?",
-    "c": null,
     "o": [
       "position: sticky; top: 0;",
       "table-layout: fixed;",
@@ -6421,7 +5855,6 @@
   },
   {
     "q": "Which JavaScript method retrieves a specific cell from a table?",
-    "c": null,
     "o": [
       "table.rows[rowIndex].cells[colIndex]",
       "table.getCell(rowIndex, colIndex)",
@@ -6431,7 +5864,6 @@
   },
   {
     "q": "What does the 'border-spacing' property do in CSS?",
-    "c": null,
     "o": [
       "Controls the space between adjacent table cells.",
       "Merges table cell borders together.",
@@ -6441,7 +5873,6 @@
   },
   {
     "q": "Which HTML element is used to define a section of the table body?",
-    "c": null,
     "o": [
       "<tbody>",
       "<tsection>",
@@ -6451,7 +5882,6 @@
   },
   {
     "q": "Which CSS property controls text wrapping inside table cells?",
-    "c": null,
     "o": [
       "word-wrap: break-word;",
       "text-overflow: ellipsis;",
@@ -6461,7 +5891,6 @@
   },
   {
     "q": "Which of the following will correctly create a table row with three cells using JavaScript?",
-    "c": null,
     "o": [
       "let row = table.insertRow(); row.insertCell(); row.insertCell(); row.insertCell();",
       "table.addRow(3);",
@@ -6471,7 +5900,6 @@
   },
   {
     "q": "Which HTML element defines a single cell in a table?",
-    "c": null,
     "o": [
       "<td>",
       "<th>",
@@ -6481,7 +5909,6 @@
   },
   {
     "q": "Which table element is used to group multiple table columns for styling purposes?",
-    "c": null,
     "o": [
       "<colgroup>",
       "<columns>",
@@ -6501,7 +5928,6 @@
   },
   {
     "q": "Which CSS property makes a table header fixed when scrolling?",
-    "c": null,
     "o": [
       "position: sticky; top: 0;",
       "table-layout: fixed;",
@@ -6511,7 +5937,6 @@
   },
   {
     "q": "Which of the following CSS properties controls the space between adjacent table cells?",
-    "c": null,
     "o": [
       "border-spacing",
       "border-collapse",
@@ -6521,7 +5946,6 @@
   },
   {
     "q": "Which attribute is used in the <table> tag to provide a short description of the table for accessibility?",
-    "c": null,
     "o": [
       "summary",
       "caption",
@@ -6531,7 +5955,6 @@
   },
   {
     "q": "What does the 'headers' attribute in a <td> tag do?",
-    "c": null,
     "o": [
       "Associates a data cell with a specific header for accessibility.",
       "Displays the table headers as bold.",
@@ -6541,7 +5964,6 @@
   },
   {
     "q": "Which JavaScript method is used to dynamically delete a specific row from an HTML table?",
-    "c": null,
     "o": [
       "table.deleteRow(index)",
       "table.removeRow(index)",
@@ -6551,7 +5973,6 @@
   },
   {
     "q": "Which of the following ensures a table does not shrink below a minimum width?",
-    "c": null,
     "o": [
       "min-width",
       "max-width",
@@ -6561,7 +5982,6 @@
   },
   {
     "q": "Which HTML tag is used to define a table footer?",
-    "c": null,
     "o": [
       "<tfoot>",
       "<tfooted>",
@@ -6571,7 +5991,6 @@
   },
   {
     "q": "Which of the following is the correct syntax to create a new row in an HTML table using JavaScript?",
-    "c": null,
     "o": [
       "let row = table.insertRow();",
       "table.addRow();",
@@ -6581,7 +6000,6 @@
   },
   {
     "q": "Which of the following is the correct way to apply a border to an HTML table?",
-    "c": null,
     "o": [
       "table { border: 1px solid black; }",
       "<table border='1'>",
@@ -6591,7 +6009,6 @@
   },
   {
     "q": "Which attribute specifies that a table cell should span multiple rows?",
-    "c": null,
     "o": [
       "rowspan",
       "colspan",
@@ -6601,7 +6018,6 @@
   },
   {
     "q": "Which HTML element is used to group the body content of a table?",
-    "c": null,
     "o": [
       "<tbody>",
       "<tgroup>",
@@ -6611,7 +6027,6 @@
   },
   {
     "q": "Which of the following properties allows for even and odd rows to have different background colors?",
-    "c": null,
     "o": [
       "tr:nth-child(even) { background-color: lightgray; }",
       "table { row-color: alternate; }",
@@ -6621,7 +6036,6 @@
   },
   {
     "q": "Which of the following ensures that table columns do not shrink based on content size?",
-    "c": null,
     "o": [
       "table-layout: fixed;",
       "width: auto;",
@@ -6631,7 +6045,6 @@
   },
   {
     "q": "Which of the following will make a table responsive?",
-    "c": null,
     "o": [
       "Wrapping it inside a <div> with overflow-x: auto;",
       "Applying width: 100% to the table;",
@@ -6641,7 +6054,6 @@
   },
   {
     "q": "Which CSS property removes extra spacing between table borders?",
-    "c": null,
     "o": [
       "border-collapse: collapse;",
       "border-spacing: 0;",
@@ -6651,7 +6063,6 @@
   },
   {
     "q": "Which of the following correctly retrieves a specific cell in an HTML table using JavaScript?",
-    "c": null,
     "o": [
       "table.rows[rowIndex].cells[colIndex]",
       "table.getCell(rowIndex, colIndex)",
@@ -6661,7 +6072,6 @@
   },
   {
     "q": "What is the default text alignment inside <td> elements?",
-    "c": null,
     "o": [
       "Left-aligned",
       "Center-aligned",
@@ -6681,7 +6091,6 @@
   },
   {
     "q": "Which of the following is NOT a valid table element?",
-    "c": null,
     "o": [
       "<tsection>",
       "<thead>",
@@ -6691,7 +6100,6 @@
   },
   {
     "q": "Which JavaScript method adds a new column to an existing table?",
-    "c": null,
     "o": [
       "Loop through each row and use insertCell()",
       "table.insertColumn()",
@@ -6701,7 +6109,6 @@
   },
   {
     "q": "Which HTML tag is used to define a table row?",
-    "c": null,
     "o": [
       "<tr>",
       "<td>",
@@ -6721,7 +6128,6 @@
   },
   {
     "q": "Which of the following attributes helps merge multiple columns in a table?",
-    "c": null,
     "o": [
       "colspan",
       "rowspan",
@@ -6731,7 +6137,6 @@
   },
   {
     "q": "Which CSS property ensures that table borders do not collapse into each other?",
-    "c": null,
     "o": [
       "border-spacing",
       "border-collapse",
@@ -6741,7 +6146,6 @@
   },
   {
     "q": "What is the purpose of the <colgroup> tag in a table?",
-    "c": null,
     "o": [
       "It allows grouping and styling of multiple columns.",
       "It merges table rows together.",
@@ -6751,7 +6155,6 @@
   },
   {
     "q": "Which of the following ensures table headers are fixed while scrolling?",
-    "c": null,
     "o": [
       "position: sticky; top: 0;",
       "overflow: hidden;",
@@ -6761,7 +6164,6 @@
   },
   {
     "q": "What is the default width of a table when no width is specified?",
-    "c": null,
     "o": [
       "It adjusts to the content size.",
       "It expands to 100% width.",
@@ -6771,7 +6173,6 @@
   },
   {
     "q": "Which of the following CSS properties ensures a table cell's text does not wrap?",
-    "c": null,
     "o": [
       "white-space: nowrap;",
       "text-overflow: hidden;",
@@ -6781,7 +6182,6 @@
   },
   {
     "q": "Which table element is used to create a footer?",
-    "c": null,
     "o": [
       "<tfoot>",
       "<tfooted>",
@@ -6791,7 +6191,6 @@
   },
   {
     "q": "Which CSS property controls the spacing between table cells?",
-    "c": null,
     "o": [
       "border-spacing",
       "border-collapse",
@@ -6801,7 +6200,6 @@
   },
   {
     "q": "Which attribute should be used to improve table accessibility by linking data cells to headers?",
-    "c": null,
     "o": [
       "headers",
       "scope",
@@ -6811,7 +6209,6 @@
   },
   {
     "q": "Which JavaScript method adds a new row to an existing table?",
-    "c": null,
     "o": [
       "table.insertRow();",
       "table.addRow();",
@@ -6821,7 +6218,6 @@
   },
   {
     "q": "Which HTML tag is used to define a header cell in a table?",
-    "c": null,
     "o": [
       "<th>",
       "<td>",
@@ -6841,7 +6237,6 @@
   },
   {
     "q": "Which of the following ensures a table remains responsive on small screens?",
-    "c": null,
     "o": [
       "Wrapping it inside a <div> with overflow-x: auto;",
       "Setting table-layout: fixed;",
@@ -6851,7 +6246,6 @@
   },
   {
     "q": "Which CSS property ensures a table maintains equal column widths?",
-    "c": null,
     "o": [
       "table-layout: fixed;",
       "width: auto;",
@@ -6861,7 +6255,6 @@
   },
   {
     "q": "Which JavaScript method is used to remove the last row from a table?",
-    "c": null,
     "o": [
       "table.deleteRow(-1);",
       "table.removeLastRow();",
@@ -6871,7 +6264,6 @@
   },
   {
     "q": "Which HTML tag is used to define the main body of a table?",
-    "c": null,
     "o": [
       "<tbody>",
       "<tgroup>",
@@ -6881,7 +6273,6 @@
   },
   {
     "q": "Which CSS property allows alternate rows in a table to have different colors?",
-    "c": null,
     "o": [
       "tr:nth-child(even) { background-color: lightgray; }",
       "table { row-color: alternate; }",
@@ -6891,7 +6282,6 @@
   },
   {
     "q": "What is the correct way to access a specific cell in an HTML table using JavaScript?",
-    "c": null,
     "o": [
       "table.rows[rowIndex].cells[colIndex];",
       "table.getCell(rowIndex, colIndex);",
@@ -6901,7 +6291,6 @@
   },
   {
     "q": "Which of the following allows a table header to apply to an entire row?",
-    "c": null,
     "o": [
       "scope='row'",
       "scope='column'",
@@ -6911,7 +6300,6 @@
   },
   {
     "q": "Which of the following is NOT a valid table tag?",
-    "c": null,
     "o": [
       "<tsection>",
       "<thead>",
@@ -6921,7 +6309,6 @@
   },
   {
     "q": "Which of the following ensures table text does not break into multiple lines?",
-    "c": null,
     "o": [
       "white-space: nowrap;",
       "word-wrap: break-word;",
@@ -6931,7 +6318,6 @@
   },
   {
     "q": "What is the purpose of the <caption> element in an HTML table?",
-    "c": null,
     "o": [
       "To provide a title or description for the table",
       "To define a column header",
@@ -6941,7 +6327,6 @@
   },
   {
     "q": "Which HTML element is used to define a table header?",
-    "c": null,
     "o": [
       "<th>",
       "<thead>",
@@ -6961,7 +6346,6 @@
   },
   {
     "q": "Which attribute is used to merge two or more columns in an HTML table?",
-    "c": null,
     "o": [
       "colspan",
       "rowspan",
@@ -6981,7 +6365,6 @@
   },
   {
     "q": "What does the <thead> element represent in an HTML table?",
-    "c": null,
     "o": [
       "A group of header rows",
       "A single table row",
@@ -6991,7 +6374,6 @@
   },
   {
     "q": "What is the purpose of the rowspan attribute in an HTML table?",
-    "c": null,
     "o": [
       "To merge two or more rows into a single cell",
       "To merge two or more columns into a single cell",
@@ -7011,7 +6393,6 @@
   },
   {
     "q": "Which element is used to define a table row in HTML?",
-    "c": null,
     "o": [
       "<tr>",
       "<td>",
@@ -7031,7 +6412,6 @@
   },
   {
     "q": "Which attribute defines the space between table cells?",
-    "c": null,
     "o": [
       "cellspacing",
       "cellpadding",
@@ -7051,7 +6431,6 @@
   },
   {
     "q": "Which element is used to group the body content in an HTML table?",
-    "c": null,
     "o": [
       "<tbody>",
       "<tfoot>",
@@ -7061,7 +6440,6 @@
   },
   {
     "q": "What is the correct way to add a caption to an HTML table?",
-    "c": null,
     "o": [
       "<caption>Table Title</caption>",
       "<title>Table Title</title>",
@@ -7071,7 +6449,6 @@
   },
   {
     "q": "What is the purpose of the <tfoot> element in an HTML table?",
-    "c": null,
     "o": [
       "To define the footer rows of a table",
       "To merge multiple table footers",
@@ -7091,7 +6468,6 @@
   },
   {
     "q": "Which CSS property is commonly used to collapse borders in an HTML table?",
-    "c": null,
     "o": [
       "border-collapse",
       "border-spacing",
@@ -7111,7 +6487,6 @@
   },
   {
     "q": "Which HTML element is used to create a table?",
-    "c": null,
     "o": [
       "<table>",
       "<tr>",
@@ -7131,7 +6506,6 @@
   },
   {
     "q": "Which attribute is used to add space inside a table cell?",
-    "c": null,
     "o": [
       "cellpadding",
       "cellspacing",
@@ -7141,7 +6515,6 @@
   },
   {
     "q": "What will happen if you set the 'border-collapse' property to 'collapse' in CSS?",
-    "c": null,
     "o": [
       "Table borders will merge into a single border",
       "Table borders will be spaced apart",
@@ -7151,7 +6524,6 @@
   },
   {
     "q": "Which HTML element is used to define the footer content of a table?",
-    "c": null,
     "o": [
       "<tfoot>",
       "<tfooters>",
@@ -7171,7 +6543,6 @@
   },
   {
     "q": "Which attribute is used to control the width of a table column?",
-    "c": null,
     "o": [
       "width",
       "size",
@@ -7181,7 +6552,6 @@
   },
   {
     "q": "What is the default alignment of table text?",
-    "c": null,
     "o": [
       "Left",
       "Center",
@@ -7201,7 +6571,6 @@
   },
   {
     "q": "Which CSS property is used to set the background color of a table?",
-    "c": null,
     "o": [
       "background-color",
       "color",
@@ -7221,7 +6590,6 @@
   },
   {
     "q": "Which CSS property is used to control the space between table cells?",
-    "c": null,
     "o": [
       "border-spacing",
       "cellspacing",
@@ -7231,7 +6599,6 @@
   },
   {
     "q": "Which element is used to group multiple columns in an HTML table?",
-    "c": null,
     "o": [
       "<colgroup>",
       "<thead>",
@@ -7251,7 +6618,6 @@
   },
   {
     "q": "Which HTML tag is used to define a table row?",
-    "c": null,
     "o": [
       "<tr>",
       "<td>",
@@ -7261,7 +6627,6 @@
   },
   {
     "q": "Which attribute is used to merge two or more columns in an HTML table?",
-    "c": null,
     "o": [
       "colspan",
       "rowspan",
@@ -7281,7 +6646,6 @@
   },
   {
     "q": "Which HTML tag is used to define table headers?",
-    "c": null,
     "o": [
       "<th>",
       "<td>",
@@ -7291,7 +6655,6 @@
   },
   {
     "q": "Which CSS property is used to set the width of a table?",
-    "c": null,
     "o": [
       "width",
       "table-width",
@@ -7311,7 +6674,6 @@
   },
   {
     "q": "Which attribute is used to merge two or more rows in an HTML table?",
-    "c": null,
     "o": [
       "rowspan",
       "colspan",
@@ -7331,7 +6693,6 @@
   },
   {
     "q": "Which CSS property is used to set the height of a table?",
-    "c": null,
     "o": [
       "height",
       "table-height",
@@ -7341,7 +6702,6 @@
   },
   {
     "q": "What does the <colgroup> tag do in an HTML table?",
-    "c": null,
     "o": [
       "It groups columns and allows applying styles to them",
       "It merges table columns",
@@ -7351,7 +6711,6 @@
   },
   {
     "q": "Which HTML element is used to group the header content of a table?",
-    "c": null,
     "o": [
       "<thead>",
       "<header>",
@@ -7371,7 +6730,6 @@
   },
   {
     "q": "Which of the following is true about table captions?",
-    "c": null,
     "o": [
       "They appear above the table by default",
       "They appear below the table by default",
@@ -7391,7 +6749,6 @@
   },
   {
     "q": "Which CSS property is used to control the border of a table?",
-    "c": null,
     "o": [
       "border",
       "table-border",
@@ -7401,7 +6758,6 @@
   },
   {
     "q": "Which of the following is the correct way to define a table with borders?",
-    "c": null,
     "o": [
       "<table border=\"1\">",
       "<table style=\"border: 1px solid black;\">",
@@ -7411,7 +6767,6 @@
   },
   {
     "q": "Which HTML tag is used to create a table?",
-    "c": null,
     "o": [
       "<table>",
       "<tab>",
@@ -7421,7 +6776,6 @@
   },
   {
     "q": "Which tag is used to define table data (cells) in HTML?",
-    "c": null,
     "o": [
       "<td>",
       "<tr>",
@@ -7441,7 +6795,6 @@
   },
   {
     "q": "Which HTML attribute is used to specify a border for a table?",
-    "c": null,
     "o": [
       "border",
       "table-border",
@@ -7451,7 +6804,6 @@
   },
   {
     "q": "What does the rowspan attribute do in an HTML table?",
-    "c": null,
     "o": [
       "It merges two or more rows into a single cell",
       "It merges two or more columns into a single cell",
@@ -7461,7 +6813,6 @@
   },
   {
     "q": "Which of the following is a valid way to create a table caption?",
-    "c": null,
     "o": [
       "<caption>Table Title</caption>",
       "<title>Table Title</title>",
@@ -7481,7 +6832,6 @@
   },
   {
     "q": "Which HTML tag is used to define the table header section?",
-    "c": null,
     "o": [
       "<thead>",
       "<th>",
@@ -7491,7 +6841,6 @@
   },
   {
     "q": "Which HTML tag is used to group the main content of a table?",
-    "c": null,
     "o": [
       "<tbody>",
       "<thead>",
@@ -7501,7 +6850,6 @@
   },
   {
     "q": "What is the purpose of the <tfoot> element in an HTML table?",
-    "c": null,
     "o": [
       "It defines the footer section of a table",
       "It defines the header section of a table",
@@ -7511,7 +6859,6 @@
   },
   {
     "q": "Which HTML attribute is used to specify the width of a table column?",
-    "c": null,
     "o": [
       "width",
       "size",
@@ -7521,7 +6868,6 @@
   },
   {
     "q": "What happens if you omit the <tbody> element in an HTML table?",
-    "c": null,
     "o": [
       "The browser automatically adds it",
       "The table will not render properly",
@@ -7541,7 +6887,6 @@
   },
   {
     "q": "Which HTML tag is used to define a table column group?",
-    "c": null,
     "o": [
       "<colgroup>",
       "<col>",
@@ -7561,7 +6906,6 @@
   },
   {
     "q": "Which HTML tag is used to define a cell inside a table row?",
-    "c": null,
     "o": [
       "<td>",
       "<tr>",
@@ -7571,7 +6915,6 @@
   },
   {
     "q": "Which of the following is a valid way to apply styling to all table headers?",
-    "c": null,
     "o": [
       "th { font-weight: bold; }",
       "thead { text-size: 14px; }",
@@ -7581,7 +6924,6 @@
   },
   {
     "q": "What is the correct way to apply borders only to table cells?",
-    "c": null,
     "o": [
       "td, th { border: 1px solid black; }",
       "table { border: 1px solid black; }",
@@ -7591,7 +6933,6 @@
   },
   {
     "q": "Which attribute can be used to adjust the space between table cells?",
-    "c": null,
     "o": [
       "cellspacing",
       "padding",
@@ -7611,7 +6952,6 @@
   },
   {
     "q": "Which HTML element is used to create a row in a table?",
-    "c": null,
     "o": [
       "<tr>",
       "<td>",
@@ -7621,7 +6961,6 @@
   },
   {
     "q": "What is the purpose of the <th> element in an HTML table?",
-    "c": null,
     "o": [
       "It defines a header cell in a table",
       "It defines a data cell in a table",
@@ -7641,7 +6980,6 @@
   },
   {
     "q": "Which attribute allows a table cell to span multiple columns?",
-    "c": null,
     "o": [
       "colspan",
       "rowspan",
@@ -7661,7 +6999,6 @@
   },
   {
     "q": "Which HTML attribute is used to control the spacing between table cells?",
-    "c": null,
     "o": [
       "cellspacing",
       "padding",
@@ -7671,7 +7008,6 @@
   },
   {
     "q": "Which HTML element is used to define a caption for a table?",
-    "c": null,
     "o": [
       "<caption>",
       "<title>",
@@ -7691,7 +7027,6 @@
   },
   {
     "q": "Which of the following is a valid way to apply borders only to table cells?",
-    "c": null,
     "o": [
       "td, th { border: 1px solid black; }",
       "table { border: 1px solid black; }",
@@ -7701,7 +7036,6 @@
   },
   {
     "q": "Which HTML tag is used to define the footer section of a table?",
-    "c": null,
     "o": [
       "<tfoot>",
       "<th>",
@@ -7711,7 +7045,6 @@
   },
   {
     "q": "Which of the following is a valid way to create a table column group?",
-    "c": null,
     "o": [
       "<colgroup>",
       "<col>",
@@ -7731,7 +7064,6 @@
   },
   {
     "q": "Which CSS property is used to set spacing inside table cells?",
-    "c": null,
     "o": [
       "padding",
       "margin",
@@ -7741,7 +7073,6 @@
   },
   {
     "q": "Which HTML tag is used to create a table header section?",
-    "c": null,
     "o": [
       "<thead>",
       "<th>",
@@ -7751,7 +7082,6 @@
   },
   {
     "q": "Which attribute allows a table cell to span multiple rows?",
-    "c": null,
     "o": [
       "rowspan",
       "colspan",
@@ -7771,7 +7101,6 @@
   },
   {
     "q": "Which of the following is a valid table structure?",
-    "c": null,
     "o": [
       "<table><tr><td>Data</td></tr></table>",
       "<table><td>Data</td></table>",
@@ -7781,7 +7110,6 @@
   },
   {
     "q": "What happens if you omit the <tbody> element in an HTML table?",
-    "c": null,
     "o": [
       "The browser automatically adds it",
       "The table will not render properly",
@@ -7791,7 +7119,6 @@
   },
   {
     "q": "Which of the following is the correct way to define a table with a border in HTML?",
-    "c": null,
     "o": [
       "<table border=\"1\">",
       "<table border:1px;>",
@@ -7801,7 +7128,6 @@
   },
   {
     "q": "Which attribute specifies the width of a table column?",
-    "c": null,
     "o": [
       "width",
       "size",
@@ -7811,7 +7137,6 @@
   },
   {
     "q": "Which HTML tag is used to create a table?",
-    "c": null,
     "o": [
       "<table>",
       "<tr>",
@@ -7831,7 +7156,6 @@
   },
   {
     "q": "Which HTML element is used to define a cell in a table?",
-    "c": null,
     "o": [
       "<td>",
       "<th>",
@@ -7841,7 +7165,6 @@
   },
   {
     "q": "What is the difference between <th> and <td> in a table?",
-    "c": null,
     "o": [
       "<th> defines a header cell, and <td> defines a data cell",
       "<th> defines a row, while <td> defines a column",
@@ -7861,7 +7184,6 @@
   },
   {
     "q": "Which attribute is used to merge multiple rows in a table?",
-    "c": null,
     "o": [
       "rowspan",
       "colspan",
@@ -7871,7 +7193,6 @@
   },
   {
     "q": "What does the <caption> element do in an HTML table?",
-    "c": null,
     "o": [
       "It provides a title for the table",
       "It creates a new column",
@@ -7881,7 +7202,6 @@
   },
   {
     "q": "What is the purpose of the <colgroup> tag?",
-    "c": null,
     "o": [
       "It groups columns and applies styles",
       "It merges table rows",
@@ -7891,7 +7211,6 @@
   },
   {
     "q": "What will happen if the <tbody> tag is omitted?",
-    "c": null,
     "o": [
       "Browsers will automatically add it",
       "The table will not render",
@@ -7901,7 +7220,6 @@
   },
   {
     "q": "What does the 'border-spacing' CSS property control in a table?",
-    "c": null,
     "o": [
       "The space between adjacent table cells",
       "The space inside each table cell",
@@ -7921,7 +7239,6 @@
   },
   {
     "q": "Which HTML tag is used to define a table footer?",
-    "c": null,
     "o": [
       "<tfoot>",
       "<footer>",
@@ -7931,7 +7248,6 @@
   },
   {
     "q": "Which HTML attribute defines the width of a table?",
-    "c": null,
     "o": [
       "width",
       "size",
@@ -7941,7 +7257,6 @@
   },
   {
     "q": "Which CSS property controls the spacing inside table cells?",
-    "c": null,
     "o": [
       "padding",
       "margin",
@@ -7951,7 +7266,6 @@
   },
   {
     "q": "Which attribute is used to merge multiple columns in a table?",
-    "c": null,
     "o": [
       "colspan",
       "rowspan",
@@ -7971,7 +7285,6 @@
   },
   {
     "q": "Which of the following is the correct way to apply CSS borders to only table cells?",
-    "c": null,
     "o": [
       "td, th { border: 1px solid black; }",
       "table { border: 1px solid black; }",
@@ -7981,7 +7294,6 @@
   },
   {
     "q": "Which HTML tag is used to define the header section of a table?",
-    "c": null,
     "o": [
       "<thead>",
       "<th>",
@@ -7991,7 +7303,6 @@
   },
   {
     "q": "Which CSS property is used to collapse the borders between table cells?",
-    "c": null,
     "o": [
       "border-collapse",
       "border-spacing",
@@ -8011,7 +7322,6 @@
   },
   {
     "q": "Which HTML element is used to create a row in a table?",
-    "c": null,
     "o": [
       "<tr>",
       "<td>",
@@ -8021,7 +7331,6 @@
   },
   {
     "q": "What is the default alignment of text inside a <th> element?",
-    "c": null,
     "o": [
       "Center",
       "Left",
@@ -8031,7 +7340,6 @@
   },
   {
     "q": "Which attribute is used to specify a table header's scope?",
-    "c": null,
     "o": [
       "scope",
       "header",
@@ -8051,7 +7359,6 @@
   },
   {
     "q": "Which table attribute is considered obsolete in HTML5?",
-    "c": null,
     "o": [
       "border",
       "width",
@@ -8061,7 +7368,6 @@
   },
   {
     "q": "Which CSS property is used to remove spacing between table cells?",
-    "c": null,
     "o": [
       "border-collapse",
       "cell-padding",
@@ -8071,7 +7377,6 @@
   },
   {
     "q": "How do you make a table responsive in CSS?",
-    "c": null,
     "o": [
       "Using 'overflow: auto' on a wrapping div",
       "Setting 'table-layout: fixed'",
@@ -8081,7 +7386,6 @@
   },
   {
     "q": "Which tag is used to group multiple columns together?",
-    "c": null,
     "o": [
       "<colgroup>",
       "<col>",
@@ -8091,7 +7395,6 @@
   },
   {
     "q": "What is the main purpose of the 'scope' attribute in table headers?",
-    "c": null,
     "o": [
       "To specify whether a header applies to a row or column",
       "To change the header color",
@@ -8111,7 +7414,6 @@
   },
   {
     "q": "Which of the following improves table accessibility?",
-    "c": null,
     "o": [
       "Adding a <caption> to describe the table",
       "Using inline styles instead of CSS",
@@ -8121,7 +7423,6 @@
   },
   {
     "q": "What will happen if you set 'table-layout: fixed' in CSS?",
-    "c": null,
     "o": [
       "Columns will have a fixed width regardless of content",
       "The table will become scrollable",
@@ -8131,7 +7432,6 @@
   },
   {
     "q": "Which HTML tag is used to define column styling inside a table?",
-    "c": null,
     "o": [
       "<col>",
       "<colgroup>",
@@ -8141,7 +7441,6 @@
   },
   {
     "q": "Which table element is used to group multiple rows under a single section?",
-    "c": null,
     "o": [
       "<tbody>",
       "<tr>",
@@ -8151,7 +7450,6 @@
   },
   {
     "q": "How can you merge multiple table columns?",
-    "c": null,
     "o": [
       "Using the 'colspan' attribute",
       "Using the 'rowspan' attribute",
@@ -8161,7 +7459,6 @@
   },
   {
     "q": "What happens if you use <th> instead of <td> inside a table body?",
-    "c": null,
     "o": [
       "The text inside <th> will be bold and centered",
       "The table will break",
@@ -8171,7 +7468,6 @@
   },
   {
     "q": "Which CSS property is used to control the space inside table cells?",
-    "c": null,
     "o": [
       "padding",
       "margin",
@@ -8181,7 +7477,6 @@
   },
   {
     "q": "What is the purpose of the 'caption-side' CSS property?",
-    "c": null,
     "o": [
       "It positions the table caption at the top or bottom",
       "It changes the font size of captions",
@@ -8191,7 +7486,6 @@
   },
   {
     "q": "Which HTML table tag defines a footer?",
-    "c": null,
     "o": [
       "<tfoot>",
       "<tfootbar>",
@@ -8211,7 +7505,6 @@
   },
   {
     "q": "Which of the following is NOT a best practice for tables?",
-    "c": null,
     "o": [
       "Using tables for layout design",
       "Providing headers with <th>",
@@ -8221,7 +7514,6 @@
   },
   {
     "q": "How can you create a striped table effect using CSS?",
-    "c": null,
     "o": [
       "Using 'nth-child(even)' to style alternate rows",
       "Setting 'border-spacing: striped'",
@@ -8231,7 +7523,6 @@
   },
   {
     "q": "What is the effect of applying 'overflow: auto' to a div containing a table?",
-    "c": null,
     "o": [
       "It makes the table scrollable when it overflows",
       "It resizes the table to fit the screen",
@@ -8241,7 +7532,6 @@
   },
   {
     "q": "Which tag is used to define a table caption?",
-    "c": null,
     "o": [
       "<caption>",
       "<thead>",
@@ -8251,7 +7541,6 @@
   },
   {
     "q": "What is the purpose of the 'summary' attribute in a table?",
-    "c": null,
     "o": [
       "It provides a text description for screen readers",
       "It adds a heading above the table",
@@ -8261,7 +7550,6 @@
   },
   {
     "q": "Which element is used to group table headers?",
-    "c": null,
     "o": [
       "<thead>",
       "<header>",
@@ -8271,7 +7559,6 @@
   },
   {
     "q": "What is the correct way to define column-specific styles in a table?",
-    "c": null,
     "o": [
       "Using <colgroup> and <col>",
       "Applying inline styles to <td>",
@@ -8281,7 +7568,6 @@
   },
   {
     "q": "Which HTML attribute is used to merge rows in a table?",
-    "c": null,
     "o": [
       "rowspan",
       "colspan",
@@ -8291,7 +7577,6 @@
   },
   {
     "q": "What does the 'border-spacing' property do in CSS?",
-    "c": null,
     "o": [
       "Sets the spacing between table cells",
       "Adds a border to table rows",
@@ -8311,7 +7596,6 @@
   },
   {
     "q": "Which property allows a table to have equal column widths?",
-    "c": null,
     "o": [
       "table-layout: fixed",
       "width: 100%",
@@ -8321,7 +7605,6 @@
   },
   {
     "q": "What does 'scope=\"col\"' do in a <th> element?",
-    "c": null,
     "o": [
       "It applies the header to the entire column",
       "It merges the column with the next one",
@@ -8341,7 +7624,6 @@
   },
   {
     "q": "What will happen if 'border-collapse: collapse' is applied to a table?",
-    "c": null,
     "o": [
       "It merges table borders into a single border",
       "It removes all borders from the table",
@@ -8351,7 +7633,6 @@
   },
   {
     "q": "Which of the following is NOT a valid way to define a table in HTML?",
-    "c": null,
     "o": [
       "Using <div> elements instead of <table>",
       "Using <table>, <tr>, and <td> elements",
@@ -8361,7 +7642,6 @@
   },
   {
     "q": "How do you make the first column of a table bold using CSS?",
-    "c": null,
     "o": [
       "table td:first-child { font-weight: bold; }",
       "table tr:first-child { font-weight: bold; }",
@@ -8371,7 +7651,6 @@
   },
   {
     "q": "Which table tag is used to define column specifications?",
-    "c": null,
     "o": [
       "<col>",
       "<td>",
@@ -8381,7 +7660,6 @@
   },
   {
     "q": "What is the difference between <thead> and <th>?",
-    "c": null,
     "o": [
       "<thead> groups headers, while <th> defines individual header cells",
       "<thead> is required, while <th> is optional",
@@ -8391,7 +7669,6 @@
   },
   {
     "q": "What is the function of the 'headers' attribute in a <td> element?",
-    "c": null,
     "o": [
       "It associates the cell with a specific header for accessibility",
       "It defines a new column",
@@ -8401,7 +7678,6 @@
   },
   {
     "q": "How can you create a zebra-striped table using CSS?",
-    "c": null,
     "o": [
       "Using 'nth-child(even)' to style every alternate row",
       "Setting 'border-spacing: 5px'",
@@ -8421,7 +7697,6 @@
   },
   {
     "q": "Which of the following improves the usability of tables for screen readers?",
-    "c": null,
     "o": [
       "Using <caption> and 'scope' attributes",
       "Applying inline styles",
@@ -8431,7 +7706,6 @@
   },
   {
     "q": "How can you add a background color to every second row of a table?",
-    "c": null,
     "o": [
       "Using 'tr:nth-child(even)' in CSS",
       "Setting 'background-color' on <td>",
@@ -8441,7 +7715,6 @@
   },
   {
     "q": "Which of the following attributes is NOT valid in HTML5 tables?",
-    "c": null,
     "o": [
       "cellpadding",
       "border",
@@ -8451,7 +7724,6 @@
   },
   {
     "q": "What is the default alignment of text in a <td> element?",
-    "c": null,
     "o": [
       "Left",
       "Center",
@@ -8461,7 +7733,6 @@
   },
   {
     "q": "Which element allows you to apply styles to an entire column?",
-    "c": null,
     "o": [
       "<col>",
       "<tr>",
@@ -8471,7 +7742,6 @@
   },
   {
     "q": "Which of the following helps in making an HTML table responsive?",
-    "c": null,
     "o": [
       "Using 'overflow: auto' inside a wrapper div",
       "Setting 'table-layout: fixed'",
@@ -8481,7 +7751,6 @@
   },
   {
     "q": "Which HTML element is used to define a row in a table?",
-    "c": null,
     "o": [
       "<tr>",
       "<td>",
@@ -8501,7 +7770,6 @@
   },
   {
     "q": "Which attribute is used to merge multiple table cells in a row?",
-    "c": null,
     "o": [
       "colspan",
       "rowspan",
@@ -8511,7 +7779,6 @@
   },
   {
     "q": "Which of the following is NOT a valid way to define a table border in HTML5?",
-    "c": null,
     "o": [
       "Using 'border' attribute in <table>",
       "Using CSS 'border' property",
@@ -8521,7 +7788,6 @@
   },
   {
     "q": "Which tag is used to create a header cell in a table?",
-    "c": null,
     "o": [
       "<th>",
       "<td>",
@@ -8531,7 +7797,6 @@
   },
   {
     "q": "What is the default alignment of text inside a <th> element?",
-    "c": null,
     "o": [
       "Center",
       "Left",
@@ -8541,7 +7806,6 @@
   },
   {
     "q": "What does the 'scope' attribute in a <th> element do?",
-    "c": null,
     "o": [
       "Defines whether the header applies to a row, column, or group",
       "Applies CSS styles to the header",
@@ -8551,7 +7815,6 @@
   },
   {
     "q": "Which table element is used to group footer content?",
-    "c": null,
     "o": [
       "<tfoot>",
       "<tfootgroup>",
@@ -8561,7 +7824,6 @@
   },
   {
     "q": "What happens when 'border-collapse: collapse;' is applied to a table?",
-    "c": null,
     "o": [
       "It merges adjacent table borders into a single border",
       "It removes the borders from the table",
@@ -8571,7 +7833,6 @@
   },
   {
     "q": "Which of the following table elements is optional?",
-    "c": null,
     "o": [
       "<caption>",
       "<thead>",
@@ -8581,7 +7842,6 @@
   },
   {
     "q": "How can you apply a background color to only the first row of a table using CSS?",
-    "c": null,
     "o": [
       "table tr:first-child { background-color: yellow; }",
       "table td:first-child { background-color: yellow; }",
@@ -8591,7 +7851,6 @@
   },
   {
     "q": "Which property is used to add space inside table cells?",
-    "c": null,
     "o": [
       "padding",
       "margin",
@@ -8601,7 +7860,6 @@
   },
   {
     "q": "Which HTML element is used to group columns in a table?",
-    "c": null,
     "o": [
       "<colgroup>",
       "<thead>",
@@ -8611,7 +7869,6 @@
   },
   {
     "q": "What does the 'cellspacing' attribute do in an HTML table?",
-    "c": null,
     "o": [
       "Sets the spacing between table cells",
       "Adds a border around table cells",
@@ -8631,7 +7888,6 @@
   },
   {
     "q": "Which of the following is NOT a valid HTML5 table attribute?",
-    "c": null,
     "o": [
       "cellpadding",
       "colspan",
@@ -8641,7 +7897,6 @@
   },
   {
     "q": "How can you make an HTML table scrollable horizontally?",
-    "c": null,
     "o": [
       "By wrapping it in a <div> with 'overflow-x: auto'",
       "Using 'table-layout: fixed'",
@@ -8651,7 +7906,6 @@
   },
   {
     "q": "Which tag is used to define a table body?",
-    "c": null,
     "o": [
       "<tbody>",
       "<thead>",
@@ -8661,7 +7915,6 @@
   },
   {
     "q": "Which CSS property helps in making the first column of a table bold?",
-    "c": null,
     "o": [
       "table td:first-child { font-weight: bold; }",
       "table th:first-child { font-weight: bold; }",
@@ -8671,7 +7924,6 @@
   },
   {
     "q": "How do you define an accessible table structure?",
-    "c": null,
     "o": [
       "Using <caption>, <th>, and 'scope' attributes",
       "Applying CSS styles for better visibility",
@@ -8701,7 +7953,6 @@
   },
   {
     "q": "Which of the following improves the usability of tables on small screens?",
-    "c": null,
     "o": [
       "Making the table responsive using CSS media queries",
       "Using 'table-layout: fixed'",
@@ -8711,7 +7962,6 @@
   },
   {
     "q": "Which HTML element is used to create a table?",
-    "c": null,
     "o": [
       "<table>",
       "<tr>",
@@ -8721,7 +7971,6 @@
   },
   {
     "q": "Which tag is used to define a table row?",
-    "c": null,
     "o": [
       "<tr>",
       "<td>",
@@ -8741,7 +7990,6 @@
   },
   {
     "q": "Which attribute is used to provide a title for a table?",
-    "c": null,
     "o": [
       "caption",
       "title",
@@ -8751,7 +7999,6 @@
   },
   {
     "q": "Which element groups column-specific formatting in a table?",
-    "c": null,
     "o": [
       "<colgroup>",
       "<thead>",
@@ -8761,7 +8008,6 @@
   },
   {
     "q": "What does 'border-collapse: separate;' do in a table?",
-    "c": null,
     "o": [
       "It keeps table borders separate",
       "It merges table borders",
@@ -8771,7 +8017,6 @@
   },
   {
     "q": "What is the default text alignment inside a <td> element?",
-    "c": null,
     "o": [
       "Left",
       "Center",
@@ -8781,7 +8026,6 @@
   },
   {
     "q": "Which CSS property is used to control the width of table columns?",
-    "c": null,
     "o": [
       "width",
       "column-width",
@@ -8791,7 +8035,6 @@
   },
   {
     "q": "Which HTML table tag helps to define a group of header rows?",
-    "c": null,
     "o": [
       "<thead>",
       "<header>",
@@ -8811,7 +8054,6 @@
   },
   {
     "q": "Which CSS property is used to set the space between table cells?",
-    "c": null,
     "o": [
       "border-spacing",
       "cellspacing",
@@ -8841,7 +8083,6 @@
   },
   {
     "q": "Which tag should be used for defining a caption in a table?",
-    "c": null,
     "o": [
       "<caption>",
       "<header>",
@@ -8851,7 +8092,6 @@
   },
   {
     "q": "What is the purpose of the 'scope' attribute in a <th> element?",
-    "c": null,
     "o": [
       "It defines whether the header applies to a column, row, or group",
       "It sets the text alignment of the header",
@@ -8861,7 +8101,6 @@
   },
   {
     "q": "What happens when 'table-layout: fixed;' is applied to a table?",
-    "c": null,
     "o": [
       "Column widths will not change based on content",
       "Table width will adjust dynamically",
@@ -8871,7 +8110,6 @@
   },
   {
     "q": "Which attribute can be used to define the width of a column in a <colgroup>?",
-    "c": null,
     "o": [
       "width",
       "size",
@@ -8881,7 +8119,6 @@
   },
   {
     "q": "How can you apply a background color to only the first column of a table using CSS?",
-    "c": null,
     "o": [
       "table td:first-child { background-color: lightblue; }",
       "table th:first-child { background-color: lightblue; }",
@@ -8891,7 +8128,6 @@
   },
   {
     "q": "Which property controls the horizontal alignment of text inside a table cell?",
-    "c": null,
     "o": [
       "text-align",
       "align",
@@ -8901,7 +8137,6 @@
   },
   {
     "q": "What happens when 'border-collapse: collapse;' is applied?",
-    "c": null,
     "o": [
       "Table borders merge into a single border",
       "Table borders disappear",
@@ -8911,7 +8146,6 @@
   },
   {
     "q": "How can you make a table responsive without horizontal scrolling?",
-    "c": null,
     "o": [
       "Using CSS flexbox or grid",
       "Applying 'overflow-x: hidden'",
@@ -8921,7 +8155,6 @@
   },
   {
     "q": "What is the role of the 'align' attribute in a table?",
-    "c": null,
     "o": [
       "It specifies the horizontal alignment of table content",
       "It defines the table width",
@@ -8931,7 +8164,6 @@
   },
   {
     "q": "Which HTML5 table attribute has been deprecated?",
-    "c": null,
     "o": [
       "cellpadding",
       "colspan",
@@ -8941,7 +8173,6 @@
   },
   {
     "q": "Which tag is used to define a table header?",
-    "c": null,
     "o": [
       "<th>",
       "<td>",
@@ -8951,7 +8182,6 @@
   },
   {
     "q": "What will happen if you omit the <tbody> tag in an HTML table?",
-    "c": null,
     "o": [
       "The browser will automatically add it",
       "The table will not render correctly",
@@ -8971,7 +8201,6 @@
   },
   {
     "q": "What is the function of the <tfoot> tag?",
-    "c": null,
     "o": [
       "Defines the footer of a table",
       "Defines the title of a table",
@@ -8981,7 +8210,6 @@
   },
   {
     "q": "Which CSS property is used to set the thickness of table borders?",
-    "c": null,
     "o": [
       "border-width",
       "border-thickness",
@@ -8991,7 +8219,6 @@
   },
   {
     "q": "Which tag is used to create a table caption?",
-    "c": null,
     "o": [
       "<caption>",
       "<summary>",
@@ -9011,7 +8238,6 @@
   },
   {
     "q": "Which of the following will apply a background color to all even rows in a table?",
-    "c": null,
     "o": [
       "table tr:nth-child(even) { background-color: lightgray; }",
       "table tr:nth-of-type(odd) { background-color: lightgray; }",
@@ -9021,7 +8247,6 @@
   },
   {
     "q": "Which tag is used to define a group of columns in a table?",
-    "c": null,
     "o": [
       "<colgroup>",
       "<columns>",
@@ -9031,7 +8256,6 @@
   },
   {
     "q": "How can you set equal widths for all columns in a table?",
-    "c": null,
     "o": [
       "table { table-layout: fixed; }",
       "table { column-width: equal; }",
@@ -9041,7 +8265,6 @@
   },
   {
     "q": "What happens when you apply 'overflow: auto;' to a table inside a div?",
-    "c": null,
     "o": [
       "The table will have a scrollbar if necessary",
       "The table will shrink to fit the content",
@@ -9051,7 +8274,6 @@
   },
   {
     "q": "Which attribute is used to set the space between the content of a cell and its border?",
-    "c": null,
     "o": [
       "cellpadding",
       "cellspacing",
@@ -9061,7 +8283,6 @@
   },
   {
     "q": "Which tag is used to define a header section in a table?",
-    "c": null,
     "o": [
       "<thead>",
       "<header>",
@@ -9071,7 +8292,6 @@
   },
   {
     "q": "Which of the following is the correct syntax for defining a column width using <col>?",
-    "c": null,
     "o": [
       "<col style=\"width: 100px;\">",
       "<col width=\"100\">",
@@ -9081,7 +8301,6 @@
   },
   {
     "q": "Which CSS property is used to merge table borders into a single border?",
-    "c": null,
     "o": [
       "border-collapse",
       "border-spacing",
@@ -9091,7 +8310,6 @@
   },
   {
     "q": "Which HTML5 attribute allows screen readers to describe the purpose of a table?",
-    "c": null,
     "o": [
       "aria-label",
       "table-title",
@@ -9101,7 +8319,6 @@
   },
   {
     "q": "What is the purpose of the 'scope' attribute in <th> elements?",
-    "c": null,
     "o": [
       "It specifies if the header applies to a column, row, or group",
       "It defines the style of the header",
@@ -9111,7 +8328,6 @@
   },
   {
     "q": "Which of the following is a correct way to center a table on a webpage?",
-    "c": null,
     "o": [
       "table { margin: auto; }",
       "table { align: center; }",
@@ -9121,7 +8337,6 @@
   },
   {
     "q": "How can you prevent a table from stretching beyond the screen width?",
-    "c": null,
     "o": [
       "table { max-width: 100%; overflow-x: auto; }",
       "table { width: 150%; }",
@@ -9131,7 +8346,6 @@
   },
   {
     "q": "Which HTML element is used to group multiple table rows?",
-    "c": null,
     "o": [
       "<tbody>",
       "<tgroup>",
@@ -9141,7 +8355,6 @@
   },
   {
     "q": "Which CSS property controls the height of table rows?",
-    "c": null,
     "o": [
       "height",
       "row-height",
@@ -9151,7 +8364,6 @@
   },
   {
     "q": "What does 'border-spacing: 0;' do in a table?",
-    "c": null,
     "o": [
       "Removes space between table cells",
       "Hides the table border",
@@ -9161,7 +8373,6 @@
   },
   {
     "q": "What does 'empty-cells: hide;' do in a table?",
-    "c": null,
     "o": [
       "Hides cells with no content",
       "Removes empty table rows",
@@ -9171,7 +8382,6 @@
   },
   {
     "q": "Which attribute is used to merge two or more rows in a table?",
-    "c": null,
     "o": [
       "rowspan",
       "colspan",
@@ -9191,7 +8401,6 @@
   },
   {
     "q": "Which of the following is NOT a valid HTML table tag?",
-    "c": null,
     "o": [
       "<row>",
       "<thead>",
@@ -9201,7 +8410,6 @@
   },
   {
     "q": "Which tag is used to group table headers, body, and footer?",
-    "c": null,
     "o": [
       "<thead>, <tbody>, <tfoot>",
       "<header>, <content>, <footer>",
@@ -9211,7 +8419,6 @@
   },
   {
     "q": "How can you make a table horizontally scrollable?",
-    "c": null,
     "o": [
       "By wrapping it inside a div with 'overflow-x: auto;'",
       "By setting 'table-layout: fixed;'",
@@ -9221,7 +8428,6 @@
   },
   {
     "q": "What does the 'scope' attribute in <th> elements do?",
-    "c": null,
     "o": [
       "Specifies whether the header applies to a row, column, or group",
       "Merges the header cells",
@@ -9231,7 +8437,6 @@
   },
   {
     "q": "Which property will set a table's borders to collapse into a single border?",
-    "c": null,
     "o": [
       "border-collapse: collapse;",
       "border-spacing: 0;",
@@ -9251,7 +8456,6 @@
   },
   {
     "q": "Which CSS property is used to add space between table cells?",
-    "c": null,
     "o": [
       "border-spacing",
       "cellspacing",
@@ -9261,7 +8465,6 @@
   },
   {
     "q": "Which HTML5 attribute is used to improve accessibility for table navigation?",
-    "c": null,
     "o": [
       "aria-describedby",
       "alt",
@@ -9271,7 +8474,6 @@
   },
   {
     "q": "What does 'table-layout: fixed;' do in a table?",
-    "c": null,
     "o": [
       "Fixes the column widths regardless of content",
       "Allows table to expand based on content",
@@ -9281,7 +8483,6 @@
   },
   {
     "q": "Which CSS property controls the alignment of text in table cells?",
-    "c": null,
     "o": [
       "text-align",
       "cell-align",
@@ -9291,7 +8492,6 @@
   },
   {
     "q": "Which of the following CSS styles makes the table responsive?",
-    "c": null,
     "o": [
       "table { width: 100%; overflow-x: auto; }",
       "table { max-width: 200px; }",
@@ -9301,7 +8501,6 @@
   },
   {
     "q": "What happens if you use <th> instead of <td> in a table body?",
-    "c": null,
     "o": [
       "The text will be bold and centered by default",
       "The table will break",
@@ -9311,7 +8510,6 @@
   },
   {
     "q": "Which tag is used to specify column properties in a table?",
-    "c": null,
     "o": [
       "<col>",
       "<colgroup>",
@@ -9321,7 +8519,6 @@
   },
   {
     "q": "What does 'empty-cells: show;' do in a table?",
-    "c": null,
     "o": [
       "Displays borders for empty table cells",
       "Hides empty table cells",
@@ -9331,7 +8528,6 @@
   },
   {
     "q": "What is the correct way to apply a background color to every alternate row in a table?",
-    "c": null,
     "o": [
       "tr:nth-child(even) { background-color: lightgray; }",
       "tr:nth-of-type(odd) { background-color: lightgray; }",
@@ -9341,7 +8537,6 @@
   },
   {
     "q": "Which HTML tag is used to provide a title or description for a table?",
-    "c": null,
     "o": [
       "<caption>",
       "<summary>",
@@ -9351,7 +8546,6 @@
   },
   {
     "q": "Which CSS property defines the height of table rows?",
-    "c": null,
     "o": [
       "height",
       "row-height",
@@ -9361,7 +8555,6 @@
   },
   {
     "q": "What happens if you use an incorrect colspan value in a table?",
-    "c": null,
     "o": [
       "The extra columns will be ignored",
       "The table will break",
@@ -9371,7 +8564,6 @@
   },
   {
     "q": "Which of the following is the correct way to define a table footer?",
-    "c": null,
     "o": [
       "<tfoot>",
       "<tfooted>",
@@ -9381,7 +8573,6 @@
   },
   {
     "q": "Which CSS property is used to prevent table headers from scrolling?",
-    "c": null,
     "o": [
       "position: sticky;",
       "table-layout: fixed;",
@@ -9391,7 +8582,6 @@
   },
   {
     "q": "Which of the following is true about <thead>, <tbody>, and <tfoot>?",
-    "c": null,
     "o": [
       "They help in structuring a table for accessibility and styling",
       "They are mandatory in every table",
@@ -9401,7 +8591,6 @@
   },
   {
     "q": "Which of the following properties will make a table fit within its container?",
-    "c": null,
     "o": [
       "max-width: 100%;",
       "min-width: 1200px;",
@@ -9411,7 +8600,6 @@
   },
   {
     "q": "Which HTML tag is used to group multiple columns together for styling?",
-    "c": null,
     "o": [
       "<colgroup>",
       "<columns>",
@@ -9421,7 +8609,6 @@
   },
   {
     "q": "What does the 'scope' attribute in the <th> tag specify?",
-    "c": null,
     "o": [
       "Defines whether the header is for a row, column, or group",
       "Merges multiple header cells",
@@ -9441,7 +8628,6 @@
   },
   {
     "q": "Which property should you use to apply different colors to alternating rows in a table?",
-    "c": null,
     "o": [
       "tr:nth-child(even)",
       "tr:alternate",
@@ -9451,7 +8637,6 @@
   },
   {
     "q": "What will happen if you set 'border-collapse: separate;' in a table?",
-    "c": null,
     "o": [
       "The borders of adjacent cells will be separated",
       "The table will remove all borders",
@@ -9461,7 +8646,6 @@
   },
   {
     "q": "Which tag is used to define a table header row?",
-    "c": null,
     "o": [
       "<thead>",
       "<th>",
@@ -9471,7 +8655,6 @@
   },
   {
     "q": "Which attribute specifies the number of columns a cell should span?",
-    "c": null,
     "o": [
       "colspan",
       "rowspan",
@@ -9491,7 +8674,6 @@
   },
   {
     "q": "How do you make a table take up the full width of its container?",
-    "c": null,
     "o": [
       "width: 100%;",
       "max-width: 800px;",
@@ -9501,7 +8683,6 @@
   },
   {
     "q": "Which tag is used to add a description for a table?",
-    "c": null,
     "o": [
       "<caption>",
       "<summary>",
@@ -9511,7 +8692,6 @@
   },
   {
     "q": "What is the default alignment of table text?",
-    "c": null,
     "o": [
       "Left-aligned",
       "Center-aligned",
@@ -9521,7 +8701,6 @@
   },
   {
     "q": "Which of the following ensures that the table header stays fixed while scrolling?",
-    "c": null,
     "o": [
       "position: sticky;",
       "overflow: auto;",
@@ -9531,7 +8710,6 @@
   },
   {
     "q": "What does the 'empty-cells: hide;' CSS property do?",
-    "c": null,
     "o": [
       "Hides empty table cells",
       "Removes all table rows",
@@ -9541,7 +8719,6 @@
   },
   {
     "q": "Which property is used to control spacing between table cells?",
-    "c": null,
     "o": [
       "border-spacing",
       "cell-padding",
@@ -9551,7 +8728,6 @@
   },
   {
     "q": "What is the purpose of the 'summary' attribute in an HTML table?",
-    "c": null,
     "o": [
       "Provides a brief description for accessibility",
       "Defines the table caption",
@@ -9561,7 +8737,6 @@
   },
   {
     "q": "Which of the following is NOT a valid table element?",
-    "c": null,
     "o": [
       "<tablebody>",
       "<tbody>",
@@ -9571,7 +8746,6 @@
   },
   {
     "q": "Which of the following CSS properties ensures that table cells do not wrap text?",
-    "c": null,
     "o": [
       "white-space: nowrap;",
       "overflow: hidden;",
@@ -9581,7 +8755,6 @@
   },
   {
     "q": "Which tag defines a group of table rows?",
-    "c": null,
     "o": [
       "<tbody>",
       "<tr>",
@@ -9591,7 +8764,6 @@
   },
   {
     "q": "What is the role of <tfoot> in a table?",
-    "c": null,
     "o": [
       "Defines footer rows",
       "Holds column headers",
@@ -9601,7 +8773,6 @@
   },
   {
     "q": "What happens when 'border-collapse: collapse;' is applied?",
-    "c": null,
     "o": [
       "Adjacent table cell borders merge",
       "Table borders disappear",
@@ -9611,7 +8782,6 @@
   },
   {
     "q": "Which CSS property defines the width of table columns?",
-    "c": null,
     "o": [
       "width",
       "column-width",
@@ -9621,7 +8791,6 @@
   },
   {
     "q": "How do you make a table responsive?",
-    "c": null,
     "o": [
       "Wrap it inside a div with 'overflow-x: auto;'",
       "Set 'table-layout: fixed;'",
@@ -9631,7 +8800,6 @@
   },
   {
     "q": "Which of the following will set equal width for all table columns?",
-    "c": null,
     "o": [
       "table-layout: fixed;",
       "width: auto;",
@@ -9641,7 +8809,6 @@
   },
   {
     "q": "What will happen if you do not specify a width for a table?",
-    "c": null,
     "o": [
       "The table will shrink or expand based on content",
       "The table will always take full width",
@@ -9651,7 +8818,6 @@
   },
   {
     "q": "Which attribute is used to merge two or more rows in an HTML table?",
-    "c": null,
     "o": [
       "rowspan",
       "colspan",
@@ -9661,7 +8827,6 @@
   },
   {
     "q": "Which tag is used to group the footer content in a table?",
-    "c": null,
     "o": [
       "<tfoot>",
       "<tfootgroup>",
@@ -9671,7 +8836,6 @@
   },
   {
     "q": "What is the default value of the 'border-collapse' property?",
-    "c": null,
     "o": [
       "separate",
       "collapse",
@@ -9681,7 +8845,6 @@
   },
   {
     "q": "Which HTML attribute is used to specify space between table cells?",
-    "c": null,
     "o": [
       "cellspacing",
       "cellpadding",
@@ -9691,7 +8854,6 @@
   },
   {
     "q": "Which of the following CSS properties helps to create a zebra-striped table?",
-    "c": null,
     "o": [
       "nth-child(even)",
       "opacity: 0.5;",
@@ -9701,7 +8863,6 @@
   },
   {
     "q": "What is the correct way to create a table with a fixed layout?",
-    "c": null,
     "o": [
       "table-layout: fixed;",
       "width: auto;",
@@ -9721,7 +8882,6 @@
   },
   {
     "q": "Which tag is used to define a column's style for an entire table?",
-    "c": null,
     "o": [
       "<col>",
       "<column>",
@@ -9731,7 +8891,6 @@
   },
   {
     "q": "Which property should you use to make a table header sticky?",
-    "c": null,
     "o": [
       "position: sticky;",
       "table-layout: fixed;",
@@ -9741,7 +8900,6 @@
   },
   {
     "q": "How can you make a table cell span multiple columns?",
-    "c": null,
     "o": [
       "Use the 'colspan' attribute",
       "Use the 'rowspan' attribute",
@@ -9751,7 +8909,6 @@
   },
   {
     "q": "What happens when you set 'empty-cells: hide;' in CSS?",
-    "c": null,
     "o": [
       "Empty table cells are not displayed",
       "The table collapses",
@@ -9761,7 +8918,6 @@
   },
   {
     "q": "Which of the following HTML elements is used to group columns for styling purposes?",
-    "c": null,
     "o": [
       "<colgroup>",
       "<columns>",
@@ -9771,7 +8927,6 @@
   },
   {
     "q": "How do you ensure table data does not wrap within a cell?",
-    "c": null,
     "o": [
       "white-space: nowrap;",
       "text-align: center;",
@@ -9781,7 +8936,6 @@
   },
   {
     "q": "Which CSS property can be used to set spacing between adjacent table borders?",
-    "c": null,
     "o": [
       "border-spacing",
       "margin",
@@ -9791,7 +8945,6 @@
   },
   {
     "q": "What is the effect of applying 'border-collapse: collapse;' on a table?",
-    "c": null,
     "o": [
       "Cell borders merge into a single border",
       "Table spacing increases",
@@ -9811,7 +8964,6 @@
   },
   {
     "q": "What is the correct way to specify the width of a table column?",
-    "c": null,
     "o": [
       "Using the 'width' attribute in the <col> or <td> tag",
       "Applying 'table-width' CSS property",
@@ -9821,7 +8973,6 @@
   },
   {
     "q": "Which of the following CSS rules is used to create a hover effect for table rows?",
-    "c": null,
     "o": [
       "tr:hover { background-color: lightgray; }",
       "table:hover { color: red; }",
@@ -9831,7 +8982,6 @@
   },
   {
     "q": "Which of the following will correctly center the text in all table cells?",
-    "c": null,
     "o": [
       "td, th { text-align: center; }",
       "table { align: center; }",
@@ -9841,7 +8991,6 @@
   },
   {
     "q": "What is the purpose of the 'summary' attribute in older HTML versions?",
-    "c": null,
     "o": [
       "Provides a text description of the table for screen readers",
       "Defines the title of the table",
@@ -9851,7 +9000,6 @@
   },
   {
     "q": "Which HTML element is used to provide a title or description for a table?",
-    "c": null,
     "o": [
       "<caption>",
       "<summary>",
@@ -9861,7 +9009,6 @@
   },
   {
     "q": "Which attribute is used to merge multiple columns in an HTML table?",
-    "c": null,
     "o": [
       "colspan",
       "rowspan",
@@ -9871,7 +9018,6 @@
   },
   {
     "q": "Which HTML element is used to create a header row in a table?",
-    "c": null,
     "o": [
       "<thead>",
       "<header>",
@@ -9881,7 +9027,6 @@
   },
   {
     "q": "What happens when you apply 'border-collapse: separate;' in CSS?",
-    "c": null,
     "o": [
       "Table borders remain distinct",
       "Borders are merged into a single border",
@@ -9891,7 +9036,6 @@
   },
   {
     "q": "Which CSS property controls the alignment of table content?",
-    "c": null,
     "o": [
       "text-align",
       "table-layout",
@@ -9911,7 +9055,6 @@
   },
   {
     "q": "Which HTML element is used to group multiple rows in a table?",
-    "c": null,
     "o": [
       "<tbody>",
       "<tfoot>",
@@ -9921,7 +9064,6 @@
   },
   {
     "q": "What does the 'scope' attribute in a <th> element define?",
-    "c": null,
     "o": [
       "It defines whether the header applies to a row or column",
       "It sets the width of the column",
@@ -9931,7 +9073,6 @@
   },
   {
     "q": "Which CSS property can be used to make a table row change color on hover?",
-    "c": null,
     "o": [
       "tr:hover { background-color: lightgray; }",
       "table:hover { color: red; }",
@@ -9941,7 +9082,6 @@
   },
   {
     "q": "Which CSS property ensures that a table's column widths remain fixed regardless of content size?",
-    "c": null,
     "o": [
       "table-layout: fixed;",
       "width: auto;",
@@ -9951,7 +9091,6 @@
   },
   {
     "q": "What will happen if you use 'overflow: auto;' on a div containing a table?",
-    "c": null,
     "o": [
       "The table will become scrollable if it exceeds the container size",
       "The table will shrink to fit the container",
@@ -9971,7 +9110,6 @@
   },
   {
     "q": "Which HTML element is used to define a group of columns in a table?",
-    "c": null,
     "o": [
       "<colgroup>",
       "<colspan>",
@@ -9981,7 +9119,6 @@
   },
   {
     "q": "Which CSS property helps in alternating row colors in a table?",
-    "c": null,
     "o": [
       "nth-child(even)",
       "opacity: 0.5;",
@@ -9991,7 +9128,6 @@
   },
   {
     "q": "What does 'border-collapse: collapse;' do in a table?",
-    "c": null,
     "o": [
       "It merges adjacent cell borders",
       "It hides the table",
@@ -10011,7 +9147,6 @@
   },
   {
     "q": "Which of the following is a correct way to prevent table cells from wrapping text?",
-    "c": null,
     "o": [
       "white-space: nowrap;",
       "word-wrap: break-word;",
@@ -10021,7 +9156,6 @@
   },
   {
     "q": "Which property controls spacing between table cell contents and cell borders?",
-    "c": null,
     "o": [
       "padding",
       "margin",
@@ -10031,7 +9165,6 @@
   },
   {
     "q": "Which of the following ensures that table headers remain visible while scrolling?",
-    "c": null,
     "o": [
       "position: sticky;",
       "table-layout: fixed;",
@@ -10041,7 +9174,6 @@
   },
   {
     "q": "Which HTML element is used to define the column headers of a table?",
-    "c": null,
     "o": [
       "<th>",
       "<td>",
@@ -10051,7 +9183,6 @@
   },
   {
     "q": "Which HTML tag is used to group multiple columns in a table for styling purposes?",
-    "c": null,
     "o": [
       "<colgroup>",
       "<columns>",
@@ -10061,7 +9192,6 @@
   },
   {
     "q": "What does the 'rowspan' attribute do in an HTML table?",
-    "c": null,
     "o": [
       "Merges multiple rows into a single cell",
       "Merges multiple columns into a single cell",
@@ -10081,7 +9211,6 @@
   },
   {
     "q": "Which HTML element is used to define a table footer?",
-    "c": null,
     "o": [
       "<tfoot>",
       "<footer>",
@@ -10091,7 +9220,6 @@
   },
   {
     "q": "What happens when 'border-spacing: 10px;' is applied to a table?",
-    "c": null,
     "o": [
       "Adds 10px space between table cells",
       "Collapses the table border",
@@ -10111,7 +9239,6 @@
   },
   {
     "q": "Which of the following makes a table header sticky while scrolling?",
-    "c": null,
     "o": [
       "position: sticky;",
       "table-layout: fixed;",
@@ -10121,7 +9248,6 @@
   },
   {
     "q": "Which CSS property prevents text inside table cells from wrapping?",
-    "c": null,
     "o": [
       "white-space: nowrap;",
       "text-align: center;",
@@ -10131,7 +9257,6 @@
   },
   {
     "q": "What does the 'scope' attribute do in a <th> element?",
-    "c": null,
     "o": [
       "Specifies whether the header applies to a row or column",
       "Changes the text alignment",
@@ -10141,7 +9266,6 @@
   },
   {
     "q": "Which CSS property ensures equal column widths in a table?",
-    "c": null,
     "o": [
       "table-layout: fixed;",
       "width: auto;",
@@ -10151,7 +9275,6 @@
   },
   {
     "q": "How can you define a table where each row has alternating background colors?",
-    "c": null,
     "o": [
       "tr:nth-child(even) { background-color: #f2f2f2; }",
       "table { border-spacing: 10px; }",
@@ -10161,7 +9284,6 @@
   },
   {
     "q": "Which tag is used to define a group of table rows?",
-    "c": null,
     "o": [
       "<tbody>",
       "<tfoot>",
@@ -10171,7 +9293,6 @@
   },
   {
     "q": "Which table element is used to provide additional information below the main table data?",
-    "c": null,
     "o": [
       "<tfoot>",
       "<tbody>",
@@ -10201,7 +9322,6 @@
   },
   {
     "q": "What does the 'summary' attribute do in an HTML table?",
-    "c": null,
     "o": [
       "Provides a text description of the table for accessibility",
       "Changes the table background color",
@@ -10221,7 +9341,6 @@
   },
   {
     "q": "Which CSS property is used to add space inside table cells?",
-    "c": null,
     "o": [
       "padding",
       "margin",
@@ -10231,7 +9350,6 @@
   },
   {
     "q": "What is the default value of 'border-collapse' in a table?",
-    "c": null,
     "o": [
       "separate",
       "collapse",
@@ -10241,7 +9359,6 @@
   },
   {
     "q": "Which HTML element is used to define a table row?",
-    "c": null,
     "o": [
       "<tr>",
       "<td>",
@@ -10251,7 +9368,6 @@
   },
   {
     "q": "What is the purpose of the `<caption>` tag in an HTML table?",
-    "c": null,
     "o": [
       "Provides a title or description for the table",
       "Defines a column in a table",
@@ -10271,7 +9387,6 @@
   },
   {
     "q": "Which attribute is used to merge multiple columns in an HTML table?",
-    "c": null,
     "o": [
       "colspan",
       "rowspan",
@@ -10291,7 +9406,6 @@
   },
   {
     "q": "Which tag is used to define the structure of table headers, body, and footer?",
-    "c": null,
     "o": [
       "<thead>, <tbody>, <tfoot>",
       "<header>, <body>, <footer>",
@@ -10331,7 +9445,6 @@
   },
   {
     "q": "What happens if you apply 'width: 100%;' to an HTML table?",
-    "c": null,
     "o": [
       "The table stretches to fit the container width",
       "The table height increases",
@@ -10351,7 +9464,6 @@
   },
   {
     "q": "Which CSS property is used to add space between table cells?",
-    "c": null,
     "o": [
       "border-spacing",
       "padding",
@@ -10371,7 +9483,6 @@
   },
   {
     "q": "Which attribute in `<table>` is now deprecated in HTML5?",
-    "c": null,
     "o": [
       "border",
       "width",
@@ -10401,7 +9512,6 @@
   },
   {
     "q": "Which HTML element is used to define a group of columns in a table?",
-    "c": null,
     "o": [
       "<colgroup>",
       "<columns>",
@@ -10411,7 +9521,6 @@
   },
   {
     "q": "Which CSS property prevents text inside table cells from wrapping?",
-    "c": null,
     "o": [
       "white-space: nowrap;",
       "text-align: center;",
@@ -10421,7 +9530,6 @@
   },
   {
     "q": "What is the default alignment for text inside `<th>` elements?",
-    "c": null,
     "o": [
       "Center",
       "Left",
@@ -10431,7 +9539,6 @@
   },
   {
     "q": "What is the purpose of the 'summary' attribute in a table?",
-    "c": null,
     "o": [
       "Provides a description of the table for screen readers",
       "Defines the table width",
@@ -10441,7 +9548,6 @@
   },
   {
     "q": "Which tag is used to create a table in HTML?",
-    "c": null,
     "o": [
       "<table>",
       "<tab>",
@@ -10451,7 +9557,6 @@
   },
   {
     "q": "What does the `<th>` element represent in an HTML table?",
-    "c": null,
     "o": [
       "A header cell",
       "A data cell",
@@ -10491,7 +9596,6 @@
   },
   {
     "q": "Which table element is used to define a summary of table data?",
-    "c": null,
     "o": [
       "<caption>",
       "<summary>",
@@ -10601,7 +9705,6 @@
   },
   {
     "q": "What is the purpose of the `<tbody>` element in a table?",
-    "c": null,
     "o": [
       "Groups the main content of the table",
       "Defines the table's title",
@@ -10621,7 +9724,6 @@
   },
   {
     "q": "What happens when you apply 'width: 100%;' to a table?",
-    "c": null,
     "o": [
       "The table stretches to fit the full width of its container",
       "Each column gets an equal width",
@@ -10821,7 +9923,6 @@
   },
   {
     "q": "Which HTML tag is used to create a table?",
-    "c": null,
     "o": [
       "<table>",
       "<tr>",
@@ -11031,7 +10132,6 @@
   },
   {
     "q": "What is the default alignment of table text?",
-    "c": null,
     "o": [
       "Left",
       "Center",
@@ -11201,7 +10301,6 @@
   },
   {
     "q": "What is the main advantage of using the <thead>, <tbody>, and <tfoot> elements?",
-    "c": null,
     "o": [
       "Improves table accessibility and structure",
       "Reduces file size",

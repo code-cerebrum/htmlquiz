@@ -1,7 +1,6 @@
 [
   {
     "q": "Which HTML element is used to embed a video file?",
-    "c": null,
     "o": [
       "<video>",
       "<embed>",
@@ -21,7 +20,6 @@
   },
   {
     "q": "Which attribute is required for the <audio> element to add playback controls?",
-    "c": null,
     "o": [
       "controls",
       "autoplay",
@@ -41,7 +39,6 @@
   },
   {
     "q": "Which HTML element is used to display an image?",
-    "c": null,
     "o": [
       "<img>",
       "<image>",
@@ -61,7 +58,6 @@
   },
   {
     "q": "Which attribute is used to specify multiple sources for an image?",
-    "c": null,
     "o": [
       "srcset",
       "multiple",
@@ -71,7 +67,6 @@
   },
   {
     "q": "What is the purpose of the <source> element inside a <video> or <audio> tag?",
-    "c": null,
     "o": [
       "To provide multiple media file formats for browser compatibility",
       "To define a default video or audio file",
@@ -81,7 +76,6 @@
   },
   {
     "q": "Which HTML attribute is used to make a video start playing automatically?",
-    "c": null,
     "o": [
       "autoplay",
       "start",
@@ -91,7 +85,6 @@
   },
   {
     "q": "What will happen when you use the 'loop' attribute in a <video> element?",
-    "c": null,
     "o": [
       "The video will restart automatically after it ends",
       "The video will play only once",
@@ -111,7 +104,6 @@
   },
   {
     "q": "Which of the following is a correct way to embed an audio file in HTML?",
-    "c": null,
     "o": [
       "<audio src=\"sound.mp3\" controls></audio>",
       "<audio href=\"sound.mp3\" play></audio>",
@@ -121,7 +113,6 @@
   },
   {
     "q": "What does the 'muted' attribute do in an <audio> or <video> element?",
-    "c": null,
     "o": [
       "Starts playback with no sound",
       "Disables volume controls",
@@ -141,7 +132,6 @@
   },
   {
     "q": "Which HTML element is used to define multiple image sources for different screen sizes?",
-    "c": null,
     "o": [
       "<picture>",
       "<multi-img>",
@@ -151,7 +141,6 @@
   },
   {
     "q": "What is the purpose of the 'poster' attribute in the <video> element?",
-    "c": null,
     "o": [
       "Specifies an image to be shown before the video starts playing",
       "Automatically plays the video when the image is clicked",
@@ -171,7 +160,6 @@
   },
   {
     "q": "Which attribute ensures an <audio> element will not play until the user interacts with it?",
-    "c": null,
     "o": [
       "controls",
       "autoplay",
@@ -181,7 +169,6 @@
   },
   {
     "q": "Which attribute should be used in an <audio> or <video> tag to preload media content before playing?",
-    "c": null,
     "o": [
       "preload",
       "buffer",
@@ -201,7 +188,6 @@
   },
   {
     "q": "Which HTML tag should be used to embed an image in a webpage?",
-    "c": null,
     "o": [
       "<img>",
       "<image>",
@@ -211,7 +197,6 @@
   },
   {
     "q": "Which attribute in the <video> tag specifies an alternative text message when the browser does not support videos?",
-    "c": null,
     "o": [
       "Fallback text inside the <video> element",
       "alt",
@@ -231,7 +216,6 @@
   },
   {
     "q": "Which attribute is used in the <source> element to specify the media type?",
-    "c": null,
     "o": [
       "type",
       "media",
@@ -241,7 +225,6 @@
   },
   {
     "q": "What does the 'controls' attribute do in a <video> element?",
-    "c": null,
     "o": [
       "Displays playback controls like play, pause, and volume",
       "Forces the video to play automatically",
@@ -251,7 +234,6 @@
   },
   {
     "q": "What will happen when the 'autoplay' and 'muted' attributes are both present in a <video> tag?",
-    "c": null,
     "o": [
       "The video will start playing automatically without sound",
       "The video will not play unless the user clicks play",
@@ -261,7 +243,6 @@
   },
   {
     "q": "Which HTML element allows you to define multiple image sources for responsive design?",
-    "c": null,
     "o": [
       "<picture>",
       "<img>",
@@ -271,7 +252,6 @@
   },
   {
     "q": "What will happen if the browser does not support the <video> element?",
-    "c": null,
     "o": [
       "The fallback text inside the <video> tag will be displayed",
       "The browser will show a broken video icon",
@@ -281,7 +261,6 @@
   },
   {
     "q": "Which HTML element is used to define alternative text for an image?",
-    "c": null,
     "o": [
       "alt",
       "title",
@@ -291,7 +270,6 @@
   },
   {
     "q": "What happens if the 'autoplay' attribute is used in an <audio> element?",
-    "c": null,
     "o": [
       "The audio will start playing as soon as the page loads",
       "The user must click play to start the audio",
@@ -311,7 +289,6 @@
   },
   {
     "q": "Which attribute in the <audio> element tells the browser to download the file when the page loads?",
-    "c": null,
     "o": [
       "preload",
       "buffer",
@@ -321,7 +298,6 @@
   },
   {
     "q": "What does the 'crossorigin' attribute do in a <video> or <audio> element?",
-    "c": null,
     "o": [
       "Allows media files from different origins to be used",
       "Blocks external media from loading",
@@ -331,7 +307,6 @@
   },
   {
     "q": "Which of the following is a correct way to use the <source> element inside a <picture> tag?",
-    "c": null,
     "o": [
       "<source srcset=\"image-small.jpg\" media=\"(max-width: 600px)\">",
       "<source href=\"image-small.jpg\" media=\"(max-width: 600px)\">",
@@ -351,7 +326,6 @@
   },
   {
     "q": "Which HTML tag allows embedding of external media players such as YouTube or Vimeo?",
-    "c": null,
     "o": [
       "<iframe>",
       "<embed>",
@@ -371,7 +345,6 @@
   },
   {
     "q": "Which attribute in an <img> tag improves performance by deferring the loading of images until they are needed?",
-    "c": null,
     "o": [
       "loading",
       "lazyload",
@@ -381,7 +354,6 @@
   },
   {
     "q": "Which HTML attribute is used to specify a default image when an <img> element fails to load?",
-    "c": null,
     "o": [
       "alt",
       "fallback",
@@ -391,7 +363,6 @@
   },
   {
     "q": "What does the 'playsinline' attribute do in a <video> element?",
-    "c": null,
     "o": [
       "Forces the video to play inside the webpage instead of fullscreen on mobile devices",
       "Enables autoplay without sound",
@@ -401,7 +372,6 @@
   },
   {
     "q": "What will happen when you use the 'poster' attribute in a <video> element?",
-    "c": null,
     "o": [
       "Displays an image before the video starts playing",
       "Adds a watermark to the video",
@@ -411,7 +381,6 @@
   },
   {
     "q": "Which of the following is a correct way to embed an audio file with multiple formats for browser compatibility?",
-    "c": null,
     "o": [
       "<audio controls>\n  <source src=\"audio.mp3\" type=\"audio/mpeg\">\n  <source src=\"audio.ogg\" type=\"audio/ogg\">\n</audio>",
       "<audio controls>\n  <src href=\"audio.mp3\" type=\"audio/mpeg\">\n  <src href=\"audio.ogg\" type=\"audio/ogg\">\n</audio>",
@@ -421,7 +390,6 @@
   },
   {
     "q": "Which HTML element is best suited for embedding an SVG image?",
-    "c": null,
     "o": [
       "<img>",
       "<svg>",
@@ -441,7 +409,6 @@
   },
   {
     "q": "Which attribute is used in the <audio> element to start playback automatically but without sound?",
-    "c": null,
     "o": [
       "autoplay muted",
       "autoplay silent",
@@ -461,7 +428,6 @@
   },
   {
     "q": "Which of the following is NOT a valid video format supported by the <video> element?",
-    "c": null,
     "o": [
       ".flv",
       ".mp4",
@@ -471,7 +437,6 @@
   },
   {
     "q": "Which HTML element allows embedding of external Flash content?",
-    "c": null,
     "o": [
       "<embed>",
       "<flash>",
@@ -481,7 +446,6 @@
   },
   {
     "q": "Which HTML tag is used to define captions or subtitles for a <video> element?",
-    "c": null,
     "o": [
       "<track>",
       "<caption>",
@@ -491,7 +455,6 @@
   },
   {
     "q": "Which attribute of the <img> tag provides alternative text for screen readers and when the image fails to load?",
-    "c": null,
     "o": [
       "alt",
       "title",
@@ -511,7 +474,6 @@
   },
   {
     "q": "Which attribute allows an <audio> element to play continuously after it ends?",
-    "c": null,
     "o": [
       "loop",
       "autoplay",
@@ -521,7 +483,6 @@
   },
   {
     "q": "What does the 'poster' attribute in a <video> element do?",
-    "c": null,
     "o": [
       "Specifies an image to display before the video starts playing",
       "Forces the video to autoplay",
@@ -531,7 +492,6 @@
   },
   {
     "q": "Which of the following is the correct way to preload an audio file?",
-    "c": null,
     "o": [
       "<audio preload=\"auto\" src=\"sound.mp3\"></audio>",
       "<audio load=\"true\" src=\"sound.mp3\"></audio>",
@@ -551,7 +511,6 @@
   },
   {
     "q": "Which of the following formats is NOT natively supported by the <audio> element?",
-    "c": null,
     "o": [
       ".wma",
       ".mp3",
@@ -561,7 +520,6 @@
   },
   {
     "q": "Which attribute in the <video> tag prevents the user from downloading or saving the video?",
-    "c": null,
     "o": [
       "There is no built-in attribute to prevent downloads",
       "disable-download",
@@ -571,7 +529,6 @@
   },
   {
     "q": "What is the purpose of the 'playsinline' attribute in a <video> tag?",
-    "c": null,
     "o": [
       "Prevents the video from entering fullscreen mode on mobile devices",
       "Forces the video to autoplay",
@@ -581,7 +538,6 @@
   },
   {
     "q": "Which attribute in the <video> tag allows it to start playing automatically when the page loads?",
-    "c": null,
     "o": [
       "autoplay",
       "play",
@@ -601,7 +557,6 @@
   },
   {
     "q": "Which HTML tag is used to display multiple image sources for responsive images?",
-    "c": null,
     "o": [
       "<picture>",
       "<imgset>",
@@ -611,7 +566,6 @@
   },
   {
     "q": "Which of the following is the correct way to define an embedded YouTube video?",
-    "c": null,
     "o": [
       "<iframe src=\"https://www.youtube.com/embed/VIDEO_ID\" allowfullscreen></iframe>",
       "<video src=\"https://www.youtube.com/embed/VIDEO_ID\" controls></video>",
@@ -621,7 +575,6 @@
   },
   {
     "q": "What happens if an <audio> element is used without the 'controls' attribute?",
-    "c": null,
     "o": [
       "The audio will play but without user controls",
       "The browser will display an error",
@@ -631,7 +584,6 @@
   },
   {
     "q": "Which attribute in the <img> tag helps improve accessibility and SEO?",
-    "c": null,
     "o": [
       "alt",
       "title",
@@ -651,7 +603,6 @@
   },
   {
     "q": "Which attribute in the <video> tag allows a thumbnail image to be shown before playback?",
-    "c": null,
     "o": [
       "poster",
       "thumbnail",
@@ -661,7 +612,6 @@
   },
   {
     "q": "Which media file format is best suited for web-compatible audio playback?",
-    "c": null,
     "o": [
       ".mp3",
       ".wav",
@@ -671,7 +621,6 @@
   },
   {
     "q": "What is the correct way to specify multiple image sources for different screen sizes?",
-    "c": null,
     "o": [
       "<img srcset=\"small.jpg 480w, medium.jpg 1024w, large.jpg 1920w\" sizes=\"(max-width: 600px) 480px, (max-width: 1200px) 1024px, 1920px\" src=\"fallback.jpg\">",
       "<img src=\"fallback.jpg\" imgset=\"small.jpg, medium.jpg, large.jpg\">",
@@ -681,7 +630,6 @@
   },
   {
     "q": "Which HTML element is used to group multiple images and captions together?",
-    "c": null,
     "o": [
       "<figure>",
       "<picture>",
@@ -711,7 +659,6 @@
   },
   {
     "q": "Which of the following attributes allows an <audio> element to play without user interaction?",
-    "c": null,
     "o": [
       "autoplay",
       "play",
@@ -721,7 +668,6 @@
   },
   {
     "q": "What is the purpose of the 'muted' attribute in a <video> element?",
-    "c": null,
     "o": [
       "Ensures the video starts with no sound",
       "Prevents the user from adjusting the volume",
@@ -731,7 +677,6 @@
   },
   {
     "q": "Which attribute should be used to delay loading of an image until it's needed?",
-    "c": null,
     "o": [
       "loading=\"lazy\"",
       "defer=\"true\"",
@@ -741,7 +686,6 @@
   },
   {
     "q": "Which of the following is a valid way to embed an image inside an <svg> element?",
-    "c": null,
     "o": [
       "<image href=\"image.jpg\" width=\"100\" height=\"100\"/>",
       "<img src=\"image.jpg\"/>",
@@ -761,7 +705,6 @@
   },
   {
     "q": "Which attribute is required in the <track> element for adding subtitles to a video?",
-    "c": null,
     "o": [
       "src",
       "text",
@@ -771,7 +714,6 @@
   },
   {
     "q": "Which file format is NOT natively supported by the HTML5 <video> element?",
-    "c": null,
     "o": [
       ".avi",
       ".mp4",
@@ -781,7 +723,6 @@
   },
   {
     "q": "Which attribute in the <audio> tag ensures that the audio file starts playing as soon as it is ready?",
-    "c": null,
     "o": [
       "autoplay",
       "play",
@@ -791,7 +732,6 @@
   },
   {
     "q": "What is the purpose of the 'crossorigin' attribute in the <video> and <audio> elements?",
-    "c": null,
     "o": [
       "Allows media to be loaded from a different domain",
       "Enables autoplay without user interaction",
@@ -801,7 +741,6 @@
   },
   {
     "q": "Which of the following HTML elements allows embedding an animated GIF?",
-    "c": null,
     "o": [
       "<img>",
       "<video>",
@@ -811,7 +750,6 @@
   },
   {
     "q": "What happens if an <audio> element has both the 'muted' and 'autoplay' attributes?",
-    "c": null,
     "o": [
       "The audio will play automatically but with no sound",
       "The audio will not play until the user interacts",
@@ -821,7 +759,6 @@
   },
   {
     "q": "Which of the following is the correct way to define a high-resolution image for a Retina display?",
-    "c": null,
     "o": [
       "<img srcset=\"image@2x.jpg 2x, image@3x.jpg 3x\" src=\"image.jpg\">",
       "<img retina=\"true\" src=\"image.jpg\">",
@@ -831,7 +768,6 @@
   },
   {
     "q": "What does the 'default' attribute do in a <track> element?",
-    "c": null,
     "o": [
       "Specifies the default subtitle or caption track",
       "Forces the video to use subtitles",
@@ -841,7 +777,6 @@
   },
   {
     "q": "Which of the following video formats is best suited for web streaming?",
-    "c": null,
     "o": [
       ".webm",
       ".avi",
@@ -861,7 +796,6 @@
   },
   {
     "q": "Which HTML tag is used to define a container for multiple image sources in responsive design?",
-    "c": null,
     "o": [
       "<picture>",
       "<imgset>",
@@ -871,7 +805,6 @@
   },
   {
     "q": "What happens if a browser does not support the <video> element?",
-    "c": null,
     "o": [
       "It will display the fallback content inside the <video> tag",
       "The video will not load, and an error will be shown",
@@ -881,7 +814,6 @@
   },
   {
     "q": "Which attribute in the <video> tag allows it to preload metadata without downloading the entire file?",
-    "c": null,
     "o": [
       "preload=\"metadata\"",
       "preload=\"auto\"",
@@ -901,7 +833,6 @@
   },
   {
     "q": "Which HTML tag is best suited for embedding an external interactive media player, such as a YouTube video?",
-    "c": null,
     "o": [
       "<iframe>",
       "<video>",
@@ -911,7 +842,6 @@
   },
   {
     "q": "What does the 'object-fit' property do when applied to an <img> element?",
-    "c": null,
     "o": [
       "Controls how an image fits inside its container",
       "Adjusts the resolution of the image",
@@ -921,7 +851,6 @@
   },
   {
     "q": "Which file format is NOT commonly supported by the <video> tag?",
-    "c": null,
     "o": [
       ".flv",
       ".mp4",
@@ -941,7 +870,6 @@
   },
   {
     "q": "Which attribute ensures that a video starts playing only when the user clicks the play button?",
-    "c": null,
     "o": [
       "controls",
       "autoplay",
@@ -951,7 +879,6 @@
   },
   {
     "q": "Which of the following is the correct way to add closed captions to a video?",
-    "c": null,
     "o": [
       "<track src=\"captions.vtt\" kind=\"subtitles\" srclang=\"en\" label=\"English\">",
       "<caption src=\"captions.vtt\">",
@@ -961,7 +888,6 @@
   },
   {
     "q": "What does the 'playsinline' attribute do in a <video> element?",
-    "c": null,
     "o": [
       "Forces the video to play within the page instead of fullscreen on mobile",
       "Enables autoplay without sound",
@@ -971,7 +897,6 @@
   },
   {
     "q": "Which of the following elements is used to display vector graphics in HTML?",
-    "c": null,
     "o": [
       "<svg>",
       "<canvas>",
@@ -981,7 +906,6 @@
   },
   {
     "q": "Which attribute in the <video> element allows users to see the video's timeline and controls?",
-    "c": null,
     "o": [
       "controls",
       "autoplay",
@@ -1001,7 +925,6 @@
   },
   {
     "q": "Which of the following is NOT a valid value for the 'preload' attribute in the <video> element?",
-    "c": null,
     "o": [
       "preload=\"lazy\"",
       "preload=\"auto\"",
@@ -1011,7 +934,6 @@
   },
   {
     "q": "Which attribute in the <img> element helps browsers load the appropriate image size for different screen resolutions?",
-    "c": null,
     "o": [
       "srcset",
       "responsive",
@@ -1021,7 +943,6 @@
   },
   {
     "q": "What happens if multiple <source> elements are defined inside a <video> tag?",
-    "c": null,
     "o": [
       "The browser plays the first supported video format",
       "All video sources play simultaneously",
@@ -1031,7 +952,6 @@
   },
   {
     "q": "Which HTML tag allows embedding an external audio stream such as a live radio broadcast?",
-    "c": null,
     "o": [
       "<audio>",
       "<stream>",
@@ -1041,7 +961,6 @@
   },
   {
     "q": "What does the 'loop' attribute do in a <video> element?",
-    "c": null,
     "o": [
       "Plays the video in a continuous loop",
       "Plays the video once and stops",
@@ -1051,7 +970,6 @@
   },
   {
     "q": "Which of the following is the correct way to define an alternative text for an image?",
-    "c": null,
     "o": [
       "<img src=\"image.jpg\" alt=\"A description of the image\">",
       "<img src=\"image.jpg\" description=\"A description of the image\">",
@@ -1061,7 +979,6 @@
   },
   {
     "q": "Which file format is widely supported for transparent images on the web?",
-    "c": null,
     "o": [
       ".png",
       ".jpg",
@@ -1071,7 +988,6 @@
   },
   {
     "q": "What happens when the 'poster' attribute is added to a <video> element?",
-    "c": null,
     "o": [
       "Displays a preview image before the video plays",
       "Forces the video to start muted",
@@ -1081,7 +997,6 @@
   },
   {
     "q": "Which HTML tag is used to specify multiple image sources for responsive images?",
-    "c": null,
     "o": [
       "<picture>",
       "<source>",
@@ -1101,7 +1016,6 @@
   },
   {
     "q": "Which attribute is used in the <video> tag to provide an image before the video starts?",
-    "c": null,
     "o": [
       "poster",
       "thumbnail",
@@ -1111,7 +1025,6 @@
   },
   {
     "q": "Which attribute of the <audio> element prevents the user from seeing playback controls?",
-    "c": null,
     "o": [
       "Omitting the 'controls' attribute",
       "Adding 'hidden' to the tag",
@@ -1121,7 +1034,6 @@
   },
   {
     "q": "Which of the following file formats supports lossless audio compression?",
-    "c": null,
     "o": [
       ".flac",
       ".mp3",
@@ -1131,7 +1043,6 @@
   },
   {
     "q": "What is the purpose of the <track> element inside a <video> tag?",
-    "c": null,
     "o": [
       "Adds subtitles or captions",
       "Specifies multiple video sources",
@@ -1141,7 +1052,6 @@
   },
   {
     "q": "What does the 'decoding' attribute do in an <img> element?",
-    "c": null,
     "o": [
       "Optimizes when the image is processed by the browser",
       "Prevents the image from loading",
@@ -1151,7 +1061,6 @@
   },
   {
     "q": "Which HTML element allows defining a fallback message when a browser does not support a media element?",
-    "c": null,
     "o": [
       "<noscript>",
       "<fallback>",
@@ -1161,7 +1070,6 @@
   },
   {
     "q": "Which attribute allows an <audio> or <video> file to start playing only when it enters the viewport?",
-    "c": null,
     "o": [
       "autoplay with JavaScript intersection observer",
       "playsinline",
@@ -1171,7 +1079,6 @@
   },
   {
     "q": "What does the 'kind' attribute in a <track> element specify?",
-    "c": null,
     "o": [
       "The type of text track (subtitles, captions, descriptions, etc.)",
       "The language of the subtitles",
@@ -1181,7 +1088,6 @@
   },
   {
     "q": "Which HTML element is used to define a caption for an image or a media element?",
-    "c": null,
     "o": [
       "<figcaption>",
       "<caption>",
@@ -1201,7 +1107,6 @@
   },
   {
     "q": "Which attribute prevents a video from being downloaded until the user clicks play?",
-    "c": null,
     "o": [
       "preload=\"none\"",
       "autoplay",
@@ -1211,7 +1116,6 @@
   },
   {
     "q": "What is the purpose of the 'playsinline' attribute in a <video> element?",
-    "c": null,
     "o": [
       "Prevents fullscreen playback on mobile devices",
       "Forces autoplay without sound",
@@ -1221,7 +1125,6 @@
   },
   {
     "q": "Which of the following is a valid way to embed an audio file that allows fallback text for unsupported browsers?",
-    "c": null,
     "o": [
       "<audio controls>\n  <source src=\"audio.mp3\" type=\"audio/mpeg\">\n  <p>Your browser does not support the audio element.</p>\n</audio>",
       "<audio src=\"audio.mp3\" fallback=\"Your browser does not support this audio format.\"></audio>",
@@ -1231,7 +1134,6 @@
   },
   {
     "q": "What is the default behavior of the <audio> element if no 'controls' attribute is provided?",
-    "c": null,
     "o": [
       "The audio plays but is invisible",
       "The audio plays with default controls",
@@ -1241,7 +1143,6 @@
   },
   {
     "q": "Which of the following formats is best suited for lossless transparent images?",
-    "c": null,
     "o": [
       ".png",
       ".jpeg",
@@ -1251,7 +1152,6 @@
   },
   {
     "q": "What does the 'object-position' CSS property do when applied to an <img> element?",
-    "c": null,
     "o": [
       "Adjusts the positioning of an image within its container",
       "Changes the image resolution",
@@ -1261,7 +1161,6 @@
   },
   {
     "q": "Which of the following is NOT a valid video file format?",
-    "c": null,
     "o": [
       ".mp5",
       ".mp4",
@@ -1271,7 +1170,6 @@
   },
   {
     "q": "What happens when a <source> tag is used inside a <picture> element?",
-    "c": null,
     "o": [
       "The browser selects the most appropriate image based on screen conditions",
       "All images inside the <picture> element load simultaneously",
@@ -1281,7 +1179,6 @@
   },
   {
     "q": "Which attribute allows an audio file to start playing automatically when the page loads?",
-    "c": null,
     "o": [
       "autoplay",
       "start",
@@ -1301,7 +1198,6 @@
   },
   {
     "q": "Which element is used to group an image and a caption together?",
-    "c": null,
     "o": [
       "<figure>",
       "<img>",
@@ -1311,7 +1207,6 @@
   },
   {
     "q": "Which attribute in the <audio> tag ensures that the audio file starts over when it finishes playing?",
-    "c": null,
     "o": [
       "loop",
       "restart",
@@ -1321,7 +1216,6 @@
   },
   {
     "q": "Which of the following correctly embeds a YouTube video into a webpage?",
-    "c": null,
     "o": [
       "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/videoID\" allowfullscreen></iframe>",
       "<video src=\"https://www.youtube.com/watch?v=videoID\" controls></video>",
@@ -1331,7 +1225,6 @@
   },
   {
     "q": "What happens when the 'crossorigin' attribute is added to a <video> element?",
-    "c": null,
     "o": [
       "Allows loading video files from different domains",
       "Blocks video playback from other websites",
@@ -1341,7 +1234,6 @@
   },
   {
     "q": "Which HTML element provides multiple sources for different screen resolutions?",
-    "c": null,
     "o": [
       "<picture>",
       "<source>",
@@ -1351,7 +1243,6 @@
   },
   {
     "q": "Which attribute in the <img> tag improves loading performance by delaying the image download?",
-    "c": null,
     "o": [
       "loading=\"lazy\"",
       "delay=\"true\"",
@@ -1361,7 +1252,6 @@
   },
   {
     "q": "Which HTML attribute is used to specify subtitles for a video?",
-    "c": null,
     "o": [
       "kind=\"subtitles\"",
       "text=\"captions\"",
@@ -1381,7 +1271,6 @@
   },
   {
     "q": "Which HTML attribute is used to make a video play in a continuous loop?",
-    "c": null,
     "o": [
       "loop",
       "repeat",
@@ -1401,7 +1290,6 @@
   },
   {
     "q": "Which of the following is NOT a valid audio file format supported by HTML5?",
-    "c": null,
     "o": [
       ".exe",
       ".wav",
@@ -1411,7 +1299,6 @@
   },
   {
     "q": "Which HTML element allows multiple image sources to be defined based on screen size?",
-    "c": null,
     "o": [
       "<picture>",
       "<source>",
@@ -1421,7 +1308,6 @@
   },
   {
     "q": "Which attribute in the <video> tag prevents a video from being downloaded before the user plays it?",
-    "c": null,
     "o": [
       "preload=\"none\"",
       "autoplay=\"false\"",
@@ -1431,7 +1317,6 @@
   },
   {
     "q": "What is the purpose of the 'muted' attribute in the <video> element?",
-    "c": null,
     "o": [
       "Prevents audio from playing initially",
       "Disables the video's volume control",
@@ -1441,7 +1326,6 @@
   },
   {
     "q": "Which HTML tag is recommended for embedding a responsive YouTube video?",
-    "c": null,
     "o": [
       "<iframe>",
       "<video>",
@@ -1451,7 +1335,6 @@
   },
   {
     "q": "What does the 'loading=\"lazy\"' attribute do when added to an <img> tag?",
-    "c": null,
     "o": [
       "Delays image loading until it appears in the viewport",
       "Preloads the image before the page fully loads",
@@ -1461,7 +1344,6 @@
   },
   {
     "q": "Which HTML element is used to provide subtitles or captions for a <video>?",
-    "c": null,
     "o": [
       "<track>",
       "<caption>",
@@ -1471,7 +1353,6 @@
   },
   {
     "q": "What happens if a browser does not support the specified video formats?",
-    "c": null,
     "o": [
       "It will display the fallback text inside the <video> element",
       "It will attempt to download the video",
@@ -1481,7 +1362,6 @@
   },
   {
     "q": "Which attribute in the <audio> element allows an audio file to start playing without user interaction?",
-    "c": null,
     "o": [
       "autoplay",
       "loop",
@@ -1501,7 +1381,6 @@
   },
   {
     "q": "Which of the following file formats is NOT commonly used for web video?",
-    "c": null,
     "o": [
       ".mkv",
       ".mp4",
@@ -1511,7 +1390,6 @@
   },
   {
     "q": "Which HTML attribute should be used to ensure an <img> element maintains its aspect ratio while resizing?",
-    "c": null,
     "o": [
       "width and height set proportionally",
       "stretch=\"true\"",
@@ -1521,7 +1399,6 @@
   },
   {
     "q": "Which HTML tag is used to define multiple sources for an audio file?",
-    "c": null,
     "o": [
       "<source>",
       "<track>",
@@ -1531,7 +1408,6 @@
   },
   {
     "q": "What is the purpose of the 'controls' attribute in the <video> and <audio> elements?",
-    "c": null,
     "o": [
       "Displays built-in playback controls",
       "Automatically plays the media",
@@ -1541,7 +1417,6 @@
   },
   {
     "q": "Which HTML attribute can be added to an <img> tag to improve accessibility for visually impaired users?",
-    "c": null,
     "o": [
       "alt",
       "desc",
@@ -1551,7 +1426,6 @@
   },
   {
     "q": "Which element allows you to provide different image files for different screen sizes?",
-    "c": null,
     "o": [
       "<picture>",
       "<srcset>",
@@ -1561,7 +1435,6 @@
   },
   {
     "q": "What does the 'poster' attribute do in the <video> tag?",
-    "c": null,
     "o": [
       "Displays an image before the video starts",
       "Automatically adds subtitles to the video",
@@ -1571,7 +1444,6 @@
   },
   {
     "q": "Which attribute should be used in a <video> element to allow playback without fullscreen mode on mobile browsers?",
-    "c": null,
     "o": [
       "playsinline",
       "nofullscreen",
@@ -1581,7 +1453,6 @@
   },
   {
     "q": "Which HTML element is used to provide alternative text descriptions for an image?",
-    "c": null,
     "o": [
       "alt",
       "title",
@@ -1591,7 +1462,6 @@
   },
   {
     "q": "What happens when the 'muted' attribute is set on a <video> element?",
-    "c": null,
     "o": [
       "The video will start without sound",
       "The volume slider is disabled",
@@ -1601,7 +1471,6 @@
   },
   {
     "q": "Which of the following is a valid way to embed an audio file with fallback text?",
-    "c": null,
     "o": [
       "<audio controls>\n  <source src=\"sound.mp3\" type=\"audio/mpeg\">\n  <p>Your browser does not support this audio format.</p>\n</audio>",
       "<audio>\n  <track kind=\"fallback\" label=\"Audio not supported\">\n</audio>",
@@ -1611,7 +1480,6 @@
   },
   {
     "q": "Which attribute in the <video> tag prevents the video from downloading before playback starts?",
-    "c": null,
     "o": [
       "preload=\"none\"",
       "autoplay=\"false\"",
@@ -1621,7 +1489,6 @@
   },
   {
     "q": "Which CSS property ensures an image does not exceed its container's width?",
-    "c": null,
     "o": [
       "max-width: 100%;",
       "object-fit: contain;",
@@ -1631,7 +1498,6 @@
   },
   {
     "q": "Which element is best for embedding responsive images that adapt to different screen resolutions?",
-    "c": null,
     "o": [
       "<picture>",
       "<img>",
@@ -1641,7 +1507,6 @@
   },
   {
     "q": "What is the purpose of the 'kind' attribute in the <track> element inside a <video> tag?",
-    "c": null,
     "o": [
       "Specifies the type of text track, such as subtitles or captions",
       "Defines the video format",
@@ -1651,7 +1516,6 @@
   },
   {
     "q": "Which of the following is NOT a valid video file format supported by HTML5?",
-    "c": null,
     "o": [
       ".flv",
       ".mp4",
@@ -1661,7 +1525,6 @@
   },
   {
     "q": "Which attribute in an <img> tag helps improve webpage performance by delaying the loading of offscreen images?",
-    "c": null,
     "o": [
       "loading=\"lazy\"",
       "preload=\"none\"",
@@ -1671,7 +1534,6 @@
   },
   {
     "q": "What does the 'controls' attribute do when added to an <audio> or <video> element?",
-    "c": null,
     "o": [
       "Displays built-in media controls",
       "Automatically plays the media",
@@ -1681,7 +1543,6 @@
   },
   {
     "q": "Which HTML attribute in the <video> tag ensures the video starts playing as soon as it is ready?",
-    "c": null,
     "o": [
       "autoplay",
       "preload",
@@ -1701,7 +1562,6 @@
   },
   {
     "q": "Which HTML element allows you to specify multiple sources for an image?",
-    "c": null,
     "o": [
       "<picture>",
       "<imgset>",
@@ -1711,7 +1571,6 @@
   },
   {
     "q": "Which of the following is NOT a valid attribute of the <audio> element?",
-    "c": null,
     "o": [
       "buffer",
       "loop",
@@ -1721,7 +1580,6 @@
   },
   {
     "q": "What is the default behavior of the 'preload' attribute in the <video> element when no value is set?",
-    "c": null,
     "o": [
       "The browser decides whether to preload the video or not",
       "The video will not be preloaded",
@@ -1731,7 +1589,6 @@
   },
   {
     "q": "Which of the following correctly embeds an audio file with a fallback text message?",
-    "c": null,
     "o": [
       "<audio controls>\n  <source src=\"music.mp3\" type=\"audio/mpeg\">\n  Your browser does not support the audio element.\n</audio>",
       "<audio>\n  <fallback>Your browser does not support audio.</fallback>\n</audio>",
@@ -1741,7 +1598,6 @@
   },
   {
     "q": "Which CSS property is commonly used to make images responsive?",
-    "c": null,
     "o": [
       "max-width: 100%;",
       "width: 200px;",
@@ -1751,7 +1607,6 @@
   },
   {
     "q": "Which of the following is a valid way to prevent an image from stretching while maintaining its aspect ratio?",
-    "c": null,
     "o": [
       "object-fit: contain;",
       "width: 100%; height: 100%;",
@@ -1761,7 +1616,6 @@
   },
   {
     "q": "Which HTML attribute allows the <video> element to display a still image before playback?",
-    "c": null,
     "o": [
       "poster",
       "thumbnail",
@@ -1771,7 +1625,6 @@
   },
   {
     "q": "Which of the following is the best way to embed a YouTube video in an HTML page?",
-    "c": null,
     "o": [
       "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/videoID\" allowfullscreen></iframe>",
       "<video src=\"https://www.youtube.com/watch?v=videoID\" controls></video>",
@@ -1781,7 +1634,6 @@
   },
   {
     "q": "Which HTML element is used to embed a video in a webpage?",
-    "c": null,
     "o": [
       "<video>",
       "<media>",
@@ -1801,7 +1653,6 @@
   },
   {
     "q": "Which attribute is used to display player controls in an <audio> element?",
-    "c": null,
     "o": [
       "controls",
       "autoplay",
@@ -1821,7 +1672,6 @@
   },
   {
     "q": "Which HTML tag is used to embed an image in a webpage?",
-    "c": null,
     "o": [
       "<img>",
       "<image>",
@@ -1831,7 +1681,6 @@
   },
   {
     "q": "What happens if the 'alt' attribute is missing in an <img> tag?",
-    "c": null,
     "o": [
       "Screen readers may not describe the image for visually impaired users",
       "The image will not be displayed",
@@ -1841,7 +1690,6 @@
   },
   {
     "q": "Which HTML element is used to provide multiple sources for a video file?",
-    "c": null,
     "o": [
       "<source>",
       "<track>",
@@ -1851,7 +1699,6 @@
   },
   {
     "q": "What is the correct syntax to autoplay a video in HTML?",
-    "c": null,
     "o": [
       "<video src=\"video.mp4\" autoplay>",
       "<video src=\"video.mp4\" auto>",
@@ -1871,7 +1718,6 @@
   },
   {
     "q": "Which HTML element is used to provide subtitles for a video?",
-    "c": null,
     "o": [
       "<track>",
       "<subtitles>",
@@ -1881,7 +1727,6 @@
   },
   {
     "q": "Which attribute ensures a video starts playing as soon as it loads in HTML?",
-    "c": null,
     "o": [
       "autoplay",
       "start",
@@ -1901,7 +1746,6 @@
   },
   {
     "q": "Which of the following is NOT a valid video format for the HTML5 <video> element?",
-    "c": null,
     "o": [
       ".flv",
       ".mp4",
@@ -1921,7 +1765,6 @@
   },
   {
     "q": "Which HTML element is used to embed a YouTube video?",
-    "c": null,
     "o": [
       "<iframe>",
       "<video>",
@@ -1931,7 +1774,6 @@
   },
   {
     "q": "What is the purpose of the 'loop' attribute in the <video> and <audio> elements?",
-    "c": null,
     "o": [
       "It makes the media file restart automatically after finishing",
       "It enables the 'next' button for media files",
@@ -1951,7 +1793,6 @@
   },
   {
     "q": "Which HTML tag is used to group multiple images into a gallery-like structure?",
-    "c": null,
     "o": [
       "<figure>",
       "<gallery>",
@@ -1961,7 +1802,6 @@
   },
   {
     "q": "What happens if a browser does not support the given video format?",
-    "c": null,
     "o": [
       "It will try the next <source> element",
       "It will display an error message",
@@ -1971,7 +1811,6 @@
   },
   {
     "q": "What does the 'poster' attribute do in the <video> element?",
-    "c": null,
     "o": [
       "Displays an image before the video starts playing",
       "Adds captions to the video",
@@ -1981,7 +1820,6 @@
   },
   {
     "q": "Which attribute is used in the <video> element to mute the video by default?",
-    "c": null,
     "o": [
       "muted",
       "silence",
@@ -2001,7 +1839,6 @@
   },
   {
     "q": "Which of the following is NOT a valid audio file format supported by the <audio> element?",
-    "c": null,
     "o": [
       ".wavx",
       ".mp3",
@@ -2011,7 +1848,6 @@
   },
   {
     "q": "What does the 'preload' attribute do in an <audio> or <video> element?",
-    "c": null,
     "o": [
       "Specifies how the browser should load the media file",
       "Starts playing the media automatically",
@@ -2031,7 +1867,6 @@
   },
   {
     "q": "Which attribute allows an audio file to start over automatically after it finishes?",
-    "c": null,
     "o": [
       "loop",
       "restart",
@@ -2051,7 +1886,6 @@
   },
   {
     "q": "Which HTML element provides captions or subtitles for a video?",
-    "c": null,
     "o": [
       "<track>",
       "<subtitle>",
@@ -2071,7 +1905,6 @@
   },
   {
     "q": "Which of the following is the correct syntax to embed an audio file with multiple sources?",
-    "c": null,
     "o": [
       "<audio controls>\n  <source src=\"sound.mp3\" type=\"audio/mpeg\">\n  <source src=\"sound.ogg\" type=\"audio/ogg\">\n</audio>",
       "<audio src=\"sound.mp3\" src=\"sound.ogg\" controls>",
@@ -2081,7 +1914,6 @@
   },
   {
     "q": "Which attribute ensures a video will not start playing until the user initiates it?",
-    "c": null,
     "o": [
       "controls",
       "autoplay",
@@ -2101,7 +1933,6 @@
   },
   {
     "q": "Which HTML attribute is used to specify multiple images for different screen sizes?",
-    "c": null,
     "o": [
       "srcset",
       "responsive",
@@ -2121,7 +1952,6 @@
   },
   {
     "q": "Which of the following is the correct syntax to add subtitles to a video?",
-    "c": null,
     "o": [
       "<track src=\"subtitles.vtt\" kind=\"subtitles\" srclang=\"en\" label=\"English\">",
       "<subtitle src=\"subtitles.vtt\" language=\"en\">",
@@ -2141,7 +1971,6 @@
   },
   {
     "q": "Which attribute allows a video to start playing without sound?",
-    "c": null,
     "o": [
       "muted",
       "nosound",
@@ -2161,7 +1990,6 @@
   },
   {
     "q": "Which of the following HTML elements is used to define a caption for an image?",
-    "c": null,
     "o": [
       "<figcaption>",
       "<caption>",
@@ -2171,7 +1999,6 @@
   },
   {
     "q": "Which of the following is the correct way to embed an MP4 video with a fallback message?",
-    "c": null,
     "o": [
       "<video controls>\n  <source src=\"video.mp4\" type=\"video/mp4\">\n  Your browser does not support the video tag.\n</video>",
       "<video source=\"video.mp4\" type=\"video/mp4\">Your browser does not support this video.</video>",
@@ -2181,7 +2008,6 @@
   },
   {
     "q": "Which attribute in the <video> tag specifies that the video should start playing as soon as it is loaded?",
-    "c": null,
     "o": [
       "autoplay",
       "play",
@@ -2201,7 +2027,6 @@
   },
   {
     "q": "Which of the following is NOT a valid value for the 'preload' attribute in the <video> tag?",
-    "c": null,
     "o": [
       "stream",
       "auto",
@@ -2221,7 +2046,6 @@
   },
   {
     "q": "Which HTML element is used to define a self-contained media object like an image with a caption?",
-    "c": null,
     "o": [
       "<figure>",
       "<caption>",
@@ -2241,7 +2065,6 @@
   },
   {
     "q": "Which attribute allows a video to play repeatedly without user interaction?",
-    "c": null,
     "o": [
       "loop",
       "repeat",
@@ -2261,7 +2084,6 @@
   },
   {
     "q": "Which attribute ensures an image loads only when it appears in the viewport?",
-    "c": null,
     "o": [
       "loading=\"lazy\"",
       "load-on-demand",
@@ -2271,7 +2093,6 @@
   },
   {
     "q": "Which of the following is the correct syntax for embedding an MP4 video with fallback content?",
-    "c": null,
     "o": [
       "<video controls>\n  <source src=\"clip.mp4\" type=\"video/mp4\">\n  Your browser does not support video.\n</video>",
       "<video src=\"clip.mp4\" controls>Video not supported.</video>",
@@ -2281,7 +2102,6 @@
   },
   {
     "q": "Which HTML element is used to play an audio file in a web page?",
-    "c": null,
     "o": [
       "<audio>",
       "<sound>",
@@ -2301,7 +2121,6 @@
   },
   {
     "q": "Which attribute is used to add a fallback text when an image fails to load?",
-    "c": null,
     "o": [
       "alt",
       "title",
@@ -2321,7 +2140,6 @@
   },
   {
     "q": "Which HTML tag is used to group multiple image sources for responsive loading?",
-    "c": null,
     "o": [
       "<picture>",
       "<source>",
@@ -2341,7 +2159,6 @@
   },
   {
     "q": "Which of the following is a correct way to display an image in HTML?",
-    "c": null,
     "o": [
       "<img src=\"image.jpg\" alt=\"Sample Image\">",
       "<image src=\"image.jpg\">",
@@ -2351,7 +2168,6 @@
   },
   {
     "q": "Which of the following is the correct syntax to autoplay an audio file in HTML?",
-    "c": null,
     "o": [
       "<audio src=\"music.mp3\" autoplay></audio>",
       "<audio src=\"music.mp3\" autostart></audio>",
@@ -2371,7 +2187,6 @@
   },
   {
     "q": "Which HTML element is used to provide text tracks (captions) for a video?",
-    "c": null,
     "o": [
       "<track>",
       "<caption>",
@@ -2381,7 +2196,6 @@
   },
   {
     "q": "Which attribute in the <audio> tag specifies that the audio should start playing automatically when the page loads?",
-    "c": null,
     "o": [
       "autoplay",
       "play",
@@ -2401,7 +2215,6 @@
   },
   {
     "q": "Which of the following attributes is used to ensure an audio file can be played multiple times without manual intervention?",
-    "c": null,
     "o": [
       "loop",
       "repeat",
@@ -2421,7 +2234,6 @@
   },
   {
     "q": "Which tag is used to provide a caption for an image or multimedia content?",
-    "c": null,
     "o": [
       "<figcaption>",
       "<caption>",
@@ -2441,7 +2253,6 @@
   },
   {
     "q": "Which HTML tag is used to specify multiple formats for an audio file?",
-    "c": null,
     "o": [
       "<source>",
       "<track>",
@@ -2451,7 +2262,6 @@
   },
   {
     "q": "What does the 'controls' attribute do in an <audio> or <video> tag?",
-    "c": null,
     "o": [
       "Displays play, pause, and volume control buttons",
       "Autoplays the media",
@@ -2481,7 +2291,6 @@
   },
   {
     "q": "Which HTML tag is used to embed a video file in a webpage?",
-    "c": null,
     "o": [
       "<video>",
       "<media>",
@@ -2501,7 +2310,6 @@
   },
   {
     "q": "Which attribute of the <audio> tag prevents users from manually controlling playback?",
-    "c": null,
     "o": [
       "controls=\"false\"",
       "disable",
@@ -2521,7 +2329,6 @@
   },
   {
     "q": "Which tag is used to provide text descriptions for a video?",
-    "c": null,
     "o": [
       "<track>",
       "<caption>",
@@ -2541,7 +2348,6 @@
   },
   {
     "q": "Which HTML tag is used to embed an external media file such as Flash or PDF?",
-    "c": null,
     "o": [
       "<embed>",
       "<external>",
@@ -2551,7 +2357,6 @@
   },
   {
     "q": "Which attribute is used to prevent an image from being displayed if it fails to load?",
-    "c": null,
     "o": [
       "alt",
       "title",
@@ -2571,7 +2376,6 @@
   },
   {
     "q": "Which tag is used for embedding YouTube videos in an HTML page?",
-    "c": null,
     "o": [
       "<iframe>",
       "<video>",
@@ -2581,7 +2385,6 @@
   },
   {
     "q": "Which attribute in the <video> tag ensures that the video file is downloaded in advance, improving playback performance?",
-    "c": null,
     "o": [
       "preload",
       "buffer",
@@ -2611,7 +2414,6 @@
   },
   {
     "q": "Which attribute in the <img> tag helps improve SEO and accessibility?",
-    "c": null,
     "o": [
       "alt",
       "title",
@@ -2631,7 +2433,6 @@
   },
   {
     "q": "Which of the following is NOT a valid way to embed an image in HTML?",
-    "c": null,
     "o": [
       "<media src=\"image.jpg\">",
       "<img src=\"image.jpg\">",
@@ -2641,7 +2442,6 @@
   },
   {
     "q": "Which HTML tag is used to provide closed captions for a video?",
-    "c": null,
     "o": [
       "<track>",
       "<caption>",
@@ -2661,7 +2461,6 @@
   },
   {
     "q": "Which HTML element is used to group an image with its caption?",
-    "c": null,
     "o": [
       "<figure>",
       "<figcaption>",
@@ -2671,7 +2470,6 @@
   },
   {
     "q": "What is the purpose of the 'controls' attribute in a video or audio element?",
-    "c": null,
     "o": [
       "It displays play, pause, and volume controls",
       "It loops the media",
@@ -2681,7 +2479,6 @@
   },
   {
     "q": "Which attribute in the <video> tag allows the user to start playback from the beginning after it ends?",
-    "c": null,
     "o": [
       "loop",
       "restart",
@@ -2701,7 +2498,6 @@
   },
   {
     "q": "Which attribute in the <audio> tag makes an audio file start playing as soon as the page loads?",
-    "c": null,
     "o": [
       "autoplay",
       "start",
@@ -2721,7 +2517,6 @@
   },
   {
     "q": "Which of the following formats is NOT supported by the <audio> tag?",
-    "c": null,
     "o": [
       ".wav",
       ".mp3",
@@ -2751,7 +2546,6 @@
   },
   {
     "q": "Which HTML attribute is used to define alternative text for an image?",
-    "c": null,
     "o": [
       "alt",
       "title",
@@ -2771,7 +2565,6 @@
   },
   {
     "q": "Which of the following attributes in the <audio> or <video> tag hides the player controls?",
-    "c": null,
     "o": [
       "Removing the 'controls' attribute",
       "Setting controls=\"false\"",
@@ -2781,7 +2574,6 @@
   },
   {
     "q": "Which attribute in the <video> tag forces the browser to play the video inline instead of fullscreen on mobile devices?",
-    "c": null,
     "o": [
       "playsinline",
       "fullscreen-disable",
@@ -2801,7 +2593,6 @@
   },
   {
     "q": "Which of the following is NOT a valid image format for the <img> tag?",
-    "c": null,
     "o": [
       ".mp4",
       ".png",
@@ -2821,7 +2612,6 @@
   },
   {
     "q": "Which HTML tag is used to provide text descriptions for an <img> inside a <figure> element?",
-    "c": null,
     "o": [
       "<figcaption>",
       "<caption>",
@@ -2841,7 +2631,6 @@
   },
   {
     "q": "Which tag is used to display a video from an external URL like Vimeo or YouTube?",
-    "c": null,
     "o": [
       "<iframe>",
       "<video>",
@@ -2861,7 +2650,6 @@
   },
   {
     "q": "Which CSS property is commonly used to make images responsive in modern web design?",
-    "c": null,
     "o": [
       "max-width: 100%",
       "display: block",
@@ -2871,7 +2659,6 @@
   },
   {
     "q": "Which of the following attributes prevents a video from playing automatically when the page loads?",
-    "c": null,
     "o": [
       "Removing the 'autoplay' attribute",
       "Setting autoplay=\"false\"",
@@ -2881,7 +2668,6 @@
   },
   {
     "q": "Which attribute in the <video> tag ensures the video will only load metadata without downloading the entire file?",
-    "c": null,
     "o": [
       "preload=\"metadata\"",
       "preload=\"none\"",
@@ -2921,7 +2707,6 @@
   },
   {
     "q": "Which of the following is NOT a valid value for the 'preload' attribute in the <video> tag?",
-    "c": null,
     "o": [
       "preload=\"buffer\"",
       "preload=\"none\"",
@@ -2941,7 +2726,6 @@
   },
   {
     "q": "Which of the following HTML5 elements is used to wrap media elements such as <img> and provide a descriptive caption?",
-    "c": null,
     "o": [
       "<figure>",
       "<media>",
@@ -2961,7 +2745,6 @@
   },
   {
     "q": "Which CSS property ensures that an image scales proportionally to fit within its container?",
-    "c": null,
     "o": [
       "object-fit: cover",
       "image-scale: fit",
@@ -3001,7 +2784,6 @@
   },
   {
     "q": "Which of the following media formats is NOT supported by the <video> tag?",
-    "c": null,
     "o": [
       ".wmv",
       ".mp4",
@@ -3061,7 +2843,6 @@
   },
   {
     "q": "Which CSS property is used to maintain an image’s aspect ratio while fitting it inside a container?",
-    "c": null,
     "o": [
       "object-fit: contain",
       "background-size: stretch",
@@ -3071,7 +2852,6 @@
   },
   {
     "q": "Which HTML5 element is used to group an image with a caption?",
-    "c": null,
     "o": [
       "<figure>",
       "<caption>",
@@ -3091,7 +2871,6 @@
   },
   {
     "q": "Which audio format is widely supported across modern browsers?",
-    "c": null,
     "o": [
       ".mp3",
       ".wav",
@@ -3101,7 +2880,6 @@
   },
   {
     "q": "Which of the following is NOT a valid way to embed a video in HTML?",
-    "c": null,
     "o": [
       "<video src=\"video.mp4\"></video>",
       "<embed src=\"video.mp4\">",
@@ -3151,7 +2929,6 @@
   },
   {
     "q": "Which property allows a background image to maintain its aspect ratio while covering the full container?",
-    "c": null,
     "o": [
       "background-size: cover",
       "object-fit: contain",
@@ -3191,7 +2968,6 @@
   },
   {
     "q": "Which of the following is NOT a valid video format for the <video> element?",
-    "c": null,
     "o": [
       ".flv",
       ".mp4",
@@ -3211,7 +2987,6 @@
   },
   {
     "q": "Which HTML element is used to embed external media, such as YouTube videos?",
-    "c": null,
     "o": [
       "<iframe>",
       "<video>",
@@ -3221,7 +2996,6 @@
   },
   {
     "q": "Which CSS property ensures an image fits within a container without distortion?",
-    "c": null,
     "o": [
       "object-fit: contain",
       "background-size: cover",
@@ -3291,7 +3065,6 @@
   },
   {
     "q": "Which video format is NOT widely supported by modern browsers?",
-    "c": null,
     "o": [
       ".avi",
       ".mp4",
@@ -3321,7 +3094,6 @@
   },
   {
     "q": "Which CSS property allows a background image to remain fixed while scrolling?",
-    "c": null,
     "o": [
       "background-attachment: fixed",
       "background-position: fixed",
@@ -3451,7 +3223,6 @@
   },
   {
     "q": "Which of the following is NOT a valid MIME type for the <audio> element?",
-    "c": null,
     "o": [
       "audio/x-ms-wma",
       "audio/mp3",

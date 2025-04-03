@@ -1,6 +1,7 @@
 [
   {
     "q": "What will be logged when the following code runs?",
+    "l": "javascript",
     "c": "document.getElementById(\"btn\").addEventListener(\"click\", function() {\n    console.log(\"Button clicked!\");\n});",
     "o": [
       "\"Button clicked!\"",
@@ -11,7 +12,6 @@
   },
   {
     "q": "Which method is used to attach an event listener to an element?",
-    "c": null,
     "o": [
       "element.addEventListener(event, function)",
       "element.attachEvent(event, function)",
@@ -21,6 +21,7 @@
   },
   {
     "q": "What will be logged when clicking on the child element inside the parent?",
+    "l": "javascript",
     "c": "<div id=\"parent\">\n    <button id=\"child\">Click me</button>\n</div>\n\n<script>\ndocument.getElementById(\"parent\").addEventListener(\"click\", function() {\n    console.log(\"Parent clicked\");\n});\ndocument.getElementById(\"child\").addEventListener(\"click\", function() {\n    console.log(\"Child clicked\");\n});\n</script>",
     "o": [
       "\"Child clicked!\" followed by \"Parent clicked!\"",
@@ -31,7 +32,6 @@
   },
   {
     "q": "What is event delegation in JavaScript?",
-    "c": null,
     "o": [
       "A technique where a single event listener is attached to a parent element to handle events on its child elements",
       "A way to delegate JavaScript execution to the browser",
@@ -41,7 +41,6 @@
   },
   {
     "q": "What happens when event.stopPropagation() is called inside an event handler?",
-    "c": null,
     "o": [
       "It prevents the event from propagating to parent elements",
       "It stops the default action of the event",
@@ -51,6 +50,7 @@
   },
   {
     "q": "What will be the output of the following code?",
+    "l": "javascript",
     "c": "<button id=\"btn\">Click Me</button>\n\n<script>\ndocument.getElementById(\"btn\").addEventListener(\"click\", function(event) {\n    event.preventDefault();\n    console.log(\"Button clicked!\");\n});\n</script>",
     "o": [
       "\"Button clicked!\"",
@@ -61,7 +61,6 @@
   },
   {
     "q": "Which of the following statements about event bubbling is correct?",
-    "c": null,
     "o": [
       "In event bubbling, the event first triggers on the target element and then propagates up to its ancestors",
       "In event bubbling, the event first triggers on the root element and then propagates down to the target element",
@@ -71,6 +70,7 @@
   },
   {
     "q": "What will be logged when clicking the button inside the div?",
+    "l": "javascript",
     "c": "<div id=\"container\">\n    <button id=\"btn\">Click Me</button>\n</div>\n\n<script>\ndocument.getElementById(\"container\").addEventListener(\"click\", function() {\n    console.log(\"Container clicked\");\n}, true);\n\ndocument.getElementById(\"btn\").addEventListener(\"click\", function() {\n    console.log(\"Button clicked\");\n});\n</script>",
     "o": [
       "\"Container clicked\" followed by \"Button clicked\"",
@@ -81,7 +81,6 @@
   },
   {
     "q": "Which property can be used to prevent the default action of an event?",
-    "c": null,
     "o": [
       "event.preventDefault()",
       "event.stopPropagation()",
@@ -91,6 +90,7 @@
   },
   {
     "q": "What will be the output when clicking the button?",
+    "l": "javascript",
     "c": "<button id=\"btn\">Click me</button>\n\n<script>\ndocument.getElementById(\"btn\").addEventListener(\"click\", function(event) {\n    event.stopPropagation();\n    console.log(\"Button clicked\");\n});\n\ndocument.body.addEventListener(\"click\", function() {\n    console.log(\"Body clicked\");\n});\n</script>",
     "o": [
       "\"Button clicked\"",
@@ -101,7 +101,6 @@
   },
   {
     "q": "Which of the following is true about event capturing (or trickling)?",
-    "c": null,
     "o": [
       "In event capturing, the event propagates from the root element down to the target element",
       "In event capturing, the event propagates from the target element to the root",
@@ -111,6 +110,7 @@
   },
   {
     "q": "What will be logged when clicking the button?",
+    "l": "javascript",
     "c": "<button id=\"btn\">Click</button>\n\n<script>\nfunction handleClick() {\n    console.log(\"Clicked\");\n    this.removeEventListener(\"click\", handleClick);\n}\ndocument.getElementById(\"btn\").addEventListener(\"click\", handleClick);\n</script>",
     "o": [
       "\"Clicked\" only once, even on multiple clicks",
@@ -121,7 +121,6 @@
   },
   {
     "q": "Which of the following is an advantage of event delegation?",
-    "c": null,
     "o": [
       "It reduces memory usage by adding a single event listener instead of multiple listeners",
       "It prevents event bubbling",
@@ -131,7 +130,6 @@
   },
   {
     "q": "What happens if event listeners are added without removing them properly?",
-    "c": null,
     "o": [
       "It may cause memory leaks",
       "It prevents the event from triggering",
@@ -141,6 +139,7 @@
   },
   {
     "q": "Which event will be prevented when using event.preventDefault() on an anchor tag?",
+    "l": "javascript",
     "c": "<a href=\"https://example.com\" id=\"link\">Click me</a>\n\n<script>\ndocument.getElementById(\"link\").addEventListener(\"click\", function(event) {\n    event.preventDefault();\n    console.log(\"Link clicked, but navigation prevented\");\n});\n</script>",
     "o": [
       "Navigation to 'https://example.com' will be prevented",
@@ -151,7 +150,6 @@
   },
   {
     "q": "Which event listener method will run only once and then be automatically removed?",
-    "c": null,
     "o": [
       "element.addEventListener(event, handler, { once: true })",
       "element.once(event, handler)",
@@ -161,7 +159,6 @@
   },
   {
     "q": "Which event property can be used to identify the element on which the event originally occurred?",
-    "c": null,
     "o": [
       "event.target",
       "event.currentTarget",
@@ -171,7 +168,6 @@
   },
   {
     "q": "What happens if multiple event listeners are added to the same element for the same event?",
-    "c": null,
     "o": [
       "All listeners will be executed in the order they were added",
       "Only the last added listener will execute",
@@ -181,6 +177,7 @@
   },
   {
     "q": "What will be logged when clicking the button inside the div?",
+    "l": "javascript",
     "c": "<div id=\"outer\">\n    <button id=\"inner\">Click me</button>\n</div>\n\n<script>\ndocument.getElementById(\"outer\").addEventListener(\"click\", function() {\n    console.log(\"Div clicked\");\n});\ndocument.getElementById(\"inner\").addEventListener(\"click\", function(event) {\n    console.log(\"Button clicked\");\n    event.stopPropagation();\n});\n</script>",
     "o": [
       "\"Button clicked\"",
@@ -191,7 +188,6 @@
   },
   {
     "q": "Which statement about event delegation is true?",
-    "c": null,
     "o": [
       "It allows a parent element to listen for events on its dynamically added child elements",
       "It prevents event bubbling",
@@ -201,7 +197,6 @@
   },
   {
     "q": "Which method is used to remove an event listener?",
-    "c": null,
     "o": [
       "element.removeEventListener(event, handler)",
       "element.detachEvent(event, handler)",
@@ -211,7 +206,6 @@
   },
   {
     "q": "What is the purpose of the 'once' option in addEventListener?",
-    "c": null,
     "o": [
       "It ensures the event listener runs only once and then removes itself",
       "It prevents event bubbling",
@@ -221,6 +215,7 @@
   },
   {
     "q": "What will happen if event.preventDefault() is used on a submit button inside a form?",
+    "l": "javascript",
     "c": "<form>\n    <button type=\"submit\" id=\"submitBtn\">Submit</button>\n</form>\n\n<script>\ndocument.getElementById(\"submitBtn\").addEventListener(\"click\", function(event) {\n    event.preventDefault();\n    console.log(\"Form submission prevented\");\n});\n</script>",
     "o": [
       "The form will not be submitted",
@@ -231,7 +226,6 @@
   },
   {
     "q": "What is the difference between event.target and event.currentTarget?",
-    "c": null,
     "o": [
       "event.target is the element that triggered the event, while event.currentTarget is the element to which the event listener is attached",
       "event.target and event.currentTarget always return the same value",
@@ -241,7 +235,6 @@
   },
   {
     "q": "Which of the following is true about event bubbling?",
-    "c": null,
     "o": [
       "It allows events to propagate from the target element up to its ancestors",
       "It allows events to propagate from the root element down to the target element",
@@ -251,6 +244,7 @@
   },
   {
     "q": "What will be the output when clicking the button inside the div?",
+    "l": "javascript",
     "c": "<div id=\"parent\">\n    <button id=\"child\">Click me</button>\n</div>\n\n<script>\ndocument.getElementById(\"parent\").addEventListener(\"click\", function(event) {\n    console.log(\"Parent clicked\");\n    event.stopImmediatePropagation();\n});\ndocument.getElementById(\"child\").addEventListener(\"click\", function() {\n    console.log(\"Child clicked\");\n});\n</script>",
     "o": [
       "\"Parent clicked\" only",
@@ -261,7 +255,6 @@
   },
   {
     "q": "What is the default behavior of an anchor tag (<a>) when clicked?",
-    "c": null,
     "o": [
       "It navigates to the specified href",
       "It submits a form",
@@ -271,6 +264,7 @@
   },
   {
     "q": "Which of the following is an example of event delegation?",
+    "l": "javascript",
     "c": "<ul id=\"menu\">\n    <li>Item 1</li>\n    <li>Item 2</li>\n    <li>Item 3</li>\n</ul>\n\n<script>\ndocument.getElementById(\"menu\").addEventListener(\"click\", function(event) {\n    console.log(\"Clicked on: \" + event.target.textContent);\n});\n</script>",
     "o": [
       "The parent <ul> listens for clicks on its child <li> elements",
@@ -281,7 +275,6 @@
   },
   {
     "q": "Which event phase runs first when using event capturing?",
-    "c": null,
     "o": [
       "The event propagates from the root element down to the target",
       "The event propagates from the target element to the root",
@@ -291,7 +284,6 @@
   },
   {
     "q": "How can you ensure an event listener executes only once?",
-    "c": null,
     "o": [
       "By using { once: true } in addEventListener",
       "By calling removeEventListener before execution",
@@ -301,7 +293,6 @@
   },
   {
     "q": "Which property allows you to check if the default action of an event was prevented?",
-    "c": null,
     "o": [
       "event.defaultPrevented",
       "event.preventDefault()",
@@ -311,7 +302,6 @@
   },
   {
     "q": "Which event is triggered when a user clicks inside an input field?",
-    "c": null,
     "o": [
       "focus",
       "click",
@@ -321,7 +311,6 @@
   },
   {
     "q": "Which of the following methods is used to stop event propagation?",
-    "c": null,
     "o": [
       "event.stopPropagation()",
       "event.preventDefault()",
@@ -331,6 +320,7 @@
   },
   {
     "q": "What will be logged when clicking the paragraph inside the div?",
+    "l": "javascript",
     "c": "<div id=\"container\">\n    <p id=\"text\">Click me</p>\n</div>\n\n<script>\ndocument.getElementById(\"container\").addEventListener(\"click\", function() {\n    console.log(\"Div clicked\");\n});\ndocument.getElementById(\"text\").addEventListener(\"click\", function(event) {\n    console.log(\"Paragraph clicked\");\n});\n</script>",
     "o": [
       "\"Paragraph clicked\" followed by \"Div clicked\"",
@@ -341,7 +331,6 @@
   },
   {
     "q": "Which statement is true about the addEventListener method?",
-    "c": null,
     "o": [
       "It allows adding multiple handlers for the same event on the same element",
       "It replaces any existing event listeners on the element",
@@ -351,7 +340,6 @@
   },
   {
     "q": "What happens when event.stopImmediatePropagation() is called?",
-    "c": null,
     "o": [
       "It stops the current event and prevents other listeners of the same event from executing",
       "It stops event propagation but allows other event listeners on the same element",
@@ -361,7 +349,6 @@
   },
   {
     "q": "Which option correctly explains the difference between event.preventDefault() and event.stopPropagation()?",
-    "c": null,
     "o": [
       "event.preventDefault() stops the default action, event.stopPropagation() stops event bubbling",
       "event.preventDefault() stops event bubbling, event.stopPropagation() prevents default actions",
@@ -371,7 +358,6 @@
   },
   {
     "q": "Which of the following events does NOT bubble by default?",
-    "c": null,
     "o": [
       "focus",
       "click",
@@ -381,6 +367,7 @@
   },
   {
     "q": "What will be the output when clicking the button?",
+    "l": "javascript",
     "c": "<button id=\"myBtn\">Click Me</button>\n\n<script>\ndocument.getElementById(\"myBtn\").addEventListener(\"click\", function(event) {\n    console.log(\"Button clicked\");\n    event.preventDefault();\n});\n</script>",
     "o": [
       "\"Button clicked\"",
@@ -391,7 +378,6 @@
   },
   {
     "q": "In event delegation, where should the event listener be added?",
-    "c": null,
     "o": [
       "On a parent element",
       "On each individual child element",
@@ -401,7 +387,6 @@
   },
   {
     "q": "Which event should be used to detect when a user releases a key?",
-    "c": null,
     "o": [
       "keyup",
       "keydown",
@@ -411,7 +396,6 @@
   },
   {
     "q": "What will happen if you call removeEventListener on a function that was declared inline within addEventListener?",
-    "c": null,
     "o": [
       "It won't remove the event listener",
       "It will remove the event listener",
@@ -421,7 +405,6 @@
   },
   {
     "q": "Which event is triggered when a user right-clicks on a webpage?",
-    "c": null,
     "o": [
       "contextmenu",
       "click",
@@ -431,7 +414,6 @@
   },
   {
     "q": "Which property is used to check which mouse button was clicked?",
-    "c": null,
     "o": [
       "event.button",
       "event.keyCode",
@@ -441,6 +423,7 @@
   },
   {
     "q": "What will happen when clicking the link?",
+    "l": "javascript",
     "c": "<a href=\"https://example.com\" id=\"myLink\">Click me</a>\n\n<script>\ndocument.getElementById(\"myLink\").addEventListener(\"click\", function(event) {\n    event.preventDefault();\n    console.log(\"Link clicked but not followed\");\n});\n</script>",
     "o": [
       "\"Link clicked but not followed\"",
@@ -451,7 +434,6 @@
   },
   {
     "q": "Which of the following is NOT a valid JavaScript event?",
-    "c": null,
     "o": [
       "onswipe",
       "onfocus",
@@ -461,7 +443,6 @@
   },
   {
     "q": "What is the correct way to attach a 'click' event to a button using JavaScript?",
-    "c": null,
     "o": [
       "button.addEventListener(\"click\", myFunction);",
       "button.onclick = myFunction();",
@@ -471,7 +452,6 @@
   },
   {
     "q": "Which statement best describes the capture phase in event propagation?",
-    "c": null,
     "o": [
       "Events travel from the root element to the target element",
       "Events travel from the target element to the root",
@@ -481,6 +461,7 @@
   },
   {
     "q": "What will be the output when clicking the button?",
+    "l": "javascript",
     "c": "<button id=\"btn\">Click</button>\n\n<script>\ndocument.getElementById(\"btn\").addEventListener(\"click\", function() {\n    console.log(\"First listener\");\n});\ndocument.getElementById(\"btn\").addEventListener(\"click\", function() {\n    console.log(\"Second listener\");\n});\n</script>",
     "o": [
       "\"First listener\" followed by \"Second listener\"",
@@ -491,7 +472,6 @@
   },
   {
     "q": "Which event is triggered when a user moves the mouse over an element?",
-    "c": null,
     "o": [
       "mouseover",
       "mouseenter",
@@ -501,7 +481,6 @@
   },
   {
     "q": "Which event is used to detect changes in an input field?",
-    "c": null,
     "o": [
       "change",
       "input",
@@ -511,6 +490,7 @@
   },
   {
     "q": "What will be logged when clicking the input field?",
+    "l": "javascript",
     "c": "<input type=\"text\" id=\"myInput\">\n\n<script>\ndocument.getElementById(\"myInput\").addEventListener(\"focus\", function() {\n    console.log(\"Input field focused\");\n});\n</script>",
     "o": [
       "\"Input field focused\"",
@@ -521,7 +501,6 @@
   },
   {
     "q": "Which method is used to remove an event listener in JavaScript?",
-    "c": null,
     "o": [
       "element.removeEventListener()",
       "element.offEvent()",
@@ -531,6 +510,7 @@
   },
   {
     "q": "What will be the output when clicking the child div?",
+    "l": "javascript",
     "c": "<div id=\"parent\">\n    <div id=\"child\">Click me</div>\n</div>\n\n<script>\ndocument.getElementById(\"parent\").addEventListener(\"click\", function() {\n    console.log(\"Parent clicked\");\n});\ndocument.getElementById(\"child\").addEventListener(\"click\", function(event) {\n    console.log(\"Child clicked\");\n    event.stopPropagation();\n});\n</script>",
     "o": [
       "\"Child clicked\"",
@@ -541,7 +521,6 @@
   },
   {
     "q": "Which of the following correctly describes event bubbling?",
-    "c": null,
     "o": [
       "Events propagate from the target element up to its ancestors",
       "Events propagate from the root down to the target element",
@@ -551,7 +530,6 @@
   },
   {
     "q": "Which of the following is NOT a valid way to attach an event listener?",
-    "c": null,
     "o": [
       "element.on('click', handler);",
       "element.addEventListener('click', handler);",
@@ -561,7 +539,6 @@
   },
   {
     "q": "Which event should be used to detect when a form is submitted?",
-    "c": null,
     "o": [
       "submit",
       "change",
@@ -571,7 +548,6 @@
   },
   {
     "q": "What happens when event.preventDefault() is used?",
-    "c": null,
     "o": [
       "It prevents the default browser behavior for the event",
       "It stops event propagation",
@@ -581,6 +557,7 @@
   },
   {
     "q": "What will be logged when the button is clicked?",
+    "l": "javascript",
     "c": "<button id=\"btn\">Click Me</button>\n\n<script>\nfunction handleClick() {\n    console.log(\"Button clicked\");\n}\ndocument.getElementById(\"btn\").addEventListener(\"click\", handleClick);\ndocument.getElementById(\"btn\").removeEventListener(\"click\", handleClick);\n</script>",
     "o": [
       "Nothing happens",
@@ -591,7 +568,6 @@
   },
   {
     "q": "Which of the following describes event delegation?",
-    "c": null,
     "o": [
       "Using a parent element to listen for events on child elements",
       "Attaching an event listener to each child element",
@@ -601,6 +577,7 @@
   },
   {
     "q": "What will be logged when clicking on 'Item 2'?",
+    "l": "javascript",
     "c": "<ul id=\"list\">\n    <li>Item 1</li>\n    <li>Item 2</li>\n    <li>Item 3</li>\n</ul>\n\n<script>\ndocument.getElementById(\"list\").addEventListener(\"click\", function(event) {\n    console.log(event.target.textContent);\n});\n</script>",
     "o": [
       "\"Item 2\"",
@@ -611,7 +588,6 @@
   },
   {
     "q": "Which event is triggered when an input field loses focus?",
-    "c": null,
     "o": [
       "blur",
       "focus",
@@ -621,7 +597,6 @@
   },
   {
     "q": "What is the difference between mouseover and mouseenter events?",
-    "c": null,
     "o": [
       "mouseenter does not bubble, mouseover does",
       "mouseover does not bubble, mouseenter does",
@@ -631,6 +606,7 @@
   },
   {
     "q": "What will happen when the link is clicked?",
+    "l": "javascript",
     "c": "<a href=\"https://example.com\" id=\"link\">Click me</a>\n\n<script>\ndocument.getElementById(\"link\").addEventListener(\"click\", function(event) {\n    event.preventDefault();\n    console.log(\"Link clicked but navigation prevented\");\n});\n</script>",
     "o": [
       "\"Link clicked but navigation prevented\"",
@@ -641,7 +617,6 @@
   },
   {
     "q": "Which of the following statements is true about the keydown event?",
-    "c": null,
     "o": [
       "It fires when a key is pressed down",
       "It fires when a key is released",
@@ -651,7 +626,6 @@
   },
   {
     "q": "Which of the following events fires when an element is double-clicked?",
-    "c": null,
     "o": [
       "dblclick",
       "click",
@@ -661,6 +635,7 @@
   },
   {
     "q": "What will be logged when clicking the input field?",
+    "l": "javascript",
     "c": "<input type=\"text\" id=\"myInput\">\n\n<script>\ndocument.getElementById(\"myInput\").addEventListener(\"focus\", function() {\n    console.log(\"Input focused\");\n});\n</script>",
     "o": [
       "\"Input focused\"",
@@ -671,7 +646,6 @@
   },
   {
     "q": "Which event is fired when a user presses and releases a key?",
-    "c": null,
     "o": [
       "keypress",
       "keydown",
@@ -681,7 +655,6 @@
   },
   {
     "q": "Which event should be used to detect scrolling?",
-    "c": null,
     "o": [
       "scroll",
       "wheel",
@@ -691,7 +664,6 @@
   },
   {
     "q": "Which property contains the element that triggered the event?",
-    "c": null,
     "o": [
       "event.target",
       "event.currentTarget",
@@ -701,7 +673,6 @@
   },
   {
     "q": "Which event fires when the user resizes the browser window?",
-    "c": null,
     "o": [
       "resize",
       "scroll",
@@ -711,7 +682,6 @@
   },
   {
     "q": "Which method is used to stop event propagation?",
-    "c": null,
     "o": [
       "event.stopPropagation()",
       "event.preventDefault()",
@@ -721,6 +691,7 @@
   },
   {
     "q": "What will be the output when clicking the button?",
+    "l": "javascript",
     "c": "<button id=\"btn\">Click Me</button>\n\n<script>\ndocument.getElementById(\"btn\").addEventListener(\"click\", function() {\n    console.log(\"Button Clicked\");\n}, true);\ndocument.body.addEventListener(\"click\", function() {\n    console.log(\"Body Clicked\");\n}, true);\n</script>",
     "o": [
       "\"Body Clicked\" followed by \"Button Clicked\"",
@@ -731,7 +702,6 @@
   },
   {
     "q": "Which of the following is TRUE about event delegation?",
-    "c": null,
     "o": [
       "It allows a parent element to handle events for its child elements",
       "It requires adding event listeners to each child element individually",
@@ -741,7 +711,6 @@
   },
   {
     "q": "What is the purpose of capturing phase in event propagation?",
-    "c": null,
     "o": [
       "Events are handled from the root element down to the target",
       "Events are handled from the target up to the root",
@@ -751,6 +720,7 @@
   },
   {
     "q": "What will be logged when clicking on the div?",
+    "l": "javascript",
     "c": "<div id=\"box\">Click me</div>\n\n<script>\ndocument.getElementById(\"box\").addEventListener(\"click\", function(event) {\n    console.log(event.currentTarget.id);\n});\n</script>",
     "o": [
       "\"box\"",
@@ -761,7 +731,6 @@
   },
   {
     "q": "Which event is triggered when a user right-clicks on an element?",
-    "c": null,
     "o": [
       "contextmenu",
       "click",
@@ -771,7 +740,6 @@
   },
   {
     "q": "Which of the following describes the default action of a form submit event?",
-    "c": null,
     "o": [
       "The form data is sent to the specified action URL",
       "The page reloads automatically",
@@ -781,6 +749,7 @@
   },
   {
     "q": "What will be logged when clicking the child div?",
+    "l": "javascript",
     "c": "<div id=\"parent\">\n    <div id=\"child\">Click me</div>\n</div>\n\n<script>\ndocument.getElementById(\"parent\").addEventListener(\"click\", function() {\n    console.log(\"Parent clicked\");\n});\ndocument.getElementById(\"child\").addEventListener(\"click\", function() {\n    console.log(\"Child clicked\");\n});\n</script>",
     "o": [
       "\"Child clicked\" followed by \"Parent clicked\"",
@@ -791,7 +760,6 @@
   },
   {
     "q": "Which property returns the element that the event was originally dispatched on?",
-    "c": null,
     "o": [
       "event.target",
       "event.currentTarget",
@@ -801,6 +769,7 @@
   },
   {
     "q": "What will happen when the link is clicked?",
+    "l": "javascript",
     "c": "<a href=\"https://example.com\" id=\"link\">Click me</a>\n\n<script>\ndocument.getElementById(\"link\").addEventListener(\"click\", function(event) {\n    console.log(\"Link clicked\");\n    event.preventDefault();\n});\n</script>",
     "o": [
       "\"Link clicked\"",
@@ -811,7 +780,6 @@
   },
   {
     "q": "Which event fires when a user starts pressing a key?",
-    "c": null,
     "o": [
       "keydown",
       "keypress",
@@ -821,7 +789,6 @@
   },
   {
     "q": "What will happen if an event listener is added twice to the same element?",
-    "c": null,
     "o": [
       "The callback function will be executed twice",
       "The second listener will override the first one",
@@ -831,7 +798,6 @@
   },
   {
     "q": "Which event is triggered when an element is removed from the DOM?",
-    "c": null,
     "o": [
       "There is no built-in event for this",
       "removed",
@@ -841,7 +807,6 @@
   },
   {
     "q": "Which of the following events does NOT bubble?",
-    "c": null,
     "o": [
       "focus",
       "click",
@@ -851,7 +816,6 @@
   },
   {
     "q": "Which of the following is true about event.preventDefault()?",
-    "c": null,
     "o": [
       "It prevents the default action of an event but does not stop propagation",
       "It prevents event bubbling",
@@ -861,6 +825,7 @@
   },
   {
     "q": "What will be logged when clicking inside the div?",
+    "l": "javascript",
     "c": "<div id=\"container\">\n    <button id=\"btn\">Click Me</button>\n</div>\n\n<script>\ndocument.getElementById(\"container\").addEventListener(\"click\", function(event) {\n    console.log(\"Container clicked\");\n});\ndocument.getElementById(\"btn\").addEventListener(\"click\", function(event) {\n    console.log(\"Button clicked\");\n    event.stopPropagation();\n});\n</script>",
     "o": [
       "\"Button clicked\"",
@@ -871,7 +836,6 @@
   },
   {
     "q": "Which of the following is the correct way to delegate a click event?",
-    "c": null,
     "o": [
       "document.addEventListener(\"click\", function(event) { if (event.target.matches(\".btn\")) { console.log(\"Button clicked\"); } });",
       "document.querySelector(\".btn\").addEventListener(\"click\", function() { console.log(\"Button clicked\"); });",
@@ -881,7 +845,6 @@
   },
   {
     "q": "Which method is used to attach an event listener to an element?",
-    "c": null,
     "o": [
       "element.addEventListener()",
       "element.onEvent()",
@@ -891,6 +854,7 @@
   },
   {
     "q": "What will be the output when clicking the button?",
+    "l": "javascript",
     "c": "<button id=\"btn\">Click Me</button>\n\n<script>\ndocument.getElementById(\"btn\").addEventListener(\"click\", function(event) {\n    console.log(event.type);\n});\n</script>",
     "o": [
       "\"click\"",
@@ -901,7 +865,6 @@
   },
   {
     "q": "Which of the following is NOT true about event bubbling?",
-    "c": null,
     "o": [
       "It propagates events from the target element to its ancestors",
       "It is the default event propagation behavior",
@@ -911,6 +874,7 @@
   },
   {
     "q": "What will be logged when clicking the child div?",
+    "l": "javascript",
     "c": "<div id=\"parent\">\n    <div id=\"child\">Click me</div>\n</div>\n\n<script>\ndocument.getElementById(\"parent\").addEventListener(\"click\", function() {\n    console.log(\"Parent clicked\");\n}, true);\ndocument.getElementById(\"child\").addEventListener(\"click\", function() {\n    console.log(\"Child clicked\");\n}, true);\n</script>",
     "o": [
       "\"Parent clicked\" followed by \"Child clicked\"",
@@ -921,7 +885,6 @@
   },
   {
     "q": "Which of the following events will trigger first in capturing phase?",
-    "c": null,
     "o": [
       "The event listener on the outermost ancestor",
       "The event listener on the target element",
@@ -931,7 +894,6 @@
   },
   {
     "q": "Which event property prevents a form submission from reloading the page?",
-    "c": null,
     "o": [
       "event.preventDefault()",
       "event.stopPropagation()",
@@ -941,6 +903,7 @@
   },
   {
     "q": "What will be logged when clicking on the paragraph?",
+    "l": "javascript",
     "c": "<div id=\"container\">\n    <p id=\"text\">Click here</p>\n</div>\n\n<script>\ndocument.getElementById(\"container\").addEventListener(\"click\", function(event) {\n    console.log(event.target.tagName);\n});\n</script>",
     "o": [
       "\"P\"",
@@ -951,7 +914,6 @@
   },
   {
     "q": "Which method removes an event listener from an element?",
-    "c": null,
     "o": [
       "element.removeEventListener()",
       "element.detachEvent()",
@@ -961,7 +923,6 @@
   },
   {
     "q": "Which phase of event propagation executes first?",
-    "c": null,
     "o": [
       "Capturing phase",
       "Bubbling phase",
@@ -971,7 +932,6 @@
   },
   {
     "q": "What is the correct way to stop both event bubbling and the default action?",
-    "c": null,
     "o": [
       "event.preventDefault(); event.stopPropagation();",
       "event.stopPropagation(); event.cancelBubble();",
@@ -981,6 +941,7 @@
   },
   {
     "q": "What will be logged when clicking the button?",
+    "l": "javascript",
     "c": "<button id=\"btn\">Click me</button>\n\n<script>\ndocument.getElementById(\"btn\").addEventListener(\"click\", function(event) {\n    console.log(event.currentTarget.tagName);\n});\n</script>",
     "o": [
       "\"BUTTON\"",
@@ -991,7 +952,6 @@
   },
   {
     "q": "Which of the following describes event delegation?",
-    "c": null,
     "o": [
       "Attaching an event listener to a parent element to handle events for child elements",
       "Attaching an event listener to each child element separately",
@@ -1001,6 +961,7 @@
   },
   {
     "q": "What will be logged when clicking the span element?",
+    "l": "javascript",
     "c": "<div id=\"parent\">\n    <span id=\"child\">Click me</span>\n</div>\n\n<script>\ndocument.getElementById(\"parent\").addEventListener(\"click\", function(event) {\n    console.log(event.target.id);\n});\n</script>",
     "o": [
       "\"child\"",
@@ -1011,7 +972,6 @@
   },
   {
     "q": "Which event listener syntax is correct for capturing phase?",
-    "c": null,
     "o": [
       "element.addEventListener(\"click\", handler, true);",
       "element.addEventListener(\"click\", handler, false);",
@@ -1021,6 +981,7 @@
   },
   {
     "q": "What will be the result when clicking the link?",
+    "l": "javascript",
     "c": "<a href=\"https://example.com\" id=\"myLink\">Click me</a>\n\n<script>\ndocument.getElementById(\"myLink\").addEventListener(\"click\", function(event) {\n    event.preventDefault();\n    console.log(\"Link clicked but not redirected\");\n});\n</script>",
     "o": [
       "\"Link clicked but not redirected\"",
@@ -1031,6 +992,7 @@
   },
   {
     "q": "What will be logged when clicking anywhere inside the table?",
+    "l": "javascript",
     "c": "<table id=\"myTable\">\n    <tr>\n        <td>Click me</td>\n    </tr>\n</table>\n\n<script>\ndocument.getElementById(\"myTable\").addEventListener(\"click\", function(event) {\n    console.log(event.target.tagName);\n});\n</script>",
     "o": [
       "\"TD\"",
@@ -1041,7 +1003,6 @@
   },
   {
     "q": "Which of the following events does NOT bubble?",
-    "c": null,
     "o": [
       "blur",
       "click",
@@ -1051,7 +1012,6 @@
   },
   {
     "q": "Which of the following correctly implements event delegation?",
-    "c": null,
     "o": [
       "document.addEventListener(\"click\", function(event) { if (event.target.matches(\"button\")) { console.log(\"Button clicked\"); } });",
       "document.querySelector(\"button\").addEventListener(\"click\", function() { console.log(\"Button clicked\"); });",
@@ -1061,7 +1021,6 @@
   },
   {
     "q": "Which of the following correctly adds a 'click' event listener to a button?",
-    "c": null,
     "o": [
       "document.getElementById(\"myBtn\").addEventListener(\"click\", function() { console.log(\"Button clicked\"); });",
       "document.getElementById(\"myBtn\").onClick = function() { console.log(\"Button clicked\"); };",
@@ -1071,6 +1030,7 @@
   },
   {
     "q": "What will be logged when clicking the button?",
+    "l": "javascript",
     "c": "<button id=\"btn\">Click</button>\n<script>\ndocument.getElementById(\"btn\").addEventListener(\"click\", function(event) {\n    console.log(event.target.innerText);\n});\n</script>",
     "o": [
       "\"Click\"",
@@ -1081,7 +1041,6 @@
   },
   {
     "q": "Which method can be used to stop the event from propagating to parent elements?",
-    "c": null,
     "o": [
       "event.stopPropagation()",
       "event.preventDefault()",
@@ -1091,7 +1050,6 @@
   },
   {
     "q": "What happens when event.stopImmediatePropagation() is called?",
-    "c": null,
     "o": [
       "Stops all further event listeners from executing on the same event",
       "Stops the default action of the event",
@@ -1101,7 +1059,6 @@
   },
   {
     "q": "Which of the following is a valid way to remove an event listener?",
-    "c": null,
     "o": [
       "element.removeEventListener(\"click\", myFunction);",
       "element.off(\"click\", myFunction);",
@@ -1111,6 +1068,7 @@
   },
   {
     "q": "What will be logged when clicking the button?",
+    "l": "javascript",
     "c": "<button id=\"btn\">Click</button>\n<script>\nfunction handleClick() {\n    console.log(\"Button clicked\");\n}\ndocument.getElementById(\"btn\").addEventListener(\"click\", handleClick);\ndocument.getElementById(\"btn\").removeEventListener(\"click\", handleClick);\n</script>",
     "o": [
       "Nothing",
@@ -1121,7 +1079,6 @@
   },
   {
     "q": "Which event phase does the event target receive the event?",
-    "c": null,
     "o": [
       "Target phase",
       "Capturing phase",
@@ -1131,7 +1088,6 @@
   },
   {
     "q": "Which method prevents the default browser action for an event?",
-    "c": null,
     "o": [
       "event.preventDefault()",
       "event.stopPropagation()",
@@ -1141,7 +1097,6 @@
   },
   {
     "q": "Which of the following events do NOT bubble?",
-    "c": null,
     "o": [
       "focus",
       "click",
@@ -1151,6 +1106,7 @@
   },
   {
     "q": "What will be logged when clicking the span?",
+    "l": "javascript",
     "c": "<div id=\"parent\">\n    <span id=\"child\">Click</span>\n</div>\n<script>\ndocument.getElementById(\"parent\").addEventListener(\"click\", function(event) {\n    console.log(event.currentTarget.id);\n});\n</script>",
     "o": [
       "\"parent\"",
@@ -1161,6 +1117,7 @@
   },
   {
     "q": "What will happen when clicking the link below?",
+    "l": "javascript",
     "c": "<a href=\"https://example.com\" id=\"myLink\">Click</a>\n<script>\ndocument.getElementById(\"myLink\").addEventListener(\"click\", function(event) {\n    event.preventDefault();\n    console.log(\"Link clicked but not followed\");\n});\n</script>",
     "o": [
       "\"Link clicked but not followed\"",
@@ -1171,7 +1128,6 @@
   },
   {
     "q": "What is the main advantage of event delegation?",
-    "c": null,
     "o": [
       "Improves performance by reducing the number of event listeners",
       "Prevents event bubbling",
@@ -1181,6 +1137,7 @@
   },
   {
     "q": "What will be logged when clicking the span inside the div?",
+    "l": "javascript",
     "c": "<div id=\"wrapper\">\n    <span id=\"text\">Click me</span>\n</div>\n<script>\ndocument.getElementById(\"wrapper\").addEventListener(\"click\", function(event) {\n    console.log(event.target.id);\n});\n</script>",
     "o": [
       "\"text\"",
@@ -1191,7 +1148,6 @@
   },
   {
     "q": "Which of the following is true about event bubbling?",
-    "c": null,
     "o": [
       "The event propagates from the target element to its ancestors",
       "The event propagates from the root to the target element",
@@ -1201,7 +1157,6 @@
   },
   {
     "q": "What happens when a click event is registered on the document but a button inside has event.stopPropagation()?",
-    "c": null,
     "o": [
       "The event will not reach the document",
       "The event will still bubble up to the document",
@@ -1211,7 +1166,6 @@
   },
   {
     "q": "How can you detect which element triggered an event in event delegation?",
-    "c": null,
     "o": [
       "event.target",
       "event.currentTarget",
@@ -1221,7 +1175,6 @@
   },
   {
     "q": "Which of the following is true about event capturing?",
-    "c": null,
     "o": [
       "Events are handled from the outermost element down to the target",
       "Events are handled from the target element up to the outermost element",
@@ -1231,7 +1184,6 @@
   },
   {
     "q": "Which of the following statements about event bubbling is true?",
-    "c": null,
     "o": [
       "In event bubbling, the event starts at the target element and propagates up to the root.",
       "In event bubbling, the event starts at the root and propagates down to the target.",
@@ -1241,6 +1193,7 @@
   },
   {
     "q": "What will be logged when clicking the button?",
+    "l": "javascript",
     "c": "<div id=\"container\">\n  <button id=\"btn\">Click Me</button>\n</div>\n<script>\ndocument.getElementById(\"container\").addEventListener(\"click\", function() {\n    console.log(\"Container clicked\");\n});\ndocument.getElementById(\"btn\").addEventListener(\"click\", function(event) {\n    console.log(\"Button clicked\");\n    event.stopPropagation();\n});\n</script>",
     "o": [
       "\"Button clicked\"",
@@ -1251,7 +1204,6 @@
   },
   {
     "q": "Which of the following is NOT a valid JavaScript event?",
-    "c": null,
     "o": [
       "onPress",
       "onClick",
@@ -1261,6 +1213,7 @@
   },
   {
     "q": "What will happen when the form's submit button is clicked?",
+    "l": "javascript",
     "c": "<form id=\"myForm\">\n  <input type=\"text\" />\n  <button type=\"submit\">Submit</button>\n</form>\n<script>\ndocument.getElementById(\"myForm\").addEventListener(\"submit\", function(event) {\n    event.preventDefault();\n    console.log(\"Form submission prevented\");\n});\n</script>",
     "o": [
       "\"Form submission prevented\"",
@@ -1271,7 +1224,6 @@
   },
   {
     "q": "Which of the following statements about event delegation is true?",
-    "c": null,
     "o": [
       "Event delegation allows handling events on dynamically added elements.",
       "Event delegation increases the number of event listeners needed.",
@@ -1281,7 +1233,6 @@
   },
   {
     "q": "How can you add an event listener that only executes once?",
-    "c": null,
     "o": [
       "element.addEventListener(\"click\", myFunction, { once: true });",
       "element.addEventListenerOnce(\"click\", myFunction);",
@@ -1291,6 +1242,7 @@
   },
   {
     "q": "What will be logged when clicking the link?",
+    "l": "javascript",
     "c": "<a href=\"https://example.com\" id=\"link\">Go to Example</a>\n<script>\ndocument.getElementById(\"link\").addEventListener(\"click\", function(event) {\n    event.preventDefault();\n    console.log(\"Navigation prevented\");\n});\n</script>",
     "o": [
       "\"Navigation prevented\"",
@@ -1301,7 +1253,6 @@
   },
   {
     "q": "What does the event.currentTarget property return?",
-    "c": null,
     "o": [
       "The element that the event listener is attached to",
       "The element that triggered the event",
@@ -1311,7 +1262,6 @@
   },
   {
     "q": "Which of the following events do not bubble?",
-    "c": null,
     "o": [
       "blur",
       "click",
@@ -1321,7 +1271,6 @@
   },
   {
     "q": "Which method is used to remove an event listener?",
-    "c": null,
     "o": [
       "element.removeEventListener(\"click\", myFunction);",
       "element.off(\"click\", myFunction);",
@@ -1331,6 +1280,7 @@
   },
   {
     "q": "What will happen when clicking the child div?",
+    "l": "javascript",
     "c": "<div id=\"parent\">\n  <div id=\"child\">Click Me</div>\n</div>\n<script>\ndocument.getElementById(\"parent\").addEventListener(\"click\", function() {\n    console.log(\"Parent clicked\");\n}, true);\ndocument.getElementById(\"child\").addEventListener(\"click\", function() {\n    console.log(\"Child clicked\");\n});\n</script>",
     "o": [
       "\"Parent clicked\" followed by \"Child clicked\"",
@@ -1341,7 +1291,6 @@
   },
   {
     "q": "Which of the following is a valid example of event delegation?",
-    "c": null,
     "o": [
       "document.getElementById(\"list\").addEventListener(\"click\", function(event) {\n    if (event.target.tagName === \"LI\") {\n        console.log(\"List item clicked\");\n    }\n});",
       "document.querySelectorAll(\"li\").forEach(li => {\n    li.addEventListener(\"click\", function() {\n        console.log(\"List item clicked\");\n    });\n});",
@@ -1351,6 +1300,7 @@
   },
   {
     "q": "What will be logged when clicking the inner span?",
+    "l": "javascript",
     "c": "<div id=\"outer\">\n  <span id=\"inner\">Click</span>\n</div>\n<script>\ndocument.getElementById(\"outer\").addEventListener(\"click\", function(event) {\n    console.log(event.target.tagName);\n});\n</script>",
     "o": [
       "\"SPAN\"",
@@ -1361,7 +1311,6 @@
   },
   {
     "q": "What does event.preventDefault() do?",
-    "c": null,
     "o": [
       "Prevents the default behavior of an event",
       "Stops the event from bubbling up",
@@ -1371,7 +1320,6 @@
   },
   {
     "q": "Which of the following correctly binds an event listener that runs in the capturing phase?",
-    "c": null,
     "o": [
       "element.addEventListener(\"click\", myFunction, true);",
       "element.addEventListener(\"click\", myFunction, false);",
@@ -1381,7 +1329,6 @@
   },
   {
     "q": "Which method is used to attach an event handler to an element in JavaScript?",
-    "c": null,
     "o": [
       "element.addEventListener(\"click\", myFunction);",
       "element.attachEvent(\"click\", myFunction);",
@@ -1391,6 +1338,7 @@
   },
   {
     "q": "What will happen when clicking the paragraph inside the div?",
+    "l": "javascript",
     "c": "<div id=\"outer\">\n  <p id=\"inner\">Click me</p>\n</div>\n<script>\ndocument.getElementById(\"outer\").addEventListener(\"click\", function() {\n    console.log(\"Div clicked\");\n});\ndocument.getElementById(\"inner\").addEventListener(\"click\", function() {\n    console.log(\"Paragraph clicked\");\n});\n</script>",
     "o": [
       "\"Paragraph clicked\" followed by \"Div clicked\"",
@@ -1401,7 +1349,6 @@
   },
   {
     "q": "Which of the following statements about event.stopPropagation() is true?",
-    "c": null,
     "o": [
       "It prevents the event from bubbling up or capturing down the DOM tree.",
       "It prevents the default action of the event.",
@@ -1411,7 +1358,6 @@
   },
   {
     "q": "What is the correct way to delegate an event in JavaScript?",
-    "c": null,
     "o": [
       "parentElement.addEventListener(\"click\", function(event) {\n    if (event.target.matches(\".child\")) {\n        console.log(\"Child clicked\");\n    }\n});",
       "document.querySelectorAll(\".child\").forEach(el => {\n    el.addEventListener(\"click\", () => console.log(\"Child clicked\"));\n});",
@@ -1421,6 +1367,7 @@
   },
   {
     "q": "What will be logged when clicking the button?",
+    "l": "javascript",
     "c": "<button id=\"myButton\">Click me</button>\n<script>\ndocument.getElementById(\"myButton\").addEventListener(\"click\", function(event) {\n    console.log(event.type);\n});\n</script>",
     "o": [
       "\"click\"",
@@ -1431,7 +1378,6 @@
   },
   {
     "q": "Which event phase does an event handler execute in by default?",
-    "c": null,
     "o": [
       "Bubbling phase",
       "Capturing phase",
@@ -1441,7 +1387,6 @@
   },
   {
     "q": "Which JavaScript method prevents a link from navigating to its href?",
-    "c": null,
     "o": [
       "event.preventDefault();",
       "event.stopPropagation();",
@@ -1451,7 +1396,6 @@
   },
   {
     "q": "What is the purpose of event.stopImmediatePropagation()?",
-    "c": null,
     "o": [
       "It prevents other event listeners of the same event type from executing on the same element.",
       "It prevents the default behavior of an event.",
@@ -1461,6 +1405,7 @@
   },
   {
     "q": "What will happen when clicking the div?",
+    "l": "javascript",
     "c": "<div id=\"box\">Click me</div>\n<script>\ndocument.getElementById(\"box\").addEventListener(\"click\", function(event) {\n    event.stopPropagation();\n    console.log(\"Div clicked\");\n});\ndocument.body.addEventListener(\"click\", function() {\n    console.log(\"Body clicked\");\n});\n</script>",
     "o": [
       "\"Div clicked\"",
@@ -1471,7 +1416,6 @@
   },
   {
     "q": "Which of the following correctly attaches an event listener that fires only once?",
-    "c": null,
     "o": [
       "element.addEventListener(\"click\", myFunction, { once: true });",
       "element.addEventListenerOnce(\"click\", myFunction);",
@@ -1481,6 +1425,7 @@
   },
   {
     "q": "What will happen when clicking the button?",
+    "l": "javascript",
     "c": "<button id=\"btn\">Click me</button>\n<script>\ndocument.getElementById(\"btn\").addEventListener(\"click\", function() {\n    alert(\"Button clicked\");\n    this.removeEventListener(\"click\", arguments.callee);\n});\n</script>",
     "o": [
       "The alert will appear only once",
@@ -1491,7 +1436,6 @@
   },
   {
     "q": "Which property returns the element that triggered the event?",
-    "c": null,
     "o": [
       "event.target",
       "event.currentTarget",
@@ -1501,7 +1445,6 @@
   },
   {
     "q": "Which of the following events does NOT bubble up?",
-    "c": null,
     "o": [
       "focus",
       "click",
@@ -1511,7 +1454,6 @@
   },
   {
     "q": "Which of the following is the correct way to remove an event listener?",
-    "c": null,
     "o": [
       "element.removeEventListener(\"click\", myFunction);",
       "element.off(\"click\", myFunction);",
@@ -1521,6 +1463,7 @@
   },
   {
     "q": "What will be logged when clicking the list item?",
+    "l": "javascript",
     "c": "<ul id=\"list\">\n  <li>Item 1</li>\n  <li>Item 2</li>\n</ul>\n<script>\ndocument.getElementById(\"list\").addEventListener(\"click\", function(event) {\n    console.log(event.target.tagName);\n});\n</script>",
     "o": [
       "\"LI\"",
@@ -1531,7 +1474,6 @@
   },
   {
     "q": "Which JavaScript event fires when a user presses a key?",
-    "c": null,
     "o": [
       "keydown",
       "keypress",
@@ -1541,7 +1483,6 @@
   },
   {
     "q": "What is the difference between event.target and event.currentTarget?",
-    "c": null,
     "o": [
       "event.target is the element that triggered the event, while event.currentTarget is the element that the event listener is attached to.",
       "event.target is the element that the event listener is attached to, while event.currentTarget is the element that triggered the event.",
@@ -1551,6 +1492,7 @@
   },
   {
     "q": "What will be logged when clicking the button?",
+    "l": "javascript",
     "c": "<button id=\"btn\">Click me</button>\n<script>\nconst btn = document.getElementById(\"btn\");\nbtn.addEventListener(\"click\", function(event) {\n    console.log(event.currentTarget === btn);\n});\n</script>",
     "o": [
       "true",
@@ -1561,7 +1503,6 @@
   },
   {
     "q": "Which of the following statements about event delegation is true?",
-    "c": null,
     "o": [
       "Event delegation allows handling multiple child elements' events using a single parent event listener.",
       "Event delegation requires adding an event listener to each child element separately.",
@@ -1571,7 +1512,6 @@
   },
   {
     "q": "Which method removes an event listener from an element?",
-    "c": null,
     "o": [
       "element.removeEventListener(\"click\", myFunction);",
       "element.detachEvent(\"click\", myFunction);",
@@ -1581,6 +1521,7 @@
   },
   {
     "q": "What will be logged when clicking the inner div?",
+    "l": "javascript",
     "c": "<div id=\"outer\">\n  <div id=\"inner\">Click me</div>\n</div>\n<script>\ndocument.getElementById(\"outer\").addEventListener(\"click\", function() {\n    console.log(\"Outer div clicked\");\n}, true);\n\ndocument.getElementById(\"inner\").addEventListener(\"click\", function() {\n    console.log(\"Inner div clicked\");\n});\n</script>",
     "o": [
       "\"Outer div clicked\" followed by \"Inner div clicked\"",
@@ -1591,7 +1532,6 @@
   },
   {
     "q": "Which of the following is an example of stopping event bubbling?",
-    "c": null,
     "o": [
       "event.stopPropagation();",
       "event.preventDefault();",
@@ -1601,7 +1541,6 @@
   },
   {
     "q": "Which of the following prevents the default action of a form submission?",
-    "c": null,
     "o": [
       "event.preventDefault();",
       "event.stopPropagation();",
@@ -1611,7 +1550,6 @@
   },
   {
     "q": "What happens when event.stopImmediatePropagation() is called inside an event handler?",
-    "c": null,
     "o": [
       "It prevents all other event listeners of the same event type from executing on the same element.",
       "It stops event bubbling but allows other listeners on the same element to execute.",
@@ -1621,7 +1559,6 @@
   },
   {
     "q": "Which of the following correctly attaches a 'click' event that fires only once?",
-    "c": null,
     "o": [
       "element.addEventListener(\"click\", myFunction, { once: true });",
       "element.once(\"click\", myFunction);",
@@ -1631,6 +1568,7 @@
   },
   {
     "q": "What will be logged when clicking the button?",
+    "l": "javascript",
     "c": "<button id=\"btn\">Click me</button>\n<script>\nconst btn = document.getElementById(\"btn\");\nbtn.addEventListener(\"click\", function(event) {\n    console.log(event.target.tagName);\n});\n</script>",
     "o": [
       "\"BUTTON\"",
@@ -1641,7 +1579,6 @@
   },
   {
     "q": "Which event property contains the reference to the element that the event handler is attached to?",
-    "c": null,
     "o": [
       "event.currentTarget",
       "event.target",
@@ -1651,7 +1588,6 @@
   },
   {
     "q": "Which of the following events will NOT bubble up?",
-    "c": null,
     "o": [
       "blur",
       "click",
@@ -1661,7 +1597,6 @@
   },
   {
     "q": "What is the purpose of event.preventDefault()?",
-    "c": null,
     "o": [
       "It prevents the default browser behavior for the event.",
       "It stops event propagation.",
@@ -1671,7 +1606,6 @@
   },
   {
     "q": "What is the difference between capturing and bubbling phases?",
-    "c": null,
     "o": [
       "Capturing phase starts from the root element and goes down, while bubbling phase goes up from the target element.",
       "Bubbling phase starts from the root element and goes down, while capturing phase goes up from the target element.",
@@ -1681,6 +1615,7 @@
   },
   {
     "q": "What will be logged when clicking the button?",
+    "l": "javascript",
     "c": "<button id=\"btn\">Click me</button>\n<script>\nconst btn = document.getElementById(\"btn\");\nbtn.addEventListener(\"click\", function() {\n    console.log(\"First handler\");\n});\nbtn.addEventListener(\"click\", function(event) {\n    console.log(\"Second handler\");\n    event.stopImmediatePropagation();\n});\nbtn.addEventListener(\"click\", function() {\n    console.log(\"Third handler\");\n});\n</script>",
     "o": [
       "\"Second handler\" followed by \"First handler\"",
@@ -1691,7 +1626,6 @@
   },
   {
     "q": "What happens when event.target is used inside an event handler?",
-    "c": null,
     "o": [
       "It refers to the element that triggered the event.",
       "It refers to the element where the event listener is attached.",
@@ -1701,7 +1635,6 @@
   },
   {
     "q": "Which of the following will attach an event listener that listens during the capturing phase?",
-    "c": null,
     "o": [
       "element.addEventListener(\"click\", myFunction, true);",
       "element.addEventListener(\"click\", myFunction, false);",
@@ -1711,6 +1644,7 @@
   },
   {
     "q": "What will be logged when clicking the paragraph?",
+    "l": "javascript",
     "c": "<div id=\"parent\">\n  <p id=\"child\">Click me</p>\n</div>\n<script>\ndocument.getElementById(\"parent\").addEventListener(\"click\", function() {\n    console.log(\"Parent clicked\");\n});\ndocument.getElementById(\"child\").addEventListener(\"click\", function(event) {\n    console.log(\"Child clicked\");\n    event.stopPropagation();\n});\n</script>",
     "o": [
       "\"Child clicked\"",
@@ -1721,6 +1655,7 @@
   },
   {
     "q": "What will happen when clicking the button?",
+    "l": "javascript",
     "c": "<button id=\"btn\">Click me</button>\n<script>\ndocument.getElementById(\"btn\").addEventListener(\"click\", function(event) {\n    event.preventDefault();\n    console.log(\"Button clicked\");\n});\n</script>",
     "o": [
       "\"Button clicked\" will be logged.",
@@ -1731,7 +1666,6 @@
   },
   {
     "q": "Which of the following is the correct way to use event delegation?",
-    "c": null,
     "o": [
       "document.getElementById(\"parent\").addEventListener(\"click\", function(event) { if(event.target.matches(\".child\")) { console.log(\"Child clicked\"); } });",
       "document.querySelectorAll(\".child\").forEach(child => child.addEventListener(\"click\", () => console.log(\"Child clicked\")));",
@@ -1741,7 +1675,6 @@
   },
   {
     "q": "What is the correct way to prevent an event from bubbling up?",
-    "c": null,
     "o": [
       "event.stopPropagation();",
       "event.preventDefault();",
@@ -1751,6 +1684,7 @@
   },
   {
     "q": "What will be logged when clicking the button?",
+    "l": "javascript",
     "c": "<button id=\"btn\">Click me</button>\n<script>\ndocument.getElementById(\"btn\").addEventListener(\"click\", function(event) {\n    event.stopPropagation();\n    console.log(\"Button clicked\");\n});\n\ndocument.body.addEventListener(\"click\", function() {\n    console.log(\"Body clicked\");\n});\n</script>",
     "o": [
       "\"Button clicked\"",
@@ -1761,7 +1695,6 @@
   },
   {
     "q": "Which method is used to stop all further event listeners from executing on the same event?",
-    "c": null,
     "o": [
       "event.stopImmediatePropagation();",
       "event.stopPropagation();",
@@ -1771,7 +1704,6 @@
   },
   {
     "q": "What is the default behavior of events in the DOM?",
-    "c": null,
     "o": [
       "Events bubble up from the target element to the root.",
       "Events are captured from the root down to the target element.",
@@ -1781,7 +1713,6 @@
   },
   {
     "q": "How do you attach an event listener that executes only once?",
-    "c": null,
     "o": [
       "element.addEventListener(\"click\", myFunction, { once: true });",
       "element.addEventListener(\"click\", myFunction, false);",
@@ -1791,7 +1722,6 @@
   },
   {
     "q": "Which event property refers to the element that triggered the event?",
-    "c": null,
     "o": [
       "event.target",
       "event.currentTarget",
@@ -1801,6 +1731,7 @@
   },
   {
     "q": "What will be logged when clicking the paragraph?",
+    "l": "javascript",
     "c": "<div id=\"wrapper\">\n  <p id=\"text\">Click me</p>\n</div>\n<script>\ndocument.getElementById(\"wrapper\").addEventListener(\"click\", function() {\n    console.log(\"Wrapper clicked\");\n}, true);\n\ndocument.getElementById(\"text\").addEventListener(\"click\", function() {\n    console.log(\"Paragraph clicked\");\n});\n</script>",
     "o": [
       "\"Wrapper clicked\" followed by \"Paragraph clicked\"",
@@ -1811,7 +1742,6 @@
   },
   {
     "q": "Which of the following events does NOT bubble up?",
-    "c": null,
     "o": [
       "focus",
       "click",
@@ -1821,7 +1751,6 @@
   },
   {
     "q": "What is event delegation useful for?",
-    "c": null,
     "o": [
       "Handling events on dynamically added elements efficiently.",
       "Stopping event propagation.",
@@ -1831,7 +1760,6 @@
   },
   {
     "q": "Which of the following methods prevents the default action of an event?",
-    "c": null,
     "o": [
       "event.preventDefault();",
       "event.stopPropagation();",
@@ -1841,6 +1769,7 @@
   },
   {
     "q": "What will be logged when clicking the link?",
+    "l": "javascript",
     "c": "<a href=\"https://example.com\" id=\"link\">Click me</a>\n<script>\ndocument.getElementById(\"link\").addEventListener(\"click\", function(event) {\n    event.preventDefault();\n    console.log(\"Link clicked but not followed\");\n});\n</script>",
     "o": [
       "\"Link clicked but not followed\"",
@@ -1851,7 +1780,6 @@
   },
   {
     "q": "Which phase of event propagation executes first by default?",
-    "c": null,
     "o": [
       "Bubbling phase",
       "Capturing phase",
@@ -1861,7 +1789,6 @@
   },
   {
     "q": "What happens if multiple event listeners are added to the same element for the same event?",
-    "c": null,
     "o": [
       "All event listeners execute in the order they were added.",
       "Only the last event listener executes.",
@@ -1871,7 +1798,6 @@
   },
   {
     "q": "Which of the following event properties allows checking which key was pressed in a keyboard event?",
-    "c": null,
     "o": [
       "event.key",
       "event.charCode",
@@ -1881,6 +1807,7 @@
   },
   {
     "q": "What will be logged when clicking the button?",
+    "l": "javascript",
     "c": "<button id=\"btn\">Click me</button>\n<script>\ndocument.getElementById(\"btn\").addEventListener(\"click\", function(event) {\n    console.log(event.type);\n});\n</script>",
     "o": [
       "\"click\"",
@@ -1891,7 +1818,6 @@
   },
   {
     "q": "Which of the following best describes event bubbling?",
-    "c": null,
     "o": [
       "Events move from the target element up to its ancestors.",
       "Events move from the root down to the target element.",
@@ -1901,6 +1827,7 @@
   },
   {
     "q": "What will be logged when clicking the button?",
+    "l": "javascript",
     "c": "<button id=\"btn\">Click me</button>\n<script>\n  document.getElementById(\"btn\").addEventListener(\"click\", function(event) {\n    console.log(event.currentTarget);\n  });\n</script>",
     "o": [
       "The button element",
@@ -1911,7 +1838,6 @@
   },
   {
     "q": "Which of the following is NOT a valid event type in JavaScript?",
-    "c": null,
     "o": [
       "onhover",
       "click",
@@ -1921,7 +1847,6 @@
   },
   {
     "q": "Which method should you use to remove an event listener?",
-    "c": null,
     "o": [
       "removeEventListener()",
       "detachEvent()",
@@ -1931,7 +1856,6 @@
   },
   {
     "q": "What is event delegation?",
-    "c": null,
     "o": [
       "Attaching an event listener to a parent element to handle events from child elements.",
       "Using multiple event listeners on different child elements.",
@@ -1941,7 +1865,6 @@
   },
   {
     "q": "What happens if event.stopPropagation() is called inside an event handler?",
-    "c": null,
     "o": [
       "The event stops propagating to ancestor elements.",
       "The event’s default action is prevented.",
@@ -1951,6 +1874,7 @@
   },
   {
     "q": "What will be logged when clicking the button?",
+    "l": "javascript",
     "c": "<button id=\"btn\">Click me</button>\n<script>\ndocument.getElementById(\"btn\").addEventListener(\"click\", function(event) {\n    event.stopImmediatePropagation();\n    console.log(\"First handler\");\n});\n\ndocument.getElementById(\"btn\").addEventListener(\"click\", function() {\n    console.log(\"Second handler\");\n});\n</script>",
     "o": [
       "\"First handler\"",
@@ -1961,6 +1885,7 @@
   },
   {
     "q": "What will happen when clicking the link?",
+    "l": "javascript",
     "c": "<a href=\"https://example.com\" id=\"link\">Click me</a>\n<script>\ndocument.getElementById(\"link\").addEventListener(\"click\", function(event) {\n    event.preventDefault();\n    console.log(\"Link clicked\");\n});\n</script>",
     "o": [
       "The message \"Link clicked\" will be logged, and the browser will not navigate.",
@@ -1971,7 +1896,6 @@
   },
   {
     "q": "Which of the following is true about event listeners?",
-    "c": null,
     "o": [
       "Multiple event listeners can be attached to the same element for the same event.",
       "Only one event listener can be attached per element per event type.",
@@ -1981,7 +1905,6 @@
   },
   {
     "q": "Which event property gives information about which element triggered the event?",
-    "c": null,
     "o": [
       "event.target",
       "event.currentTarget",
@@ -1991,7 +1914,6 @@
   },
   {
     "q": "Which JavaScript method can be used to programmatically trigger an event?",
-    "c": null,
     "o": [
       "element.dispatchEvent(new Event(\"click\"));",
       "element.trigger(\"click\");",
@@ -2001,7 +1923,6 @@
   },
   {
     "q": "What is the purpose of event.stopImmediatePropagation()?",
-    "c": null,
     "o": [
       "Stops the event and prevents other event handlers on the same element from executing.",
       "Prevents the default action of the event.",
@@ -2011,6 +1932,7 @@
   },
   {
     "q": "What will be the output when clicking the inner div?",
+    "l": "javascript",
     "c": "<div id=\"outer\">\n  <div id=\"inner\">Click me</div>\n</div>\n<script>\ndocument.getElementById(\"outer\").addEventListener(\"click\", function() {\n    console.log(\"Outer clicked\");\n}, true);\n\ndocument.getElementById(\"inner\").addEventListener(\"click\", function() {\n    console.log(\"Inner clicked\");\n});\n</script>",
     "o": [
       "\"Outer clicked\" followed by \"Inner clicked\"",
@@ -2021,7 +1943,6 @@
   },
   {
     "q": "What happens if event.preventDefault() is called on a form submission event?",
-    "c": null,
     "o": [
       "The form submission is blocked.",
       "The form submits as usual.",
@@ -2031,7 +1952,6 @@
   },
   {
     "q": "Which event will be fired when the user right-clicks on an element?",
-    "c": null,
     "o": [
       "contextmenu",
       "click",
@@ -2041,7 +1961,6 @@
   },
   {
     "q": "Which event fires when an input field loses focus?",
-    "c": null,
     "o": [
       "blur",
       "focus",
@@ -2051,7 +1970,6 @@
   },
   {
     "q": "Which of the following correctly describes capturing and bubbling?",
-    "c": null,
     "o": [
       "Capturing occurs from the root to the target, and bubbling occurs from the target to the root.",
       "Bubbling occurs from the root to the target, and capturing occurs from the target to the root.",
@@ -2061,6 +1979,7 @@
   },
   {
     "q": "What will be logged when clicking the paragraph?",
+    "l": "javascript",
     "c": "<div id=\"parent\">\n  <p id=\"child\">Click me</p>\n</div>\n<script>\ndocument.getElementById(\"parent\").addEventListener(\"click\", function(event) {\n    console.log(\"Parent clicked\");\n});\n\ndocument.getElementById(\"child\").addEventListener(\"click\", function(event) {\n    console.log(\"Child clicked\");\n    event.stopPropagation();\n});\n</script>",
     "o": [
       "\"Child clicked\"",
@@ -2071,7 +1990,6 @@
   },
   {
     "q": "Which method is used to attach an event handler to an element?",
-    "c": null,
     "o": [
       "addEventListener",
       "attachEvent",
@@ -2081,7 +1999,6 @@
   },
   {
     "q": "What is event bubbling?",
-    "c": null,
     "o": [
       "An event starts from the target element and propagates up to its ancestors.",
       "An event starts from the root and propagates down to the target element.",
@@ -2091,7 +2008,6 @@
   },
   {
     "q": "Which property refers to the element that triggered the event?",
-    "c": null,
     "o": [
       "event.target",
       "event.currentTarget",
@@ -2101,7 +2017,6 @@
   },
   {
     "q": "What happens when you call event.stopImmediatePropagation()?",
-    "c": null,
     "o": [
       "It stops the event and prevents any other event listeners on the same element from being executed.",
       "It stops the event but allows other event listeners on the same element to execute.",
@@ -2111,7 +2026,6 @@
   },
   {
     "q": "What is event delegation?",
-    "c": null,
     "o": [
       "Attaching an event listener to a parent element to handle events for dynamically added child elements.",
       "Using multiple event listeners on each child element individually.",
@@ -2121,6 +2035,7 @@
   },
   {
     "q": "What will be logged when clicking the button?",
+    "l": "javascript",
     "c": "<button id=\"btn\">Click me</button>\n<script>\ndocument.getElementById(\"btn\").addEventListener(\"click\", function(event) {\n    console.log(event.currentTarget);\n});\n</script>",
     "o": [
       "The button element",
@@ -2131,7 +2046,6 @@
   },
   {
     "q": "Which event is fired when a user clicks on an input field?",
-    "c": null,
     "o": [
       "focus",
       "blur",
@@ -2141,6 +2055,7 @@
   },
   {
     "q": "What will be logged when clicking the link?",
+    "l": "javascript",
     "c": "<a href=\"https://example.com\" id=\"link\">Click me</a>\n<script>\ndocument.getElementById(\"link\").addEventListener(\"click\", function(event) {\n    event.preventDefault();\n    console.log(\"Link clicked\");\n});\n</script>",
     "o": [
       "The message \"Link clicked\" will be logged, and the browser will not navigate.",
@@ -2151,7 +2066,6 @@
   },
   {
     "q": "Which method is used to trigger an event manually in JavaScript?",
-    "c": null,
     "o": [
       "dispatchEvent",
       "triggerEvent",
@@ -2161,6 +2075,7 @@
   },
   {
     "q": "What will be the output when clicking the inner div?",
+    "l": "javascript",
     "c": "<div id=\"outer\">\n  <div id=\"inner\">Click me</div>\n</div>\n<script>\ndocument.getElementById(\"outer\").addEventListener(\"click\", function() {\n    console.log(\"Outer clicked\");\n}, true);\n\ndocument.getElementById(\"inner\").addEventListener(\"click\", function() {\n    console.log(\"Inner clicked\");\n});\n</script>",
     "o": [
       "\"Outer clicked\" followed by \"Inner clicked\"",
@@ -2171,7 +2086,6 @@
   },
   {
     "q": "What is the default behavior of a form submission event?",
-    "c": null,
     "o": [
       "The form is submitted to the action URL.",
       "The form is prevented from submitting.",
@@ -2181,7 +2095,6 @@
   },
   {
     "q": "Which event is triggered when an element is right-clicked?",
-    "c": null,
     "o": [
       "contextmenu",
       "click",
@@ -2191,7 +2104,6 @@
   },
   {
     "q": "Which event fires when an input field loses focus?",
-    "c": null,
     "o": [
       "blur",
       "focus",
@@ -2201,6 +2113,7 @@
   },
   {
     "q": "What will be logged when clicking the paragraph?",
+    "l": "javascript",
     "c": "<div id=\"parent\">\n  <p id=\"child\">Click me</p>\n</div>\n<script>\ndocument.getElementById(\"parent\").addEventListener(\"click\", function(event) {\n    console.log(\"Parent clicked\");\n});\n\ndocument.getElementById(\"child\").addEventListener(\"click\", function(event) {\n    console.log(\"Child clicked\");\n    event.stopPropagation();\n});\n</script>",
     "o": [
       "\"Child clicked\"",
@@ -2211,7 +2124,6 @@
   },
   {
     "q": "Which event property contains information about the key pressed by the user?",
-    "c": null,
     "o": [
       "event.key",
       "event.which",
@@ -2221,7 +2133,6 @@
   },
   {
     "q": "Which event fires when a user hovers over an element?",
-    "c": null,
     "o": [
       "mouseover",
       "mouseenter",
@@ -2231,6 +2142,7 @@
   },
   {
     "q": "What will be logged when clicking the div?",
+    "l": "javascript",
     "c": "<div id=\"box\">Click me</div>\n<script>\ndocument.getElementById(\"box\").addEventListener(\"click\", function(event) {\n    console.log(\"Clicked!\");\n    event.stopPropagation();\n});\n\ndocument.addEventListener(\"click\", function() {\n    console.log(\"Document clicked\");\n});\n</script>",
     "o": [
       "\"Clicked!\"",
@@ -2241,7 +2153,6 @@
   },
   {
     "q": "Which method should be used to remove an event listener?",
-    "c": null,
     "o": [
       "removeEventListener",
       "detachEvent",
@@ -2251,7 +2162,6 @@
   },
   {
     "q": "Which phase of event propagation occurs first when using event capturing?",
-    "c": null,
     "o": [
       "Capturing phase",
       "Bubbling phase",
@@ -2261,6 +2171,7 @@
   },
   {
     "q": "What will be logged when clicking the button?",
+    "l": "javascript",
     "c": "<button id=\"btn\">Click me</button>\n<script>\ndocument.getElementById(\"btn\").addEventListener(\"click\", function(event) {\n    event.stopPropagation();\n    console.log(\"Button clicked\");\n});\ndocument.body.addEventListener(\"click\", function() {\n    console.log(\"Body clicked\");\n});\n</script>",
     "o": [
       "\"Button clicked\"",
@@ -2271,7 +2182,6 @@
   },
   {
     "q": "What does event.preventDefault() do?",
-    "c": null,
     "o": [
       "Prevents the default action of the event",
       "Stops the event from propagating",
@@ -2281,6 +2191,7 @@
   },
   {
     "q": "What will be logged when clicking the inner div?",
+    "l": "javascript",
     "c": "<div id=\"outer\">\n  <div id=\"inner\">Click me</div>\n</div>\n<script>\ndocument.getElementById(\"outer\").addEventListener(\"click\", function() {\n    console.log(\"Outer clicked\");\n}, false);\n\ndocument.getElementById(\"inner\").addEventListener(\"click\", function() {\n    console.log(\"Inner clicked\");\n});\n</script>",
     "o": [
       "\"Inner clicked\" followed by \"Outer clicked\"",
@@ -2291,7 +2202,6 @@
   },
   {
     "q": "Which of the following is NOT a valid JavaScript event?",
-    "c": null,
     "o": [
       "onhover",
       "onclick",
@@ -2301,7 +2211,6 @@
   },
   {
     "q": "Which event property allows checking whether an event’s default action has been prevented?",
-    "c": null,
     "o": [
       "event.defaultPrevented",
       "event.prevented",
@@ -2311,6 +2220,7 @@
   },
   {
     "q": "What will be logged when clicking the list item?",
+    "l": "javascript",
     "c": "<ul id=\"list\">\n  <li id=\"item\">Click me</li>\n</ul>\n<script>\ndocument.getElementById(\"list\").addEventListener(\"click\", function(event) {\n    console.log(\"List clicked\");\n});\ndocument.getElementById(\"item\").addEventListener(\"click\", function(event) {\n    console.log(\"Item clicked\");\n    event.stopPropagation();\n});\n</script>",
     "o": [
       "\"Item clicked\"",
@@ -2321,7 +2231,6 @@
   },
   {
     "q": "What happens when event.stopPropagation() is called?",
-    "c": null,
     "o": [
       "Prevents the event from bubbling up the DOM tree",
       "Prevents the event’s default action",
@@ -2331,6 +2240,7 @@
   },
   {
     "q": "What will be logged when clicking the button?",
+    "l": "javascript",
     "c": "<button id=\"btn\">Click me</button>\n<script>\nfunction handleClick() {\n    console.log(\"Button clicked\");\n}\ndocument.getElementById(\"btn\").addEventListener(\"click\", handleClick);\ndocument.getElementById(\"btn\").removeEventListener(\"click\", handleClick);\n</script>",
     "o": [
       "Nothing",
@@ -2341,7 +2251,6 @@
   },
   {
     "q": "Which method is used to check if an element has an event listener?",
-    "c": null,
     "o": [
       "There is no direct method to check for an event listener",
       "hasEventListener",
@@ -2351,6 +2260,7 @@
   },
   {
     "q": "What will be logged when clicking the paragraph?",
+    "l": "javascript",
     "c": "<div id=\"wrapper\">\n  <p id=\"text\">Click me</p>\n</div>\n<script>\ndocument.getElementById(\"wrapper\").addEventListener(\"click\", function(event) {\n    console.log(\"Wrapper clicked\");\n});\ndocument.getElementById(\"text\").addEventListener(\"click\", function(event) {\n    console.log(\"Text clicked\");\n    event.stopImmediatePropagation();\n});\ndocument.getElementById(\"text\").addEventListener(\"click\", function(event) {\n    console.log(\"Another text event\");\n});\n</script>",
     "o": [
       "\"Text clicked\"",
@@ -2361,7 +2271,6 @@
   },
   {
     "q": "Which event fires when a user scrolls a page?",
-    "c": null,
     "o": [
       "scroll",
       "onscroll",
@@ -2371,7 +2280,6 @@
   },
   {
     "q": "Which of the following is a valid way to remove an event listener?",
-    "c": null,
     "o": [
       "element.removeEventListener(\"click\", eventHandler)",
       "element.detachEvent(\"click\", eventHandler)",
@@ -2381,6 +2289,7 @@
   },
   {
     "q": "What will be logged when clicking the button?",
+    "l": "javascript",
     "c": "<button id=\"btn\">Click me</button>\n<script>\nfunction handleClick() {\n    console.log(\"Clicked!\");\n}\ndocument.getElementById(\"btn\").addEventListener(\"click\", handleClick, { once: true });\n</script>",
     "o": [
       "\"Clicked!\" only on the first click",
@@ -2391,7 +2300,6 @@
   },
   {
     "q": "Which of the following is NOT true about event delegation?",
-    "c": null,
     "o": [
       "It requires adding an event listener to every child element",
       "It is useful for dynamically added elements",
@@ -2401,7 +2309,6 @@
   },
   {
     "q": "What is the correct way to add an event listener to an element in JavaScript?",
-    "c": null,
     "o": [
       "element.addEventListener(\"click\", function() { console.log(\"Clicked\"); });",
       "element.attachEvent(\"onclick\", function() { console.log(\"Clicked\"); });",
@@ -2411,7 +2318,6 @@
   },
   {
     "q": "Which event property is used to determine the element that triggered an event?",
-    "c": null,
     "o": [
       "event.target",
       "event.currentTarget",
@@ -2421,7 +2327,6 @@
   },
   {
     "q": "What happens if an event listener is added to a parent element, but the event occurs on a child element?",
-    "c": null,
     "o": [
       "The event bubbles up to the parent and triggers the parent's event listener",
       "The parent event listener is ignored",
@@ -2431,6 +2336,7 @@
   },
   {
     "q": "What is the output when clicking the inner div?",
+    "l": "javascript",
     "c": "<div id=\"outer\">\n  <div id=\"inner\">Click me</div>\n</div>\n<script>\ndocument.getElementById(\"outer\").addEventListener(\"click\", function() {\n    console.log(\"Outer clicked\");\n}, true);\n\ndocument.getElementById(\"inner\").addEventListener(\"click\", function() {\n    console.log(\"Inner clicked\");\n});\n</script>",
     "o": [
       "\"Outer clicked\" followed by \"Inner clicked\"",
@@ -2441,7 +2347,6 @@
   },
   {
     "q": "Which of the following is TRUE about event bubbling?",
-    "c": null,
     "o": [
       "An event starts at the target element and bubbles up to the ancestors",
       "An event starts at the document and moves down to the target",
@@ -2451,6 +2356,7 @@
   },
   {
     "q": "What will be logged when clicking the link?",
+    "l": "javascript",
     "c": "<a href=\"https://example.com\" id=\"myLink\">Click me</a>\n<script>\ndocument.getElementById(\"myLink\").addEventListener(\"click\", function(event) {\n    event.preventDefault();\n    console.log(\"Link clicked but not followed\");\n});\n</script>",
     "o": [
       "\"Link clicked but not followed\"",
@@ -2461,7 +2367,6 @@
   },
   {
     "q": "Which of the following statements is TRUE about event delegation?",
-    "c": null,
     "o": [
       "It allows handling events on dynamically added elements",
       "It requires adding event listeners to each child element separately",
@@ -2471,6 +2376,7 @@
   },
   {
     "q": "What will be logged when clicking the button?",
+    "l": "javascript",
     "c": "<button id=\"btn\">Click me</button>\n<script>\nfunction handleClick() {\n    console.log(\"Clicked\");\n}\ndocument.getElementById(\"btn\").addEventListener(\"click\", handleClick);\ndocument.getElementById(\"btn\").removeEventListener(\"click\", handleClick);\n</script>",
     "o": [
       "Nothing",
@@ -2481,7 +2387,6 @@
   },
   {
     "q": "What does event.stopImmediatePropagation() do?",
-    "c": null,
     "o": [
       "Prevents any other event listeners on the same element from executing",
       "Prevents the default action of the event",
@@ -2491,7 +2396,6 @@
   },
   {
     "q": "Which event type is fired when the user releases a key?",
-    "c": null,
     "o": [
       "keyup",
       "keydown",
@@ -2501,6 +2405,7 @@
   },
   {
     "q": "What will be logged when clicking the paragraph?",
+    "l": "javascript",
     "c": "<div id=\"wrapper\">\n  <p id=\"text\">Click me</p>\n</div>\n<script>\ndocument.getElementById(\"wrapper\").addEventListener(\"click\", function(event) {\n    console.log(\"Wrapper clicked\");\n});\ndocument.getElementById(\"text\").addEventListener(\"click\", function(event) {\n    console.log(\"Text clicked\");\n    event.stopImmediatePropagation();\n});\ndocument.getElementById(\"text\").addEventListener(\"click\", function(event) {\n    console.log(\"Another text event\");\n});\n</script>",
     "o": [
       "\"Text clicked\"",
@@ -2511,7 +2416,6 @@
   },
   {
     "q": "Which of the following event listeners is executed only once?",
-    "c": null,
     "o": [
       "element.addEventListener(\"click\", callback, { once: true });",
       "element.addEventListener(\"click\", callback);",
@@ -2521,7 +2425,6 @@
   },
   {
     "q": "Which method can be used to trigger an event manually?",
-    "c": null,
     "o": [
       "element.dispatchEvent(new Event(\"click\"));",
       "element.triggerEvent(\"click\");",
@@ -2531,6 +2434,7 @@
   },
   {
     "q": "What will be logged when clicking the inner div?",
+    "l": "javascript",
     "c": "<div id=\"outer\">\n  <div id=\"inner\">Click me</div>\n</div>\n<script>\ndocument.getElementById(\"outer\").addEventListener(\"click\", function() {\n    console.log(\"Outer clicked\");\n}, false);\ndocument.getElementById(\"inner\").addEventListener(\"click\", function(event) {\n    console.log(\"Inner clicked\");\n    event.stopPropagation();\n});\n</script>",
     "o": [
       "\"Inner clicked\"",
@@ -2541,7 +2445,6 @@
   },
   {
     "q": "Which of the following is NOT a valid JavaScript event?",
-    "c": null,
     "o": [
       "onhover",
       "onmouseover",
@@ -2551,7 +2454,6 @@
   },
   {
     "q": "Which method prevents an event from propagating to parent elements?",
-    "c": null,
     "o": [
       "event.stopPropagation()",
       "event.preventDefault()",
@@ -2561,6 +2463,7 @@
   },
   {
     "q": "What will be logged when clicking the button?",
+    "l": "javascript",
     "c": "<button id=\"btn\">Click me</button>\n<script>\nconst button = document.getElementById(\"btn\");\nbutton.addEventListener(\"click\", () => console.log(\"First listener\"));\nbutton.addEventListener(\"click\", (event) => {\n    console.log(\"Second listener\");\n    event.stopImmediatePropagation();\n});\nbutton.addEventListener(\"click\", () => console.log(\"Third listener\"));\n</script>",
     "o": [
       "\"First listener\" followed by \"Second listener\"",
@@ -2571,7 +2474,6 @@
   },
   {
     "q": "What does the 'capture' phase of event propagation do?",
-    "c": null,
     "o": [
       "It allows the event to be captured before reaching the target element",
       "It stops the event from propagating to parent elements",
@@ -2581,7 +2483,6 @@
   },
   {
     "q": "Which event property prevents the browser's default action?",
-    "c": null,
     "o": [
       "event.preventDefault()",
       "event.stopPropagation()",
@@ -2591,6 +2492,7 @@
   },
   {
     "q": "What will be logged when clicking the paragraph?",
+    "l": "javascript",
     "c": "<div id=\"container\">\n  <p id=\"text\">Click me</p>\n</div>\n<script>\ndocument.getElementById(\"container\").addEventListener(\"click\", function() {\n    console.log(\"Container clicked\");\n}, true);\ndocument.getElementById(\"text\").addEventListener(\"click\", function() {\n    console.log(\"Text clicked\");\n});\n</script>",
     "o": [
       "\"Container clicked\" followed by \"Text clicked\"",
@@ -2601,7 +2503,6 @@
   },
   {
     "q": "Which of the following statements about event delegation is TRUE?",
-    "c": null,
     "o": [
       "Event delegation allows handling events for dynamically added elements",
       "Event delegation stops event bubbling",
@@ -2611,6 +2512,7 @@
   },
   {
     "q": "What will be logged when clicking the inner div?",
+    "l": "javascript",
     "c": "<div id=\"outer\">\n  <div id=\"inner\">Click me</div>\n</div>\n<script>\ndocument.getElementById(\"outer\").addEventListener(\"click\", function() {\n    console.log(\"Outer clicked\");\n}, false);\ndocument.getElementById(\"inner\").addEventListener(\"click\", function(event) {\n    console.log(\"Inner clicked\");\n    event.stopPropagation();\n});\n</script>",
     "o": [
       "\"Inner clicked\"",
@@ -2621,7 +2523,6 @@
   },
   {
     "q": "Which JavaScript event fires when an input field loses focus?",
-    "c": null,
     "o": [
       "blur",
       "focus",
@@ -2631,7 +2532,6 @@
   },
   {
     "q": "What happens when calling preventDefault() on a form submit event?",
-    "c": null,
     "o": [
       "The form submission is stopped",
       "The event is removed from the event queue",
@@ -2641,7 +2541,6 @@
   },
   {
     "q": "What is the difference between event.target and event.currentTarget?",
-    "c": null,
     "o": [
       "event.target refers to the actual clicked element, while event.currentTarget refers to the element with the listener",
       "event.target is always the element with the event listener",
@@ -2651,7 +2550,6 @@
   },
   {
     "q": "Which method allows an event listener to execute only once?",
-    "c": null,
     "o": [
       "addEventListener(event, listener, { once: true })",
       "event.stopPropagation()",
@@ -2661,6 +2559,7 @@
   },
   {
     "q": "What will be logged when clicking the button?",
+    "l": "javascript",
     "c": "<button id=\"btn\">Click me</button>\n<script>\nconst button = document.getElementById(\"btn\");\nbutton.addEventListener(\"click\", () => console.log(\"First\"));\nbutton.addEventListener(\"click\", () => console.log(\"Second\"), { once: true });\nbutton.addEventListener(\"click\", () => console.log(\"Third\"));\n</script>",
     "o": [
       "\"First\", \"Second\", \"Third\" on first click, then \"First\", \"Third\" on subsequent clicks",
@@ -2671,7 +2570,6 @@
   },
   {
     "q": "Which property determines whether an event bubbles up?",
-    "c": null,
     "o": [
       "event.bubbles",
       "event.target",
@@ -2681,7 +2579,6 @@
   },
   {
     "q": "What is the main advantage of event delegation?",
-    "c": null,
     "o": [
       "It reduces the number of event listeners needed",
       "It stops events from bubbling",
@@ -2691,6 +2588,7 @@
   },
   {
     "q": "What will be logged when clicking the list item?",
+    "l": "javascript",
     "c": "<ul id=\"list\">\n  <li>Item 1</li>\n  <li>Item 2</li>\n</ul>\n<script>\ndocument.getElementById(\"list\").addEventListener(\"click\", function(event) {\n    console.log(event.target.textContent);\n});\n</script>",
     "o": [
       "The text of the clicked <li> item",
@@ -2701,7 +2599,6 @@
   },
   {
     "q": "Which of the following event listeners would correctly prevent a form from submitting?",
-    "c": null,
     "o": [
       "form.addEventListener(\"submit\", (event) => event.preventDefault());",
       "form.addEventListener(\"click\", (event) => event.preventDefault());",
@@ -2711,7 +2608,6 @@
   },
   {
     "q": "Which event should be used to detect changes in a text input field?",
-    "c": null,
     "o": [
       "input",
       "change",
@@ -2721,7 +2617,6 @@
   },
   {
     "q": "What is the effect of calling event.stopImmediatePropagation()?",
-    "c": null,
     "o": [
       "It stops all other event listeners from executing on the same event",
       "It prevents the default action of the event",
@@ -2731,6 +2626,7 @@
   },
   {
     "q": "What will be logged when clicking the link?",
+    "l": "javascript",
     "c": "<a href=\"https://example.com\" id=\"myLink\">Click me</a>\n<script>\ndocument.getElementById(\"myLink\").addEventListener(\"click\", function(event) {\n    event.preventDefault();\n    console.log(\"Link clicked but not followed\");\n});\n</script>",
     "o": [
       "\"Link clicked but not followed\"",
@@ -2741,7 +2637,6 @@
   },
   {
     "q": "Which of the following events is NOT cancelable using preventDefault()?",
-    "c": null,
     "o": [
       "load",
       "submit",
@@ -2751,7 +2646,6 @@
   },
   {
     "q": "What is event bubbling in JavaScript?",
-    "c": null,
     "o": [
       "An event starts from the target element and propagates up to its ancestors",
       "An event starts from the document and propagates down to the target element",
@@ -2761,7 +2655,6 @@
   },
   {
     "q": "Which of the following will correctly stop event propagation?",
-    "c": null,
     "o": [
       "event.stopPropagation()",
       "event.preventDefault()",
@@ -2771,6 +2664,7 @@
   },
   {
     "q": "What will be logged when clicking the button inside the div?",
+    "l": "javascript",
     "c": "<div id=\"outer\">\n  <button id=\"inner\">Click Me</button>\n</div>\n<script>\ndocument.getElementById(\"outer\").addEventListener(\"click\", () => console.log(\"Div clicked\"));\ndocument.getElementById(\"inner\").addEventListener(\"click\", (event) => {\n    console.log(\"Button clicked\");\n    event.stopPropagation();\n});\n</script>",
     "o": [
       "\"Button clicked\" only",
@@ -2781,7 +2675,6 @@
   },
   {
     "q": "Which method is used to attach multiple event listeners to an element?",
-    "c": null,
     "o": [
       "addEventListener()",
       "attachEvent()",
@@ -2791,7 +2684,6 @@
   },
   {
     "q": "What is event delegation in JavaScript?",
-    "c": null,
     "o": [
       "A technique where a parent element handles events for its child elements",
       "A method to stop event propagation",
@@ -2801,6 +2693,7 @@
   },
   {
     "q": "What will be logged when clicking on a dynamically added button?",
+    "l": "javascript",
     "c": "<div id=\"container\">\n  <button class=\"dynamic\">Click Me</button>\n</div>\n<script>\ndocument.getElementById(\"container\").addEventListener(\"click\", function(event) {\n    if(event.target.classList.contains(\"dynamic\")) {\n        console.log(\"Button clicked\");\n    }\n});\n</script>",
     "o": [
       "\"Button clicked\" when clicking on the button",
@@ -2811,7 +2704,6 @@
   },
   {
     "q": "Which of the following events will NOT bubble up?",
-    "c": null,
     "o": [
       "focus",
       "click",
@@ -2821,7 +2713,6 @@
   },
   {
     "q": "Which of the following statements is TRUE about preventDefault()?",
-    "c": null,
     "o": [
       "It prevents the default behavior of an event without stopping propagation",
       "It stops event propagation",
@@ -2831,6 +2722,7 @@
   },
   {
     "q": "What will happen when clicking the link?",
+    "l": "javascript",
     "c": "<a href=\"https://example.com\" id=\"myLink\">Click me</a>\n<script>\ndocument.getElementById(\"myLink\").addEventListener(\"click\", function(event) {\n    event.preventDefault();\n    console.log(\"Navigation prevented\");\n});\n</script>",
     "o": [
       "\"Navigation prevented\" is logged, and the page does not navigate",
@@ -2841,7 +2733,6 @@
   },
   {
     "q": "What is the correct way to remove an event listener?",
-    "c": null,
     "o": [
       "element.removeEventListener(\"click\", myFunction);",
       "element.detachEvent(\"click\", myFunction);",
@@ -2851,7 +2742,6 @@
   },
   {
     "q": "Which of the following best describes the 'capture' phase in event propagation?",
-    "c": null,
     "o": [
       "The event travels from the root of the DOM tree down to the target element",
       "The event travels from the target element to the root of the DOM tree",
@@ -2861,6 +2751,7 @@
   },
   {
     "q": "What will be logged when clicking the button?",
+    "l": "javascript",
     "c": "<button id=\"btn\">Click Me</button>\n<script>\ndocument.getElementById(\"btn\").addEventListener(\"click\", function() {\n    console.log(this.textContent);\n});\n</script>",
     "o": [
       "\"Click Me\"",
@@ -2871,7 +2762,6 @@
   },
   {
     "q": "Which JavaScript method is used to add an event listener that runs only once?",
-    "c": null,
     "o": [
       "addEventListener(\"click\", myFunction, { once: true })",
       "addEventListenerOnce(\"click\", myFunction)",
@@ -2881,6 +2771,7 @@
   },
   {
     "q": "What will be logged when clicking the button inside the div?",
+    "l": "javascript",
     "c": "<div id=\"parent\">\n  <button id=\"child\">Click Me</button>\n</div>\n<script>\ndocument.getElementById(\"parent\").addEventListener(\"click\", function() {\n    console.log(\"Parent clicked\");\n}, true);\ndocument.getElementById(\"child\").addEventListener(\"click\", function() {\n    console.log(\"Child clicked\");\n});\n</script>",
     "o": [
       "\"Parent clicked\", \"Child clicked\"",
@@ -2891,7 +2782,6 @@
   },
   {
     "q": "Which event property helps to identify the element that triggered the event?",
-    "c": null,
     "o": [
       "event.target",
       "event.currentTarget",
@@ -2901,7 +2791,6 @@
   },
   {
     "q": "What happens if an event listener is added to multiple elements with the same class?",
-    "c": null,
     "o": [
       "Each element will have its own event listener",
       "Only the first element will receive the event",
@@ -2911,6 +2800,7 @@
   },
   {
     "q": "What will be the result of clicking the button in the following code?",
+    "l": "javascript",
     "c": "<button id=\"btn\">Click Me</button>\n<script>\ndocument.getElementById(\"btn\").addEventListener(\"click\", function(event) {\n    event.stopImmediatePropagation();\n    console.log(\"First event listener\");\n});\ndocument.getElementById(\"btn\").addEventListener(\"click\", function() {\n    console.log(\"Second event listener\");\n});\n</script>",
     "o": [
       "\"First event listener\" only",
@@ -2921,7 +2811,6 @@
   },
   {
     "q": "Which of the following is NOT a valid JavaScript event?",
-    "c": null,
     "o": [
       "onpress",
       "onclick",
@@ -2931,6 +2820,7 @@
   },
   {
     "q": "What will be logged when clicking the dynamically added button?",
+    "l": "javascript",
     "c": "<div id=\"container\"></div>\n<script>\ndocument.getElementById(\"container\").addEventListener(\"click\", function(event) {\n    if(event.target.tagName === \"BUTTON\") {\n        console.log(\"Dynamically added button clicked\");\n    }\n});\n\nlet btn = document.createElement(\"button\");\nbtn.textContent = \"Click Me\";\ndocument.getElementById(\"container\").appendChild(btn);\n</script>",
     "o": [
       "\"Dynamically added button clicked\"",
@@ -2941,7 +2831,6 @@
   },
   {
     "q": "Which method prevents an event's default behavior?",
-    "c": null,
     "o": [
       "event.preventDefault()",
       "event.stopPropagation()",
@@ -2951,7 +2840,6 @@
   },
   {
     "q": "What is the purpose of event delegation in JavaScript?",
-    "c": null,
     "o": [
       "It allows a parent element to handle events for its child elements",
       "It prevents event propagation from occurring",
@@ -2961,6 +2849,7 @@
   },
   {
     "q": "What will be logged when clicking the inner div?",
+    "l": "javascript",
     "c": "<div id=\"outer\">\n  <div id=\"inner\">Click me</div>\n</div>\n<script>\ndocument.getElementById(\"outer\").addEventListener(\"click\", function() {\n    console.log(\"Outer div clicked\");\n});\ndocument.getElementById(\"inner\").addEventListener(\"click\", function(event) {\n    console.log(\"Inner div clicked\");\n    event.stopPropagation();\n});\n</script>",
     "o": [
       "\"Inner div clicked\"",
@@ -2971,7 +2860,6 @@
   },
   {
     "q": "Which event property refers to the element that is currently handling the event?",
-    "c": null,
     "o": [
       "event.currentTarget",
       "event.target",
@@ -2981,6 +2869,7 @@
   },
   {
     "q": "What will be the result of clicking the anchor element in the following code?",
+    "l": "javascript",
     "c": "<a href=\"https://example.com\" id=\"link\">Click Me</a>\n<script>\ndocument.getElementById(\"link\").addEventListener(\"click\", function(event) {\n    event.preventDefault();\n    console.log(\"Link clicked but not followed\");\n});\n</script>",
     "o": [
       "\"Link clicked but not followed\"",
@@ -2991,7 +2880,6 @@
   },
   {
     "q": "Which event method is used to stop event bubbling?",
-    "c": null,
     "o": [
       "event.stopPropagation()",
       "event.preventDefault()",
@@ -3001,7 +2889,6 @@
   },
   {
     "q": "What happens if an event listener is added twice to the same element for the same event type?",
-    "c": null,
     "o": [
       "The event will be triggered twice",
       "The second event listener will overwrite the first",
@@ -3011,6 +2898,7 @@
   },
   {
     "q": "What will be logged when clicking the button?",
+    "l": "javascript",
     "c": "<button id=\"btn\">Click Me</button>\n<script>\nfunction clickHandler() {\n    console.log(\"Button clicked\");\n    document.getElementById(\"btn\").removeEventListener(\"click\", clickHandler);\n}\ndocument.getElementById(\"btn\").addEventListener(\"click\", clickHandler);\n</script>",
     "o": [
       "\"Button clicked\" (only once even if clicked multiple times)",
@@ -3021,7 +2909,6 @@
   },
   {
     "q": "Which of the following best describes the event bubbling phase?",
-    "c": null,
     "o": [
       "The event moves from the target element to its ancestors",
       "The event moves from the root element down to the target element",
@@ -3031,6 +2918,7 @@
   },
   {
     "q": "What will be the output when clicking the paragraph?",
+    "l": "javascript",
     "c": "<div id=\"wrapper\">\n  <p id=\"text\">Click me</p>\n</div>\n<script>\ndocument.getElementById(\"wrapper\").addEventListener(\"click\", function(event) {\n    console.log(\"Wrapper clicked\");\n});\ndocument.getElementById(\"text\").addEventListener(\"click\", function() {\n    console.log(\"Paragraph clicked\");\n});\n</script>",
     "o": [
       "\"Paragraph clicked\", \"Wrapper clicked\"",
@@ -3041,7 +2929,6 @@
   },
   {
     "q": "Which event will fire when a user types something into an input field?",
-    "c": null,
     "o": [
       "input",
       "change",
@@ -3051,7 +2938,6 @@
   },
   {
     "q": "Which method is used to attach an event handler to an element in JavaScript?",
-    "c": null,
     "o": [
       "element.addEventListener()",
       "element.attachEvent()",
@@ -3061,7 +2947,6 @@
   },
   {
     "q": "What is the default event propagation mode in JavaScript?",
-    "c": null,
     "o": [
       "Bubbling",
       "Capturing",
@@ -3071,6 +2956,7 @@
   },
   {
     "q": "What will be logged when clicking the button?",
+    "l": "javascript",
     "c": "<button id=\"btn\">Click Me</button>\n<script>\ndocument.getElementById(\"btn\").addEventListener(\"click\", function(event) {\n    console.log(event.type);\n});\n</script>",
     "o": [
       "\"click\"",
@@ -3081,7 +2967,6 @@
   },
   {
     "q": "How can you remove an event listener from an element?",
-    "c": null,
     "o": [
       "element.removeEventListener(event, handler)",
       "element.detachEvent(event, handler)",
@@ -3091,6 +2976,7 @@
   },
   {
     "q": "What will be logged when clicking the inner div?",
+    "l": "javascript",
     "c": "<div id=\"outer\">\n  <div id=\"inner\">Click me</div>\n</div>\n<script>\ndocument.getElementById(\"outer\").addEventListener(\"click\", function() {\n    console.log(\"Outer div clicked\");\n}, true);\ndocument.getElementById(\"inner\").addEventListener(\"click\", function() {\n    console.log(\"Inner div clicked\");\n});\n</script>",
     "o": [
       "\"Outer div clicked\", \"Inner div clicked\"",
@@ -3101,7 +2987,6 @@
   },
   {
     "q": "What is the purpose of event.preventDefault()?",
-    "c": null,
     "o": [
       "It prevents the default action of an event from occurring",
       "It stops the event from propagating to parent elements",
@@ -3111,7 +2996,6 @@
   },
   {
     "q": "Which of the following events is fired when the DOM is fully loaded?",
-    "c": null,
     "o": [
       "DOMContentLoaded",
       "load",
@@ -3121,6 +3005,7 @@
   },
   {
     "q": "What will happen when clicking the link?",
+    "l": "javascript",
     "c": "<a href=\"https://example.com\" id=\"myLink\">Click me</a>\n<script>\ndocument.getElementById(\"myLink\").addEventListener(\"click\", function(event) {\n    alert(\"Link clicked\");\n});\n</script>",
     "o": [
       "It will show an alert and then navigate to the link",
@@ -3131,7 +3016,6 @@
   },
   {
     "q": "Which event is fired when an element loses focus?",
-    "c": null,
     "o": [
       "blur",
       "focus",
@@ -3141,6 +3025,7 @@
   },
   {
     "q": "What will be the output when clicking the button twice?",
+    "l": "javascript",
     "c": "<button id=\"btn\">Click Me</button>\n<script>\nfunction handleClick() {\n    console.log(\"Button clicked\");\n}\ndocument.getElementById(\"btn\").addEventListener(\"click\", handleClick);\ndocument.getElementById(\"btn\").addEventListener(\"click\", handleClick);\n</script>",
     "o": [
       "\"Button clicked\" printed twice",
@@ -3151,7 +3036,6 @@
   },
   {
     "q": "Which event propagation phase allows events to be captured before reaching the target element?",
-    "c": null,
     "o": [
       "Capturing phase",
       "Bubbling phase",
@@ -3161,6 +3045,7 @@
   },
   {
     "q": "What will be logged when clicking the button?",
+    "l": "javascript",
     "c": "<button id=\"btn\">Click Me</button>\n<script>\ndocument.getElementById(\"btn\").addEventListener(\"click\", function(event) {\n    console.log(event.currentTarget.tagName);\n});\n</script>",
     "o": [
       "\"BUTTON\"",
@@ -3171,7 +3056,6 @@
   },
   {
     "q": "Which of the following statements about event delegation is TRUE?",
-    "c": null,
     "o": [
       "It allows handling multiple child elements' events by attaching a listener to a parent element",
       "It prevents event propagation",
@@ -3181,6 +3065,7 @@
   },
   {
     "q": "What will be logged when clicking the inner div?",
+    "l": "javascript",
     "c": "<div id=\"outer\">\n  <div id=\"inner\">Click me</div>\n</div>\n<script>\ndocument.getElementById(\"outer\").addEventListener(\"click\", function() {\n    console.log(\"Outer div clicked\");\n});\ndocument.getElementById(\"inner\").addEventListener(\"click\", function(event) {\n    event.stopPropagation();\n    console.log(\"Inner div clicked\");\n});\n</script>",
     "o": [
       "\"Inner div clicked\"",
@@ -3191,7 +3076,6 @@
   },
   {
     "q": "Which method stops an event from propagating to parent elements?",
-    "c": null,
     "o": [
       "event.stopPropagation()",
       "event.preventDefault()",
@@ -3201,7 +3085,6 @@
   },
   {
     "q": "What happens when event.stopImmediatePropagation() is called?",
-    "c": null,
     "o": [
       "It stops all event listeners on the same element from executing",
       "It prevents the default action of the event",
@@ -3211,6 +3094,7 @@
   },
   {
     "q": "What will happen when clicking the button?",
+    "l": "javascript",
     "c": "<button id=\"btn\">Click Me</button>\n<script>\ndocument.getElementById(\"btn\").addEventListener(\"click\", function(event) {\n    event.preventDefault();\n    alert(\"Button clicked\");\n});\n</script>",
     "o": [
       "The alert will show, but no default action will be prevented",
@@ -3221,7 +3105,6 @@
   },
   {
     "q": "Which event is fired when a user right-clicks on an element?",
-    "c": null,
     "o": [
       "contextmenu",
       "click",
@@ -3231,6 +3114,7 @@
   },
   {
     "q": "What will be logged when clicking on the list items?",
+    "l": "javascript",
     "c": "<ul id=\"list\">\n  <li>Item 1</li>\n  <li>Item 2</li>\n  <li>Item 3</li>\n</ul>\n<script>\ndocument.getElementById(\"list\").addEventListener(\"click\", function(event) {\n    console.log(event.target.textContent);\n});\n</script>",
     "o": [
       "The text content of the clicked <li> item",
@@ -3241,7 +3125,6 @@
   },
   {
     "q": "Which event is triggered when the user presses a key?",
-    "c": null,
     "o": [
       "keydown",
       "keypress",
@@ -3251,6 +3134,7 @@
   },
   {
     "q": "What is the output of the following code snippet when the button is clicked?",
+    "l": "javascript",
     "c": "document.querySelector('button').addEventListener('click', function() {\n  console.log('Button clicked!');\n});",
     "o": [
       "Button clicked!",
@@ -3261,7 +3145,6 @@
   },
   {
     "q": "Which of the following is the correct way to add an event listener in JavaScript?",
-    "c": null,
     "o": [
       "element.addEventListener('click', handler)",
       "element.addEvent('click', handler)",
@@ -3271,7 +3154,6 @@
   },
   {
     "q": "What is event bubbling in JavaScript?",
-    "c": null,
     "o": [
       "The process where events propagate from the target element up to the root",
       "The process where events propagate from the root down to the target element",
@@ -3281,6 +3163,7 @@
   },
   {
     "q": "What will be logged when the inner div is clicked?",
+    "l": "javascript",
     "c": "document.getElementById('outer').addEventListener('click', function() {\n  console.log('Outer div clicked');\n});\n\ndocument.getElementById('inner').addEventListener('click', function() {\n  console.log('Inner div clicked');\n});",
     "o": [
       "Inner div clicked, then Outer div clicked",
@@ -3291,7 +3174,6 @@
   },
   {
     "q": "What is event delegation in JavaScript?",
-    "c": null,
     "o": [
       "Attaching a single event listener to a parent to handle events for multiple children",
       "Creating multiple event handlers for the same element",
@@ -3301,7 +3183,6 @@
   },
   {
     "q": "How can you prevent the default action of an event in JavaScript?",
-    "c": null,
     "o": [
       "event.preventDefault()",
       "event.stopDefault()",
@@ -3311,6 +3192,7 @@
   },
   {
     "q": "What will be the output when the link is clicked?",
+    "l": "javascript",
     "c": "document.querySelector('a').addEventListener('click', function(e) {\n  e.preventDefault();\n  console.log('Link clicked but no navigation');\n});",
     "o": [
       "Link clicked but no navigation",
@@ -3321,7 +3203,6 @@
   },
   {
     "q": "Which method stops event propagation in JavaScript?",
-    "c": null,
     "o": [
       "event.stopPropagation()",
       "event.cancelBubble()",
@@ -3331,7 +3212,6 @@
   },
   {
     "q": "What is the third parameter in addEventListener() used for?",
-    "c": null,
     "o": [
       "To specify whether to use capture phase or bubbling phase",
       "To set the priority of the event handler",
@@ -3341,6 +3221,7 @@
   },
   {
     "q": "What will happen when clicking the button in this code?",
+    "l": "javascript",
     "c": "document.body.addEventListener('click', function() {\n  console.log('Body clicked');\n}, true);\n\ndocument.querySelector('button').addEventListener('click', function() {\n  console.log('Button clicked');\n});",
     "o": [
       "Body clicked, then Button clicked",
@@ -3351,7 +3232,6 @@
   },
   {
     "q": "Which method is used to remove an event listener in JavaScript?",
-    "c": null,
     "o": [
       "removeEventListener()",
       "deleteEventListener()",
@@ -3361,6 +3241,7 @@
   },
   {
     "q": "What happens when you click the button in this code snippet?",
+    "l": "javascript",
     "c": "document.querySelector('button').addEventListener('click', function(e) {\n  e.stopPropagation();\n  console.log('Button clicked');\n});\n\ndocument.body.addEventListener('click', function() {\n  console.log('Body clicked');\n});",
     "o": [
       "Only 'Button clicked' is logged",
@@ -3371,7 +3252,6 @@
   },
   {
     "q": "What is the purpose of the `once` option in `addEventListener()`?",
-    "c": null,
     "o": [
       "Ensures the event listener runs only once",
       "Makes the event listener execute synchronously",
@@ -3381,6 +3261,7 @@
   },
   {
     "q": "What will this code log when the button is clicked?",
+    "l": "javascript",
     "c": "document.querySelector('button').addEventListener('click', function() {\n  console.log('First listener');\n}, false);\n\ndocument.querySelector('button').addEventListener('click', function() {\n  console.log('Second listener');\n}, true);",
     "o": [
       "Second listener, then First listener",
@@ -3391,7 +3272,6 @@
   },
   {
     "q": "Which event phase occurs first in the DOM event flow?",
-    "c": null,
     "o": [
       "Capture phase",
       "Target phase",
@@ -3401,7 +3281,6 @@
   },
   {
     "q": "How does event delegation improve performance?",
-    "c": null,
     "o": [
       "By reducing the number of event listeners attached to individual elements",
       "By preventing default event actions",
@@ -3411,6 +3290,7 @@
   },
   {
     "q": "What will this code output when the button is clicked?",
+    "l": "javascript",
     "c": "document.querySelector('form').addEventListener('submit', function(e) {\n  e.preventDefault();\n  console.log('Form submission prevented');\n});",
     "o": [
       "'Form submission prevented' and the form does not submit",
@@ -3421,7 +3301,6 @@
   },
   {
     "q": "Which property helps identify the element that triggered an event?",
-    "c": null,
     "o": [
       "event.target",
       "event.source",
@@ -3431,7 +3310,6 @@
   },
   {
     "q": "What is the difference between `event.target` and `event.currentTarget`?",
-    "c": null,
     "o": [
       "`event.target` is the element that triggered the event, while `event.currentTarget` is the element where the listener is attached",
       "`event.target` is the parent element, while `event.currentTarget` is the child",
@@ -3441,7 +3319,6 @@
   },
   {
     "q": "What happens if you call `e.stopImmediatePropagation()` in an event listener?",
-    "c": null,
     "o": [
       "Prevents other listeners on the same element from executing",
       "Stops the event from bubbling but allows other listeners",
@@ -3451,7 +3328,6 @@
   },
   {
     "q": "What is the correct way to attach an event listener to multiple buttons with class 'btn'?",
-    "c": null,
     "o": [
       "document.querySelectorAll('.btn').forEach(btn => btn.addEventListener('click', handler))",
       "document.getElementsByClass('btn').addEventListener('click', handler)",
@@ -3461,6 +3337,7 @@
   },
   {
     "q": "What will happen when clicking the child element in this scenario?",
+    "l": "javascript",
     "c": "document.getElementById('parent').addEventListener('click', function() {\n  console.log('Parent clicked');\n}, true);\n\ndocument.getElementById('child').addEventListener('click', function() {\n  console.log('Child clicked');\n}, false);",
     "o": [
       "'Parent clicked' then 'Child clicked'",
@@ -3471,7 +3348,6 @@
   },
   {
     "q": "Which of these correctly demonstrates event delegation?",
-    "c": null,
     "o": [
       "document.getElementById('list').addEventListener('click', function(e) {\n  if(e.target.matches('li')) console.log('List item clicked');\n})",
       "document.querySelectorAll('li').forEach(li => li.addEventListener('click', handler))",
@@ -3481,7 +3357,6 @@
   },
   {
     "q": "What does `return false` do in an inline HTML event handler like `onclick=\"return false\"`?",
-    "c": null,
     "o": [
       "Prevents default action and stops propagation",
       "Only prevents default action",
@@ -3491,6 +3366,7 @@
   },
   {
     "q": "What will this code log when clicking a dynamically added button with class 'dynamic-btn'?",
+    "l": "javascript",
     "c": "document.addEventListener('click', function(e) {\n  if(e.target.classList.contains('dynamic-btn')) {\n    console.log('Dynamic button clicked');\n  }\n});",
     "o": [
       "'Dynamic button clicked'",
@@ -3501,7 +3377,6 @@
   },
   {
     "q": "Which statement about passive event listeners is correct?",
-    "c": null,
     "o": [
       "They improve scrolling performance by indicating the handler won't call preventDefault()",
       "They prevent all default browser behaviors",
@@ -3511,6 +3386,7 @@
   },
   {
     "q": "What is the output when clicking the div in this code?",
+    "l": "javascript",
     "c": "document.querySelector('div').addEventListener('click', function() {\n  console.log('First');\n});\n\ndocument.querySelector('div').addEventListener('click', function() {\n  console.log('Second');\n}, {once: true});",
     "o": [
       "'First' then 'Second' (on first click), then only 'First' on subsequent clicks",
@@ -3521,7 +3397,6 @@
   },
   {
     "q": "How can you check if preventDefault() was called on an event?",
-    "c": null,
     "o": [
       "Check event.defaultPrevented",
       "Check event.isDefaultPrevented()",
@@ -3531,7 +3406,6 @@
   },
   {
     "q": "What is the difference between event.stopPropagation() and event.stopImmediatePropagation()?",
-    "c": null,
     "o": [
       "stopPropagation() stops bubbling to parent elements, stopImmediatePropagation() also prevents other handlers on the same element",
       "stopImmediatePropagation() only works for custom events",
@@ -3541,6 +3415,7 @@
   },
   {
     "q": "What will this code log when the form is submitted?",
+    "l": "javascript",
     "c": "document.querySelector('form').addEventListener('submit', function(e) {\n  if(!validate()) {\n    e.preventDefault();\n    console.log('Validation failed');\n  }\n});\n\nfunction validate() { return false; }",
     "o": [
       "'Validation failed' and form doesn't submit",
@@ -3551,7 +3426,6 @@
   },
   {
     "q": "What is the correct way to attach an event listener that will automatically remove itself after firing once?",
-    "c": null,
     "o": [
       "element.addEventListener('click', handler, { once: true })",
       "element.addEventListener('click', handler, { autoRemove: true })",
@@ -3561,6 +3435,7 @@
   },
   {
     "q": "What happens when you click the button in this code?",
+    "l": "javascript",
     "c": "document.body.addEventListener('click', function() {\n  console.log('Body click');\n}, { capture: true });\n\ndocument.querySelector('button').addEventListener('click', function(e) {\n  e.stopPropagation();\n  console.log('Button click');\n});",
     "o": [
       "'Body click' is logged, then 'Button click'",
@@ -3571,7 +3446,6 @@
   },
   {
     "q": "Which statement about event.currentTarget is correct?",
-    "c": null,
     "o": [
       "It always refers to the element to which the event handler is attached",
       "It changes as the event bubbles through the DOM",
@@ -3581,6 +3455,7 @@
   },
   {
     "q": "What is the output when clicking the <span> inside the button?",
+    "l": "javascript",
     "c": "<button><span>Click me</span></button>\n<script>\n  document.querySelector('button').addEventListener('click', function(e) {\n    console.log(e.target.nodeName);\n  });\n</script>",
     "o": [
       "SPAN",
@@ -3591,7 +3466,6 @@
   },
   {
     "q": "How can you check if an event is cancelable?",
-    "c": null,
     "o": [
       "event.cancelable",
       "event.isCancelable()",
@@ -3601,7 +3475,6 @@
   },
   {
     "q": "What is the purpose of the passive: true option in event listeners?",
-    "c": null,
     "o": [
       "To indicate the event handler won't call preventDefault()",
       "To make the event bubble faster",
@@ -3611,6 +3484,7 @@
   },
   {
     "q": "What will this code log when clicking the div?",
+    "l": "javascript",
     "c": "document.querySelector('div').addEventListener('click', function() {\n  console.log('First');\n});\n\ndocument.querySelector('div').addEventListener('click', function() {\n  console.log('Second');\n}, true);",
     "o": [
       "'Second' then 'First'",
@@ -3621,7 +3495,6 @@
   },
   {
     "q": "Which method allows you to dispatch a custom event?",
-    "c": null,
     "o": [
       "element.dispatchEvent(new Event('custom'))",
       "element.triggerEvent('custom')",
@@ -3631,6 +3504,7 @@
   },
   {
     "q": "What happens when you right-click an element with this handler?",
+    "l": "javascript",
     "c": "element.addEventListener('contextmenu', function(e) {\n  e.preventDefault();\n  console.log('Custom menu');\n});",
     "o": [
       "Browser context menu is prevented and 'Custom menu' is logged",
@@ -3641,7 +3515,6 @@
   },
   {
     "q": "What is the correct way to implement event delegation for dynamically added elements?",
-    "c": null,
     "o": [
       "Add listener to a stable parent and check event.target",
       "Reattach listeners whenever new elements are added",
@@ -3651,6 +3524,7 @@
   },
   {
     "q": "What will be logged when pressing a key with this handler?",
+    "l": "javascript",
     "c": "document.addEventListener('keydown', function(e) {\n  console.log(e.key, e.code);\n});",
     "o": [
       "The character value and physical key code",
@@ -3661,7 +3535,6 @@
   },
   {
     "q": "Which event property helps distinguish between left, middle and right mouse clicks?",
-    "c": null,
     "o": [
       "event.button",
       "event.which",
@@ -3671,6 +3544,7 @@
   },
   {
     "q": "What is the effect of this code when scrolling?",
+    "l": "javascript",
     "c": "window.addEventListener('scroll', function() {\n  console.log('Scrolling');\n}, { passive: true });",
     "o": [
       "'Scrolling' is logged without delaying scroll performance",
@@ -3681,7 +3555,6 @@
   },
   {
     "q": "What is the difference between keydown and keypress events?",
-    "c": null,
     "o": [
       "keydown fires for all keys, keypress only for character keys",
       "keypress has better browser support",
@@ -3691,6 +3564,7 @@
   },
   {
     "q": "What will this code output when clicking a link?",
+    "l": "javascript",
     "c": "document.querySelector('a').addEventListener('click', function(e) {\n  e.preventDefault();\n  setTimeout(() => e.target.click(), 1000);\n});",
     "o": [
       "Prevents navigation initially, then navigates after 1 second",
@@ -3701,7 +3575,6 @@
   },
   {
     "q": "What happens when you call `event.stopPropagation()` during the capture phase?",
-    "c": null,
     "o": [
       "Prevents the event from reaching the target and bubbling phases",
       "Only stops the bubbling phase but allows target phase",
@@ -3711,6 +3584,7 @@
   },
   {
     "q": "What is the output when clicking the button in this scenario?",
+    "l": "javascript",
     "c": "document.body.addEventListener('click', () => console.log(1), true);\ndocument.body.addEventListener('click', () => console.log(2));\nbutton.addEventListener('click', (e) => {\n  e.stopImmediatePropagation();\n  console.log(3);\n});\nbutton.addEventListener('click', () => console.log(4));",
     "o": [
       "1, 3",
@@ -3721,7 +3595,6 @@
   },
   {
     "q": "Which of these correctly implements event delegation for button clicks in a dynamic list?",
-    "c": null,
     "o": [
       "listContainer.addEventListener('click', (e) => { if(e.target.matches('button')) handleClick(e); })",
       "Array.from(listContainer.children).forEach(btn => btn.addEventListener('click', handleClick))",
@@ -3731,7 +3604,6 @@
   },
   {
     "q": "What is the difference between `window.onload` and `document.addEventListener('DOMContentLoaded', ...)`?",
-    "c": null,
     "o": [
       "DOMContentLoaded fires when HTML is parsed, while onload waits for all resources",
       "They are identical in functionality",
@@ -3741,6 +3613,7 @@
   },
   {
     "q": "What happens when you click the link in this code?",
+    "l": "javascript",
     "c": "document.querySelector('a').addEventListener('click', (e) => {\n  e.preventDefault();\n  location.href = e.target.href;\n});",
     "o": [
       "Prevents default navigation but still changes location programmatically",
@@ -3751,7 +3624,6 @@
   },
   {
     "q": "Which method allows you to check if an event listener exists on an element?",
-    "c": null,
     "o": [
       "getEventListeners() in browser console (dev tools)",
       "element.hasEventListener('click')",
@@ -3761,6 +3633,7 @@
   },
   {
     "q": "What is the effect of this scroll event listener?",
+    "l": "javascript",
     "c": "window.addEventListener('scroll', () => {\n  console.log(window.scrollY);\n}, { passive: true, once: true });",
     "o": [
       "Logs scroll position once without delaying scrolling",
@@ -3771,6 +3644,7 @@
   },
   {
     "q": "What will this code output when clicking the div?",
+    "l": "javascript",
     "c": "div.addEventListener('click', () => console.log('Bubbling'));\ndiv.addEventListener('click', () => console.log('Capturing'), true);\ndiv.addEventListener('click', () => console.log('Bubbling 2'));",
     "o": [
       "Capturing, Bubbling, Bubbling 2",
@@ -3781,7 +3655,6 @@
   },
   {
     "q": "How can you programmatically trigger a checkbox change event while preserving its natural behavior?",
-    "c": null,
     "o": [
       "checkbox.click()",
       "checkbox.trigger('change')",
@@ -3791,7 +3664,6 @@
   },
   {
     "q": "What is the purpose of the `event.eventPhase` property?",
-    "c": null,
     "o": [
       "Indicates which phase the event is in (1=capture, 2=target, 3=bubbling)",
       "Shows how many event listeners are attached",
@@ -3801,6 +3673,7 @@
   },
   {
     "q": "What happens when submitting this form?",
+    "l": "javascript",
     "c": "form.addEventListener('submit', (e) => {\n  if(!valid) {\n    e.preventDefault();\n    e.stopImmediatePropagation();\n  }\n});\nform.addEventListener('submit', () => console.log('Second listener'));",
     "o": [
       "Prevents submission and stops second listener when invalid",
@@ -3811,7 +3684,6 @@
   },
   {
     "q": "Which technique would be most efficient for handling clicks on 1000 list items?",
-    "c": null,
     "o": [
       "Single delegated listener on the parent ul",
       "Individual listeners on each li",
@@ -3821,7 +3693,6 @@
   },
   {
     "q": "What is the effect of returning false from an inline onclick handler?",
-    "c": null,
     "o": [
       "Equivalent to preventDefault + stopPropagation",
       "Same as just preventDefault",
@@ -3831,6 +3702,7 @@
   },
   {
     "q": "What will this code log when clicking the button?",
+    "l": "javascript",
     "c": "button.addEventListener('click', function() {\n  console.log(this === button);\n});\nbutton.addEventListener('click', () => {\n  console.log(this === button);\n});",
     "o": [
       "true, false",
@@ -3841,7 +3713,6 @@
   },
   {
     "q": "How can you check if an event will bubble?",
-    "c": null,
     "o": [
       "event.bubbles property",
       "event.willBubble() method",
@@ -3851,7 +3722,6 @@
   },
   {
     "q": "What happens when you call `event.preventDefault()` on a non-cancelable event?",
-    "c": null,
     "o": [
       "Nothing happens - the event continues normally",
       "Throws an error",
@@ -3861,6 +3731,7 @@
   },
   {
     "q": "What is logged when clicking the child element in this nested structure?",
+    "l": "javascript",
     "c": "parent.addEventListener('click', () => console.log('Parent Capture'), true);\nchild.addEventListener('click', () => console.log('Child Bubble'));\nparent.addEventListener('click', () => console.log('Parent Bubble'));",
     "o": [
       "'Parent Capture', 'Child Bubble', 'Parent Bubble'",
@@ -3871,7 +3742,6 @@
   },
   {
     "q": "Which statement about Event Delegation is FALSE?",
-    "c": null,
     "o": [
       "Delegated events trigger faster than direct listeners",
       "It works by leveraging event bubbling",
@@ -3881,6 +3751,7 @@
   },
   {
     "q": "What is the output when pressing Enter in this input field?",
+    "l": "javascript",
     "c": "input.addEventListener('keydown', (e) => {\n  if(e.key === 'Enter') {\n    e.preventDefault();\n    console.log('Enter pressed');\n  }\n});\nform.addEventListener('submit', () => console.log('Form submitted'));",
     "o": [
       "'Enter pressed' only",
@@ -3891,7 +3762,6 @@
   },
   {
     "q": "How can you determine if an event listener was registered as passive?",
-    "c": null,
     "o": [
       "Using getEventListeners() in DevTools",
       "Checking event.passive property",
@@ -3901,6 +3771,7 @@
   },
   {
     "q": "What happens when clicking this button with both inline and addEventListener handlers?",
+    "l": "javascript",
     "c": "<button onclick=\"console.log('Inline')\">Click</button>\n<script>\n  button.addEventListener('click', () => console.log('Listener'));\n</script>",
     "o": [
       "'Inline' then 'Listener'",
@@ -3911,7 +3782,6 @@
   },
   {
     "q": "Which event property helps identify if Alt key was pressed during a mouse click?",
-    "c": null,
     "o": [
       "event.altKey",
       "event.modifiers.alt",
@@ -3921,6 +3791,7 @@
   },
   {
     "q": "What is the effect of this touch event listener?",
+    "l": "javascript",
     "c": "element.addEventListener('touchstart', handler, { passive: false });",
     "o": [
       "May degrade scroll performance but can preventDefault()",
@@ -3931,6 +3802,7 @@
   },
   {
     "q": "What will this code log when clicking the disabled button?",
+    "l": "javascript",
     "c": "disabledButton.addEventListener('click', () => console.log('Clicked'));",
     "o": [
       "Nothing (disabled elements don't fire click events)",
@@ -3941,7 +3813,6 @@
   },
   {
     "q": "Which is the MOST efficient way to handle clicks on 10,000 table cells?",
-    "c": null,
     "o": [
       "Single delegated listener on the table",
       "Individual listeners on each cell",
@@ -3951,6 +3822,7 @@
   },
   {
     "q": "What happens when you dispatch a synthetic click event on a submit button?",
+    "l": "javascript",
     "c": "button.dispatchEvent(new MouseEvent('click'));",
     "o": [
       "Triggers form submission if not prevented",
@@ -3961,7 +3833,6 @@
   },
   {
     "q": "What is the difference between event.which and event.keyCode?",
-    "c": null,
     "o": [
       "They're aliases but both are deprecated in favor of event.key",
       "which is for mouse events, keyCode for keyboard",
@@ -3971,6 +3842,7 @@
   },
   {
     "q": "What will this code log when clicking the div?",
+    "l": "javascript",
     "c": "div.addEventListener('click', function() {\n  console.log(this.tagName);\n}, { once: true, capture: true });",
     "o": [
       "'DIV' once then never again",
@@ -3981,7 +3853,6 @@
   },
   {
     "q": "How can you remove ALL click listeners from an element?",
-    "c": null,
     "o": [
       "element.cloneNode(true) (no direct method exists)",
       "element.removeAllEventListeners()",
@@ -3991,6 +3862,7 @@
   },
   {
     "q": "What is the effect of this form submission handler?",
+    "l": "javascript",
     "c": "form.addEventListener('submit', async (e) => {\n  e.preventDefault();\n  await submitData();\n  e.target.submit();\n});",
     "o": [
       "Prevents default, submits via AJAX, then does regular submission",
@@ -4001,7 +3873,6 @@
   },
   {
     "q": "What happens when you call `event.stopPropagation()` inside a capturing phase listener?",
-    "c": null,
     "o": [
       "Prevents the event from reaching any subsequent phases (target and bubbling)",
       "Only stops the bubbling phase",
@@ -4011,6 +3882,7 @@
   },
   {
     "q": "What is logged when clicking the child element in this nested structure?",
+    "l": "javascript",
     "c": "parent.addEventListener('click', () => console.log('Capture'), true);\nchild.addEventListener('click', () => console.log('Target'));\nparent.addEventListener('click', () => console.log('Bubble'));\nchild.addEventListener('click', (e) => e.stopPropagation());",
     "o": [
       "'Capture', 'Target'",
@@ -4021,7 +3893,6 @@
   },
   {
     "q": "Which method provides the best performance for handling clicks on 1000+ dynamically created elements?",
-    "c": null,
     "o": [
       "Event delegation on a static parent element",
       "Adding individual listeners to each element",
@@ -4031,6 +3902,7 @@
   },
   {
     "q": "What is the effect of this scroll event listener?",
+    "l": "javascript",
     "c": "window.addEventListener('scroll', heavyFunction, { passive: true });",
     "o": [
       "Improves scroll performance but prevents calling preventDefault()",
@@ -4041,6 +3913,7 @@
   },
   {
     "q": "What will this code output when clicking the button?",
+    "l": "javascript",
     "c": "button.addEventListener('click', () => console.log(1));\nbutton.addEventListener('click', () => console.log(2), true);\nbutton.addEventListener('click', () => console.log(3));",
     "o": [
       "2, 1, 3",
@@ -4051,7 +3924,6 @@
   },
   {
     "q": "Which statement about event.returnValue is true?",
-    "c": null,
     "o": [
       "Setting it to false is equivalent to preventDefault()",
       "It's the modern replacement for preventDefault()",
@@ -4061,7 +3933,6 @@
   },
   {
     "q": "What happens when dispatching a custom event with bubbles: false?",
-    "c": null,
     "o": [
       "The event only triggers on the dispatch target",
       "The event bubbles but can't be canceled",
@@ -4071,6 +3942,7 @@
   },
   {
     "q": "What is the output when clicking the div with this handler?",
+    "l": "javascript",
     "c": "div.addEventListener('click', function() {\n  console.log(this === div);\n});\ndiv.addEventListener('click', () => {\n  console.log(this === div);\n});",
     "o": [
       "true, false",
@@ -4081,7 +3953,6 @@
   },
   {
     "q": "Which technique should be used to handle third-party widget events when you can't modify their code?",
-    "c": null,
     "o": [
       "Event capturing on document level",
       "MutationObserver to detect widget changes",
@@ -4091,6 +3962,7 @@
   },
   {
     "q": "What is the effect of this form submission handler?",
+    "l": "javascript",
     "c": "form.addEventListener('submit', (e) => {\n  if(!valid) {\n    e.preventDefault();\n    e.stopImmediatePropagation();\n  }\n});\nform.addEventListener('submit', () => console.log('Second listener'));",
     "o": [
       "When invalid: prevents submit and blocks second listener",
@@ -4101,7 +3973,6 @@
   },
   {
     "q": "Which property identifies if the Ctrl key was pressed during a click event?",
-    "c": null,
     "o": [
       "event.ctrlKey",
       "event.modifiers.control",
@@ -4111,7 +3982,6 @@
   },
   {
     "q": "What happens when calling preventDefault() on a passive event listener?",
-    "c": null,
     "o": [
       "Throws a 'Unable to preventDefault' error",
       "Silently fails with no effect",
@@ -4121,6 +3991,7 @@
   },
   {
     "q": "What is the output when clicking the button with this handler?",
+    "l": "javascript",
     "c": "button.addEventListener('click', (e) => {\n  console.log(e.eventPhase);\n}, true);",
     "o": [
       "1 (CAPTURING_PHASE)",
@@ -4131,7 +4002,6 @@
   },
   {
     "q": "Which is the most efficient way to handle window resize events?",
-    "c": null,
     "o": [
       "Debounced event listener",
       "Immediate listener with heavy calculations",
@@ -4141,6 +4011,7 @@
   },
   {
     "q": "What is the effect of this code when clicking links?",
+    "l": "javascript",
     "c": "document.addEventListener('click', (e) => {\n  if(e.target.closest('a')) {\n    e.preventDefault();\n    fetch(e.target.href);\n  }\n});",
     "o": [
       "Converts all link clicks to fetch requests",
@@ -4151,7 +4022,6 @@
   },
   {
     "q": "What is the phase order when an event occurs on an element with both parent and child listeners?",
-    "c": null,
     "o": [
       "Parent Capture → Target → Parent Bubble",
       "Parent Bubble → Target → Parent Capture",
@@ -4161,6 +4031,7 @@
   },
   {
     "q": "What happens when you click the button in this scenario?",
+    "l": "javascript",
     "c": "parent.addEventListener('click', () => console.log('Parent'));\nbutton.addEventListener('click', (e) => {\n  e.stopImmediatePropagation();\n  console.log('Button 1');\n});\nbutton.addEventListener('click', () => console.log('Button 2'));",
     "o": [
       "'Button 1' only",
@@ -4171,7 +4042,6 @@
   },
   {
     "q": "Which is the most efficient way to handle hover events for hundreds of elements?",
-    "c": null,
     "o": [
       "CSS hover pseudo-class instead of JavaScript",
       "Individual mouseenter/mouseleave listeners",
@@ -4181,6 +4051,7 @@
   },
   {
     "q": "What is the effect of this touch event listener?",
+    "l": "javascript",
     "c": "element.addEventListener('touchstart', handler, { passive: true, capture: true });",
     "o": [
       "Optimizes performance but can't preventDefault during capture",
@@ -4191,6 +4062,7 @@
   },
   {
     "q": "What will this code log when clicking the div?",
+    "l": "javascript",
     "c": "div.addEventListener('click', () => console.log('Div'), true);\ndocument.addEventListener('click', () => console.log('Document'));\nwindow.addEventListener('click', () => console.log('Window'));",
     "o": [
       "'Div', 'Document', 'Window'",
@@ -4201,7 +4073,6 @@
   },
   {
     "q": "Which property indicates if the event's default was prevented?",
-    "c": null,
     "o": [
       "event.defaultPrevented",
       "event.isDefaultPrevented()",
@@ -4211,7 +4082,6 @@
   },
   {
     "q": "What is the difference between mouseenter/mouseleave and mouseover/mouseout?",
-    "c": null,
     "o": [
       "enter/leave don't bubble while over/out do",
       "enter/leave are deprecated in favor of over/out",
@@ -4221,6 +4091,7 @@
   },
   {
     "q": "What happens when you dispatch a non-bubbling custom event?",
+    "l": "javascript",
     "c": "element.dispatchEvent(new Event('custom', { bubbles: false }));",
     "o": [
       "Only triggers on the dispatched element",
@@ -4231,6 +4102,7 @@
   },
   {
     "q": "What is the output when clicking the button?",
+    "l": "javascript",
     "c": "button.addEventListener('click', () => console.log(1), { once: true });\nbutton.addEventListener('click', () => console.log(2));\nbutton.click();\nbutton.click();",
     "o": [
       "1, 2, 2",
@@ -4241,7 +4113,6 @@
   },
   {
     "q": "Which is the proper way to handle form submission via AJAX?",
-    "c": null,
     "o": [
       "form.addEventListener('submit', (e) => { e.preventDefault(); /* AJAX */ })",
       "form.onsubmit = () => { /* AJAX */ return false; }",
@@ -4251,6 +4122,7 @@
   },
   {
     "q": "What is the effect of this drag handler?",
+    "l": "javascript",
     "c": "div.addEventListener('dragstart', (e) => e.preventDefault());",
     "o": [
       "Prevents the default drag behavior",
@@ -4261,7 +4133,6 @@
   },
   {
     "q": "Which event property helps detect double-clicks?",
-    "c": null,
     "o": [
       "event.detail (2 for double-click)",
       "event.clickCount",
@@ -4271,6 +4142,7 @@
   },
   {
     "q": "What happens when clicking this link?",
+    "l": "javascript",
     "c": "a.addEventListener('click', (e) => {\n  if(!confirm('Leave?')) e.preventDefault();\n});",
     "o": [
       "Shows confirmation before navigation",
@@ -4281,7 +4153,6 @@
   },
   {
     "q": "Which is the most efficient infinite scroll implementation?",
-    "c": null,
     "o": [
       "IntersectionObserver + event delegation",
       "Scroll event listener with debouncing",
@@ -4291,6 +4162,7 @@
   },
   {
     "q": "What is the effect of this keyboard event handler?",
+    "l": "javascript",
     "c": "input.addEventListener('keydown', (e) => {\n  if(e.key === 'Enter' && !e.repeat) console.log('First press');\n});",
     "o": [
       "Logs only on initial Enter press (not repeats)",
@@ -4301,7 +4173,6 @@
   },
   {
     "q": "What happens when you call `event.stopPropagation()` during the target phase?",
-    "c": null,
     "o": [
       "Prevents the bubbling phase but the target phase completes",
       "Immediately stops all event processing",
@@ -4311,6 +4182,7 @@
   },
   {
     "q": "What is logged when clicking the button in this nested structure?",
+    "l": "javascript",
     "c": "grandparent.addEventListener('click', () => console.log(1), true);\nparent.addEventListener('click', () => console.log(2));\nbutton.addEventListener('click', (e) => {\n  e.stopPropagation();\n  console.log(3);\n});\ngrandparent.addEventListener('click', () => console.log(4));",
     "o": [
       "1, 3",
@@ -4321,7 +4193,6 @@
   },
   {
     "q": "Which is the most memory-efficient way to handle clicks in a list with frequent item updates?",
-    "c": null,
     "o": [
       "Single delegated listener on the list container",
       "Adding/removing listeners when items update",
@@ -4331,6 +4202,7 @@
   },
   {
     "q": "What is the effect of this scroll handler?",
+    "l": "javascript",
     "c": "window.addEventListener('scroll', () => {\n  console.log(window.scrollY);\n}, { passive: true, capture: true });",
     "o": [
       "Logs scroll position with optimized performance during capture",
@@ -4341,6 +4213,7 @@
   },
   {
     "q": "What will this code output when clicking the div?",
+    "l": "javascript",
     "c": "div.addEventListener('click', () => console.log('A'));\ndiv.addEventListener('click', () => console.log('B'), true);\ndiv.addEventListener('click', () => console.log('C'));",
     "o": [
       "B, A, C",
@@ -4351,7 +4224,6 @@
   },
   {
     "q": "Which property indicates if an event can be canceled?",
-    "c": null,
     "o": [
       "event.cancelable",
       "event.isCancelable()",
@@ -4361,7 +4233,6 @@
   },
   {
     "q": "What is the difference between `event.target` and `event.currentTarget` in a delegated listener?",
-    "c": null,
     "o": [
       "target is the originator, currentTarget is the listener's element",
       "They always reference the same element",
@@ -4371,7 +4242,6 @@
   },
   {
     "q": "What happens when you dispatch a custom event with `composed: true`?",
-    "c": null,
     "o": [
       "Crosses shadow DOM boundaries",
       "Automatically bubbles to window",
@@ -4381,6 +4251,7 @@
   },
   {
     "q": "What is the output when clicking the button?",
+    "l": "javascript",
     "c": "button.addEventListener('click', () => console.log(1), { once: true });\nbutton.addEventListener('click', () => console.log(2));\nbutton.click();\nbutton.click();",
     "o": [
       "1, 2, 2",
@@ -4391,7 +4262,6 @@
   },
   {
     "q": "Which is the proper way to handle right-clicks?",
-    "c": null,
     "o": [
       "contextmenu event with preventDefault()",
       "click event checking event.button === 2",
@@ -4401,6 +4271,7 @@
   },
   {
     "q": "What is the effect of this form handler?",
+    "l": "javascript",
     "c": "form.addEventListener('submit', async (e) => {\n  e.preventDefault();\n  await validate();\n  e.target.submit();\n});",
     "o": [
       "Validates asynchronously then submits",
@@ -4411,7 +4282,6 @@
   },
   {
     "q": "Which event property helps detect touch screen devices?",
-    "c": null,
     "o": [
       "'ontouchstart' in window",
       "event.isTouchDevice",
@@ -4421,6 +4291,7 @@
   },
   {
     "q": "What happens when clicking this link?",
+    "l": "javascript",
     "c": "a.addEventListener('click', (e) => {\n  if(e.ctrlKey) e.preventDefault();\n});",
     "o": [
       "Prevents navigation only when Ctrl is pressed",
@@ -4431,7 +4302,6 @@
   },
   {
     "q": "Which is the most efficient way to detect clicks outside an element?",
-    "c": null,
     "o": [
       "Document click handler checking event.target.closest()",
       "Focusout/blur event handlers",
@@ -4441,6 +4311,7 @@
   },
   {
     "q": "What is the effect of this keyboard handler?",
+    "l": "javascript",
     "c": "input.addEventListener('keydown', (e) => {\n  if(e.key === 'Tab' && !e.shiftKey) e.preventDefault();\n});",
     "o": [
       "Prevents tabbing forward but allows backward tab",
@@ -4451,7 +4322,6 @@
   },
   {
     "q": "What happens when you call `event.stopImmediatePropagation()` on an element with multiple listeners?",
-    "c": null,
     "o": [
       "Stops all subsequent listeners on that element but allows bubbling",
       "Prevents all listeners including parent elements",
@@ -4461,6 +4331,7 @@
   },
   {
     "q": "What is logged when clicking the button in this structure?",
+    "l": "javascript",
     "c": "div.addEventListener('click', () => console.log('Div Capture'), true);\nbutton.addEventListener('click', () => console.log('Button 1'));\nbutton.addEventListener('click', (e) => {\n  e.stopImmediatePropagation();\n  console.log('Button 2');\n});\nbutton.addEventListener('click', () => console.log('Button 3'));\ndiv.addEventListener('click', () => console.log('Div Bubble'));",
     "o": [
       "'Div Capture', 'Button 1', 'Button 2'",
@@ -4471,7 +4342,6 @@
   },
   {
     "q": "Which is the most efficient way to handle clicks on 10,000 table rows that need individual processing?",
-    "c": null,
     "o": [
       "Single delegated listener on table checking event.target.closest('tr')",
       "Individual listeners on each row",
@@ -4481,6 +4351,7 @@
   },
   {
     "q": "What is the effect of this wheel event listener?",
+    "l": "javascript",
     "c": "element.addEventListener('wheel', (e) => {\n  e.preventDefault();\n  customScroll(e.deltaY);\n}, { passive: false });",
     "o": [
       "Implements custom scroll behavior but may cause jank",
@@ -4491,6 +4362,7 @@
   },
   {
     "q": "What will this code log when clicking the button?",
+    "l": "javascript",
     "c": "button.addEventListener('click', () => console.log('A'), { once: true, capture: true });\nbutton.addEventListener('click', () => console.log('B'));\nbutton.addEventListener('click', () => console.log('C'), { once: true });\nbutton.click();\nbutton.click();",
     "o": [
       "First click: 'A', 'B', 'C' | Second click: 'B'",
@@ -4501,7 +4373,6 @@
   },
   {
     "q": "Which property indicates if an event is currently in the bubbling phase?",
-    "c": null,
     "o": [
       "event.eventPhase === 3 (Event.BUBBLING_PHASE)",
       "event.bubbles === true",
@@ -4511,7 +4382,6 @@
   },
   {
     "q": "What is the difference between `event.composedPath()` and `event.path`?",
-    "c": null,
     "o": [
       "composedPath() is standard and includes shadow DOM, path is deprecated",
       "They are identical in all browsers",
@@ -4521,6 +4391,7 @@
   },
   {
     "q": "What happens when you dispatch a cancelable custom event that gets prevented?",
+    "l": "javascript",
     "c": "const event = new CustomEvent('myevent', { cancelable: true });\nelement.dispatchEvent(event);\n// Some listener calls event.preventDefault()",
     "o": [
       "event.defaultPrevented becomes true but propagation continues",
@@ -4531,6 +4402,7 @@
   },
   {
     "q": "What is the output when clicking the div with this handler?",
+    "l": "javascript",
     "c": "div.addEventListener('click', function() {\n  console.log(this === div, event.currentTarget === div);\n});",
     "o": [
       "true, true",
@@ -4541,7 +4413,6 @@
   },
   {
     "q": "Which is the proper way to handle middle mouse button clicks?",
-    "c": null,
     "o": [
       "Check event.button === 1 in mousedown/up events",
       "Use auxclick event with event.detail check",
@@ -4551,6 +4422,7 @@
   },
   {
     "q": "What is the effect of this form submission handler?",
+    "l": "javascript",
     "c": "form.addEventListener('submit', (e) => {\n  if(!validate()) {\n    e.preventDefault();\n    e.stopPropagation();\n    return false;\n  }\n});\nform.addEventListener('submit', () => console.log('Submitted'));",
     "o": [
       "When invalid: prevents submit and blocks second listener",
@@ -4561,7 +4433,6 @@
   },
   {
     "q": "Which event property helps detect if the Meta (Cmd) key was pressed?",
-    "c": null,
     "o": [
       "event.metaKey",
       "event.modifiers.meta",
@@ -4571,7 +4442,6 @@
   },
   {
     "q": "What happens when calling preventDefault() on a passive scroll event?",
-    "c": null,
     "o": [
       "Throws 'Unable to preventDefault inside passive event' error",
       "Silently fails with no effect",
@@ -4581,6 +4451,7 @@
   },
   {
     "q": "What will this code log when clicking the button?",
+    "l": "javascript",
     "c": "button.addEventListener('click', (e) => {\n  console.log(e.eventPhase, e.bubbles);\n}, true);",
     "o": [
       "1 (CAPTURING_PHASE), true",
@@ -4591,7 +4462,6 @@
   },
   {
     "q": "Which is the most efficient infinite scroll implementation for modern browsers?",
-    "c": null,
     "o": [
       "IntersectionObserver + event delegation",
       "Scroll event listener with throttling",
@@ -4601,6 +4471,7 @@
   },
   {
     "q": "What is the effect of this code when clicking links?",
+    "l": "javascript",
     "c": "document.addEventListener('click', (e) => {\n  if(e.target.tagName === 'A' && e.target.hostname !== location.hostname) {\n    e.preventDefault();\n    trackOutboundLink(e.target.href);\n  }\n}, true);",
     "o": [
       "Tracks outbound links while preventing navigation",
@@ -4611,7 +4482,6 @@
   },
   {
     "q": "What happens when you call `event.preventDefault()` on a non-cancelable scroll event?",
-    "c": null,
     "o": [
       "Nothing happens and the scroll continues normally",
       "Throws a 'Cannot prevent default' error",
@@ -4621,6 +4491,7 @@
   },
   {
     "q": "What is logged when clicking the button in this structure?",
+    "l": "javascript",
     "c": "div.addEventListener('click', () => console.log('Div Capture'), true);\nbutton.addEventListener('click', () => console.log('Button'));\ndiv.addEventListener('click', (e) => {\n  if(e.target !== e.currentTarget) e.stopPropagation();\n  console.log('Div Bubble');\n});",
     "o": [
       "'Div Capture', 'Button', 'Div Bubble'",
@@ -4631,7 +4502,6 @@
   },
   {
     "q": "Which is the most efficient way to handle clicks in a virtual scrolling list with 100k items?",
-    "c": null,
     "o": [
       "Single delegated listener on container checking rendered items only",
       "Individual listeners on each visible item",
@@ -4641,6 +4511,7 @@
   },
   {
     "q": "What is the effect of this touch event listener?",
+    "l": "javascript",
     "c": "element.addEventListener('touchmove', handler, { passive: false, capture: true });",
     "o": [
       "Allows preventDefault() but may cause scroll jank during capture",
@@ -4651,6 +4522,7 @@
   },
   {
     "q": "What will this code log when clicking the button?",
+    "l": "javascript",
     "c": "button.addEventListener('click', () => console.log('A'), { once: true });\nbutton.addEventListener('click', () => console.log('B'));\nbutton.click();\nbutton.removeEventListener('click', () => console.log('B'));\nbutton.click();",
     "o": [
       "First click: 'A', 'B' | Second click: 'B'",
@@ -4661,7 +4533,6 @@
   },
   {
     "q": "Which property indicates if an event has completed all propagation phases?",
-    "c": null,
     "o": [
       "event.eventPhase === 0 (Event.NONE)",
       "event.propagationComplete",
@@ -4671,7 +4542,6 @@
   },
   {
     "q": "What is the difference between `event.composed` and `event.bubbles`?",
-    "c": null,
     "o": [
       "composed crosses shadow DOM boundaries, bubbles controls parent propagation",
       "They are identical in modern browsers",
@@ -4681,7 +4551,6 @@
   },
   {
     "q": "What happens when dispatching a non-bubbling, non-composed custom event from a shadow root?",
-    "c": null,
     "o": [
       "Only triggers on elements inside the shadow DOM",
       "Bubbles to the light DOM anyway",
@@ -4691,6 +4560,7 @@
   },
   {
     "q": "What is the output when clicking the div with this handler?",
+    "l": "javascript",
     "c": "div.addEventListener('click', function() {\n  console.log(event.eventPhase, this === event.currentTarget);\n}, true);",
     "o": [
       "1 (CAPTURING_PHASE), true",
@@ -4701,7 +4571,6 @@
   },
   {
     "q": "Which is the proper way to detect browser back/forward button navigation?",
-    "c": null,
     "o": [
       "window.onpopstate event",
       "window.onbeforeunload event",
@@ -4711,6 +4580,7 @@
   },
   {
     "q": "What is the effect of this form submission handler?",
+    "l": "javascript",
     "c": "form.addEventListener('submit', (e) => {\n  if(!valid) {\n    e.preventDefault();\n    e.stopImmediatePropagation();\n    return false;\n  }\n}, true);\nform.addEventListener('submit', () => console.log('Submitted'));",
     "o": [
       "When invalid: prevents submit and blocks second listener during capture",
@@ -4721,7 +4591,6 @@
   },
   {
     "q": "Which event property helps detect if the platform modifier key (Cmd/Ctrl) was pressed?",
-    "c": null,
     "o": [
       "event.ctrlKey || event.metaKey",
       "event.platformKey",
@@ -4731,7 +4600,6 @@
   },
   {
     "q": "What happens when calling stopPropagation() on a passive wheel event?",
-    "c": null,
     "o": [
       "Stops propagation but scroll still occurs",
       "Prevents both propagation and scrolling",
@@ -4741,6 +4609,7 @@
   },
   {
     "q": "What will this code log when clicking the button?",
+    "l": "javascript",
     "c": "button.addEventListener('click', (e) => {\n  console.log(e.bubbles, e.cancelable);\n});\nbutton.dispatchEvent(new Event('click', { bubbles: false }));",
     "o": [
       "false, true",
@@ -4751,7 +4620,6 @@
   },
   {
     "q": "Which is the most efficient way to handle clicks on SVG elements within a complex graphic?",
-    "c": null,
     "o": [
       "Single delegated listener on SVG root checking event.target",
       "Individual listeners on each SVG element",
@@ -4761,6 +4629,7 @@
   },
   {
     "q": "What is the effect of this code when clicking submit buttons?",
+    "l": "javascript",
     "c": "document.addEventListener('click', (e) => {\n  if(e.target.type === 'submit') {\n    e.preventDefault();\n    e.target.form.requestSubmit();\n  }\n}, true);",
     "o": [
       "Converts all submit clicks to programmatic form submission",
@@ -4771,7 +4640,6 @@
   },
   {
     "q": "What happens when you call `event.stopPropagation()` during the target phase of a non-bubbling event?",
-    "c": null,
     "o": [
       "Has no effect since the event wouldn't bubble anyway",
       "Prevents all remaining target phase listeners",
@@ -4781,6 +4649,7 @@
   },
   {
     "q": "What is logged when clicking the button in this structure?",
+    "l": "javascript",
     "c": "parent.addEventListener('click', () => console.log('Parent Capture'), true);\nbutton.addEventListener('click', () => console.log('Button 1'));\nbutton.addEventListener('click', (e) => {\n  if(e.eventPhase === 2) e.stopImmediatePropagation();\n  console.log('Button 2');\n});\nparent.addEventListener('click', () => console.log('Parent Bubble'));",
     "o": [
       "'Parent Capture', 'Button 1', 'Button 2'",
@@ -4791,7 +4660,6 @@
   },
   {
     "q": "Which is the most efficient way to handle clicks in a table where only 5% of cells are interactive?",
-    "c": null,
     "o": [
       "Single delegated listener checking if target matches interactive cells",
       "Individual listeners on each interactive cell",
@@ -4801,6 +4669,7 @@
   },
   {
     "q": "What is the effect of this mouseenter listener?",
+    "l": "javascript",
     "c": "element.addEventListener('mouseenter', (e) => {\n  e.preventDefault();\n  console.log('Enter');\n});",
     "o": [
       "Logs 'Enter' but preventDefault has no effect",
@@ -4811,6 +4680,7 @@
   },
   {
     "q": "What will this code log when clicking the button twice?",
+    "l": "javascript",
     "c": "button.addEventListener('click', () => console.log('A'), { once: true });\nbutton.addEventListener('click', () => console.log('B'));\nbutton.click();\nbutton.addEventListener('click', () => console.log('C'));\nbutton.click();",
     "o": [
       "First click: 'A', 'B' | Second click: 'B', 'C'",
@@ -4821,7 +4691,6 @@
   },
   {
     "q": "Which property indicates if an event has completed propagation to the window?",
-    "c": null,
     "o": [
       "event.eventPhase === 0 (Event.NONE) and no more listeners execute",
       "event.propagationComplete === true",
@@ -4831,7 +4700,6 @@
   },
   {
     "q": "What is the difference between `event.composedPath()` and checking `event.target` in shadow DOM?",
-    "c": null,
     "o": [
       "composedPath() shows full path including shadow hosts, target only shows innermost element",
       "They return identical information",
@@ -4841,6 +4709,7 @@
   },
   {
     "q": "What happens when dispatching a cancelable custom event that gets prevented in a capture listener?",
+    "l": "javascript",
     "c": "const event = new CustomEvent('test', { cancelable: true, bubbles: true });\nelement.addEventListener('test', (e) => e.preventDefault(), true);\ndocument.dispatchEvent(event);",
     "o": [
       "event.defaultPrevented becomes true but propagation continues",
@@ -4851,6 +4720,7 @@
   },
   {
     "q": "What is the output when clicking the div with this handler?",
+    "l": "javascript",
     "c": "div.addEventListener('click', function() {\n  console.log(event.bubbles, event.cancelable);\n});\ndiv.dispatchEvent(new Event('click', { bubbles: false }));",
     "o": [
       "false, true",
@@ -4861,7 +4731,6 @@
   },
   {
     "q": "Which is the proper way to detect middle mouse button clicks that considers all browsers?",
-    "c": null,
     "o": [
       "Check event.button === 1 in mousedown/up events",
       "Use click event with event.which === 2",
@@ -4871,6 +4740,7 @@
   },
   {
     "q": "What is the effect of this form submission handler?",
+    "l": "javascript",
     "c": "form.addEventListener('submit', (e) => {\n  if(!valid) {\n    e.preventDefault();\n    e.stopPropagation();\n    return false;\n  }\n}, { capture: true, passive: false });\nform.addEventListener('submit', () => console.log('Submitted'));",
     "o": [
       "When invalid: prevents submit during capture and blocks bubble phase listeners",
@@ -4881,7 +4751,6 @@
   },
   {
     "q": "Which event property helps detect if the platform's primary modifier key was pressed during a click?",
-    "c": null,
     "o": [
       "event.metaKey on Mac, event.ctrlKey otherwise",
       "event.primaryModifier",
@@ -4891,7 +4760,6 @@
   },
   {
     "q": "What happens when calling stopPropagation() on a passive touch event?",
-    "c": null,
     "o": [
       "Stops propagation but default touch action still occurs",
       "Prevents both propagation and default action",
@@ -4901,6 +4769,7 @@
   },
   {
     "q": "What will this code log when clicking the button?",
+    "l": "javascript",
     "c": "button.addEventListener('click', (e) => {\n  console.log(e.eventPhase, e.currentTarget === button);\n}, { once: true, capture: true });\nbutton.click();\nbutton.click();",
     "o": [
       "First click: 1, true | Second click: nothing",
@@ -4911,7 +4780,6 @@
   },
   {
     "q": "Which is the most efficient way to handle clicks on canvas-drawn UI elements?",
-    "c": null,
     "o": [
       "Single canvas listener with coordinates-to-element hit testing",
       "Individual listeners on each virtual element",
@@ -4921,6 +4789,7 @@
   },
   {
     "q": "What is the effect of this code when clicking checkboxes?",
+    "l": "javascript",
     "c": "document.addEventListener('change', (e) => {\n  if(e.target.type === 'checkbox') {\n    e.preventDefault();\n    e.target.checked = !e.target.checked;\n  }\n}, true);",
     "o": [
       "Inverts checkbox behavior (click unchecks, click again checks)",
@@ -4931,7 +4800,6 @@
   },
   {
     "q": "What happens when you call `event.stopPropagation()` during the capture phase of a non-bubbling event?",
-    "c": null,
     "o": [
       "Prevents the event from reaching the target phase",
       "Has no effect since the event wouldn't bubble",
@@ -4941,6 +4809,7 @@
   },
   {
     "q": "What is logged when clicking the button in this nested shadow DOM structure?",
+    "l": "javascript",
     "c": "host.addEventListener('click', () => console.log('Host Capture'), true);\nshadowDiv.addEventListener('click', () => console.log('Shadow Div'));\nbutton.addEventListener('click', (e) => {\n  e.stopPropagation();\n  console.log('Button');\n});\nhost.addEventListener('click', () => console.log('Host Bubble'), { composed: true });",
     "o": [
       "'Host Capture', 'Button'",
@@ -4951,7 +4820,6 @@
   },
   {
     "q": "Which pattern provides the best performance for handling clicks in a grid with 10,000 cells where cells change state dynamically?",
-    "c": null,
     "o": [
       "Single delegated listener on grid container using event.target.matches()",
       "Individual listeners on each cell added/removed with state changes",
@@ -4961,6 +4829,7 @@
   },
   {
     "q": "What is the effect of this pointer event listener?",
+    "l": "javascript",
     "c": "canvas.addEventListener('pointermove', trackPosition, { passive: true, capture: true });",
     "o": [
       "Optimizes performance but prevents preventDefault() during capture",
@@ -4971,6 +4840,7 @@
   },
   {
     "q": "What will this code log when clicking the button twice?",
+    "l": "javascript",
     "c": "button.addEventListener('click', () => console.log('A'), { once: true, capture: true });\nbutton.addEventListener('click', () => console.log('B'));\nbutton.click();\nbutton.addEventListener('click', () => console.log('C'), { once: true });\nbutton.click();",
     "o": [
       "First click: 'A', 'B' | Second click: 'B', 'C'",
@@ -4981,7 +4851,6 @@
   },
   {
     "q": "Which property indicates if an event was dispatched from a shadow root?",
-    "c": null,
     "o": [
       "event.composedPath()[0] !== event.target",
       "event.isShadowEvent",
@@ -4991,7 +4860,6 @@
   },
   {
     "q": "What is the difference between `event.stopPropagation()` and `event.stopImmediatePropagation()` during the target phase?",
-    "c": null,
     "o": [
       "stopPropagation allows remaining target listeners, stopImmediatePropagation doesn't",
       "They behave identically during target phase",
@@ -5001,6 +4869,7 @@
   },
   {
     "q": "What happens when dispatching a cancelable, composed custom event that gets prevented in a shadow DOM listener?",
+    "l": "javascript",
     "c": "const event = new CustomEvent('test', { cancelable: true, composed: true });\nshadowHost.addEventListener('test', (e) => e.preventDefault());\ndocument.dispatchEvent(event);",
     "o": [
       "event.defaultPrevented becomes true but propagation continues to light DOM",
@@ -5011,6 +4880,7 @@
   },
   {
     "q": "What is the output when clicking the button with this handler?",
+    "l": "javascript",
     "c": "button.addEventListener('click', function() {\n  console.log(event.eventPhase, event.currentTarget === this);\n}, { once: true, capture: true });",
     "o": [
       "1 (CAPTURING_PHASE), true",
@@ -5021,7 +4891,6 @@
   },
   {
     "q": "Which is the most reliable way to detect right-clicks across all browsers?",
-    "c": null,
     "o": [
       "contextmenu event with preventDefault()",
       "click event checking event.button === 2",
@@ -5031,6 +4900,7 @@
   },
   {
     "q": "What is the effect of this form submission handler?",
+    "l": "javascript",
     "c": "form.addEventListener('submit', (e) => {\n  if(!valid) {\n    e.preventDefault();\n    e.stopImmediatePropagation();\n    return false;\n  }\n}, { passive: false, capture: true });\nform.addEventListener('submit', () => console.log('Submitted'));",
     "o": [
       "When invalid: prevents submit during capture and blocks all other listeners",
@@ -5041,7 +4911,6 @@
   },
   {
     "q": "Which event property helps detect if the platform's secondary modifier key was pressed during drag?",
-    "c": null,
     "o": [
       "event.altKey on Windows/Linux, event.metaKey on Mac",
       "event.secondaryModifier",
@@ -5051,7 +4920,6 @@
   },
   {
     "q": "What happens when calling stopPropagation() on a passive scroll event?",
-    "c": null,
     "o": [
       "Stops propagation but scrolling still occurs",
       "Prevents both propagation and scrolling",
@@ -5061,6 +4929,7 @@
   },
   {
     "q": "What will this code log when programmatically clicking the button?",
+    "l": "javascript",
     "c": "button.addEventListener('click', (e) => {\n  console.log(e.isTrusted, e.detail);\n});\nbutton.click();",
     "o": [
       "false, 0",
@@ -5071,7 +4940,6 @@
   },
   {
     "q": "Which is the most efficient way to handle clicks on WebGL-rendered UI elements?",
-    "c": null,
     "o": [
       "Single canvas listener with raycasting hit detection",
       "Individual listeners on each virtual element",
@@ -5081,6 +4949,7 @@
   },
   {
     "q": "What is the effect of this code when clicking radio buttons?",
+    "l": "javascript",
     "c": "document.addEventListener('click', (e) => {\n  if(e.target.type === 'radio') {\n    e.preventDefault();\n    e.target.checked = !e.target.checked;\n  }\n}, true);",
     "o": [
       "Allows radio buttons to be toggled off (breaking native behavior)",
@@ -5091,7 +4960,6 @@
   },
   {
     "q": "What happens when you call `event.stopPropagation()` on a non-bubbling event during the capture phase?",
-    "c": null,
     "o": [
       "Prevents the event from reaching the target phase",
       "Has no effect since the event wouldn't bubble anyway",
@@ -5101,6 +4969,7 @@
   },
   {
     "q": "What is logged when clicking the button in this shadow DOM structure?",
+    "l": "javascript",
     "c": "host.addEventListener('click', () => console.log('Host Capture'), true);\nshadowButton.addEventListener('click', (e) => {\n  e.stopPropagation();\n  console.log('Button');\n});\nhost.addEventListener('click', () => console.log('Host Bubble'), { composed: true });",
     "o": [
       "'Host Capture', 'Button'",
@@ -5111,7 +4980,6 @@
   },
   {
     "q": "Which pattern provides optimal performance for handling clicks in a spreadsheet with 100,000 cells?",
-    "c": null,
     "o": [
       "Single delegated listener on container using event.target.closest()",
       "Individual listeners on each visible cell",
@@ -5121,6 +4989,7 @@
   },
   {
     "q": "What is the effect of this wheel event listener?",
+    "l": "javascript",
     "c": "element.addEventListener('wheel', handler, { passive: true, capture: true });",
     "o": [
       "Optimizes performance but prevents preventDefault() during capture",
@@ -5131,6 +5000,7 @@
   },
   {
     "q": "What will this code log when clicking the button twice?",
+    "l": "javascript",
     "c": "button.addEventListener('click', () => console.log('A'), { once: true });\nbutton.addEventListener('click', () => console.log('B'), true);\nbutton.click();\nbutton.addEventListener('click', () => console.log('C'));\nbutton.click();",
     "o": [
       "First click: 'B', 'A' | Second click: 'B', 'C'",
@@ -5141,7 +5011,6 @@
   },
   {
     "q": "Which property indicates if an event has propagation stopped during capture phase?",
-    "c": null,
     "o": [
       "event.eventPhase === 1 && no subsequent capture listeners run",
       "event.captureStopped === true",
@@ -5151,7 +5020,6 @@
   },
   {
     "q": "What is the difference between `event.composedPath()` and `event.path` in shadow DOM?",
-    "c": null,
     "o": [
       "composedPath() is standard and reliable, path is deprecated and inconsistent",
       "They return identical information in all browsers",
@@ -5161,7 +5029,6 @@
   },
   {
     "q": "What happens when dispatching a non-composed custom event from a shadow root?",
-    "c": null,
     "o": [
       "Only triggers listeners inside the shadow DOM",
       "Bubbles to the light DOM anyway",
@@ -5171,6 +5038,7 @@
   },
   {
     "q": "What is the output when clicking the div with this handler?",
+    "l": "javascript",
     "c": "div.addEventListener('click', function() {\n  console.log(event.eventPhase, event.bubbles);\n}, true);\ndiv.dispatchEvent(new Event('click', { bubbles: false }));",
     "o": [
       "1 (CAPTURING_PHASE), false",
@@ -5181,7 +5049,6 @@
   },
   {
     "q": "Which is the most reliable way to detect middle mouse clicks across browsers?",
-    "c": null,
     "o": [
       "Check event.button === 1 in mousedown/up events",
       "Use auxclick event with event.detail check",
@@ -5191,6 +5058,7 @@
   },
   {
     "q": "What is the effect of this form submission handler?",
+    "l": "javascript",
     "c": "form.addEventListener('submit', (e) => {\n  if(!valid) {\n    e.preventDefault();\n    e.stopImmediatePropagation();\n    return false;\n  }\n}, { capture: true });\nform.addEventListener('submit', () => console.log('Submitted'));",
     "o": [
       "When invalid: prevents submit during capture and blocks all other listeners",
@@ -5201,7 +5069,6 @@
   },
   {
     "q": "Which event property helps detect if the platform's primary selection key was pressed during drag?",
-    "c": null,
     "o": [
       "event.ctrlKey on Windows/Linux, event.metaKey on Mac",
       "event.primarySelectionKey",
@@ -5211,7 +5078,6 @@
   },
   {
     "q": "What happens when calling stopPropagation() on a passive touchstart event?",
-    "c": null,
     "o": [
       "Stops propagation but default touch action still occurs",
       "Prevents both propagation and default action",
@@ -5221,6 +5087,7 @@
   },
   {
     "q": "What will this code log when programmatically clicking the button?",
+    "l": "javascript",
     "c": "button.addEventListener('click', (e) => {\n  console.log(e.isTrusted, e.detail);\n});\nbutton.dispatchEvent(new MouseEvent('click'));",
     "o": [
       "false, 0",
@@ -5231,7 +5098,6 @@
   },
   {
     "q": "Which is the most efficient way to handle clicks on dynamically rendered SVG components?",
-    "c": null,
     "o": [
       "Single delegated listener on SVG root using event.target.matches()",
       "Individual listeners on each SVG element",
@@ -5241,6 +5107,7 @@
   },
   {
     "q": "What is the effect of this code when clicking checkboxes?",
+    "l": "javascript",
     "c": "document.addEventListener('change', (e) => {\n  if(e.target.type === 'checkbox') {\n    e.preventDefault();\n    e.target.checked = !e.target.checked;\n  }\n}, true);",
     "o": [
       "Inverts default checkbox toggle behavior",
@@ -5251,7 +5118,6 @@
   },
   {
     "q": "What happens when you call `event.stopImmediatePropagation()` during the capture phase?",
-    "c": null,
     "o": [
       "Prevents all subsequent listeners on the current element and stops propagation",
       "Only stops bubbling phase listeners",
@@ -5261,6 +5127,7 @@
   },
   {
     "q": "What is logged when clicking the button in this structure?",
+    "l": "javascript",
     "c": "parent.addEventListener('click', () => console.log('Parent Capture'), true);\nbutton.addEventListener('click', () => console.log('Button 1'));\nbutton.addEventListener('click', (e) => {\n  if(e.eventPhase === 2) e.stopImmediatePropagation();\n  console.log('Button 2');\n});\nparent.addEventListener('click', () => console.log('Parent Bubble'));",
     "o": [
       "'Parent Capture', 'Button 1', 'Button 2'",
@@ -5271,7 +5138,6 @@
   },
   {
     "q": "Which is the most efficient way to handle clicks in a virtual scrolled list with 50,000 items?",
-    "c": null,
     "o": [
       "Single delegated listener on container checking visible items only",
       "Individual listeners on each rendered item",
@@ -5281,6 +5147,7 @@
   },
   {
     "q": "What is the effect of this touch event listener?",
+    "l": "javascript",
     "c": "element.addEventListener('touchstart', handler, { passive: true, capture: true });",
     "o": [
       "Optimizes performance but prevents preventDefault() during capture",
@@ -5291,6 +5158,7 @@
   },
   {
     "q": "What will this code log when clicking the button twice?",
+    "l": "javascript",
     "c": "button.addEventListener('click', () => console.log('A'), { once: true });\nbutton.addEventListener('click', () => console.log('B'), true);\nbutton.click();\nbutton.addEventListener('click', () => console.log('C'));\nbutton.click();",
     "o": [
       "First click: 'B', 'A' | Second click: 'B', 'C'",
@@ -5301,7 +5169,6 @@
   },
   {
     "q": "Which property indicates if an event has had its default action prevented?",
-    "c": null,
     "o": [
       "event.defaultPrevented",
       "event.isDefaultPrevented()",
@@ -5311,7 +5178,6 @@
   },
   {
     "q": "What is the difference between `event.composedPath()` and checking `event.target` in shadow DOM?",
-    "c": null,
     "o": [
       "composedPath() shows full path including shadow hosts, target only shows innermost element",
       "They return identical information",
@@ -5321,7 +5187,6 @@
   },
   {
     "q": "What happens when dispatching a non-bubbling, non-composed custom event from a shadow root?",
-    "c": null,
     "o": [
       "Only triggers listeners inside the shadow DOM",
       "Bubbles to the light DOM anyway",
@@ -5331,6 +5196,7 @@
   },
   {
     "q": "What is the output when clicking the div with this handler?",
+    "l": "javascript",
     "c": "div.addEventListener('click', function() {\n  console.log(event.eventPhase, event.currentTarget === this);\n}, true);\ndiv.dispatchEvent(new Event('click', { bubbles: false }));",
     "o": [
       "1 (CAPTURING_PHASE), true",
@@ -5341,7 +5207,6 @@
   },
   {
     "q": "Which is the proper way to detect right-clicks considering all browsers?",
-    "c": null,
     "o": [
       "contextmenu event with preventDefault()",
       "click event checking event.button === 2",
@@ -5351,6 +5216,7 @@
   },
   {
     "q": "What is the effect of this form submission handler?",
+    "l": "javascript",
     "c": "form.addEventListener('submit', (e) => {\n  if(!valid) {\n    e.preventDefault();\n    e.stopImmediatePropagation();\n    return false;\n  }\n}, { capture: true });\nform.addEventListener('submit', () => console.log('Submitted'));",
     "o": [
       "When invalid: prevents submit during capture and blocks all other listeners",
@@ -5361,7 +5227,6 @@
   },
   {
     "q": "Which event property helps detect if the platform's primary modifier key was pressed?",
-    "c": null,
     "o": [
       "event.metaKey on Mac, event.ctrlKey otherwise",
       "event.primaryModifier",
@@ -5371,7 +5236,6 @@
   },
   {
     "q": "What happens when calling stopPropagation() on a passive wheel event?",
-    "c": null,
     "o": [
       "Stops propagation but scrolling still occurs",
       "Prevents both propagation and scrolling",
@@ -5381,6 +5245,7 @@
   },
   {
     "q": "What will this code log when programmatically clicking the button?",
+    "l": "javascript",
     "c": "button.addEventListener('click', (e) => {\n  console.log(e.isTrusted, e.detail);\n});\nbutton.dispatchEvent(new MouseEvent('click'));",
     "o": [
       "false, 0",
@@ -5391,7 +5256,6 @@
   },
   {
     "q": "Which is the most efficient way to handle clicks on canvas-drawn UI elements?",
-    "c": null,
     "o": [
       "Single canvas listener with coordinates-to-element hit testing",
       "Individual listeners on each virtual element",
@@ -5401,6 +5265,7 @@
   },
   {
     "q": "What is the effect of this code when clicking radio buttons?",
+    "l": "javascript",
     "c": "document.addEventListener('click', (e) => {\n  if(e.target.type === 'radio') {\n    e.preventDefault();\n    e.target.checked = !e.target.checked;\n  }\n}, true);",
     "o": [
       "Allows radio buttons to be toggled off (breaking native behavior)",
@@ -5411,7 +5276,6 @@
   },
   {
     "q": "What happens when you call `event.stopPropagation()` during the target phase of a non-bubbling event?",
-    "c": null,
     "o": [
       "Has no effect since the event wouldn't bubble anyway",
       "Prevents all remaining target phase listeners",
@@ -5421,6 +5285,7 @@
   },
   {
     "q": "What is logged when clicking the button in this structure?",
+    "l": "javascript",
     "c": "parent.addEventListener('click', () => console.log('Parent Capture'), true);\nbutton.addEventListener('click', () => console.log('Button 1'));\nbutton.addEventListener('click', (e) => {\n  if(e.eventPhase === 2) e.stopImmediatePropagation();\n  console.log('Button 2');\n});\nparent.addEventListener('click', () => console.log('Parent Bubble'));",
     "o": [
       "'Parent Capture', 'Button 1', 'Button 2'",
@@ -5431,7 +5296,6 @@
   },
   {
     "q": "Which pattern provides optimal performance for handling clicks in a grid with 10,000 cells where only 5% are interactive?",
-    "c": null,
     "o": [
       "Single delegated listener on grid container checking event.target.matches()",
       "Individual listeners on each interactive cell",
@@ -5441,6 +5305,7 @@
   },
   {
     "q": "What is the effect of this mouseenter listener?",
+    "l": "javascript",
     "c": "element.addEventListener('mouseenter', (e) => {\n  e.preventDefault();\n  console.log('Enter');\n});",
     "o": [
       "Logs 'Enter' but preventDefault has no effect",
@@ -5451,6 +5316,7 @@
   },
   {
     "q": "What will this code log when clicking the button twice?",
+    "l": "javascript",
     "c": "button.addEventListener('click', () => console.log('A'), { once: true });\nbutton.addEventListener('click', () => console.log('B'));\nbutton.click();\nbutton.addEventListener('click', () => console.log('C'));\nbutton.click();",
     "o": [
       "First click: 'A', 'B' | Second click: 'B', 'C'",
@@ -5461,7 +5327,6 @@
   },
   {
     "q": "Which property indicates if an event has completed propagation to the window?",
-    "c": null,
     "o": [
       "event.eventPhase === 0 (Event.NONE)",
       "event.propagationComplete === true",
@@ -5471,7 +5336,6 @@
   },
   {
     "q": "What is the difference between `event.composedPath()` and checking `event.target` in shadow DOM?",
-    "c": null,
     "o": [
       "composedPath() shows full path including shadow hosts, target only shows innermost element",
       "They return identical information",
@@ -5481,6 +5345,7 @@
   },
   {
     "q": "What happens when dispatching a cancelable custom event that gets prevented in a capture listener?",
+    "l": "javascript",
     "c": "const event = new CustomEvent('test', { cancelable: true, bubbles: true });\nelement.addEventListener('test', (e) => e.preventDefault(), true);\ndocument.dispatchEvent(event);",
     "o": [
       "event.defaultPrevented becomes true but propagation continues",
@@ -5491,6 +5356,7 @@
   },
   {
     "q": "What is the output when clicking the div with this handler?",
+    "l": "javascript",
     "c": "div.addEventListener('click', function() {\n  console.log(event.bubbles, event.cancelable);\n});\ndiv.dispatchEvent(new Event('click', { bubbles: false }));",
     "o": [
       "false, true",
@@ -5501,7 +5367,6 @@
   },
   {
     "q": "Which is the proper way to detect middle mouse button clicks across browsers?",
-    "c": null,
     "o": [
       "Check event.button === 1 in mousedown/up events",
       "Use click event with event.which === 2",
@@ -5511,6 +5376,7 @@
   },
   {
     "q": "What is the effect of this form submission handler?",
+    "l": "javascript",
     "c": "form.addEventListener('submit', (e) => {\n  if(!valid) {\n    e.preventDefault();\n    e.stopPropagation();\n    return false;\n  }\n}, { capture: true, passive: false });\nform.addEventListener('submit', () => console.log('Submitted'));",
     "o": [
       "When invalid: prevents submit during capture and blocks bubble phase listeners",
@@ -5521,7 +5387,6 @@
   },
   {
     "q": "Which event property helps detect if the platform's primary modifier key was pressed during a click?",
-    "c": null,
     "o": [
       "event.metaKey on Mac, event.ctrlKey otherwise",
       "event.primaryModifier",
@@ -5531,7 +5396,6 @@
   },
   {
     "q": "What happens when calling stopPropagation() on a passive touch event?",
-    "c": null,
     "o": [
       "Stops propagation but default touch action still occurs",
       "Prevents both propagation and default action",
@@ -5541,6 +5405,7 @@
   },
   {
     "q": "What will this code log when clicking the button?",
+    "l": "javascript",
     "c": "button.addEventListener('click', (e) => {\n  console.log(e.eventPhase, e.currentTarget === button);\n}, { once: true, capture: true });\nbutton.click();\nbutton.click();",
     "o": [
       "First click: 1, true | Second click: nothing",
@@ -5551,7 +5416,6 @@
   },
   {
     "q": "Which is the most efficient way to handle clicks on canvas-drawn UI elements?",
-    "c": null,
     "o": [
       "Single canvas listener with coordinates-to-element hit testing",
       "Individual listeners on each virtual element",
@@ -5561,6 +5425,7 @@
   },
   {
     "q": "What is the effect of this code when clicking checkboxes?",
+    "l": "javascript",
     "c": "document.addEventListener('change', (e) => {\n  if(e.target.type === 'checkbox') {\n    e.preventDefault();\n    e.target.checked = !e.target.checked;\n  }\n}, true);",
     "o": [
       "Inverts checkbox behavior (click unchecks, click again checks)",
@@ -5571,7 +5436,6 @@
   },
   {
     "q": "What happens when you call `event.stopPropagation()` during the target phase of a non-bubbling event?",
-    "c": null,
     "o": [
       "Has no effect since the event wouldn't bubble anyway",
       "Prevents all remaining target phase listeners",
@@ -5581,6 +5445,7 @@
   },
   {
     "q": "What is logged when clicking the button in this structure?",
+    "l": "javascript",
     "c": "parent.addEventListener('click', () => console.log('Parent Capture'), true);\nbutton.addEventListener('click', () => console.log('Button 1'));\nbutton.addEventListener('click', (e) => {\n  if(e.eventPhase === 2) e.stopImmediatePropagation();\n  console.log('Button 2');\n});\nparent.addEventListener('click', () => console.log('Parent Bubble'));",
     "o": [
       "'Parent Capture', 'Button 1', 'Button 2'",
@@ -5591,7 +5456,6 @@
   },
   {
     "q": "Which pattern provides optimal performance for handling clicks in a grid with 10,000 cells where only 5% are interactive?",
-    "c": null,
     "o": [
       "Single delegated listener on grid container checking event.target.matches()",
       "Individual listeners on each interactive cell",
@@ -5601,6 +5465,7 @@
   },
   {
     "q": "What is the effect of this mouseenter listener?",
+    "l": "javascript",
     "c": "element.addEventListener('mouseenter', (e) => {\n  e.preventDefault();\n  console.log('Enter');\n});",
     "o": [
       "Logs 'Enter' but preventDefault has no effect",
@@ -5611,6 +5476,7 @@
   },
   {
     "q": "What will this code log when clicking the button twice?",
+    "l": "javascript",
     "c": "button.addEventListener('click', () => console.log('A'), { once: true });\nbutton.addEventListener('click', () => console.log('B'));\nbutton.click();\nbutton.addEventListener('click', () => console.log('C'));\nbutton.click();",
     "o": [
       "First click: 'A', 'B' | Second click: 'B', 'C'",
@@ -5621,7 +5487,6 @@
   },
   {
     "q": "Which property indicates if an event has completed propagation to the window?",
-    "c": null,
     "o": [
       "event.eventPhase === 0 (Event.NONE)",
       "event.propagationComplete === true",
@@ -5631,7 +5496,6 @@
   },
   {
     "q": "What is the difference between `event.composedPath()` and checking `event.target` in shadow DOM?",
-    "c": null,
     "o": [
       "composedPath() shows full path including shadow hosts, target only shows innermost element",
       "They return identical information",
@@ -5641,6 +5505,7 @@
   },
   {
     "q": "What happens when dispatching a cancelable custom event that gets prevented in a capture listener?",
+    "l": "javascript",
     "c": "const event = new CustomEvent('test', { cancelable: true, bubbles: true });\nelement.addEventListener('test', (e) => e.preventDefault(), true);\ndocument.dispatchEvent(event);",
     "o": [
       "event.defaultPrevented becomes true but propagation continues",
@@ -5651,6 +5516,7 @@
   },
   {
     "q": "What is the output when clicking the div with this handler?",
+    "l": "javascript",
     "c": "div.addEventListener('click', function() {\n  console.log(event.bubbles, event.cancelable);\n});\ndiv.dispatchEvent(new Event('click', { bubbles: false }));",
     "o": [
       "false, true",
@@ -5661,7 +5527,6 @@
   },
   {
     "q": "Which is the proper way to detect middle mouse button clicks across browsers?",
-    "c": null,
     "o": [
       "Check event.button === 1 in mousedown/up events",
       "Use click event with event.which === 2",
@@ -5671,6 +5536,7 @@
   },
   {
     "q": "What is the effect of this form submission handler?",
+    "l": "javascript",
     "c": "form.addEventListener('submit', (e) => {\n  if(!valid) {\n    e.preventDefault();\n    e.stopPropagation();\n    return false;\n  }\n}, { capture: true, passive: false });\nform.addEventListener('submit', () => console.log('Submitted'));",
     "o": [
       "When invalid: prevents submit during capture and blocks bubble phase listeners",
@@ -5681,7 +5547,6 @@
   },
   {
     "q": "Which event property helps detect if the platform's primary modifier key was pressed during a click?",
-    "c": null,
     "o": [
       "event.metaKey on Mac, event.ctrlKey otherwise",
       "event.primaryModifier",
@@ -5691,7 +5556,6 @@
   },
   {
     "q": "What happens when calling stopPropagation() on a passive touch event?",
-    "c": null,
     "o": [
       "Stops propagation but default touch action still occurs",
       "Prevents both propagation and default action",
@@ -5701,6 +5565,7 @@
   },
   {
     "q": "What will this code log when clicking the button?",
+    "l": "javascript",
     "c": "button.addEventListener('click', (e) => {\n  console.log(e.eventPhase, e.currentTarget === button);\n}, { once: true, capture: true });\nbutton.click();\nbutton.click();",
     "o": [
       "First click: 1, true | Second click: nothing",
@@ -5711,7 +5576,6 @@
   },
   {
     "q": "Which is the most efficient way to handle clicks on canvas-drawn UI elements?",
-    "c": null,
     "o": [
       "Single canvas listener with coordinates-to-element hit testing",
       "Individual listeners on each virtual element",
@@ -5721,6 +5585,7 @@
   },
   {
     "q": "What is the effect of this code when clicking checkboxes?",
+    "l": "javascript",
     "c": "document.addEventListener('change', (e) => {\n  if(e.target.type === 'checkbox') {\n    e.preventDefault();\n    e.target.checked = !e.target.checked;\n  }\n}, true);",
     "o": [
       "Inverts checkbox behavior (click unchecks, click again checks)",
@@ -5731,7 +5596,6 @@
   },
   {
     "q": "What happens when you call `event.stopImmediatePropagation()` during the capture phase?",
-    "c": null,
     "o": [
       "Prevents all subsequent listeners on the current element and stops propagation",
       "Only stops bubbling phase listeners",
@@ -5741,6 +5605,7 @@
   },
   {
     "q": "What is logged when clicking the button in this nested shadow DOM structure?",
+    "l": "javascript",
     "c": "host.addEventListener('click', () => console.log('Host Capture'), true);\nshadowButton.addEventListener('click', (e) => {\n  e.stopPropagation();\n  console.log('Button');\n});\nhost.addEventListener('click', () => console.log('Host Bubble'), { composed: true });",
     "o": [
       "'Host Capture', 'Button'",
@@ -5751,7 +5616,6 @@
   },
   {
     "q": "Which pattern provides the best performance for handling clicks in a virtual scrolled list with 50,000 items?",
-    "c": null,
     "o": [
       "Single delegated listener on container checking visible items only",
       "Individual listeners on each rendered item",
@@ -5761,6 +5625,7 @@
   },
   {
     "q": "What is the effect of this touch event listener?",
+    "l": "javascript",
     "c": "element.addEventListener('touchstart', handler, { passive: true, capture: true });",
     "o": [
       "Optimizes performance but prevents preventDefault() during capture",
@@ -5771,6 +5636,7 @@
   },
   {
     "q": "What will this code log when clicking the button twice?",
+    "l": "javascript",
     "c": "button.addEventListener('click', () => console.log('A'), { once: true });\nbutton.addEventListener('click', () => console.log('B'), true);\nbutton.click();\nbutton.addEventListener('click', () => console.log('C'));\nbutton.click();",
     "o": [
       "First click: 'B', 'A' | Second click: 'B', 'C'",
@@ -5781,7 +5647,6 @@
   },
   {
     "q": "Which property indicates if an event has had its default action prevented?",
-    "c": null,
     "o": [
       "event.defaultPrevented",
       "event.isDefaultPrevented()",
@@ -5791,7 +5656,6 @@
   },
   {
     "q": "What is the difference between `event.composedPath()` and checking `event.target` in shadow DOM?",
-    "c": null,
     "o": [
       "composedPath() shows full path including shadow hosts, target only shows innermost element",
       "They return identical information",
@@ -5801,7 +5665,6 @@
   },
   {
     "q": "What happens when dispatching a non-bubbling, non-composed custom event from a shadow root?",
-    "c": null,
     "o": [
       "Only triggers listeners inside the shadow DOM",
       "Bubbles to the light DOM anyway",
@@ -5811,6 +5674,7 @@
   },
   {
     "q": "What is the output when clicking the div with this handler?",
+    "l": "javascript",
     "c": "div.addEventListener('click', function() {\n  console.log(event.eventPhase, event.currentTarget === this);\n}, true);\ndiv.dispatchEvent(new Event('click', { bubbles: false }));",
     "o": [
       "1 (CAPTURING_PHASE), true",
@@ -5821,7 +5685,6 @@
   },
   {
     "q": "Which is the most reliable way to detect right-clicks considering all browsers?",
-    "c": null,
     "o": [
       "contextmenu event with preventDefault()",
       "click event checking event.button === 2",
@@ -5831,6 +5694,7 @@
   },
   {
     "q": "What is the effect of this form submission handler?",
+    "l": "javascript",
     "c": "form.addEventListener('submit', (e) => {\n  if(!valid) {\n    e.preventDefault();\n    e.stopImmediatePropagation();\n    return false;\n  }\n}, { capture: true });\nform.addEventListener('submit', () => console.log('Submitted'));",
     "o": [
       "When invalid: prevents submit during capture and blocks all other listeners",
@@ -5841,7 +5705,6 @@
   },
   {
     "q": "Which event property helps detect if the platform's primary modifier key was pressed?",
-    "c": null,
     "o": [
       "event.metaKey on Mac, event.ctrlKey otherwise",
       "event.primaryModifier",
@@ -5851,7 +5714,6 @@
   },
   {
     "q": "What happens when calling stopPropagation() on a passive wheel event?",
-    "c": null,
     "o": [
       "Stops propagation but scrolling still occurs",
       "Prevents both propagation and scrolling",
@@ -5861,6 +5723,7 @@
   },
   {
     "q": "What will this code log when programmatically clicking the button?",
+    "l": "javascript",
     "c": "button.addEventListener('click', (e) => {\n  console.log(e.isTrusted, e.detail);\n});\nbutton.dispatchEvent(new MouseEvent('click'));",
     "o": [
       "false, 0",
@@ -5871,7 +5734,6 @@
   },
   {
     "q": "Which is the most efficient way to handle clicks on dynamically rendered SVG components?",
-    "c": null,
     "o": [
       "Single delegated listener on SVG root using event.target.matches()",
       "Individual listeners on each SVG element",
@@ -5881,6 +5743,7 @@
   },
   {
     "q": "What is the effect of this code when clicking checkboxes?",
+    "l": "javascript",
     "c": "document.addEventListener('change', (e) => {\n  if(e.target.type === 'checkbox') {\n    e.preventDefault();\n    e.target.checked = !e.target.checked;\n  }\n}, true);",
     "o": [
       "Inverts default checkbox toggle behavior",
@@ -5891,7 +5754,6 @@
   },
   {
     "q": "What happens when you call `event.stopPropagation()` on a non-bubbling event during the target phase?",
-    "c": null,
     "o": [
       "Has no effect since the event wouldn't bubble anyway",
       "Prevents all remaining target phase listeners",
@@ -5901,6 +5763,7 @@
   },
   {
     "q": "What is logged when clicking the button in this structure?",
+    "l": "javascript",
     "c": "parent.addEventListener('click', () => console.log('Parent Capture'), true);\nbutton.addEventListener('click', () => console.log('Button 1'));\nbutton.addEventListener('click', (e) => {\n  if(e.eventPhase === 2) e.stopImmediatePropagation();\n  console.log('Button 2');\n});\nparent.addEventListener('click', () => console.log('Parent Bubble'));",
     "o": [
       "'Parent Capture', 'Button 1', 'Button 2'",
@@ -5911,7 +5774,6 @@
   },
   {
     "q": "Which pattern provides optimal performance for handling clicks in a grid with 10,000 cells where only 5% are interactive?",
-    "c": null,
     "o": [
       "Single delegated listener on grid container checking event.target.matches()",
       "Individual listeners on each interactive cell",
@@ -5921,6 +5783,7 @@
   },
   {
     "q": "What is the effect of this mouseenter listener?",
+    "l": "javascript",
     "c": "element.addEventListener('mouseenter', (e) => {\n  e.preventDefault();\n  console.log('Enter');\n});",
     "o": [
       "Logs 'Enter' but preventDefault has no effect",
@@ -5931,6 +5794,7 @@
   },
   {
     "q": "What will this code log when clicking the button twice?",
+    "l": "javascript",
     "c": "button.addEventListener('click', () => console.log('A'), { once: true });\nbutton.addEventListener('click', () => console.log('B'));\nbutton.click();\nbutton.addEventListener('click', () => console.log('C'));\nbutton.click();",
     "o": [
       "First click: 'A', 'B' | Second click: 'B', 'C'",
@@ -5941,7 +5805,6 @@
   },
   {
     "q": "Which property indicates if an event has completed propagation to the window?",
-    "c": null,
     "o": [
       "event.eventPhase === 0 (Event.NONE)",
       "event.propagationComplete === true",
@@ -5951,7 +5814,6 @@
   },
   {
     "q": "What is the difference between `event.composedPath()` and checking `event.target` in shadow DOM?",
-    "c": null,
     "o": [
       "composedPath() shows full path including shadow hosts, target only shows innermost element",
       "They return identical information",
@@ -5961,6 +5823,7 @@
   },
   {
     "q": "What happens when dispatching a cancelable custom event that gets prevented in a capture listener?",
+    "l": "javascript",
     "c": "const event = new CustomEvent('test', { cancelable: true, bubbles: true });\nelement.addEventListener('test', (e) => e.preventDefault(), true);\ndocument.dispatchEvent(event);",
     "o": [
       "event.defaultPrevented becomes true but propagation continues",
@@ -5971,6 +5834,7 @@
   },
   {
     "q": "What is the output when clicking the div with this handler?",
+    "l": "javascript",
     "c": "div.addEventListener('click', function() {\n  console.log(event.bubbles, event.cancelable);\n});\ndiv.dispatchEvent(new Event('click', { bubbles: false }));",
     "o": [
       "false, true",
@@ -5981,7 +5845,6 @@
   },
   {
     "q": "Which is the proper way to detect middle mouse button clicks across browsers?",
-    "c": null,
     "o": [
       "Check event.button === 1 in mousedown/up events",
       "Use click event with event.which === 2",
@@ -5991,6 +5854,7 @@
   },
   {
     "q": "What is the effect of this form submission handler?",
+    "l": "javascript",
     "c": "form.addEventListener('submit', (e) => {\n  if(!valid) {\n    e.preventDefault();\n    e.stopPropagation();\n    return false;\n  }\n}, { capture: true, passive: false });\nform.addEventListener('submit', () => console.log('Submitted'));",
     "o": [
       "When invalid: prevents submit during capture and blocks bubble phase listeners",
@@ -6001,7 +5865,6 @@
   },
   {
     "q": "Which event property helps detect if the platform's primary modifier key was pressed during a click?",
-    "c": null,
     "o": [
       "event.metaKey on Mac, event.ctrlKey otherwise",
       "event.primaryModifier",
@@ -6011,7 +5874,6 @@
   },
   {
     "q": "What happens when calling stopPropagation() on a passive touch event?",
-    "c": null,
     "o": [
       "Stops propagation but default touch action still occurs",
       "Prevents both propagation and default action",
@@ -6021,6 +5883,7 @@
   },
   {
     "q": "What will this code log when clicking the button?",
+    "l": "javascript",
     "c": "button.addEventListener('click', (e) => {\n  console.log(e.eventPhase, e.currentTarget === button);\n}, { once: true, capture: true });\nbutton.click();\nbutton.click();",
     "o": [
       "First click: 1, true | Second click: nothing",
@@ -6031,7 +5894,6 @@
   },
   {
     "q": "Which is the most efficient way to handle clicks on canvas-drawn UI elements?",
-    "c": null,
     "o": [
       "Single canvas listener with coordinates-to-element hit testing",
       "Individual listeners on each virtual element",
@@ -6041,6 +5903,7 @@
   },
   {
     "q": "What is the effect of this code when clicking checkboxes?",
+    "l": "javascript",
     "c": "document.addEventListener('change', (e) => {\n  if(e.target.type === 'checkbox') {\n    e.preventDefault();\n    e.target.checked = !e.target.checked;\n  }\n}, true);",
     "o": [
       "Inverts checkbox behavior (click unchecks, click again checks)",

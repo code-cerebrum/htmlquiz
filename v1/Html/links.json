@@ -1,7 +1,6 @@
 [
   {
     "q": "Which HTML tag is used to create a hyperlink?", 
-    "c": null,
     "o": [
       "<a>",
       "<link>",
@@ -21,7 +20,6 @@
   },
   {
     "q": "Which attribute is used to specify where to open the linked document in an anchor tag?",
-    "c": null,
     "o": [
       "target",
       "href",
@@ -41,7 +39,6 @@
   },
   {
     "q": "Which HTML tag is used to define a navigation menu?",
-    "c": null,
     "o": [
       "<nav>",
       "<menu>",
@@ -61,7 +58,6 @@
   },
   {
     "q": "Which attribute is used to specify an alternate text for a link?",
-    "c": null,
     "o": [
       "title",
       "alt",
@@ -81,7 +77,6 @@
   },
   {
     "q": "Which attribute is required for an anchor tag to function as a hyperlink?",
-    "c": null,
     "o": [
       "href",
       "src",
@@ -101,7 +96,6 @@
   },
   {
     "q": "Which value of the 'target' attribute opens a link in the same tab?",
-    "c": null,
     "o": [
       "_self",
       "_blank",
@@ -111,7 +105,6 @@
   },
   {
     "q": "What does the 'rel' attribute specify in an anchor tag?",
-    "c": null,
     "o": [
       "Relationship between the current document and the linked document.",
       "The link color.",
@@ -131,7 +124,6 @@
   },
   {
     "q": "Which of the following is the correct way to make a link downloadable?",
-    "c": null,
     "o": [
       "<a href=\"file.pdf\" download>Download PDF</a>",
       "<a href=\"file.pdf\" save>Download PDF</a>",
@@ -151,7 +143,6 @@
   },
   {
     "q": "Which HTML tag is used for defining a list-based navigation menu?",
-    "c": null,
     "o": [
       "<ul>",
       "<nav>",
@@ -171,7 +162,6 @@
   },
   {
     "q": "Which of the following best describes the 'noopener' value in the rel attribute?",
-    "c": null,
     "o": [
       "Prevents the new page from accessing the 'window.opener' property.",
       "Opens the link in a new tab.",
@@ -181,7 +171,6 @@
   },
   {
     "q": "Which HTML element is used to define a block of navigation links?",
-    "c": null,
     "o": [
       "<nav>",
       "<menu>",
@@ -201,7 +190,6 @@
   },
   {
     "q": "Which attribute in the <a> tag specifies the MIME type of the linked document?",
-    "c": null,
     "o": [
       "type",
       "href",
@@ -211,7 +199,6 @@
   },
   {
     "q": "What does the 'rel=\"nofollow\"' attribute do in an anchor tag?",
-    "c": null,
     "o": [
       "Instructs search engines not to follow the link.",
       "Opens the link in a new tab.",
@@ -231,7 +218,6 @@
   },
   {
     "q": "Which of the following is the correct syntax for linking an external CSS file?",
-    "c": null,
     "o": [
       "<link rel=\"stylesheet\" href=\"styles.css\">",
       "<style src=\"styles.css\">",
@@ -251,7 +237,6 @@
   },
   {
     "q": "Which HTML attribute forces a file to be downloaded instead of opened in the browser?",
-    "c": null,
     "o": [
       "download",
       "href",
@@ -271,7 +256,6 @@
   },
   {
     "q": "Which HTML element is used to group links for better accessibility?",
-    "c": null,
     "o": [
       "<nav>",
       "<section>",
@@ -281,7 +265,6 @@
   },
   {
     "q": "Which protocol is used in a hyperlink to send an email?",
-    "c": null,
     "o": [
       "mailto:",
       "http:",
@@ -301,7 +284,6 @@
   },
   {
     "q": "Which attribute in the <a> tag is used to specify the language of the linked document?",
-    "c": null,
     "o": [
       "hreflang",
       "lang",
@@ -321,7 +303,6 @@
   },
   {
     "q": "Which of the following is a correct absolute URL?",
-    "c": null,
     "o": [
       "https://www.example.com/page.html",
       "/page.html",
@@ -341,7 +322,6 @@
   },
   {
     "q": "Which type of URL does not include a domain name?",
-    "c": null,
     "o": [
       "Relative URL",
       "Absolute URL",
@@ -361,7 +341,6 @@
   },
   {
     "q": "Which HTML tag is used to link an external JavaScript file?",
-    "c": null,
     "o": [
       "<script>",
       "<link>",
@@ -371,7 +350,6 @@
   },
   {
     "q": "Which of the following best describes a breadcrumb navigation?",
-    "c": null,
     "o": [
       "A navigation system that shows the user's location within a website.",
       "A list of all pages on a website.",
@@ -381,7 +359,6 @@
   },
   {
     "q": "Which of the following is the correct syntax for linking to an external website?",
-    "c": null,
     "o": [
       "<a href=\"https://www.example.com\">Visit Example</a>",
       "<link href=\"https://www.example.com\">Visit Example</link>",
@@ -401,7 +378,6 @@
   },
   {
     "q": "Which HTML attribute is used to specify a tooltip for a link?",
-    "c": null,
     "o": [
       "title",
       "alt",
@@ -421,7 +397,6 @@
   },
   {
     "q": "Which attribute makes a link open in a new browser window or tab?",
-    "c": null,
     "o": [
       "target=\"_blank\"",
       "target=\"_self\"",
@@ -441,7 +416,6 @@
   },
   {
     "q": "Which HTML tag is used to create a list-based navigation menu?",
-    "c": null,
     "o": [
       "<ul>",
       "<nav>",
@@ -461,7 +435,6 @@
   },
   {
     "q": "Which of the following describes a relative URL?",
-    "c": null,
     "o": [
       "\"/about.html\"",
       "\"https://www.example.com/about.html\"",
@@ -471,7 +444,6 @@
   },
   {
     "q": "Which attribute in an anchor tag specifies the character encoding of the linked document?",
-    "c": null,
     "o": [
       "charset",
       "encoding",
@@ -481,7 +453,6 @@
   },
   {
     "q": "Which of the following is the correct way to create an anchor link to jump to a section within the same page?",
-    "c": null,
     "o": [
       "<a href=\"#section\">Go to Section</a>",
       "<a href=\".section\">Go to Section</a>",
@@ -501,7 +472,6 @@
   },
   {
     "q": "Which attribute is used to specify the default page that should be displayed in a frame?",
-    "c": null,
     "o": [
       "src",
       "href",
@@ -521,7 +491,6 @@
   },
   {
     "q": "Which HTML attribute is used to specify that a hyperlink should open in fullscreen mode?",
-    "c": null,
     "o": [
       "There is no such attribute in HTML.",
       "fullscreen",
@@ -541,7 +510,6 @@
   },
   {
     "q": "Which of the following is the correct way to open a link in a new tab and ensure security best practices?",
-    "c": null,
     "o": [
       "<a href=\"https://example.com\" target=\"_blank\" rel=\"noopener noreferrer\">Visit Example</a>",
       "<a href=\"https://example.com\" target=\"_blank\">Visit Example</a>",
@@ -551,7 +519,6 @@
   },
   {
     "q": "What does the 'ping' attribute in an anchor tag do?",
-    "c": null,
     "o": [
       "Sends a notification to the specified URL when the link is clicked.",
       "Prevents search engines from following the link.",
@@ -571,7 +538,6 @@
   },
   {
     "q": "Which of the following is NOT a valid way to create a hyperlink?",
-    "c": null,
     "o": [
       "<a src=\"page.html\">Click Here</a>",
       "<a href=\"page.html\">Click Here</a>",
@@ -581,7 +547,6 @@
   },
   {
     "q": "Which HTML element is used to define a group of navigation links?",
-    "c": null,
     "o": [
       "<nav>",
       "<ul>",
@@ -601,7 +566,6 @@
   },
   {
     "q": "Which of the following is the correct way to create a link that opens an email client?",
-    "c": null,
     "o": [
       "<a href=\"mailto:someone@example.com\">Email Me</a>",
       "<a href=\"email:someone@example.com\">Email Me</a>",
@@ -621,7 +585,6 @@
   },
   {
     "q": "Which attribute is used in an anchor tag to make a link open in the same tab?",
-    "c": null,
     "o": [
       "target=\"_self\"",
       "target=\"_blank\"",
@@ -631,7 +594,6 @@
   },
   {
     "q": "What does the 'rel' attribute in an anchor tag specify?",
-    "c": null,
     "o": [
       "The relationship between the current page and the linked document.",
       "The title of the hyperlink.",
@@ -641,7 +603,6 @@
   },
   {
     "q": "Which of the following best describes a 'breadcrumb' navigation?",
-    "c": null,
     "o": [
       "A hierarchical navigation system showing the user's location on a website.",
       "A collection of links placed at the bottom of a webpage.",
@@ -661,7 +622,6 @@
   },
   {
     "q": "Which of the following is a valid example of an absolute URL?",
-    "c": null,
     "o": [
       "https://www.example.com/about.html",
       "/about.html",
@@ -671,7 +631,6 @@
   },
   {
     "q": "Which HTML element is used to define a footer navigation menu?",
-    "c": null,
     "o": [
       "<footer>",
       "<nav>",
@@ -681,7 +640,6 @@
   },
   {
     "q": "Which HTML tag is used to create a hyperlink?",
-    "c": null,
     "o": [
       "<a>",
       "<link>",
@@ -701,7 +659,6 @@
   },
   {
     "q": "Which of the following is the correct syntax to create a relative link?",
-    "c": null,
     "o": [
       "<a href=\"/about.html\">About Us</a>",
       "<a href=\"https://www.example.com/about.html\">About Us</a>",
@@ -721,7 +678,6 @@
   },
   {
     "q": "Which of the following attributes ensures a hyperlink is not followed by search engines?",
-    "c": null,
     "o": [
       "rel=\"nofollow\"",
       "rel=\"noopener\"",
@@ -741,7 +697,6 @@
   },
   {
     "q": "Which of the following values for the 'target' attribute will open a link in a full-screen window?",
-    "c": null,
     "o": [
       "_top",
       "_blank",
@@ -761,7 +716,6 @@
   },
   {
     "q": "Which tag is best suited for structuring a navigation bar in HTML?",
-    "c": null,
     "o": [
       "<nav>",
       "<div>",
@@ -771,7 +725,6 @@
   },
   {
     "q": "Which of the following is a valid way to open a link in a new tab while ensuring security best practices?",
-    "c": null,
     "o": [
       "<a href=\"https://example.com\" target=\"_blank\" rel=\"noopener noreferrer\">Visit Example</a>",
       "<a href=\"https://example.com\" target=\"_blank\">Visit Example</a>",
@@ -781,7 +734,6 @@
   },
   {
     "q": "Which attribute in the <a> tag specifies the URL of the page the link goes to?",
-    "c": null,
     "o": [
       "href",
       "src",
@@ -801,7 +753,6 @@
   },
   {
     "q": "Which of the following is the correct syntax to open a link in a new browser tab?",
-    "c": null,
     "o": [
       "<a href=\"page.html\" target=\"_blank\">Click Here</a>",
       "<a href=\"page.html\" target=\"new\">Click Here</a>",
@@ -821,7 +772,6 @@
   },
   {
     "q": "Which of the following statements about the <base> tag is true?",
-    "c": null,
     "o": [
       "It sets the base URL for all relative links on a webpage.",
       "It creates a clickable link.",
@@ -841,7 +791,6 @@
   },
   {
     "q": "Which of the following is NOT a valid way to create a hyperlink?",
-    "c": null,
     "o": [
       "<a src=\"page.html\">Click Here</a>",
       "<a href=\"page.html\">Click Here</a>",
@@ -851,7 +800,6 @@
   },
   {
     "q": "What is the purpose of the rel=\"noopener noreferrer\" attribute in an anchor tag?",
-    "c": null,
     "o": [
       "Prevents security vulnerabilities when opening links in new tabs.",
       "Makes the link open in the same tab.",
@@ -861,7 +809,6 @@
   },
   {
     "q": "Which of the following links will open an email client with a pre-filled subject?",
-    "c": null,
     "o": [
       "<a href=\"mailto:someone@example.com?subject=Hello\">Send Email</a>",
       "<a href=\"emailto:someone@example.com?subject=Hello\">Send Email</a>",
@@ -871,7 +818,6 @@
   },
   {
     "q": "Which attribute can be used to make a hyperlink open a specific section on another page?",
-    "c": null,
     "o": [
       "href=\"page.html#section\"",
       "id=\"page.html#section\"",
@@ -881,7 +827,6 @@
   },
   {
     "q": "Which attribute in the <a> tag specifies that a link should be downloaded instead of opened?",
-    "c": null,
     "o": [
       "download",
       "href",
@@ -901,7 +846,6 @@
   },
   {
     "q": "Which of the following is a valid way to create an internal link to a section on the same page?",
-    "c": null,
     "o": [
       "<a href=\"#about\">About Section</a>",
       "<a href=\"about\">About Section</a>",
@@ -911,7 +855,6 @@
   },
   {
     "q": "What does the 'ping' attribute in an anchor tag do?",
-    "c": null,
     "o": [
       "Sends a notification to the specified URL when the link is clicked.",
       "Prevents search engines from following the link.",
@@ -921,7 +864,6 @@
   },
   {
     "q": "Which of the following is the correct way to structure a breadcrumb navigation?",
-    "c": null,
     "o": [
       "<nav aria-label=\"breadcrumb\">\n  <ul>\n    <li><a href=\"home.html\">Home</a></li>\n    <li><a href=\"category.html\">Category</a></li>\n    <li>Current Page</li>\n  </ul>\n</nav>",
       "<nav>\n  <ul>\n    <li>Home > Category > Current Page</li>\n  </ul>\n</nav>",
@@ -941,7 +883,6 @@
   },
   {
     "q": "Which of the following values for the 'target' attribute will open a link in the same tab?",
-    "c": null,
     "o": [
       "_self",
       "_blank",
@@ -951,7 +892,6 @@
   },
   {
     "q": "Which tag is best suited for creating a navigation menu?",
-    "c": null,
     "o": [
       "<nav>",
       "<ul>",
@@ -961,7 +901,6 @@
   },
   {
     "q": "Which HTML attribute is used to specify that a hyperlink should open in fullscreen mode?",
-    "c": null,
     "o": [
       "There is no such attribute in HTML.",
       "fullscreen",
@@ -971,7 +910,6 @@
   },
   {
     "q": "What does the 'noopener' value in the 'rel' attribute do?",
-    "c": null,
     "o": [
       "Prevents the new tab from accessing the original page via JavaScript.",
       "Forces the link to open in a new tab.",
@@ -981,7 +919,6 @@
   },
   {
     "q": "Which of the following HTML elements is best suited for primary website navigation?",
-    "c": null,
     "o": [
       "<nav>",
       "<header>",
@@ -1001,7 +938,6 @@
   },
   {
     "q": "Which of the following attributes prevents search engines from following a hyperlink?",
-    "c": null,
     "o": [
       "rel=\"nofollow\"",
       "rel=\"noopener\"",
@@ -1021,7 +957,6 @@
   },
   {
     "q": "Which of the following examples correctly implements an anchor link to an ID named 'contact' on the same page?",
-    "c": null,
     "o": [
       "<a href=\"#contact\">Contact Us</a>",
       "<a href=\"contact\">Contact Us</a>",
@@ -1031,7 +966,6 @@
   },
   {
     "q": "What does the 'aria-label' attribute in the <nav> element do?",
-    "c": null,
     "o": [
       "Provides an accessible name for screen readers.",
       "Creates a new navigation menu.",
@@ -1041,7 +975,6 @@
   },
   {
     "q": "Which of the following is an example of an absolute URL?",
-    "c": null,
     "o": [
       "https://www.example.com/page.html",
       "/page.html",
@@ -1061,7 +994,6 @@
   },
   {
     "q": "Which of the following statements about the <base> tag is true?",
-    "c": null,
     "o": [
       "It defines a base URL for all relative links in the document.",
       "It creates a new hyperlink.",
@@ -1071,7 +1003,6 @@
   },
   {
     "q": "Which attribute is used in a hyperlink to open a downloadable file?",
-    "c": null,
     "o": [
       "download",
       "target",
@@ -1081,7 +1012,6 @@
   },
   {
     "q": "Which attribute in the <a> tag is used to specify a tooltip text that appears when the user hovers over the link?",
-    "c": null,
     "o": [
       "title",
       "alt",
@@ -1091,7 +1021,6 @@
   },
   {
     "q": "What is the default behavior of a hyperlink when clicked?",
-    "c": null,
     "o": [
       "Opens the linked document in the same tab.",
       "Opens the linked document in a new tab.",
@@ -1111,7 +1040,6 @@
   },
   {
     "q": "Which of the following is the correct way to create a mailto link that opens the default email client?",
-    "c": null,
     "o": [
       "<a href=\"mailto:someone@example.com\">Send Email</a>",
       "<a href=\"email:someone@example.com\">Send Email</a>",
@@ -1121,7 +1049,6 @@
   },
   {
     "q": "Which of the following is the best practice for creating a navigation menu?",
-    "c": null,
     "o": [
       "Using a <nav> element with an unordered list (<ul>) inside.",
       "Using a series of <div> elements for each link.",
@@ -1131,7 +1058,6 @@
   },
   {
     "q": "What is the purpose of the 'role' attribute in the <nav> element?",
-    "c": null,
     "o": [
       "Helps assistive technologies understand that the section is for navigation.",
       "Changes the style of the navigation bar.",
@@ -1141,7 +1067,6 @@
   },
   {
     "q": "Which of the following is a relative URL?",
-    "c": null,
     "o": [
       "/about.html",
       "https://www.example.com/about.html",
@@ -1151,7 +1076,6 @@
   },
   {
     "q": "What does the 'tabindex' attribute do in navigation links?",
-    "c": null,
     "o": [
       "Defines the order in which links are focused when using the keyboard.",
       "Hides the navigation link.",
@@ -1171,7 +1095,6 @@
   },
   {
     "q": "Which of the following is NOT a valid way to open a link in a new tab?",
-    "c": null,
     "o": [
       "<a href=\"page.html\" target=\"newtab\">Click Here</a>",
       "<a href=\"page.html\" target=\"_blank\">Click Here</a>",
@@ -1181,7 +1104,6 @@
   },
   {
     "q": "Which HTML tag is used to define a hyperlink?",
-    "c": null,
     "o": [
       "<a>",
       "<link>",
@@ -1191,7 +1113,6 @@
   },
   {
     "q": "Which of the following attributes is required for a hyperlink to function?",
-    "c": null,
     "o": [
       "href",
       "target",
@@ -1201,7 +1122,6 @@
   },
   {
     "q": "What is the correct way to create an anchor link to the top of a webpage?",
-    "c": null,
     "o": [
       "<a href=\"#top\">Back to Top</a>",
       "<a href=\"top\">Back to Top</a>",
@@ -1211,7 +1131,6 @@
   },
   {
     "q": "What does the 'rel' attribute in an anchor tag define?",
-    "c": null,
     "o": [
       "The relationship between the current document and the linked document.",
       "The color of the hyperlink.",
@@ -1221,7 +1140,6 @@
   },
   {
     "q": "Which of the following is NOT a valid value for the 'target' attribute in an anchor tag?",
-    "c": null,
     "o": [
       "_new",
       "_self",
@@ -1251,7 +1169,6 @@
   },
   {
     "q": "Which of the following best describes an external link?",
-    "c": null,
     "o": [
       "A hyperlink that navigates to a different website.",
       "A hyperlink that points to another section of the same page.",
@@ -1261,7 +1178,6 @@
   },
   {
     "q": "Which of the following is the correct syntax for a hyperlink that links to an email address?",
-    "c": null,
     "o": [
       "<a href=\"mailto:someone@example.com\">Send Email</a>",
       "<a href=\"email:someone@example.com\">Send Email</a>",
@@ -1271,7 +1187,6 @@
   },
   {
     "q": "Which of the following statements is true about the <nav> element?",
-    "c": null,
     "o": [
       "It is used to define a section of navigation links.",
       "It is required for all web pages.",
@@ -1291,7 +1206,6 @@
   },
   {
     "q": "Which attribute is required in an anchor tag to specify the destination URL?",
-    "c": null,
     "o": [
       "href",
       "src",
@@ -1311,7 +1225,6 @@
   },
   {
     "q": "Which of the following is a correct example of an absolute URL?",
-    "c": null,
     "o": [
       "https://www.example.com/page.html",
       "/page.html",
@@ -1331,7 +1244,6 @@
   },
   {
     "q": "Which HTML element is used to create a navigation menu?",
-    "c": null,
     "o": [
       "<nav>",
       "<menu>",
@@ -1351,7 +1263,6 @@
   },
   {
     "q": "Which of the following statements about anchor tags is correct?",
-    "c": null,
     "o": [
       "An anchor tag can link to an external website, an internal page, or a section within the same page",
       "Anchor tags can only link to external websites",
@@ -1361,7 +1272,6 @@
   },
   {
     "q": "What is the correct syntax to create an email link in HTML?",
-    "c": null,
     "o": [
       "<a href=\"mailto:someone@example.com\">Send Email</a>",
       "<a href=\"email:someone@example.com\">Send Email</a>",
@@ -1381,7 +1291,6 @@
   },
   {
     "q": "Which attribute in an anchor tag specifies where to open the linked document?",
-    "c": null,
     "o": [
       "target",
       "href",
@@ -1391,7 +1300,6 @@
   },
   {
     "q": "What is the purpose of the 'rel' attribute in an anchor tag?",
-    "c": null,
     "o": [
       "Defines the relationship between the current document and the linked document",
       "Specifies the link color",
@@ -1411,7 +1319,6 @@
   },
   {
     "q": "Which HTML element is best suited for defining a navigation section?",
-    "c": null,
     "o": [
       "<nav>",
       "<header>",
@@ -1431,7 +1338,6 @@
   },
   {
     "q": "Which of the following links is an example of a relative URL?",
-    "c": null,
     "o": [
       "about.html",
       "https://example.com/about.html",
@@ -1441,7 +1347,6 @@
   },
   {
     "q": "What does the 'noopener noreferrer' value in the 'rel' attribute do?",
-    "c": null,
     "o": [
       "Prevents the new page from accessing the referring page",
       "Opens the link in a new tab",
@@ -1471,7 +1376,6 @@
   },
   {
     "q": "Which of the following best describes the difference between absolute and relative URLs?",
-    "c": null,
     "o": [
       "An absolute URL contains the full web address, while a relative URL is based on the current page's location",
       "A relative URL contains the full web address, while an absolute URL is based on the current page's location",
@@ -1481,7 +1385,6 @@
   },
   {
     "q": "What is the default value of the 'target' attribute in an anchor tag?",
-    "c": null,
     "o": [
       "_self",
       "_blank",
@@ -1501,7 +1404,6 @@
   },
   {
     "q": "Which HTML tag is used to define a list-based navigation menu?",
-    "c": null,
     "o": [
       "<nav>",
       "<ul>",
@@ -1521,7 +1423,6 @@
   },
   {
     "q": "Which attribute is used in an anchor tag to specify a tooltip on hover?",
-    "c": null,
     "o": [
       "title",
       "tooltip",
@@ -1541,7 +1442,6 @@
   },
   {
     "q": "What is the correct syntax for opening a link in a new tab and preventing it from accessing the referring page?",
-    "c": null,
     "o": [
       "<a href=\"https://example.com\" target=\"_blank\" rel=\"noopener noreferrer\">Example</a>",
       "<a href=\"https://example.com\" target=\"_blank\">Example</a>",
@@ -1551,7 +1451,6 @@
   },
   {
     "q": "Which HTML tag is typically used to group navigation links together?",
-    "c": null,
     "o": [
       "<nav>",
       "<section>",
@@ -1561,7 +1460,6 @@
   },
   {
     "q": "Which of the following is the correct syntax for creating a hyperlink in HTML?",
-    "c": null,
     "o": [
       "<a href=\"https://example.com\">Click Here</a>",
       "<link href=\"https://example.com\">Click Here</link>",
@@ -1581,7 +1479,6 @@
   },
   {
     "q": "What is the purpose of the 'download' attribute in an anchor tag?",
-    "c": null,
     "o": [
       "Forces the browser to download the linked file instead of navigating to it",
       "Opens the link in a new tab",
@@ -1591,7 +1488,6 @@
   },
   {
     "q": "Which of the following is an example of an absolute URL?",
-    "c": null,
     "o": [
       "https://example.com/about.html",
       "/about.html",
@@ -1611,7 +1507,6 @@
   },
   {
     "q": "Which of the following statements about the <nav> tag is true?",
-    "c": null,
     "o": [
       "The <nav> tag is used to define a section of navigation links",
       "The <nav> tag is required in all HTML documents",
@@ -1621,7 +1516,6 @@
   },
   {
     "q": "Which of the following is a valid way to create a link that opens a PDF file for download?",
-    "c": null,
     "o": [
       "<a href=\"document.pdf\" download>Download PDF</a>",
       "<a file=\"document.pdf\">Download PDF</a>",
@@ -1631,7 +1525,6 @@
   },
   {
     "q": "What is the primary function of the 'href' attribute in an anchor tag?",
-    "c": null,
     "o": [
       "Specifies the URL or location the link points to",
       "Defines the text of the link",
@@ -1651,7 +1544,6 @@
   },
   {
     "q": "Which of the following values of the 'target' attribute opens the link in a new tab?",
-    "c": null,
     "o": [
       "_blank",
       "_self",
@@ -1661,7 +1553,6 @@
   },
   {
     "q": "What is the correct way to create an email link in HTML?",
-    "c": null,
     "o": [
       "<a href=\"mailto:example@example.com\">Send Email</a>",
       "<a email=\"example@example.com\">Send Email</a>",
@@ -1671,7 +1562,6 @@
   },
   {
     "q": "Which of the following is the correct way to create a telephone link in HTML?",
-    "c": null,
     "o": [
       "<a href=\"tel:+1234567890\">Call Now</a>",
       "<a phone=\"+1234567890\">Call Now</a>",
@@ -1691,7 +1581,6 @@
   },
   {
     "q": "Which of the following is true about the <nav> element in HTML?",
-    "c": null,
     "o": [
       "It is used to define a section of navigation links",
       "It is required in every HTML page",
@@ -1701,7 +1590,6 @@
   },
   {
     "q": "What is the purpose of the 'rel' attribute in an anchor tag?",
-    "c": null,
     "o": [
       "Specifies the relationship between the current document and the linked document",
       "Defines the text displayed for the link",
@@ -1721,7 +1609,6 @@
   },
   {
     "q": "Which of the following is the correct way to prevent a link from being followed?",
-    "c": null,
     "o": [
       "<a href=\"#\" onclick=\"return false;\">Do Nothing</a>",
       "<a href=\"\">Do Nothing</a>",
@@ -1741,7 +1628,6 @@
   },
   {
     "q": "Which of the following statements about relative and absolute URLs is correct?",
-    "c": null,
     "o": [
       "Relative URLs are based on the location of the current document, while absolute URLs contain the full web address",
       "Absolute URLs are based on the location of the current document, while relative URLs contain the full web address",
@@ -1761,7 +1647,6 @@
   },
   {
     "q": "Which attribute in the anchor tag is used to open a link in a new tab?",
-    "c": null,
     "o": [
       "target=\"_blank\"",
       "target=\"_self\"",
@@ -1781,7 +1666,6 @@
   },
   {
     "q": "Which of the following is a semantic HTML element used to define navigation links?",
-    "c": null,
     "o": [
       "<nav>",
       "<menu>",
@@ -1801,7 +1685,6 @@
   },
   {
     "q": "Which attribute of the anchor tag specifies that the link should be downloaded instead of opened?",
-    "c": null,
     "o": [
       "download",
       "target",
@@ -1821,7 +1704,6 @@
   },
   {
     "q": "Which of the following is a correct way to link to an internal section of the same webpage?",
-    "c": null,
     "o": [
       "<a href=\"#section1\">Go to Section 1</a>",
       "<a id=\"section1\">Go to Section 1</a>",
@@ -1831,7 +1713,6 @@
   },
   {
     "q": "What is the difference between an ordered list and an unordered list in a navigation menu?",
-    "c": null,
     "o": [
       "Ordered lists use numbers, while unordered lists use bullet points",
       "Ordered lists use bullet points, while unordered lists use numbers",
@@ -1851,7 +1732,6 @@
   },
   {
     "q": "Which of the following best describes a responsive navigation menu?",
-    "c": null,
     "o": [
       "A menu that adapts to different screen sizes and devices",
       "A menu that only works on mobile devices",
@@ -1861,7 +1741,6 @@
   },
   {
     "q": "Which attribute in an anchor tag is used to specify that the linked document should open in a new browser window or tab?",
-    "c": null,
     "o": [
       "target=\"_blank\"",
       "target=\"_top\"",
@@ -1881,7 +1760,6 @@
   },
   {
     "q": "Which HTML element is commonly used to create a navigation menu?",
-    "c": null,
     "o": [
       "<nav>",
       "<menu>",
@@ -1911,7 +1789,6 @@
   },
   {
     "q": "Which CSS property is commonly used to style navigation links horizontally?",
-    "c": null,
     "o": [
       "display: inline-block;",
       "position: absolute;",
@@ -1951,7 +1828,6 @@
   },
   {
     "q": "What is the main advantage of using the <nav> element instead of a <div> for navigation menus?",
-    "c": null,
     "o": [
       "It provides better semantic meaning and improves accessibility",
       "It automatically applies styles to navigation links",
@@ -1961,7 +1837,6 @@
   },
   {
     "q": "Which HTML tag is used to create a hyperlink?",
-    "c": null,
     "o": [
       "<a>",
       "<link>",
@@ -1981,7 +1856,6 @@
   },
   {
     "q": "Which attribute is used in the <a> tag to specify an email link?",
-    "c": null,
     "o": [
       "mailto:",
       "email=",
@@ -2001,7 +1875,6 @@
   },
   {
     "q": "What is the purpose of the 'rel' attribute in an anchor tag?",
-    "c": null,
     "o": [
       "Specifies the relationship between the current document and the linked document",
       "Defines the target where the link should open",
@@ -2021,7 +1894,6 @@
   },
   {
     "q": "Which tag is commonly used to define a navigation menu?",
-    "c": null,
     "o": [
       "<nav>",
       "<menu>",
@@ -2051,7 +1923,6 @@
   },
   {
     "q": "Which attribute in an anchor tag is used to specify that the linked document should be downloaded instead of opened?",
-    "c": null,
     "o": [
       "download",
       "target",
@@ -2071,7 +1942,6 @@
   },
   {
     "q": "Which CSS property is commonly used to style a horizontal navigation menu?",
-    "c": null,
     "o": [
       "display: inline-block;",
       "position: fixed;",
@@ -2091,7 +1961,6 @@
   },
   {
     "q": "Which of the following best describes a sticky navigation bar?",
-    "c": null,
     "o": [
       "A menu that remains visible at the top while scrolling",
       "A menu that disappears when scrolling",
@@ -2111,7 +1980,6 @@
   },
   {
     "q": "Which of the following is the correct way to create an anchor tag that links to an external website?",
-    "c": null,
     "o": [
       "<a href=\"https://example.com\">Visit Example</a>",
       "<link href=\"https://example.com\">Visit Example</link>",
@@ -2131,7 +1999,6 @@
   },
   {
     "q": "Which attribute is used in the <a> tag to specify where to open the linked document?",
-    "c": null,
     "o": [
       "target",
       "href",
@@ -2151,7 +2018,6 @@
   },
   {
     "q": "Which HTML tag is best suited for defining navigation links?",
-    "c": null,
     "o": [
       "<nav>",
       "<div>",
@@ -2171,7 +2037,6 @@
   },
   {
     "q": "Which of the following correctly creates an email link in HTML?",
-    "c": null,
     "o": [
       "<a href=\"mailto:example@example.com\">Send Email</a>",
       "<a href=\"email:example@example.com\">Send Email</a>",
@@ -2181,7 +2046,6 @@
   },
   {
     "q": "Which attribute can be used in an anchor tag to instruct the browser to download the linked file?",
-    "c": null,
     "o": [
       "download",
       "target",
@@ -2211,7 +2075,6 @@
   },
   {
     "q": "Which HTML attribute is used to define the relationship between a linked document and the current document?",
-    "c": null,
     "o": [
       "rel",
       "target",
@@ -2221,7 +2084,6 @@
   },
   {
     "q": "Which CSS property is commonly used to remove the default underline from hyperlinks?",
-    "c": null,
     "o": [
       "text-decoration: none;",
       "text-style: none;",
@@ -2231,7 +2093,6 @@
   },
   {
     "q": "Which of the following is the correct way to open a PDF file in a new tab using an anchor tag?",
-    "c": null,
     "o": [
       "<a href=\"document.pdf\" target=\"_blank\">Open PDF</a>",
       "<a target=\"_new\" href=\"document.pdf\">Open PDF</a>",
@@ -2241,7 +2102,6 @@
   },
   {
     "q": "What is a breadcrumb navigation?",
-    "c": null,
     "o": [
       "A hierarchical navigation structure that shows the user’s current location",
       "A floating navigation bar at the top of the page",
@@ -2261,7 +2121,6 @@
   },
   {
     "q": "Which tag should be used to create a mobile-friendly navigation menu?",
-    "c": null,
     "o": [
       "<nav>",
       "<aside>",
@@ -2281,7 +2140,6 @@
   },
   {
     "q": "Which of the following describes a sticky navigation bar?",
-    "c": null,
     "o": [
       "A menu that remains visible at the top while scrolling",
       "A menu that disappears when scrolling",
@@ -2291,7 +2149,6 @@
   },
   {
     "q": "Which CSS property helps create a sticky navigation bar?",
-    "c": null,
     "o": [
       "position: fixed;",
       "display: block;",
@@ -2301,7 +2158,6 @@
   },
   {
     "q": "Which of the following is the correct way to make a link open in a new tab?",
-    "c": null,
     "o": [
       "<a href=\"https://example.com\" target=\"_blank\">Visit Example</a>",
       "<a href=\"https://example.com\" target=\"new\">Visit Example</a>",
@@ -2321,7 +2177,6 @@
   },
   {
     "q": "Which HTML element is used for structuring navigation menus?",
-    "c": null,
     "o": [
       "<nav>",
       "<menu>",
@@ -2331,7 +2186,6 @@
   },
   {
     "q": "Which of the following correctly creates an image hyperlink?",
-    "c": null,
     "o": [
       "<a href=\"https://example.com\"><img src=\"image.jpg\" alt=\"Example\"></a>",
       "<img href=\"https://example.com\" src=\"image.jpg\" alt=\"Example\">",
@@ -2351,7 +2205,6 @@
   },
   {
     "q": "Which attribute is used to specify a tooltip text for an anchor tag?",
-    "c": null,
     "o": [
       "title",
       "tooltip",
@@ -2371,7 +2224,6 @@
   },
   {
     "q": "Which of the following correctly represents a relative link?",
-    "c": null,
     "o": [
       "<a href=\"about.html\">About Us</a>",
       "<a href=\"https://example.com/about.html\">About Us</a>",
@@ -2381,7 +2233,6 @@
   },
   {
     "q": "Which CSS property is used to create a horizontal navigation bar?",
-    "c": null,
     "o": [
       "display: flex;",
       "display: inline;",
@@ -2391,7 +2242,6 @@
   },
   {
     "q": "What is the purpose of the 'aria-label' attribute in navigation links?",
-    "c": null,
     "o": [
       "Provides accessibility for screen readers",
       "Changes the link color",
@@ -2401,7 +2251,6 @@
   },
   {
     "q": "Which of the following is an example of an absolute URL?",
-    "c": null,
     "o": [
       "<a href=\"https://example.com/page.html\">Visit</a>",
       "<a href=\"page.html\">Visit</a>",
@@ -2411,7 +2260,6 @@
   },
   {
     "q": "Which of the following best describes a responsive navigation menu?",
-    "c": null,
     "o": [
       "A menu that adjusts to different screen sizes",
       "A menu that only works on mobile devices",
@@ -2421,7 +2269,6 @@
   },
   {
     "q": "Which of the following is the correct way to make a phone number clickable?",
-    "c": null,
     "o": [
       "<a href=\"tel:+1234567890\">Call Us</a>",
       "<a phone=\"+1234567890\">Call Us</a>",
@@ -2441,7 +2288,6 @@
   },
   {
     "q": "Which of the following statements is true about the 'target' attribute in an anchor tag?",
-    "c": null,
     "o": [
       "It defines where to open the linked document",
       "It sets the link's color",
@@ -2461,7 +2307,6 @@
   },
   {
     "q": "What is the default style of anchor tags if no CSS is applied?",
-    "c": null,
     "o": [
       "Blue with underline",
       "Red with no underline",
@@ -2471,7 +2316,6 @@
   },
   {
     "q": "Which attribute is used to open an anchor link in a modal popup?",
-    "c": null,
     "o": [
       "data-toggle",
       "target",
@@ -2481,7 +2325,6 @@
   },
   {
     "q": "Which of the following is a correct way to create a button that behaves like a link?",
-    "c": null,
     "o": [
       "<button onclick=\"location.href='https://example.com'\">Go</button>",
       "<button href=\"https://example.com\">Go</button>",
@@ -2491,7 +2334,6 @@
   },
   {
     "q": "Which of the following anchor tag attributes is used to specify the URL of the linked document?",
-    "c": null,
     "o": [
       "href",
       "src",
@@ -2511,7 +2353,6 @@
   },
   {
     "q": "Which of the following is the correct way to make an email link?",
-    "c": null,
     "o": [
       "<a href=\"mailto:someone@example.com\">Send Email</a>",
       "<a email=\"someone@example.com\">Send Email</a>",
@@ -2531,7 +2372,6 @@
   },
   {
     "q": "Which of the following is the correct way to create an internal navigation link?",
-    "c": null,
     "o": [
       "<a href=\"#section\">Go to Section</a>",
       "<a href=\"section\">Go to Section</a>",
@@ -2541,7 +2381,6 @@
   },
   {
     "q": "Which tag is used to define a navigation menu in HTML?",
-    "c": null,
     "o": [
       "<nav>",
       "<menu>",
@@ -2551,7 +2390,6 @@
   },
   {
     "q": "Which of the following best describes breadcrumb navigation?",
-    "c": null,
     "o": [
       "A hierarchical navigation that shows the user's location on a website",
       "A list of links displayed in a sidebar",
@@ -2561,7 +2399,6 @@
   },
   {
     "q": "Which CSS property is commonly used to remove underlines from links?",
-    "c": null,
     "o": [
       "text-decoration: none;",
       "text-style: hidden;",
@@ -2571,7 +2408,6 @@
   },
   {
     "q": "What is the primary purpose of the 'rel' attribute in an anchor tag?",
-    "c": null,
     "o": [
       "Defines the relationship between the current document and the linked document",
       "Changes the link color",
@@ -2581,7 +2417,6 @@
   },
   {
     "q": "Which of the following navigation types is typically used for one-page websites?",
-    "c": null,
     "o": [
       "Anchor-based navigation",
       "Dropdown menu",
@@ -2601,7 +2436,6 @@
   },
   {
     "q": "Which of the following allows users to navigate back to the previous page?",
-    "c": null,
     "o": [
       "<a href=\"javascript:history.back();\">Go Back</a>",
       "<a href=\"previous.html\">Go Back</a>",
@@ -2611,7 +2445,6 @@
   },
   {
     "q": "Which CSS property is commonly used to create a sticky navigation bar?",
-    "c": null,
     "o": [
       "position: fixed;",
       "position: absolute;",
@@ -2671,7 +2504,6 @@
   },
   {
     "q": "Which of the following describes a 'sticky' navigation menu?",
-    "c": null,
     "o": [
       "A menu that remains at the top of the screen while scrolling",
       "A menu that disappears on scroll",
@@ -2681,7 +2513,6 @@
   },
   {
     "q": "Which HTML tag is used to create a hyperlink?",
-    "c": null,
     "o": [
       "<a>",
       "<link>",
@@ -2691,7 +2522,6 @@
   },
   {
     "q": "Which attribute in the anchor tag specifies where to open the linked document?",
-    "c": null,
     "o": [
       "target",
       "href",
@@ -2711,7 +2541,6 @@
   },
   {
     "q": "Which of the following is the correct way to create an anchor tag that opens in the same window?",
-    "c": null,
     "o": [
       "<a href=\"page.html\">Click Here</a>",
       "<a href=\"page.html\" target=\"_blank\">Click Here</a>",
@@ -2721,7 +2550,6 @@
   },
   {
     "q": "What is the purpose of the 'rel' attribute in an anchor tag?",
-    "c": null,
     "o": [
       "Defines the relationship between the current and linked document",
       "Specifies where to open the link",
@@ -2741,7 +2569,6 @@
   },
   {
     "q": "Which CSS property removes the underline from anchor tags?",
-    "c": null,
     "o": [
       "text-decoration: none;",
       "text-style: hidden;",
@@ -2751,7 +2578,6 @@
   },
   {
     "q": "Which of the following is the correct way to create an anchor tag linking to a section within the same page?",
-    "c": null,
     "o": [
       "<a href=\"#section\">Go to Section</a>",
       "<a link=\"#section\">Go to Section</a>",
@@ -2771,7 +2597,6 @@
   },
   {
     "q": "Which of the following is an example of breadcrumb navigation?",
-    "c": null,
     "o": [
       "A hierarchical navigation showing the user's location on a website",
       "A sidebar menu",
@@ -2791,7 +2616,6 @@
   },
   {
     "q": "Which HTML element is best suited for wrapping the main navigation menu of a website?",
-    "c": null,
     "o": [
       "<nav>",
       "<header>",
@@ -2811,7 +2635,6 @@
   },
   {
     "q": "Which of the following is the correct way to create an anchor tag that links to a phone number?",
-    "c": null,
     "o": [
       "<a href=\"tel:+1234567890\">Call Us</a>",
       "<a phone=\"+1234567890\">Call Us</a>",
@@ -2821,7 +2644,6 @@
   },
   {
     "q": "Which of the following HTML elements is commonly used to create a navigation bar?",
-    "c": null,
     "o": [
       "<nav>",
       "<section>",
@@ -2841,7 +2663,6 @@
   },
   {
     "q": "Which of the following is the correct way to open a link in a new tab?",
-    "c": null,
     "o": [
       "<a href=\"https://example.com\" target=\"_blank\">Click Here</a>",
       "<a href=\"https://example.com\" new=\"true\">Click Here</a>",
@@ -2851,7 +2672,6 @@
   },
   {
     "q": "Which of the following is an example of an anchor tag with an absolute URL?",
-    "c": null,
     "o": [
       "<a href=\"https://www.example.com\">Visit Example</a>",
       "<a href=\"/home\">Go Home</a>",
@@ -2861,7 +2681,6 @@
   },
   {
     "q": "Which of the following best describes a sticky navigation menu?",
-    "c": null,
     "o": [
       "A menu that stays at the top of the screen while scrolling",
       "A menu that disappears when scrolling",
@@ -2881,7 +2700,6 @@
   },
   {
     "q": "Which of the following is the correct way to create an email link using an anchor tag?",
-    "c": null,
     "o": [
       "<a href=\"mailto:someone@example.com\">Send Email</a>",
       "<a href=\"email:someone@example.com\">Send Email</a>",
@@ -2901,7 +2719,6 @@
   },
   {
     "q": "Which attribute is used in an anchor tag to define the tooltip text when hovering over a link?",
-    "c": null,
     "o": [
       "title",
       "alt",
@@ -2911,7 +2728,6 @@
   },
   {
     "q": "Which of the following is a correct example of a relative URL in an anchor tag?",
-    "c": null,
     "o": [
       "<a href=\"/about\">About Us</a>",
       "<a href=\"https://example.com/about\">About Us</a>",
@@ -2941,7 +2757,6 @@
   },
   {
     "q": "Which HTML element is best used for breadcrumb navigation?",
-    "c": null,
     "o": [
       "<nav>",
       "<aside>",
@@ -2951,7 +2766,6 @@
   },
   {
     "q": "Which of the following links would open a PDF file in a new tab?",
-    "c": null,
     "o": [
       "<a href=\"document.pdf\" target=\"_blank\">Open PDF</a>",
       "<a href=\"document.pdf\" new=\"true\">Open PDF</a>",
@@ -2971,7 +2785,6 @@
   },
   {
     "q": "Which CSS property ensures that a navigation menu remains at the top of the page while scrolling?",
-    "c": null,
     "o": [
       "position: fixed;",
       "position: relative;",
@@ -3021,7 +2834,6 @@
   },
   {
     "q": "Which attribute is required in an anchor tag to specify the destination URL?",
-    "c": null,
     "o": [
       "href",
       "src",
@@ -3041,7 +2853,6 @@
   },
   {
     "q": "Which HTML tag is commonly used to wrap a group of navigation links?",
-    "c": null,
     "o": [
       "<nav>",
       "<menu>",

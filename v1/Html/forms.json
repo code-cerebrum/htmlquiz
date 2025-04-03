@@ -1,7 +1,6 @@
 [
   {
     "q": "Which HTML tag is used to create a form?",
-    "c": null,
     "o": [
       "<form>",
       "<input>",
@@ -21,7 +20,6 @@
   },
   {
     "q": "Which input type is used for selecting a single option from multiple choices?",
-    "c": null,
     "o": [
       "radio",
       "checkbox",
@@ -41,7 +39,6 @@
   },
   {
     "q": "Which attribute is used to ensure a user must fill out an input field?",
-    "c": null,
     "o": [
       "required",
       "validate",
@@ -61,7 +58,6 @@
   },
   {
     "q": "Which input type is used to allow users to choose multiple options?",
-    "c": null,
     "o": [
       "checkbox",
       "radio",
@@ -81,7 +77,6 @@
   },
   {
     "q": "Which attribute is used to associate a <label> with an input field?",
-    "c": null,
     "o": [
       "for",
       "name",
@@ -91,7 +86,6 @@
   },
   {
     "q": "What does the 'action' attribute in a form specify?",
-    "c": null,
     "o": [
       "The URL where form data should be sent.",
       "The type of input fields allowed in the form.",
@@ -101,7 +95,6 @@
   },
   {
     "q": "Which HTML element is used to create a dropdown list?",
-    "c": null,
     "o": [
       "<select>",
       "<dropdown>",
@@ -121,7 +114,6 @@
   },
   {
     "q": "Which attribute defines placeholder text in an input field?",
-    "c": null,
     "o": [
       "placeholder",
       "hint",
@@ -141,7 +133,6 @@
   },
   {
     "q": "Which input type is used to upload files?",
-    "c": null,
     "o": [
       "file",
       "upload",
@@ -161,7 +152,6 @@
   },
   {
     "q": "Which attribute specifies that an input field should be focused when the page loads?",
-    "c": null,
     "o": [
       "autofocus",
       "focus",
@@ -181,7 +171,6 @@
   },
   {
     "q": "Which input type is used to accept a numeric value with a slider?",
-    "c": null,
     "o": [
       "range",
       "slider",
@@ -201,7 +190,6 @@
   },
   {
     "q": "Which attribute ensures a form input is read-only?",
-    "c": null,
     "o": [
       "readonly",
       "disabled",
@@ -211,7 +199,6 @@
   },
   {
     "q": "What is the difference between 'readonly' and 'disabled' attributes?",
-    "c": null,
     "o": [
       "'readonly' allows user selection but prevents modification, 'disabled' makes the field unselectable.",
       "'readonly' hides the input, 'disabled' grays it out.",
@@ -221,7 +208,6 @@
   },
   {
     "q": "Which HTML element is used to group form controls together?",
-    "c": null,
     "o": [
       "<fieldset>",
       "<group>",
@@ -241,7 +227,6 @@
   },
   {
     "q": "Which method should be used for submitting form data securely?",
-    "c": null,
     "o": [
       "POST",
       "GET",
@@ -251,7 +236,6 @@
   },
   {
     "q": "What is the main difference between GET and POST methods?",
-    "c": null,
     "o": [
       "GET appends data to the URL, while POST sends data in the request body.",
       "GET is used for submitting forms, while POST is not.",
@@ -261,7 +245,6 @@
   },
   {
     "q": "Which input type is used to accept an email address?",
-    "c": null,
     "o": [
       "email",
       "text",
@@ -281,7 +264,6 @@
   },
   {
     "q": "Which attribute is used to link a button to submit a form?",
-    "c": null,
     "o": [
       "type=\"submit\"",
       "action=\"submit\"",
@@ -301,7 +283,6 @@
   },
   {
     "q": "Which attribute is used to specify a default value in an input field?",
-    "c": null,
     "o": [
       "value",
       "default",
@@ -321,7 +302,6 @@
   },
   {
     "q": "Which input type is used for selecting a date?",
-    "c": null,
     "o": [
       "date",
       "datetime",
@@ -341,7 +321,6 @@
   },
   {
     "q": "Which HTML form attribute prevents users from editing an input field but allows selection?",
-    "c": null,
     "o": [
       "readonly",
       "disabled",
@@ -361,7 +340,6 @@
   },
   {
     "q": "Which HTML attribute is used to specify multiple options in a file input field?",
-    "c": null,
     "o": [
       "multiple",
       "files",
@@ -381,7 +359,6 @@
   },
   {
     "q": "Which HTML element is used to provide a brief description for a form control?",
-    "c": null,
     "o": [
       "<label>",
       "<caption>",
@@ -401,7 +378,6 @@
   },
   {
     "q": "Which input type allows users to pick a color?",
-    "c": null,
     "o": [
       "color",
       "picker",
@@ -421,7 +397,6 @@
   },
   {
     "q": "Which attribute is used to specify a pattern for an input field?",
-    "c": null,
     "o": [
       "pattern",
       "match",
@@ -441,7 +416,6 @@
   },
   {
     "q": "Which input type is used to create a hidden field?",
-    "c": null,
     "o": [
       "hidden",
       "invisible",
@@ -461,7 +435,6 @@
   },
   {
     "q": "Which HTML attribute is used to specify that an input field must be filled before submission?",
-    "c": null,
     "o": [
       "required",
       "validate",
@@ -481,7 +454,6 @@
   },
   {
     "q": "Which input type is used for entering a telephone number?",
-    "c": null,
     "o": [
       "tel",
       "phone",
@@ -491,7 +463,6 @@
   },
   {
     "q": "What is the effect of the 'autocomplete' attribute in a form?",
-    "c": null,
     "o": [
       "It enables automatic suggestions based on previous inputs.",
       "It disables the input field.",
@@ -501,7 +472,6 @@
   },
   {
     "q": "What does the 'novalidate' attribute do in an HTML form?",
-    "c": null,
     "o": [
       "It disables browser-based form validation.",
       "It hides all form fields.",
@@ -521,7 +491,6 @@
   },
   {
     "q": "Which HTML tag is used to create a form?",
-    "c": null,
     "o": [
       "<form>",
       "<input>",
@@ -541,7 +510,6 @@
   },
   {
     "q": "Which attribute is used to specify that an input field must be filled before submitting a form?",
-    "c": null,
     "o": [
       "required",
       "validate",
@@ -561,7 +529,6 @@
   },
   {
     "q": "Which input type is used for entering a password?",
-    "c": null,
     "o": [
       "password",
       "text",
@@ -581,7 +548,6 @@
   },
   {
     "q": "Which attribute is used to group radio buttons?",
-    "c": null,
     "o": [
       "name",
       "group",
@@ -601,7 +567,6 @@
   },
   {
     "q": "Which input type is used to create a checkbox?",
-    "c": null,
     "o": [
       "checkbox",
       "radio",
@@ -611,7 +576,6 @@
   },
   {
     "q": "What does the 'checked' attribute do in an input element?",
-    "c": null,
     "o": [
       "Pre-selects a radio button or checkbox.",
       "Disables the input field.",
@@ -621,7 +585,6 @@
   },
   {
     "q": "What is the function of the 'maxlength' attribute in an input field?",
-    "c": null,
     "o": [
       "Limits the number of characters that can be entered.",
       "Sets the initial length of the input.",
@@ -641,7 +604,6 @@
   },
   {
     "q": "Which input type allows users to select multiple options?",
-    "c": null,
     "o": [
       "checkbox",
       "radio",
@@ -661,7 +623,6 @@
   },
   {
     "q": "Which attribute is used to associate a label with an input field?",
-    "c": null,
     "o": [
       "for",
       "id",
@@ -681,7 +642,6 @@
   },
   {
     "q": "Which input type is used to create a submit button?",
-    "c": null,
     "o": [
       "submit",
       "button",
@@ -701,7 +661,6 @@
   },
   {
     "q": "Which input type is used to reset a form?",
-    "c": null,
     "o": [
       "reset",
       "clear",
@@ -721,7 +680,6 @@
   },
   {
     "q": "Which attribute is used to automatically focus an input field?",
-    "c": null,
     "o": [
       "autofocus",
       "focus",
@@ -741,7 +699,6 @@
   },
   {
     "q": "Which attribute specifies the URL where form data should be sent?",
-    "c": null,
     "o": [
       "action",
       "method",
@@ -761,7 +718,6 @@
   },
   {
     "q": "Which input type is used for entering a number?",
-    "c": null,
     "o": [
       "number",
       "integer",
@@ -781,7 +737,6 @@
   },
   {
     "q": "Which attribute is used to make a form input field non-editable?",
-    "c": null,
     "o": [
       "readonly",
       "disabled",
@@ -801,7 +756,6 @@
   },
   {
     "q": "Which input type is used for selecting a date?",
-    "c": null,
     "o": [
       "date",
       "datetime",
@@ -821,7 +775,6 @@
   },
   {
     "q": "Which attribute ensures a user must enter a value before submitting a form?",
-    "c": null,
     "o": [
       "required",
       "validate",
@@ -841,7 +794,6 @@
   },
   {
     "q": "Which attribute limits the minimum value of a number input?",
-    "c": null,
     "o": [
       "min",
       "max",
@@ -861,7 +813,6 @@
   },
   {
     "q": "Which button type is used to submit a form?",
-    "c": null,
     "o": [
       "submit",
       "button",
@@ -881,7 +832,6 @@
   },
   {
     "q": "Which input type is used for selecting a file?",
-    "c": null,
     "o": [
       "file",
       "document",
@@ -901,7 +851,6 @@
   },
   {
     "q": "Which attribute is used to provide a hint inside an input field?",
-    "c": null,
     "o": [
       "placeholder",
       "hint",
@@ -921,7 +870,6 @@
   },
   {
     "q": "Which element is used to group multiple form fields together?",
-    "c": null,
     "o": [
       "fieldset",
       "group",
@@ -941,7 +889,6 @@
   },
   {
     "q": "Which input type allows users to select a color?",
-    "c": null,
     "o": [
       "color",
       "palette",
@@ -961,7 +908,6 @@
   },
   {
     "q": "Which attribute specifies multiple selectable options in a dropdown list?",
-    "c": null,
     "o": [
       "multiple",
       "multi-select",
@@ -981,7 +927,6 @@
   },
   {
     "q": "Which HTML tag is used to create a form?",
-    "c": null,
     "o": [
       "<form>",
       "<input>",
@@ -1001,7 +946,6 @@
   },
   {
     "q": "Which attribute is used to specify where to send form data after submission?",
-    "c": null,
     "o": [
       "action",
       "method",
@@ -1011,7 +955,6 @@
   },
   {
     "q": "What is the default HTTP method for form submission?",
-    "c": null,
     "o": [
       "GET",
       "POST",
@@ -1021,7 +964,6 @@
   },
   {
     "q": "Which input type is used for entering an email address?",
-    "c": null,
     "o": [
       "email",
       "text",
@@ -1041,7 +983,6 @@
   },
   {
     "q": "Which attribute prevents users from leaving an input field empty?",
-    "c": null,
     "o": [
       "required",
       "validate",
@@ -1061,7 +1002,6 @@
   },
   {
     "q": "Which button type resets all input fields in a form?",
-    "c": null,
     "o": [
       "reset",
       "submit",
@@ -1081,7 +1021,6 @@
   },
   {
     "q": "Which HTML tag is used to create a dropdown list?",
-    "c": null,
     "o": [
       "<select>",
       "<dropdown>",
@@ -1091,7 +1030,6 @@
   },
   {
     "q": "Which attribute allows users to select multiple options from a dropdown list?",
-    "c": null,
     "o": [
       "multiple",
       "multi-select",
@@ -1111,7 +1049,6 @@
   },
   {
     "q": "Which input type is used for selecting a file?",
-    "c": null,
     "o": [
       "file",
       "upload",
@@ -1131,7 +1068,6 @@
   },
   {
     "q": "Which HTML element is used to group form controls together?",
-    "c": null,
     "o": [
       "<fieldset>",
       "<group>",
@@ -1151,7 +1087,6 @@
   },
   {
     "q": "Which attribute specifies the maximum number of characters allowed in an input field?",
-    "c": null,
     "o": [
       "maxlength",
       "limit",
@@ -1171,7 +1106,6 @@
   },
   {
     "q": "Which input type is used for selecting a date?",
-    "c": null,
     "o": [
       "date",
       "calendar",
@@ -1191,7 +1125,6 @@
   },
   {
     "q": "Which input type is used to create a password field?",
-    "c": null,
     "o": [
       "password",
       "secure",
@@ -1211,7 +1144,6 @@
   },
   {
     "q": "Which attribute sets a default value in an input field?",
-    "c": null,
     "o": [
       "value",
       "default",
@@ -1231,7 +1163,6 @@
   },
   {
     "q": "Which attribute is used to associate a label with an input field?",
-    "c": null,
     "o": [
       "for",
       "id",
@@ -1251,7 +1182,6 @@
   },
   {
     "q": "Which attribute is used to pre-fill an input field with default text?",
-    "c": null,
     "o": [
       "value",
       "placeholder",
@@ -1271,7 +1201,6 @@
   },
   {
     "q": "Which attribute prevents a user from modifying the input field?",
-    "c": null,
     "o": [
       "readonly",
       "disabled",
@@ -1291,7 +1220,6 @@
   },
   {
     "q": "Which attribute disables an input field so users cannot interact with it?",
-    "c": null,
     "o": [
       "disabled",
       "readonly",
@@ -1311,7 +1239,6 @@
   },
   {
     "q": "Which input type allows a user to select only one option from multiple choices?",
-    "c": null,
     "o": [
       "radio",
       "checkbox",
@@ -1331,7 +1258,6 @@
   },
   {
     "q": "Which input type allows multiple selections at the same time?",
-    "c": null,
     "o": [
       "checkbox",
       "radio",
@@ -1351,7 +1277,6 @@
   },
   {
     "q": "Which attribute forces a user to fill in an input field before submitting a form?",
-    "c": null,
     "o": [
       "required",
       "validate",
@@ -1371,7 +1296,6 @@
   },
   {
     "q": "Which attribute is used to specify a pattern for input validation?",
-    "c": null,
     "o": [
       "pattern",
       "validate",
@@ -1391,7 +1315,6 @@
   },
   {
     "q": "Which input type is used to select a color?",
-    "c": null,
     "o": [
       "color",
       "palette",
@@ -1411,7 +1334,6 @@
   },
   {
     "q": "Which button type submits form data?",
-    "c": null,
     "o": [
       "submit",
       "reset",
@@ -1431,7 +1353,6 @@
   },
   {
     "q": "Which attribute defines where to display the response after form submission?",
-    "c": null,
     "o": [
       "target",
       "action",
@@ -1451,7 +1372,6 @@
   },
   {
     "q": "Which HTML element is used to create a form?",
-    "c": null,
     "o": [
       "<form>",
       "<input>",
@@ -1461,7 +1381,6 @@
   },
   {
     "q": "Which input type is used to enter an email address?",
-    "c": null,
     "o": [
       "email",
       "text",
@@ -1481,7 +1400,6 @@
   },
   {
     "q": "Which attribute is used to provide a hint inside an input field?",
-    "c": null,
     "o": [
       "placeholder",
       "value",
@@ -1491,7 +1409,6 @@
   },
   {
     "q": "Which attribute is used to make an input field non-editable?",
-    "c": null,
     "o": [
       "readonly",
       "disabled",
@@ -1511,7 +1428,6 @@
   },
   {
     "q": "Which button type resets all form fields?",
-    "c": null,
     "o": [
       "reset",
       "submit",
@@ -1531,7 +1447,6 @@
   },
   {
     "q": "Which attribute specifies that an input field must be filled before submitting a form?",
-    "c": null,
     "o": [
       "required",
       "validate",
@@ -1551,7 +1466,6 @@
   },
   {
     "q": "Which attribute specifies the minimum number of characters for an input?",
-    "c": null,
     "o": [
       "minlength",
       "maxlength",
@@ -1561,7 +1475,6 @@
   },
   {
     "q": "Which attribute defines the maximum number of characters allowed in an input field?",
-    "c": null,
     "o": [
       "maxlength",
       "max",
@@ -1581,7 +1494,6 @@
   },
   {
     "q": "Which input type allows the user to pick a date?",
-    "c": null,
     "o": [
       "date",
       "datetime",
@@ -1601,7 +1513,6 @@
   },
   {
     "q": "Which attribute defines a pre-selected option in a dropdown?",
-    "c": null,
     "o": [
       "selected",
       "checked",
@@ -1621,7 +1532,6 @@
   },
   {
     "q": "Which input type is used to upload files?",
-    "c": null,
     "o": [
       "file",
       "upload",
@@ -1641,7 +1551,6 @@
   },
   {
     "q": "Which input type is used for password fields?",
-    "c": null,
     "o": [
       "password",
       "text",
@@ -1661,7 +1570,6 @@
   },
   {
     "q": "Which attribute is used to group related form elements?",
-    "c": null,
     "o": [
       "fieldset",
       "group",
@@ -1681,7 +1589,6 @@
   },
   {
     "q": "Which attribute is used to associate a label with an input field?",
-    "c": null,
     "o": [
       "for",
       "id",
@@ -1701,7 +1608,6 @@
   },
   {
     "q": "Which input type is used for selecting multiple options?",
-    "c": null,
     "o": [
       "checkbox",
       "radio",
@@ -1721,7 +1627,6 @@
   },
   {
     "q": "Which attribute is used to prevent a user from selecting multiple radio buttons?",
-    "c": null,
     "o": [
       "name",
       "id",
@@ -1741,7 +1646,6 @@
   },
   {
     "q": "Which attribute is used to specify a default value for an input field?",
-    "c": null,
     "o": [
       "value",
       "default",
@@ -1761,7 +1665,6 @@
   },
   {
     "q": "Which attribute prevents a form from being submitted when an input field is empty?",
-    "c": null,
     "o": [
       "required",
       "validate",
@@ -1771,7 +1674,6 @@
   },
   {
     "q": "Which button type is used to submit a form?",
-    "c": null,
     "o": [
       "submit",
       "button",
@@ -1791,7 +1693,6 @@
   },
   {
     "q": "Which input type is used for passwords?",
-    "c": null,
     "o": [
       "password",
       "text",
@@ -1801,7 +1702,6 @@
   },
   {
     "q": "Which attribute defines a pattern for input validation?",
-    "c": null,
     "o": [
       "pattern",
       "regex",
@@ -1821,7 +1721,6 @@
   },
   {
     "q": "Which attribute limits the highest number allowed in a number input field?",
-    "c": null,
     "o": [
       "max",
       "maxlength",
@@ -1831,7 +1730,6 @@
   },
   {
     "q": "Which attribute ensures an input value does not go below a certain number?",
-    "c": null,
     "o": [
       "min",
       "minlength",
@@ -1851,7 +1749,6 @@
   },
   {
     "q": "Which attribute allows multiple file selection in a file input?",
-    "c": null,
     "o": [
       "multiple",
       "many",
@@ -1861,7 +1758,6 @@
   },
   {
     "q": "Which input type is used for selecting a color?",
-    "c": null,
     "o": [
       "color",
       "palette",
@@ -1881,7 +1777,6 @@
   },
   {
     "q": "Which HTML5 attribute prevents autocomplete suggestions in input fields?",
-    "c": null,
     "o": [
       "autocomplete=\"off\"",
       "autosuggest=\"false\"",
@@ -1891,7 +1786,6 @@
   },
   {
     "q": "Which element is used to provide hints when hovering over an input field?",
-    "c": null,
     "o": [
       "title",
       "tooltip",
@@ -1911,7 +1805,6 @@
   },
   {
     "q": "Which HTML element is used to create a form?",
-    "c": null,
     "o": [
       "<form>",
       "<input>",
@@ -1921,7 +1814,6 @@
   },
   {
     "q": "Which input type is used for entering an email address?",
-    "c": null,
     "o": [
       "email",
       "text",
@@ -1931,7 +1823,6 @@
   },
   {
     "q": "What is the purpose of the 'action' attribute in a form?",
-    "c": null,
     "o": [
       "Specifies where to send the form data",
       "Defines the form validation rules",
@@ -1941,7 +1832,6 @@
   },
   {
     "q": "Which attribute is used to make an input field mandatory?",
-    "c": null,
     "o": [
       "required",
       "validate",
@@ -1961,7 +1851,6 @@
   },
   {
     "q": "Which attribute specifies that an input field must be filled out before submitting the form?",
-    "c": null,
     "o": [
       "required",
       "mandatory",
@@ -1981,7 +1870,6 @@
   },
   {
     "q": "Which element groups related form controls together?",
-    "c": null,
     "o": [
       "<fieldset>",
       "<form>",
@@ -1991,7 +1879,6 @@
   },
   {
     "q": "What does the 'novalidate' attribute do?",
-    "c": null,
     "o": [
       "Disables form validation",
       "Enables advanced validation",
@@ -2001,7 +1888,6 @@
   },
   {
     "q": "Which attribute is used to specify a placeholder text inside an input field?",
-    "c": null,
     "o": [
       "placeholder",
       "value",
@@ -2021,7 +1907,6 @@
   },
   {
     "q": "Which input type is used for selecting a date?",
-    "c": null,
     "o": [
       "date",
       "datetime",
@@ -2041,7 +1926,6 @@
   },
   {
     "q": "Which attribute prevents the user from modifying an input field?",
-    "c": null,
     "o": [
       "readonly",
       "disabled",
@@ -2061,7 +1945,6 @@
   },
   {
     "q": "Which input type allows selecting only one option at a time?",
-    "c": null,
     "o": [
       "radio",
       "checkbox",
@@ -2081,7 +1964,6 @@
   },
   {
     "q": "Which input type is used for password fields?",
-    "c": null,
     "o": [
       "password",
       "text",
@@ -2091,7 +1973,6 @@
   },
   {
     "q": "Which attribute is used to disable an input field?",
-    "c": null,
     "o": [
       "disabled",
       "readonly",
@@ -2101,7 +1982,6 @@
   },
   {
     "q": "Which attribute specifies the maximum number of characters allowed in an input field?",
-    "c": null,
     "o": [
       "maxlength",
       "max",
@@ -2121,7 +2001,6 @@
   },
   {
     "q": "Which input type is used for selecting multiple files?",
-    "c": null,
     "o": [
       "file",
       "text",
@@ -2131,7 +2010,6 @@
   },
   {
     "q": "Which input type is used for entering a URL?",
-    "c": null,
     "o": [
       "url",
       "text",
@@ -2151,7 +2029,6 @@
   },
   {
     "q": "Which button type resets all input fields to their default values?",
-    "c": null,
     "o": [
       "reset",
       "clear",
@@ -2161,7 +2038,6 @@
   },
   {
     "q": "Which attribute is used to group related input fields in a form?",
-    "c": null,
     "o": [
       "<fieldset>",
       "<group>",
@@ -2181,7 +2057,6 @@
   },
   {
     "q": "Which HTML element defines a label for an input field?",
-    "c": null,
     "o": [
       "<label>",
       "<input>",
@@ -2191,7 +2066,6 @@
   },
   {
     "q": "What is the purpose of the 'for' attribute in a <label> tag?",
-    "c": null,
     "o": [
       "Links the label to an input field using its 'id'.",
       "Defines a placeholder for the input field.",
@@ -2211,7 +2085,6 @@
   },
   {
     "q": "Which input type is used for selecting a range of values?",
-    "c": null,
     "o": [
       "range",
       "number",
@@ -2231,7 +2104,6 @@
   },
   {
     "q": "Which attribute is used to define a default value for an input field?",
-    "c": null,
     "o": [
       "value",
       "default",
@@ -2251,7 +2123,6 @@
   },
   {
     "q": "Which HTML element is used to create a dropdown list?",
-    "c": null,
     "o": [
       "<select>",
       "<dropdown>",
@@ -2271,7 +2142,6 @@
   },
   {
     "q": "Which attribute is used to allow multiple file uploads?",
-    "c": null,
     "o": [
       "multiple",
       "files",
@@ -2291,7 +2161,6 @@
   },
   {
     "q": "Which input type is used for selecting a color?",
-    "c": null,
     "o": [
       "color",
       "picker",
@@ -2311,7 +2180,6 @@
   },
   {
     "q": "Which attribute is used to specify an alternative text for an image input?",
-    "c": null,
     "o": [
       "alt",
       "title",
@@ -2321,7 +2189,6 @@
   },
   {
     "q": "What is the purpose of the 'pattern' attribute in an input field?",
-    "c": null,
     "o": [
       "Defines a regular expression for validation.",
       "Sets the background color of the input field.",
@@ -2331,7 +2198,6 @@
   },
   {
     "q": "Which input type is used for a search field?",
-    "c": null,
     "o": [
       "search",
       "text",
@@ -2351,7 +2217,6 @@
   },
   {
     "q": "Which attribute specifies that an input field should automatically get focus when the page loads?",
-    "c": null,
     "o": [
       "autofocus",
       "focus",
@@ -2371,7 +2236,6 @@
   },
   {
     "q": "Which attribute is used to display a tooltip when hovering over an input field?",
-    "c": null,
     "o": [
       "title",
       "tooltip",
@@ -2391,7 +2255,6 @@
   },
   {
     "q": "Which attribute is used to ensure an input field is not left empty?",
-    "c": null,
     "o": [
       "required",
       "validate",
@@ -2411,7 +2274,6 @@
   },
   {
     "q": "Which HTML input type is used for entering an email address?",
-    "c": null,
     "o": [
       "email",
       "text",
@@ -2431,7 +2293,6 @@
   },
   {
     "q": "Which HTML tag is used to create a multi-line text input field?",
-    "c": null,
     "o": [
       "<textarea>",
       "<input type='text'>",
@@ -2451,7 +2312,6 @@
   },
   {
     "q": "Which attribute is used to specify a default option in a dropdown list?",
-    "c": null,
     "o": [
       "selected",
       "default",
@@ -2461,7 +2321,6 @@
   },
   {
     "q": "Which of the following is the correct way to define a password field?",
-    "c": null,
     "o": [
       "<input type=\"password\">",
       "<input type=\"text\" password>",
@@ -2481,7 +2340,6 @@
   },
   {
     "q": "Which attribute defines a minimum value for a number input field?",
-    "c": null,
     "o": [
       "min",
       "minimum",
@@ -2501,7 +2359,6 @@
   },
   {
     "q": "Which attribute is used to display a hint inside an input field?",
-    "c": null,
     "o": [
       "placeholder",
       "hint",
@@ -2521,7 +2378,6 @@
   },
   {
     "q": "Which form attribute specifies where to send form data after submission?",
-    "c": null,
     "o": [
       "action",
       "method",
@@ -2541,7 +2397,6 @@
   },
   {
     "q": "Which HTML attribute prevents users from changing the input field value?",
-    "c": null,
     "o": [
       "readonly",
       "disabled",
@@ -2551,7 +2406,6 @@
   },
   {
     "q": "What is the difference between the 'readonly' and 'disabled' attributes?",
-    "c": null,
     "o": [
       "readonly allows focus and selection, but disabled does not.",
       "There is no difference.",
@@ -2561,7 +2415,6 @@
   },
   {
     "q": "Which input type is used for selecting a date?",
-    "c": null,
     "o": [
       "date",
       "datetime",
@@ -2581,7 +2434,6 @@
   },
   {
     "q": "Which attribute is used to disable a button?",
-    "c": null,
     "o": [
       "disabled",
       "readonly",
@@ -2601,7 +2453,6 @@
   },
   {
     "q": "Which attribute forces an input field to accept numeric values only?",
-    "c": null,
     "o": [
       "type=\"number\"",
       "type=\"text\"",
@@ -2611,7 +2462,6 @@
   },
   {
     "q": "Which attribute is used to specify the HTTP method used when submitting a form?",
-    "c": null,
     "o": [
       "method",
       "action",
@@ -2621,7 +2471,6 @@
   },
   {
     "q": "What is the default HTTP method for a form if no method is specified?",
-    "c": null,
     "o": [
       "GET",
       "POST",
@@ -2631,7 +2480,6 @@
   },
   {
     "q": "Which attribute is used to group related form elements together?",
-    "c": null,
     "o": [
       "fieldset",
       "group",
@@ -2651,7 +2499,6 @@
   },
   {
     "q": "Which attribute is used to ensure only numeric input in a text field?",
-    "c": null,
     "o": [
       "type=\"number\"",
       "type=\"numeric\"",
@@ -2671,7 +2518,6 @@
   },
   {
     "q": "Which input type is used for selecting a color?",
-    "c": null,
     "o": [
       "color",
       "picker",
@@ -2691,7 +2537,6 @@
   },
   {
     "q": "Which attribute ensures that a password field masks the input characters?",
-    "c": null,
     "o": [
       "type=\"password\"",
       "type=\"secure\"",
@@ -2711,7 +2556,6 @@
   },
   {
     "q": "Which HTML input type is used to select a date and time?",
-    "c": null,
     "o": [
       "datetime-local",
       "date",
@@ -2721,7 +2565,6 @@
   },
   {
     "q": "Which HTML form attribute specifies where to open the response after form submission?",
-    "c": null,
     "o": [
       "target",
       "action",
@@ -2731,7 +2574,6 @@
   },
   {
     "q": "Which button type prevents form submission by default?",
-    "c": null,
     "o": [
       "button",
       "submit",
@@ -2751,7 +2593,6 @@
   },
   {
     "q": "Which form element allows users to select multiple options?",
-    "c": null,
     "o": [
       "checkbox",
       "radio",
@@ -2761,7 +2602,6 @@
   },
   {
     "q": "Which HTML attribute specifies a predefined list of valid input values?",
-    "c": null,
     "o": [
       "list",
       "options",
@@ -2781,7 +2621,6 @@
   },
   {
     "q": "Which form attribute helps in autofilling fields based on previously entered values?",
-    "c": null,
     "o": [
       "autocomplete",
       "autofill",
@@ -2791,7 +2630,6 @@
   },
   {
     "q": "What does the 'novalidate' attribute do in a form?",
-    "c": null,
     "o": [
       "It disables form validation.",
       "It prevents form submission.",
@@ -2811,7 +2649,6 @@
   },
   {
     "q": "Which form element allows users to upload files?",
-    "c": null,
     "o": [
       "<input type=\"file\">",
       "<upload>",
@@ -2821,7 +2658,6 @@
   },
   {
     "q": "Which attribute specifies the maximum number of characters allowed in an input field?",
-    "c": null,
     "o": [
       "maxlength",
       "maxchars",
@@ -2831,7 +2667,6 @@
   },
   {
     "q": "What is the default method for form submission if no method is specified?",
-    "c": null,
     "o": [
       "GET",
       "POST",
@@ -2841,7 +2676,6 @@
   },
   {
     "q": "Which form attribute ensures that a field must be completed before submission?",
-    "c": null,
     "o": [
       "required",
       "validate",
@@ -2851,7 +2685,6 @@
   },
   {
     "q": "Which HTML tag is used to create a form?",
-    "c": null,
     "o": [
       "<form>",
       "<input>",
@@ -2861,7 +2694,6 @@
   },
   {
     "q": "What is the purpose of the 'action' attribute in a form?",
-    "c": null,
     "o": [
       "Specifies where to send the form data.",
       "Defines the form layout.",
@@ -2871,7 +2703,6 @@
   },
   {
     "q": "Which HTML input type allows users to select only one option from multiple choices?",
-    "c": null,
     "o": [
       "radio",
       "checkbox",
@@ -2891,7 +2722,6 @@
   },
   {
     "q": "Which input type is used to select a date?",
-    "c": null,
     "o": [
       "date",
       "datetime",
@@ -2911,7 +2741,6 @@
   },
   {
     "q": "Which HTML attribute prevents a user from editing an input field?",
-    "c": null,
     "o": [
       "readonly",
       "disabled",
@@ -2931,7 +2760,6 @@
   },
   {
     "q": "Which button type is used to clear form inputs?",
-    "c": null,
     "o": [
       "reset",
       "submit",
@@ -2941,7 +2769,6 @@
   },
   {
     "q": "Which attribute allows users to select multiple files in a file input field?",
-    "c": null,
     "o": [
       "multiple",
       "files",
@@ -2951,7 +2778,6 @@
   },
   {
     "q": "What is the purpose of the 'placeholder' attribute in an input field?",
-    "c": null,
     "o": [
       "Displays a hint text inside the input field.",
       "Defines a default value.",
@@ -2971,7 +2797,6 @@
   },
   {
     "q": "Which attribute ensures that an input field is focused when the page loads?",
-    "c": null,
     "o": [
       "autofocus",
       "focus",
@@ -2981,7 +2806,6 @@
   },
   {
     "q": "Which HTML input type is used for creating a password field?",
-    "c": null,
     "o": [
       "password",
       "secure",
@@ -3001,7 +2825,6 @@
   },
   {
     "q": "Which HTML tag is used to create a dropdown list?",
-    "c": null,
     "o": [
       "<select>",
       "<dropdown>",
@@ -3011,7 +2834,6 @@
   },
   {
     "q": "Which attribute in the form tag disables browser validation?",
-    "c": null,
     "o": [
       "novalidate",
       "disable-validation",
@@ -3021,7 +2843,6 @@
   },
   {
     "q": "Which input type allows users to enter a URL?",
-    "c": null,
     "o": [
       "url",
       "link",
@@ -3041,7 +2862,6 @@
   },
   {
     "q": "Which attribute specifies that an input field should only accept numbers?",
-    "c": null,
     "o": [
       "type=\"number\"",
       "type=\"integer\"",
@@ -3051,7 +2871,6 @@
   },
   {
     "q": "Which attribute defines a default value in an input field?",
-    "c": null,
     "o": [
       "value",
       "default",
@@ -3061,7 +2880,6 @@
   },
   {
     "q": "Which HTML element groups related form controls together?",
-    "c": null,
     "o": [
       "fieldset",
       "group",
@@ -3071,7 +2889,6 @@
   },
   {
     "q": "Which attribute limits the number of characters a user can enter?",
-    "c": null,
     "o": [
       "maxlength",
       "length",
@@ -3081,7 +2898,6 @@
   },
   {
     "q": "Which attribute is used to associate a label with an input field?",
-    "c": null,
     "o": [
       "for",
       "id",
@@ -3091,7 +2907,6 @@
   },
   {
     "q": "What is the purpose of the 'method' attribute in a form?",
-    "c": null,
     "o": [
       "Defines how form data is sent (GET or POST).",
       "Specifies the form layout.",
@@ -3111,7 +2926,6 @@
   },
   {
     "q": "Which HTML input type allows users to choose multiple options?",
-    "c": null,
     "o": [
       "checkbox",
       "radio",
@@ -3131,7 +2945,6 @@
   },
   {
     "q": "Which input type is used for selecting a color?",
-    "c": null,
     "o": [
       "color",
       "palette",
@@ -3141,7 +2954,6 @@
   },
   {
     "q": "What is the correct way to define a submit button in a form?",
-    "c": null,
     "o": [
       "<button type=\"submit\">Submit</button>",
       "<button>Submit</button>",
@@ -3151,7 +2963,6 @@
   },
   {
     "q": "Which HTML attribute specifies that an input field should not be editable?",
-    "c": null,
     "o": [
       "readonly",
       "disabled",
@@ -3171,7 +2982,6 @@
   },
   {
     "q": "Which attribute makes a form field mandatory?",
-    "c": null,
     "o": [
       "required",
       "mandatory",
@@ -3181,7 +2991,6 @@
   },
   {
     "q": "Which HTML element is used to group form controls together?",
-    "c": null,
     "o": [
       "fieldset",
       "group",
@@ -3201,7 +3010,6 @@
   },
   {
     "q": "Which input type is used for entering an email address?",
-    "c": null,
     "o": [
       "email",
       "text",
@@ -3211,7 +3019,6 @@
   },
   {
     "q": "Which attribute is used to suggest possible input values?",
-    "c": null,
     "o": [
       "list",
       "datalist",
@@ -3231,7 +3038,6 @@
   },
   {
     "q": "Which attribute is used to disable an input field?",
-    "c": null,
     "o": [
       "disabled",
       "readonly",
@@ -3241,7 +3047,6 @@
   },
   {
     "q": "Which input type is used for selecting a range of values?",
-    "c": null,
     "o": [
       "range",
       "slider",
@@ -3251,7 +3056,6 @@
   },
   {
     "q": "Which attribute limits the number of characters in an input field?",
-    "c": null,
     "o": [
       "maxlength",
       "length",
@@ -3271,7 +3075,6 @@
   },
   {
     "q": "Which attribute helps browsers auto-fill input fields?",
-    "c": null,
     "o": [
       "autocomplete",
       "autofill",
@@ -3281,7 +3084,6 @@
   },
   {
     "q": "Which HTML tag is used to create a dropdown list?",
-    "c": null,
     "o": [
       "<select>",
       "<dropdown>",
@@ -3291,7 +3093,6 @@
   },
   {
     "q": "Which input type is used for entering a password?",
-    "c": null,
     "o": [
       "password",
       "secure",
@@ -3301,7 +3102,6 @@
   },
   {
     "q": "Which input type ensures users enter a valid phone number?",
-    "c": null,
     "o": [
       "tel",
       "number",
@@ -3311,7 +3111,6 @@
   },
   {
     "q": "Which form attribute disables browser validation?",
-    "c": null,
     "o": [
       "novalidate",
       "disable-validation",
@@ -3321,7 +3120,6 @@
   },
   {
     "q": "Which HTML element provides a description for an input field?",
-    "c": null,
     "o": [
       "label",
       "title",
@@ -3331,7 +3129,6 @@
   },
   {
     "q": "Which input type allows users to select a file?",
-    "c": null,
     "o": [
       "file",
       "document",
@@ -3341,7 +3138,6 @@
   },
   {
     "q": "Which attribute is used to focus an input field when the page loads?",
-    "c": null,
     "o": [
       "autofocus",
       "focus",
@@ -3351,7 +3147,6 @@
   },
   {
     "q": "Which HTML element is used to create a form?",
-    "c": null,
     "o": [
       "<form>",
       "<input>",
@@ -3361,7 +3156,6 @@
   },
   {
     "q": "Which input type allows users to select only one option from multiple choices?",
-    "c": null,
     "o": [
       "radio",
       "checkbox",
@@ -3381,7 +3175,6 @@
   },
   {
     "q": "Which HTML attribute is used to specify that an input field must be filled before submitting?",
-    "c": null,
     "o": [
       "required",
       "validate",
@@ -3391,7 +3184,6 @@
   },
   {
     "q": "What is the purpose of the 'action' attribute in a form?",
-    "c": null,
     "o": [
       "Defines where form data is sent.",
       "Validates form input.",
@@ -3401,7 +3193,6 @@
   },
   {
     "q": "Which form input type hides user input while typing?",
-    "c": null,
     "o": [
       "password",
       "hidden",
@@ -3421,7 +3212,6 @@
   },
   {
     "q": "Which attribute is used to prevent an input field from being edited?",
-    "c": null,
     "o": [
       "readonly",
       "disabled",
@@ -3441,7 +3231,6 @@
   },
   {
     "q": "Which HTML element groups related form controls together?",
-    "c": null,
     "o": [
       "fieldset",
       "div",
@@ -3461,7 +3250,6 @@
   },
   {
     "q": "Which attribute is used to prefill an input field with a default value?",
-    "c": null,
     "o": [
       "value",
       "placeholder",
@@ -3471,7 +3259,6 @@
   },
   {
     "q": "Which input type is used for selecting a date?",
-    "c": null,
     "o": [
       "date",
       "datetime",
@@ -3491,7 +3278,6 @@
   },
   {
     "q": "Which input type allows users to enter a number only?",
-    "c": null,
     "o": [
       "number",
       "text",
@@ -3501,7 +3287,6 @@
   },
   {
     "q": "Which HTML element is used to define an option in a dropdown list?",
-    "c": null,
     "o": [
       "<option>",
       "<select>",
@@ -3511,7 +3296,6 @@
   },
   {
     "q": "Which HTML element is used to create a dropdown menu?",
-    "c": null,
     "o": [
       "<select>",
       "<dropdown>",
@@ -3531,7 +3315,6 @@
   },
   {
     "q": "Which input type allows users to select multiple files for upload?",
-    "c": null,
     "o": [
       "file with multiple attribute",
       "file",
@@ -3541,7 +3324,6 @@
   },
   {
     "q": "Which attribute enables an input field to receive focus when the page loads?",
-    "c": null,
     "o": [
       "autofocus",
       "focus",
@@ -3561,7 +3343,6 @@
   },
   {
     "q": "Which attribute allows users to select multiple options in a dropdown list?",
-    "c": null,
     "o": [
       "multiple",
       "multiselect",
@@ -3571,7 +3352,6 @@
   },
   {
     "q": "Which HTML element provides a caption for a fieldset?",
-    "c": null,
     "o": [
       "<legend>",
       "<caption>",
@@ -3581,7 +3361,6 @@
   },
   {
     "q": "Which HTML tag is used to create an input field in a form?",
-    "c": null,
     "o": [
       "<input>",
       "<form>",
@@ -3601,7 +3380,6 @@
   },
   {
     "q": "Which attribute specifies where to send the form data when submitted?",
-    "c": null,
     "o": [
       "action",
       "method",
@@ -3611,7 +3389,6 @@
   },
   {
     "q": "Which input type allows users to select multiple options at once?",
-    "c": null,
     "o": [
       "checkbox",
       "radio",
@@ -3621,7 +3398,6 @@
   },
   {
     "q": "What does the 'required' attribute do in an input field?",
-    "c": null,
     "o": [
       "Prevents form submission if the field is empty.",
       "Makes the input field readonly.",
@@ -3631,7 +3407,6 @@
   },
   {
     "q": "Which button type resets all form inputs to their default values?",
-    "c": null,
     "o": [
       "reset",
       "submit",
@@ -3651,7 +3426,6 @@
   },
   {
     "q": "Which attribute ensures that an input field contains a minimum number of characters?",
-    "c": null,
     "o": [
       "minlength",
       "maxlength",
@@ -3671,7 +3445,6 @@
   },
   {
     "q": "What is the purpose of the 'novalidate' attribute in a form?",
-    "c": null,
     "o": [
       "Disables browser validation of input fields.",
       "Forces all input fields to be required.",
@@ -3681,7 +3454,6 @@
   },
   {
     "q": "Which form attribute defines how form data should be encoded when submitted?",
-    "c": null,
     "o": [
       "enctype",
       "method",
@@ -3691,7 +3463,6 @@
   },
   {
     "q": "Which attribute in an input field provides a hint to the user?",
-    "c": null,
     "o": [
       "placeholder",
       "value",
@@ -3711,7 +3482,6 @@
   },
   {
     "q": "Which input type is used to upload a file?",
-    "c": null,
     "o": [
       "file",
       "upload",
@@ -3731,7 +3501,6 @@
   },
   {
     "q": "Which form method sends data in the request body instead of the URL?",
-    "c": null,
     "o": [
       "POST",
       "GET",
@@ -3741,7 +3510,6 @@
   },
   {
     "q": "What does the 'autocomplete' attribute do in a form?",
-    "c": null,
     "o": [
       "Allows the browser to suggest previously entered values.",
       "Automatically fills the input field with a default value.",
@@ -3751,7 +3519,6 @@
   },
   {
     "q": "Which attribute ensures an input field contains a specific pattern of characters?",
-    "c": null,
     "o": [
       "pattern",
       "maxlength",
@@ -3761,7 +3528,6 @@
   },
   {
     "q": "Which input type is used for selecting a time?",
-    "c": null,
     "o": [
       "time",
       "datetime",
@@ -3781,7 +3547,6 @@
   },
   {
     "q": "Which HTML element defines a label for an input field?",
-    "c": null,
     "o": [
       "<label>",
       "<span>",
@@ -3791,7 +3556,6 @@
   },
   {
     "q": "Which button type submits a form when clicked?",
-    "c": null,
     "o": [
       "submit",
       "button",
@@ -3801,7 +3565,6 @@
   },
   {
     "q": "Which form input type provides a list of predefined options?",
-    "c": null,
     "o": [
       "datalist",
       "select",
@@ -3811,7 +3574,6 @@
   },
   {
     "q": "Which input attribute is used to specify a predefined value?",
-    "c": null,
     "o": [
       "value",
       "placeholder",
@@ -3821,7 +3583,6 @@
   },
   {
     "q": "Which HTML element is used to create a form?",
-    "c": null,
     "o": [
       "<form>",
       "<input>",
@@ -3831,7 +3592,6 @@
   },
   {
     "q": "What is the purpose of the 'name' attribute in an input field?",
-    "c": null,
     "o": [
       "It identifies the input field when form data is submitted.",
       "It sets a default value for the input field.",
@@ -3851,7 +3611,6 @@
   },
   {
     "q": "Which attribute prevents users from editing an input field?",
-    "c": null,
     "o": [
       "readonly",
       "disabled",
@@ -3861,7 +3620,6 @@
   },
   {
     "q": "What is the function of the 'maxlength' attribute?",
-    "c": null,
     "o": [
       "It limits the number of characters a user can enter.",
       "It sets the minimum number of characters required.",
@@ -3901,7 +3659,6 @@
   },
   {
     "q": "Which input type allows users to select a color?",
-    "c": null,
     "o": [
       "color",
       "picker",
@@ -3941,7 +3698,6 @@
   },
   {
     "q": "Which form attribute specifies the HTTP method used to submit data?",
-    "c": null,
     "o": [
       "method",
       "action",
@@ -3971,7 +3727,6 @@
   },
   {
     "q": "What does the 'pattern' attribute do in an input field?",
-    "c": null,
     "o": [
       "It defines a regular expression for input validation.",
       "It sets a default value for the input field.",
@@ -3991,7 +3746,6 @@
   },
   {
     "q": "Which attribute disables an input field so users cannot enter data?",
-    "c": null,
     "o": [
       "disabled",
       "readonly",
@@ -4041,7 +3795,6 @@
   },
   {
     "q": "Which button type does not submit the form by default?",
-    "c": null,
     "o": [
       "button",
       "submit",
@@ -4051,7 +3804,6 @@
   },
   {
     "q": "What is the correct HTML tag to create a form?",
-    "c": null,
     "o": [
       "<form>",
       "<input>",
@@ -4071,7 +3823,6 @@
   },
   {
     "q": "Which attribute is used to specify where to send the form data when a form is submitted?",
-    "c": null,
     "o": [
       "action",
       "method",
@@ -4081,7 +3832,6 @@
   },
   {
     "q": "What is the correct HTML for creating a checkbox?",
-    "c": null,
     "o": [
       "<input type=\"checkbox\">",
       "<input type=\"check\">",
@@ -4101,7 +3851,6 @@
   },
   {
     "q": "Which HTML attribute is used to make a form input field mandatory?",
-    "c": null,
     "o": [
       "required",
       "mandatory",
@@ -4121,7 +3870,6 @@
   },
   {
     "q": "Which HTML form element creates a button that clears all form fields?",
-    "c": null,
     "o": [
       "<button type=\"reset\">",
       "<button type=\"clear\">",
@@ -4141,7 +3889,6 @@
   },
   {
     "q": "What is the purpose of the <fieldset> element in HTML forms?",
-    "c": null,
     "o": [
       "To group related form elements together",
       "To create a text input field",
@@ -4161,7 +3908,6 @@
   },
   {
     "q": "Which HTML input type is specifically designed for email addresses?",
-    "c": null,
     "o": [
       "email",
       "text",
@@ -4181,7 +3927,6 @@
   },
   {
     "q": "Which attribute is used to create a placeholder text in an input field?",
-    "c": null,
     "o": [
       "placeholder",
       "value",
@@ -4201,7 +3946,6 @@
   },
   {
     "q": "Which HTML element is used to provide a caption or heading for a form?",
-    "c": null,
     "o": [
       "<legend>",
       "<caption>",
@@ -4221,7 +3965,6 @@
   },
   {
     "q": "What is the purpose of the 'autocomplete' attribute in HTML forms?",
-    "c": null,
     "o": [
       "To enable or disable the browser's autocomplete functionality for form fields",
       "To automatically submit the form when all fields are completed",
@@ -4241,7 +3984,6 @@
   },
   {
     "q": "Which attribute is used to specify a regular expression that an input field's value must match?",
-    "c": null,
     "o": [
       "pattern",
       "regex",
@@ -4261,7 +4003,6 @@
   },
   {
     "q": "Which HTML input type creates a color picker?",
-    "c": null,
     "o": [
       "color",
       "palette",
@@ -4281,7 +4022,6 @@
   },
   {
     "q": "What is the purpose of the 'formaction' attribute on a submit button?",
-    "c": null,
     "o": [
       "To override the form's action attribute for that specific button",
       "To validate the form before submission",
@@ -4301,7 +4041,6 @@
   },
   {
     "q": "Which attribute can be used on the <form> element to perform client-side validation before submission?",
-    "c": null,
     "o": [
       "onsubmit",
       "validate",
@@ -4321,7 +4060,6 @@
   },
   {
     "q": "What is the function of the 'disabled' attribute in form controls?",
-    "c": null,
     "o": [
       "To make the control non-interactive and exclude its value from form submission",
       "To hide the control from view",
@@ -4341,7 +4079,6 @@
   },
   {
     "q": "Which HTML attribute specifies an alternate text for an image input button?",
-    "c": null,
     "o": [
       "alt",
       "title",
@@ -4361,7 +4098,6 @@
   },
   {
     "q": "What is the purpose of the <output> element in HTML forms?",
-    "c": null,
     "o": [
       "To represent the result of a calculation or user action",
       "To create an output field that can be submitted with the form",
@@ -4381,7 +4117,6 @@
   },
   {
     "q": "Which attribute makes a form input read-only but still submittable with the form?",
-    "c": null,
     "o": [
       "readonly",
       "disabled",
@@ -4401,7 +4136,6 @@
   },
   {
     "q": "What is the purpose of the 'form' attribute on an input element?",
-    "c": null,
     "o": [
       "To associate the input with a form outside its ancestor hierarchy",
       "To create a subform within the main form",
@@ -4421,7 +4155,6 @@
   },
   {
     "q": "Which event is triggered when a form element's value is changed?",
-    "c": null,
     "o": [
       "onchange",
       "onmodify",
@@ -4441,7 +4174,6 @@
   },
   {
     "q": "Which HTML5 form validation attribute shows a custom message when validation fails?",
-    "c": null,
     "o": [
       "title",
       "message",
@@ -4461,7 +4193,6 @@
   },
   {
     "q": "What is the difference between GET and POST methods in HTML forms?",
-    "c": null,
     "o": [
       "GET appends form data to the URL while POST sends it in the HTTP request body",
       "GET is for retrieving data while POST is only for submitting new data",
@@ -4481,7 +4212,6 @@
   },
   {
     "q": "Which input type is designed specifically for search boxes?",
-    "c": null,
     "o": [
       "search",
       "text",
@@ -4501,7 +4231,6 @@
   },
   {
     "q": "What does the 'formnovalidate' attribute do when applied to a submit button?",
-    "c": null,
     "o": [
       "Bypasses form validation when that specific button is used to submit",
       "Prevents the form from being submitted",
@@ -4521,7 +4250,6 @@
   },
   {
     "q": "Which HTML attribute on an input element is used to provide a short hint about the expected value?",
-    "c": null,
     "o": [
       "placeholder",
       "hint",
@@ -4541,7 +4269,6 @@
   },
   {
     "q": "What is the purpose of the HTML <meter> element?",
-    "c": null,
     "o": [
       "To represent a scalar measurement within a known range",
       "To create a progress bar",
@@ -4561,7 +4288,6 @@
   },
   {
     "q": "What does the 'autofocus' attribute do when applied to a form element?",
-    "c": null,
     "o": [
       "Automatically focuses the input when the page loads",
       "Automatically completes the field with previous entries",
@@ -4581,7 +4307,6 @@
   },
   {
     "q": "What is the purpose of the <optgroup> element in forms?",
-    "c": null,
     "o": [
       "To create grouped options within a select dropdown",
       "To style option elements differently",
@@ -4601,7 +4326,6 @@
   },
   {
     "q": "Which HTML attribute can be used to disable autocapitalization in text inputs on mobile devices?",
-    "c": null,
     "o": [
       "autocapitalize=\"off\"",
       "caps=\"off\"",
@@ -4621,7 +4345,6 @@
   },
   {
     "q": "What is the purpose of the HTML 'inputmode' attribute?",
-    "c": null,
     "o": [
       "To hint at the type of keyboard layout to display on virtual keyboards",
       "To specify the input validation mode",
@@ -4641,7 +4364,6 @@
   },
   {
     "q": "What is the purpose of the 'dirname' attribute in HTML forms?",
-    "c": null,
     "o": [
       "To submit the text direction of an input along with its value",
       "To specify the directory where form data should be stored",
@@ -4661,7 +4383,6 @@
   },
   {
     "q": "Which HTML5 input type would be most appropriate for a credit card number field?",
-    "c": null,
     "o": [
       "tel",
       "number",
@@ -4681,7 +4402,6 @@
   },
   {
     "q": "What is the purpose of the 'accept' attribute on file input elements?",
-    "c": null,
     "o": [
       "To specify which file types are allowed for upload",
       "To automatically accept the file upload without confirmation",
@@ -4701,7 +4421,6 @@
   },
   {
     "q": "What is the purpose of the 'formtarget' attribute on submit buttons?",
-    "c": null,
     "o": [
       "To specify where to display the response after submitting the form",
       "To indicate which element should receive focus after submission",
@@ -4721,7 +4440,6 @@
   },
   {
     "q": "Which HTML form input type provides a spinner control for number entry?",
-    "c": null,
     "o": [
       "number",
       "spinner",
@@ -4741,7 +4459,6 @@
   },
   {
     "q": "What is the most accessible way to associate a label with its input?",
-    "c": null,
     "o": [
       "Using the 'for' attribute that matches the input's 'id'",
       "Placing the input inside the label element",
@@ -4761,7 +4478,6 @@
   },
   {
     "q": "What does the HTML form attribute 'autocomplete=\"off\"' do?",
-    "c": null,
     "o": [
       "Suggests that browsers should not automatically complete values for this form",
       "Prevents the form from being submitted until all fields are manually completed",
@@ -4781,7 +4497,6 @@
   },
   {
     "q": "What is the purpose of the HTML <progress> element?",
-    "c": null,
     "o": [
       "To display the completion progress of a task",
       "To create a loading animation",
@@ -4801,7 +4516,6 @@
   },
   {
     "q": "What is the purpose of the HTML 'multiple' attribute on form elements?",
-    "c": null,
     "o": [
       "To allow selection of multiple values in inputs like file and select",
       "To create multiple instances of the same input",
@@ -4821,7 +4535,6 @@
   },
   {
     "q": "What does the HTML form 'enctype' attribute specify?",
-    "c": null,
     "o": [
       "How form data should be encoded when submitted to the server",
       "The encryption type used for secure form data",
@@ -4841,7 +4554,6 @@
   },
   {
     "q": "What is the correct use of the HTML <button> element's 'type' attribute?",
-    "c": null,
     "o": [
       "type=\"button\" prevents form submission, type=\"submit\" submits the form, type=\"reset\" resets form fields",
       "type=\"action\" performs the button's action, type=\"form\" submits the form",
@@ -4861,7 +4573,6 @@
   },
   {
     "q": "What does the 'size' attribute do on an input element?",
-    "c": null,
     "o": [
       "Specifies the visible width of the input in characters",
       "Limits the maximum number of characters that can be entered",
@@ -4881,7 +4592,6 @@
   },
   {
     "q": "Which HTML attribute is used to specify the encoding of a form submission?",
-    "c": null,
     "o": [
       "accept-charset",
       "charset",
@@ -4901,7 +4611,6 @@
   },
   {
     "q": "What is the purpose of the HTML 'max' attribute on date inputs?",
-    "c": null,
     "o": [
       "To specify the latest date that can be selected",
       "To limit the maximum number of dates that can be selected",
@@ -4921,7 +4630,6 @@
   },
   {
     "q": "What is the purpose of adding 'novalidate' to a form element?",
-    "c": null,
     "o": [
       "To disable browser's native form validation",
       "To indicate that no validation is needed for this form",
@@ -4941,7 +4649,6 @@
   },
   {
     "q": "What is the purpose of the '<label>' element in HTML forms?",
-    "c": null,
     "o": [
       "To associate a text label with a form control for improved accessibility and usability",
       "To add a caption to a form section",
@@ -4961,7 +4668,6 @@
   },
   {
     "q": "What is the purpose of the HTML 'tabindex' attribute in forms?",
-    "c": null,
     "o": [
       "To specify the order in which elements receive focus when navigating with the Tab key",
       "To create tabbed navigation within the form",
@@ -4981,7 +4687,6 @@
   },
   {
     "q": "What is the purpose of the HTML 'form' attribute on button elements?",
-    "c": null,
     "o": [
       "To associate the button with a specific form by ID, even when the button is outside the form",
       "To specify which form template to use for the button",
@@ -5001,7 +4706,6 @@
   },
   {
     "q": "What is the recommended way to group related form controls?",
-    "c": null,
     "o": [
       "Using the <fieldset> element with a <legend>",
       "Using <div> elements with appropriate class names",

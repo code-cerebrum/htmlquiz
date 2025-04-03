@@ -1,6 +1,7 @@
 [
   {
     "q": "What is the output of the following code snippet?\n",
+    "l": "javascript",
     "c": "const button = document.querySelector('button');\nbutton.addEventListener('click', function() {\n    alert('Button clicked!');\n});\nbutton.click();",
     "o": [
       "Button clicked!",
@@ -11,7 +12,6 @@
   },
   {
     "q": "Which of the following is the correct method to select an element by its ID in JavaScript?",
-    "c": null,
     "o": [
       "document.getElementById('elementId')",
       "document.querySelector('#elementId')",
@@ -21,6 +21,7 @@
   },
   {
     "q": "What is the result of the following code snippet?\n",
+    "l": "javascript",
     "c": "const div = document.createElement('div');\ndiv.innerHTML = '<p>Hello World!</p>';\ndocument.body.appendChild(div);",
     "o": [
       "A paragraph with 'Hello World!' will be added to the document body.",
@@ -31,7 +32,6 @@
   },
   {
     "q": "Which of the following is the correct way to change the background color of an element in JavaScript?",
-    "c": null,
     "o": [
       "element.style.backgroundColor = 'blue';",
       "element.backgroundColor = 'blue';",
@@ -41,6 +41,7 @@
   },
   {
     "q": "What does the following code do?\n",
+    "l": "javascript",
     "c": "const button = document.querySelector('button');\nbutton.addEventListener('click', function() {\n    this.style.color = 'red';\n});",
     "o": [
       "It changes the color of the button's text to red when clicked.",
@@ -51,7 +52,6 @@
   },
   {
     "q": "Which of the following is true about event delegation in JavaScript?",
-    "c": null,
     "o": [
       "Event delegation allows you to attach a single event listener to a parent element to handle events on its child elements.",
       "Event delegation is only possible with button elements.",
@@ -61,6 +61,7 @@
   },
   {
     "q": "What will be the result of the following code snippet?\n",
+    "l": "javascript",
     "c": "const element = document.querySelector('#myElement');\nelement.setAttribute('class', 'newClass');",
     "o": [
       "The class attribute of the element with id 'myElement' will be set to 'newClass'.",
@@ -71,7 +72,6 @@
   },
   {
     "q": "Which method can be used to remove an element from the DOM?",
-    "c": null,
     "o": [
       "element.remove()",
       "element.delete()",
@@ -81,7 +81,6 @@
   },
   {
     "q": "How can you stop an event from bubbling up the DOM in JavaScript?",
-    "c": null,
     "o": [
       "event.stopPropagation()",
       "event.preventDefault()",
@@ -91,6 +90,7 @@
   },
   {
     "q": "What will be the output of the following code?\n",
+    "l": "javascript",
     "c": "const button = document.querySelector('button');\nbutton.addEventListener('click', function(event) {\n    event.preventDefault();\n    alert('Button clicked!');\n});",
     "o": [
       "The alert 'Button clicked!' will appear, and the default button action will be prevented.",
@@ -101,6 +101,7 @@
   },
   {
     "q": "What is the result of the following code snippet?\n",
+    "l": "javascript",
     "c": "const para = document.querySelector('p');\npara.textContent = 'Updated text!';",
     "o": [
       "The text content of the first paragraph element will be updated to 'Updated text!'.",
@@ -111,7 +112,6 @@
   },
   {
     "q": "Which of the following methods is used to select all elements with a specific class name in JavaScript?",
-    "c": null,
     "o": [
       "document.querySelectorAll('.className')",
       "document.select('.className')",
@@ -121,6 +121,7 @@
   },
   {
     "q": "What will happen when the following code is executed?\n",
+    "l": "javascript",
     "c": "const link = document.querySelector('a');\nlink.addEventListener('click', function(event) {\n    event.preventDefault();\n    alert('Link clicked!');\n});",
     "o": [
       "The alert 'Link clicked!' will appear, and the default behavior of the link (navigating to a new page) will be prevented.",
@@ -131,7 +132,6 @@
   },
   {
     "q": "Which method is used to change the value of an input field in JavaScript?",
-    "c": null,
     "o": [
       "inputElement.value = 'new value';",
       "inputElement.setValue('new value');",
@@ -141,6 +141,7 @@
   },
   {
     "q": "What will the following code do?\n",
+    "l": "javascript",
     "c": "const button = document.querySelector('button');\nbutton.addEventListener('click', function() {\n    button.style.backgroundColor = 'blue';\n});",
     "o": [
       "The background color of the button will change to blue when clicked.",
@@ -151,7 +152,6 @@
   },
   {
     "q": "Which of the following is true about the 'addEventListener' method in JavaScript?",
-    "c": null,
     "o": [
       "It allows you to attach multiple event listeners to a single element.",
       "It can only handle one event at a time.",
@@ -161,6 +161,7 @@
   },
   {
     "q": "What is the result of executing the following code?\n",
+    "l": "javascript",
     "c": "const div = document.createElement('div');\ndiv.textContent = 'New Element';\ndocument.body.appendChild(div);",
     "o": [
       "A new div element with text 'New Element' will be added to the body.",
@@ -171,7 +172,6 @@
   },
   {
     "q": "Which method would you use to find the first element that matches a CSS selector?",
-    "c": null,
     "o": [
       "document.querySelector()",
       "document.getElementById()",
@@ -181,6 +181,7 @@
   },
   {
     "q": "What is the output of the following code?\n",
+    "l": "javascript",
     "c": "const div = document.querySelector('div');\ndiv.classList.add('new-class');",
     "o": [
       "The div element will have a new class 'new-class' added.",
@@ -191,7 +192,6 @@
   },
   {
     "q": "Which of the following correctly changes the font size of an element with the id 'textElement' in JavaScript?",
-    "c": null,
     "o": [
       "document.getElementById('textElement').style.fontSize = '20px';",
       "document.getElementById('textElement').changeFontSize('20px');",
@@ -201,6 +201,7 @@
   },
   {
     "q": "What is the result of executing the following code snippet?\n",
+    "l": "javascript",
     "c": "const element = document.querySelector('.box');\nelement.style.width = '200px';\nelement.style.height = '200px';",
     "o": [
       "The element with class 'box' will be resized to 200px by 200px.",
@@ -211,7 +212,6 @@
   },
   {
     "q": "Which of the following methods is used to select elements by tag name in JavaScript?",
-    "c": null,
     "o": [
       "document.getElementsByTagName('tagName')",
       "document.querySelector('tagName')",
@@ -221,6 +221,7 @@
   },
   {
     "q": "What will be the output of the following code?\n",
+    "l": "javascript",
     "c": "const button = document.querySelector('button');\nbutton.addEventListener('mouseover', function() {\n    alert('Mouseover detected!');\n});",
     "o": [
       "The alert 'Mouseover detected!' will appear when the mouse hovers over the button.",
@@ -231,7 +232,6 @@
   },
   {
     "q": "Which of the following correctly selects an element by its class name in JavaScript?",
-    "c": null,
     "o": [
       "document.getElementsByClassName('className')",
       "document.querySelector('.className')",
@@ -241,6 +241,7 @@
   },
   {
     "q": "What will happen when the following code is executed?\n",
+    "l": "javascript",
     "c": "const div = document.querySelector('div');\ndiv.innerHTML = '<h1>Hello World</h1>';\ndiv.style.color = 'red';",
     "o": [
       "The div element's content will change to 'Hello World', and the text color will be red.",
@@ -251,7 +252,6 @@
   },
   {
     "q": "Which method can be used to add a new CSS class to an element in JavaScript?",
-    "c": null,
     "o": [
       "element.classList.add('new-class')",
       "element.setAttribute('class', 'new-class')",
@@ -261,6 +261,7 @@
   },
   {
     "q": "What is the result of executing the following code?\n",
+    "l": "javascript",
     "c": "const button = document.querySelector('button');\nbutton.addEventListener('click', function() {\n    this.textContent = 'Clicked!';\n});",
     "o": [
       "The button's text will change to 'Clicked!' when it is clicked.",
@@ -271,7 +272,6 @@
   },
   {
     "q": "Which of the following is true about event propagation in JavaScript?",
-    "c": null,
     "o": [
       "Event propagation allows an event to travel through the DOM tree from the target element to the root.",
       "Event propagation only works with mouse events.",
@@ -281,7 +281,6 @@
   },
   {
     "q": "How can you remove an element's style in JavaScript?",
-    "c": null,
     "o": [
       "element.style.removeProperty('propertyName')",
       "element.style.remove('propertyName')",
@@ -291,6 +290,7 @@
   },
   {
     "q": "What is the output of the following code snippet?\n",
+    "l": "javascript",
     "c": "const input = document.querySelector('input');\ninput.value = 'New text';\nconsole.log(input.value);",
     "o": [
       "'New text' will be logged to the console.",
@@ -301,6 +301,7 @@
   },
   {
     "q": "What is the result of executing the following code?\n",
+    "l": "javascript",
     "c": "const paragraphs = document.querySelectorAll('p');\nparagraphs.forEach(p => p.style.color = 'blue');",
     "o": [
       "All paragraph elements will have their text color changed to blue.",
@@ -311,7 +312,6 @@
   },
   {
     "q": "Which method allows you to select an element by its ID in JavaScript?",
-    "c": null,
     "o": [
       "document.getElementById('idName')",
       "document.querySelector('#idName')",
@@ -321,6 +321,7 @@
   },
   {
     "q": "What will be the output of the following code?\n",
+    "l": "javascript",
     "c": "const button = document.querySelector('button');\nbutton.addEventListener('dblclick', function() {\n    console.log('Button double-clicked');\n});",
     "o": [
       "'Button double-clicked' will be logged when the button is double-clicked.",
@@ -331,7 +332,6 @@
   },
   {
     "q": "How can you modify the background color of an element with the id 'container' using JavaScript?",
-    "c": null,
     "o": [
       "document.getElementById('container').style.backgroundColor = 'red';",
       "document.getElementById('container').backgroundColor = 'red';",
@@ -341,6 +341,7 @@
   },
   {
     "q": "What is the result of executing this code?\n",
+    "l": "javascript",
     "c": "const div = document.querySelector('div');\ndiv.style.border = '2px solid black';",
     "o": [
       "The div element will have a 2px solid black border.",
@@ -351,7 +352,6 @@
   },
   {
     "q": "Which method is used to remove an event listener in JavaScript?",
-    "c": null,
     "o": [
       "element.removeEventListener('event', callback)",
       "element.remove('event')",
@@ -361,6 +361,7 @@
   },
   {
     "q": "What will the following code do?\n",
+    "l": "javascript",
     "c": "const link = document.querySelector('a');\nlink.addEventListener('click', function(event) {\n    event.preventDefault();\n    alert('Link click prevented');\n});",
     "o": [
       "The default action of the link will be prevented, and an alert will appear saying 'Link click prevented'.",
@@ -371,7 +372,6 @@
   },
   {
     "q": "Which of the following methods can be used to modify the text content of an element in JavaScript?",
-    "c": null,
     "o": [
       "element.textContent = 'New text';",
       "element.innerHTML = 'New text';",
@@ -381,6 +381,7 @@
   },
   {
     "q": "What is the result of executing the following code?\n",
+    "l": "javascript",
     "c": "const container = document.querySelector('#container');\ncontainer.style.padding = '20px';",
     "o": [
       "The element with the id 'container' will have a padding of 20px.",
@@ -391,7 +392,6 @@
   },
   {
     "q": "Which event is triggered when a user clicks on an element?",
-    "c": null,
     "o": [
       "click",
       "mouseover",
@@ -401,6 +401,7 @@
   },
   {
     "q": "What is the output of the following code snippet?\n",
+    "l": "javascript",
     "c": "const elements = document.querySelectorAll('.item');\nelements.forEach(element => { element.style.backgroundColor = 'yellow'; });",
     "o": [
       "All elements with the class 'item' will have their background color changed to yellow.",
@@ -411,7 +412,6 @@
   },
   {
     "q": "Which method should be used to select an element by its class name?",
-    "c": null,
     "o": [
       "document.getElementsByClassName('className')",
       "document.querySelector('.className')",
@@ -421,6 +421,7 @@
   },
   {
     "q": "What will happen when the following code is executed?\n",
+    "l": "javascript",
     "c": "const input = document.querySelector('input');\ninput.addEventListener('focus', function() {\n    input.style.borderColor = 'blue';\n});",
     "o": [
       "The input field will have its border color changed to blue when it is focused.",
@@ -431,7 +432,6 @@
   },
   {
     "q": "Which of the following methods is used to add a new CSS rule to an element in JavaScript?",
-    "c": null,
     "o": [
       "element.style.property = 'value';",
       "element.addCSSRule('property', 'value');",
@@ -441,6 +441,7 @@
   },
   {
     "q": "What will be the output of the following code?\n",
+    "l": "javascript",
     "c": "const div = document.querySelector('div');\ndiv.style.fontSize = '20px';\ndiv.innerHTML = 'Hello World';",
     "o": [
       "The div element's font size will be set to 20px and its content will be 'Hello World'.",
@@ -451,7 +452,6 @@
   },
   {
     "q": "Which event listener method is used to handle click events in JavaScript?",
-    "c": null,
     "o": [
       "addEventListener('click', function)",
       "clickListener('click', function)",
@@ -461,6 +461,7 @@
   },
   {
     "q": "What will be the result of executing the following code?\n",
+    "l": "javascript",
     "c": "const button = document.querySelector('button');\nbutton.addEventListener('dblclick', function() {\n    console.log('Button was double clicked!');\n});",
     "o": [
       "'Button was double clicked!' will be logged when the button is double-clicked.",
@@ -471,7 +472,6 @@
   },
   {
     "q": "Which of the following methods is used to select the first element that matches a given CSS selector in JavaScript?",
-    "c": null,
     "o": [
       "document.querySelector('selector')",
       "document.getElementById('selector')",
@@ -481,6 +481,7 @@
   },
   {
     "q": "What will happen when the following code is executed?\n",
+    "l": "javascript",
     "c": "const div = document.querySelector('div');\ndiv.innerHTML = '<p>New paragraph added</p>';",
     "o": [
       "The div element will have its innerHTML replaced with a new paragraph containing the text 'New paragraph added'.",
@@ -491,7 +492,6 @@
   },
   {
     "q": "Which method can be used to toggle a CSS class on an element in JavaScript?",
-    "c": null,
     "o": [
       "element.classList.toggle('className')",
       "element.toggleClass('className')",
@@ -501,6 +501,7 @@
   },
   {
     "q": "What will the following code do?\n",
+    "l": "javascript",
     "c": "const div = document.querySelector('div');\ndiv.style.margin = '20px';",
     "o": [
       "The div element will have a margin of 20px applied around it.",
@@ -511,7 +512,6 @@
   },
   {
     "q": "Which method allows you to select elements by their tag name?",
-    "c": null,
     "o": [
       "document.getElementsByTagName('tagName')",
       "document.querySelectorAll('tagName')",
@@ -521,6 +521,7 @@
   },
   {
     "q": "What will happen when the following code is executed?\n",
+    "l": "javascript",
     "c": "const button = document.querySelector('button');\nbutton.addEventListener('click', function() {\n    alert('Button clicked!');\n});",
     "o": [
       "An alert with the message 'Button clicked!' will appear when the button is clicked.",
@@ -531,7 +532,6 @@
   },
   {
     "q": "How can you remove the background color of an element using JavaScript?",
-    "c": null,
     "o": [
       "element.style.backgroundColor = '';",
       "element.style.background = 'none';",
@@ -541,6 +541,7 @@
   },
   {
     "q": "What will be the result of the following code?\n",
+    "l": "javascript",
     "c": "const element = document.querySelector('.box');\nelement.style.width = '200px';",
     "o": [
       "The element with the class 'box' will have its width set to 200px.",
@@ -551,7 +552,6 @@
   },
   {
     "q": "Which event listener would you use to detect when a user presses a key on the keyboard?",
-    "c": null,
     "o": [
       "keydown",
       "click",
@@ -561,6 +561,7 @@
   },
   {
     "q": "What will the following code output?\n",
+    "l": "javascript",
     "c": "const link = document.querySelector('a');\nlink.addEventListener('mouseover', function() {\n    link.style.color = 'green';\n});",
     "o": [
       "The link color will change to green when the user hovers over the link.",
@@ -571,7 +572,6 @@
   },
   {
     "q": "Which of the following is the correct way to select the first div element on a page using JavaScript?",
-    "c": null,
     "o": [
       "document.querySelector('div')",
       "document.getElementsByDiv('div')",
@@ -581,7 +581,6 @@
   },
   {
     "q": "What happens if you try to modify the innerHTML of an element that does not exist?",
-    "c": null,
     "o": [
       "It will throw an error.",
       "The innerHTML property will return null.",
@@ -591,6 +590,7 @@
   },
   {
     "q": "What does the following code do?\n",
+    "l": "javascript",
     "c": "const input = document.querySelector('input');\ninput.value = 'New Value';",
     "o": [
       "The input field will have its value set to 'New Value'.",
@@ -601,6 +601,7 @@
   },
   {
     "q": "What will happen when the following code is executed?\n",
+    "l": "javascript",
     "c": "const button = document.querySelector('button');\nbutton.addEventListener('click', function() {\n    document.body.style.backgroundColor = 'lightblue';\n});",
     "o": [
       "The background color of the body will change to lightblue when the button is clicked.",
@@ -611,7 +612,6 @@
   },
   {
     "q": "Which method is used to select all elements with a certain class name in JavaScript?",
-    "c": null,
     "o": [
       "document.getElementsByClassName('className')",
       "document.querySelectorAll('.className')",
@@ -621,6 +621,7 @@
   },
   {
     "q": "What does the following code do?\n",
+    "l": "javascript",
     "c": "const paragraph = document.querySelector('p');\nparagraph.style.fontWeight = 'bold';",
     "o": [
       "The first paragraph element will have its text made bold.",
@@ -631,7 +632,6 @@
   },
   {
     "q": "How would you add an event listener to an element with the class name 'box' for a 'click' event?",
-    "c": null,
     "o": [
       "document.querySelector('.box').addEventListener('click', function() {});",
       "document.addEventListener('.box', 'click', function() {});",
@@ -641,6 +641,7 @@
   },
   {
     "q": "What will the following code do?\n",
+    "l": "javascript",
     "c": "const img = document.querySelector('img');\nimg.src = 'newImage.jpg';",
     "o": [
       "The source of the first image element will be changed to 'newImage.jpg'.",
@@ -651,7 +652,6 @@
   },
   {
     "q": "Which of the following methods can be used to modify the text content of an element?",
-    "c": null,
     "o": [
       "element.textContent = 'New text';",
       "element.setText('New text');",
@@ -661,6 +661,7 @@
   },
   {
     "q": "What does the following code do?\n",
+    "l": "javascript",
     "c": "const div = document.querySelector('.box');\ndiv.style.display = 'none';",
     "o": [
       "The element with the class 'box' will be hidden from the page.",
@@ -671,7 +672,6 @@
   },
   {
     "q": "Which method would you use to select the last element in a list of elements with the class 'item'?",
-    "c": null,
     "o": [
       "document.querySelectorAll('.item')[document.querySelectorAll('.item').length - 1]",
       "document.querySelector('.item:last-child')",
@@ -681,6 +681,7 @@
   },
   {
     "q": "What will happen when the following code is executed?\n",
+    "l": "javascript",
     "c": "const heading = document.querySelector('h1');\nheading.style.fontSize = '50px';",
     "o": [
       "The font size of the first h1 element will be set to 50px.",
@@ -691,7 +692,6 @@
   },
   {
     "q": "Which event listener type would you use to detect when a mouse pointer enters an element?",
-    "c": null,
     "o": [
       "mouseenter",
       "click",
@@ -701,6 +701,7 @@
   },
   {
     "q": "What will happen when the following code is executed?\n",
+    "l": "javascript",
     "c": "const div = document.querySelector('div');\ndiv.style.border = '2px solid red';",
     "o": [
       "The div element will have a red border with 2px thickness.",
@@ -711,7 +712,6 @@
   },
   {
     "q": "Which method is used to select an element by its ID?",
-    "c": null,
     "o": [
       "document.getElementById('id')",
       "document.querySelector('#id')",
@@ -721,6 +721,7 @@
   },
   {
     "q": "What will the following code do?\n",
+    "l": "javascript",
     "c": "const button = document.querySelector('button');\nbutton.addEventListener('click', function() {\n    document.body.style.fontFamily = 'Arial';\n});",
     "o": [
       "The font family of the body will change to Arial when the button is clicked.",
@@ -731,7 +732,6 @@
   },
   {
     "q": "Which of the following methods is used to change the background color of an element?",
-    "c": null,
     "o": [
       "element.style.backgroundColor = 'color';",
       "element.setBackground('color');",
@@ -741,6 +741,7 @@
   },
   {
     "q": "What will be the result of the following code?\n",
+    "l": "javascript",
     "c": "const paragraph = document.querySelector('p');\nparagraph.innerHTML = '<strong>Updated Text</strong>';",
     "o": [
       "The paragraph's inner content will be replaced with 'Updated Text' in bold.",
@@ -751,7 +752,6 @@
   },
   {
     "q": "Which event listener should be used to execute a function when a user clicks on an element?",
-    "c": null,
     "o": [
       "click",
       "keydown",
@@ -761,7 +761,6 @@
   },
   {
     "q": "How can you change the text content of an element using JavaScript?",
-    "c": null,
     "o": [
       "element.textContent = 'New Text';",
       "element.setText('New Text');",
@@ -771,6 +770,7 @@
   },
   {
     "q": "What will the following code do?\n",
+    "l": "javascript",
     "c": "const link = document.querySelector('a');\nlink.style.textDecoration = 'none';",
     "o": [
       "The link will have its text decoration removed (i.e., no underline).",
@@ -781,7 +781,6 @@
   },
   {
     "q": "Which method will select the first <li> element inside a <ul> with the class 'list'?",
-    "c": null,
     "o": [
       "document.querySelector('.list li')",
       "document.getElementsByClassName('list li')[0]",
@@ -791,6 +790,7 @@
   },
   {
     "q": "What will happen when the following code is executed?\n",
+    "l": "javascript",
     "c": "const input = document.querySelector('input');\ninput.value = 'Hello World';",
     "o": [
       "The value of the first input field will be set to 'Hello World'.",
@@ -801,6 +801,7 @@
   },
   {
     "q": "What will be the result of the following code?\n",
+    "l": "javascript",
     "c": "const div = document.querySelector('div');\ndiv.style.backgroundColor = 'yellow';",
     "o": [
       "The background color of the first div element will change to yellow.",
@@ -811,7 +812,6 @@
   },
   {
     "q": "Which method can be used to select an element by its class name?",
-    "c": null,
     "o": [
       "document.getElementsByClassName('className')",
       "document.querySelector('.className')",
@@ -821,6 +821,7 @@
   },
   {
     "q": "What does the following code do?\n",
+    "l": "javascript",
     "c": "const button = document.querySelector('button');\nbutton.addEventListener('click', () => {\n    alert('Button clicked');\n});",
     "o": [
       "An alert will appear with the message 'Button clicked' when the button is clicked.",
@@ -831,7 +832,6 @@
   },
   {
     "q": "Which method is used to get the text content of an element in JavaScript?",
-    "c": null,
     "o": [
       "element.textContent",
       "element.getText()",
@@ -841,6 +841,7 @@
   },
   {
     "q": "What will the following code do?\n",
+    "l": "javascript",
     "c": "const paragraph = document.querySelector('p');\nparagraph.style.fontSize = '20px';",
     "o": [
       "The font size of the first paragraph element will change to 20px.",
@@ -851,7 +852,6 @@
   },
   {
     "q": "What event listener type is used to trigger an action when an element loses focus?",
-    "c": null,
     "o": [
       "blur",
       "focus",
@@ -861,7 +861,6 @@
   },
   {
     "q": "Which method can be used to add a new class to an element in JavaScript?",
-    "c": null,
     "o": [
       "element.classList.add('new-class')",
       "element.addClass('new-class')",
@@ -871,6 +870,7 @@
   },
   {
     "q": "What will be the result of the following code?\n",
+    "l": "javascript",
     "c": "const div = document.querySelector('div');\ndiv.style.width = '200px';",
     "o": [
       "The width of the first div element will be set to 200px.",
@@ -881,7 +881,6 @@
   },
   {
     "q": "Which method is used to attach an event listener to multiple elements with the same class name?",
-    "c": null,
     "o": [
       "document.querySelectorAll('.class').forEach(element => element.addEventListener('click', function() {}));",
       "document.getElementsByClassName('.class').addEventListener('click', function() {});",
@@ -891,6 +890,7 @@
   },
   {
     "q": "What will the following code do?\n",
+    "l": "javascript",
     "c": "const link = document.querySelector('a');\nlink.style.textDecoration = 'underline';",
     "o": [
       "The link will have an underline applied to its text.",
@@ -901,6 +901,7 @@
   },
   {
     "q": "What will be the result of the following code?\n",
+    "l": "javascript",
     "c": "const input = document.querySelector('input');\ninput.value = 'Hello, World!';",
     "o": [
       "The value of the first input field will be set to 'Hello, World!'",
@@ -911,7 +912,6 @@
   },
   {
     "q": "Which method can be used to select the first element with the class 'example'?",
-    "c": null,
     "o": [
       "document.querySelector('.example')",
       "document.getElementByClassName('example')",
@@ -921,6 +921,7 @@
   },
   {
     "q": "What will happen when the following code is executed?\n",
+    "l": "javascript",
     "c": "const button = document.querySelector('button');\nbutton.addEventListener('mouseover', () => { alert('Mouse over the button!'); });",
     "o": [
       "An alert will pop up with the message 'Mouse over the button!' when the user hovers over the button.",
@@ -931,7 +932,6 @@
   },
   {
     "q": "What is the correct method to remove a class 'hidden' from an element in JavaScript?",
-    "c": null,
     "o": [
       "element.classList.remove('hidden')",
       "element.removeClass('hidden')",
@@ -941,6 +941,7 @@
   },
   {
     "q": "What will the following code do?\n",
+    "l": "javascript",
     "c": "const div = document.querySelector('div');\ndiv.style.display = 'none';",
     "o": [
       "The div element will be hidden from the page.",
@@ -951,7 +952,6 @@
   },
   {
     "q": "Which event listener would you use to handle a button click in JavaScript?",
-    "c": null,
     "o": [
       "click",
       "keydown",
@@ -961,6 +961,7 @@
   },
   {
     "q": "What will the following code do?\n",
+    "l": "javascript",
     "c": "const p = document.querySelector('p');\np.innerHTML = 'New paragraph content';",
     "o": [
       "The content of the first paragraph element will be replaced with 'New paragraph content'.",
@@ -971,7 +972,6 @@
   },
   {
     "q": "Which method is used to add a new element to the DOM?",
-    "c": null,
     "o": [
       "document.body.appendChild(newElement)",
       "document.body.insertChild(newElement)",
@@ -981,6 +981,7 @@
   },
   {
     "q": "What is the result of the following code?\n",
+    "l": "javascript",
     "c": "const div = document.querySelector('div');\ndiv.style.color = 'blue';",
     "o": [
       "The text color of the first div element will change to blue.",
@@ -991,7 +992,6 @@
   },
   {
     "q": "Which of the following methods is used to get the value of a form element (like input, textarea)?",
-    "c": null,
     "o": [
       "element.value",
       "element.getValue()",
@@ -1001,6 +1001,7 @@
   },
   {
     "q": "What will the following code do?\n",
+    "l": "javascript",
     "c": "const button = document.querySelector('button');\nbutton.addEventListener('click', function() { this.style.backgroundColor = 'red'; });",
     "o": [
       "The background color of the button will change to red when clicked.",
@@ -1011,7 +1012,6 @@
   },
   {
     "q": "Which of the following methods is used to select all elements with a specific class name?",
-    "c": null,
     "o": [
       "document.querySelectorAll('.class-name')",
       "document.getElementByClassName('.class-name')",
@@ -1021,6 +1021,7 @@
   },
   {
     "q": "What will be the result of this code?\n",
+    "l": "javascript",
     "c": "const img = document.querySelector('img');\nimg.src = 'new-image.jpg';",
     "o": [
       "The source of the first image element will be changed to 'new-image.jpg'.",
@@ -1031,7 +1032,6 @@
   },
   {
     "q": "Which method is used to prevent the default behavior of an event (e.g., preventing a form submission)?",
-    "c": null,
     "o": [
       "event.preventDefault()",
       "event.stopPropagation()",
@@ -1041,6 +1041,7 @@
   },
   {
     "q": "What will happen when the following code is executed?\n",
+    "l": "javascript",
     "c": "const paragraph = document.querySelector('p');\nparagraph.style.color = 'blue';",
     "o": [
       "The text color of the first paragraph element will be changed to blue.",
@@ -1051,7 +1052,6 @@
   },
   {
     "q": "Which method is used to change the HTML content of an element?",
-    "c": null,
     "o": [
       "element.innerHTML = 'new content'",
       "element.setHTML('new content')",
@@ -1061,6 +1061,7 @@
   },
   {
     "q": "What will the following code do?\n",
+    "l": "javascript",
     "c": "const div = document.querySelector('div');\ndiv.style.display = 'block';",
     "o": [
       "The div element will be displayed as a block element.",
@@ -1071,7 +1072,6 @@
   },
   {
     "q": "What event listener is used to execute a function when a user clicks on an element?",
-    "c": null,
     "o": [
       "click",
       "mousedown",
@@ -1081,6 +1081,7 @@
   },
   {
     "q": "What will the following code do?\n",
+    "l": "javascript",
     "c": "const header = document.querySelector('h1');\nheader.textContent = 'Hello World';",
     "o": [
       "The text content of the first <h1> element will change to 'Hello World'.",
@@ -1091,7 +1092,6 @@
   },
   {
     "q": "Which of the following CSS properties can be modified directly using JavaScript?",
-    "c": null,
     "o": [
       "element.style.backgroundColor",
       "element.style.background-image",
@@ -1101,6 +1101,7 @@
   },
   {
     "q": "What will the following code do?\n",
+    "l": "javascript",
     "c": "const button = document.querySelector('button');\nbutton.addEventListener('click', function() { this.style.color = 'green'; });",
     "o": [
       "The color of the button text will change to green when clicked.",
@@ -1111,7 +1112,6 @@
   },
   {
     "q": "Which method is used to select an element by its ID?",
-    "c": null,
     "o": [
       "document.getElementById('id')",
       "document.querySelectorById('id')",
@@ -1121,6 +1121,7 @@
   },
   {
     "q": "What will happen when the following code is executed?\n",
+    "l": "javascript",
     "c": "const input = document.querySelector('input');\ninput.setAttribute('placeholder', 'Enter text');",
     "o": [
       "The placeholder text of the input field will be set to 'Enter text'.",
@@ -1131,7 +1132,6 @@
   },
   {
     "q": "What is the correct way to attach an event listener to a form submission in JavaScript?",
-    "c": null,
     "o": [
       "form.addEventListener('submit', function(event) { event.preventDefault(); })",
       "form.onSubmit(function() { event.preventDefault(); })",
@@ -1141,7 +1141,6 @@
   },
   {
     "q": "Which method is used to add a class to an element in JavaScript?",
-    "c": null,
     "o": [
       "element.classList.add('class-name')",
       "element.addClass('class-name')",
@@ -1151,6 +1150,7 @@
   },
   {
     "q": "What will the following code do?\n",
+    "l": "javascript",
     "c": "const div = document.querySelector('div');\ndiv.style.border = '2px solid black';",
     "o": [
       "A border will be applied to the first div element.",
@@ -1161,7 +1161,6 @@
   },
   {
     "q": "What event listener is used to execute a function when an element gains focus?",
-    "c": null,
     "o": [
       "focus",
       "keydown",
@@ -1171,6 +1170,7 @@
   },
   {
     "q": "What will the following code do?\n",
+    "l": "javascript",
     "c": "const img = document.querySelector('img');\nimg.alt = 'New image description';",
     "o": [
       "The alt attribute of the first image will be updated to 'New image description'.",
@@ -1181,7 +1181,6 @@
   },
   {
     "q": "How can you remove an event listener from an element in JavaScript?",
-    "c": null,
     "o": [
       "element.removeEventListener('event', handler)",
       "element.removeListener('event', handler)",
@@ -1191,6 +1190,7 @@
   },
   {
     "q": "What will the following code do?\n",
+    "l": "javascript",
     "c": "const button = document.querySelector('button');\nbutton.style.fontSize = '20px';",
     "o": [
       "The font size of the button will change to 20px.",
@@ -1201,6 +1201,7 @@
   },
   {
     "q": "What will the following code do?\n",
+    "l": "javascript",
     "c": "const paragraph = document.querySelector('p');\nparagraph.style.fontWeight = 'bold';",
     "o": [
       "The font weight of the first paragraph will be set to bold.",
@@ -1211,7 +1212,6 @@
   },
   {
     "q": "Which of the following methods is used to select the first element matching a CSS selector?",
-    "c": null,
     "o": [
       "document.querySelector()",
       "document.getElementsBySelector()",
@@ -1221,6 +1221,7 @@
   },
   {
     "q": "What will be the result of this code?\n",
+    "l": "javascript",
     "c": "const div = document.querySelector('div');\ndiv.classList.add('highlight');",
     "o": [
       "The 'highlight' class will be added to the first div element.",
@@ -1231,7 +1232,6 @@
   },
   {
     "q": "Which of the following is the correct syntax to change the background color of an element in JavaScript?",
-    "c": null,
     "o": [
       "element.style.backgroundColor = 'red'",
       "element.backgroundColor = 'red'",
@@ -1241,6 +1241,7 @@
   },
   {
     "q": "What will happen when the following code is executed?\n",
+    "l": "javascript",
     "c": "const button = document.querySelector('button');\nbutton.addEventListener('mouseenter', function() { alert('Hovered!'); });",
     "o": [
       "An alert will appear when the mouse enters the button area.",
@@ -1251,7 +1252,6 @@
   },
   {
     "q": "Which of the following methods can be used to select all elements with a specific tag name?",
-    "c": null,
     "o": [
       "document.getElementsByTagName('tag')",
       "document.querySelector('tag')",
@@ -1261,6 +1261,7 @@
   },
   {
     "q": "What will happen when the following code is executed?\n",
+    "l": "javascript",
     "c": "const div = document.querySelector('div');\ndiv.style.display = 'none';",
     "o": [
       "The div element will be hidden.",
@@ -1271,7 +1272,6 @@
   },
   {
     "q": "Which event listener is used to capture user input in a text field?",
-    "c": null,
     "o": [
       "input",
       "keydown",
@@ -1281,6 +1281,7 @@
   },
   {
     "q": "What will happen when the following code is executed?\n",
+    "l": "javascript",
     "c": "const img = document.querySelector('img');\nimg.src = 'image.jpg';",
     "o": [
       "The source of the image will be changed to 'image.jpg'.",
@@ -1291,7 +1292,6 @@
   },
   {
     "q": "Which of the following is the correct way to remove a class from an element?",
-    "c": null,
     "o": [
       "element.classList.remove('class-name')",
       "element.removeClass('class-name')",
@@ -1301,6 +1301,7 @@
   },
   {
     "q": "What will the following code do?\n",
+    "l": "javascript",
     "c": "const button = document.querySelector('button');\nbutton.addEventListener('click', function() { document.body.style.backgroundColor = 'blue'; });",
     "o": [
       "The background color of the body will change to blue when the button is clicked.",
@@ -1311,7 +1312,6 @@
   },
   {
     "q": "Which of the following methods is used to select all elements that match a CSS selector?",
-    "c": null,
     "o": [
       "document.querySelectorAll()",
       "document.getElementsByClassName()",
@@ -1321,6 +1321,7 @@
   },
   {
     "q": "What will the following code do?\n",
+    "l": "javascript",
     "c": "const heading = document.querySelector('h1');\nheading.textContent = 'New Heading';",
     "o": [
       "The text of the first <h1> element will be changed to 'New Heading'.",
@@ -1331,7 +1332,6 @@
   },
   {
     "q": "Which of the following is the correct way to add an event listener for a click event?",
-    "c": null,
     "o": [
       "element.addEventListener('click', function() { })",
       "element.onClick(function() { })",
@@ -1341,7 +1341,6 @@
   },
   {
     "q": "What is the correct way to remove an event listener from an element in JavaScript?",
-    "c": null,
     "o": [
       "element.removeEventListener('event', handler)",
       "element.removeListener('event', handler)",
@@ -1351,6 +1350,7 @@
   },
   {
     "q": "What will happen when the following code is executed?\n",
+    "l": "javascript",
     "c": "const p = document.querySelector('p');\np.style.fontSize = '18px';",
     "o": [
       "The font size of the first paragraph will change to 18px.",
@@ -1361,7 +1361,6 @@
   },
   {
     "q": "Which event listener should be used to detect when a user submits a form?",
-    "c": null,
     "o": [
       "submit",
       "change",
@@ -1371,6 +1370,7 @@
   },
   {
     "q": "What will the following code do?\n",
+    "l": "javascript",
     "c": "const img = document.querySelector('img');\nimg.setAttribute('src', 'new-image.jpg');",
     "o": [
       "The image source will be changed to 'new-image.jpg'.",
@@ -1381,7 +1381,6 @@
   },
   {
     "q": "Which method is used to select an element by its class name in JavaScript?",
-    "c": null,
     "o": [
       "document.getElementsByClassName('class-name')",
       "document.querySelectorAll('.class-name')",
@@ -1391,6 +1390,7 @@
   },
   {
     "q": "What will happen when the following code is executed?\n",
+    "l": "javascript",
     "c": "const div = document.querySelector('div');\ndiv.classList.add('active');",
     "o": [
       "The 'active' class will be added to the first div element.",
@@ -1401,6 +1401,7 @@
   },
   {
     "q": "What will happen when the following code is executed?\n",
+    "l": "javascript",
     "c": "const paragraph = document.querySelector('p');\nparagraph.style.color = 'red';",
     "o": [
       "The text color of the first paragraph will change to red.",
@@ -1411,7 +1412,6 @@
   },
   {
     "q": "Which of the following methods is used to select an element by its ID?",
-    "c": null,
     "o": [
       "document.getElementById('id')",
       "document.querySelector('#id')",
@@ -1421,6 +1421,7 @@
   },
   {
     "q": "What will the following code do?\n",
+    "l": "javascript",
     "c": "const button = document.querySelector('button');\nbutton.addEventListener('click', function() { document.body.style.backgroundColor = 'yellow'; });",
     "o": [
       "The background color of the page will change to yellow when the button is clicked.",
@@ -1431,7 +1432,6 @@
   },
   {
     "q": "What is the correct way to set the inner text of an element in JavaScript?",
-    "c": null,
     "o": [
       "element.innerText = 'New Text'",
       "element.textContent = 'New Text'",
@@ -1441,6 +1441,7 @@
   },
   {
     "q": "What will the following code do?\n",
+    "l": "javascript",
     "c": "const input = document.querySelector('input');\ninput.value = 'Hello';",
     "o": [
       "The value of the first input field will be set to 'Hello'.",
@@ -1451,7 +1452,6 @@
   },
   {
     "q": "Which of the following events is triggered when the user clicks on an element?",
-    "c": null,
     "o": [
       "click",
       "mouseover",
@@ -1461,7 +1461,6 @@
   },
   {
     "q": "What is the correct way to remove a class from an element?",
-    "c": null,
     "o": [
       "element.classList.remove('class-name')",
       "element.removeClass('class-name')",
@@ -1471,6 +1470,7 @@
   },
   {
     "q": "What will the following code do?\n",
+    "l": "javascript",
     "c": "const div = document.querySelector('div');\ndiv.style.border = '2px solid black';",
     "o": [
       "The div element will have a black border of 2px.",
@@ -1481,7 +1481,6 @@
   },
   {
     "q": "Which of the following methods can be used to select all elements with a specific class name?",
-    "c": null,
     "o": [
       "document.getElementsByClassName('class-name')",
       "document.querySelector('class-name')",
@@ -1491,6 +1490,7 @@
   },
   {
     "q": "What will happen when the following code is executed?\n",
+    "l": "javascript",
     "c": "const link = document.querySelector('a');\nlink.setAttribute('href', 'https://example.com');",
     "o": [
       "The link's href attribute will be updated to 'https://example.com'.",
@@ -1501,7 +1501,6 @@
   },
   {
     "q": "Which method selects the first matching element for a given CSS selector?",
-    "c": null,
     "o": [
       "document.querySelector('.my-class')",
       "document.getElementsByClassName('my-class')",
@@ -1511,6 +1510,7 @@
   },
   {
     "q": "What will the following code do?\n",
+    "l": "javascript",
     "c": "const elements = document.querySelectorAll('p');\nconsole.log(elements.length);",
     "o": [
       "It will log the number of <p> elements in the document.",
@@ -1521,7 +1521,6 @@
   },
   {
     "q": "Which event is triggered when an input field loses focus?",
-    "c": null,
     "o": [
       "blur",
       "focus",
@@ -1531,6 +1530,7 @@
   },
   {
     "q": "What will happen when the following code is executed?\n",
+    "l": "javascript",
     "c": "document.querySelector('#myDiv').style.backgroundColor = 'blue';",
     "o": [
       "The element with id 'myDiv' will have a blue background.",
@@ -1541,7 +1541,6 @@
   },
   {
     "q": "Which of the following is the correct way to listen for a double-click event?",
-    "c": null,
     "o": [
       "element.addEventListener('dblclick', function() { alert('Double clicked!'); });",
       "element.onDoubleClick = function() { alert('Double clicked!'); };",
@@ -1551,6 +1550,7 @@
   },
   {
     "q": "What will the following JavaScript code do?\n",
+    "l": "javascript",
     "c": "const btn = document.getElementById('myBtn');\nbtn.addEventListener('click', function() {\n    btn.innerText = 'Clicked!';\n});",
     "o": [
       "The button text will change to 'Clicked!' when clicked.",
@@ -1561,7 +1561,6 @@
   },
   {
     "q": "Which method removes an element from the DOM?",
-    "c": null,
     "o": [
       "element.remove()",
       "element.delete()",
@@ -1571,6 +1570,7 @@
   },
   {
     "q": "What does the following code do?\n",
+    "l": "javascript",
     "c": "document.querySelector('h1').classList.add('highlight');",
     "o": [
       "It adds the class 'highlight' to the first <h1> element.",
@@ -1581,7 +1581,6 @@
   },
   {
     "q": "Which of the following will correctly append a new <p> element to a <div>?",
-    "c": null,
     "o": [
       "document.querySelector('div').appendChild(document.createElement('p'))",
       "document.querySelector('div').append('p')",
@@ -1591,6 +1590,7 @@
   },
   {
     "q": "What will happen when the following code is executed?\n",
+    "l": "javascript",
     "c": "document.querySelector('button').addEventListener('mouseover', function() {\n    this.style.backgroundColor = 'green';\n});",
     "o": [
       "The button's background color will change to green when hovered over.",
@@ -1601,7 +1601,6 @@
   },
   {
     "q": "Which method is used to select all elements that match a specific CSS selector?",
-    "c": null,
     "o": [
       "document.querySelectorAll('.class-name')",
       "document.getElementById('.class-name')",
@@ -1611,6 +1610,7 @@
   },
   {
     "q": "What will the following code output?\n",
+    "l": "javascript",
     "c": "console.log(document.getElementsByClassName('item')[0]);",
     "o": [
       "The first element with class 'item'.",
@@ -1621,7 +1621,6 @@
   },
   {
     "q": "Which event fires when an element is clicked?",
-    "c": null,
     "o": [
       "click",
       "mousedown",
@@ -1631,6 +1630,7 @@
   },
   {
     "q": "What does the following code do?\n",
+    "l": "javascript",
     "c": "document.getElementById('box').style.display = 'none';",
     "o": [
       "Hides the element with id 'box'.",
@@ -1641,7 +1641,6 @@
   },
   {
     "q": "Which of the following is the correct way to change an element’s inner HTML?",
-    "c": null,
     "o": [
       "document.getElementById('title').innerHTML = 'New Title';",
       "document.getElement('title').setHTML('New Title');",
@@ -1651,6 +1650,7 @@
   },
   {
     "q": "What will happen when the following JavaScript code is executed?\n",
+    "l": "javascript",
     "c": "document.querySelector('.btn').addEventListener('click', function() {\n    alert('Button Clicked!');\n});",
     "o": [
       "An alert will show with 'Button Clicked!' when the button is clicked.",
@@ -1661,7 +1661,6 @@
   },
   {
     "q": "Which event is triggered when a user presses a key on the keyboard?",
-    "c": null,
     "o": [
       "keydown",
       "keyup",
@@ -1671,6 +1670,7 @@
   },
   {
     "q": "What does the following code do?\n",
+    "l": "javascript",
     "c": "document.querySelector('p').classList.toggle('highlight');",
     "o": [
       "It adds or removes the 'highlight' class from the first <p> element.",
@@ -1681,7 +1681,6 @@
   },
   {
     "q": "Which of the following methods removes an event listener from an element?",
-    "c": null,
     "o": [
       "element.removeEventListener('click', myFunction);",
       "element.detachEvent('click', myFunction);",
@@ -1691,6 +1690,7 @@
   },
   {
     "q": "What will the following code do?\n",
+    "l": "javascript",
     "c": "const newElement = document.createElement('div');\ndocument.body.appendChild(newElement);",
     "o": [
       "It will create and add a new <div> to the body.",
@@ -1701,7 +1701,6 @@
   },
   {
     "q": "Which method is used to select the first matching element for a given CSS selector?",
-    "c": null,
     "o": [
       "document.querySelector('.classname')",
       "document.getElement('.classname')",
@@ -1711,6 +1710,7 @@
   },
   {
     "q": "What will be the output of the following code?\n",
+    "l": "javascript",
     "c": "console.log(document.getElementById('myDiv').innerText);",
     "o": [
       "The text content inside the element with id 'myDiv'.",
@@ -1721,7 +1721,6 @@
   },
   {
     "q": "Which method allows you to attach an event listener to multiple elements at once?",
-    "c": null,
     "o": [
       "document.querySelectorAll('.btn').forEach(el => el.addEventListener('click', handleClick));",
       "document.getElementById('.btn').addEventListener('click', handleClick);",
@@ -1731,6 +1730,7 @@
   },
   {
     "q": "What will happen when the following code executes?\n",
+    "l": "javascript",
     "c": "document.getElementById('box').style.backgroundColor = 'red';",
     "o": [
       "It will change the background color of the element with id 'box' to red.",
@@ -1741,7 +1741,6 @@
   },
   {
     "q": "Which method is used to add a CSS class to an element?",
-    "c": null,
     "o": [
       "element.classList.add('new-class');",
       "element.addClass('new-class');",
@@ -1751,6 +1750,7 @@
   },
   {
     "q": "What does the following JavaScript code do?\n",
+    "l": "javascript",
     "c": "document.querySelector('.hide-btn').addEventListener('click', function() {\n    document.getElementById('content').style.display = 'none';\n});",
     "o": [
       "Hides the element with id 'content' when a button with class 'hide-btn' is clicked.",
@@ -1761,7 +1761,6 @@
   },
   {
     "q": "Which event is triggered when the mouse pointer enters an element?",
-    "c": null,
     "o": [
       "mouseenter",
       "mouseover",
@@ -1771,6 +1770,7 @@
   },
   {
     "q": "What will happen if the following code is executed?\n",
+    "l": "javascript",
     "c": "document.querySelector('h1').textContent = 'Hello, World!';",
     "o": [
       "It will change the text content of the first <h1> element to 'Hello, World!'.",
@@ -1781,7 +1781,6 @@
   },
   {
     "q": "Which JavaScript method removes an element from the DOM?",
-    "c": null,
     "o": [
       "element.remove();",
       "element.delete();",
@@ -1791,6 +1790,7 @@
   },
   {
     "q": "What does the following code do?\n",
+    "l": "javascript",
     "c": "document.getElementById('text').classList.toggle('highlight');",
     "o": [
       "It adds the 'highlight' class if it's not present, or removes it if it is.",
@@ -1801,7 +1801,6 @@
   },
   {
     "q": "Which JavaScript method is used to select all elements that match a given CSS selector?",
-    "c": null,
     "o": [
       "document.querySelectorAll('.my-class')",
       "document.getElementsByClass('.my-class')",
@@ -1811,6 +1810,7 @@
   },
   {
     "q": "What will happen when the following code runs?\n",
+    "l": "javascript",
     "c": "document.getElementById('title').innerHTML = '<b>Updated Title</b>';",
     "o": [
       "The content of the element with id 'title' will be replaced with bold 'Updated Title'.",
@@ -1821,7 +1821,6 @@
   },
   {
     "q": "Which event is triggered when a user presses a key on the keyboard?",
-    "c": null,
     "o": [
       "keydown",
       "keypress",
@@ -1831,6 +1830,7 @@
   },
   {
     "q": "What does the following JavaScript code do?\n",
+    "l": "javascript",
     "c": "document.querySelector('.button').addEventListener('dblclick', function() {\n    alert('Button was double-clicked!');\n});",
     "o": [
       "Displays an alert when the button with class 'button' is double-clicked.",
@@ -1841,7 +1841,6 @@
   },
   {
     "q": "How can you change the font size of an element with id 'text' using JavaScript?",
-    "c": null,
     "o": [
       "document.getElementById('text').style.fontSize = '20px';",
       "document.getElementById('text').fontSize = '20px';",
@@ -1851,6 +1850,7 @@
   },
   {
     "q": "What will be the result of executing the following JavaScript code?\n",
+    "l": "javascript",
     "c": "document.querySelector('.box').classList.remove('hidden');",
     "o": [
       "Removes the 'hidden' class from the first element with class 'box'.",
@@ -1861,7 +1861,6 @@
   },
   {
     "q": "Which JavaScript method can be used to dynamically create a new HTML element?",
-    "c": null,
     "o": [
       "document.createElement('div')",
       "document.newElement('div')",
@@ -1871,6 +1870,7 @@
   },
   {
     "q": "What will happen when the following code executes?\n",
+    "l": "javascript",
     "c": "document.getElementById('myLink').setAttribute('href', 'https://example.com');",
     "o": [
       "It updates the href attribute of the element with id 'myLink' to 'https://example.com'.",
@@ -1881,7 +1881,6 @@
   },
   {
     "q": "Which JavaScript property is used to change the background color of an element?",
-    "c": null,
     "o": [
       "element.style.backgroundColor",
       "element.backgroundColor",
@@ -1891,6 +1890,7 @@
   },
   {
     "q": "What does the following JavaScript code do?\n",
+    "l": "javascript",
     "c": "document.getElementById('myButton').addEventListener('mouseover', function() {\n    this.style.backgroundColor = 'blue';\n});",
     "o": [
       "Changes the button's background color to blue when the mouse hovers over it.",
@@ -1901,7 +1901,6 @@
   },
   {
     "q": "Which method is used to select the first matching element in the DOM using a CSS selector?",
-    "c": null,
     "o": [
       "document.querySelector('p')",
       "document.querySelectorAll('p')",
@@ -1911,7 +1910,6 @@
   },
   {
     "q": "What is the correct way to select all elements with the class name 'box'?",
-    "c": null,
     "o": [
       "document.getElementsByClassName('box')",
       "document.querySelector('.box')",
@@ -1921,6 +1919,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript code?\n",
+    "l": "javascript",
     "c": "document.querySelector('#text').textContent = 'Hello, World!';",
     "o": [
       "The text content of the element with id 'text' will be changed to 'Hello, World!'.",
@@ -1931,7 +1930,6 @@
   },
   {
     "q": "Which event is triggered when an HTML element loses focus?",
-    "c": null,
     "o": [
       "blur",
       "focus",
@@ -1941,6 +1939,7 @@
   },
   {
     "q": "What does the following JavaScript code do?\n",
+    "l": "javascript",
     "c": "document.getElementById('btn').addEventListener('click', function() {\n    alert('Button clicked!');\n});",
     "o": [
       "Displays an alert saying 'Button clicked!' when the element with id 'btn' is clicked.",
@@ -1951,7 +1950,6 @@
   },
   {
     "q": "How do you change the color of a paragraph with id 'para' to red using JavaScript?",
-    "c": null,
     "o": [
       "document.getElementById('para').style.color = 'red';",
       "document.getElementById('para').css('color', 'red');",
@@ -1961,6 +1959,7 @@
   },
   {
     "q": "What does the following JavaScript code do?\n",
+    "l": "javascript",
     "c": "document.querySelector('.hidden').classList.toggle('visible');",
     "o": [
       "Toggles the 'visible' class on the first element with the class 'hidden'.",
@@ -1971,7 +1970,6 @@
   },
   {
     "q": "Which method is used to remove an HTML element from the DOM?",
-    "c": null,
     "o": [
       "element.remove()",
       "element.delete()",
@@ -1981,6 +1979,7 @@
   },
   {
     "q": "What happens when the following code is executed?\n",
+    "l": "javascript",
     "c": "document.getElementById('box').style.display = 'none';",
     "o": [
       "The element with id 'box' will be hidden from view.",
@@ -1991,7 +1990,6 @@
   },
   {
     "q": "How do you change the width of an element with id 'container' to 100px?",
-    "c": null,
     "o": [
       "document.getElementById('container').style.width = '100px';",
       "document.getElementById('container').setWidth(100);",
@@ -2001,6 +1999,7 @@
   },
   {
     "q": "What does the following JavaScript code do?\n",
+    "l": "javascript",
     "c": "document.getElementById('myImage').setAttribute('src', 'new-image.jpg');",
     "o": [
       "Changes the image source to 'new-image.jpg'.",
@@ -2011,7 +2010,6 @@
   },
   {
     "q": "Which of the following is the correct way to attach an event listener to an element with id 'button'?",
-    "c": null,
     "o": [
       "document.getElementById('button').addEventListener('click', myFunction);",
       "document.getElementById('button').onClick(myFunction);",
@@ -2021,6 +2019,7 @@
   },
   {
     "q": "What will happen when the following JavaScript code executes?\n",
+    "l": "javascript",
     "c": "document.querySelector('h1').style.fontSize = '30px';",
     "o": [
       "The font size of the first <h1> element will be changed to 30px.",
@@ -2031,7 +2030,6 @@
   },
   {
     "q": "Which event is fired when an element is clicked?",
-    "c": null,
     "o": [
       "click",
       "mousedown",
@@ -2041,7 +2039,6 @@
   },
   {
     "q": "What is the purpose of the `preventDefault()` method in JavaScript event handling?",
-    "c": null,
     "o": [
       "Prevents the default action of an event from occurring.",
       "Stops the event from being executed in the capturing phase.",
@@ -2051,7 +2048,6 @@
   },
   {
     "q": "Which method can be used to add a new child element to an existing element?",
-    "c": null,
     "o": [
       "parentElement.appendChild(newElement)",
       "parentElement.add(newElement)",
@@ -2061,6 +2057,7 @@
   },
   {
     "q": "What does the following JavaScript code do?\n",
+    "l": "javascript",
     "c": "document.getElementById('text').innerText = 'New Content';",
     "o": [
       "Changes the text content of the element with id 'text' to 'New Content'.",
@@ -2071,7 +2068,6 @@
   },
   {
     "q": "Which method is used to check if an element has a specific class?",
-    "c": null,
     "o": [
       "element.classList.contains('class-name')",
       "element.hasClass('class-name')",
@@ -2081,6 +2077,7 @@
   },
   {
     "q": "What happens when the following code executes?\n",
+    "l": "javascript",
     "c": "document.getElementById('box').classList.add('new-class');",
     "o": [
       "Adds the class 'new-class' to the element with id 'box'.",
@@ -2091,7 +2088,6 @@
   },
   {
     "q": "Which method selects all elements that match a given CSS selector?",
-    "c": null,
     "o": [
       "document.querySelectorAll('.className')",
       "document.getElement('.className')",
@@ -2101,7 +2097,6 @@
   },
   {
     "q": "What happens if `document.querySelector('.btn')` is used when multiple elements have the class 'btn'?",
-    "c": null,
     "o": [
       "It selects only the first element with the class 'btn'.",
       "It selects all elements with the class 'btn'.",
@@ -2111,7 +2106,6 @@
   },
   {
     "q": "Which of the following is NOT a valid way to select an element?",
-    "c": null,
     "o": [
       "document.getElement('.my-class')",
       "document.querySelector('.my-class')",
@@ -2121,7 +2115,6 @@
   },
   {
     "q": "How can you change the background color of a `div` with the id 'box' to blue?",
-    "c": null,
     "o": [
       "document.getElementById('box').style.backgroundColor = 'blue';",
       "document.getElementById('box').css.backgroundColor = 'blue';",
@@ -2131,7 +2124,6 @@
   },
   {
     "q": "Which event is fired when a user presses a key on the keyboard?",
-    "c": null,
     "o": [
       "keydown",
       "keypress",
@@ -2141,7 +2133,6 @@
   },
   {
     "q": "What does the `addEventListener` method do?",
-    "c": null,
     "o": [
       "Attaches an event handler to an element without overwriting existing handlers.",
       "Adds a new HTML element to the page.",
@@ -2151,7 +2142,6 @@
   },
   {
     "q": "Which event occurs when a user moves the mouse pointer over an element?",
-    "c": null,
     "o": [
       "mouseover",
       "mouseenter",
@@ -2161,6 +2151,7 @@
   },
   {
     "q": "What will the following code do?\n",
+    "l": "javascript",
     "c": "document.getElementById('btn').addEventListener('dblclick', function() {\n    alert('Button double-clicked!');\n});",
     "o": [
       "Show an alert when the button is double-clicked.",
@@ -2171,7 +2162,6 @@
   },
   {
     "q": "Which of the following will correctly hide an element with id 'content'?",
-    "c": null,
     "o": [
       "document.getElementById('content').style.display = 'none';",
       "document.getElementById('content').hide();",
@@ -2181,7 +2171,6 @@
   },
   {
     "q": "What is the purpose of `event.stopPropagation()` in JavaScript?",
-    "c": null,
     "o": [
       "Prevents the event from bubbling up the DOM tree.",
       "Stops the default action of an event.",
@@ -2191,7 +2180,6 @@
   },
   {
     "q": "What does the `classList.add('active')` method do?",
-    "c": null,
     "o": [
       "Adds the 'active' class to an element.",
       "Removes the 'active' class from an element.",
@@ -2201,7 +2189,6 @@
   },
   {
     "q": "Which of the following methods is used to remove an event listener?",
-    "c": null,
     "o": [
       "removeEventListener",
       "stopEvent",
@@ -2211,7 +2198,6 @@
   },
   {
     "q": "How can you change the text inside a paragraph element with id 'message'?",
-    "c": null,
     "o": [
       "document.getElementById('message').textContent = 'New text';",
       "document.getElementById('message').innerHTML = '<p>New text</p>';",
@@ -2221,7 +2207,6 @@
   },
   {
     "q": "What will `document.querySelectorAll('p')` return?",
-    "c": null,
     "o": [
       "A NodeList of all <p> elements in the document.",
       "An array of all <p> elements in the document.",
@@ -2231,7 +2216,6 @@
   },
   {
     "q": "How can you make an element draggable using JavaScript?",
-    "c": null,
     "o": [
       "Set the 'draggable' attribute to 'true' and handle drag events.",
       "Apply 'position: absolute' in CSS and set 'movable' to true.",
@@ -2241,7 +2225,6 @@
   },
   {
     "q": "Which of the following events is fired when an element is clicked?",
-    "c": null,
     "o": [
       "click",
       "mousedown",
@@ -2251,7 +2234,6 @@
   },
   {
     "q": "What does `element.innerHTML = '<strong>Hello</strong>'` do?",
-    "c": null,
     "o": [
       "Replaces the element's content with bold 'Hello'.",
       "Inserts '<strong>Hello</strong>' as plain text.",
@@ -2261,7 +2243,6 @@
   },
   {
     "q": "Which method can dynamically add a new `<li>` element inside a `<ul>`?",
-    "c": null,
     "o": [
       "ul.appendChild(newElement)",
       "ul.add(newElement)",
@@ -2271,7 +2252,6 @@
   },
   {
     "q": "What will `document.getElementById('myDiv').remove();` do?",
-    "c": null,
     "o": [
       "Remove the element with id 'myDiv' from the DOM.",
       "Hide the element with id 'myDiv'.",
@@ -2281,7 +2261,6 @@
   },
   {
     "q": "What is the correct method to select an element with the ID 'header' in JavaScript?",
-    "c": null,
     "o": [
       "document.getElementById('header')",
       "document.querySelector('#header')",
@@ -2291,6 +2270,7 @@
   },
   {
     "q": "What is the output of the following code snippet when clicking a button with id 'myBtn'?",
+    "l": "javascript",
     "c": "document.getElementById('myBtn').addEventListener('click', function() {\n  console.log('Button clicked!');\n});",
     "o": [
       "'Button clicked!' logged to console",
@@ -2301,7 +2281,6 @@
   },
   {
     "q": "Which method is used to create a new HTML element in JavaScript?",
-    "c": null,
     "o": [
       "document.createElement()",
       "document.newElement()",
@@ -2311,6 +2290,7 @@
   },
   {
     "q": "What does the following code snippet do?",
+    "l": "javascript",
     "c": "document.querySelector('.item').style.color = 'red';",
     "o": [
       "Changes text color to red for the first element with class 'item'",
@@ -2321,7 +2301,6 @@
   },
   {
     "q": "What is the correct way to handle a click event on a button with id 'submitBtn'?",
-    "c": null,
     "o": [
       "document.getElementById('submitBtn').addEventListener('click', handlerFunction)",
       "document.getElementById('submitBtn').onClick(handlerFunction)",
@@ -2331,6 +2310,7 @@
   },
   {
     "q": "What will be the result of the following code snippet?",
+    "l": "javascript",
     "c": "const div = document.createElement('div');\ndiv.textContent = 'Hello World';\ndocument.body.appendChild(div);",
     "o": [
       "A new div with text 'Hello World' is added to the page",
@@ -2341,7 +2321,6 @@
   },
   {
     "q": "Which property is used to change the text content of an HTML element?",
-    "c": null,
     "o": [
       "textContent",
       "innerHTML",
@@ -2351,6 +2330,7 @@
   },
   {
     "q": "What does the following code snippet do when executed?",
+    "l": "javascript",
     "c": "const items = document.querySelectorAll('.list-item');\nitems.forEach(item => {\n  item.classList.add('active');\n});",
     "o": [
       "Adds 'active' class to all elements with class 'list-item'",
@@ -2361,7 +2341,6 @@
   },
   {
     "q": "Which method is used to remove a child element from its parent in the DOM?",
-    "c": null,
     "o": [
       "parent.removeChild(child)",
       "child.removeFrom(parent)",
@@ -2371,6 +2350,7 @@
   },
   {
     "q": "What will the following code snippet output when run?",
+    "l": "javascript",
     "c": "console.log(document.querySelector('p').textContent);",
     "o": [
       "The text content of the first paragraph element",
@@ -2381,7 +2361,6 @@
   },
   {
     "q": "Which method selects all elements matching a CSS selector and returns a NodeList?",
-    "c": null,
     "o": [
       "document.querySelectorAll('.className')",
       "document.getElementsByClassName('className')",
@@ -2391,6 +2370,7 @@
   },
   {
     "q": "What does this code snippet do when executed?",
+    "l": "javascript",
     "c": "document.querySelector('button').addEventListener('mouseover', () => {\n  console.log('Mouse over button!');\n});",
     "o": [
       "Logs 'Mouse over button!' when hovering over the first button",
@@ -2401,7 +2381,6 @@
   },
   {
     "q": "How do you change the background color of an element with ID 'box' to blue?",
-    "c": null,
     "o": [
       "document.getElementById('box').style.backgroundColor = 'blue';",
       "document.getElementById('box').setColor('blue');",
@@ -2411,6 +2390,7 @@
   },
   {
     "q": "What is the output of this code if no `<p>` elements exist?",
+    "l": "javascript",
     "c": "console.log(document.querySelector('p'));",
     "o": [
       "null",
@@ -2421,7 +2401,6 @@
   },
   {
     "q": "Which method correctly removes the 'hidden' class from a div?",
-    "c": null,
     "o": [
       "document.querySelector('div').classList.remove('hidden');",
       "document.querySelector('div').removeClass('hidden');",
@@ -2431,6 +2410,7 @@
   },
   {
     "q": "What does the following code do when a button is clicked?",
+    "l": "javascript",
     "c": "document.getElementById('btn').onclick = function() {\n  this.textContent = 'Clicked!';\n};",
     "o": [
       "Changes the button's text to 'Clicked!'",
@@ -2441,7 +2421,6 @@
   },
   {
     "q": "How do you check if an element with ID 'menu' has a class 'active'?",
-    "c": null,
     "o": [
       "document.getElementById('menu').classList.contains('active');",
       "document.getElementById('menu').hasClass('active');",
@@ -2451,6 +2430,7 @@
   },
   {
     "q": "What happens when this code runs?",
+    "l": "javascript",
     "c": "const list = document.createElement('ul');\nlist.innerHTML = '<li>Item 1</li><li>Item 2</li>';\ndocument.body.append(list);",
     "o": [
       "A new unordered list with two items is added to the page",
@@ -2461,7 +2441,6 @@
   },
   {
     "q": "Which property modifies the inline CSS of an element?",
-    "c": null,
     "o": [
       "element.style",
       "element.css",
@@ -2471,7 +2450,6 @@
   },
   {
     "q": "What is the correct way to attach a click event to multiple buttons with class 'btn'?",
-    "c": null,
     "o": [
       "document.querySelectorAll('.btn').forEach(btn => {\n  btn.addEventListener('click', handleClick);\n});",
       "document.getElementsByClassName('btn').onclick = handleClick;",
@@ -2481,7 +2459,6 @@
   },
   {
     "q": "How do you toggle the visibility of an element (show/hide) using JavaScript?",
-    "c": null,
     "o": [
       "element.style.display = element.style.display === 'none' ? 'block' : 'none';",
       "element.toggleVisibility();",
@@ -2491,6 +2468,7 @@
   },
   {
     "q": "What does this code snippet do?",
+    "l": "javascript",
     "c": "document.querySelector('input').addEventListener('input', (e) => {\n  console.log(e.target.value);\n});",
     "o": [
       "Logs the input value every time it changes",
@@ -2501,7 +2479,6 @@
   },
   {
     "q": "What is the most efficient way to select all <a> tags inside a <nav> element?",
-    "c": null,
     "o": [
       "document.querySelectorAll('nav a')",
       "document.getElementsByTagName('nav').getElementsByTagName('a')",
@@ -2511,6 +2488,7 @@
   },
   {
     "q": "What happens when this code runs on a button click?",
+    "l": "javascript",
     "c": "document.getElementById('myBtn').addEventListener('click', function(e) {\n  e.stopPropagation();\n  console.log('Button clicked!');\n});",
     "o": [
       "Logs 'Button clicked!' and prevents event bubbling",
@@ -2521,7 +2499,6 @@
   },
   {
     "q": "How would you dynamically set the 'disabled' attribute on an input field?",
-    "c": null,
     "o": [
       "document.querySelector('input').disabled = true;",
       "document.querySelector('input').setAttribute('disabled', '');",
@@ -2531,6 +2508,7 @@
   },
   {
     "q": "What does this code do to paragraph elements?",
+    "l": "javascript",
     "c": "document.querySelectorAll('p').forEach(p => {\n  p.classList.toggle('highlight');\n});",
     "o": [
       "Toggles 'highlight' class on all paragraphs (adds if missing, removes if present)",
@@ -2541,7 +2519,6 @@
   },
   {
     "q": "Which method correctly prevents a form submission?",
-    "c": null,
     "o": [
       "formElement.addEventListener('submit', e => e.preventDefault());",
       "formElement.onSubmit = false;",
@@ -2551,6 +2528,7 @@
   },
   {
     "q": "What is the output when this runs on an empty page?",
+    "l": "javascript",
     "c": "console.log(document.querySelector('.missing')?.textContent || 'Not found');",
     "o": [
       "'Not found'",
@@ -2561,7 +2539,6 @@
   },
   {
     "q": "How would you change all <span> colors to red using one statement?",
-    "c": null,
     "o": [
       "document.querySelectorAll('span').forEach(span => span.style.color = 'red');",
       "document.styleAll('span').color = 'red';",
@@ -2571,6 +2548,7 @@
   },
   {
     "q": "What does this event listener do?",
+    "l": "javascript",
     "c": "window.addEventListener('keydown', (e) => {\n  if (e.key === 'Escape') console.log('Esc pressed!');\n});",
     "o": [
       "Logs when Escape key is pressed",
@@ -2581,7 +2559,6 @@
   },
   {
     "q": "How do you replace an existing <div id='old'> with new content?",
-    "c": null,
     "o": [
       "oldDiv.replaceWith(document.createElement('div'));",
       "oldDiv.innerHTML = '<div></div>';",
@@ -2591,7 +2568,6 @@
   },
   {
     "q": "What's the difference between .textContent and .innerHTML?",
-    "c": null,
     "o": [
       ".textContent renders text as-is, .innerHTML parses HTML tags",
       ".innerHTML is faster but less secure",
@@ -2601,6 +2577,7 @@
   },
   {
     "q": "What happens when this code runs?",
+    "l": "javascript",
     "c": "const div = document.querySelector('div');\ndiv.dataset.loaded = 'true';",
     "o": [
       "Sets a custom data-loaded='true' attribute on the div",
@@ -2611,7 +2588,6 @@
   },
   {
     "q": "How would you attach the same click handler to three buttons efficiently?",
-    "c": null,
     "o": [
       "document.querySelectorAll('.btn').forEach(btn => btn.onclick = handler);",
       "Add onclick='handler()' to each button in HTML",
@@ -2621,7 +2597,6 @@
   },
   {
     "q": "Which method would you use to select the first <li> element inside a <ul> with class 'menu'?",
-    "c": null,
     "o": [
       "document.querySelector('ul.menu li:first-child')",
       "document.getElementByTag('ul.menu').firstChild",
@@ -2631,6 +2606,7 @@
   },
   {
     "q": "What does this event listener do when added to a text input?",
+    "l": "javascript",
     "c": "document.querySelector('input').addEventListener('focus', function() {\n  this.style.border = '2px solid blue';\n});",
     "o": [
       "Adds a blue border when the input receives focus",
@@ -2641,7 +2617,6 @@
   },
   {
     "q": "How would you change all elements with class 'error' to have red text and a yellow background?",
-    "c": null,
     "o": [
       "document.querySelectorAll('.error').forEach(el => {\n  el.style.color = 'red';\n  el.style.backgroundColor = 'yellow';\n});",
       "document.style('.error').set('color:red; background:yellow')",
@@ -2651,7 +2626,6 @@
   },
   {
     "q": "What is the key difference between 'click' and 'mousedown' events?",
-    "c": null,
     "o": [
       "'mousedown' triggers when button is pressed, 'click' on full press-release",
       "'click' works only on buttons, 'mousedown' on any element",
@@ -2661,6 +2635,7 @@
   },
   {
     "q": "What does this code do to a <select> element?",
+    "l": "javascript",
     "c": "document.querySelector('select').addEventListener('change', function(e) {\n  console.log(`Selected: ${e.target.options[e.target.selectedIndex].text}`);\n});",
     "o": [
       "Logs the text of the selected option when changed",
@@ -2671,7 +2646,6 @@
   },
   {
     "q": "How would you efficiently add the same class to 3 different elements?",
-    "c": null,
     "o": [
       "document.querySelectorAll('.target').forEach(el => el.classList.add('active'))",
       "document.addClassToAll('.target', 'active')",
@@ -2681,6 +2655,7 @@
   },
   {
     "q": "What is the effect of this CSS modification?",
+    "l": "javascript",
     "c": "document.documentElement.style.setProperty('--main-color', '#ff0000')",
     "o": [
       "Updates the CSS variable --main-color to red",
@@ -2691,7 +2666,6 @@
   },
   {
     "q": "Which method would remove an event listener properly?",
-    "c": null,
     "o": [
       "element.removeEventListener('click', handlerFunction)",
       "element.off('click', handlerFunction)",
@@ -2701,6 +2675,7 @@
   },
   {
     "q": "What does this animation-related code do?",
+    "l": "javascript",
     "c": "document.querySelector('.box').addEventListener('animationend', function() {\n  this.classList.remove('animate');\n});",
     "o": [
       "Removes the 'animate' class when animation completes",
@@ -2711,7 +2686,6 @@
   },
   {
     "q": "How would you check if an element is currently visible in the viewport?",
-    "c": null,
     "o": [
       "element.getBoundingClientRect().top < window.innerHeight",
       "element.checkVisibility()",
@@ -2721,6 +2695,7 @@
   },
   {
     "q": "What does this touch event code accomplish?",
+    "l": "javascript",
     "c": "document.addEventListener('touchstart', function(e) {\n  e.preventDefault();\n  console.log(e.touches[0].clientX);\n});",
     "o": [
       "Logs the X position of first touch while preventing scroll",
@@ -2731,7 +2706,6 @@
   },
   {
     "q": "How would you dynamically create and insert a stylesheet?",
-    "c": null,
     "o": [
       "const style = document.createElement('style');\nstyle.textContent = 'body {color: red}';\ndocument.head.appendChild(style);",
       "document.styles.add('body {color: red}');",
@@ -2741,7 +2715,6 @@
   },
   {
     "q": "Which method selects all <input> elements with type 'checkbox' that are checked?",
-    "c": null,
     "o": [
       "document.querySelectorAll('input[type=\"checkbox\"]:checked')",
       "document.getCheckedInputs('checkbox')",
@@ -2751,6 +2724,7 @@
   },
   {
     "q": "What does this event listener code do when attached to a <div>?",
+    "l": "javascript",
     "c": "div.addEventListener('mouseenter', () => div.style.transform = 'scale(1.1)');\ndiv.addEventListener('mouseleave', () => div.style.transform = '')",
     "o": [
       "Scales the div up by 10% on hover and resets when mouse leaves",
@@ -2761,7 +2735,6 @@
   },
   {
     "q": "How would you change the font size of all paragraph elements to 18px using a single statement?",
-    "c": null,
     "o": [
       "document.querySelectorAll('p').forEach(p => p.style.fontSize = '18px')",
       "document.styleAll('p', 'font-size:18px')",
@@ -2771,7 +2744,6 @@
   },
   {
     "q": "What is the difference between event.target and event.currentTarget in a click handler?",
-    "c": null,
     "o": [
       "target is the clicked element, currentTarget is the element with the listener",
       "currentTarget is always the document, target is the clicked element",
@@ -2781,6 +2753,7 @@
   },
   {
     "q": "What does this code do to a button element?",
+    "l": "javascript",
     "c": "button.insertAdjacentHTML('afterend', '<span>New</span>')",
     "o": [
       "Inserts a span element immediately after the button",
@@ -2791,7 +2764,6 @@
   },
   {
     "q": "How would you disable right-click context menu on an image?",
-    "c": null,
     "o": [
       "img.addEventListener('contextmenu', e => e.preventDefault())",
       "img.onRightClick = false",
@@ -2801,6 +2773,7 @@
   },
   {
     "q": "What does this CSS modification do?",
+    "l": "javascript",
     "c": "document.documentElement.style.setProperty('--primary', '#4CAF50')",
     "o": [
       "Updates the CSS variable --primary to green",
@@ -2811,7 +2784,6 @@
   },
   {
     "q": "Which method would you use to efficiently remove all child nodes from a <ul> element?",
-    "c": null,
     "o": [
       "ul.innerHTML = ''",
       "ul.removeChildren()",
@@ -2821,6 +2793,7 @@
   },
   {
     "q": "What does this drag-and-drop code accomplish?",
+    "l": "javascript",
     "c": "div.addEventListener('dragstart', e => e.dataTransfer.setData('text/plain', e.target.id))",
     "o": [
       "Stores the dragged element's ID for drop handling",
@@ -2831,7 +2804,6 @@
   },
   {
     "q": "How would you make an element fade out over 1 second using JavaScript?",
-    "c": null,
     "o": [
       "element.style.transition = 'opacity 1s'; element.style.opacity = '0'",
       "element.fadeOut(1000)",
@@ -2841,6 +2813,7 @@
   },
   {
     "q": "What does this form submission code prevent?",
+    "l": "javascript",
     "c": "form.addEventListener('submit', e => {\n  if(!validate()) e.preventDefault();\n})",
     "o": [
       "Prevents form submission if validation fails",
@@ -2851,7 +2824,6 @@
   },
   {
     "q": "How would you detect when an element's CSS class changes?",
-    "c": null,
     "o": [
       "Use a MutationObserver to watch attribute changes",
       "element.onClassChange(callback)",
@@ -2861,7 +2833,6 @@
   },
   {
     "q": "How would you select all <a> elements that have an href starting with 'https'?",
-    "c": null,
     "o": [
       "document.querySelectorAll('a[href^=\"https\"]')",
       "document.links.filter(link => link.startsWith('https'))",
@@ -2871,6 +2842,7 @@
   },
   {
     "q": "What does this event delegation pattern accomplish?",
+    "l": "javascript",
     "c": "document.querySelector('ul').addEventListener('click', function(e) {\n  if(e.target.matches('li.item')) {\n    console.log('List item clicked!');\n  }\n});",
     "o": [
       "Efficiently handles clicks on any li.item within the ul",
@@ -2881,7 +2853,6 @@
   },
   {
     "q": "How would you toggle an element's visibility while preserving its space in the document flow?",
-    "c": null,
     "o": [
       "element.style.visibility = element.style.visibility === 'hidden' ? 'visible' : 'hidden'",
       "element.style.display = element.style.display === 'none' ? 'block' : 'none'",
@@ -2891,6 +2862,7 @@
   },
   {
     "q": "What does this code do when scrolling?",
+    "l": "javascript",
     "c": "window.addEventListener('scroll', function() {\n  header.style.opacity = 1 - window.scrollY / 300;\n});",
     "o": [
       "Gradually fades out the header as you scroll down",
@@ -2901,7 +2873,6 @@
   },
   {
     "q": "How would you select the direct children of a <nav> element that are list items?",
-    "c": null,
     "o": [
       "document.querySelectorAll('nav > li')",
       "document.getChildren('nav li')",
@@ -2911,6 +2882,7 @@
   },
   {
     "q": "What does this form field code accomplish?",
+    "l": "javascript",
     "c": "input.addEventListener('focus', function() {\n  this.previousElementSibling.classList.add('active-label');\n});\ninput.addEventListener('blur', function() {\n  this.previousElementSibling.classList.remove('active-label');\n});",
     "o": [
       "Highlights the preceding label when input is focused",
@@ -2921,7 +2893,6 @@
   },
   {
     "q": "How would you modify all external links to open in a new tab?",
-    "c": null,
     "o": [
       "document.querySelectorAll('a[href^=\"http\"]').forEach(a => a.target = '_blank')",
       "document.links.setTarget('_blank')",
@@ -2931,6 +2902,7 @@
   },
   {
     "q": "What does this animation frame code do?",
+    "l": "javascript",
     "c": "function animate() {\n  element.style.left = (parseInt(element.style.left) + 1) + 'px';\n  requestAnimationFrame(animate);\n}\nanimate();",
     "o": [
       "Creates a smooth continuous rightward movement",
@@ -2941,7 +2913,6 @@
   },
   {
     "q": "How would you select an element that has both 'active' and 'highlight' classes?",
-    "c": null,
     "o": [
       "document.querySelector('.active.highlight')",
       "document.getElementsByClassName('active highlight')",
@@ -2951,6 +2922,7 @@
   },
   {
     "q": "What does this intersection observer code do?",
+    "l": "javascript",
     "c": "const observer = new IntersectionObserver(entries => {\n  entries.forEach(entry => entry.target.classList.toggle('visible', entry.isIntersecting));\n});\nobserver.observe(element);",
     "o": [
       "Toggles 'visible' class when element enters viewport",
@@ -2961,7 +2933,6 @@
   },
   {
     "q": "How would you swap the positions of two sibling elements?",
-    "c": null,
     "o": [
       "element1.parentNode.insertBefore(element2, element1)",
       "element1.swap(element2)",
@@ -2971,6 +2942,7 @@
   },
   {
     "q": "What does this keyboard navigation code implement?",
+    "l": "javascript",
     "c": "document.addEventListener('keydown', e => {\n  if (e.key === 'ArrowDown') focusedElement.nextElementSibling?.focus();\n  if (e.key === 'ArrowUp') focusedElement.previousElementSibling?.focus();\n});",
     "o": [
       "Up/down arrow key navigation between sibling elements",
@@ -2981,7 +2953,6 @@
   },
   {
     "q": "How would you select all table cells in the second column of a table?",
-    "c": null,
     "o": [
       "document.querySelectorAll('td:nth-child(2)')",
       "document.getCellsByColumn(2)",
@@ -2991,6 +2962,7 @@
   },
   {
     "q": "What does this optimized scroll event handler do?",
+    "l": "javascript",
     "c": "let ticking = false;\nwindow.addEventListener('scroll', () => {\n  if (!ticking) {\n    requestAnimationFrame(() => {\n      doSomething();\n      ticking = false;\n    });\n    ticking = true;\n  }\n});",
     "o": [
       "Throttles scroll events using requestAnimationFrame",
@@ -3001,7 +2973,6 @@
   },
   {
     "q": "How would you make an element's width match its scrollable content width?",
-    "c": null,
     "o": [
       "element.style.width = element.scrollWidth + 'px'",
       "element.fitToContent()",
@@ -3011,6 +2982,7 @@
   },
   {
     "q": "What does this event listener setup accomplish?",
+    "l": "javascript",
     "c": "const buttons = document.querySelectorAll('button');\nconst handler = function() { console.log(this.textContent); };\nbuttons.forEach(btn => btn.addEventListener('click', handler));",
     "o": [
       "Logs each button's text when clicked using shared handler",
@@ -3021,7 +2993,6 @@
   },
   {
     "q": "How would you select the immediately following sibling of an element?",
-    "c": null,
     "o": [
       "element.nextElementSibling",
       "document.querySelector(element + '+ *')",
@@ -3031,6 +3002,7 @@
   },
   {
     "q": "What does this CSS modification do to a sticky header?",
+    "l": "javascript",
     "c": "header.style.setProperty('position', 'sticky');\nheader.style.setProperty('top', '0');",
     "o": [
       "Makes the header stick to top when scrolling",
@@ -3041,7 +3013,6 @@
   },
   {
     "q": "How would you detect clicks outside a specific element?",
-    "c": null,
     "o": [
       "document.addEventListener('click', (e) => {\n  if (!element.contains(e.target)) console.log('Clicked outside');\n});",
       "element.addEventListener('outsideclick', handler)",
@@ -3051,6 +3022,7 @@
   },
   {
     "q": "What does this drag handle implementation do?",
+    "l": "javascript",
     "c": "dragHandle.addEventListener('mousedown', (e) => {\n  const startX = e.clientX;\n  const startWidth = element.offsetWidth;\n  \n  function move(e) {\n    element.style.width = (startWidth + e.clientX - startX) + 'px';\n  }\n  \n  document.addEventListener('mousemove', move);\n  document.addEventListener('mouseup', () => {\n    document.removeEventListener('mousemove', move);\n  });\n});",
     "o": [
       "Creates a draggable width resizer for the element",
@@ -3061,7 +3033,6 @@
   },
   {
     "q": "How would you select all empty <div> elements?",
-    "c": null,
     "o": [
       "document.querySelectorAll('div:empty')",
       "document.getEmptyDivs()",
@@ -3071,6 +3042,7 @@
   },
   {
     "q": "What does this touch event code implement?",
+    "l": "javascript",
     "c": "let startX;\nelement.addEventListener('touchstart', (e) => {\n  startX = e.touches[0].clientX;\n});\nelement.addEventListener('touchmove', (e) => {\n  if (startX - e.touches[0].clientX > 50) {\n    console.log('Swiped left!');\n  }\n});",
     "o": [
       "Detects left swipes of more than 50px",
@@ -3081,7 +3053,6 @@
   },
   {
     "q": "How would you make a grid layout switch between 2 and 4 columns at different screen sizes?",
-    "c": null,
     "o": [
       "element.style.gridTemplateColumns = 'repeat(auto-fit, minmax(200px, 1fr))'",
       "Use CSS @media queries with different grid-column values",
@@ -3091,6 +3062,7 @@
   },
   {
     "q": "What does this mutation observer detect?",
+    "l": "javascript",
     "c": "new MutationObserver(mutations => {\n  mutations.forEach(mutation => {\n    if (mutation.type === 'childList') {\n      console.log('Child nodes changed');\n    }\n  });\n}).observe(element, { childList: true });",
     "o": [
       "Detects when children are added/removed from element",
@@ -3101,7 +3073,6 @@
   },
   {
     "q": "How would you select all <input> elements that are currently invalid according to HTML5 validation?",
-    "c": null,
     "o": [
       "document.querySelectorAll('input:invalid')",
       "document.getInvalidInputs()",
@@ -3111,6 +3082,7 @@
   },
   {
     "q": "What does this passive event listener improve?",
+    "l": "javascript",
     "c": "document.addEventListener('touchmove', handler, { passive: true });",
     "o": [
       "Scroll performance by not blocking on preventDefault()",
@@ -3121,7 +3093,6 @@
   },
   {
     "q": "How would you make a <div> expand vertically to show hidden content with animation?",
-    "c": null,
     "o": [
       "div.style.transition = 'height 0.3s';\ndiv.style.height = div.scrollHeight + 'px'",
       "div.animate({ height: 'auto' }, 300)",
@@ -3131,6 +3102,7 @@
   },
   {
     "q": "What does this event handler pattern accomplish?",
+    "l": "javascript",
     "c": "const handlers = {\n  click: () => console.log('Clicked'),\n  mouseenter: () => console.log('Mouse entered')\n};\n\nObject.entries(handlers).forEach(([event, handler]) => {\n  element.addEventListener(event, handler);\n});",
     "o": [
       "Dynamically assigns multiple event handlers from an object",
@@ -3141,7 +3113,6 @@
   },
   {
     "q": "How would you select the parent element of an input when it's in a :focus state?",
-    "c": null,
     "o": [
       "document.querySelector('input:focus').parentElement",
       "document.getFocusedInput().parent()",
@@ -3151,6 +3122,7 @@
   },
   {
     "q": "What does this CSS variable manipulation do?",
+    "l": "javascript",
     "c": "document.documentElement.style.setProperty('--theme-color', mode === 'dark' ? '#222' : '#fff');",
     "o": [
       "Switches between dark and light theme colors",
@@ -3161,7 +3133,6 @@
   },
   {
     "q": "How would you implement a custom right-click menu that closes when clicking elsewhere?",
-    "c": null,
     "o": [
       "document.addEventListener('contextmenu', showMenu);\ndocument.addEventListener('click', closeMenu);",
       "element.onRightClick(showMenu).onClick(closeMenu)",
@@ -3171,6 +3142,7 @@
   },
   {
     "q": "What does this IntersectionObserver configuration detect?",
+    "l": "javascript",
     "c": "new IntersectionObserver(entries => {}, \n{ threshold: [0, 0.5, 1], rootMargin: '100px' });",
     "o": [
       "Triggers at 0%, 50%, and 100% visibility with 100px buffer",
@@ -3181,7 +3153,6 @@
   },
   {
     "q": "How would you select all heading elements (h1-h6) in a document?",
-    "c": null,
     "o": [
       "document.querySelectorAll('h1, h2, h3, h4, h5, h6')",
       "document.getHeadings()",
@@ -3191,6 +3162,7 @@
   },
   {
     "q": "What does this pointer events modification do?",
+    "l": "javascript",
     "c": "element.style.pointerEvents = 'none';",
     "o": [
       "Makes the element ignore all mouse/touch events",
@@ -3201,7 +3173,6 @@
   },
   {
     "q": "How would you implement a double-click handler that ignores single clicks?",
-    "c": null,
     "o": [
       "let clickTimeout;\nelement.addEventListener('click', () => {\n  clearTimeout(clickTimeout);\n  clickTimeout = setTimeout(() => {}, 300);\n});\nelement.addEventListener('dblclick', () => {\n  clearTimeout(clickTimeout);\n  // Handle double click\n});",
       "element.handleDoubleClick(handler)",
@@ -3211,6 +3182,7 @@
   },
   {
     "q": "What does this scroll-snap modification accomplish?",
+    "l": "javascript",
     "c": "container.style.scrollSnapType = 'y mandatory';\nitems.forEach(item => item.style.scrollSnapAlign = 'start');",
     "o": [
       "Creates vertical snapping to item starts when scrolling",
@@ -3221,7 +3193,6 @@
   },
   {
     "q": "How would you select all elements that have either 'active' or 'selected' class?",
-    "c": null,
     "o": [
       "document.querySelectorAll('.active, .selected')",
       "document.getElementsByClassName('active selected')",
@@ -3231,6 +3202,7 @@
   },
   {
     "q": "What does this optimized resize handler pattern accomplish?",
+    "l": "javascript",
     "c": "let resizeTimeout;\nwindow.addEventListener('resize', () => {\n  clearTimeout(resizeTimeout);\n  resizeTimeout = setTimeout(() => {\n    // Handle resize\n  }, 100);\n});",
     "o": [
       "Debounces resize events to improve performance",
@@ -3241,7 +3213,6 @@
   },
   {
     "q": "How would you make a sticky header that only appears after scrolling 200px?",
-    "c": null,
     "o": [
       "window.addEventListener('scroll', () => {\n  header.style.position = window.scrollY > 200 ? 'sticky' : 'static';\n  header.style.top = '0';\n});",
       "header.style.position = 'sticky-after-200'",
@@ -3251,6 +3222,7 @@
   },
   {
     "q": "What does this event listener code demonstrate?",
+    "l": "javascript",
     "c": "element.addEventListener('click', function(event) {\n  console.log(event.currentTarget === this);\n});",
     "o": [
       "currentTarget and 'this' refer to the element receiving the event",
@@ -3261,7 +3233,6 @@
   },
   {
     "q": "How would you select the first visible <div> in the document?",
-    "c": null,
     "o": [
       "document.querySelector('div:not([style*=\"display:none\"]):not([hidden])')",
       "document.getFirstVisibleDiv()",
@@ -3271,6 +3242,7 @@
   },
   {
     "q": "What does this CSS modification do to text inputs?",
+    "l": "javascript",
     "c": "document.querySelectorAll('input[type=\"text\"]').forEach(input => {\n  input.style.setProperty('caret-color', 'red');\n});",
     "o": [
       "Changes the text cursor color to red",
@@ -3281,7 +3253,6 @@
   },
   {
     "q": "How would you implement a 'click and hold' event detector?",
-    "c": null,
     "o": [
       "let holdTimer;\nelement.addEventListener('mousedown', () => {\n  holdTimer = setTimeout(holdHandler, 1000);\n});\nelement.addEventListener('mouseup', () => {\n  clearTimeout(holdTimer);\n});",
       "element.addHoldListener(1000, holdHandler)",
@@ -3291,6 +3262,7 @@
   },
   {
     "q": "What does this attribute observer pattern detect?",
+    "l": "javascript",
     "c": "new MutationObserver(mutations => {\n  mutations.forEach(mutation => {\n    if (mutation.attributeName === 'disabled') {\n      console.log('Disabled state changed');\n    }\n  });\n}).observe(button, { attributes: true });",
     "o": [
       "Changes to the disabled attribute on a button",
@@ -3301,7 +3273,6 @@
   },
   {
     "q": "How would you select all elements that contain the text 'Error'?",
-    "c": null,
     "o": [
       "Array.from(document.querySelectorAll('*')).filter(el => el.textContent.includes('Error'))",
       "document.querySelectorAll(':contains(\"Error\")')",
@@ -3311,6 +3282,7 @@
   },
   {
     "q": "What does this touch gesture code detect?",
+    "l": "javascript",
     "c": "let startY;\nsurface.addEventListener('touchstart', e => {\n  startY = e.touches[0].clientY;\n});\nsurface.addEventListener('touchmove', e => {\n  if (e.touches[0].clientY - startY > 50) {\n    console.log('Swiped down');\n  }\n});",
     "o": [
       "Detects downward swipes of more than 50px",
@@ -3321,7 +3293,6 @@
   },
   {
     "q": "How would you make a grid item span 2 columns only when it has 'wide' class?",
-    "c": null,
     "o": [
       "document.querySelectorAll('.wide').forEach(el => {\n  el.style.gridColumn = 'span 2';\n});",
       "CSS.addRule('.wide { columns: 2 }')",
@@ -3331,6 +3302,7 @@
   },
   {
     "q": "What does this scroll-linked animation technique use?",
+    "l": "javascript",
     "c": "window.addEventListener('scroll', () => {\n  const scrollPercent = window.scrollY / document.body.scrollHeight;\n  element.style.transform = `translateX(${scrollPercent * 100}%)`;\n});",
     "o": [
       "Direct mapping of scroll position to animation progress",
@@ -3341,7 +3313,6 @@
   },
   {
     "q": "How would you select all elements that have a data-testid attribute starting with 'user-'?",
-    "c": null,
     "o": [
       "document.querySelectorAll('[data-testid^=\"user-\"]')",
       "document.getElementsByDataPrefix('user-')",
@@ -3351,6 +3322,7 @@
   },
   {
     "q": "What does this event handler optimization technique accomplish?",
+    "l": "javascript",
     "c": "const handler = { handleEvent: () => console.log('Handled') };\nelement.addEventListener('click', handler);",
     "o": [
       "Allows handler removal without anonymous function reference",
@@ -3361,7 +3333,6 @@
   },
   {
     "q": "How would you make a modal close when pressing Escape and fade out over 300ms?",
-    "c": null,
     "o": [
       "document.addEventListener('keydown', (e) => {\n  if (e.key === 'Escape') {\n    modal.style.transition = 'opacity 300ms';\n    modal.style.opacity = '0';\n    setTimeout(() => modal.remove(), 300);\n  }\n});",
       "modal.addCloseOnEscape(300)",
@@ -3371,6 +3342,7 @@
   },
   {
     "q": "What does this scroll position detection pattern demonstrate?",
+    "l": "javascript",
     "c": "window.addEventListener('scroll', () => {\n  const atBottom = window.innerHeight + window.scrollY >= document.body.offsetHeight;\n  console.log(atBottom ? 'Bottom reached' : 'Scrolling');\n});",
     "o": [
       "Detects when user scrolls to page bottom",
@@ -3381,7 +3353,6 @@
   },
   {
     "q": "How would you select the closest ancestor of an element with class 'container'?",
-    "c": null,
     "o": [
       "element.closest('.container')",
       "element.findAncestor('container')",
@@ -3391,6 +3362,7 @@
   },
   {
     "q": "What does this CSS variable manipulation pattern enable?",
+    "l": "javascript",
     "c": "document.documentElement.style.setProperty('--scroll-pos', window.scrollY);",
     "o": [
       "Using scroll position in CSS calc() expressions",
@@ -3401,7 +3373,6 @@
   },
   {
     "q": "How would you implement a hover delay that only triggers after 500ms of hovering?",
-    "c": null,
     "o": [
       "let hoverTimer;\nelement.addEventListener('mouseenter', () => {\n  hoverTimer = setTimeout(showTooltip, 500);\n});\nelement.addEventListener('mouseleave', () => {\n  clearTimeout(hoverTimer);\n});",
       "element.addHoverDelay(500, showTooltip)",
@@ -3411,6 +3382,7 @@
   },
   {
     "q": "What does this dynamic style injection accomplish?",
+    "l": "javascript",
     "c": "const style = document.createElement('style');\nstyle.textContent = `[data-theme=\"dark\"] { background: #111; }`;\ndocument.head.append(style);",
     "o": [
       "Adds dark theme support that activates via data attribute",
@@ -3421,7 +3393,6 @@
   },
   {
     "q": "How would you select all elements that are currently animating via CSS?",
-    "c": null,
     "o": [
       "Array.from(document.querySelectorAll('*')).filter(el => \n  el.getAnimations().length > 0\n);",
       "document.querySelectorAll(':animating')",
@@ -3431,6 +3402,7 @@
   },
   {
     "q": "What does this input synchronization pattern demonstrate?",
+    "l": "javascript",
     "c": "const inputs = document.querySelectorAll('.sync-input');\ninputs.forEach(input => {\n  input.addEventListener('input', () => {\n    inputs.forEach(i => i.value = input.value);\n  });\n});",
     "o": [
       "Keeping multiple input values synchronized",
@@ -3441,7 +3413,6 @@
   },
   {
     "q": "How would you make a table row flash yellow briefly when updated?",
-    "c": null,
     "o": [
       "row.style.transition = 'background-color 300ms';\nrow.style.backgroundColor = 'yellow';\nsetTimeout(() => row.style.backgroundColor = '', 300);",
       "row.addFlashEffect('yellow', 300)",
@@ -3451,6 +3422,7 @@
   },
   {
     "q": "What does this intersection observer configuration optimize?",
+    "l": "javascript",
     "c": "new IntersectionObserver(callback, {\n  rootMargin: '50% 0px',\n  threshold: [0, 0.25, 0.5, 0.75, 1]\n});",
     "o": [
       "Triggering callbacks well before elements are visible",
@@ -3461,7 +3433,6 @@
   },
   {
     "q": "How would you select all elements that have an aria-label attribute containing the word 'menu'?",
-    "c": null,
     "o": [
       "document.querySelectorAll('[aria-label*=\"menu\"]')",
       "document.getElementsByAriaLabel('menu')",
@@ -3471,6 +3442,7 @@
   },
   {
     "q": "What does this event phase detection code demonstrate?",
+    "l": "javascript",
     "c": "element.addEventListener('click', function(e) {\n  console.log(e.eventPhase === Event.CAPTURING_PHASE ? 'Capturing' : 'Bubbling');\n}, true);",
     "o": [
       "Detects whether event is in capturing phase",
@@ -3481,7 +3453,6 @@
   },
   {
     "q": "How would you implement a smooth scroll to an element with 100px offset from the top?",
-    "c": null,
     "o": [
       "element.scrollIntoView({ behavior: 'smooth', block: 'start' });\nwindow.scrollBy(0, -100);",
       "window.smoothScrollTo(element, -100)",
@@ -3491,6 +3462,7 @@
   },
   {
     "q": "What does this CSS custom property manipulation enable?",
+    "l": "javascript",
     "c": "document.documentElement.style.setProperty('--mouse-x', e.clientX + 'px');\ndocument.documentElement.style.setProperty('--mouse-y', e.clientY + 'px');",
     "o": [
       "Creating mouse position-dependent effects in CSS",
@@ -3501,7 +3473,6 @@
   },
   {
     "q": "How would you select all form elements that are required but empty?",
-    "c": null,
     "o": [
       "document.querySelectorAll(':required:placeholder-shown')",
       "document.getEmptyRequiredFields()",
@@ -3511,6 +3482,7 @@
   },
   {
     "q": "What does this passive touch event optimization prevent?",
+    "l": "javascript",
     "c": "document.addEventListener('touchstart', handler, { passive: true });",
     "o": [
       "Scroll performance jank during touch events",
@@ -3521,7 +3493,6 @@
   },
   {
     "q": "How would you make a draggable element snap to a 10px grid when dropped?",
-    "c": null,
     "o": [
       "element.addEventListener('dragend', (e) => {\n  const x = Math.round(e.clientX / 10) * 10;\n  const y = Math.round(e.clientY / 10) * 10;\n  element.style.transform = `translate(${x}px, ${y}px)`;\n});",
       "element.setDragSnap(10)",
@@ -3531,6 +3502,7 @@
   },
   {
     "q": "What does this View Transition API code accomplish?",
+    "l": "javascript",
     "c": "document.startViewTransition(() => {\n  element.classList.toggle('active');\n});",
     "o": [
       "Creates an animated transition for visual state changes",
@@ -3541,7 +3513,6 @@
   },
   {
     "q": "How would you select all images that have failed to load?",
-    "c": null,
     "o": [
       "document.querySelectorAll('img:not([naturalWidth])')",
       "document.getBrokenImages()",
@@ -3551,6 +3522,7 @@
   },
   {
     "q": "What does this pointer event modification enable?",
+    "l": "javascript",
     "c": "element.style.touchAction = 'none';",
     "o": [
       "Complete control over touch gestures via JavaScript",
@@ -3561,7 +3533,6 @@
   },
   {
     "q": "How would you implement a typeahead search that debounces API calls?",
-    "c": null,
     "o": [
       "let timeout;\ninput.addEventListener('input', () => {\n  clearTimeout(timeout);\n  timeout = setTimeout(fetchResults, 300);\n});",
       "input.addTypeahead(fetchResults, 300)",
@@ -3571,6 +3542,7 @@
   },
   {
     "q": "What does this scrollend event detection improve?",
+    "l": "javascript",
     "c": "element.addEventListener('scrollend', () => {\n  console.log('Scroll complete');\n});",
     "o": [
       "Accurate detection when scrolling truly stops",
@@ -3581,7 +3553,6 @@
   },
   {
     "q": "How would you select all elements that have a specific part in the new CSS Parts API?",
-    "c": null,
     "o": [
       "document.querySelectorAll('[part~=\"button\"]')",
       "document.getParts('button')",
@@ -3591,6 +3562,7 @@
   },
   {
     "q": "What does this event listener option combination achieve?",
+    "l": "javascript",
     "c": "element.addEventListener('click', handler, { once: true, passive: true });",
     "o": [
       "Runs handler once with performance optimization then auto-removes",
@@ -3601,7 +3573,6 @@
   },
   {
     "q": "How would you implement a fade-in animation using the new View Transitions API?",
-    "c": null,
     "o": [
       "document.startViewTransition(() => element.classList.add('visible'));\n/* With CSS: */\n::view-transition-new(root) { animation: fadeIn 0.5s; }",
       "element.animateViewTransition('fadeIn', 500)",
@@ -3611,6 +3582,7 @@
   },
   {
     "q": "What does this CSS property modification enable for scroll behavior?",
+    "l": "javascript",
     "c": "document.documentElement.style.scrollBehavior = 'smooth';",
     "o": [
       "Globally enables smooth scrolling for all scroll operations",
@@ -3621,7 +3593,6 @@
   },
   {
     "q": "How would you select all elements that match a :has() selector condition?",
-    "c": null,
     "o": [
       "document.querySelectorAll(':has(> .active)')",
       "document.getElementsWithChild('.active')",
@@ -3631,6 +3602,7 @@
   },
   {
     "q": "What does this new Popover API event pattern demonstrate?",
+    "l": "javascript",
     "c": "popover.addEventListener('toggle', (e) => {\n  console.log(e.newState === 'open' ? 'Opened' : 'Closed');\n});",
     "o": [
       "Tracks popover state changes via new standardized event",
@@ -3641,7 +3613,6 @@
   },
   {
     "q": "How would you modify an element's style using the new CSS Typed OM?",
-    "c": null,
     "o": [
       "element.attributeStyleMap.set('opacity', CSS.number(0.5));",
       "element.styleTyped.set('opacity', 0.5);",
@@ -3651,6 +3622,7 @@
   },
   {
     "q": "What does this Container Query polyfill detection pattern show?",
+    "l": "javascript",
     "c": "if (!('container' in document.documentElement.style)) {\n  import('container-query-polyfill');\n}",
     "o": [
       "Conditionally loads polyfill only when needed",
@@ -3661,7 +3633,6 @@
   },
   {
     "q": "How would you select the host element of a web component from inside its shadow DOM?",
-    "c": null,
     "o": [
       "this.getRootNode().host",
       "document.querySelector('host-element')",
@@ -3671,6 +3642,7 @@
   },
   {
     "q": "What does this new CSS anchor positioning demo?",
+    "l": "javascript",
     "c": "target.style.position = 'absolute';\ntarget.style.anchorName = '--my-anchor';\ntarget.style.top = 'anchor(--my-anchor bottom)';",
     "o": [
       "Future CSS anchoring relative to another element",
@@ -3681,7 +3653,6 @@
   },
   {
     "q": "How would you implement a declarative shadow DOM fallback?",
-    "c": null,
     "o": [
       "if (!HTMLTemplateElement.prototype.hasOwnProperty('shadowRoot')) {\n  // Imperative shadow DOM creation\n}",
       "document.createShadowDOMFallback()",
@@ -3691,6 +3662,7 @@
   },
   {
     "q": "What does this new Navigation API code accomplish?",
+    "l": "javascript",
     "c": "navigation.addEventListener('navigate', (e) => {\n  e.intercept({ handler: loadPage });\n});",
     "o": [
       "Intercepts SPA navigations for custom handling",
@@ -3701,7 +3673,6 @@
   },
   {
     "q": "How would you select all elements that are currently being animated via the Web Animations API?",
-    "c": null,
     "o": [
       "Array.from(document.querySelectorAll('*')).filter(el => el.getAnimations().length > 0)",
       "document.querySelectorAll(':animating')",
@@ -3711,6 +3682,7 @@
   },
   {
     "q": "What does this event listener option combination provide?",
+    "l": "javascript",
     "c": "element.addEventListener('touchmove', handler, { passive: true, signal: abortController.signal });",
     "o": [
       "Performance optimization with cancellation capability",
@@ -3721,7 +3693,6 @@
   },
   {
     "q": "How would you modify an element's style using CSS Houdini's Properties and Values API?",
-    "c": null,
     "o": [
       "CSS.registerProperty({name: '--custom-prop', syntax: '<color>', inherits: false});\nelement.style.setProperty('--custom-prop', 'rebeccapurple');",
       "element.style.houdini.set('--custom-prop', 'value')",
@@ -3731,6 +3702,7 @@
   },
   {
     "q": "What does this IntersectionObserver configuration optimize for?",
+    "l": "javascript",
     "c": "new IntersectionObserver(callback, {threshold: Array.from({length: 101}, (_, i) => i * 0.01)});",
     "o": [
       "Pixel-perfect visibility tracking with 1% granularity",
@@ -3741,7 +3713,6 @@
   },
   {
     "q": "How would you select all elements that match a :has() selector with complex conditions?",
-    "c": null,
     "o": [
       "document.querySelectorAll('section:has(> h2:contains(Important))')",
       "document.getComplexMatches('section > h2:contains(Important)')",
@@ -3751,6 +3722,7 @@
   },
   {
     "q": "What does this PerformanceObserver track for event handling metrics?",
+    "l": "javascript",
     "c": "const observer = new PerformanceObserver(list => {\n  list.getEntries().forEach(entry => console.log(entry.duration));\n});\nobserver.observe({type: 'event', buffered: true});",
     "o": [
       "Event timing durations for interaction events",
@@ -3761,6 +3733,7 @@
   },
   {
     "q": "What does this CSS modification using the new anchor positioning API demonstrate?",
+    "l": "javascript",
     "c": "anchor.style.anchorName = '--my-anchor';\ntarget.style.position = 'absolute';\ntarget.style.positionAnchor = '--my-anchor';\ntarget.style.top = 'anchor(--my-anchor bottom)';",
     "o": [
       "Future CSS-based element anchoring relative to another element",
@@ -3771,7 +3744,6 @@
   },
   {
     "q": "How would you select all elements with a specific aria-current state?",
-    "c": null,
     "o": [
       "document.querySelectorAll('[aria-current]')",
       "document.getAriaCurrentElements()",
@@ -3781,6 +3753,7 @@
   },
   {
     "q": "What does this new ScrollTimeline animation configuration accomplish?",
+    "l": "javascript",
     "c": "new Animation(\n  new KeyframeEffect(element, [{opacity: 0}, {opacity: 1}], {duration: 1000}),\n  new ScrollTimeline({source: document.scrollingElement})\n).play();",
     "o": [
       "Links animation progress to scroll position",
@@ -3791,7 +3764,6 @@
   },
   {
     "q": "How would you modify an element's style using the new CSS Scope API?",
-    "c": null,
     "o": [
       "@scope (.component) { .element { color: red; } }",
       "element.style.scoped = 'color: red'",
@@ -3801,6 +3773,7 @@
   },
   {
     "q": "What does this new Document Picture-in-Picture API event pattern enable?",
+    "l": "javascript",
     "c": "pipWindow.addEventListener('resize', updateLayout);\npipWindow.addEventListener('close', restoreState);",
     "o": [
       "Responsive PiP window layouts with state management",

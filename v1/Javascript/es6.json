@@ -1,6 +1,7 @@
 [
   {
     "q": "What will be the output of the following code snippet?",
+    "l": "javascript",
     "c": "let x = 10;\nconst y = 20;\n\nx = 15;\nconsole.log(x, y);",
     "o": [
       "15 20",
@@ -11,7 +12,6 @@
   },
   {
     "q": "Which keyword should be used for declaring a variable whose value should not be reassigned?",
-    "c": null,
     "o": [
       "const",
       "let",
@@ -21,6 +21,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "const name = \"Alice\";\nconst greeting = `Hello, ${name}!`;\nconsole.log(greeting);",
     "o": [
       "Hello, Alice!",
@@ -31,7 +32,6 @@
   },
   {
     "q": "Which of the following is a correct usage of template literals?",
-    "c": null,
     "o": [
       "`Hello, ${name}!`",
       "'Hello, ${name}!'",
@@ -41,6 +41,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "const numbers = [1, 2, 3];\nconst newNumbers = [...numbers, 4, 5];\nconsole.log(newNumbers);",
     "o": [
       "[1, 2, 3, 4, 5]",
@@ -51,7 +52,6 @@
   },
   {
     "q": "Which operator allows us to expand elements of an array into individual elements?",
-    "c": null,
     "o": [
       "Spread operator (...)",
       "Rest operator (...)",
@@ -61,6 +61,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "function sum(...numbers) {\n  return numbers.reduce((acc, num) => acc + num, 0);\n}\nconsole.log(sum(1, 2, 3, 4));",
     "o": [
       "10",
@@ -71,7 +72,6 @@
   },
   {
     "q": "Which statement correctly describes the difference between the spread and rest operators?",
-    "c": null,
     "o": [
       "Spread expands elements, rest collects multiple elements into an array.",
       "Rest expands elements, spread collects multiple elements into an array.",
@@ -81,6 +81,7 @@
   },
   {
     "q": "What will be the output of the following code snippet?",
+    "l": "javascript",
     "c": "// module.js\nexport const greeting = \"Hello\";\n\n// main.js\nimport { greeting } from \"./module.js\";\nconsole.log(greeting);",
     "o": [
       "\"Hello\"",
@@ -91,7 +92,6 @@
   },
   {
     "q": "Which keyword is used to export a function or variable from a module in ES6?",
-    "c": null,
     "o": [
       "export",
       "exports",
@@ -101,6 +101,7 @@
   },
   {
     "q": "What will be the output of the following code snippet?",
+    "l": "javascript",
     "c": "let a = 5;\nif (true) {\n    let a = 10;\n    console.log(a);\n}\nconsole.log(a);",
     "o": [
       "10 5",
@@ -111,7 +112,6 @@
   },
   {
     "q": "Which of the following is true about let and var?",
-    "c": null,
     "o": [
       "let is block-scoped, while var is function-scoped.",
       "let is function-scoped, while var is block-scoped.",
@@ -121,6 +121,7 @@
   },
   {
     "q": "What will be the output of the following code snippet?",
+    "l": "javascript",
     "c": "const person = { name: \"Alice\" };\nperson.name = \"Bob\";\nconsole.log(person.name);",
     "o": [
       "\"Bob\"",
@@ -131,7 +132,6 @@
   },
   {
     "q": "Which of the following is NOT true about const?",
-    "c": null,
     "o": [
       "You can reassign properties of an object declared with const.",
       "You cannot reassign a variable declared with const.",
@@ -141,6 +141,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "const fruit = \"apple\";\nconst message = `I love ${fruit}s!`;\nconsole.log(message);",
     "o": [
       "\"I love apples!\"",
@@ -151,7 +152,6 @@
   },
   {
     "q": "Which of the following correctly demonstrates template literals?",
-    "c": null,
     "o": [
       "`Hello, my name is ${name}.`",
       "'Hello, my name is ${name}.'",
@@ -161,6 +161,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "const nums1 = [1, 2, 3];\nconst nums2 = [4, 5];\nconst allNums = [...nums1, ...nums2];\nconsole.log(allNums);",
     "o": [
       "[1, 2, 3, 4, 5]",
@@ -171,7 +172,6 @@
   },
   {
     "q": "Which of the following is a correct use of the rest operator?",
-    "c": null,
     "o": [
       "function sum(...numbers) { return numbers.reduce((acc, num) => acc + num, 0); }",
       "function sum(numbers...) { return numbers.reduce((acc, num) => acc + num, 0); }",
@@ -181,6 +181,7 @@
   },
   {
     "q": "What will be the output of the following code snippet?",
+    "l": "javascript",
     "c": "const obj1 = { a: 1, b: 2 };\nconst obj2 = { c: 3 };\nconst merged = { ...obj1, ...obj2 };\nconsole.log(merged);",
     "o": [
       "{ a: 1, b: 2, c: 3 }",
@@ -191,6 +192,7 @@
   },
   {
     "q": "What will be the output of the following code snippet?",
+    "l": "javascript",
     "c": "const numbers = [1, 2, 3, 4];\nconst [first, ...rest] = numbers;\nconsole.log(rest);",
     "o": [
       "[2, 3, 4]",
@@ -201,7 +203,6 @@
   },
   {
     "q": "Which of the following correctly imports the default export from a module?",
-    "c": null,
     "o": [
       "import myFunction from \"./module.js\";",
       "import { myFunction } from \"./module.js\";",
@@ -211,7 +212,6 @@
   },
   {
     "q": "Which of the following correctly exports a function from a module?",
-    "c": null,
     "o": [
       "export function myFunction() { return \"Hello!\"; }",
       "export myFunction = () => \"Hello!\";",
@@ -221,6 +221,7 @@
   },
   {
     "q": "What will be the output of the following code snippet?",
+    "l": "javascript",
     "c": "export const name = \"Alice\";\nexport default function greet() { return \"Hello!\"; }\nimport greet, { name } from \"./module.js\";\nconsole.log(greet(), name);",
     "o": [
       "\"Hello! Alice\"",
@@ -231,6 +232,7 @@
   },
   {
     "q": "What will be the output of the following code snippet?",
+    "l": "javascript",
     "c": "let x = 10;\nif (true) {\n    let x = 20;\n    console.log(x);\n}\nconsole.log(x);",
     "o": [
       "20 10",
@@ -241,7 +243,6 @@
   },
   {
     "q": "Which of the following statements about `const` is true?",
-    "c": null,
     "o": [
       "A variable declared with `const` cannot be reassigned.",
       "A variable declared with `const` cannot be modified.",
@@ -251,6 +252,7 @@
   },
   {
     "q": "What will be the output of the following code snippet?",
+    "l": "javascript",
     "c": "const name = \"John\";\nconst greeting = `Hello, ${name}!`;\nconsole.log(greeting);",
     "o": [
       "\"Hello, John!\"",
@@ -261,7 +263,6 @@
   },
   {
     "q": "Which of the following correctly uses template literals?",
-    "c": null,
     "o": [
       "`I have ${x} apples.`",
       "'I have ${x} apples.'",
@@ -271,6 +272,7 @@
   },
   {
     "q": "What will be the output of the following code snippet?",
+    "l": "javascript",
     "c": "const obj1 = { a: 1, b: 2 };\nconst obj2 = { ...obj1, c: 3 };\nconsole.log(obj2);",
     "o": [
       "{ a: 1, b: 2, c: 3 }",
@@ -281,6 +283,7 @@
   },
   {
     "q": "What will be the output of the following code snippet?",
+    "l": "javascript",
     "c": "const numbers = [1, 2, 3, 4];\nconst [first, ...rest] = numbers;\nconsole.log(rest);",
     "o": [
       "[2, 3, 4]",
@@ -291,7 +294,6 @@
   },
   {
     "q": "Which of the following is a correct use of the rest operator?",
-    "c": null,
     "o": [
       "function sum(...nums) { return nums.reduce((a, b) => a + b, 0); }",
       "function sum(nums...) { return nums.reduce((a, b) => a + b, 0); }",
@@ -301,6 +303,7 @@
   },
   {
     "q": "What will be the output of the following code snippet?",
+    "l": "javascript",
     "c": "const user = { name: \"Alice\", age: 25 };\nconst { name, age } = user;\nconsole.log(name, age);",
     "o": [
       "\"Alice\" 25",
@@ -311,7 +314,6 @@
   },
   {
     "q": "Which of the following correctly demonstrates arrow function syntax?",
-    "c": null,
     "o": [
       "const add = (a, b) => a + b;",
       "const add = (a, b) => { return a + b };",
@@ -321,6 +323,7 @@
   },
   {
     "q": "What will be the output of the following code snippet?",
+    "l": "javascript",
     "c": "const numbers = [1, 2, 3, 4];\nconst doubled = numbers.map(num => num * 2);\nconsole.log(doubled);",
     "o": [
       "[2, 4, 6, 8]",
@@ -331,7 +334,6 @@
   },
   {
     "q": "Which of the following correctly imports a named export from a module?",
-    "c": null,
     "o": [
       "import { myFunction } from \"./module.js\";",
       "import myFunction from \"./module.js\";",
@@ -341,7 +343,6 @@
   },
   {
     "q": "Which of the following correctly exports multiple functions from a module?",
-    "c": null,
     "o": [
       "export function add(a, b) { return a + b; }\nexport function multiply(a, b) { return a * b; }",
       "exports.add = function(a, b) { return a + b; }\nexports.multiply = function(a, b) { return a * b; }",
@@ -351,6 +352,7 @@
   },
   {
     "q": "What will be the output of the following async function?",
+    "l": "javascript",
     "c": "async function fetchData() {\n    return \"Data received\";\n}\nfetchData().then(console.log);",
     "o": [
       "\"Data received\"",
@@ -361,7 +363,6 @@
   },
   {
     "q": "Which of the following is a valid use of `async/await`?",
-    "c": null,
     "o": [
       "async function getData() { const response = await fetch(url); return response.json(); }",
       "function getData() { async const response = fetch(url); return response.json(); }",
@@ -371,6 +372,7 @@
   },
   {
     "q": "What will be the output of the following optional chaining example?",
+    "l": "javascript",
     "c": "const user = { profile: { name: \"Alice\" } };\nconsole.log(user.profile?.name);",
     "o": [
       "\"Alice\"",
@@ -381,7 +383,6 @@
   },
   {
     "q": "Which of the following correctly uses optional chaining?",
-    "c": null,
     "o": [
       "const city = user?.address?.city;",
       "const city = user?.address.city;",
@@ -391,6 +392,7 @@
   },
   {
     "q": "What will be the output of the following code snippet?",
+    "l": "javascript",
     "c": "let a = 5;\nlet b = 10;\n[a, b] = [b, a];\nconsole.log(a, b);",
     "o": [
       "10 5",
@@ -401,7 +403,6 @@
   },
   {
     "q": "Which of the following statements about `let` and `const` is true?",
-    "c": null,
     "o": [
       "`let` allows reassignment, but `const` does not.",
       "`const` allows reassignment, but `let` does not.",
@@ -411,6 +412,7 @@
   },
   {
     "q": "What will be logged to the console?",
+    "l": "javascript",
     "c": "let x = 3;\n{\n  let x = 5;\n  console.log(x);\n}\nconsole.log(x);",
     "o": [
       "5 3",
@@ -421,7 +423,6 @@
   },
   {
     "q": "Which of the following correctly uses default function parameters?",
-    "c": null,
     "o": [
       "function greet(name = \"Guest\") { return `Hello, ${name}!`; }",
       "function greet(name == \"Guest\") { return `Hello, ${name}!`; }",
@@ -431,6 +432,7 @@
   },
   {
     "q": "What will be the output of the following code snippet?",
+    "l": "javascript",
     "c": "const add = (a = 2, b = 3) => a + b;\nconsole.log(add());",
     "o": [
       "5",
@@ -441,6 +443,7 @@
   },
   {
     "q": "What will be logged to the console?",
+    "l": "javascript",
     "c": "const sym1 = Symbol(\"id\");\nconst sym2 = Symbol(\"id\");\nconsole.log(sym1 === sym2);",
     "o": [
       "false",
@@ -451,7 +454,6 @@
   },
   {
     "q": "Which statement is true about JavaScript symbols?",
-    "c": null,
     "o": [
       "Each symbol is unique, even if they have the same description.",
       "Symbols are the same if they have the same description.",
@@ -461,6 +463,7 @@
   },
   {
     "q": "What will be the output of the following code snippet?",
+    "l": "javascript",
     "c": "const obj = { a: 1, b: 2, c: 3 };\nconst { a, ...rest } = obj;\nconsole.log(rest);",
     "o": [
       "{ b: 2, c: 3 }",
@@ -471,7 +474,6 @@
   },
   {
     "q": "Which of the following correctly uses the spread operator?",
-    "c": null,
     "o": [
       "const numbers = [1, 2, 3];\nconst newNumbers = [...numbers, 4, 5];",
       "const numbers = [1, 2, 3];\nconst newNumbers = [..., numbers, 4, 5];",
@@ -481,6 +483,7 @@
   },
   {
     "q": "What will be the output of the following code snippet?",
+    "l": "javascript",
     "c": "const promise = new Promise((resolve, reject) => {\n  resolve(\"Success\");\n});\npromise.then(console.log);",
     "o": [
       "\"Success\"",
@@ -491,7 +494,6 @@
   },
   {
     "q": "Which of the following correctly creates an asynchronous function using async/await?",
-    "c": null,
     "o": [
       "async function fetchData() { let response = await fetch(url); return response.json(); }",
       "function fetchData() async { let response = await fetch(url); return response.json(); }",
@@ -501,6 +503,7 @@
   },
   {
     "q": "What will be the output of the following code snippet?",
+    "l": "javascript",
     "c": "const data = { user: { name: \"John\" } };\nconsole.log(data?.user?.name);",
     "o": [
       "\"John\"",
@@ -511,7 +514,6 @@
   },
   {
     "q": "What happens if you use optional chaining (`?.`) on an undefined property?",
-    "c": null,
     "o": [
       "It returns `undefined` without throwing an error.",
       "It throws a TypeError.",
@@ -521,7 +523,6 @@
   },
   {
     "q": "Which of the following correctly exports a default function from a module?",
-    "c": null,
     "o": [
       "export default function myFunction() {}",
       "export function default myFunction() {}",
@@ -531,7 +532,6 @@
   },
   {
     "q": "Which of the following is a valid way to import a default export?",
-    "c": null,
     "o": [
       "import myFunction from \"./module.js\";",
       "import { myFunction } from \"./module.js\";",
@@ -541,6 +541,7 @@
   },
   {
     "q": "What will be the output of the following code snippet?",
+    "l": "javascript",
     "c": "const name = \"Alice\";\nconst message = `Hello, ${name}!`;\nconsole.log(message);",
     "o": [
       "\"Hello, Alice!\"",
@@ -551,7 +552,6 @@
   },
   {
     "q": "Which statement about `let` and `const` is true?",
-    "c": null,
     "o": [
       "`let` allows reassignment, but `const` does not.",
       "`const` allows reassignment, but `let` does not.",
@@ -561,6 +561,7 @@
   },
   {
     "q": "What will be the output of the following code snippet?",
+    "l": "javascript",
     "c": "const obj = { a: 1, b: 2, c: 3 };\nconst { a, b } = obj;\nconsole.log(a, b);",
     "o": [
       "1 2",
@@ -571,6 +572,7 @@
   },
   {
     "q": "What will be logged to the console?",
+    "l": "javascript",
     "c": "const numbers = [1, 2, 3];\nconst newNumbers = [...numbers, 4, 5];\nconsole.log(newNumbers);",
     "o": [
       "[1, 2, 3, 4, 5]",
@@ -581,6 +583,7 @@
   },
   {
     "q": "What will be the output of the following code snippet?",
+    "l": "javascript",
     "c": "function sum(...numbers) {\n  return numbers.reduce((acc, num) => acc + num, 0);\n}\nconsole.log(sum(1, 2, 3, 4));",
     "o": [
       "10",
@@ -591,7 +594,6 @@
   },
   {
     "q": "Which of the following is a valid arrow function syntax?",
-    "c": null,
     "o": [
       "const add = (a, b) => a + b;",
       "const add = (a, b) => { return a + b };",
@@ -601,6 +603,7 @@
   },
   {
     "q": "What will be logged to the console?",
+    "l": "javascript",
     "c": "setTimeout(() => console.log(\"Hello!\"), 2000);\nconsole.log(\"Done!\");",
     "o": [
       "\"Done!\" (immediately) and then \"Hello!\" (after 2 seconds)",
@@ -611,7 +614,6 @@
   },
   {
     "q": "Which statement about `for...of` is true?",
-    "c": null,
     "o": [
       "`for...of` iterates over the values of an iterable like an array.",
       "`for...of` iterates over the keys of an object.",
@@ -621,6 +623,7 @@
   },
   {
     "q": "What will be logged to the console?",
+    "l": "javascript",
     "c": "const nums = [1, 2, 3, 4];\nconst doubled = nums.map(num => num * 2);\nconsole.log(doubled);",
     "o": [
       "[2, 4, 6, 8]",
@@ -631,7 +634,6 @@
   },
   {
     "q": "What is the correct way to import a named export from a module?",
-    "c": null,
     "o": [
       "import { myFunction } from \"./module.js\";",
       "import myFunction from \"./module.js\";",
@@ -641,6 +643,7 @@
   },
   {
     "q": "What will be logged to the console?",
+    "l": "javascript",
     "c": "const promise = new Promise((resolve) => {\n  setTimeout(() => resolve(\"Done!\"), 1000);\n});\npromise.then(console.log);\nconsole.log(\"Waiting...\");",
     "o": [
       "\"Waiting...\" (immediately) and then \"Done!\" (after 1 second)",
@@ -651,7 +654,6 @@
   },
   {
     "q": "Which statement about JavaScript Promises is true?",
-    "c": null,
     "o": [
       "A promise can be in one of three states: pending, fulfilled, or rejected.",
       "A promise always executes synchronously.",
@@ -661,6 +663,7 @@
   },
   {
     "q": "What will be the output of the following code snippet?",
+    "l": "javascript",
     "c": "const obj = { a: 1, b: { c: 2 } };\nconsole.log(obj?.b?.c);",
     "o": [
       "2",
@@ -671,6 +674,7 @@
   },
   {
     "q": "What will be the output of the following code snippet?",
+    "l": "javascript",
     "c": "const set = new Set([1, 2, 2, 3, 3, 4]);\nconsole.log(set.size);",
     "o": [
       "4",
@@ -681,7 +685,6 @@
   },
   {
     "q": "Which method is used to filter elements in an array?",
-    "c": null,
     "o": [
       "filter()",
       "map()",
@@ -691,6 +694,7 @@
   },
   {
     "q": "What will be logged to the console?",
+    "l": "javascript",
     "c": "function greet(name = \"Guest\") {\n  console.log(`Hello, ${name}!`);\n}\ngreet();",
     "o": [
       "\"Hello, Guest!\"",
@@ -701,6 +705,7 @@
   },
   {
     "q": "Which of the following is a correct way to use the rest operator?",
+    "l": "javascript",
     "c": "function sum(...numbers) {\n  return numbers.reduce((acc, num) => acc + num, 0);\n}\nconsole.log(sum(1, 2, 3));",
     "o": [
       "6",
@@ -711,6 +716,7 @@
   },
   {
     "q": "What will be logged to the console?",
+    "l": "javascript",
     "c": "const arr1 = [1, 2, 3];\nconst arr2 = [...arr1, 4, 5];\nconsole.log(arr2);",
     "o": [
       "[1, 2, 3, 4, 5]",
@@ -721,7 +727,6 @@
   },
   {
     "q": "Which of the following correctly destructures an object?",
-    "c": null,
     "o": [
       "const { name, age } = person;",
       "const name, age = person;",
@@ -731,6 +736,7 @@
   },
   {
     "q": "What will be the output of the following code snippet?",
+    "l": "javascript",
     "c": "const person = { name: \"Alice\", age: 25 };\nconst { name, age } = person;\nconsole.log(name, age);",
     "o": [
       "\"Alice 25\"",
@@ -741,6 +747,7 @@
   },
   {
     "q": "What will be logged to the console?",
+    "l": "javascript",
     "c": "const promise = new Promise((resolve, reject) => {\n  setTimeout(() => resolve(\"Resolved!\"), 1000);\n});\nconsole.log(promise);",
     "o": [
       "A pending Promise",
@@ -751,6 +758,7 @@
   },
   {
     "q": "What is the output of the following code?",
+    "l": "javascript",
     "c": "const nums = [1, 2, 3, 4];\nconst squared = nums.map(n => n ** 2);\nconsole.log(squared);",
     "o": [
       "[1, 4, 9, 16]",
@@ -761,7 +769,6 @@
   },
   {
     "q": "Which of the following is NOT true about `map()`?",
-    "c": null,
     "o": [
       "It modifies the original array",
       "It creates a new array",
@@ -771,6 +778,7 @@
   },
   {
     "q": "What will be the output of the following code snippet?",
+    "l": "javascript",
     "c": "async function fetchData() {\n  return \"Data loaded\";\n}\nfetchData().then(console.log);",
     "o": [
       "\"Data loaded\"",
@@ -781,7 +789,6 @@
   },
   {
     "q": "Which of the following correctly uses optional chaining?",
-    "c": null,
     "o": [
       "const name = person?.details?.name;",
       "const name = person.details?.name;",
@@ -791,7 +798,6 @@
   },
   {
     "q": "Which statement about JavaScript's `Symbol` is true?",
-    "c": null,
     "o": [
       "Symbols are unique and immutable.",
       "Symbols can be used as object keys, but not properties.",
@@ -801,6 +807,7 @@
   },
   {
     "q": "What will be logged to the console?",
+    "l": "javascript",
     "c": "const sym1 = Symbol(\"foo\");\nconst sym2 = Symbol(\"foo\");\nconsole.log(sym1 === sym2);",
     "o": [
       "false",
@@ -811,7 +818,6 @@
   },
   {
     "q": "Which of the following statements about `async` and `await` is true?",
-    "c": null,
     "o": [
       "`await` can only be used inside an `async` function.",
       "`await` blocks the entire JavaScript execution.",
@@ -821,7 +827,6 @@
   },
   {
     "q": "What is the correct way to import a default export?",
-    "c": null,
     "o": [
       "import myFunction from \"./module.js\";",
       "import { myFunction } from \"./module.js\";",
@@ -831,7 +836,6 @@
   },
   {
     "q": "Which statement is true about the `reduce()` function?",
-    "c": null,
     "o": [
       "`reduce()` applies a function against an accumulator and each element in the array.",
       "`reduce()` always returns a new array.",
@@ -841,6 +845,7 @@
   },
   {
     "q": "What will be logged to the console?",
+    "l": "javascript",
     "c": "const obj = { a: 1, b: 2, c: 3 };\nconsole.log(Object.entries(obj));",
     "o": [
       "[[\"a\", 1], [\"b\", 2], [\"c\", 3]]",
@@ -851,7 +856,6 @@
   },
   {
     "q": "Which method returns an array of an object's property values?",
-    "c": null,
     "o": [
       "Object.values()",
       "Object.keys()",
@@ -861,6 +865,7 @@
   },
   {
     "q": "What will be logged to the console?",
+    "l": "javascript",
     "c": "const nums = [10, 20, 30];\nfor (let num of nums) {\n  console.log(num);\n}",
     "o": [
       "10 20 30",
@@ -871,7 +876,6 @@
   },
   {
     "q": "Which statement is true about `Set` in JavaScript?",
-    "c": null,
     "o": [
       "A Set only stores unique values.",
       "A Set allows duplicate values.",
@@ -881,6 +885,7 @@
   },
   {
     "q": "What will be logged to the console?",
+    "l": "javascript",
     "c": "const set = new Set([1, 2, 2, 3]);\nconsole.log(set.size);",
     "o": [
       "3",
@@ -891,7 +896,6 @@
   },
   {
     "q": "Which of the following is true about `WeakSet`?",
-    "c": null,
     "o": [
       "It only stores objects.",
       "It allows duplicate values.",
@@ -901,6 +905,7 @@
   },
   {
     "q": "What will be logged to the console?",
+    "l": "javascript",
     "c": "const map = new Map();\nmap.set(\"name\", \"Alice\");\nmap.set(\"age\", 25);\nconsole.log(map.get(\"name\"));",
     "o": [
       "\"Alice\"",
@@ -911,7 +916,6 @@
   },
   {
     "q": "Which of the following statements about `WeakMap` is true?",
-    "c": null,
     "o": [
       "Keys must be objects.",
       "Keys can be strings or objects.",
@@ -921,6 +925,7 @@
   },
   {
     "q": "What will be logged to the console?",
+    "l": "javascript",
     "c": "const value = null ?? \"default\";\nconsole.log(value);",
     "o": [
       "\"default\"",
@@ -931,7 +936,6 @@
   },
   {
     "q": "Which operator returns the right-hand operand only if the left-hand operand is null or undefined?",
-    "c": null,
     "o": [
       "Nullish coalescing operator (??)",
       "Logical OR (||)",
@@ -941,6 +945,7 @@
   },
   {
     "q": "What will be logged to the console?",
+    "l": "javascript",
     "c": "const person = { name: \"Bob\", address: null };\nconsole.log(person.address?.city);",
     "o": [
       "Undefined",
@@ -951,7 +956,6 @@
   },
   {
     "q": "What is a use case for the optional chaining operator (`?.`)?",
-    "c": null,
     "o": [
       "To safely access deeply nested properties.",
       "To check if an object is an instance of a class.",
@@ -961,7 +965,6 @@
   },
   {
     "q": "Which statement correctly imports a module dynamically in JavaScript?",
-    "c": null,
     "o": [
       "import(\"./module.js\").then(module => console.log(module));",
       "import ./module.js;",
@@ -971,7 +974,6 @@
   },
   {
     "q": "Which of the following is true about dynamic imports in JavaScript?",
-    "c": null,
     "o": [
       "They return a promise.",
       "They must be at the top level of the file.",
@@ -981,6 +983,7 @@
   },
   {
     "q": "What will be logged to the console?",
+    "l": "javascript",
     "c": "function tag(strings, value) {\n  return `${strings[0]}${value.toUpperCase()}${strings[1]}`;\n}\nconst name = \"alice\";\nconsole.log(tag`Hello, ${name}!`);",
     "o": [
       "\"Hello, ALICE!\"",
@@ -991,7 +994,6 @@
   },
   {
     "q": "What is the purpose of tagged template literals in JavaScript?",
-    "c": null,
     "o": [
       "To process template literals with a function.",
       "To concatenate strings.",
@@ -1001,6 +1003,7 @@
   },
   {
     "q": "What will be logged to the console?",
+    "l": "javascript",
     "c": "const [a, b] = [10, 20];\nconsole.log(a, b);",
     "o": [
       "10 20",
@@ -1011,7 +1014,6 @@
   },
   {
     "q": "Which syntax correctly uses object destructuring?",
-    "c": null,
     "o": [
       "const { name, age } = person;",
       "const name, age = person;",
@@ -1021,6 +1023,7 @@
   },
   {
     "q": "What will be logged to the console?",
+    "l": "javascript",
     "c": "function greet(name = \"Guest\") {\n  console.log(`Hello, ${name}!`);\n}\ngreet();",
     "o": [
       "\"Hello, Guest!\"",
@@ -1031,7 +1034,6 @@
   },
   {
     "q": "Which of the following is true about default parameters?",
-    "c": null,
     "o": [
       "They provide default values when arguments are missing.",
       "They throw an error if no argument is provided.",
@@ -1041,7 +1043,6 @@
   },
   {
     "q": "What is the correct syntax for an arrow function?",
-    "c": null,
     "o": [
       "const add = (a, b) => a + b;",
       "const add = (a, b) => { return a + b; }",
@@ -1051,6 +1052,7 @@
   },
   {
     "q": "What will be logged to the console?",
+    "l": "javascript",
     "c": "const promise = new Promise((resolve, reject) => {\n  resolve(\"Success\");\n});\npromise.then(console.log);",
     "o": [
       "\"Success\"",
@@ -1061,7 +1063,6 @@
   },
   {
     "q": "Which statement correctly defines an async function?",
-    "c": null,
     "o": [
       "async function fetchData() { return \"Data\"; }",
       "function async fetchData() { return \"Data\"; }",
@@ -1071,6 +1072,7 @@
   },
   {
     "q": "What will be logged to the console?",
+    "l": "javascript",
     "c": "async function fetchData() {\n  return \"Data\";\n}\nfetchData().then(console.log);",
     "o": [
       "\"Data\"",
@@ -1081,7 +1083,6 @@
   },
   {
     "q": "Which of the following is true about the `Symbol` type in JavaScript?",
-    "c": null,
     "o": [
       "Symbols are unique and immutable.",
       "Symbols are the same if they have the same value.",
@@ -1091,6 +1092,7 @@
   },
   {
     "q": "What will be logged to the console?",
+    "l": "javascript",
     "c": "const id1 = Symbol(\"id\");\nconst id2 = Symbol(\"id\");\nconsole.log(id1 === id2);",
     "o": [
       "false",
@@ -1101,7 +1103,6 @@
   },
   {
     "q": "Which of the following is NOT true about JavaScript `Map`?",
-    "c": null,
     "o": [
       "It allows any type of key.",
       "It maintains key order.",
@@ -1111,6 +1112,7 @@
   },
   {
     "q": "What will be logged to the console?",
+    "l": "javascript",
     "c": "const set = new Set([1, 2, 3, 3, 4]);\nconsole.log(set.size);",
     "o": [
       "4",
@@ -1121,7 +1123,6 @@
   },
   {
     "q": "Which of the following is NOT a characteristic of `WeakMap`?",
-    "c": null,
     "o": [
       "It allows primitive values as keys.",
       "It prevents memory leaks.",
@@ -1131,6 +1132,7 @@
   },
   {
     "q": "What will be logged to the console?",
+    "l": "javascript",
     "c": "const obj = { name: \"Alice\" };\nconst weakMap = new WeakMap();\nweakMap.set(obj, \"Developer\");\nconsole.log(weakMap.get(obj));",
     "o": [
       "\"Developer\"",
@@ -1141,6 +1143,7 @@
   },
   {
     "q": "What will be logged to the console?",
+    "l": "javascript",
     "c": "const obj = { person: { name: \"Alice\" } };\nconsole.log(obj?.person?.name);",
     "o": [
       "\"Alice\"",
@@ -1151,7 +1154,6 @@
   },
   {
     "q": "What does the optional chaining operator (?.) do?",
-    "c": null,
     "o": [
       "Prevents errors when accessing nested properties of undefined or null.",
       "Assigns a default value if a property is missing.",
@@ -1161,6 +1163,7 @@
   },
   {
     "q": "What will be logged to the console?",
+    "l": "javascript",
     "c": "const value = null ?? \"Default\";\nconsole.log(value);",
     "o": [
       "\"Default\"",
@@ -1171,7 +1174,6 @@
   },
   {
     "q": "Which of the following correctly describes the nullish coalescing operator (??)?",
-    "c": null,
     "o": [
       "It returns the right-hand value if the left-hand value is null or undefined.",
       "It behaves exactly like the logical OR (||) operator.",
@@ -1181,6 +1183,7 @@
   },
   {
     "q": "What will be logged to the console?",
+    "l": "javascript",
     "c": "class Person {\n  constructor(name) {\n    this.name = name;\n  }\n}\nconst p = new Person(\"Bob\");\nconsole.log(p.name);",
     "o": [
       "\"Bob\"",
@@ -1191,7 +1194,6 @@
   },
   {
     "q": "Which of the following is true about JavaScript classes?",
-    "c": null,
     "o": [
       "They are syntactic sugar over constructor functions.",
       "They replace objects in JavaScript.",
@@ -1201,6 +1203,7 @@
   },
   {
     "q": "What will be logged to the console?",
+    "l": "javascript",
     "c": "const obj = {\n  name: \"Alice\",\n  greet() {\n    console.log(`Hello, ${this.name}!`);\n  }\n};\nobj.greet();",
     "o": [
       "\"Hello, Alice!\"",
@@ -1211,7 +1214,6 @@
   },
   {
     "q": "Which of the following is a correct way to define an object method in ES6?",
-    "c": null,
     "o": [
       "const obj = { sayHello() { console.log(\"Hello!\"); } };",
       "const obj = { sayHello: function { console.log(\"Hello!\"); } };",
@@ -1221,6 +1223,7 @@
   },
   {
     "q": "What will be logged to the console?",
+    "l": "javascript",
     "c": "async function fetchData() {\n  return \"Data\";\n}\nfetchData().then(console.log);",
     "o": [
       "\"Data\"",
@@ -1231,7 +1234,6 @@
   },
   {
     "q": "Which of the following correctly defines an async function?",
-    "c": null,
     "o": [
       "async function getData() { return \"Hello\"; }",
       "function async getData() { return \"Hello\"; }",
@@ -1241,6 +1243,7 @@
   },
   {
     "q": "What will be logged to the console?",
+    "l": "javascript",
     "c": "function* generator() {\n  yield 1;\n  yield 2;\n  yield 3;\n}\nconst gen = generator();\nconsole.log(gen.next().value);",
     "o": [
       "1",
@@ -1251,7 +1254,6 @@
   },
   {
     "q": "Which of the following is true about JavaScript generators?",
-    "c": null,
     "o": [
       "They allow functions to pause execution and resume later.",
       "They execute functions immediately and do not pause.",
@@ -1261,6 +1263,7 @@
   },
   {
     "q": "What will be logged to the console?",
+    "l": "javascript",
     "c": "const [a, b] = [10, 20];\nconsole.log(a, b);",
     "o": [
       "10 20",
@@ -1271,7 +1274,6 @@
   },
   {
     "q": "Which of the following correctly demonstrates object destructuring?",
-    "c": null,
     "o": [
       "const { name, age } = { name: \"Alice\", age: 25 };",
       "const [ name, age ] = { name: \"Alice\", age: 25 };",
@@ -1281,6 +1283,7 @@
   },
   {
     "q": "What will be logged to the console?",
+    "l": "javascript",
     "c": "function greet(name = \"Guest\") {\n  console.log(`Hello, ${name}!`);\n}\ngreet();",
     "o": [
       "\"Hello, Guest!\"",
@@ -1291,7 +1294,6 @@
   },
   {
     "q": "What is the purpose of default parameters in JavaScript functions?",
-    "c": null,
     "o": [
       "To assign a default value if an argument is not provided.",
       "To enforce that all function parameters are required.",
@@ -1301,6 +1303,7 @@
   },
   {
     "q": "What will be logged to the console?",
+    "l": "javascript",
     "c": "const add = (a, b) => a + b;\nconsole.log(add(5, 10));",
     "o": [
       "15",
@@ -1311,7 +1314,6 @@
   },
   {
     "q": "Which of the following is a correct arrow function syntax?",
-    "c": null,
     "o": [
       "const greet = (name) => `Hello, ${name}!`;",
       "const greet(name) => `Hello, ${name}!`;",
@@ -1321,6 +1323,7 @@
   },
   {
     "q": "What will be logged to the console?",
+    "l": "javascript",
     "c": "const promise = new Promise((resolve, reject) => {\n  resolve(\"Success\");\n});\npromise.then(console.log);",
     "o": [
       "\"Success\"",
@@ -1331,7 +1334,6 @@
   },
   {
     "q": "Which of the following statements about JavaScript Promises is correct?",
-    "c": null,
     "o": [
       "A Promise represents an asynchronous operation that may complete in the future.",
       "A Promise always resolves immediately.",
@@ -1341,6 +1343,7 @@
   },
   {
     "q": "What will be logged to the console?",
+    "l": "javascript",
     "c": "import { myFunction } from \"./module.js\";\nconsole.log(typeof myFunction);",
     "o": [
       "\"function\"",
@@ -1351,7 +1354,6 @@
   },
   {
     "q": "Which of the following correctly exports a function from a JavaScript module?",
-    "c": null,
     "o": [
       "export function myFunction() {}",
       "export = function myFunction() {}",
@@ -1361,6 +1363,7 @@
   },
   {
     "q": "What will be logged to the console?",
+    "l": "javascript",
     "c": "let x = 10;\nif (true) {\n  let x = 20;\n  console.log(x);\n}\nconsole.log(x);",
     "o": [
       "20 10",
@@ -1371,7 +1374,6 @@
   },
   {
     "q": "Which of the following statements about 'const' in JavaScript is true?",
-    "c": null,
     "o": [
       "Variables declared with 'const' cannot be reassigned.",
       "Variables declared with 'const' cannot hold objects.",
@@ -1381,6 +1383,7 @@
   },
   {
     "q": "What will be the output of the following code?",
+    "l": "javascript",
     "c": "const name = \"Alice\";\nconst greeting = `Hello, ${name}!`;\nconsole.log(greeting);",
     "o": [
       "\"Hello, Alice!\"",
@@ -1391,7 +1394,6 @@
   },
   {
     "q": "Which of the following is a correct use of template literals?",
-    "c": null,
     "o": [
       "const message = `My name is ${name}`;",
       "const message = 'My name is ${name}';",
@@ -1401,6 +1403,7 @@
   },
   {
     "q": "What will be logged to the console?",
+    "l": "javascript",
     "c": "const numbers = [1, 2, 3];\nconst newNumbers = [...numbers, 4, 5];\nconsole.log(newNumbers);",
     "o": [
       "[1, 2, 3, 4, 5]",
@@ -1411,7 +1414,6 @@
   },
   {
     "q": "Which of the following correctly demonstrates the use of the rest operator?",
-    "c": null,
     "o": [
       "function sum(...numbers) { return numbers.reduce((a, b) => a + b, 0); }",
       "function sum(numbers...) { return numbers.reduce((a, b) => a + b, 0); }",
@@ -1421,6 +1423,7 @@
   },
   {
     "q": "What will be logged to the console?",
+    "l": "javascript",
     "c": "const person = { name: \"Alice\", age: 25 };\nconst clonedPerson = { ...person };\nconsole.log(clonedPerson);",
     "o": [
       "{ name: \"Alice\", age: 25 }",
@@ -1431,7 +1434,6 @@
   },
   {
     "q": "Which statement correctly imports a default export from a module?",
-    "c": null,
     "o": [
       "import myFunction from \"./module.js\";",
       "import { myFunction } from \"./module.js\";",
@@ -1441,6 +1443,7 @@
   },
   {
     "q": "What will be logged to the console?",
+    "l": "javascript",
     "c": "export const value = 42;\nexport default function greet() { return \"Hello!\"; }\n\nimport greet, { value } from \"./module.js\";\nconsole.log(greet(), value);",
     "o": [
       "\"Hello! 42\"",
@@ -1451,7 +1454,6 @@
   },
   {
     "q": "Which of the following correctly exports multiple values from a module?",
-    "c": null,
     "o": [
       "export const a = 1; export const b = 2;",
       "exports a = 1; exports b = 2;",
@@ -1461,6 +1463,7 @@
   },
   {
     "q": "What will be logged to the console?",
+    "l": "javascript",
     "c": "let x = 5;\n{\n  const x = 10;\n  console.log(x);\n}\nconsole.log(x);",
     "o": [
       "10 5",
@@ -1471,7 +1474,6 @@
   },
   {
     "q": "Which statement about 'let' and 'const' is true?",
-    "c": null,
     "o": [
       "'let' allows reassignment, but 'const' does not.",
       "'const' variables are function-scoped.",
@@ -1481,6 +1483,7 @@
   },
   {
     "q": "What will be logged to the console?",
+    "l": "javascript",
     "c": "const firstName = \"John\";\nconst lastName = \"Doe\";\nconsole.log(`${firstName} ${lastName}`);",
     "o": [
       "\"John Doe\"",
@@ -1491,7 +1494,6 @@
   },
   {
     "q": "Which of the following is an advantage of template literals?",
-    "c": null,
     "o": [
       "They allow multi-line strings without escape characters.",
       "They replace the need for functions in JavaScript.",
@@ -1501,6 +1503,7 @@
   },
   {
     "q": "What will be logged to the console?",
+    "l": "javascript",
     "c": "const arr1 = [1, 2, 3];\nconst arr2 = [4, 5, 6];\nconst result = [...arr1, ...arr2];\nconsole.log(result);",
     "o": [
       "[1, 2, 3, 4, 5, 6]",
@@ -1511,7 +1514,6 @@
   },
   {
     "q": "Which is the correct way to use the rest parameter?",
-    "c": null,
     "o": [
       "function multiply(...numbers) { return numbers.reduce((a, b) => a * b, 1); }",
       "function multiply(numbers...) { return numbers.reduce((a, b) => a * b, 1); }",
@@ -1521,6 +1523,7 @@
   },
   {
     "q": "What will be logged to the console?",
+    "l": "javascript",
     "c": "const person = { name: \"Alice\", age: 30 };\nconst updatedPerson = { ...person, age: 35 };\nconsole.log(updatedPerson.age);",
     "o": [
       "35",
@@ -1531,7 +1534,6 @@
   },
   {
     "q": "Which statement correctly imports a named export from a module?",
-    "c": null,
     "o": [
       "import { myFunction } from \"./module.js\";",
       "import myFunction from \"./module.js\";",
@@ -1541,6 +1543,7 @@
   },
   {
     "q": "What will be logged to the console?",
+    "l": "javascript",
     "c": "export const value = 50;\nexport default function sayHello() { return \"Hi!\"; }\n\nimport sayHello, { value } from \"./module.js\";\nconsole.log(sayHello(), value);",
     "o": [
       "\"Hi! 50\"",
@@ -1551,7 +1554,6 @@
   },
   {
     "q": "Which of the following correctly exports a function from a module?",
-    "c": null,
     "o": [
       "export function greet() { return \"Hello!\"; }",
       "exports function greet() { return \"Hello!\"; }",
@@ -1561,6 +1563,7 @@
   },
   {
     "q": "What will be logged to the console?",
+    "l": "javascript",
     "c": "let x = 10;\nx = 20;\nconsole.log(x);",
     "o": [
       "20",
@@ -1571,7 +1574,6 @@
   },
   {
     "q": "Which of the following is true about 'const' in JavaScript?",
-    "c": null,
     "o": [
       "'const' variables cannot be reassigned after declaration.",
       "'const' variables are function-scoped.",
@@ -1581,6 +1583,7 @@
   },
   {
     "q": "What will be logged to the console?",
+    "l": "javascript",
     "c": "const greeting = `Hello, \\nWorld!`;\nconsole.log(greeting);",
     "o": [
       "\"Hello, \nWorld!\"",
@@ -1591,7 +1594,6 @@
   },
   {
     "q": "Which of the following statements about template literals is correct?",
-    "c": null,
     "o": [
       "They allow string interpolation using `${}`.",
       "They require single quotes (' ') instead of backticks (` `).",
@@ -1601,6 +1603,7 @@
   },
   {
     "q": "What will be logged to the console?",
+    "l": "javascript",
     "c": "const numbers = [1, 2, 3];\nconst newNumbers = [...numbers, 4, 5];\nconsole.log(newNumbers);",
     "o": [
       "[1, 2, 3, 4, 5]",
@@ -1611,7 +1614,6 @@
   },
   {
     "q": "Which statement about the spread operator is true?",
-    "c": null,
     "o": [
       "It can be used to copy arrays and objects.",
       "It only works with arrays.",
@@ -1621,6 +1623,7 @@
   },
   {
     "q": "What will be logged to the console?",
+    "l": "javascript",
     "c": "function sum(...numbers) {\n  return numbers.reduce((acc, num) => acc + num, 0);\n}\nconsole.log(sum(1, 2, 3, 4));",
     "o": [
       "10",
@@ -1631,7 +1634,6 @@
   },
   {
     "q": "Which of the following is a correct use of the rest parameter?",
-    "c": null,
     "o": [
       "function combine(...args) { return args.join('-'); }",
       "function combine(args...) { return args.join('-'); }",
@@ -1641,6 +1643,7 @@
   },
   {
     "q": "What will be logged to the console?",
+    "l": "javascript",
     "c": "const user = { name: \"Alice\", age: 25 };\nconst updatedUser = { ...user, age: 30 };\nconsole.log(updatedUser);",
     "o": [
       "{ name: \"Alice\", age: 30 }",
@@ -1651,7 +1654,6 @@
   },
   {
     "q": "Which is the correct way to export a function from a module?",
-    "c": null,
     "o": [
       "export function greet() { return \"Hello!\"; }",
       "export { function greet() { return \"Hello!\"; } };",
@@ -1661,6 +1663,7 @@
   },
   {
     "q": "What will be logged to the console?",
+    "l": "javascript",
     "c": "export const value = 42;\nexport default function greet() { return \"Hello!\"; }\n\nimport greet, { value } from \"./module.js\";\nconsole.log(greet(), value);",
     "o": [
       "\"Hello! 42\"",
@@ -1671,7 +1674,6 @@
   },
   {
     "q": "Which statement correctly imports a default export?",
-    "c": null,
     "o": [
       "import myFunction from \"./module.js\";",
       "import { myFunction } from \"./module.js\";",
@@ -1681,6 +1683,7 @@
   },
   {
     "q": "What will be logged to the console?",
+    "l": "javascript",
     "c": "let x = 5;\nif (true) {\n  let x = 10;\n}\nconsole.log(x);",
     "o": [
       "5",
@@ -1691,7 +1694,6 @@
   },
   {
     "q": "Which statement about 'let' and 'const' is true?",
-    "c": null,
     "o": [
       "'let' allows reassignment, but 'const' does not.",
       "'const' variables can be reassigned after declaration.",
@@ -1701,6 +1703,7 @@
   },
   {
     "q": "What will be the output of the following code?",
+    "l": "javascript",
     "c": "const a = `Hello`;\nconst b = `World`;\nconsole.log(`${a}, ${b}!`);",
     "o": [
       "\"Hello, World!\"",
@@ -1711,7 +1714,6 @@
   },
   {
     "q": "Which of the following is a correct use of template literals?",
-    "c": null,
     "o": [
       "const greeting = `Hello, ${name}!`;",
       "const greeting = \"Hello, ${name}!\";",
@@ -1721,6 +1723,7 @@
   },
   {
     "q": "What will be logged to the console?",
+    "l": "javascript",
     "c": "const nums = [1, 2, 3];\nconst copy = [...nums];\nconsole.log(copy);",
     "o": [
       "[1, 2, 3]",
@@ -1731,7 +1734,6 @@
   },
   {
     "q": "Which of the following is NOT a valid use of the spread operator?",
-    "c": null,
     "o": [
       "Spreading elements of an array.",
       "Spreading properties of an object.",
@@ -1741,6 +1743,7 @@
   },
   {
     "q": "What will be logged to the console?",
+    "l": "javascript",
     "c": "function multiply(multiplier, ...nums) {\n  return nums.map(num => num * multiplier);\n}\nconsole.log(multiply(2, 1, 2, 3));",
     "o": [
       "[2, 4, 6]",
@@ -1751,7 +1754,6 @@
   },
   {
     "q": "Which statement about the rest operator is true?",
-    "c": null,
     "o": [
       "It gathers multiple arguments into a single array.",
       "It is used to spread arrays into individual elements.",
@@ -1761,6 +1763,7 @@
   },
   {
     "q": "What will be logged to the console?",
+    "l": "javascript",
     "c": "const user = { name: 'Alice', age: 30 };\nconst updatedUser = { ...user, age: 35 };\nconsole.log(updatedUser.age);",
     "o": [
       "35",
@@ -1771,7 +1774,6 @@
   },
   {
     "q": "Which of the following is the correct way to export a variable?",
-    "c": null,
     "o": [
       "export const PI = 3.14;",
       "exports PI = 3.14;",
@@ -1781,6 +1783,7 @@
   },
   {
     "q": "What will be logged to the console?",
+    "l": "javascript",
     "c": "export const message = \"Hello\";\nexport default function greet() { return \"Hi\"; }\n\nimport greet, { message } from \"./module.js\";\nconsole.log(greet(), message);",
     "o": [
       "\"Hi Hello\"",
@@ -1791,7 +1794,6 @@
   },
   {
     "q": "Which of the following correctly imports a named export?",
-    "c": null,
     "o": [
       "import { myFunction } from \"./module.js\";",
       "import myFunction from \"./module.js\";",
@@ -1801,6 +1803,7 @@
   },
   {
     "q": "What will be logged to the console?",
+    "l": "javascript",
     "c": "let x = 10;\nx = 20;\nconsole.log(x);",
     "o": [
       "20",
@@ -1811,7 +1814,6 @@
   },
   {
     "q": "Which statement about 'const' is true?",
-    "c": null,
     "o": [
       "'const' variables cannot be reassigned after declaration.",
       "'const' variables are function-scoped.",
@@ -1821,6 +1823,7 @@
   },
   {
     "q": "What will be the output of the following code?",
+    "l": "javascript",
     "c": "const name = 'Alice';\nconsole.log(`Hello, ${name.toUpperCase()}!`);",
     "o": [
       "\"Hello, ALICE!\"",
@@ -1831,7 +1834,6 @@
   },
   {
     "q": "Which of the following correctly uses a template literal?",
-    "c": null,
     "o": [
       "const message = `The sum is ${5 + 10}`;",
       "const message = 'The sum is ${5 + 10}';",
@@ -1841,6 +1843,7 @@
   },
   {
     "q": "What will be logged to the console?",
+    "l": "javascript",
     "c": "const arr1 = [1, 2, 3];\nconst arr2 = [4, 5, 6];\nconst combined = [...arr1, ...arr2];\nconsole.log(combined);",
     "o": [
       "[1, 2, 3, 4, 5, 6]",
@@ -1851,7 +1854,6 @@
   },
   {
     "q": "Which of the following is NOT a correct use of the spread operator?",
-    "c": null,
     "o": [
       "Using it in function calls.",
       "Copying an object.",
@@ -1861,6 +1863,7 @@
   },
   {
     "q": "What will be the output of the following code?",
+    "l": "javascript",
     "c": "function sum(...nums) {\n  return nums.reduce((acc, num) => acc + num, 0);\n}\nconsole.log(sum(1, 2, 3, 4, 5));",
     "o": [
       "15",
@@ -1871,7 +1874,6 @@
   },
   {
     "q": "Which statement about the rest operator is true?",
-    "c": null,
     "o": [
       "It collects multiple function arguments into an array.",
       "It spreads elements into individual values.",
@@ -1881,6 +1883,7 @@
   },
   {
     "q": "What will be logged to the console?",
+    "l": "javascript",
     "c": "const person = { name: 'Alice', age: 30 };\nconst newPerson = { ...person, age: 35 };\nconsole.log(newPerson.name, newPerson.age);",
     "o": [
       "\"Alice 35\"",
@@ -1891,7 +1894,6 @@
   },
   {
     "q": "Which is the correct way to export a default function?",
-    "c": null,
     "o": [
       "export default function greet() { return 'Hello'; }",
       "default export function greet() { return 'Hello'; }",
@@ -1901,6 +1903,7 @@
   },
   {
     "q": "What will be logged to the console?",
+    "l": "javascript",
     "c": "export const PI = 3.14;\nexport default function area(radius) { return PI * radius * radius; }\n\nimport area, { PI } from \"./math.js\";\nconsole.log(area(2), PI);",
     "o": [
       "\"12.56 3.14\"",
@@ -1911,7 +1914,6 @@
   },
   {
     "q": "Which of the following correctly imports multiple named exports?",
-    "c": null,
     "o": [
       "import { add, subtract } from \"./math.js\";",
       "import add, subtract from \"./math.js\";",
@@ -1921,6 +1923,7 @@
   },
   {
     "q": "What will be logged to the console?",
+    "l": "javascript",
     "c": "let x = 5;\nif (true) {\n  let x = 10;\n  console.log(x);\n}\nconsole.log(x);",
     "o": [
       "10, 5",
@@ -1931,6 +1934,7 @@
   },
   {
     "q": "What happens when trying to reassign a 'const' variable?",
+    "l": "javascript",
     "c": "const number = 42;\nnumber = 50;",
     "o": [
       "Error",
@@ -1941,7 +1945,6 @@
   },
   {
     "q": "Which of the following correctly uses template literals?",
-    "c": null,
     "o": [
       "console.log(`Hello, ${name}!`);",
       "console.log('Hello, ${name}!');",
@@ -1951,6 +1954,7 @@
   },
   {
     "q": "What will be the output of the following code?",
+    "l": "javascript",
     "c": "const user = { name: 'Alice', age: 25 };\nconst newUser = { ...user, age: 30 };\nconsole.log(newUser.age);",
     "o": [
       "30",
@@ -1961,6 +1965,7 @@
   },
   {
     "q": "What will be the output of the following code?",
+    "l": "javascript",
     "c": "const numbers = [1, 2, 3];\nconst newNumbers = [...numbers, 4, 5];\nconsole.log(newNumbers);",
     "o": [
       "[1, 2, 3, 4, 5]",
@@ -1971,7 +1976,6 @@
   },
   {
     "q": "What is the purpose of the rest operator?",
-    "c": null,
     "o": [
       "It gathers multiple values into an array.",
       "It spreads an array into individual elements.",
@@ -1981,6 +1985,7 @@
   },
   {
     "q": "What will be logged to the console?",
+    "l": "javascript",
     "c": "function multiply(multiplier, ...numbers) {\n  return numbers.map(num => num * multiplier);\n}\nconsole.log(multiply(2, 1, 2, 3));",
     "o": [
       "[2, 4, 6]",
@@ -1991,7 +1996,6 @@
   },
   {
     "q": "Which statement about ES6 modules is true?",
-    "c": null,
     "o": [
       "Each module has its own scope.",
       "All modules share the same global scope.",
@@ -2001,6 +2005,7 @@
   },
   {
     "q": "What will be logged to the console?",
+    "l": "javascript",
     "c": "export const greeting = 'Hello';\nexport default function sayHi() { return 'Hi'; }\n\nimport sayHi, { greeting } from './module.js';\nconsole.log(sayHi(), greeting);",
     "o": [
       "'Hi', 'Hello'",
@@ -2011,7 +2016,6 @@
   },
   {
     "q": "Which is the correct way to dynamically import a module?",
-    "c": null,
     "o": [
       "import('./module.js').then(module => module.default());",
       "import './module.js'.default();",
@@ -2021,6 +2025,7 @@
   },
   {
     "q": "What will be logged to the console?",
+    "l": "javascript",
     "c": "let a = 10;\nconst b = 20;\na = 15;\nb = 25;\nconsole.log(a, b);",
     "o": [
       "Error",
@@ -2031,7 +2036,6 @@
   },
   {
     "q": "Which of the following is a valid way to declare an arrow function?",
-    "c": null,
     "o": [
       "const add = (a, b) => a + b;",
       "const add = (a, b) => { return a + b; };",
@@ -2041,6 +2045,7 @@
   },
   {
     "q": "What will be the output of the following code?",
+    "l": "javascript",
     "c": "const numbers = [1, 2, 3, 4];\nconst [first, second, ...rest] = numbers;\nconsole.log(rest);",
     "o": [
       "[3, 4]",
@@ -2051,7 +2056,6 @@
   },
   {
     "q": "Which statement about template literals is true?",
-    "c": null,
     "o": [
       "They allow embedding expressions using `${}`.",
       "They must use single quotes (' ').",
@@ -2061,6 +2065,7 @@
   },
   {
     "q": "What will be logged to the console?",
+    "l": "javascript",
     "c": "const person = { name: 'John', age: 30 };\nconst { name, age } = person;\nconsole.log(name, age);",
     "o": [
       "'John', 30",
@@ -2071,7 +2076,6 @@
   },
   {
     "q": "Which of the following is NOT a feature of the spread operator?",
-    "c": null,
     "o": [
       "It can be used to merge arrays.",
       "It can be used to copy objects.",
@@ -2081,6 +2085,7 @@
   },
   {
     "q": "What will be the output of the following code?",
+    "l": "javascript",
     "c": "const greet = (name = 'Guest') => `Hello, ${name}!`;\nconsole.log(greet());",
     "o": [
       "'Hello, Guest!'",
@@ -2091,7 +2096,6 @@
   },
   {
     "q": "Which of the following is a correct way to create an async function?",
-    "c": null,
     "o": [
       "async function fetchData() { return await fetch(url); }",
       "function fetchData() async { return await fetch(url); }",
@@ -2101,6 +2105,7 @@
   },
   {
     "q": "What will be logged to the console?",
+    "l": "javascript",
     "c": "async function test() {\n  return 'Hello';\n}\ntest().then(console.log);",
     "o": [
       "'Hello'",
@@ -2111,7 +2116,6 @@
   },
   {
     "q": "Which statement about ES6 modules is false?",
-    "c": null,
     "o": [
       "Modules always run in strict mode.",
       "Named exports must be imported using the same name.",
@@ -2121,6 +2125,7 @@
   },
   {
     "q": "What will be logged to the console?",
+    "l": "javascript",
     "c": "let x = 5;\n{\n  let x = 10;\n  console.log(x);\n}\nconsole.log(x);",
     "o": [
       "10, 5",
@@ -2131,7 +2136,6 @@
   },
   {
     "q": "Which of the following correctly uses the spread operator?",
-    "c": null,
     "o": [
       "const arr1 = [1, 2, 3];\nconst arr2 = [...arr1, 4, 5];",
       "const arr1 = [1, 2, 3];\nconst arr2 = arr1...;",
@@ -2141,6 +2145,7 @@
   },
   {
     "q": "What will the following code output?",
+    "l": "javascript",
     "c": "const obj1 = { a: 1, b: 2 };\nconst obj2 = { ...obj1, b: 3, c: 4 };\nconsole.log(obj2);",
     "o": [
       "{ a: 1, b: 3, c: 4 }",
@@ -2151,7 +2156,6 @@
   },
   {
     "q": "Which statement about template literals is correct?",
-    "c": null,
     "o": [
       "They allow multi-line strings without concatenation.",
       "They must be enclosed in single quotes.",
@@ -2161,6 +2165,7 @@
   },
   {
     "q": "What will be logged to the console?",
+    "l": "javascript",
     "c": "const numbers = [10, 20, 30];\nconst [first, , third] = numbers;\nconsole.log(first, third);",
     "o": [
       "10, 30",
@@ -2171,7 +2176,6 @@
   },
   {
     "q": "Which of the following correctly imports a default export?",
-    "c": null,
     "o": [
       "import myFunction from './module.js';",
       "import { myFunction } from './module.js';",
@@ -2181,6 +2185,7 @@
   },
   {
     "q": "What is the result of the following code?",
+    "l": "javascript",
     "c": "const multiply = (a, b = 2) => a * b;\nconsole.log(multiply(5));",
     "o": [
       "10",
@@ -2191,7 +2196,6 @@
   },
   {
     "q": "Which of the following is NOT true about arrow functions?",
-    "c": null,
     "o": [
       "They do not have their own 'this'.",
       "They can be used as methods in objects.",
@@ -2201,6 +2205,7 @@
   },
   {
     "q": "What will the following async function return?",
+    "l": "javascript",
     "c": "async function getData() {\n  return 'Hello';\n}\nconsole.log(getData());",
     "o": [
       "Promise { 'Hello' }",
@@ -2211,7 +2216,6 @@
   },
   {
     "q": "Which statement about Promises is correct?",
-    "c": null,
     "o": [
       "A promise can be in one of three states: pending, fulfilled, or rejected.",
       "Promises execute synchronously.",
@@ -2221,6 +2225,7 @@
   },
   {
     "q": "What will be logged to the console?",
+    "l": "javascript",
     "c": "let count = 5;\ncount = 10;\nconsole.log(count);",
     "o": [
       "10",
@@ -2231,7 +2236,6 @@
   },
   {
     "q": "What is the main difference between 'let' and 'const'?",
-    "c": null,
     "o": [
       "'const' variables cannot be reassigned, but 'let' variables can.",
       "'let' is function-scoped, while 'const' is block-scoped.",
@@ -2241,6 +2245,7 @@
   },
   {
     "q": "What will be logged to the console?",
+    "l": "javascript",
     "c": "const person = { name: 'Alice' };\nperson.age = 25;\nconsole.log(person);",
     "o": [
       "{ name: 'Alice', age: 25 }",
@@ -2251,7 +2256,6 @@
   },
   {
     "q": "Which syntax correctly uses template literals?",
-    "c": null,
     "o": [
       "const name = 'John';\nconsole.log(`Hello, ${name}!`);",
       "const name = 'John';\nconsole.log('Hello, ${name}!');",
@@ -2261,6 +2265,7 @@
   },
   {
     "q": "What will be logged to the console?",
+    "l": "javascript",
     "c": "const arr1 = [1, 2, 3];\nconst arr2 = [...arr1, 4, 5];\nconsole.log(arr2);",
     "o": [
       "[1, 2, 3, 4, 5]",
@@ -2271,7 +2276,6 @@
   },
   {
     "q": "Which of the following correctly uses the rest operator?",
-    "c": null,
     "o": [
       "function sum(...numbers) { return numbers.reduce((a, b) => a + b, 0); }",
       "function sum(numbers...) { return numbers.reduce((a, b) => a + b, 0); }",
@@ -2281,6 +2285,7 @@
   },
   {
     "q": "What will be logged to the console?",
+    "l": "javascript",
     "c": "const numbers = [1, 2, 3];\nconst [first, ...rest] = numbers;\nconsole.log(rest);",
     "o": [
       "[2, 3]",
@@ -2291,7 +2296,6 @@
   },
   {
     "q": "Which of the following correctly imports a named export?",
-    "c": null,
     "o": [
       "import { myFunction } from './module.js';",
       "import myFunction from './module.js';",
@@ -2301,6 +2305,7 @@
   },
   {
     "q": "What will the following code return?",
+    "l": "javascript",
     "c": "const arrowFunc = () => ({ name: 'John' });\nconsole.log(arrowFunc());",
     "o": [
       "{ name: 'John' }",
@@ -2311,7 +2316,6 @@
   },
   {
     "q": "Which of the following statements about async functions is true?",
-    "c": null,
     "o": [
       "Async functions always return a Promise.",
       "Async functions run synchronously.",
@@ -2321,6 +2325,7 @@
   },
   {
     "q": "What will the following code output?",
+    "l": "javascript",
     "c": "const promise = new Promise((resolve) => resolve('Success'));\npromise.then(console.log);",
     "o": [
       "Success",
@@ -2331,7 +2336,6 @@
   },
   {
     "q": "Which of the following statements about JavaScript modules is correct?",
-    "c": null,
     "o": [
       "Modules are imported using the 'import' statement.",
       "Modules can only export one function.",
@@ -2341,6 +2345,7 @@
   },
   {
     "q": "What will be logged to the console?",
+    "l": "javascript",
     "c": "const obj = { a: 1, b: 2, c: 3 };\nconst { a, ...rest } = obj;\nconsole.log(rest);",
     "o": [
       "{ b: 2, c: 3 }",
@@ -2351,7 +2356,6 @@
   },
   {
     "q": "Which of the following correctly defines an arrow function with an implicit return?",
-    "c": null,
     "o": [
       "const add = (a, b) => a + b;",
       "const add = (a, b) => { return a + b };",
@@ -2361,6 +2365,7 @@
   },
   {
     "q": "What will be logged to the console?",
+    "l": "javascript",
     "c": "function printValues(a, b, c = 10) {\n  console.log(a, b, c);\n}\nprintValues(1, 2);",
     "o": [
       "1 2 10",
@@ -2371,7 +2376,6 @@
   },
   {
     "q": "Which of the following is the correct syntax for destructuring an array?",
-    "c": null,
     "o": [
       "const [first, second] = [10, 20];",
       "const first, second = [10, 20];",
@@ -2381,6 +2385,7 @@
   },
   {
     "q": "What will be logged to the console?",
+    "l": "javascript",
     "c": "const fetchData = async () => 'Hello';\nconsole.log(await fetchData());",
     "o": [
       "'Hello'",
@@ -2391,7 +2396,6 @@
   },
   {
     "q": "Which of the following correctly handles errors in a Promise chain?",
-    "c": null,
     "o": [
       "promise.then(result => console.log(result)).catch(error => console.error(error));",
       "promise.then(result => console.log(result)).then(error => console.error(error));",
@@ -2401,6 +2405,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "let x = 10;\nif (true) {\n  let x = 20;\n  console.log(x);\n}\nconsole.log(x);",
     "o": [
       "20 10",
@@ -2411,7 +2416,6 @@
   },
   {
     "q": "Which of the following is true about 'const' in JavaScript?",
-    "c": null,
     "o": [
       "A variable declared with 'const' cannot be reassigned.",
       "A variable declared with 'const' is not block-scoped.",
@@ -2421,7 +2425,6 @@
   },
   {
     "q": "What is the correct way to use template literals in JavaScript?",
-    "c": null,
     "o": [
       "const name = 'John';\nconsole.log(`Hello, ${name}!`);",
       "const name = 'John';\nconsole.log('Hello, ${name}!');",
@@ -2431,6 +2434,7 @@
   },
   {
     "q": "What will be logged to the console?",
+    "l": "javascript",
     "c": "const arr1 = [1, 2, 3];\nconst arr2 = [...arr1, 4, 5];\nconsole.log(arr2);",
     "o": [
       "[1, 2, 3, 4, 5]",
@@ -2441,7 +2445,6 @@
   },
   {
     "q": "Which statement correctly uses the rest operator?",
-    "c": null,
     "o": [
       "function sum(...nums) { return nums.reduce((a, b) => a + b, 0); }",
       "function sum(nums...) { return nums.reduce((a, b) => a + b, 0); }",
@@ -2451,6 +2454,7 @@
   },
   {
     "q": "What will be logged to the console?",
+    "l": "javascript",
     "c": "const obj = { a: 1, b: 2, c: 3 };\nconst { a, ...rest } = obj;\nconsole.log(rest);",
     "o": [
       "{ b: 2, c: 3 }",
@@ -2461,7 +2465,6 @@
   },
   {
     "q": "Which of the following correctly imports a default export?",
-    "c": null,
     "o": [
       "import myFunction from './module.js';",
       "import { myFunction } from './module.js';",
@@ -2471,6 +2474,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "const numbers = [1, 2, 3, 4, 5];\nfor (const num of numbers) {\n  console.log(num * 2);\n}",
     "o": [
       "2 4 6 8 10",
@@ -2481,7 +2485,6 @@
   },
   {
     "q": "Which of the following correctly defines an arrow function?",
-    "c": null,
     "o": [
       "const add = (a, b) => a + b;",
       "const add = (a, b) => { return a + b };",
@@ -2491,6 +2494,7 @@
   },
   {
     "q": "What will be logged to the console?",
+    "l": "javascript",
     "c": "const fetchData = async () => 'Hello';\nconsole.log(await fetchData());",
     "o": [
       "'Hello'",
@@ -2501,7 +2505,6 @@
   },
   {
     "q": "What is the correct way to handle a rejected promise?",
-    "c": null,
     "o": [
       "promise.then(result => console.log(result)).catch(error => console.error(error));",
       "promise.catch(result => console.log(result)).then(error => console.error(error));",
@@ -2511,6 +2514,7 @@
   },
   {
     "q": "What will the following code output?",
+    "l": "javascript",
     "c": "const person = { name: 'Alice', age: null };\nconsole.log(person.age ?? 25);",
     "o": [
       "25",
@@ -2521,7 +2525,6 @@
   },
   {
     "q": "Which of the following statements about optional chaining (?.) is correct?",
-    "c": null,
     "o": [
       "It allows safe access to deeply nested properties without throwing an error if a property is undefined.",
       "It automatically assigns default values to undefined properties.",
@@ -2531,6 +2534,7 @@
   },
   {
     "q": "What is the output of the following code?",
+    "l": "javascript",
     "c": "const obj = { name: 'Alice', age: 25 };\ndelete obj.name;\nconsole.log(obj.name);",
     "o": [
       "undefined",
@@ -2541,7 +2545,6 @@
   },
   {
     "q": "Which of the following correctly destructures an array?",
-    "c": null,
     "o": [
       "const [first, second] = [10, 20];",
       "const first, second = [10, 20];",
@@ -2551,7 +2554,6 @@
   },
   {
     "q": "Which of the following is the correct syntax for using 'for...of'?",
-    "c": null,
     "o": [
       "for (const item of array) { console.log(item); }",
       "for (let i = 0; i < array.length; i++) { console.log(array[i]); }",
@@ -2561,6 +2563,7 @@
   },
   {
     "q": "What will be logged to the console?",
+    "l": "javascript",
     "c": "let a = 0 ?? 5;\nconsole.log(a);",
     "o": [
       "0",
@@ -2571,7 +2574,6 @@
   },
   {
     "q": "Which of the following correctly uses the 'finally' method in a Promise?",
-    "c": null,
     "o": [
       "promise.then(result => console.log(result)).finally(() => console.log('Done'));",
       "promise.finally(result => console.log(result));",
@@ -2581,6 +2583,7 @@
   },
   {
     "q": "What will be logged to the console?",
+    "l": "javascript",
     "c": "const person = { name: 'Alice', age: 30 };\nconst { name, age } = person;\nconsole.log(name, age);",
     "o": [
       "'Alice', 30",
@@ -2591,7 +2594,6 @@
   },
   {
     "q": "Which of the following statements about the spread operator (...) is correct?",
-    "c": null,
     "o": [
       "It expands an array or object into individual elements.",
       "It merges objects into a single object.",
@@ -2601,6 +2603,7 @@
   },
   {
     "q": "What will be the output of the following code?",
+    "l": "javascript",
     "c": "const obj1 = { a: 1, b: 2 };\nconst obj2 = { ...obj1, c: 3 };\nconsole.log(obj2);",
     "o": [
       "{ a: 1, b: 2, c: 3 }",
@@ -2611,7 +2614,6 @@
   },
   {
     "q": "Which of the following correctly demonstrates the use of default parameters?",
-    "c": null,
     "o": [
       "function greet(name = 'Guest') { console.log(`Hello, ${name}!`); }",
       "function greet(name) = 'Guest' { console.log(`Hello, ${name}!`); }",
@@ -2621,6 +2623,7 @@
   },
   {
     "q": "What will be logged to the console?",
+    "l": "javascript",
     "c": "const greet = (name) => `Hello, ${name}!`;\nconsole.log(greet('John'));",
     "o": [
       "'Hello, John!'",
@@ -2631,6 +2634,7 @@
   },
   {
     "q": "What does the following Promise code output?",
+    "l": "javascript",
     "c": "new Promise((resolve, reject) => {\n  resolve('Success');\n}).then(console.log).catch(console.error);",
     "o": [
       "'Success'",
@@ -2641,7 +2645,6 @@
   },
   {
     "q": "Which statement about 'async' functions is correct?",
-    "c": null,
     "o": [
       "They always return a Promise.",
       "They execute synchronously.",
@@ -2651,7 +2654,6 @@
   },
   {
     "q": "What is the correct way to handle an error inside an async function?",
-    "c": null,
     "o": [
       "try { await someFunction(); } catch (error) { console.error(error); }",
       "await someFunction().catch(error => console.error(error));",
@@ -2661,6 +2663,7 @@
   },
   {
     "q": "What will be the output of the following async/await code?",
+    "l": "javascript",
     "c": "async function test() {\n  return 'Hello';\n}\ntest().then(console.log);",
     "o": [
       "'Hello'",
@@ -2671,7 +2674,6 @@
   },
   {
     "q": "Which of the following statements about optional chaining (?.) is correct?",
-    "c": null,
     "o": [
       "It allows safe access to deeply nested properties without throwing an error if a property is undefined.",
       "It automatically assigns default values to undefined properties.",
@@ -2681,6 +2683,7 @@
   },
   {
     "q": "What will the following code return?",
+    "l": "javascript",
     "c": "const user = { name: 'Alice', address: null };\nconsole.log(user.address?.city);",
     "o": [
       "undefined",
@@ -2691,7 +2694,6 @@
   },
   {
     "q": "Which of the following best describes the event loop in JavaScript?",
-    "c": null,
     "o": [
       "It handles asynchronous operations by managing the execution of callbacks in the event queue.",
       "It executes synchronous code only.",
@@ -2701,6 +2703,7 @@
   },
   {
     "q": "What will the following code output?",
+    "l": "javascript",
     "c": "console.log(1);\nsetTimeout(() => console.log(2), 0);\nconsole.log(3);",
     "o": [
       "1 3 2",
@@ -2711,7 +2714,6 @@
   },
   {
     "q": "Which of the following correctly implements a closure?",
-    "c": null,
     "o": [
       "function outer() {\n  let count = 0;\n  return function() { count++; return count; };\n}",
       "function outer() {\n  return function() { return count++; };\n}",
@@ -2721,6 +2723,7 @@
   },
   {
     "q": "What will be logged to the console?",
+    "l": "javascript",
     "c": "function createCounter() {\n  let count = 0;\n  return function() { return ++count; };\n}\nconst counter = createCounter();\nconsole.log(counter(), counter());",
     "o": [
       "1 2",
@@ -2731,7 +2734,6 @@
   },
   {
     "q": "Which statement about iterators in JavaScript is correct?",
-    "c": null,
     "o": [
       "Iterators provide a standard way to loop through a collection.",
       "They can only be used with arrays.",
@@ -2741,7 +2743,6 @@
   },
   {
     "q": "What is the correct syntax to create a generator function?",
-    "c": null,
     "o": [
       "function* myGenerator() { yield 1; yield 2; }",
       "function myGenerator()* { yield 1; yield 2; }",
@@ -2751,6 +2752,7 @@
   },
   {
     "q": "What will be the output of the following code?",
+    "l": "javascript",
     "c": "function* gen() {\n  yield 1;\n  yield 2;\n}\nconst iterator = gen();\nconsole.log(iterator.next().value, iterator.next().value);",
     "o": [
       "1 2",
@@ -2761,6 +2763,7 @@
   },
   {
     "q": "What will be the output of the following code?",
+    "l": "javascript",
     "c": "let x = 10;\n{\n  let x = 20;\n  console.log(x);\n}\nconsole.log(x);",
     "o": [
       "20 10",
@@ -2771,7 +2774,6 @@
   },
   {
     "q": "Which of the following correctly demonstrates the use of template literals?",
-    "c": null,
     "o": [
       "const name = 'John'; console.log(`Hello, ${name}!`);",
       "const name = 'John'; console.log('Hello, ' + name + '!');",
@@ -2781,6 +2783,7 @@
   },
   {
     "q": "What will be the output of the following spread operator example?",
+    "l": "javascript",
     "c": "const arr1 = [1, 2, 3];\nconst arr2 = [...arr1, 4, 5];\nconsole.log(arr2);",
     "o": [
       "[1, 2, 3, 4, 5]",
@@ -2791,7 +2794,6 @@
   },
   {
     "q": "Which of the following is NOT a valid use of the spread operator?",
-    "c": null,
     "o": [
       "Expanding elements of an array into function arguments",
       "Cloning an object",
@@ -2801,6 +2803,7 @@
   },
   {
     "q": "What will be the output of the following arrow function?",
+    "l": "javascript",
     "c": "const multiply = (a, b) => a * b;\nconsole.log(multiply(3, 4));",
     "o": [
       "12",
@@ -2811,7 +2814,6 @@
   },
   {
     "q": "Which statement about JavaScript classes is correct?",
-    "c": null,
     "o": [
       "A class can have a constructor method that initializes its properties.",
       "Classes do not support inheritance.",
@@ -2821,6 +2823,7 @@
   },
   {
     "q": "What will be the output of the following Promise chaining example?",
+    "l": "javascript",
     "c": "Promise.resolve(1)\n  .then(num => num + 1)\n  .then(num => num * 2)\n  .then(console.log);",
     "o": [
       "4",
@@ -2831,7 +2834,6 @@
   },
   {
     "q": "What is the purpose of the 'finally' block in a Promise?",
-    "c": null,
     "o": [
       "It runs code after a promise is settled (either resolved or rejected).",
       "It handles errors in a promise.",
@@ -2841,7 +2843,6 @@
   },
   {
     "q": "Which of the following is an example of using async/await correctly?",
-    "c": null,
     "o": [
       "async function fetchData() { let data = await getData(); console.log(data); }",
       "function fetchData() { let data = await getData(); console.log(data); }",
@@ -2851,6 +2852,7 @@
   },
   {
     "q": "What will be the output of this optional chaining example?",
+    "l": "javascript",
     "c": "const user = { profile: { name: 'Alice' } };\nconsole.log(user.profile?.age ?? 'Unknown');",
     "o": [
       "'Unknown'",
@@ -2861,6 +2863,7 @@
   },
   {
     "q": "What will be logged to the console?",
+    "l": "javascript",
     "c": "console.log(typeof null, typeof undefined);",
     "o": [
       "'object', 'undefined'",
@@ -2871,7 +2874,6 @@
   },
   {
     "q": "Which of the following correctly defines a class in JavaScript?",
-    "c": null,
     "o": [
       "class Person { constructor(name) { this.name = name; } }",
       "function class Person() { constructor(name) { this.name = name; } }",
@@ -2881,6 +2883,7 @@
   },
   {
     "q": "What will be logged by this closure example?",
+    "l": "javascript",
     "c": "function outer() {\n  let count = 0;\n  return function() { return ++count; };\n}\nconst counter = outer();\nconsole.log(counter(), counter());",
     "o": [
       "1 2",
@@ -2891,7 +2894,6 @@
   },
   {
     "q": "Which of the following correctly describes a higher-order function?",
-    "c": null,
     "o": [
       "A function that takes another function as an argument or returns a function.",
       "A function that can only return a number.",
@@ -2901,6 +2903,7 @@
   },
   {
     "q": "What will be the output of this generator function?",
+    "l": "javascript",
     "c": "function* gen() {\n  yield 'A';\n  yield 'B';\n  yield 'C';\n}\nconst iterator = gen();\nconsole.log(iterator.next().value, iterator.next().value);",
     "o": [
       "'A B'",
@@ -2911,7 +2914,6 @@
   },
   {
     "q": "Which statement about JavaScript modules is correct?",
-    "c": null,
     "o": [
       "Modules allow code to be split into reusable files using 'import' and 'export'.",
       "Modules are automatically global and do not need to be imported.",
@@ -2921,6 +2923,7 @@
   },
   {
     "q": "What will be the result of the following JavaScript code?",
+    "l": "javascript",
     "c": "const add = (a, b) => a + b;\nconst subtract = (a, b) => a - b;\nconst operate = (fn, x, y) => fn(x, y);\nconsole.log(operate(add, 5, 3), operate(subtract, 5, 3));",
     "o": [
       "8 2",
@@ -2931,7 +2934,6 @@
   },
   {
     "q": "Which of the following statements is true about JavaScript’s event loop?",
-    "c": null,
     "o": [
       "It allows JavaScript to handle asynchronous operations without blocking the main thread.",
       "It executes synchronous code before any asynchronous code.",
@@ -2941,6 +2943,7 @@
   },
   {
     "q": "What will be the output of this Promise and setTimeout example?",
+    "l": "javascript",
     "c": "console.log('Start');\nsetTimeout(() => console.log('Timeout'), 0);\nPromise.resolve().then(() => console.log('Promise'));\nconsole.log('End');",
     "o": [
       "'Start', 'End', 'Promise', 'Timeout'",
@@ -2951,7 +2954,6 @@
   },
   {
     "q": "Which of the following is NOT a valid way to declare a variable in JavaScript?",
-    "c": null,
     "o": [
       "let x = 5;",
       "const y = 10;",
@@ -2961,7 +2963,6 @@
   },
   {
     "q": "What is the main difference between Map and Object in JavaScript?",
-    "c": null,
     "o": [
       "Map allows any type of key, while Object only allows strings and symbols.",
       "Object allows any type of key, while Map only allows strings.",
@@ -2971,6 +2972,7 @@
   },
   {
     "q": "Which of the following correctly demonstrates the use of WeakMap?",
+    "l": "javascript",
     "c": "const wm = new WeakMap();\nlet obj = {};\nwm.set(obj, 'value');\nconsole.log(wm.get(obj));",
     "o": [
       "'value'",
@@ -2981,6 +2983,7 @@
   },
   {
     "q": "What will be the output of the following Set operation?",
+    "l": "javascript",
     "c": "const set = new Set([1, 2, 2, 3]);\nconsole.log(set.size);",
     "o": [
       "3",
@@ -2991,7 +2994,6 @@
   },
   {
     "q": "Which method is used to check if a Set contains a specific value?",
-    "c": null,
     "o": [
       "has()",
       "includes()",
@@ -3001,7 +3003,6 @@
   },
   {
     "q": "What is the primary benefit of using a WeakSet over a Set?",
-    "c": null,
     "o": [
       "WeakSet holds only objects and does not prevent garbage collection.",
       "WeakSet allows duplicate values.",
@@ -3011,6 +3012,7 @@
   },
   {
     "q": "What will be the output of this Proxy example?",
+    "l": "javascript",
     "c": "const obj = { a: 10 };\nconst proxy = new Proxy(obj, {\n  get(target, prop) {\n    return prop in target ? target[prop] : 'Not Found';\n  }\n});\nconsole.log(proxy.a, proxy.b);",
     "o": [
       "10 'Not Found'",
@@ -3021,7 +3023,6 @@
   },
   {
     "q": "Which of the following is TRUE about JavaScript Symbols?",
-    "c": null,
     "o": [
       "Symbols create unique identifiers that do not clash with object property names.",
       "Symbols are the same as strings.",
@@ -3031,6 +3032,7 @@
   },
   {
     "q": "What will be the result of this iterator function?",
+    "l": "javascript",
     "c": "function makeIterator(arr) {\n  let index = 0;\n  return {\n    next: function() {\n      return index < arr.length ?\n        { value: arr[index++], done: false } :\n        { done: true };\n    }\n  };\n}\nconst iterator = makeIterator([1, 2, 3]);\nconsole.log(iterator.next().value, iterator.next().value, iterator.next().done);",
     "o": [
       "1 2 false",
@@ -3041,7 +3043,6 @@
   },
   {
     "q": "Which statement about JavaScript Generators is correct?",
-    "c": null,
     "o": [
       "Generators allow pausing and resuming execution.",
       "Generators run to completion immediately.",
@@ -3051,6 +3052,7 @@
   },
   {
     "q": "What will be logged in this async/await example?",
+    "l": "javascript",
     "c": "async function test() {\n  return 'Hello';\n}\ntest().then(console.log);",
     "o": [
       "'Hello'",
@@ -3061,7 +3063,6 @@
   },
   {
     "q": "Which of the following describes the purpose of Reflect in JavaScript?",
-    "c": null,
     "o": [
       "It provides methods for interacting with objects and proxies.",
       "It is a way to create asynchronous operations.",
@@ -3071,6 +3072,7 @@
   },
   {
     "q": "What will be the output of this Reflect example?",
+    "l": "javascript",
     "c": "const obj = { x: 10 };\nReflect.set(obj, 'x', 20);\nconsole.log(obj.x);",
     "o": [
       "20",
@@ -3081,7 +3083,6 @@
   },
   {
     "q": "What does Object.defineProperty() allow you to do?",
-    "c": null,
     "o": [
       "Define custom properties with specific attributes like writable and configurable.",
       "Create new objects.",
@@ -3091,7 +3092,6 @@
   },
   {
     "q": "Which of the following is a valid way to define a private class field?",
-    "c": null,
     "o": [
       "class Person { #name; constructor(name) { this.#name = name; } }",
       "class Person { private name; constructor(name) { this.private name = name; } }",
@@ -3101,6 +3101,7 @@
   },
   {
     "q": "What will be the output of this class example?",
+    "l": "javascript",
     "c": "class Animal {\n  static sound() {\n    return 'Roar';\n  }\n}\nconsole.log(Animal.sound());",
     "o": [
       "'Roar'",
@@ -3111,7 +3112,6 @@
   },
   {
     "q": "Which statement about destructuring assignment is true?",
-    "c": null,
     "o": [
       "It allows extracting values from arrays or objects into variables.",
       "It creates new objects.",
@@ -3121,6 +3121,7 @@
   },
   {
     "q": "What will be the result of this destructuring example?",
+    "l": "javascript",
     "c": "const { a, b } = { a: 1, b: 2, c: 3 };\nconsole.log(a, b);",
     "o": [
       "1 2",
@@ -3131,7 +3132,6 @@
   },
   {
     "q": "Which of the following correctly demonstrates optional chaining?",
-    "c": null,
     "o": [
       "const obj = { user: { name: 'Alice' } };\nconsole.log(obj.user?.name ?? 'Unknown');",
       "const obj = { user: { name: 'Alice' } };\nconsole.log(obj.user?.name || 'Unknown');",
@@ -3141,6 +3141,7 @@
   },
   {
     "q": "What will be the output of the following async function?",
+    "l": "javascript",
     "c": "async function foo() {\n  return 42;\n}\nconsole.log(foo());",
     "o": [
       "Promise { 42 }",
@@ -3151,7 +3152,6 @@
   },
   {
     "q": "Which event loop phase executes process.nextTick() callbacks?",
-    "c": null,
     "o": [
       "Before the next event loop tick starts",
       "During the timer phase",
@@ -3161,6 +3161,7 @@
   },
   {
     "q": "What will this closure example return?",
+    "l": "javascript",
     "c": "function outer() {\n  let count = 0;\n  return function inner() {\n    return ++count;\n  };\n}\nconst fn = outer();\nconsole.log(fn(), fn());",
     "o": [
       "1 2",
@@ -3171,7 +3172,6 @@
   },
   {
     "q": "What is the main advantage of using Higher-Order Functions?",
-    "c": null,
     "o": [
       "They enable functional programming by allowing functions to be passed as arguments.",
       "They improve performance by optimizing loops.",
@@ -3181,7 +3181,6 @@
   },
   {
     "q": "Which statement correctly imports a default export?",
-    "c": null,
     "o": [
       "import myModule from './module.js';",
       "import { myModule } from './module.js';",
@@ -3191,6 +3190,7 @@
   },
   {
     "q": "What will be logged when using a WeakRef?",
+    "l": "javascript",
     "c": "let obj = { value: 10 };\nconst weakRef = new WeakRef(obj);\nobj = null;\nconsole.log(weakRef.deref());",
     "o": [
       "undefined (eventually, when garbage collected)",
@@ -3201,7 +3201,6 @@
   },
   {
     "q": "How does the FinalizationRegistry work?",
-    "c": null,
     "o": [
       "It allows registering cleanup logic for garbage-collected objects.",
       "It forces garbage collection of objects.",
@@ -3211,6 +3210,7 @@
   },
   {
     "q": "What will be the output of this Intl.DateTimeFormat example?",
+    "l": "javascript",
     "c": "console.log(new Intl.DateTimeFormat('en-GB', { dateStyle: 'full' }).format(new Date('2025-03-30')));",
     "o": [
       "'Sunday, 30 March 2025'",
@@ -3221,7 +3221,6 @@
   },
   {
     "q": "Which of the following is true about BigInt?",
-    "c": null,
     "o": [
       "BigInt is used for arbitrarily large numbers beyond Number.MAX_SAFE_INTEGER.",
       "BigInt can be used in JSON.stringify() by default.",
@@ -3231,6 +3230,7 @@
   },
   {
     "q": "What will be the output of this TypedArray operation?",
+    "l": "javascript",
     "c": "const arr = new Uint8Array([1, 2, 3]);\narr[1] = 256;\nconsole.log(arr[1]);",
     "o": [
       "0",
@@ -3241,6 +3241,7 @@
   },
   {
     "q": "What will be the output of this arrow function example?",
+    "l": "javascript",
     "c": "const obj = {\n  value: 10,\n  getValue: () => this.value\n};\nconsole.log(obj.getValue());",
     "o": [
       "undefined",
@@ -3251,7 +3252,6 @@
   },
   {
     "q": "Which statement correctly uses object destructuring with a default value?",
-    "c": null,
     "o": [
       "const { name = 'Guest' } = user;",
       "const [name = 'Guest'] = user;",
@@ -3261,6 +3261,7 @@
   },
   {
     "q": "What will be logged when using Promise.all?",
+    "l": "javascript",
     "c": "Promise.all([\n  Promise.resolve(1),\n  Promise.resolve(2),\n  Promise.reject('Error')\n]).then(console.log).catch(console.log);",
     "o": [
       "'Error'",
@@ -3271,6 +3272,7 @@
   },
   {
     "q": "What will the following optional chaining expression return?",
+    "l": "javascript",
     "c": "const user = { profile: { name: 'Alice' } };\nconsole.log(user.profile?.age);",
     "o": [
       "undefined",
@@ -3281,7 +3283,6 @@
   },
   {
     "q": "What is the main advantage of using Set over Array?",
-    "c": null,
     "o": [
       "Sets store only unique values.",
       "Sets are faster for indexing elements.",
@@ -3291,6 +3292,7 @@
   },
   {
     "q": "What will this generator function output?",
+    "l": "javascript",
     "c": "function* myGen() {\n  yield 1;\n  yield 2;\n  return 3;\n}\nconst gen = myGen();\nconsole.log(gen.next().value, gen.next().value, gen.next().value);",
     "o": [
       "1 2 undefined",
@@ -3301,7 +3303,6 @@
   },
   {
     "q": "How does the Proxy API work in JavaScript?",
-    "c": null,
     "o": [
       "It allows intercepting and modifying object operations.",
       "It prevents objects from being mutated.",
@@ -3311,6 +3312,7 @@
   },
   {
     "q": "What will the following WeakMap example log?",
+    "l": "javascript",
     "c": "let obj = { key: 'value' };\nconst wm = new WeakMap();\nwm.set(obj, 'Hello');\nobj = null;\nconsole.log(wm.has(obj));",
     "o": [
       "false",
@@ -3321,7 +3323,6 @@
   },
   {
     "q": "What does the Reflect API do in JavaScript?",
-    "c": null,
     "o": [
       "Provides methods to interact with object properties and methods.",
       "Enhances performance of objects.",
@@ -3331,6 +3332,7 @@
   },
   {
     "q": "What will be logged when using a WeakSet?",
+    "l": "javascript",
     "c": "let obj = { id: 1 };\nconst ws = new WeakSet();\nws.add(obj);\nobj = null;\nconsole.log(ws.has(obj));",
     "o": [
       "false",
@@ -3341,6 +3343,7 @@
   },
   {
     "q": "What will be the output of this async/await example?",
+    "l": "javascript",
     "c": "async function fetchData() {\n  return 'Hello';\n}\nfetchData().then(console.log);",
     "o": [
       "'Hello'",
@@ -3351,7 +3354,6 @@
   },
   {
     "q": "Which method correctly checks if a value exists in a Set?",
-    "c": null,
     "o": [
       "mySet.has(value)",
       "mySet.includes(value)",
@@ -3361,6 +3363,7 @@
   },
   {
     "q": "What will be logged in this tagged template literal?",
+    "l": "javascript",
     "c": "function tag(strings, value) {\n  return strings[0] + value.toUpperCase();\n}\nconsole.log(tag`Hello ${'world'}`);",
     "o": [
       "'Hello WORLD'",
@@ -3371,6 +3374,7 @@
   },
   {
     "q": "What is the output of this JavaScript class using private fields?",
+    "l": "javascript",
     "c": "class Person {\n  #name = 'Alice';\n  getName() { return this.#name; }\n}\nconst p = new Person();\nconsole.log(p.getName());",
     "o": [
       "'Alice'",
@@ -3381,7 +3385,6 @@
   },
   {
     "q": "What is the correct way to dynamically import a module in JavaScript?",
-    "c": null,
     "o": [
       "import('module.js').then(m => console.log(m))",
       "require('module.js')",
@@ -3391,6 +3394,7 @@
   },
   {
     "q": "What will be the output of this optional chaining with an array?",
+    "l": "javascript",
     "c": "const users = [{ name: 'Alice' }, { name: 'Bob' }];\nconsole.log(users[2]?.name);",
     "o": [
       "undefined",
@@ -3401,7 +3405,6 @@
   },
   {
     "q": "Which of the following demonstrates the `&&=` logical assignment operator?",
-    "c": null,
     "o": [
       "user.isAdmin &&= true;",
       "user.isAdmin ||= true;",
@@ -3411,6 +3414,7 @@
   },
   {
     "q": "What does the following code snippet output?",
+    "l": "javascript",
     "c": "let count = 0;\nconst increment = () => count++;\nincrement() ??= 10;\nconsole.log(count);",
     "o": [
       "1",
@@ -3421,7 +3425,6 @@
   },
   {
     "q": "What is the purpose of `??=` operator?",
-    "c": null,
     "o": [
       "Assigns value only if the left-hand side is `null` or `undefined`.",
       "Assigns value if left-hand side is falsy.",
@@ -3431,6 +3434,7 @@
   },
   {
     "q": "What will be logged in this case of logical assignment operators?",
+    "l": "javascript",
     "c": "let x = null;\nx ||= 5;\nconsole.log(x);",
     "o": [
       "5",
@@ -3441,6 +3445,7 @@
   },
   {
     "q": "What will be the output of the following arrow function?",
+    "l": "javascript",
     "c": "const obj = {\n  value: 42,\n  getValue: () => this.value\n};\nconsole.log(obj.getValue());",
     "o": [
       "undefined",
@@ -3451,7 +3456,6 @@
   },
   {
     "q": "Which syntax correctly destructures an object in JavaScript?",
-    "c": null,
     "o": [
       "const { name, age } = person;",
       "const [ name, age ] = person;",
@@ -3461,6 +3465,7 @@
   },
   {
     "q": "What is the output of this default parameter example?",
+    "l": "javascript",
     "c": "function greet(name = 'Guest') {\n  console.log(`Hello, ${name}!`);\n}\ngreet();",
     "o": [
       "'Hello, Guest!'",
@@ -3471,7 +3476,6 @@
   },
   {
     "q": "Which of the following demonstrates object property shorthand?",
-    "c": null,
     "o": [
       "const name = 'Alice';\nconst user = { name };",
       "const name = 'Alice';\nconst user = { 'name': name };",
@@ -3481,6 +3485,7 @@
   },
   {
     "q": "What will be logged by the following Promise chain?",
+    "l": "javascript",
     "c": "Promise.resolve(10)\n  .then(x => x * 2)\n  .then(x => { throw new Error('Oops'); })\n  .catch(err => console.log(err.message));",
     "o": [
       "'Oops'",
@@ -3491,7 +3496,6 @@
   },
   {
     "q": "Which of the following uses optional chaining correctly?",
-    "c": null,
     "o": [
       "console.log(user?.profile?.age);",
       "console.log(user.?profile.?age);",
@@ -3501,6 +3505,7 @@
   },
   {
     "q": "What will be the result of the nullish coalescing operator (`??`) in this code?",
+    "l": "javascript",
     "c": "let x = null;\nlet y = x ?? 'default';\nconsole.log(y);",
     "o": [
       "'default'",
@@ -3511,7 +3516,6 @@
   },
   {
     "q": "Which of the following demonstrates the use of top-level await in ES2022?",
-    "c": null,
     "o": [
       "const data = await fetchData();",
       "async function getData() { const data = await fetchData(); }",
@@ -3521,7 +3525,6 @@
   },
   {
     "q": "Which of the following correctly creates a `WeakMap`?",
-    "c": null,
     "o": [
       "const wm = new WeakMap();",
       "const wm = new WeakMap([]);",
@@ -3531,6 +3534,7 @@
   },
   {
     "q": "What will be the result of using a `WeakSet`?",
+    "l": "javascript",
     "c": "let ws = new WeakSet();\nlet obj = { name: 'Alice' };\nws.add(obj);\nconsole.log(ws.has(obj));",
     "o": [
       "true",
@@ -3541,6 +3545,7 @@
   },
   {
     "q": "What will be the output of the following Map example?",
+    "l": "javascript",
     "c": "let myMap = new Map();\nmyMap.set('name', 'Alice');\nconsole.log(myMap.get('name'));",
     "o": [
       "'Alice'",
@@ -3551,7 +3556,6 @@
   },
   {
     "q": "Which of the following is a valid way to create a JavaScript class?",
-    "c": null,
     "o": [
       "class Person { constructor(name) { this.name = name; } }",
       "function class Person { constructor(name) { this.name = name; } }",
@@ -3561,6 +3565,7 @@
   },
   {
     "q": "What will be the output of the following generator function?",
+    "l": "javascript",
     "c": "function* generator() {\n  yield 1;\n  yield 2;\n  yield 3;\n}\nconst gen = generator();\nconsole.log(gen.next().value);",
     "o": [
       "1",
@@ -3571,6 +3576,7 @@
   },
   {
     "q": "What will be the output of this tagged template literal?",
+    "l": "javascript",
     "c": "function tag(strings, name) {\n  return `Hello, ${name}!`;\n}\nconsole.log(tag`Welcome ${'Alice'}`);",
     "o": [
       "'Hello, Alice!'",
@@ -3581,6 +3587,7 @@
   },
   {
     "q": "What will be the output of the following async function?",
+    "l": "javascript",
     "c": "async function fetchData() {\n  throw new Error('Failed to fetch');\n}\nfetchData().catch(err => console.log(err.message));",
     "o": [
       "'Failed to fetch'",
@@ -3591,7 +3598,6 @@
   },
   {
     "q": "Which of the following correctly demonstrates dynamic import in JavaScript?",
-    "c": null,
     "o": [
       "import('module.js').then(module => console.log(module));",
       "import module from 'module.js';",
@@ -3601,7 +3607,6 @@
   },
   {
     "q": "Which of the following correctly defines a BigInt in JavaScript?",
-    "c": null,
     "o": [
       "const big = 12345678901234567890n;",
       "const big = new BigInt(12345678901234567890);",
@@ -3611,6 +3616,7 @@
   },
   {
     "q": "What will be the output of the following private class field example?",
+    "l": "javascript",
     "c": "class Person {\n  #age = 30;\n  getAge() { return this.#age; }\n}\nconst p = new Person();\nconsole.log(p.getAge());",
     "o": [
       "30",
@@ -3621,7 +3627,6 @@
   },
   {
     "q": "Which of the following is a correct way to export a function in ES6 modules?",
-    "c": null,
     "o": [
       "export function greet() { console.log('Hello'); }",
       "export: function greet() { console.log('Hello'); }",
@@ -3631,6 +3636,7 @@
   },
   {
     "q": "What will be the output of this destructuring assignment?",
+    "l": "javascript",
     "c": "const [a, , b] = [10, 20, 30];\nconsole.log(a, b);",
     "o": [
       "10 30",
@@ -3641,6 +3647,7 @@
   },
   {
     "q": "What will be the output of the following optional chaining example?",
+    "l": "javascript",
     "c": "const user = { profile: { name: 'Alice' } };\nconsole.log(user.profile?.age);",
     "o": [
       "undefined",
@@ -3651,7 +3658,6 @@
   },
   {
     "q": "Which of the following correctly uses the nullish coalescing operator?",
-    "c": null,
     "o": [
       "const value = null ?? 'default';",
       "const value = null || 'default';",
@@ -3661,6 +3667,7 @@
   },
   {
     "q": "What will be the output of the following `Promise.allSettled` example?",
+    "l": "javascript",
     "c": "Promise.allSettled([\n  Promise.resolve('Success'),\n  Promise.reject('Error')\n]).then(console.log);",
     "o": [
       "[{ status: 'fulfilled', value: 'Success' }, { status: 'rejected', reason: 'Error' }]",
@@ -3671,7 +3678,6 @@
   },
   {
     "q": "Which of the following is true about WeakMap and WeakSet in JavaScript?",
-    "c": null,
     "o": [
       "They allow only objects as keys or values and do not prevent garbage collection.",
       "They allow primitive types as keys.",
@@ -3681,6 +3687,7 @@
   },
   {
     "q": "What will be the output of the following Symbol example?",
+    "l": "javascript",
     "c": "const sym1 = Symbol('desc');\nconst sym2 = Symbol('desc');\nconsole.log(sym1 === sym2);",
     "o": [
       "false",
@@ -3691,7 +3698,6 @@
   },
   {
     "q": "Which of the following correctly demonstrates the `reduce` method on an array?",
-    "c": null,
     "o": [
       "const sum = [1, 2, 3].reduce((acc, num) => acc + num, 0);",
       "const sum = [1, 2, 3].map((acc, num) => acc + num, 0);",
@@ -3701,6 +3707,7 @@
   },
   {
     "q": "What will be the output of this arrow function?",
+    "l": "javascript",
     "c": "const multiply = (a, b) => a * b;\nconsole.log(multiply(2, 3));",
     "o": [
       "6",
@@ -3711,7 +3718,6 @@
   },
   {
     "q": "Which of the following is a correct way to define a function with a default parameter in ES6?",
-    "c": null,
     "o": [
       "function greet(name = 'Guest') { console.log(`Hello, ${name}!`); }",
       "function greet(name: 'Guest') { console.log(`Hello, ${name}!`); }",
@@ -3721,6 +3727,7 @@
   },
   {
     "q": "What will be logged to the console?",
+    "l": "javascript",
     "c": "const key = 'name';\nconst user = { [key]: 'Alice' };\nconsole.log(user.name);",
     "o": [
       "'Alice'",
@@ -3731,7 +3738,6 @@
   },
   {
     "q": "Which statement is true about JavaScript Sets?",
-    "c": null,
     "o": [
       "They store only unique values.",
       "They allow duplicate values.",
@@ -3741,6 +3747,7 @@
   },
   {
     "q": "What will be the output of this async/await example?",
+    "l": "javascript",
     "c": "async function fetchData() {\n  return 'Data received';\n}\nfetchData().then(console.log);",
     "o": [
       "'Data received'",
@@ -3751,6 +3758,7 @@
   },
   {
     "q": "What is the result of the following tagged template literal?",
+    "l": "javascript",
     "c": "function tag(strings, value) {\n  return `${strings[0]}${value.toUpperCase()}${strings[1]}`;\n}\nconst result = tag`Hello, ${'world'}!`;\nconsole.log(result);",
     "o": [
       "'Hello, WORLD!'",
@@ -3761,7 +3769,6 @@
   },
   {
     "q": "What does `Object.entries(obj)` return?",
-    "c": null,
     "o": [
       "An array of key-value pairs",
       "An array of keys only",
@@ -3771,6 +3778,7 @@
   },
   {
     "q": "What will be the output of the following dynamic import?",
+    "l": "javascript",
     "c": "import('./module.js').then(mod => console.log(mod.default));",
     "o": [
       "It loads the module asynchronously.",
@@ -3781,6 +3789,7 @@
   },
   {
     "q": "What will be the output of this destructuring assignment?",
+    "l": "javascript",
     "c": "const [first, , third] = ['apple', 'banana', 'cherry'];\nconsole.log(third);",
     "o": [
       "'cherry'",
@@ -3791,7 +3800,6 @@
   },
   {
     "q": "What does the optional chaining operator `?.` do in JavaScript?",
-    "c": null,
     "o": [
       "Prevents errors when accessing deeply nested properties.",
       "Throws an error when a property is missing.",
@@ -3801,6 +3809,7 @@
   },
   {
     "q": "What will be the result of the following code using the nullish coalescing operator?",
+    "l": "javascript",
     "c": "let value = null ?? 'default';\nconsole.log(value);",
     "o": [
       "'default'",
@@ -3811,7 +3820,6 @@
   },
   {
     "q": "Which of the following correctly creates a JavaScript Promise?",
-    "c": null,
     "o": [
       "new Promise((resolve, reject) => { resolve('Success'); })",
       "Promise.create((resolve, reject) => { resolve('Success'); })",
@@ -3821,7 +3829,6 @@
   },
   {
     "q": "What will `typeof Symbol('foo')` return?",
-    "c": null,
     "o": [
       "'symbol'",
       "'object'",
@@ -3831,6 +3838,7 @@
   },
   {
     "q": "What will be the output of this class syntax example?",
+    "l": "javascript",
     "c": "class Person {\n  constructor(name) {\n    this.name = name;\n  }\n  greet() {\n    return `Hello, ${this.name}!`;\n  }\n}\nconst user = new Person('Alice');\nconsole.log(user.greet());",
     "o": [
       "'Hello, Alice!'",
@@ -3841,7 +3849,6 @@
   },
   {
     "q": "Which of the following statements about iterators in JavaScript is true?",
-    "c": null,
     "o": [
       "Iterators provide a way to define custom iteration behavior.",
       "Iterators can only be used with arrays.",
@@ -3851,7 +3858,6 @@
   },
   {
     "q": "Which of the following is a key difference between WeakMap and Map in JavaScript?",
-    "c": null,
     "o": [
       "WeakMap keys must be objects.",
       "WeakMap allows primitive keys.",
@@ -3861,6 +3867,7 @@
   },
   {
     "q": "What will be the output of this arrow function?",
+    "l": "javascript",
     "c": "const add = (a, b) => a + b;\nconsole.log(add(5, 10));",
     "o": [
       "15",
@@ -3871,7 +3878,6 @@
   },
   {
     "q": "Which of the following is true about default function parameters in ES6?",
-    "c": null,
     "o": [
       "They allow functions to have default values for parameters.",
       "They must be defined at runtime.",
@@ -3881,6 +3887,7 @@
   },
   {
     "q": "What will be the output of this spread operator example?",
+    "l": "javascript",
     "c": "const nums = [1, 2, 3];\nconst newNums = [...nums, 4, 5];\nconsole.log(newNums);",
     "o": [
       "[1, 2, 3, 4, 5]",
@@ -3891,7 +3898,6 @@
   },
   {
     "q": "Which of the following correctly creates a Set in JavaScript?",
-    "c": null,
     "o": [
       "new Set([1, 2, 3])",
       "Set([1, 2, 3])",
@@ -3901,6 +3907,7 @@
   },
   {
     "q": "What will be the output of this async/await example?",
+    "l": "javascript",
     "c": "async function fetchData() {\n  return 'Data Loaded';\n}\nfetchData().then(console.log);",
     "o": [
       "'Data Loaded'",
@@ -3911,7 +3918,6 @@
   },
   {
     "q": "What are tagged template literals used for?",
-    "c": null,
     "o": [
       "Custom processing of template literals.",
       "Defining global template strings.",
@@ -3921,7 +3927,6 @@
   },
   {
     "q": "What is a key feature of JavaScript Proxy objects?",
-    "c": null,
     "o": [
       "They allow interception of object operations.",
       "They copy all properties of an object.",
@@ -3931,7 +3936,6 @@
   },
   {
     "q": "What does `Promise.all()` do?",
-    "c": null,
     "o": [
       "Waits for all promises to resolve before returning results.",
       "Returns the first resolved promise.",
@@ -3941,6 +3945,7 @@
   },
   {
     "q": "What will be the output of the following destructuring assignment?",
+    "l": "javascript",
     "c": "const [a, b] = [10, 20];\nconsole.log(a, b);",
     "o": [
       "10 20",
@@ -3951,7 +3956,6 @@
   },
   {
     "q": "Which of the following correctly uses optional chaining?",
-    "c": null,
     "o": [
       "const age = user?.profile?.age;",
       "const age = user?profile?age;",
@@ -3961,6 +3965,7 @@
   },
   {
     "q": "What will be the output of the following nullish coalescing example?",
+    "l": "javascript",
     "c": "const val = null ?? 'Default';\nconsole.log(val);",
     "o": [
       "'Default'",
@@ -3971,7 +3976,6 @@
   },
   {
     "q": "Which of the following correctly creates a Map in JavaScript?",
-    "c": null,
     "o": [
       "new Map([[1, 'one'], [2, 'two']])",
       "Map(1, 'one', 2, 'two')",
@@ -3981,7 +3985,6 @@
   },
   {
     "q": "What is a key difference between WeakMap and Map?",
-    "c": null,
     "o": [
       "WeakMap keys must be objects, while Map keys can be any type.",
       "WeakMap keys can be primitive types.",
@@ -3991,7 +3994,6 @@
   },
   {
     "q": "What will `Object.entries({ x: 10, y: 20 })` return?",
-    "c": null,
     "o": [
       "[['x', 10], ['y', 20]]",
       "{ x: 10, y: 20 }",
@@ -4001,7 +4003,6 @@
   },
   {
     "q": "Which statement correctly uses dynamic imports?",
-    "c": null,
     "o": [
       "import('module.js').then(module => console.log(module.default));",
       "import module from 'module.js';",
@@ -4011,7 +4012,6 @@
   },
   {
     "q": "What will be the output of `console.log(9007199254740992n + 1n);`?",
-    "c": null,
     "o": [
       "9007199254740993n",
       "9007199254740992",
@@ -4021,7 +4021,6 @@
   },
   {
     "q": "What is the purpose of WeakRef in JavaScript?",
-    "c": null,
     "o": [
       "It allows creating weak references to objects that do not prevent garbage collection.",
       "It creates immutable object references.",
@@ -4031,7 +4030,6 @@
   },
   {
     "q": "What does FinalizationRegistry do in JavaScript?",
-    "c": null,
     "o": [
       "It allows running cleanup code when an object is garbage collected.",
       "It prevents objects from being garbage collected.",
@@ -4041,6 +4039,7 @@
   },
   {
     "q": "What will be the output of the following arrow function?",
+    "l": "javascript",
     "c": "const add = (a, b) => a + b;\nconsole.log(add(3, 4));",
     "o": [
       "7",
@@ -4051,7 +4050,6 @@
   },
   {
     "q": "Which of the following correctly uses default parameters?",
-    "c": null,
     "o": [
       "function greet(name = 'Guest') { return `Hello, ${name}!`; }",
       "function greet(name : 'Guest') { return `Hello, ${name}!`; }",
@@ -4061,7 +4059,6 @@
   },
   {
     "q": "Which statement correctly creates a Set in JavaScript?",
-    "c": null,
     "o": [
       "new Set([1, 2, 3, 3])",
       "Set(1, 2, 3, 3)",
@@ -4071,6 +4068,7 @@
   },
   {
     "q": "What will be logged when the following promise runs?",
+    "l": "javascript",
     "c": "new Promise((resolve) => resolve('Success'))\n  .then(console.log)\n  .catch(console.error);",
     "o": [
       "'Success'",
@@ -4081,7 +4079,6 @@
   },
   {
     "q": "Which of the following is a correct way to define a Symbol?",
-    "c": null,
     "o": [
       "const mySymbol = Symbol('description');",
       "const mySymbol = new Symbol('description');",
@@ -4091,7 +4088,6 @@
   },
   {
     "q": "What is a tagged template literal in JavaScript?",
-    "c": null,
     "o": [
       "A function that processes a template literal before it is evaluated.",
       "A new way to define multi-line strings.",
@@ -4101,7 +4097,6 @@
   },
   {
     "q": "What is the primary purpose of the Proxy object in JavaScript?",
-    "c": null,
     "o": [
       "To define custom behavior for fundamental operations like property lookup and assignment.",
       "To enhance object serialization.",
@@ -4111,7 +4106,6 @@
   },
   {
     "q": "Which of the following methods belongs to the Reflect API?",
-    "c": null,
     "o": [
       "Reflect.get(target, property)",
       "Proxy.apply(target, thisArg, args)",
@@ -4121,7 +4115,6 @@
   },
   {
     "q": "Which statement correctly uses the Intl API for formatting dates?",
-    "c": null,
     "o": [
       "new Intl.DateTimeFormat('en-US').format(new Date())",
       "Intl.formatDate(new Date(), 'en-US')",
@@ -4131,7 +4124,6 @@
   },
   {
     "q": "What is the purpose of decorators in JavaScript?",
-    "c": null,
     "o": [
       "To modify the behavior of classes or methods at runtime.",
       "To create UI components.",
@@ -4141,7 +4133,6 @@
   },
   {
     "q": "What is the Temporal API in JavaScript used for?",
-    "c": null,
     "o": [
       "Handling date and time calculations with improved precision.",
       "Enhancing template literals with time-based expressions.",
@@ -4151,6 +4142,7 @@
   },
   {
     "q": "What will be the output of the following code snippet?",
+    "l": "javascript",
     "c": "const obj = { a: 1, b: 2 };\nconst { a, b } = obj;\nconsole.log(a, b);",
     "o": [
       "1 2",
@@ -4161,7 +4153,6 @@
   },
   {
     "q": "What does optional chaining (`?.`) do in JavaScript?",
-    "c": null,
     "o": [
       "It safely accesses nested object properties without causing errors.",
       "It creates a new object instance.",
@@ -4171,7 +4162,6 @@
   },
   {
     "q": "Which of the following statements about the nullish coalescing operator (`??`) is correct?",
-    "c": null,
     "o": [
       "`null ?? 'default'` will return `'default'`",
       "`undefined ?? 'default'` will throw an error",
@@ -4181,6 +4171,7 @@
   },
   {
     "q": "What will be the output of the following code?",
+    "l": "javascript",
     "c": "console.log(10n + 20n);",
     "o": [
       "30n",
@@ -4191,7 +4182,6 @@
   },
   {
     "q": "Which of the following is a correct way to dynamically import a module in JavaScript?",
-    "c": null,
     "o": [
       "import('module.js').then(module => console.log(module))",
       "require('module.js')",
@@ -4201,7 +4191,6 @@
   },
   {
     "q": "What is the primary difference between WeakSet and Set?",
-    "c": null,
     "o": [
       "WeakSet holds weak references to objects and allows garbage collection.",
       "WeakSet allows any data type as keys, whereas Set only supports objects.",
@@ -4211,7 +4200,6 @@
   },
   {
     "q": "What is a characteristic of private fields in JavaScript classes?",
-    "c": null,
     "o": [
       "They are declared using `#` and cannot be accessed outside the class.",
       "They are defined using `private` keyword.",
@@ -4221,7 +4209,6 @@
   },
   {
     "q": "Which logical assignment operator is used to assign a value only if the variable is nullish (null or undefined)?",
-    "c": null,
     "o": [
       "??=",
       "||=",
@@ -4231,7 +4218,6 @@
   },
   {
     "q": "What is the difference between `Promise.all()` and `Promise.allSettled()`?",
-    "c": null,
     "o": [
       "`Promise.allSettled()` waits for all promises to resolve or reject, while `Promise.all()` rejects immediately if any promise fails.",
       "`Promise.allSettled()` only works with resolved promises.",
@@ -4241,7 +4227,6 @@
   },
   {
     "q": "Which of the following is a valid usage of top-level await in JavaScript?",
-    "c": null,
     "o": [
       "In ES Modules, outside of any function.",
       "Inside a standard script file (`.js`) outside any function.",
@@ -4251,6 +4236,7 @@
   },
   {
     "q": "What will be the output of the following arrow function?",
+    "l": "javascript",
     "c": "const add = (a, b) => a + b;\nconsole.log(add(5, 10));",
     "o": [
       "15",
@@ -4261,7 +4247,6 @@
   },
   {
     "q": "Which of the following is the correct syntax for setting a default parameter value?",
-    "c": null,
     "o": [
       "function greet(name = 'Guest') { console.log(`Hello, ${name}!`); }",
       "function greet(name: 'Guest') { console.log(`Hello, ${name}!`); }",
@@ -4271,6 +4256,7 @@
   },
   {
     "q": "What will be the output of the following tagged template literal?",
+    "l": "javascript",
     "c": "function tag(strings, name) {\n  return `${strings[0]}${name.toUpperCase()}${strings[1]}`;\n}\nconsole.log(tag`Hello, ${'world'}!`);",
     "o": [
       "Hello, WORLD!",
@@ -4281,7 +4267,6 @@
   },
   {
     "q": "Which of the following is a unique property of `Set` in JavaScript?",
-    "c": null,
     "o": [
       "It stores only unique values.",
       "It allows duplicate keys and values.",
@@ -4291,6 +4276,7 @@
   },
   {
     "q": "What will be the output of the following code snippet?",
+    "l": "javascript",
     "c": "const sym = Symbol('desc');\nconsole.log(typeof sym);",
     "o": [
       "\"symbol\"",
@@ -4301,7 +4287,6 @@
   },
   {
     "q": "Which of the following is a correct way to create a generator function?",
-    "c": null,
     "o": [
       "function* generator() { yield 1; yield 2; yield 3; }",
       "function generator*() { yield 1; yield 2; yield 3; }",
@@ -4311,6 +4296,7 @@
   },
   {
     "q": "What will be the output of the following async function?",
+    "l": "javascript",
     "c": "async function fetchData() {\n  return 'Hello, Async!';\n}\nfetchData().then(console.log);",
     "o": [
       "\"Hello, Async!\"",
@@ -4321,7 +4307,6 @@
   },
   {
     "q": "What is the purpose of a JavaScript Proxy?",
-    "c": null,
     "o": [
       "To define custom behavior for fundamental operations like property access, assignment, and function calls.",
       "To increase performance by caching JavaScript objects.",
@@ -4331,7 +4316,6 @@
   },
   {
     "q": "What is the primary use case of the Reflect API in JavaScript?",
-    "c": null,
     "o": [
       "It provides methods for performing object operations similar to `Object` methods but in a more predictable way.",
       "It is used to manipulate the DOM more efficiently.",
@@ -4341,7 +4325,6 @@
   },
   {
     "q": "What is the purpose of `WeakRef` in JavaScript?",
-    "c": null,
     "o": [
       "It allows creating weak references to objects that do not prevent garbage collection.",
       "It makes objects immutable.",
@@ -4351,6 +4334,7 @@
   },
   {
     "q": "What will be the output of the following destructuring assignment?",
+    "l": "javascript",
     "c": "const [a, b = 10] = [5];\nconsole.log(a, b);",
     "o": [
       "5 10",
@@ -4361,7 +4345,6 @@
   },
   {
     "q": "Which of the following correctly uses optional chaining?",
-    "c": null,
     "o": [
       "const city = user?.address?.city;",
       "const city = user.address.city?;",
@@ -4371,6 +4354,7 @@
   },
   {
     "q": "What is the result of the following expression using nullish coalescing?",
+    "l": "javascript",
     "c": "let value = null ?? 'Default';\nconsole.log(value);",
     "o": [
       "\"Default\"",
@@ -4381,7 +4365,6 @@
   },
   {
     "q": "Which statement correctly describes `Promise.all()`?",
-    "c": null,
     "o": [
       "It runs multiple promises in parallel and resolves when all of them succeed.",
       "It runs multiple promises but only waits for the first one to resolve.",
@@ -4391,6 +4374,7 @@
   },
   {
     "q": "What will happen when using top-level await in an ES module?",
+    "l": "javascript",
     "c": "console.log(\"Before\");\nawait new Promise(resolve => setTimeout(resolve, 2000));\nconsole.log(\"After\");",
     "o": [
       "The module execution will pause until the await statement completes.",
@@ -4401,7 +4385,6 @@
   },
   {
     "q": "What is the correct way to define a private field in a JavaScript class?",
-    "c": null,
     "o": [
       "class Example { #privateField = 42; }",
       "class Example { privateField = 42; }",
@@ -4411,6 +4394,7 @@
   },
   {
     "q": "What will be the output of the following code using BigInt?",
+    "l": "javascript",
     "c": "const big = 9007199254740991n + 1n;\nconsole.log(big);",
     "o": [
       "9007199254740992n",
@@ -4421,7 +4405,6 @@
   },
   {
     "q": "Which of the following correctly demonstrates dynamic import?",
-    "c": null,
     "o": [
       "import('module.js').then(module => module.function());",
       "require('module.js').then(module => module.function());",
@@ -4431,7 +4414,6 @@
   },
   {
     "q": "What does the `Intl.DateTimeFormat` API do?",
-    "c": null,
     "o": [
       "Formats dates and times according to different locales.",
       "Formats only numbers and currencies.",
@@ -4441,7 +4423,6 @@
   },
   {
     "q": "Which of the following statements is true about WeakMap?",
-    "c": null,
     "o": [
       "It allows garbage collection of keys that are no longer referenced.",
       "It stores keys and values permanently in memory.",
@@ -4451,6 +4432,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "let x = 5;\nif (true) {\n  let x = 10;\n}\nconsole.log(x);",
     "o": [
       "5",
@@ -4461,7 +4443,6 @@
   },
   {
     "q": "Which of the following is the correct way to declare a constant in JavaScript?",
-    "c": null,
     "o": [
       "const PI = 3.14;",
       "let PI = 3.14;",
@@ -4471,6 +4452,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "const name = 'Alice';\nconsole.log(`Hello, ${name}!`);",
     "o": [
       "Hello, Alice!",
@@ -4481,7 +4463,6 @@
   },
   {
     "q": "Which of the following is a valid use of template literals?",
-    "c": null,
     "o": [
       "`Total: ${price * quantity}`",
       "'Total: ${price * quantity}'",
@@ -4491,6 +4472,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "const numbers = [1, 2, 3];\nconst newNumbers = [...numbers, 4, 5];\nconsole.log(newNumbers);",
     "o": [
       "[1, 2, 3, 4, 5]",
@@ -4501,7 +4483,6 @@
   },
   {
     "q": "Which of the following correctly demonstrates the rest operator?",
-    "c": null,
     "o": [
       "function sum(...args) { return args.reduce((a, b) => a + b); }",
       "function sum(args) { return ...args.reduce((a, b) => a + b); }",
@@ -4511,6 +4492,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "const [first, ...rest] = [1, 2, 3, 4];\nconsole.log(rest);",
     "o": [
       "[2, 3, 4]",
@@ -4521,7 +4503,6 @@
   },
   {
     "q": "Which of the following is the correct way to import a named export from a module?",
-    "c": null,
     "o": [
       "import { myFunction } from './myModule';",
       "import myFunction from './myModule';",
@@ -4531,6 +4512,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "const obj1 = { a: 1, b: 2 };\nconst obj2 = { ...obj1, c: 3 };\nconsole.log(obj2);",
     "o": [
       "{ a: 1, b: 2, c: 3 }",
@@ -4541,7 +4523,6 @@
   },
   {
     "q": "Which of the following is the correct way to export multiple functions from a module?",
-    "c": null,
     "o": [
       "export function func1() {}\nexport function func2() {}",
       "export [func1, func2];",
@@ -4551,6 +4532,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "const greet = (name = 'Guest') => `Welcome, ${name}!`;\nconsole.log(greet());",
     "o": [
       "Welcome, Guest!",
@@ -4561,7 +4543,6 @@
   },
   {
     "q": "Which of the following is a valid default export in ES6 modules?",
-    "c": null,
     "o": [
       "export default function() {}",
       "export function default() {}",
@@ -4571,6 +4552,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "const arr = [1, 2, 3];\nconst [x, , z] = arr;\nconsole.log(z);",
     "o": [
       "3",
@@ -4581,7 +4563,6 @@
   },
   {
     "q": "Which of the following correctly uses template literals for multiline strings?",
-    "c": null,
     "o": [
       "`Line 1\nLine 2`",
       "'Line 1\nLine 2'",
@@ -4591,6 +4572,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "const obj = { a: 1, b: 2 };\nconst { a: x, b: y } = obj;\nconsole.log(x);",
     "o": [
       "1",
@@ -4601,7 +4583,6 @@
   },
   {
     "q": "Which of the following is a valid use of the rest operator in function parameters?",
-    "c": null,
     "o": [
       "function logNames(...names) { console.log(names); }",
       "function logNames(names...) { console.log(names); }",
@@ -4611,6 +4592,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "let a = 1;\nlet b = 2;\n[a, b] = [b, a];\nconsole.log(a);",
     "o": [
       "2",
@@ -4621,7 +4603,6 @@
   },
   {
     "q": "Which of the following correctly imports a default export from a module?",
-    "c": null,
     "o": [
       "import myModule from './myModule';",
       "import { myModule } from './myModule';",
@@ -4631,6 +4612,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "const str = 'Hello';\nconsole.log(...str);",
     "o": [
       "H e l l o",
@@ -4641,7 +4623,6 @@
   },
   {
     "q": "Which of the following is true about `let` and `const`?",
-    "c": null,
     "o": [
       "`const` variables cannot be reassigned after declaration",
       "`let` variables are hoisted and initialized with `undefined`",
@@ -4651,6 +4632,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "const nums = [1, 2, 3];\nconst max = Math.max(...nums);\nconsole.log(max);",
     "o": [
       "3",
@@ -4661,7 +4643,6 @@
   },
   {
     "q": "Which of the following is the correct way to dynamically include a module in ES6?",
-    "c": null,
     "o": [
       "import('./module.js').then(module => {});",
       "require('./module.js').then(module => {});",
@@ -4671,6 +4652,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "const name = 'Bob';\nconst age = 25;\nconsole.log(`${name} is ${age > 18 ? 'adult' : 'minor'}`);",
     "o": [
       "Bob is adult",
@@ -4681,7 +4663,6 @@
   },
   {
     "q": "Which of the following correctly exports a default and named export together?",
-    "c": null,
     "o": [
       "export const foo = 'bar';\nexport default function() {};",
       "export default const foo = 'bar';",
@@ -4691,6 +4672,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "const func = (x, y, ...z) => console.log(z.length);\nfunc(1, 2, 3, 4, 5);",
     "o": [
       "3",
@@ -4701,7 +4683,6 @@
   },
   {
     "q": "Which of the following demonstrates proper use of tagged template literals?",
-    "c": null,
     "o": [
       "function tag(strings, ...values) { return strings.raw[0]; }",
       "function tag(...strings, values) { return strings[0]; }",
@@ -4711,6 +4692,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "const obj = { a: 1 };\nObject.freeze(obj);\nobj.a = 2;\nconsole.log(obj.a);",
     "o": [
       "1",
@@ -4721,7 +4703,6 @@
   },
   {
     "q": "Which of the following correctly imports all named exports as an object?",
-    "c": null,
     "o": [
       "import * as utils from './utils.js';",
       "import { all } from './utils.js';",
@@ -4731,6 +4712,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "const map = new Map([['a', 1]]);\nconsole.log([...map][0][1]);",
     "o": [
       "1",
@@ -4741,7 +4723,6 @@
   },
   {
     "q": "Which of the following is true about const declarations?",
-    "c": null,
     "o": [
       "They must be initialized during declaration",
       "They can be redeclared in the same scope",
@@ -4751,6 +4732,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "const asyncFunc = async () => {\n  return await Promise.resolve('Done');\n};\nasyncFunc().then(console.log);",
     "o": [
       "'Done'",
@@ -4761,7 +4743,6 @@
   },
   {
     "q": "Which of the following correctly re-exports all named exports from another module?",
-    "c": null,
     "o": [
       "export * from './other-module.js';",
       "import * from './other-module.js';",
@@ -4771,6 +4752,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "const set = new Set([1, 2, 2, 3]);\nconsole.log([...set].length);",
     "o": [
       "3",
@@ -4781,7 +4763,6 @@
   },
   {
     "q": "Which of the following demonstrates proper use of dynamic imports?",
-    "c": null,
     "o": [
       "const module = await import('./module.js');",
       "const module = import await './module.js';",
@@ -4791,6 +4772,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "const { a = 10, b = 5 } = { a: 1 };\nconsole.log(a + b);",
     "o": [
       "6",
@@ -4801,7 +4783,6 @@
   },
   {
     "q": "Which of the following is true about ES6 modules?",
-    "c": null,
     "o": [
       "They are always in strict mode",
       "They support circular dependencies natively",
@@ -4811,6 +4792,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "const arr = [1, 2];\nconst result = [...arr, ...[3, 4]];\nconsole.log(result[3]);",
     "o": [
       "4",
@@ -4821,7 +4803,6 @@
   },
   {
     "q": "Which of the following correctly exports a function with a renamed alias?",
-    "c": null,
     "o": [
       "export { originalFunc as newName };",
       "export originalFunc as newName;",
@@ -4831,6 +4812,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "const str = `2 + 2 = ${2 + 2}`;\nconsole.log(str);",
     "o": [
       "2 + 2 = 4",
@@ -4841,6 +4823,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "const { a: x = 10, b: y = 20 } = { a: 1 };\nconsole.log(x + y);",
     "o": [
       "21",
@@ -4851,7 +4834,6 @@
   },
   {
     "q": "Which of the following demonstrates proper use of the spread operator with objects?",
-    "c": null,
     "o": [
       "const merged = { ...obj1, ...obj2 };",
       "const merged = [...obj1, ...obj2];",
@@ -4861,6 +4843,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "const nums = [1, 2, 3];\nconst double = n => n * 2;\nconsole.log(nums.map(double).join('|'));",
     "o": [
       "2|4|6",
@@ -4871,7 +4854,6 @@
   },
   {
     "q": "Which of the following is true about ES6 module imports?",
-    "c": null,
     "o": [
       "They are hoisted to the top of the file",
       "They execute only when called",
@@ -4881,6 +4863,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "const greet = (name = 'User') => `Hello ${name}`;\nconsole.log(greet(null));",
     "o": [
       "Hello null",
@@ -4891,7 +4874,6 @@
   },
   {
     "q": "Which of the following correctly exports multiple named exports?",
-    "c": null,
     "o": [
       "export const foo = 1;\nexport const bar = 2;",
       "export [foo, bar] = [1, 2];",
@@ -4901,6 +4883,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "const str = 'hello';\nconsole.log([...str].reverse().join(''));",
     "o": [
       "olleh",
@@ -4911,7 +4894,6 @@
   },
   {
     "q": "Which of the following is a valid use of const?",
-    "c": null,
     "o": [
       "const PI = 3.14;",
       "const user;\nuser = { name: 'John' };",
@@ -4921,6 +4903,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "const arr = [1, 2, 3];\nconst [first, ...rest] = arr;\nconsole.log(rest.length);",
     "o": [
       "2",
@@ -4931,7 +4914,6 @@
   },
   {
     "q": "Which of the following demonstrates proper module tree-shaking?",
-    "c": null,
     "o": [
       "import { specificFunction } from './utils';",
       "import * as utils from './utils';",
@@ -4941,6 +4923,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "const obj = { x: 1, y: 2 };\nconst { x: newX } = obj;\nconsole.log(newX);",
     "o": [
       "1",
@@ -4951,7 +4934,6 @@
   },
   {
     "q": "Which of the following template literals escapes backticks properly?",
-    "c": null,
     "o": [
       "`This \\`is\\` escaped`",
       "`This `is` escaped`",
@@ -4961,6 +4943,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "const add = (a, b = 1) => a + b;\nconsole.log(add(5, undefined));",
     "o": [
       "6",
@@ -4971,7 +4954,6 @@
   },
   {
     "q": "Which of the following correctly imports a default export with a named export?",
-    "c": null,
     "o": [
       "import defaultExport, { namedExport } from './module';",
       "import { default as defaultExport, namedExport } from './module';",
@@ -4981,6 +4963,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "const calc = (x, y, z = x + y) => z;\nconsole.log(calc(1, 2));",
     "o": [
       "3",
@@ -4991,6 +4974,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "const obj = { a: 1, b: 2 };\nconst { a, ...rest } = obj;\nconsole.log(rest);",
     "o": [
       "{ b: 2 }",
@@ -5001,7 +4985,6 @@
   },
   {
     "q": "Which of the following demonstrates proper use of dynamic import() with async/await?",
-    "c": null,
     "o": [
       "const module = await import('./module.js');",
       "const module = import('./module.js').await();",
@@ -5011,6 +4994,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "const arr = [...'hello'].map((c, i) => `${i}:${c}`);\nconsole.log(arr[2]);",
     "o": [
       "2:l",
@@ -5021,7 +5005,6 @@
   },
   {
     "q": "Which of the following is true about const declarations in block scope?",
-    "c": null,
     "o": [
       "They create a temporal dead zone until declaration",
       "They are hoisted with undefined value",
@@ -5031,6 +5014,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "const fn = (x = 1, y = x * 2) => [x, y];\nconsole.log(fn(undefined, 3));",
     "o": [
       "[1, 3]",
@@ -5041,7 +5025,6 @@
   },
   {
     "q": "Which of the following correctly implements a module that exports both default and named exports?",
-    "c": null,
     "o": [
       "export default function() {};\nexport const helper = () => {};",
       "export default const main = () => {};\nexport helper = () => {};",
@@ -5051,6 +5034,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "const data = { a: 1, b: 2 };\nconst clone = { ...data, c: 3 };\ndata.a = 5;\nconsole.log(clone.a);",
     "o": [
       "1",
@@ -5061,7 +5045,6 @@
   },
   {
     "q": "Which of the following template literals demonstrates proper HTML escaping?",
-    "c": null,
     "o": [
       "`<div>${userInput.replace(/</g, '&lt;')}</div>`",
       "`<div>${userInput}</div>`",
@@ -5071,6 +5054,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "const [x = 1, y = x] = [];\nconsole.log(y);",
     "o": [
       "1",
@@ -5081,7 +5065,6 @@
   },
   {
     "q": "Which of the following correctly imports a default export with an alias?",
-    "c": null,
     "o": [
       "import { default as Alias } from './module';",
       "import Alias from './module' as default;",
@@ -5091,6 +5074,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "const arr = [1, 2, 3];\nconst [x, , { length }] = [arr, 9, arr];\nconsole.log(length);",
     "o": [
       "3",
@@ -5101,7 +5085,6 @@
   },
   {
     "q": "Which of the following demonstrates proper use of rest parameters in arrow functions?",
-    "c": null,
     "o": [
       "const sum = (...nums) => nums.reduce((a, b) => a + b);",
       "const sum = nums... => nums.reduce((a, b) => a + b);",
@@ -5111,6 +5094,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "const str = `Line 1\nLine 2`;\nconsole.log(str.split('\\n').length);",
     "o": [
       "2",
@@ -5121,7 +5105,6 @@
   },
   {
     "q": "Which of the following is true about ES6 module exports?",
-    "c": null,
     "o": [
       "They are live bindings to the exported values",
       "They create copies of the exported values",
@@ -5131,6 +5114,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "const obj = { a: 1 };\nconst { a, b = 2 } = obj;\nconsole.log(a + b);",
     "o": [
       "3",
@@ -5141,6 +5125,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "const { a: { b = 10 } = {} } = { a: null };\nconsole.log(b);",
     "o": [
       "TypeError",
@@ -5151,7 +5136,6 @@
   },
   {
     "q": "Which of the following demonstrates proper use of the nullish coalescing operator (??) with default parameters?",
-    "c": null,
     "o": [
       "const fn = (x = null) => x ?? 'default';",
       "const fn = (x = null) => x || 'default';",
@@ -5161,6 +5145,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "const arr = [1, 2];\nconst obj = { ...arr, length: arr.length };\nconsole.log(obj[1]);",
     "o": [
       "2",
@@ -5171,7 +5156,6 @@
   },
   {
     "q": "Which of the following correctly implements a private class field using ES2022 syntax?",
-    "c": null,
     "o": [
       "class Test { #privateField = 42; }",
       "class Test { private privateField = 42; }",
@@ -5181,6 +5165,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "const str = `\\u{1F600}`;\nconsole.log([...str].length);",
     "o": [
       "1",
@@ -5191,7 +5176,6 @@
   },
   {
     "q": "Which of the following demonstrates proper top-level await in ES modules?",
-    "c": null,
     "o": [
       "const data = await fetch(url);",
       "async function main() { await fetch(url); }",
@@ -5201,6 +5185,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "const obj = { a: 1 };\nconst { a, b = a * 2 } = obj;\nconsole.log(b);",
     "o": [
       "2",
@@ -5211,7 +5196,6 @@
   },
   {
     "q": "Which of the following correctly uses Object.groupBy() (ES2023)?",
-    "c": null,
     "o": [
       "Object.groupBy(items, ({ type }) => type);",
       "items.groupBy(({ type }) => type);",
@@ -5221,6 +5205,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "const map = new Map([['a', 1]]);\nconst { size } = map;\nconsole.log(size);",
     "o": [
       "1",
@@ -5231,7 +5216,6 @@
   },
   {
     "q": "Which of the following demonstrates proper use of Array.prototype.at()?",
-    "c": null,
     "o": [
       "['a','b','c'].at(-1);",
       "['a','b','c'].at[-1];",
@@ -5241,6 +5225,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "const regex = /(?<group>\\d+)/;\nconst { groups } = '123'.match(regex);\nconsole.log(groups.group);",
     "o": [
       "123",
@@ -5251,7 +5236,6 @@
   },
   {
     "q": "Which of the following correctly uses the Temporal API (ES2022)?",
-    "c": null,
     "o": [
       "Temporal.Now.instant();",
       "new Temporal.Instant();",
@@ -5261,6 +5245,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "const weakRef = new WeakRef({ data: 42 });\nconsole.log(weakRef.deref()?.data);",
     "o": [
       "42",
@@ -5271,7 +5256,6 @@
   },
   {
     "q": "Which of the following demonstrates proper use of Error.cause?",
-    "c": null,
     "o": [
       "throw new Error('New', { cause: originalError });",
       "throw new Error('New').cause(originalError);",
@@ -5281,6 +5265,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "const arr = [1, 2, 3];\narr.with(1, 4);\nconsole.log(arr[1]);",
     "o": [
       "2",
@@ -5291,6 +5276,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "const data = { a: 1, b: { c: 2 } };\nconst { a, b: { c: renamed } } = data;\nconsole.log(renamed);",
     "o": [
       "2",
@@ -5301,7 +5287,6 @@
   },
   {
     "q": "Which of the following demonstrates proper use of optional chaining with nullish coalescing?",
-    "c": null,
     "o": [
       "const value = obj?.prop ?? 'default';",
       "const value = obj?prop || 'default';",
@@ -5311,6 +5296,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "const arr = [1, , 3];\nconst [x = 10, y = 20, z = 30] = arr;\nconsole.log(y);",
     "o": [
       "20",
@@ -5321,7 +5307,6 @@
   },
   {
     "q": "Which of the following correctly uses import.meta in an ES module?",
-    "c": null,
     "o": [
       "const url = import.meta.url;",
       "const meta = import('meta');",
@@ -5331,6 +5316,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "const fn = (x, y = () => x) => y();\nconsole.log(fn(5));",
     "o": [
       "5",
@@ -5341,7 +5327,6 @@
   },
   {
     "q": "Which of the following demonstrates proper use of private methods in classes?",
-    "c": null,
     "o": [
       "class Test { #method() {} }",
       "class Test { private method() {} }",
@@ -5351,6 +5336,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "const regex = /(?<year>\\d{4})-(?<month>\\d{2})/;\nconst { groups } = regex.exec('2023-05');\nconsole.log(groups.month);",
     "o": [
       "05",
@@ -5361,7 +5347,6 @@
   },
   {
     "q": "Which of the following correctly uses Array.prototype.findLast()?",
-    "c": null,
     "o": [
       "[1, 2, 3].findLast(n => n > 1);",
       "[1, 2, 3].findLastIndex(n => n > 1);",
@@ -5371,6 +5356,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "const obj = { a: 1 };\nconst proxy = new Proxy(obj, {});\nproxy.a = 2;\nconsole.log(obj.a);",
     "o": [
       "2",
@@ -5381,7 +5367,6 @@
   },
   {
     "q": "Which of the following demonstrates proper use of the pipeline operator (|>)?",
-    "c": null,
     "o": [
       "const result = x |> double |> increment;",
       "const result = x -> double -> increment;",
@@ -5391,6 +5376,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "const set = new Set([1, 2, 3]);\nconst arr = Array.from(set, x => x * 2);\nconsole.log(arr);",
     "o": [
       "[2, 4, 6]",
@@ -5401,7 +5387,6 @@
   },
   {
     "q": "Which of the following correctly uses logical assignment (&&=)?",
-    "c": null,
     "o": [
       "x &&= y;",
       "x = x && y;",
@@ -5411,6 +5396,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "const weakMap = new WeakMap();\nconst obj = {};\nweakMap.set(obj, 'data');\nconsole.log(weakMap.get(obj));",
     "o": [
       "'data'",
@@ -5421,7 +5407,6 @@
   },
   {
     "q": "Which of the following demonstrates proper use of Intl.Segmenter?",
-    "c": null,
     "o": [
       "const segmenter = new Intl.Segmenter('ja');",
       "const segmenter = Intl.Segmenter('ja');",
@@ -5431,6 +5416,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "const arr = [1, 2, 3];\nconst { 1: middle } = arr;\nconsole.log(middle);",
     "o": [
       "2",
@@ -5441,6 +5427,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "const obj = { a: 1 };\nObject.defineProperty(obj, 'b', { value: 2, enumerable: false });\nconsole.log({ ...obj });",
     "o": [
       "{ a: 1 }",
@@ -5451,7 +5438,6 @@
   },
   {
     "q": "Which of the following demonstrates proper use of the Record and Tuple proposal (Stage 2)?",
-    "c": null,
     "o": [
       "const record = #{ x: 1, y: 2 };",
       "const record = { x: 1, y: 2 }#;",
@@ -5461,6 +5447,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "const arr = [1, 2, 3];\narr[Symbol.isConcatSpreadable] = false;\nconsole.log([].concat(arr));",
     "o": [
       "[[1, 2, 3]]",
@@ -5471,7 +5458,6 @@
   },
   {
     "q": "Which of the following correctly uses the new Array.prototype.toReversed() method?",
-    "c": null,
     "o": [
       "const reversed = [1, 2, 3].toReversed();",
       "const reversed = [1, 2, 3].toReversed;",
@@ -5481,6 +5467,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "const sym = Symbol('test');\nconst obj = { [sym]: 42 };\nconsole.log(obj[sym]);",
     "o": [
       "42",
@@ -5491,7 +5478,6 @@
   },
   {
     "q": "Which of the following demonstrates proper use of the Decorators proposal (Stage 3)?",
-    "c": null,
     "o": [
       "@decorator class MyClass {}",
       "@decorator() class MyClass {}",
@@ -5501,6 +5487,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "const p1 = Promise.resolve(1);\nconst p2 = Promise.resolve(2);\nPromise.all([p1, p2]).then(([x, y]) => console.log(x + y));",
     "o": [
       "3",
@@ -5511,7 +5498,6 @@
   },
   {
     "q": "Which of the following correctly uses the Temporal.PlainDate API?",
-    "c": null,
     "o": [
       "const date = Temporal.PlainDate.from('2023-05-15');",
       "const date = new Temporal.PlainDate(2023, 5, 15);",
@@ -5521,6 +5507,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "const map = new Map([['a', 1]]);\nconst clone = new Map(map);\nmap.set('a', 2);\nconsole.log(clone.get('a'));",
     "o": [
       "1",
@@ -5531,7 +5518,6 @@
   },
   {
     "q": "Which of the following demonstrates proper use of the new Error.prototype.cause property?",
-    "c": null,
     "o": [
       "throw new Error('New', { cause: originalError });",
       "throw new Error('New').cause(originalError);",
@@ -5541,6 +5527,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "const arr = [1, 2, 3];\nconst iter = arr[Symbol.iterator]();\nconsole.log(iter.next().value);",
     "o": [
       "1",
@@ -5551,7 +5538,6 @@
   },
   {
     "q": "Which of the following correctly uses the new Object.hasOwn() method?",
-    "c": null,
     "o": [
       "Object.hasOwn(obj, 'property');",
       "obj.hasOwn('property');",
@@ -5561,6 +5547,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "const weakSet = new WeakSet();\nconst obj = {};\nweakSet.add(obj);\nconsole.log(weakSet.has(obj));",
     "o": [
       "true",
@@ -5571,7 +5558,6 @@
   },
   {
     "q": "Which of the following demonstrates proper use of the new Array.prototype.toSpliced() method?",
-    "c": null,
     "o": [
       "const newArr = [1, 2, 3].toSpliced(1, 1, 4);",
       "const newArr = [1, 2, 3].toSpliced(1, 4);",
@@ -5581,6 +5567,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "const regExp = /\\p{Emoji}/u;\nconsole.log(regExp.test('😊'));",
     "o": [
       "true",
@@ -5591,6 +5578,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "const obj = { a: 1 };\nconst proxy = new Proxy(obj, {\n  get(target, prop) {\n    return prop in target ? target[prop] : 42;\n  }\n});\nconsole.log(proxy.b);",
     "o": [
       "42",
@@ -5601,7 +5589,6 @@
   },
   {
     "q": "Which of the following demonstrates proper use of private static class fields?",
-    "c": null,
     "o": [
       "class Test { static #count = 0; }",
       "class Test { private static count = 0; }",
@@ -5611,6 +5598,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "const regex = /(?<word>\\w+)!/d;\nconst result = regex.exec('Hello!');\nconsole.log(result.indices.groups.word);",
     "o": [
       "[0, 5]",
@@ -5621,7 +5609,6 @@
   },
   {
     "q": "Which of the following correctly uses the new .at() method with relative indexing?",
-    "c": null,
     "o": [
       "'JavaScript'.at(-2);",
       "'JavaScript'.at(-1);",
@@ -5631,6 +5618,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "const weakMap = new WeakMap();\n(function() {\n  const obj = {};\n  weakMap.set(obj, 'secret');\n})();\nconsole.log(weakMap.size);",
     "o": [
       "undefined",
@@ -5641,7 +5629,6 @@
   },
   {
     "q": "Which of the following demonstrates proper use of the Temporal.Instant API?",
-    "c": null,
     "o": [
       "const now = Temporal.Now.instant();",
       "const now = new Temporal.Instant();",
@@ -5651,6 +5638,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "const arr = [1, 2, 3];\nconst { [1]: middle } = arr;\nconsole.log(middle);",
     "o": [
       "2",
@@ -5661,7 +5649,6 @@
   },
   {
     "q": "Which of the following correctly uses the new Error.prototype.cause chain?",
-    "c": null,
     "o": [
       "throw new Error('Surface', { cause: new Error('Root') });",
       "throw new Error('Surface').because(new Error('Root'));",
@@ -5671,6 +5658,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "const set = new Set([1, 2, 3]);\nconst newSet = new Set(set);\nset.add(4);\nconsole.log(newSet.has(4));",
     "o": [
       "false",
@@ -5681,7 +5669,6 @@
   },
   {
     "q": "Which of the following demonstrates proper use of the Array.prototype.with() method?",
-    "c": null,
     "o": [
       "const newArr = [1, 2, 3].with(1, 4);",
       "const newArr = [1, 2, 3].with(4, 1);",
@@ -5691,6 +5678,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "const obj = { a: 1, b: 2 };\nconst { a: x, ...rest } = obj;\nconsole.log(rest.b);",
     "o": [
       "2",
@@ -5701,7 +5689,6 @@
   },
   {
     "q": "Which of the following correctly uses the new Intl.NumberFormat features for compact notation?",
-    "c": null,
     "o": [
       "new Intl.NumberFormat('en', { notation: 'compact' }).format(1000);",
       "new Intl.NumberFormat('en', { compact: true }).format(1000);",
@@ -5711,6 +5698,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "const arr = [1, 2, 3];\nconst mapped = arr.map(x => x * 2).filter(x => x > 3);\nconsole.log(mapped);",
     "o": [
       "[4, 6]",
@@ -5721,7 +5709,6 @@
   },
   {
     "q": "Which of the following demonstrates proper use of the new Object.hasOwn() method?",
-    "c": null,
     "o": [
       "Object.hasOwn(obj, 'property');",
       "obj.hasOwn('property');",
@@ -5731,6 +5718,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "const regExp = /\\p{Script=Greek}/u;\nconsole.log(regExp.test('Ω'));",
     "o": [
       "true",
@@ -5741,6 +5729,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "const obj = { a: 1, b: 2 };\nconst { a: x, ...rest } = obj;\nconsole.log(rest);",
     "o": [
       "{ b: 2 }",
@@ -5751,7 +5740,6 @@
   },
   {
     "q": "Which of the following demonstrates proper use of the nullish coalescing assignment operator (??=)?",
-    "c": null,
     "o": [
       "x ??= 42;",
       "x = x ?? 42;",
@@ -5761,6 +5749,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "const map = new Map([['a', 1]]);\nconst clone = new Map(map);\nmap.set('a', 2);\nconsole.log(clone.get('a'));",
     "o": [
       "1",
@@ -5771,7 +5760,6 @@
   },
   {
     "q": "Which of the following correctly uses the Temporal API to compare two dates?",
-    "c": null,
     "o": [
       "Temporal.PlainDate.compare(date1, date2);",
       "date1.compare(date2);",
@@ -5781,6 +5769,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "const arr = [1, 2, 3];\nconst { 1: middle } = arr;\nconsole.log(middle);",
     "o": [
       "2",
@@ -5791,7 +5780,6 @@
   },
   {
     "q": "Which of the following demonstrates proper use of private class methods?",
-    "c": null,
     "o": [
       "class Test { #method() {} }",
       "class Test { private method() {} }",
@@ -5801,6 +5789,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "const weakRef = new WeakRef({ data: 42 });\nconsole.log(weakRef.deref()?.data);",
     "o": [
       "42",
@@ -5811,7 +5800,6 @@
   },
   {
     "q": "Which of the following correctly uses the new Array.prototype.findLastIndex() method?",
-    "c": null,
     "o": [
       "[1, 2, 3].findLastIndex(n => n > 1);",
       "[1, 2, 3].findLast(n => n > 1);",
@@ -5821,6 +5809,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "const regex = /(?<word>\\w+)!/d;\nconst result = regex.exec('Hello!');\nconsole.log(result.indices.groups.word);",
     "o": [
       "[0, 5]",
@@ -5831,7 +5820,6 @@
   },
   {
     "q": "Which of the following demonstrates proper use of the Error.cause property?",
-    "c": null,
     "o": [
       "throw new Error('New', { cause: originalError });",
       "throw new Error('New').cause(originalError);",
@@ -5841,6 +5829,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "const arr = [1, 2, 3];\narr.with(1, 4);\nconsole.log(arr[1]);",
     "o": [
       "2",
@@ -5851,7 +5840,6 @@
   },
   {
     "q": "Which of the following correctly uses the Object.groupBy() method?",
-    "c": null,
     "o": [
       "Object.groupBy(items, ({ type }) => type);",
       "items.groupBy(({ type }) => type);",
@@ -5861,6 +5849,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "const set = new Set([1, 2, 3]);\nconst { size } = set;\nconsole.log(size);",
     "o": [
       "3",
@@ -5871,7 +5860,6 @@
   },
   {
     "q": "Which of the following demonstrates proper use of the Intl.Segmenter API?",
-    "c": null,
     "o": [
       "const segmenter = new Intl.Segmenter('ja');",
       "const segmenter = Intl.Segmenter('ja');",
@@ -5881,6 +5869,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "const regExp = /\\p{Script=Greek}/u;\nconsole.log(regExp.test('Ω'));",
     "o": [
       "true",
@@ -5891,6 +5880,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "const obj = { a: 1, b: 2 };\nconst { a: x, ...rest } = obj;\nconsole.log(rest);",
     "o": [
       "{ b: 2 }",
@@ -5901,7 +5891,6 @@
   },
   {
     "q": "Which of the following demonstrates proper use of the nullish coalescing assignment operator (??=)?",
-    "c": null,
     "o": [
       "x ??= 42;",
       "x = x ?? 42;",
@@ -5911,6 +5900,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "const map = new Map([['a', 1]]);\nconst clone = new Map(map);\nmap.set('a', 2);\nconsole.log(clone.get('a'));",
     "o": [
       "1",
@@ -5921,7 +5911,6 @@
   },
   {
     "q": "Which of the following correctly uses the Temporal API to compare two dates?",
-    "c": null,
     "o": [
       "Temporal.PlainDate.compare(date1, date2);",
       "date1.compare(date2);",
@@ -5931,6 +5920,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "const arr = [1, 2, 3];\nconst { 1: middle } = arr;\nconsole.log(middle);",
     "o": [
       "2",
@@ -5941,7 +5931,6 @@
   },
   {
     "q": "Which of the following demonstrates proper use of private class methods?",
-    "c": null,
     "o": [
       "class Test { #method() {} }",
       "class Test { private method() {} }",
@@ -5951,6 +5940,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "const weakRef = new WeakRef({ data: 42 });\nconsole.log(weakRef.deref()?.data);",
     "o": [
       "42",
@@ -5961,7 +5951,6 @@
   },
   {
     "q": "Which of the following correctly uses the new Array.prototype.findLastIndex() method?",
-    "c": null,
     "o": [
       "[1, 2, 3].findLastIndex(n => n > 1);",
       "[1, 2, 3].findLast(n => n > 1);",
@@ -5971,6 +5960,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "const regex = /(?<word>\\w+)!/d;\nconst result = regex.exec('Hello!');\nconsole.log(result.indices.groups.word);",
     "o": [
       "[0, 5]",
@@ -5981,7 +5971,6 @@
   },
   {
     "q": "Which of the following demonstrates proper use of the Error.cause property?",
-    "c": null,
     "o": [
       "throw new Error('New', { cause: originalError });",
       "throw new Error('New').cause(originalError);",
@@ -5991,6 +5980,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "const arr = [1, 2, 3];\narr.with(1, 4);\nconsole.log(arr[1]);",
     "o": [
       "2",
@@ -6001,7 +5991,6 @@
   },
   {
     "q": "Which of the following correctly uses the Object.groupBy() method?",
-    "c": null,
     "o": [
       "Object.groupBy(items, ({ type }) => type);",
       "items.groupBy(({ type }) => type);",
@@ -6011,6 +6000,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "const set = new Set([1, 2, 3]);\nconst { size } = set;\nconsole.log(size);",
     "o": [
       "3",
@@ -6021,7 +6011,6 @@
   },
   {
     "q": "Which of the following demonstrates proper use of the Intl.Segmenter API?",
-    "c": null,
     "o": [
       "const segmenter = new Intl.Segmenter('ja');",
       "const segmenter = Intl.Segmenter('ja');",
@@ -6031,6 +6020,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "const regExp = /\\p{Script=Greek}/u;\nconsole.log(regExp.test('Ω'));",
     "o": [
       "true",
@@ -6041,6 +6031,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "const obj = { a: 1, get b() { return this.a * 2 } };\nconst { a, b } = obj;\nconsole.log(b);",
     "o": [
       "2",
@@ -6051,7 +6042,6 @@
   },
   {
     "q": "Which of the following demonstrates proper use of private class fields with inheritance?",
-    "c": null,
     "o": [
       "class Parent { #field = 1 }\nclass Child extends Parent { getField() { return this.#field } }",
       "class Parent { private field = 1 }\nclass Child extends Parent { getField() { return this.field } }",
@@ -6061,6 +6051,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "const arr = [1, 2, 3];\nconst proxy = new Proxy(arr, {\n  get(target, prop) {\n    return Reflect.get(...arguments) * 2;\n  }\n});\nconsole.log(proxy[1]);",
     "o": [
       "4",
@@ -6071,7 +6062,6 @@
   },
   {
     "q": "Which of the following correctly uses the Temporal API to calculate the difference between two dates?",
-    "c": null,
     "o": [
       "date1.until(date2);",
       "Temporal.difference(date1, date2);",
@@ -6081,6 +6071,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "const regex = /(?<word>\\w+)(?<punctuation>[!?.])/d;\nconst result = regex.exec('Hello!');\nconsole.log(result.indices.groups.punctuation);",
     "o": [
       "[5, 6]",
@@ -6091,7 +6082,6 @@
   },
   {
     "q": "Which of the following demonstrates proper use of the new Array.prototype.toSpliced() method?",
-    "c": null,
     "o": [
       "const newArr = [1, 2, 3].toSpliced(1, 1, 4);",
       "const newArr = [1, 2, 3].toSpliced(1, 4);",
@@ -6101,6 +6091,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "const weakMap = new WeakMap();\n(function() {\n  const obj = {};\n  weakMap.set(obj, 'secret');\n})();\nconsole.log(weakMap.size);",
     "o": [
       "undefined",
@@ -6111,7 +6102,6 @@
   },
   {
     "q": "Which of the following correctly uses the new Intl.NumberFormat v3 features for range formatting?",
-    "c": null,
     "o": [
       "new Intl.NumberFormat('en').formatRange(1, 10);",
       "Intl.formatRange(1, 10);",
@@ -6121,6 +6111,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "const obj = { a: 1 };\nObject.defineProperty(obj, 'b', { \n  value: 2, \n  enumerable: false \n});\nconsole.log({ ...obj });",
     "o": [
       "{ a: 1 }",
@@ -6131,7 +6122,6 @@
   },
   {
     "q": "Which of the following demonstrates proper use of the Record and Tuple proposal (Stage 2)?",
-    "c": null,
     "o": [
       "const record = #{ x: 1, y: 2 };",
       "const record = { x: 1, y: 2 }#;",
@@ -6141,6 +6131,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "const arr = [1, 2, 3];\narr[Symbol.isConcatSpreadable] = false;\nconsole.log([].concat(arr));",
     "o": [
       "[[1, 2, 3]]",
@@ -6151,7 +6142,6 @@
   },
   {
     "q": "Which of the following correctly uses the Decorators proposal (Stage 3)?",
-    "c": null,
     "o": [
       "@decorator class MyClass {}",
       "@decorator() class MyClass {}",
@@ -6161,6 +6151,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "const p1 = Promise.resolve(1);\nconst p2 = Promise.resolve(2);\nPromise.all([p1, p2]).then(([x, y]) => console.log(x + y));",
     "o": [
       "3",
@@ -6171,7 +6162,6 @@
   },
   {
     "q": "Which of the following demonstrates proper use of the new Error.prototype.stackTraceLimit property?",
-    "c": null,
     "o": [
       "Error.stackTraceLimit = 10;",
       "Error.prototype.stackTraceLimit = 10;",
@@ -6181,6 +6171,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "const regExp = /\\p{Emoji_Modifier}/u;\nconsole.log(regExp.test('👍🏿'));",
     "o": [
       "true",
@@ -6191,6 +6182,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "const obj = { a: 1, b: 2 };\nconst { a: x, ...rest } = obj;\nconsole.log(rest);",
     "o": [
       "{ b: 2 }",
@@ -6201,7 +6193,6 @@
   },
   {
     "q": "Which of the following demonstrates proper use of the nullish coalescing assignment operator (??=)?",
-    "c": null,
     "o": [
       "x ??= 42;",
       "x = x ?? 42;",
@@ -6211,6 +6202,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "const map = new Map([['a', 1]]);\nconst clone = new Map(map);\nmap.set('a', 2);\nconsole.log(clone.get('a'));",
     "o": [
       "1",
@@ -6221,7 +6213,6 @@
   },
   {
     "q": "Which of the following correctly uses the Temporal API to compare two dates?",
-    "c": null,
     "o": [
       "Temporal.PlainDate.compare(date1, date2);",
       "date1.compare(date2);",
@@ -6231,6 +6222,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "const arr = [1, 2, 3];\nconst { 1: middle } = arr;\nconsole.log(middle);",
     "o": [
       "2",
@@ -6241,7 +6233,6 @@
   },
   {
     "q": "Which of the following demonstrates proper use of private class methods?",
-    "c": null,
     "o": [
       "class Test { #method() {} }",
       "class Test { private method() {} }",
@@ -6251,6 +6242,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "const weakRef = new WeakRef({ data: 42 });\nconsole.log(weakRef.deref()?.data);",
     "o": [
       "42",
@@ -6261,7 +6253,6 @@
   },
   {
     "q": "Which of the following correctly uses the new Array.prototype.findLastIndex() method?",
-    "c": null,
     "o": [
       "[1, 2, 3].findLastIndex(n => n > 1);",
       "[1, 2, 3].findLast(n => n > 1);",
@@ -6271,6 +6262,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "const regex = /(?<word>\\w+)!/d;\nconst result = regex.exec('Hello!');\nconsole.log(result.indices.groups.word);",
     "o": [
       "[0, 5]",
@@ -6281,7 +6273,6 @@
   },
   {
     "q": "Which of the following demonstrates proper use of the Error.cause property?",
-    "c": null,
     "o": [
       "throw new Error('New', { cause: originalError });",
       "throw new Error('New').cause(originalError);",
@@ -6291,6 +6282,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "const arr = [1, 2, 3];\narr.with(1, 4);\nconsole.log(arr[1]);",
     "o": [
       "2",
@@ -6301,7 +6293,6 @@
   },
   {
     "q": "Which of the following correctly uses the Object.groupBy() method?",
-    "c": null,
     "o": [
       "Object.groupBy(items, ({ type }) => type);",
       "items.groupBy(({ type }) => type);",
@@ -6311,6 +6302,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "const set = new Set([1, 2, 3]);\nconst { size } = set;\nconsole.log(size);",
     "o": [
       "3",
@@ -6321,7 +6313,6 @@
   },
   {
     "q": "Which of the following demonstrates proper use of the Intl.Segmenter API?",
-    "c": null,
     "o": [
       "const segmenter = new Intl.Segmenter('ja');",
       "const segmenter = Intl.Segmenter('ja');",
@@ -6331,6 +6322,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "const regExp = /\\p{Script=Greek}/u;\nconsole.log(regExp.test('Ω'));",
     "o": [
       "true",
@@ -6341,6 +6333,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "const obj = { a: 1, b: 2 };\nconst { a: x, ...rest } = obj;\nconsole.log(rest);",
     "o": [
       "{ b: 2 }",
@@ -6351,7 +6344,6 @@
   },
   {
     "q": "Which of the following demonstrates proper use of the nullish coalescing assignment operator (??=)?",
-    "c": null,
     "o": [
       "x ??= 42;",
       "x = x ?? 42;",
@@ -6361,6 +6353,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "const map = new Map([['a', 1]]);\nconst clone = new Map(map);\nmap.set('a', 2);\nconsole.log(clone.get('a'));",
     "o": [
       "1",
@@ -6371,7 +6364,6 @@
   },
   {
     "q": "Which of the following correctly uses the Temporal API to compare two dates?",
-    "c": null,
     "o": [
       "Temporal.PlainDate.compare(date1, date2);",
       "date1.compare(date2);",
@@ -6381,6 +6373,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "const arr = [1, 2, 3];\nconst { 1: middle } = arr;\nconsole.log(middle);",
     "o": [
       "2",
@@ -6391,7 +6384,6 @@
   },
   {
     "q": "Which of the following demonstrates proper use of private class methods?",
-    "c": null,
     "o": [
       "class Test { #method() {} }",
       "class Test { private method() {} }",
@@ -6401,6 +6393,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "const weakRef = new WeakRef({ data: 42 });\nconsole.log(weakRef.deref()?.data);",
     "o": [
       "42",
@@ -6411,7 +6404,6 @@
   },
   {
     "q": "Which of the following correctly uses the new Array.prototype.findLastIndex() method?",
-    "c": null,
     "o": [
       "[1, 2, 3].findLastIndex(n => n > 1);",
       "[1, 2, 3].findLast(n => n > 1);",
@@ -6421,6 +6413,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "const regex = /(?<word>\\w+)!/d;\nconst result = regex.exec('Hello!');\nconsole.log(result.indices.groups.word);",
     "o": [
       "[0, 5]",
@@ -6431,7 +6424,6 @@
   },
   {
     "q": "Which of the following demonstrates proper use of the Error.cause property?",
-    "c": null,
     "o": [
       "throw new Error('New', { cause: originalError });",
       "throw new Error('New').cause(originalError);",
@@ -6441,6 +6433,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "const arr = [1, 2, 3];\narr.with(1, 4);\nconsole.log(arr[1]);",
     "o": [
       "2",
@@ -6451,7 +6444,6 @@
   },
   {
     "q": "Which of the following correctly uses the Object.groupBy() method?",
-    "c": null,
     "o": [
       "Object.groupBy(items, ({ type }) => type);",
       "items.groupBy(({ type }) => type);",
@@ -6461,6 +6453,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "const set = new Set([1, 2, 3]);\nconst { size } = set;\nconsole.log(size);",
     "o": [
       "3",
@@ -6471,7 +6464,6 @@
   },
   {
     "q": "Which of the following demonstrates proper use of the Intl.Segmenter API?",
-    "c": null,
     "o": [
       "const segmenter = new Intl.Segmenter('ja');",
       "const segmenter = Intl.Segmenter('ja');",
@@ -6481,6 +6473,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "const regExp = /\\p{Script=Greek}/u;\nconsole.log(regExp.test('Ω'));",
     "o": [
       "true",
@@ -6491,6 +6484,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "const obj = { a: 1, b: 2 };\nconst { a: x, ...rest } = obj;\nconsole.log(rest);",
     "o": [
       "{ b: 2 }",
@@ -6501,7 +6495,6 @@
   },
   {
     "q": "Which of the following demonstrates proper use of the nullish coalescing assignment operator (??=)?",
-    "c": null,
     "o": [
       "x ??= 42;",
       "x = x ?? 42;",
@@ -6511,6 +6504,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "const map = new Map([['a', 1]]);\nconst clone = new Map(map);\nmap.set('a', 2);\nconsole.log(clone.get('a'));",
     "o": [
       "1",
@@ -6521,7 +6515,6 @@
   },
   {
     "q": "Which of the following correctly uses the Temporal API to compare two dates?",
-    "c": null,
     "o": [
       "Temporal.PlainDate.compare(date1, date2);",
       "date1.compare(date2);",
@@ -6531,6 +6524,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "const arr = [1, 2, 3];\nconst { 1: middle } = arr;\nconsole.log(middle);",
     "o": [
       "2",
@@ -6541,7 +6535,6 @@
   },
   {
     "q": "Which of the following demonstrates proper use of private class methods?",
-    "c": null,
     "o": [
       "class Test { #method() {} }",
       "class Test { private method() {} }",
@@ -6551,6 +6544,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "const weakRef = new WeakRef({ data: 42 });\nconsole.log(weakRef.deref()?.data);",
     "o": [
       "42",
@@ -6561,7 +6555,6 @@
   },
   {
     "q": "Which of the following correctly uses the new Array.prototype.findLastIndex() method?",
-    "c": null,
     "o": [
       "[1, 2, 3].findLastIndex(n => n > 1);",
       "[1, 2, 3].findLast(n => n > 1);",
@@ -6571,6 +6564,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "const regex = /(?<word>\\w+)!/d;\nconst result = regex.exec('Hello!');\nconsole.log(result.indices.groups.word);",
     "o": [
       "[0, 5]",
@@ -6581,7 +6575,6 @@
   },
   {
     "q": "Which of the following demonstrates proper use of the Error.cause property?",
-    "c": null,
     "o": [
       "throw new Error('New', { cause: originalError });",
       "throw new Error('New').cause(originalError);",
@@ -6591,6 +6584,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "const arr = [1, 2, 3];\narr.with(1, 4);\nconsole.log(arr[1]);",
     "o": [
       "2",
@@ -6601,7 +6595,6 @@
   },
   {
     "q": "Which of the following correctly uses the Object.groupBy() method?",
-    "c": null,
     "o": [
       "Object.groupBy(items, ({ type }) => type);",
       "items.groupBy(({ type }) => type);",
@@ -6611,6 +6604,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "const set = new Set([1, 2, 3]);\nconst { size } = set;\nconsole.log(size);",
     "o": [
       "3",
@@ -6621,7 +6615,6 @@
   },
   {
     "q": "Which of the following demonstrates proper use of the Intl.Segmenter API?",
-    "c": null,
     "o": [
       "const segmenter = new Intl.Segmenter('ja');",
       "const segmenter = Intl.Segmenter('ja');",
@@ -6631,6 +6624,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "const regExp = /\\p{Script=Greek}/u;\nconsole.log(regExp.test('Ω'));",
     "o": [
       "true",

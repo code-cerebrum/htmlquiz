@@ -1,6 +1,7 @@
 [
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "let x = 10;\nif (x > 5) {\n    console.log('Greater');\n} else {\n    console.log('Smaller');\n}",
     "o": [
       "Greater",
@@ -11,7 +12,6 @@
   },
   {
     "q": "Which of the following is the correct syntax for an if-else statement in JavaScript?",
-    "c": null,
     "o": [
       "if (condition) { /* code */ } else { /* code */ }",
       "if condition { /* code */ } else { /* code */ }",
@@ -21,6 +21,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "let day = 3;\nswitch(day) {\n    case 1: console.log('Monday'); break;\n    case 2: console.log('Tuesday'); break;\n    case 3: console.log('Wednesday'); break;\n    default: console.log('Invalid day');\n}",
     "o": [
       "Wednesday",
@@ -31,7 +32,6 @@
   },
   {
     "q": "Which statement is used to terminate a case in a switch structure?",
-    "c": null,
     "o": [
       "break",
       "continue",
@@ -41,6 +41,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "for (let i = 0; i < 3; i++) {\n    console.log(i);\n}",
     "o": [
       "0 1 2",
@@ -51,7 +52,6 @@
   },
   {
     "q": "Which loop is guaranteed to execute at least once?",
-    "c": null,
     "o": [
       "do-while",
       "while",
@@ -61,6 +61,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "let i = 5;\nwhile (i > 0) {\n    console.log(i);\n    i--;\n}",
     "o": [
       "5 4 3 2 1",
@@ -71,7 +72,6 @@
   },
   {
     "q": "Which of the following is NOT a valid loop structure in JavaScript?",
-    "c": null,
     "o": [
       "loop-until",
       "for",
@@ -81,6 +81,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "let num = 15;\nif (num % 3 === 0 && num % 5 === 0) {\n    console.log('FizzBuzz');\n} else if (num % 3 === 0) {\n    console.log('Fizz');\n} else if (num % 5 === 0) {\n    console.log('Buzz');\n}",
     "o": [
       "FizzBuzz",
@@ -91,7 +92,6 @@
   },
   {
     "q": "Which of the following is the correct syntax for a for loop in JavaScript?",
-    "c": null,
     "o": [
       "for (let i = 0; i < 10; i++) { /* code */ }",
       "for (i = 0; i < 10; i++) { /* code */ }",
@@ -101,6 +101,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "let age = 18;\nif (age >= 18) {\n    console.log('Adult');\n} else {\n    console.log('Minor');\n}",
     "o": [
       "Adult",
@@ -111,7 +112,6 @@
   },
   {
     "q": "Which of the following is the correct syntax for a nested if-else statement in JavaScript?",
-    "c": null,
     "o": [
       "if (condition1) { if (condition2) { /* code */ } }",
       "if (condition1) then { if (condition2) { /* code */ } }",
@@ -121,6 +121,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "let fruit = 'apple';\nswitch (fruit) {\n    case 'banana': console.log('Yellow'); break;\n    case 'apple': console.log('Red'); break;\n    default: console.log('Unknown');\n}",
     "o": [
       "Red",
@@ -131,7 +132,6 @@
   },
   {
     "q": "Which keyword is used to specify a default case in a switch statement?",
-    "c": null,
     "o": [
       "default",
       "else",
@@ -141,6 +141,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "for (let i = 1; i <= 5; i += 2) {\n    console.log(i);\n}",
     "o": [
       "1 3 5",
@@ -151,7 +152,6 @@
   },
   {
     "q": "Which loop structure is best suited when the number of iterations is unknown?",
-    "c": null,
     "o": [
       "while",
       "for",
@@ -161,6 +161,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "let i = 0;\ndo {\n    console.log(i);\n    i++;\n} while (i < 3);",
     "o": [
       "0 1 2",
@@ -171,7 +172,6 @@
   },
   {
     "q": "Which of the following is NOT a valid loop control statement in JavaScript?",
-    "c": null,
     "o": [
       "stop",
       "break",
@@ -181,6 +181,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "let x = 5;\nif (x > 10) {\n    console.log('A');\n} else if (x > 3) {\n    console.log('B');\n} else {\n    console.log('C');\n}",
     "o": [
       "B",
@@ -191,7 +192,6 @@
   },
   {
     "q": "Which loop is used to iterate over the properties of an object in JavaScript?",
-    "c": null,
     "o": [
       "for...in",
       "for",
@@ -201,6 +201,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "let temperature = 25;\nif (temperature > 30) {\n    console.log('Hot');\n} else if (temperature > 20) {\n    console.log('Warm');\n} else {\n    console.log('Cold');\n}",
     "o": [
       "Warm",
@@ -211,7 +212,6 @@
   },
   {
     "q": "Which operator is commonly used in if-else conditions to test multiple conditions?",
-    "c": null,
     "o": [
       "&& (logical AND)",
       "|| (logical OR)",
@@ -221,6 +221,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "let grade = 'B';\nswitch (grade) {\n    case 'A': console.log('Excellent'); break;\n    case 'B': console.log('Good'); break;\n    case 'C': console.log('Average'); break;\n    default: console.log('Unknown');\n}",
     "o": [
       "Good",
@@ -231,7 +232,6 @@
   },
   {
     "q": "What happens if you omit the 'break' statement in a switch case?",
-    "c": null,
     "o": [
       "Execution falls through to the next case",
       "The switch statement throws an error",
@@ -241,6 +241,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "for (let i = 10; i > 0; i -= 2) {\n    console.log(i);\n}",
     "o": [
       "10 8 6 4 2",
@@ -251,7 +252,6 @@
   },
   {
     "q": "Which loop is most appropriate when you need to execute code at least once?",
-    "c": null,
     "o": [
       "do-while",
       "for",
@@ -261,6 +261,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "let count = 0;\nwhile (count < 3) {\n    console.log(count);\n    count++;\n}",
     "o": [
       "0 1 2",
@@ -271,7 +272,6 @@
   },
   {
     "q": "Which of the following is NOT a valid way to write an infinite loop in JavaScript?",
-    "c": null,
     "o": [
       "for (let i = 0; i < 10; )",
       "while (true)",
@@ -281,6 +281,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "let num = 7;\nif (num % 2 === 0) {\n    console.log('Even');\n} else {\n    console.log('Odd');\n}",
     "o": [
       "Odd",
@@ -291,7 +292,6 @@
   },
   {
     "q": "Which loop is specifically designed for iterating over arrays in JavaScript?",
-    "c": null,
     "o": [
       "for...of",
       "for...in",
@@ -301,6 +301,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "let x = 5, y = 10;\nif (x > y) {\n    console.log('x is greater');\n} else {\n    console.log('y is greater');\n}",
     "o": [
       "y is greater",
@@ -311,7 +312,6 @@
   },
   {
     "q": "Which statement immediately exits a loop in JavaScript?",
-    "c": null,
     "o": [
       "break",
       "continue",
@@ -321,6 +321,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "let loggedIn = true;\nlet message = loggedIn ? 'Welcome' : 'Please login';\nconsole.log(message);",
     "o": [
       "Welcome",
@@ -331,7 +332,6 @@
   },
   {
     "q": "Which of these is the correct syntax for a ternary operator in JavaScript?",
-    "c": null,
     "o": [
       "condition ? expr1 : expr2",
       "condition : expr1 ? expr2",
@@ -341,6 +341,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "let num = 2;\nswitch(num * 2) {\n  case 3: console.log('Three'); break;\n  case 4: console.log('Four'); break;\n  case 5: console.log('Five'); break;\n  default: console.log('Unknown');\n}",
     "o": [
       "Four",
@@ -351,7 +352,6 @@
   },
   {
     "q": "In a switch statement, what happens if no case matches and there's no default case?",
-    "c": null,
     "o": [
       "The switch statement exits silently",
       "It throws an error",
@@ -361,6 +361,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "for (let i = 0; i < 5; i++) {\n  if (i === 3) continue;\n  console.log(i);\n}",
     "o": [
       "0 1 2 4",
@@ -371,7 +372,6 @@
   },
   {
     "q": "Which loop structure would be most appropriate for iterating through an array backwards?",
-    "c": null,
     "o": [
       "for (let i = arr.length-1; i >= 0; i--)",
       "for (let item of arr.reverse())",
@@ -381,6 +381,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "let x = 0;\nwhile (x < 3) {\n  x++;\n  if (x === 2) break;\n  console.log(x);\n}",
     "o": [
       "1",
@@ -391,7 +392,6 @@
   },
   {
     "q": "What is the purpose of the 'continue' statement in loops?",
-    "c": null,
     "o": [
       "Skips the current iteration and moves to the next",
       "Exits the loop entirely",
@@ -401,6 +401,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "let a = 5, b = 10;\nif (a > b || b > a) {\n  console.log('Condition met');\n} else {\n  console.log('Condition not met');\n}",
     "o": [
       "Condition met",
@@ -411,7 +412,6 @@
   },
   {
     "q": "Which of these is NOT a valid way to write an if statement in JavaScript?",
-    "c": null,
     "o": [
       "if condition { }",
       "if (condition) { }",
@@ -421,6 +421,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "let i = 1;\ndo {\n  console.log(i);\n  i++;\n} while (i <= 1);",
     "o": [
       "1",
@@ -431,7 +432,6 @@
   },
   {
     "q": "Which statement about switch cases is NOT true in JavaScript?",
-    "c": null,
     "o": [
       "Case values must be numbers",
       "Case values can be strings",
@@ -441,6 +441,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "let score = 75;\nif (score >= 90) console.log('A');\nelse if (score >= 80) console.log('B');\nelse if (score >= 70) console.log('C');\nelse console.log('D');",
     "o": [
       "C",
@@ -451,7 +452,6 @@
   },
   {
     "q": "Which of these is the correct way to write a multi-condition if statement checking if x is between 5 and 10?",
-    "c": null,
     "o": [
       "if (x > 5 && x < 10)",
       "if (5 < x < 10)",
@@ -461,6 +461,7 @@
   },
   {
     "q": "What is the output of the following switch statement?",
+    "l": "javascript",
     "c": "let day = 'Tuesday';\nswitch (day) {\n  case 'Monday':\n  case 'Tuesday':\n  case 'Wednesday': console.log('Weekday'); break;\n  case 'Saturday': console.log('Weekend'); break;\n  default: console.log('Unknown');\n}",
     "o": [
       "Weekday",
@@ -471,7 +472,6 @@
   },
   {
     "q": "What is the purpose of the 'default' case in a switch statement?",
-    "c": null,
     "o": [
       "Executes when no other cases match",
       "Must be included in every switch statement",
@@ -481,6 +481,7 @@
   },
   {
     "q": "What is the output of the following for loop?",
+    "l": "javascript",
     "c": "let output = '';\nfor (let i = 0; i < 4; i++) {\n  if (i % 2 === 0) continue;\n  output += i;\n}\nconsole.log(output);",
     "o": [
       "13",
@@ -491,7 +492,6 @@
   },
   {
     "q": "Which loop would be most appropriate for processing user input until they enter 'quit'?",
-    "c": null,
     "o": [
       "while (input !== 'quit')",
       "for (let i = 0; i < input.length; i++)",
@@ -501,6 +501,7 @@
   },
   {
     "q": "What is the output of the following while loop?",
+    "l": "javascript",
     "c": "let x = 3;\nwhile (x > 0) {\n  x--;\n  if (x === 1) break;\n  console.log(x);\n}",
     "o": [
       "2",
@@ -511,7 +512,6 @@
   },
   {
     "q": "What is the key difference between while and do-while loops?",
-    "c": null,
     "o": [
       "do-while always executes at least once",
       "while loops can't use break statements",
@@ -521,6 +521,7 @@
   },
   {
     "q": "What is the output of the following nested if statement?",
+    "l": "javascript",
     "c": "let a = 5, b = 10;\nif (a > 2) {\n  if (b < 15) console.log('Condition met');\n  else console.log('Condition not met');\n}",
     "o": [
       "Condition met",
@@ -531,7 +532,6 @@
   },
   {
     "q": "Which of these is NOT a valid loop control statement?",
-    "c": null,
     "o": [
       "skip",
       "break",
@@ -541,6 +541,7 @@
   },
   {
     "q": "What is the output of the following code with a labeled loop?",
+    "l": "javascript",
     "c": "outer: for (let i = 0; i < 3; i++) {\n  inner: for (let j = 0; j < 3; j++) {\n    if (i === 1 && j === 1) break outer;\n    console.log(i, j);\n  }\n}",
     "o": [
       "0 0, 0 1, 0 2, 1 0",
@@ -551,7 +552,6 @@
   },
   {
     "q": "Which statement about switch cases is true regarding strict comparison?",
-    "c": null,
     "o": [
       "Uses === for case matching",
       "Uses == for case matching",
@@ -561,6 +561,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "let x = 0;\nwhile (x++ < 3) {\n  if (x === 2) continue;\n  console.log(x);\n}",
     "o": [
       "1 3",
@@ -571,7 +572,6 @@
   },
   {
     "q": "Which of these correctly implements an if-else statement checking if a number is positive, negative, or zero?",
-    "c": null,
     "o": [
       "if (num > 0) { /* positive */ } else if (num < 0) { /* negative */ } else { /* zero */ }",
       "if (num > 0) { /* positive */ } else (num < 0) { /* negative */ } else { /* zero */ }",
@@ -581,6 +581,7 @@
   },
   {
     "q": "What is the output of the following switch statement?",
+    "l": "javascript",
     "c": "let fruit = 'Banana';\nswitch (fruit.toLowerCase()) {\n  case 'apple': console.log('Red'); break;\n  case 'banana': console.log('Yellow'); break;\n  default: console.log('Unknown');\n}",
     "o": [
       "Yellow",
@@ -591,7 +592,6 @@
   },
   {
     "q": "What is the purpose of the 'break' statement in loops?",
-    "c": null,
     "o": [
       "Immediately terminates the loop",
       "Skips to the next iteration",
@@ -601,6 +601,7 @@
   },
   {
     "q": "What is the output of the following for loop with a conditional?",
+    "l": "javascript",
     "c": "let result = '';\nfor (let i = 1; i <= 5; i++) {\n  if (i % 2 === 0) result += i;\n}\nconsole.log(result);",
     "o": [
       "24",
@@ -611,7 +612,6 @@
   },
   {
     "q": "Which loop would be most efficient for iterating through array elements when you need the index?",
-    "c": null,
     "o": [
       "for (let i = 0; i < arr.length; i++)",
       "for (let item of arr)",
@@ -621,6 +621,7 @@
   },
   {
     "q": "What is the output of the following do-while loop?",
+    "l": "javascript",
     "c": "let i = 5;\ndo {\n  console.log(i);\n  i -= 2;\n} while (i > 0);",
     "o": [
       "5 3 1",
@@ -631,7 +632,6 @@
   },
   {
     "q": "Which of these is NOT a valid conditional structure in JavaScript?",
-    "c": null,
     "o": [
       "unless (condition) { }",
       "if (condition) { }",
@@ -641,6 +641,7 @@
   },
   {
     "q": "What is the output of the following nested loop?",
+    "l": "javascript",
     "c": "let output = '';\nfor (let i = 1; i < 3; i++) {\n  for (let j = 1; j < 3; j++) {\n    output += i + j;\n  }\n}\nconsole.log(output);",
     "o": [
       "2324",
@@ -651,7 +652,6 @@
   },
   {
     "q": "Which statement about switch cases is true regarding fall-through behavior?",
-    "c": null,
     "o": [
       "Execution continues to next case without break",
       "It automatically breaks after each case",
@@ -661,6 +661,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "let count = 0;\nwhile (count < 5) {\n  if (count === 3) {\n    count += 2;\n    continue;\n  }\n  console.log(count);\n  count++;\n}",
     "o": [
       "0 1 2 4",
@@ -671,7 +672,6 @@
   },
   {
     "q": "Which of these is the correct way to write an if statement that executes only when x is either 5 or 10?",
-    "c": null,
     "o": [
       "if (x === 5 || x === 10)",
       "if (x == 5 || 10)",
@@ -681,6 +681,7 @@
   },
   {
     "q": "What is the output of the following switch statement with multiple cases?",
+    "l": "javascript",
     "c": "let color = 'red';\nswitch (color) {\n  case 'red':\n  case 'blue': console.log('Primary'); break;\n  case 'green': console.log('Secondary');\n  default: console.log('Unknown');\n}",
     "o": [
       "Primary",
@@ -691,7 +692,6 @@
   },
   {
     "q": "What is the key difference between for...in and for...of loops?",
-    "c": null,
     "o": [
       "for...in iterates over properties, for...of iterates over values",
       "for...in is faster than for...of",
@@ -701,6 +701,7 @@
   },
   {
     "q": "What is the output of the following loop with a nested conditional?",
+    "l": "javascript",
     "c": "let str = '';\nfor (let i = 0; i < 6; i += 2) {\n  if (i % 3 === 0) {\n    str += 'A';\n  } else {\n    str += 'B';\n  }\n}\nconsole.log(str);",
     "o": [
       "BAB",
@@ -711,7 +712,6 @@
   },
   {
     "q": "Which loop structure would be best for repeatedly asking for user input until it's valid?",
-    "c": null,
     "o": [
       "do...while",
       "for",
@@ -721,6 +721,7 @@
   },
   {
     "q": "What is the output of the following code with a labeled break?",
+    "l": "javascript",
     "c": "outerLoop: for (let i = 1; i <= 2; i++) {\n  innerLoop: for (let j = 1; j <= 3; j++) {\n    if (i === 2 && j === 2) break outerLoop;\n    console.log(i, j);\n  }\n}",
     "o": [
       "1 1, 1 2, 1 3, 2 1",
@@ -731,7 +732,6 @@
   },
   {
     "q": "Which of these is NOT a valid use of a switch statement?",
-    "c": null,
     "o": [
       "switch (x > 5) { case true: /* code */ }",
       "switch (x) { case 1: /* code */ }",
@@ -741,6 +741,7 @@
   },
   {
     "q": "What is the output of the following complex conditional?",
+    "l": "javascript",
     "c": "let a = 5, b = 3;\nif (!(a > b && b < 4) || a === 5) {\n  console.log('First');\n} else {\n  console.log('Second');\n}",
     "o": [
       "First",
@@ -751,7 +752,6 @@
   },
   {
     "q": "Which statement about loop optimizations is true?",
-    "c": null,
     "o": [
       "Cache array length when looping through arrays",
       "while loops are always faster than for loops",
@@ -761,6 +761,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "let x = 10;\nwhile (x > 0) {\n  x -= 3;\n  if (x % 2 === 0) continue;\n  console.log(x);\n}",
     "o": [
       "7 1",
@@ -771,7 +772,6 @@
   },
   {
     "q": "Which of these correctly implements a check for leap year conditions?",
-    "c": null,
     "o": [
       "if ((year % 4 === 0 && year % 100 !== 0) || year % 400 === 0)",
       "if (year % 4 === 0 || year % 100 !== 0 && year % 400 === 0)",
@@ -781,6 +781,7 @@
   },
   {
     "q": "What is the output of the following switch statement with expression cases?",
+    "l": "javascript",
     "c": "let num = 15;\nswitch (true) {\n  case num < 10: console.log('Small'); break;\n  case num < 20: console.log('Medium'); break;\n  case num < 30: console.log('Large'); break;\n  default: console.log('X-Large');\n}",
     "o": [
       "Medium",
@@ -791,7 +792,6 @@
   },
   {
     "q": "What is the key advantage of using a for loop over while when iterating arrays?",
-    "c": null,
     "o": [
       "Built-in counter variable and length control",
       "Better performance with large arrays",
@@ -801,6 +801,7 @@
   },
   {
     "q": "What is the output of the following nested loop structure?",
+    "l": "javascript",
     "c": "let result = '';\nfor (let i = 0; i < 2; i++) {\n  for (let j = 0; j < 3; j++) {\n    if (j === 1) break;\n    result += `${i}${j}`;\n  }\n}",
     "o": [
       "000110",
@@ -811,7 +812,6 @@
   },
   {
     "q": "Which loop variation would be most efficient for processing a linked list?",
-    "c": null,
     "o": [
       "while (node) { node = node.next; }",
       "for (let i = 0; i < list.length; i++)",
@@ -821,6 +821,7 @@
   },
   {
     "q": "What is the output of the following code with complex conditions?",
+    "l": "javascript",
     "c": "let a = 5, b = 3;\nif (a > b ? b < a : a > 0) {\n  console.log('First');\n} else {\n  console.log('Second');\n}",
     "o": [
       "First",
@@ -831,7 +832,6 @@
   },
   {
     "q": "Which of these is NOT a valid case expression in a switch statement?",
-    "c": null,
     "o": [
       "case x > 5:",
       "case 5:",
@@ -841,6 +841,7 @@
   },
   {
     "q": "What is the output of the following do-while loop with a conditional break?",
+    "l": "javascript",
     "c": "let i = 10;\ndo {\n  i -= 3;\n  if (i < 5) break;\n  console.log(i);\n} while (i > 0);",
     "o": [
       "7",
@@ -851,7 +852,6 @@
   },
   {
     "q": "Which statement about loop performance is true for modern JavaScript engines?",
-    "c": null,
     "o": [
       "Pre-allocating array sizes can improve performance",
       "while loops are always slower than for loops",
@@ -861,6 +861,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "let counter = 0;\nfor (let i = 1; i <= 3; i++) {\n  for (let j = 1; j <= i; j++) {\n    counter++;\n  }\n}\nconsole.log(counter);",
     "o": [
       "6",
@@ -871,7 +872,6 @@
   },
   {
     "q": "Which of these correctly implements a FizzBuzz condition for numbers divisible by both 3 and 5?",
-    "c": null,
     "o": [
       "if (num % 3 === 0 && num % 5 === 0)",
       "if (num % 3 === 0 || num % 5 === 0)",
@@ -881,6 +881,7 @@
   },
   {
     "q": "What is the output of the following switch statement with fall-through behavior?",
+    "l": "javascript",
     "c": "let value = 2;\nswitch (value) {\n  case 1: console.log('One');\n  case 2: console.log('Two');\n  case 3: console.log('Three'); break;\n  default: console.log('Default');\n}",
     "o": [
       "Two\nThree",
@@ -891,7 +892,6 @@
   },
   {
     "q": "What is the key advantage of using a while loop instead of a for loop?",
-    "c": null,
     "o": [
       "Better for conditions where iteration count is unknown",
       "Faster execution speed",
@@ -901,6 +901,7 @@
   },
   {
     "q": "What is the output of the following loop with a complex condition?",
+    "l": "javascript",
     "c": "let output = '';\nfor (let i = 5; i > 0 && i % 2 !== 0; i -= 2) {\n  output += i;\n}\nconsole.log(output);",
     "o": [
       "53",
@@ -911,7 +912,6 @@
   },
   {
     "q": "Which of these is the correct way to write an infinite loop in JavaScript?",
-    "c": null,
     "o": [
       "while (true) { }",
       "for ( ; ; ) { }",
@@ -921,6 +921,7 @@
   },
   {
     "q": "What is the output of the following code with nested conditionals?",
+    "l": "javascript",
     "c": "let x = 10, y = 5;\nif (x > 5) {\n  if (y > 10) {\n    console.log('A');\n  } else if (y > 2) {\n    console.log('B');\n  }\n} else {\n  console.log('C');\n}",
     "o": [
       "B",
@@ -931,7 +932,6 @@
   },
   {
     "q": "Which statement about the do-while loop is NOT true?",
-    "c": null,
     "o": [
       "It always executes exactly once",
       "The condition is checked after the first iteration",
@@ -941,6 +941,7 @@
   },
   {
     "q": "What is the output of the following code with a labeled continue?",
+    "l": "javascript",
     "c": "outer: for (let i = 0; i < 3; i++) {\n  inner: for (let j = 0; j < 3; j++) {\n    if (i === 1 && j === 1) continue outer;\n    console.log(i, j);\n  }\n}",
     "o": [
       "0 0, 0 1, 0 2, 1 0, 2 0, 2 1, 2 2",
@@ -951,7 +952,6 @@
   },
   {
     "q": "Which of these is a valid use of a switch statement with multiple conditions?",
-    "c": null,
     "o": [
       "switch (true) { case (x > 0 && y > 0): /* code */ }",
       "switch (x && y) { case 1: /* code */ }",
@@ -961,6 +961,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "let x = 0;\ndo {\n  x++;\n  if (x % 2 === 0) continue;\n  console.log(x);\n} while (x < 5);",
     "o": [
       "1 3 5",
@@ -971,7 +972,6 @@
   },
   {
     "q": "Which of these correctly checks if a number is between 10 and 20 (exclusive)?",
-    "c": null,
     "o": [
       "if (num > 10 && num < 20)",
       "if (10 < num < 20)",
@@ -981,6 +981,7 @@
   },
   {
     "q": "What is the output of the following switch statement with multiple cases?",
+    "l": "javascript",
     "c": "let fruit = 'apple';\nswitch (fruit) {\n  case 'banana':\n  case 'apple': console.log('Common fruit'); break;\n  case 'dragonfruit': console.log('Exotic fruit');\n  default: console.log('Unknown');\n}",
     "o": [
       "Common fruit",
@@ -991,7 +992,6 @@
   },
   {
     "q": "What is the key difference between break and continue in loops?",
-    "c": null,
     "o": [
       "break exits the loop, continue skips to next iteration",
       "continue exits the loop, break skips to next iteration",
@@ -1001,6 +1001,7 @@
   },
   {
     "q": "What is the output of the following nested for loop?",
+    "l": "javascript",
     "c": "let result = '';\nfor (let i = 1; i <= 2; i++) {\n  for (let j = 1; j <= i; j++) {\n    result += `${i}${j} `;\n  }\n}\nconsole.log(result);",
     "o": [
       "11 21 22 ",
@@ -1011,7 +1012,6 @@
   },
   {
     "q": "Which loop would be most appropriate for processing each character in a string?",
-    "c": null,
     "o": [
       "for (let i = 0; i < str.length; i++)",
       "while (str.length > 0)",
@@ -1021,6 +1021,7 @@
   },
   {
     "q": "What is the output of the following code with complex conditions?",
+    "l": "javascript",
     "c": "let a = 5, b = 3;\nif (a > b && !(b > a || a === 0)) {\n  console.log('First');\n} else {\n  console.log('Second');\n}",
     "o": [
       "First",
@@ -1031,7 +1032,6 @@
   },
   {
     "q": "Which of these is NOT a valid case in a switch statement?",
-    "c": null,
     "o": [
       "case x > 5:",
       "case 5:",
@@ -1041,6 +1041,7 @@
   },
   {
     "q": "What is the output of the following while loop with a conditional break?",
+    "l": "javascript",
     "c": "let i = 5;\nwhile (i > 0) {\n  i--;\n  if (i === 2) break;\n  console.log(i);\n}",
     "o": [
       "4 3",
@@ -1051,7 +1052,6 @@
   },
   {
     "q": "Which statement about loop optimization is true?",
-    "c": null,
     "o": [
       "Reducing loop nesting can improve performance",
       "while loops are always faster than for loops",
@@ -1061,6 +1061,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "let x = 5;\nwhile (x--) {\n  if (x % 2 === 0) continue;\n  console.log(x);\n}",
     "o": [
       "3 1",
@@ -1071,7 +1072,6 @@
   },
   {
     "q": "Which of these correctly implements a check for a prime number?",
-    "c": null,
     "o": [
       "if (num > 1 && [...Array(num).keys()].slice(2).every(i => num % i !== 0))",
       "if (num % 2 !== 0 || num === 2)",
@@ -1081,6 +1081,7 @@
   },
   {
     "q": "What is the output of the following switch statement with expression cases?",
+    "l": "javascript",
     "c": "let age = 25;\nswitch (true) {\n  case age < 13: console.log('Child'); break;\n  case age < 20: console.log('Teen'); break;\n  case age < 65: console.log('Adult'); break;\n  default: console.log('Senior');\n}",
     "o": [
       "Adult",
@@ -1091,7 +1092,6 @@
   },
   {
     "q": "What is the key advantage of using a for...of loop over a traditional for loop?",
-    "c": null,
     "o": [
       "Simpler syntax for iterating through iterables",
       "Better performance with arrays",
@@ -1101,6 +1101,7 @@
   },
   {
     "q": "What is the output of the following nested loop structure?",
+    "l": "javascript",
     "c": "let output = '';\nfor (let i = 1; i <= 3; i++) {\n  for (let j = 1; j <= i; j++) {\n    if (j === 2) continue;\n    output += `${i}${j}`;\n  }\n}",
     "o": [
       "11 21 31 33",
@@ -1111,7 +1112,6 @@
   },
   {
     "q": "Which loop variation would be most appropriate for processing a binary tree?",
-    "c": null,
     "o": [
       "while (currentNode) { /* traverse */ }",
       "for (let i = 0; i < tree.length; i++)",
@@ -1121,6 +1121,7 @@
   },
   {
     "q": "What is the output of the following code with complex ternary operations?",
+    "l": "javascript",
     "c": "let a = 7, b = 4;\nconsole.log(a > b ? b > 5 ? 'A' : 'B' : a < 3 ? 'C' : 'D');",
     "o": [
       "B",
@@ -1131,7 +1132,6 @@
   },
   {
     "q": "Which of these is NOT a valid use of a switch statement?",
-    "c": null,
     "o": [
       "switch (x) { case x > 5: /* code */ }",
       "switch (typeof x) { case 'number': /* code */ }",
@@ -1141,6 +1141,7 @@
   },
   {
     "q": "What is the output of the following while loop with multiple conditions?",
+    "l": "javascript",
     "c": "let x = 10, y = 5;\nwhile (x > 0 && y > 0) {\n  x -= 2;\n  y--;\n  console.log(x, y);\n}",
     "o": [
       "8 4\n6 3\n4 2\n2 1\n0 0",
@@ -1151,7 +1152,6 @@
   },
   {
     "q": "Which statement about loop performance in modern JavaScript engines is true?",
-    "c": null,
     "o": [
       "Pre-allocating arrays can significantly improve performance",
       "for loops are always faster than while loops",
@@ -1161,6 +1161,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "let count = 0;\nfor (let i = 0; i < 5; i++) {\n  if (i % 2 === 0) {\n    continue;\n  }\n  count += i;\n}\nconsole.log(count);",
     "o": [
       "4",
@@ -1171,7 +1172,6 @@
   },
   {
     "q": "Which of these correctly implements a check for a palindrome number?",
-    "c": null,
     "o": [
       "if (num.toString() === num.toString().split('').reverse().join(''))",
       "if (num === reverse(num))",
@@ -1181,6 +1181,7 @@
   },
   {
     "q": "What is the output of the following switch statement with fall-through cases?",
+    "l": "javascript",
     "c": "let grade = 'B';\nswitch (grade) {\n  case 'A': console.log('Excellent');\n  case 'B': console.log('Good');\n  case 'C': console.log('Average'); break;\n  default: console.log('Unknown');\n}",
     "o": [
       "Good\nAverage",
@@ -1191,7 +1192,6 @@
   },
   {
     "q": "What is the key advantage of using a for loop over while when processing arrays?",
-    "c": null,
     "o": [
       "Built-in counter and length handling",
       "Better performance with large arrays",
@@ -1201,6 +1201,7 @@
   },
   {
     "q": "What is the output of the following nested loop structure?",
+    "l": "javascript",
     "c": "let result = '';\nfor (let i = 1; i <= 3; i++) {\n  for (let j = 1; j <= i; j++) {\n    if (j === 2) break;\n    result += `${i}${j}`;\n  }\n}",
     "o": [
       "11 21 31",
@@ -1211,7 +1212,6 @@
   },
   {
     "q": "Which loop would be most appropriate for processing a queue until empty?",
-    "c": null,
     "o": [
       "while (queue.length > 0)",
       "for (let i = 0; i < queue.length; i++)",
@@ -1221,6 +1221,7 @@
   },
   {
     "q": "What is the output of the following code with complex conditions?",
+    "l": "javascript",
     "c": "let a = 5, b = 3;\nif (a > b && (b < a || a === 0)) {\n  console.log('First');\n} else {\n  console.log('Second');\n}",
     "o": [
       "First",
@@ -1231,7 +1232,6 @@
   },
   {
     "q": "Which of these is NOT a valid case in a switch statement?",
-    "c": null,
     "o": [
       "case x > 5:",
       "case 5:",
@@ -1241,6 +1241,7 @@
   },
   {
     "q": "What is the output of the following do-while loop?",
+    "l": "javascript",
     "c": "let i = 3;\ndo {\n  i--;\n  if (i === 1) break;\n  console.log(i);\n} while (i > 0);",
     "o": [
       "2",
@@ -1251,7 +1252,6 @@
   },
   {
     "q": "Which statement about loop optimization is true?",
-    "c": null,
     "o": [
       "Caching array length can improve performance",
       "while loops are always faster than for",
@@ -1261,6 +1261,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "let x = 0;\nwhile (x < 5) {\n  x++;\n  if (x === 3) {\n    continue;\n  }\n  console.log(x);\n}",
     "o": [
       "1 2 4 5",
@@ -1271,7 +1272,6 @@
   },
   {
     "q": "Which of these correctly implements a check for a perfect square number?",
-    "c": null,
     "o": [
       "if (Math.sqrt(num) % 1 === 0)",
       "if (num % Math.sqrt(num) === 0)",
@@ -1281,6 +1281,7 @@
   },
   {
     "q": "What is the output of the following switch statement with multiple matches?",
+    "l": "javascript",
     "c": "let value = 10;\nswitch (value) {\n  case 5: console.log('Five');\n  case 10: console.log('Ten');\n  case 15: console.log('Fifteen'); break;\n  default: console.log('Unknown');\n}",
     "o": [
       "Ten\nFifteen",
@@ -1291,7 +1292,6 @@
   },
   {
     "q": "What is the key advantage of using a for...in loop for object iteration?",
-    "c": null,
     "o": [
       "Simpler syntax for enumerating object properties",
       "Better performance than Object.keys()",
@@ -1301,6 +1301,7 @@
   },
   {
     "q": "What is the output of the following nested loop structure?",
+    "l": "javascript",
     "c": "let output = '';\nfor (let i = 0; i < 3; i++) {\n  for (let j = 0; j < 2; j++) {\n    if (i === j) continue;\n    output += `${i}${j}`;\n  }\n}",
     "o": [
       "01 10 12 20 21",
@@ -1311,7 +1312,6 @@
   },
   {
     "q": "Which loop would be most appropriate for processing a stack until empty?",
-    "c": null,
     "o": [
       "while (stack.length > 0)",
       "for (let i = 0; i < stack.length; i++)",
@@ -1321,6 +1321,7 @@
   },
   {
     "q": "What is the output of the following code with complex logical operators?",
+    "l": "javascript",
     "c": "let a = 7, b = 4;\nif (a > 5 || b < 3 && a % 2 === 0) {\n  console.log('First');\n} else {\n  console.log('Second');\n}",
     "o": [
       "First",
@@ -1331,7 +1332,6 @@
   },
   {
     "q": "Which of these is NOT a valid use of a switch statement?",
-    "c": null,
     "o": [
       "switch (x) { case x > 5: /* code */ }",
       "switch (typeof x) { case 'string': /* code */ }",
@@ -1341,6 +1341,7 @@
   },
   {
     "q": "What is the output of the following do-while loop with a conditional?",
+    "l": "javascript",
     "c": "let i = 4;\ndo {\n  i--;\n  if (i === 2) continue;\n  console.log(i);\n} while (i > 0);",
     "o": [
       "3 1 0",
@@ -1351,7 +1352,6 @@
   },
   {
     "q": "Which statement about loop performance is true for modern JavaScript engines?",
-    "c": null,
     "o": [
       "Reducing function calls in loops can improve performance",
       "while loops are always slower than for loops",
@@ -1361,6 +1361,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "for (let i = 0; i < 5; i += 2) {\n  if (i === 2) break;\n  console.log(i);\n}",
     "o": [
       "0",
@@ -1371,7 +1372,6 @@
   },
   {
     "q": "Which of these correctly implements a check for an even number that's greater than 10?",
-    "c": null,
     "o": [
       "if (num > 10 && num % 2 === 0)",
       "if (num % 2 === 0 && > 10)",
@@ -1381,6 +1381,7 @@
   },
   {
     "q": "What is the output of the following switch statement with multiple case matches?",
+    "l": "javascript",
     "c": "let color = 'red';\nswitch (color) {\n  case 'red':\n  case 'blue': console.log('Primary');\n  case 'green': console.log('Color'); break;\n  default: console.log('Unknown');\n}",
     "o": [
       "Primary\nColor",
@@ -1391,7 +1392,6 @@
   },
   {
     "q": "What is the key advantage of using a while loop over a for loop?",
-    "c": null,
     "o": [
       "More readable when termination condition is complex",
       "Faster execution speed",
@@ -1401,6 +1401,7 @@
   },
   {
     "q": "What is the output of the following nested loop structure?",
+    "l": "javascript",
     "c": "let result = '';\nfor (let i = 1; i < 4; i++) {\n  for (let j = 1; j <= i; j++) {\n    if (i === j) continue;\n    result += j;\n  }\n}",
     "o": [
       "12123",
@@ -1411,7 +1412,6 @@
   },
   {
     "q": "Which loop would be most appropriate for processing a graph node's neighbors?",
-    "c": null,
     "o": [
       "for (let neighbor of node.neighbors)",
       "for (let i = 0; i < node.neighbors; i++)",
@@ -1421,6 +1421,7 @@
   },
   {
     "q": "What is the output of the following code with complex ternary operations?",
+    "l": "javascript",
     "c": "let x = 5, y = 3;\nconsole.log(x > y ? y > 2 ? 'A' : 'B' : x < 1 ? 'C' : 'D');",
     "o": [
       "A",
@@ -1431,7 +1432,6 @@
   },
   {
     "q": "Which of these is NOT a valid case in a switch statement?",
-    "c": null,
     "o": [
       "case x + y:",
       "case 1:",
@@ -1441,6 +1441,7 @@
   },
   {
     "q": "What is the output of the following do-while loop with a conditional break?",
+    "l": "javascript",
     "c": "let i = 5;\ndo {\n  i -= 2;\n  if (i < 0) break;\n  console.log(i);\n} while (i > 0);",
     "o": [
       "3 1",
@@ -1451,7 +1452,6 @@
   },
   {
     "q": "Which statement about loop performance optimization is true?",
-    "c": null,
     "o": [
       "Minimizing work inside loops improves performance",
       "while loops are always slower than for loops",
@@ -1461,6 +1461,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "let x = 1;\nwhile (x < 5) {\n  x++;\n  if (x === 3) continue;\n  console.log(x);\n}",
     "o": [
       "2 4 5",
@@ -1471,7 +1472,6 @@
   },
   {
     "q": "Which of these correctly checks if a number is a multiple of 3 or 5 but not both?",
-    "c": null,
     "o": [
       "if ((num % 3 === 0 || num % 5 === 0) && !(num % 3 === 0 && num % 5 === 0))",
       "if (num % 3 === 0 ^ num % 5 === 0)",
@@ -1481,6 +1481,7 @@
   },
   {
     "q": "What is the output of the following switch statement with expression cases?",
+    "l": "javascript",
     "c": "let score = 85;\nswitch (true) {\n  case score >= 90: console.log('A'); break;\n  case score >= 80: console.log('B');\n  case score >= 70: console.log('C'); break;\n  default: console.log('D');\n}",
     "o": [
       "B\nC",
@@ -1491,7 +1492,6 @@
   },
   {
     "q": "What is the key advantage of using a for...of loop with arrays?",
-    "c": null,
     "o": [
       "Simpler syntax for direct element access",
       "Faster performance than traditional for loops",
@@ -1501,6 +1501,7 @@
   },
   {
     "q": "What is the output of the following nested loop structure?",
+    "l": "javascript",
     "c": "let output = '';\nfor (let i = 0; i < 3; i++) {\n  for (let j = 0; j < 2; j++) {\n    if (i === j) break;\n    output += `${i}${j}`;\n  }\n}",
     "o": [
       "10 20 21",
@@ -1511,7 +1512,6 @@
   },
   {
     "q": "Which loop would be most appropriate for processing a matrix row by row?",
-    "c": null,
     "o": [
       "for (let i = 0; i < matrix.length; i++)",
       "for (let row of matrix)",
@@ -1521,6 +1521,7 @@
   },
   {
     "q": "What is the output of the following code with complex logical operators?",
+    "l": "javascript",
     "c": "let a = 6, b = 4;\nif (a > 5 && b < 5 || a % 2 === 0) {\n  console.log('First');\n} else {\n  console.log('Second');\n}",
     "o": [
       "First",
@@ -1531,7 +1532,6 @@
   },
   {
     "q": "Which of these is NOT a valid case label in a switch statement?",
-    "c": null,
     "o": [
       "case a && b:",
       "case 1:",
@@ -1541,6 +1541,7 @@
   },
   {
     "q": "What is the output of the following do-while loop with a conditional?",
+    "l": "javascript",
     "c": "let i = 3;\ndo {\n  console.log(i);\n  i--;\n} while (i > 0 && i % 2 === 1);",
     "o": [
       "3\n2",
@@ -1551,7 +1552,6 @@
   },
   {
     "q": "Which statement about loop optimization is true?",
-    "c": null,
     "o": [
       "Reducing scope chain lookups improves performance",
       "while loops are always slower than for loops",
@@ -1561,6 +1561,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "let x = 0;\ndo {\n  x += 2;\n  if (x === 4) continue;\n  console.log(x);\n} while (x < 6);",
     "o": [
       "2 6",
@@ -1571,7 +1572,6 @@
   },
   {
     "q": "Which of these correctly checks if a year is a leap year?",
-    "c": null,
     "o": [
       "if ((year % 4 === 0 && year % 100 !== 0) || year % 400 === 0)",
       "if (year % 4 === 0 || year % 100 === 0 && year % 400 === 0)",
@@ -1581,6 +1581,7 @@
   },
   {
     "q": "What is the output of the following switch statement with multiple case matches?",
+    "l": "javascript",
     "c": "let fruit = 'apple';\nswitch (fruit) {\n  case 'banana':\n  case 'apple': console.log('Common');\n  case 'kiwi': console.log('Fruit'); break;\n  default: console.log('Unknown');\n}",
     "o": [
       "Common\nFruit",
@@ -1591,7 +1592,6 @@
   },
   {
     "q": "What is the key advantage of using a for loop over while when processing arrays?",
-    "c": null,
     "o": [
       "Built-in counter and length control",
       "Better performance with large arrays",
@@ -1601,6 +1601,7 @@
   },
   {
     "q": "What is the output of the following nested loop structure?",
+    "l": "javascript",
     "c": "let result = '';\nfor (let i = 1; i <= 3; i++) {\n  for (let j = 1; j <= i; j++) {\n    if (j === 2) continue;\n    result += `${i}${j}`;\n  }\n}",
     "o": [
       "11 21 31 33",
@@ -1611,7 +1612,6 @@
   },
   {
     "q": "Which loop would be most appropriate for processing a queue until empty?",
-    "c": null,
     "o": [
       "while (queue.length > 0)",
       "for (let i = 0; i < queue.length; i++)",
@@ -1621,6 +1621,7 @@
   },
   {
     "q": "What is the output of the following code with complex conditions?",
+    "l": "javascript",
     "c": "let a = 5, b = 3;\nif (a > b ? b < a : a > 0) {\n  console.log('First');\n} else {\n  console.log('Second');\n}",
     "o": [
       "First",
@@ -1631,7 +1632,6 @@
   },
   {
     "q": "Which of these is NOT a valid case in a switch statement?",
-    "c": null,
     "o": [
       "case x > 5:",
       "case 5:",
@@ -1641,6 +1641,7 @@
   },
   {
     "q": "What is the output of the following do-while loop with a conditional break?",
+    "l": "javascript",
     "c": "let i = 10;\ndo {\n  i -= 3;\n  if (i < 5) break;\n  console.log(i);\n} while (i > 0);",
     "o": [
       "7",
@@ -1651,7 +1652,6 @@
   },
   {
     "q": "Which statement about loop performance is true for modern JavaScript engines?",
-    "c": null,
     "o": [
       "Pre-allocating array sizes can improve performance",
       "while loops are always slower than for loops",
@@ -1661,6 +1661,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "for (let i = 1; i <= 5; i++) {\n  if (i % 3 === 0) continue;\n  console.log(i);\n}",
     "o": [
       "1 2 4 5",
@@ -1671,7 +1672,6 @@
   },
   {
     "q": "Which of these correctly implements a check for a positive even number less than 100?",
-    "c": null,
     "o": [
       "if (num > 0 && num < 100 && num % 2 === 0)",
       "if (num % 2 === 0 && num > 0 && num < 100)",
@@ -1681,6 +1681,7 @@
   },
   {
     "q": "What is the output of the following switch statement with fall-through?",
+    "l": "javascript",
     "c": "let day = 3;\nswitch (day) {\n  case 1: console.log('Mon');\n  case 2: console.log('Tue');\n  case 3: console.log('Wed');\n  default: console.log('Weekday');\n}",
     "o": [
       "Wed\nWeekday",
@@ -1691,7 +1692,6 @@
   },
   {
     "q": "What is the key difference between while and do-while loops?",
-    "c": null,
     "o": [
       "do-while executes at least once",
       "while loops are always faster",
@@ -1701,6 +1701,7 @@
   },
   {
     "q": "What is the output of the following nested loop structure?",
+    "l": "javascript",
     "c": "let output = '';\nfor (let i = 1; i <= 2; i++) {\n  for (let j = 1; j <= i; j++) {\n    output += `${i}${j}`;\n  }\n}",
     "o": [
       "11212",
@@ -1711,7 +1712,6 @@
   },
   {
     "q": "Which loop would be most appropriate for validating user input until correct?",
-    "c": null,
     "o": [
       "do-while",
       "for",
@@ -1721,6 +1721,7 @@
   },
   {
     "q": "What is the output of the following code with logical operators?",
+    "l": "javascript",
     "c": "let a = 5, b = 3;\nif (a > b && !(b > a || a === 0)) {\n  console.log('First');\n} else {\n  console.log('Second');\n}",
     "o": [
       "First",
@@ -1731,7 +1732,6 @@
   },
   {
     "q": "Which of these is NOT a valid case in a switch statement?",
-    "c": null,
     "o": [
       "case x > 5:",
       "case 5:",
@@ -1741,6 +1741,7 @@
   },
   {
     "q": "What is the output of the following while loop with break?",
+    "l": "javascript",
     "c": "let i = 5;\nwhile (i > 0) {\n  i--;\n  if (i === 2) break;\n  console.log(i);\n}",
     "o": [
       "4 3",
@@ -1751,7 +1752,6 @@
   },
   {
     "q": "Which statement about loop performance is true?",
-    "c": null,
     "o": [
       "Caching array length improves performance",
       "while loops are always slower than for",
@@ -1761,6 +1761,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "let i = 0;\nwhile (i < 4) {\n  i++;\n  if (i % 2 === 0) {\n    continue;\n  }\n  console.log(i);\n}",
     "o": [
       "1 3",
@@ -1771,7 +1772,6 @@
   },
   {
     "q": "Which of these correctly checks if a number is between 5 and 10 (inclusive)?",
-    "c": null,
     "o": [
       "if (num >= 5 && num <= 10)",
       "if (5 <= num <= 10)",
@@ -1781,6 +1781,7 @@
   },
   {
     "q": "What is the output of the following switch statement with multiple cases?",
+    "l": "javascript",
     "c": "let day = 'Tuesday';\nswitch (day) {\n  case 'Monday':\n  case 'Tuesday': console.log('Weekday');\n  case 'Saturday': console.log('Weekend'); break;\n  default: console.log('Unknown');\n}",
     "o": [
       "Weekday\nWeekend",
@@ -1791,7 +1792,6 @@
   },
   {
     "q": "What is the key advantage of using a for loop instead of while when processing arrays?",
-    "c": null,
     "o": [
       "Built-in counter and termination condition",
       "Better performance with large arrays",
@@ -1801,6 +1801,7 @@
   },
   {
     "q": "What is the output of the following nested loop structure?",
+    "l": "javascript",
     "c": "let result = '';\nfor (let i = 0; i < 2; i++) {\n  for (let j = 0; j < 3; j++) {\n    if (j === 1) continue;\n    result += `${i}${j}`;\n  }\n}",
     "o": [
       "000210",
@@ -1811,7 +1812,6 @@
   },
   {
     "q": "Which loop would be most appropriate for processing a linked list?",
-    "c": null,
     "o": [
       "while (node) { node = node.next; }",
       "for (let i = 0; i < list.length; i++)",
@@ -1821,6 +1821,7 @@
   },
   {
     "q": "What is the output of the following code with complex conditions?",
+    "l": "javascript",
     "c": "let a = 4, b = 2;\nif (a > b && (b < a || a === 0)) {\n  console.log('First');\n} else {\n  console.log('Second');\n}",
     "o": [
       "First",
@@ -1831,7 +1832,6 @@
   },
   {
     "q": "Which of these is NOT a valid case in a switch statement?",
-    "c": null,
     "o": [
       "case a > b:",
       "case 1:",
@@ -1841,6 +1841,7 @@
   },
   {
     "q": "What is the output of the following do-while loop?",
+    "l": "javascript",
     "c": "let i = 3;\ndo {\n  console.log(i);\n  i--;\n} while (i > 0 && i % 2 === 1);",
     "o": [
       "3\n2",
@@ -1851,7 +1852,6 @@
   },
   {
     "q": "Which statement about loop optimization is true?",
-    "c": null,
     "o": [
       "Minimizing work inside loops improves performance",
       "while loops are always slower than for loops",
@@ -1861,6 +1861,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "for (let i = 1; i <= 5; i++) {\n  if (i === 3) {\n    break;\n  }\n  console.log(i);\n}",
     "o": [
       "1 2",
@@ -1871,7 +1872,6 @@
   },
   {
     "q": "Which of these correctly implements a check for a number that's either negative or between 10 and 20 (exclusive)?",
-    "c": null,
     "o": [
       "if (num < 0 || (num > 10 && num < 20))",
       "if (num < 0 && num > 10 && num < 20)",
@@ -1881,6 +1881,7 @@
   },
   {
     "q": "What is the output of the following switch statement with expression cases?",
+    "l": "javascript",
     "c": "let score = 75;\nswitch (true) {\n  case score >= 90: console.log('A'); break;\n  case score >= 80: console.log('B');\n  case score >= 70: console.log('C'); break;\n  default: console.log('D');\n}",
     "o": [
       "C",
@@ -1891,7 +1892,6 @@
   },
   {
     "q": "What is the key advantage of using a for...of loop with strings?",
-    "c": null,
     "o": [
       "Directly iterates over each character",
       "Faster performance than traditional for loops",
@@ -1901,6 +1901,7 @@
   },
   {
     "q": "What is the output of the following nested loop structure?",
+    "l": "javascript",
     "c": "let output = '';\nfor (let i = 0; i < 3; i++) {\n  for (let j = 0; j < 2; j++) {\n    if (i === j) continue;\n    output += `${i}${j}`;\n  }\n}",
     "o": [
       "01 10 12 20 21",
@@ -1911,7 +1912,6 @@
   },
   {
     "q": "Which loop would be most appropriate for processing a binary tree in-order traversal?",
-    "c": null,
     "o": [
       "Recursive function with left/right calls",
       "for (let i = 0; i < tree.length; i++)",
@@ -1921,6 +1921,7 @@
   },
   {
     "q": "What is the output of the following code with complex logical operators?",
+    "l": "javascript",
     "c": "let a = 6, b = 4;\nif (a > 5 && b < 5 || a % 2 === 0) {\n  console.log('First');\n} else {\n  console.log('Second');\n}",
     "o": [
       "First",
@@ -1931,7 +1932,6 @@
   },
   {
     "q": "Which of these is NOT a valid case label in a switch statement?",
-    "c": null,
     "o": [
       "case a + b:",
       "case 1:",
@@ -1941,6 +1941,7 @@
   },
   {
     "q": "What is the output of the following do-while loop with multiple conditions?",
+    "l": "javascript",
     "c": "let i = 4;\ndo {\n  console.log(i);\n  i--;\n} while (i > 0 && i % 2 === 0);",
     "o": [
       "4\n2",
@@ -1951,7 +1952,6 @@
   },
   {
     "q": "Which statement about loop optimization is true for modern JavaScript engines?",
-    "c": null,
     "o": [
       "Reducing function calls in loops improves performance",
       "while loops are always slower than for loops",
@@ -1961,6 +1961,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "let x = 0;\nwhile (x < 5) {\n  x++;\n  if (x % 2 === 0) {\n    continue;\n  }\n  console.log(x);\n}",
     "o": [
       "1 3 5",
@@ -1971,7 +1972,6 @@
   },
   {
     "q": "Which of these correctly checks if a number is a positive multiple of 7?",
-    "c": null,
     "o": [
       "if (num > 0 && num % 7 === 0)",
       "if (num % 7 === 0 && num > 0)",
@@ -1981,6 +1981,7 @@
   },
   {
     "q": "What is the output of the following switch statement with fall-through?",
+    "l": "javascript",
     "c": "let grade = 'B';\nswitch (grade) {\n  case 'A': console.log('Excellent');\n  case 'B': console.log('Good');\n  case 'C': console.log('Average'); break;\n  default: console.log('Unknown');\n}",
     "o": [
       "Good\nAverage",
@@ -1991,7 +1992,6 @@
   },
   {
     "q": "What is the key difference between for and for...of loops?",
-    "c": null,
     "o": [
       "for...of directly iterates values without index",
       "for loops are always faster",
@@ -2001,6 +2001,7 @@
   },
   {
     "q": "What is the output of the following nested loop structure?",
+    "l": "javascript",
     "c": "let result = '';\nfor (let i = 1; i <= 2; i++) {\n  for (let j = 1; j <= i; j++) {\n    result += `${i}${j}`;\n  }\n}",
     "o": [
       "11212",
@@ -2011,7 +2012,6 @@
   },
   {
     "q": "Which loop would be most appropriate for processing a stack until empty?",
-    "c": null,
     "o": [
       "while (stack.length > 0)",
       "for (let i = 0; i < stack.length; i++)",
@@ -2021,6 +2021,7 @@
   },
   {
     "q": "What is the output of the following code with ternary operators?",
+    "l": "javascript",
     "c": "let a = 4, b = 2;\nconsole.log(a > b ? b > 1 ? 'A' : 'B' : a < 0 ? 'C' : 'D');",
     "o": [
       "A",
@@ -2031,7 +2032,6 @@
   },
   {
     "q": "Which of these is NOT a valid case in a switch statement?",
-    "c": null,
     "o": [
       "case a + b > 10:",
       "case 5:",
@@ -2041,6 +2041,7 @@
   },
   {
     "q": "What is the output of the following do-while loop with break?",
+    "l": "javascript",
     "c": "let i = 5;\ndo {\n  i -= 2;\n  if (i < 0) break;\n  console.log(i);\n} while (i > 0);",
     "o": [
       "3 1",
@@ -2051,7 +2052,6 @@
   },
   {
     "q": "Which statement about loop performance is true?",
-    "c": null,
     "o": [
       "Reducing calculations in loops improves performance",
       "while loops are always slower than for",
@@ -2061,6 +2061,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "let count = 0;\nfor (let i = 1; i <= 5; i++) {\n  if (i % 2 === 0) {\n    continue;\n  }\n  count += i;\n}\nconsole.log(count);",
     "o": [
       "9",
@@ -2071,7 +2072,6 @@
   },
   {
     "q": "Which of these correctly checks if a number is a power of 2?",
-    "c": null,
     "o": [
       "if (num > 0 && (num & (num - 1)) === 0)",
       "if (num % 2 === 0)",
@@ -2081,6 +2081,7 @@
   },
   {
     "q": "What is the output of the following switch statement with expression cases?",
+    "l": "javascript",
     "c": "let temp = 25;\nswitch (true) {\n  case temp < 0: console.log('Freezing'); break;\n  case temp < 20: console.log('Cool'); break;\n  case temp < 30: console.log('Warm');\n  default: console.log('Hot');\n}",
     "o": [
       "Warm\nHot",
@@ -2091,7 +2092,6 @@
   },
   {
     "q": "What is the key advantage of using a for...in loop for object iteration?",
-    "c": null,
     "o": [
       "Simpler syntax for enumerating properties",
       "Faster than Object.keys()",
@@ -2101,6 +2101,7 @@
   },
   {
     "q": "What is the output of the following nested loop structure?",
+    "l": "javascript",
     "c": "let output = '';\nfor (let i = 0; i < 3; i++) {\n  for (let j = 0; j < 2; j++) {\n    if (i === j) break;\n    output += `${i}${j}`;\n  }\n}",
     "o": [
       "10 20 21",
@@ -2111,7 +2112,6 @@
   },
   {
     "q": "Which loop would be most appropriate for processing a matrix diagonally?",
-    "c": null,
     "o": [
       "Nested for loops with i+j condition",
       "Single for loop",
@@ -2121,6 +2121,7 @@
   },
   {
     "q": "What is the output of the following code with complex logical operators?",
+    "l": "javascript",
     "c": "let a = 5, b = 3;\nif (a > b && (b < a || a === 0)) {\n  console.log('First');\n} else {\n  console.log('Second');\n}",
     "o": [
       "First",
@@ -2131,7 +2132,6 @@
   },
   {
     "q": "Which of these is NOT a valid case in a switch statement?",
-    "c": null,
     "o": [
       "case a > b:",
       "case 1:",
@@ -2141,6 +2141,7 @@
   },
   {
     "q": "What is the output of the following do-while loop with continue?",
+    "l": "javascript",
     "c": "let i = 3;\ndo {\n  i--;\n  if (i === 1) continue;\n  console.log(i);\n} while (i > 0);",
     "o": [
       "2 0",
@@ -2151,7 +2152,6 @@
   },
   {
     "q": "Which statement about loop optimization is true?",
-    "c": null,
     "o": [
       "Reducing scope chain lookups improves performance",
       "while loops are always slower than for",
@@ -2161,6 +2161,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "let x = 0;\ndo {\n  x += 3;\n  if (x === 6) continue;\n  console.log(x);\n} while (x < 10);",
     "o": [
       "3 9 12",
@@ -2171,7 +2172,6 @@
   },
   {
     "q": "Which of these correctly checks if a number is a Fibonacci number?",
-    "c": null,
     "o": [
       "if (isPerfectSquare(5 * num * num + 4) || isPerfectSquare(5 * num * num - 4))",
       "if (num === fib(num))",
@@ -2181,6 +2181,7 @@
   },
   {
     "q": "What is the output of the following switch statement with multiple matches?",
+    "l": "javascript",
     "c": "let browser = 'Edge';\nswitch (browser) {\n  case 'Chrome':\n  case 'Firefox':\n  case 'Edge': console.log('Modern');\n  case 'IE': console.log('Legacy'); break;\n  default: console.log('Unknown');\n}",
     "o": [
       "Modern\nLegacy",
@@ -2191,7 +2192,6 @@
   },
   {
     "q": "What is the key advantage of using a for loop over forEach with arrays?",
-    "c": null,
     "o": [
       "Ability to break/continue",
       "Better performance in all cases",
@@ -2201,6 +2201,7 @@
   },
   {
     "q": "What is the output of the following nested loop structure?",
+    "l": "javascript",
     "c": "let result = '';\nfor (let i = 0; i < 3; i++) {\n  for (let j = 0; j < 3; j++) {\n    if (i === j) continue;\n    result += `${i}${j}`;\n  }\n}",
     "o": [
       "01 02 10 12 20 21",
@@ -2211,7 +2212,6 @@
   },
   {
     "q": "Which loop would be most appropriate for processing a graph with depth-first search?",
-    "c": null,
     "o": [
       "Recursive function with stack",
       "for loop with index",
@@ -2221,6 +2221,7 @@
   },
   {
     "q": "What is the output of the following code with complex ternary operations?",
+    "l": "javascript",
     "c": "let a = 7, b = 4;\nconsole.log(a > b ? b > 5 ? 'A' : a % 2 === 0 ? 'B' : 'C' : 'D');",
     "o": [
       "C",
@@ -2231,7 +2232,6 @@
   },
   {
     "q": "Which of these is NOT a valid case in a switch statement?",
-    "c": null,
     "o": [
       "case new Date().getDay():",
       "case 1:",
@@ -2241,6 +2241,7 @@
   },
   {
     "q": "What is the output of the following while loop with multiple conditions?",
+    "l": "javascript",
     "c": "let x = 8, y = 3;\nwhile (x > 0 && y > 0) {\n  x -= 3;\n  y--;\n  console.log(x, y);\n}",
     "o": [
       "5 2\n2 1\n-1 0",
@@ -2251,7 +2252,6 @@
   },
   {
     "q": "Which statement about loop unrolling is true?",
-    "c": null,
     "o": [
       "Can improve performance by reducing iterations",
       "Always makes code faster",
@@ -2261,6 +2261,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "let i = 0;\nwhile (i < 5) {\n  i += 2;\n  if (i === 4) continue;\n  console.log(i);\n}",
     "o": [
       "2 6",
@@ -2271,7 +2272,6 @@
   },
   {
     "q": "Which of these correctly checks if a number is a triangular number?",
-    "c": null,
     "o": [
       "if (Number.isInteger((Math.sqrt(8 * num + 1) - 1) / 2))",
       "if (num % 2 === 0 && num % 3 === 0)",
@@ -2281,6 +2281,7 @@
   },
   {
     "q": "What is the output of the following switch statement with expression cases?",
+    "l": "javascript",
     "c": "let age = 25;\nswitch (true) {\n  case age < 13: console.log('Child'); break;\n  case age < 20: console.log('Teen');\n  case age < 30: console.log('Young Adult'); break;\n  default: console.log('Adult');\n}",
     "o": [
       "Young Adult",
@@ -2291,7 +2292,6 @@
   },
   {
     "q": "What is the key advantage of using a for...of loop with NodeLists?",
-    "c": null,
     "o": [
       "Direct iteration without converting to array",
       "Faster performance than querySelectorAll",
@@ -2301,6 +2301,7 @@
   },
   {
     "q": "What is the output of the following nested loop structure?",
+    "l": "javascript",
     "c": "let output = '';\nfor (let i = 1; i <= 3; i++) {\n  for (let j = 1; j <= i; j++) {\n    if (i + j === 4) break;\n    output += `${i}${j}`;\n  }\n}",
     "o": [
       "11 21 22 31",
@@ -2311,7 +2312,6 @@
   },
   {
     "q": "Which loop would be most appropriate for processing a binary heap?",
-    "c": null,
     "o": [
       "while loop with heap property check",
       "for loop with index",
@@ -2321,6 +2321,7 @@
   },
   {
     "q": "What is the output of the following code with complex logical operators?",
+    "l": "javascript",
     "c": "let a = 5, b = 3;\nif (a > b && (b < a || a === 0) && !(b === 3)) {\n  console.log('First');\n} else {\n  console.log('Second');\n}",
     "o": [
       "Second",
@@ -2331,7 +2332,6 @@
   },
   {
     "q": "Which of these is NOT a valid case in a switch statement?",
-    "c": null,
     "o": [
       "case Math.random() > 0.5:",
       "case 1:",
@@ -2341,6 +2341,7 @@
   },
   {
     "q": "What is the output of the following do-while loop with multiple conditions?",
+    "l": "javascript",
     "c": "let x = 10, y = 2;\ndo {\n  x -= y;\n  y++;\n  console.log(x);\n} while (x > 0 && y < 5);",
     "o": [
       "8 5 1",
@@ -2351,7 +2352,6 @@
   },
   {
     "q": "Which statement about tail call optimization in loops is true?",
-    "c": null,
     "o": [
       "Can prevent stack overflow in recursive loops",
       "Makes all loops faster",
@@ -2361,6 +2361,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "let x = 1;\nwhile (x < 10) {\n  x *= 2;\n  if (x === 4) continue;\n  console.log(x);\n}",
     "o": [
       "2 8 16",
@@ -2371,7 +2372,6 @@
   },
   {
     "q": "Which of these correctly checks if a number is a Harshad number?",
-    "c": null,
     "o": [
       "if (num % String(num).split('').reduce((a,b) => a + +b, 0) === 0)",
       "if (num % num.toString().length === 0)",
@@ -2381,6 +2381,7 @@
   },
   {
     "q": "What is the output of the following switch statement with multiple fall-through cases?",
+    "l": "javascript",
     "c": "let browser = 'Safari';\nswitch (browser) {\n  case 'Chrome':\n  case 'Firefox': console.log('Modern'); break;\n  case 'Safari':\n  case 'Edge': console.log('Mixed');\n  default: console.log('Other');\n}",
     "o": [
       "Mixed\nOther",
@@ -2391,7 +2392,6 @@
   },
   {
     "q": "What is the key advantage of using a for loop over Array.prototype.forEach()?",
-    "c": null,
     "o": [
       "Ability to break out of the loop early",
       "Better performance in all cases",
@@ -2401,6 +2401,7 @@
   },
   {
     "q": "What is the output of the following nested loop structure?",
+    "l": "javascript",
     "c": "let result = '';\nfor (let i = 0; i < 3; i++) {\n  for (let j = 0; j < 3; j++) {\n    if (i + j === 3) break;\n    result += `${i}${j}`;\n  }\n}",
     "o": [
       "000102101112",
@@ -2411,7 +2412,6 @@
   },
   {
     "q": "Which loop would be most appropriate for processing a trie data structure?",
-    "c": null,
     "o": [
       "Recursive function with child nodes",
       "Simple for loop",
@@ -2421,6 +2421,7 @@
   },
   {
     "q": "What is the output of the following code with nested ternary operations?",
+    "l": "javascript",
     "c": "let a = 8, b = 4;\nconsole.log(a > b ? b > 2 ? 'A' : a % 3 === 0 ? 'B' : 'C' : 'D');",
     "o": [
       "A",
@@ -2431,7 +2432,6 @@
   },
   {
     "q": "Which of these is NOT a valid case in a switch statement?",
-    "c": null,
     "o": [
       "case a && b:",
       "case 42:",
@@ -2441,6 +2441,7 @@
   },
   {
     "q": "What is the output of the following while loop with complex conditions?",
+    "l": "javascript",
     "c": "let x = 12, y = 3;\nwhile (x > 0 && y > 0) {\n  x -= y;\n  y--;\n  console.log(x);\n}",
     "o": [
       "9 5 2",
@@ -2451,7 +2452,6 @@
   },
   {
     "q": "Which statement about loop invariant code motion is true?",
-    "c": null,
     "o": [
       "It moves constant expressions outside loops",
       "It always makes loops faster",
@@ -2461,6 +2461,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "let count = 0;\nfor (let i = 1; i <= 5; i++) {\n  if (i % 3 === 0) break;\n  count += i;\n}\nconsole.log(count);",
     "o": [
       "3",
@@ -2471,7 +2472,6 @@
   },
   {
     "q": "Which of these correctly checks if a number is a factorial of some integer?",
-    "c": null,
     "o": [
       "function isFactorial(n) { let i = 1; while (n > 1) n /= ++i; return n === 1; }",
       "if (num === factorial(num))",
@@ -2481,6 +2481,7 @@
   },
   {
     "q": "What is the output of the following switch statement with expression cases?",
+    "l": "javascript",
     "c": "let temp = -5;\nswitch (true) {\n  case temp < 0: console.log('Freezing');\n  case temp < 10: console.log('Cold'); break;\n  case temp < 20: console.log('Cool');\n  default: console.log('Warm');\n}",
     "o": [
       "Freezing\nCold",
@@ -2491,7 +2492,6 @@
   },
   {
     "q": "What is the key advantage of using a for...of loop with Set objects?",
-    "c": null,
     "o": [
       "Direct iteration over unique values",
       "Faster performance than forEach",
@@ -2501,6 +2501,7 @@
   },
   {
     "q": "What is the output of the following nested loop structure?",
+    "l": "javascript",
     "c": "let output = '';\nfor (let i = 0; i < 3; i++) {\n  for (let j = 0; j < 3; j++) {\n    if (j === i) continue;\n    output += `${i}${j}`;\n  }\n}",
     "o": [
       "01 02 10 12 20 21",
@@ -2511,7 +2512,6 @@
   },
   {
     "q": "Which loop would be most appropriate for processing a circular buffer?",
-    "c": null,
     "o": [
       "while loop with modulo arithmetic",
       "for loop with index",
@@ -2521,6 +2521,7 @@
   },
   {
     "q": "What is the output of the following code with complex ternary operations?",
+    "l": "javascript",
     "c": "let a = 6, b = 3;\nconsole.log(a > b ? b > 2 ? 'A' : a % 2 === 0 ? 'B' : 'C' : 'D');",
     "o": [
       "A",
@@ -2531,7 +2532,6 @@
   },
   {
     "q": "Which of these is NOT a valid case in a switch statement?",
-    "c": null,
     "o": [
       "case a || b:",
       "case 1:",
@@ -2541,6 +2541,7 @@
   },
   {
     "q": "What is the output of the following do-while loop with multiple conditions?",
+    "l": "javascript",
     "c": "let x = 7, y = 2;\ndo {\n  x -= y;\n  y++;\n  console.log(x);\n} while (x > 0 && y < 5);",
     "o": [
       "5 2",
@@ -2551,7 +2552,6 @@
   },
   {
     "q": "Which statement about loop unrolling is true?",
-    "c": null,
     "o": [
       "Can improve performance by reducing loop overhead",
       "Always makes code faster",
@@ -2561,6 +2561,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript code snippet?",
+    "l": "javascript",
     "c": "let x = 10;\nif (x > 5) {\n    console.log(\"Greater than 5\");\n} else {\n    console.log(\"Less than or equal to 5\");\n}",
     "o": [
       "Greater than 5",
@@ -2571,7 +2572,6 @@
   },
   {
     "q": "Which of the following is the correct syntax for an if-else statement in JavaScript?",
-    "c": null,
     "o": [
       "if (condition) { /* code */ } else { /* code */ }",
       "if condition then { /* code */ } else { /* code */ }",
@@ -2581,6 +2581,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript code snippet?",
+    "l": "javascript",
     "c": "let day = 3;\nswitch (day) {\n    case 1:\n        console.log(\"Monday\");\n        break;\n    case 2:\n        console.log(\"Tuesday\");\n        break;\n    case 3:\n        console.log(\"Wednesday\");\n        break;\n    default:\n        console.log(\"Invalid day\");\n}",
     "o": [
       "Wednesday",
@@ -2591,7 +2592,6 @@
   },
   {
     "q": "Which of the following statements about the switch-case structure in JavaScript is true?",
-    "c": null,
     "o": [
       "The 'break' statement is used to prevent fall-through behavior.",
       "The 'switch' statement only works with numbers.",
@@ -2601,6 +2601,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript loop?",
+    "l": "javascript",
     "c": "for (let i = 0; i < 3; i++) {\n    console.log(i);\n}",
     "o": [
       "0\n1\n2",
@@ -2611,7 +2612,6 @@
   },
   {
     "q": "Which of the following is a valid JavaScript while loop?",
-    "c": null,
     "o": [
       "while (condition) { /* code */ }",
       "while condition { /* code */ }",
@@ -2621,6 +2621,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript code snippet?",
+    "l": "javascript",
     "c": "let i = 5;\ndo {\n    console.log(i);\n    i--;\n} while (i > 2);",
     "o": [
       "5\n4\n3",
@@ -2631,7 +2632,6 @@
   },
   {
     "q": "Which statement is true about do-while loops in JavaScript?",
-    "c": null,
     "o": [
       "A do-while loop executes at least once, even if the condition is false.",
       "A do-while loop does not require a semicolon.",
@@ -2641,6 +2641,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript code snippet?",
+    "l": "javascript",
     "c": "let score = 85;\nif (score >= 90) {\n    console.log(\"A\");\n} else if (score >= 80) {\n    console.log(\"B\");\n} else {\n    console.log(\"C\");\n}",
     "o": [
       "B",
@@ -2651,7 +2652,6 @@
   },
   {
     "q": "Which of the following statements about the if-else structure in JavaScript is correct?",
-    "c": null,
     "o": [
       "An if statement can exist without an else statement.",
       "An else statement must always be present.",
@@ -2661,6 +2661,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript code snippet?",
+    "l": "javascript",
     "c": "let num = 2;\nswitch (num) {\n    case 1:\n    case 2:\n        console.log(\"Small number\");\n        break;\n    case 3:\n        console.log(\"Medium number\");\n        break;\n    default:\n        console.log(\"Large number\");\n}",
     "o": [
       "Small number",
@@ -2671,7 +2672,6 @@
   },
   {
     "q": "What is the purpose of the 'default' case in a switch statement?",
-    "c": null,
     "o": [
       "It provides a fallback case if no other cases match.",
       "It is required in every switch statement.",
@@ -2681,6 +2681,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript loop?",
+    "l": "javascript",
     "c": "let count = 0;\nwhile (count < 3) {\n    console.log(count);\n    count++;\n}",
     "o": [
       "0\n1\n2",
@@ -2691,7 +2692,6 @@
   },
   {
     "q": "Which of the following statements about the for loop in JavaScript is true?",
-    "c": null,
     "o": [
       "The initialization, condition, and increment expressions are optional.",
       "A for loop must always include an increment expression.",
@@ -2701,6 +2701,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript code snippet?",
+    "l": "javascript",
     "c": "let i = 10;\ndo {\n    console.log(i);\n    i -= 2;\n} while (i > 5);",
     "o": [
       "10\n8\n6",
@@ -2711,7 +2712,6 @@
   },
   {
     "q": "Which of the following statements about loops in JavaScript is false?",
-    "c": null,
     "o": [
       "A do-while loop always runs at least once.",
       "A for loop can be used to iterate over object properties directly.",
@@ -2721,6 +2721,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript code snippet?",
+    "l": "javascript",
     "c": "let x = 5;\nif (x == \"5\") {\n    console.log(\"Equal\");\n} else {\n    console.log(\"Not Equal\");\n}",
     "o": [
       "Equal",
@@ -2731,7 +2732,6 @@
   },
   {
     "q": "Which of the following correctly describes the difference between '==' and '===' in JavaScript?",
-    "c": null,
     "o": [
       "'===' checks both value and type, while '==' only checks value.",
       "'==' checks both value and type, while '===' only checks value.",
@@ -2741,6 +2741,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript code snippet?",
+    "l": "javascript",
     "c": "let a = 3, b = 5;\nlet result = a > b ? \"A is greater\" : \"B is greater\";\nconsole.log(result);",
     "o": [
       "B is greater",
@@ -2751,7 +2752,6 @@
   },
   {
     "q": "Which of the following is a correct way to use the ternary operator in JavaScript?",
-    "c": null,
     "o": [
       "let result = (x > 10) ? \"High\" : \"Low\";",
       "let result = if (x > 10) ? \"High\" : \"Low\";",
@@ -2761,6 +2761,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript code snippet?",
+    "l": "javascript",
     "c": "let num = 7;\nswitch (num % 2) {\n    case 0:\n        console.log(\"Even\");\n        break;\n    case 1:\n        console.log(\"Odd\");\n        break;\n    default:\n        console.log(\"Unknown\");\n}",
     "o": [
       "Odd",
@@ -2771,7 +2772,6 @@
   },
   {
     "q": "Which of the following is true about switch statements in JavaScript?",
-    "c": null,
     "o": [
       "A switch statement can have multiple cases with the same code block.",
       "A switch statement must always include a default case.",
@@ -2781,6 +2781,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript code snippet?",
+    "l": "javascript",
     "c": "for (let i = 5; i > 0; i--) {\n    console.log(i);\n}",
     "o": [
       "5\n4\n3\n2\n1",
@@ -2791,7 +2792,6 @@
   },
   {
     "q": "Which of the following statements about loops in JavaScript is correct?",
-    "c": null,
     "o": [
       "A for loop can be written without any condition, but it will run indefinitely.",
       "A while loop always runs at least once.",
@@ -2801,6 +2801,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript code snippet?",
+    "l": "javascript",
     "c": "let x = 10;\nif (x) {\n    console.log(\"Truthy\");\n} else {\n    console.log(\"Falsy\");\n}",
     "o": [
       "Truthy",
@@ -2811,7 +2812,6 @@
   },
   {
     "q": "Which of the following values is considered falsy in JavaScript?",
-    "c": null,
     "o": [
       "0",
       "1",
@@ -2821,6 +2821,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript loop?",
+    "l": "javascript",
     "c": "let i = 0;\nwhile (i < 3) {\n    console.log(i);\n    i += 2;\n}",
     "o": [
       "0\n2",
@@ -2831,7 +2832,6 @@
   },
   {
     "q": "Which of the following correctly describes how a while loop works in JavaScript?",
-    "c": null,
     "o": [
       "It runs as long as the condition evaluates to true.",
       "It executes exactly once, even if the condition is false.",
@@ -2841,6 +2841,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript code snippet?",
+    "l": "javascript",
     "c": "let count = 0;\ndo {\n    console.log(\"Hello\");\n} while (count > 0);",
     "o": [
       "Hello",
@@ -2851,7 +2852,6 @@
   },
   {
     "q": "Which of the following is a valid way to exit a loop in JavaScript?",
-    "c": null,
     "o": [
       "Using the 'break' statement.",
       "Using the 'exit' statement.",
@@ -2861,6 +2861,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript code snippet?",
+    "l": "javascript",
     "c": "let x = 5;\nswitch (x) {\n    case 5:\n        console.log(\"Five\");\n    case 6:\n        console.log(\"Six\");\n        break;\n    default:\n        console.log(\"Other\");\n}",
     "o": [
       "Five\nSix",
@@ -2871,7 +2872,6 @@
   },
   {
     "q": "Which of the following statements about switch-case in JavaScript is false?",
-    "c": null,
     "o": [
       "Each case should typically end with a 'break' statement.",
       "Multiple cases can execute if 'break' is omitted.",
@@ -2881,6 +2881,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript code snippet?",
+    "l": "javascript",
     "c": "let num = 10;\nif (num % 2 === 0) {\n    console.log(\"Even\");\n} else {\n    console.log(\"Odd\");\n}",
     "o": [
       "Even",
@@ -2891,7 +2892,6 @@
   },
   {
     "q": "Which of the following statements correctly explains the execution of an if-else statement in JavaScript?",
-    "c": null,
     "o": [
       "The 'if' block executes if the condition is true, otherwise the 'else' block executes.",
       "The 'if' block always executes before the 'else' block, regardless of the condition.",
@@ -2901,6 +2901,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript switch-case snippet?",
+    "l": "javascript",
     "c": "let color = \"red\";\nswitch (color) {\n    case \"blue\":\n        console.log(\"Blue selected\");\n        break;\n    case \"red\":\n        console.log(\"Red selected\");\n    case \"green\":\n        console.log(\"Green selected\");\n        break;\n    default:\n        console.log(\"No color selected\");\n}",
     "o": [
       "Red selected\nGreen selected",
@@ -2911,7 +2912,6 @@
   },
   {
     "q": "Which of the following best describes a 'default' case in a JavaScript switch statement?",
-    "c": null,
     "o": [
       "It runs if none of the case conditions match.",
       "It must always be present in a switch statement.",
@@ -2921,6 +2921,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript for loop?",
+    "l": "javascript",
     "c": "for (let i = 2; i <= 6; i += 2) {\n    console.log(i);\n}",
     "o": [
       "2\n4\n6",
@@ -2931,7 +2932,6 @@
   },
   {
     "q": "Which of the following statements about JavaScript loops is correct?",
-    "c": null,
     "o": [
       "A for loop consists of initialization, condition, and increment/decrement.",
       "A while loop always runs a fixed number of times.",
@@ -2941,6 +2941,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript code snippet?",
+    "l": "javascript",
     "c": "let count = 3;\ndo {\n    console.log(count);\n    count--;\n} while (count > 0);",
     "o": [
       "3\n2\n1",
@@ -2951,7 +2952,6 @@
   },
   {
     "q": "Which of the following is NOT a valid way to loop through an array in JavaScript?",
-    "c": null,
     "o": [
       "for (let i = 0; i < arr.length; i++)",
       "arr.forEach(item => console.log(item))",
@@ -2961,6 +2961,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript code snippet?",
+    "l": "javascript",
     "c": "let num = 7;\nif (num > 5) {\n    if (num < 10) {\n        console.log(\"Between 5 and 10\");\n    }\n} else {\n    console.log(\"Outside range\");\n}",
     "o": [
       "Between 5 and 10",
@@ -2971,7 +2972,6 @@
   },
   {
     "q": "Which of the following statements about nested if-else statements is true in JavaScript?",
-    "c": null,
     "o": [
       "An if statement can be placed inside another if statement.",
       "An if statement cannot contain another if statement inside it.",
@@ -2981,6 +2981,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript switch-case snippet?",
+    "l": "javascript",
     "c": "let fruit = \"apple\";\nswitch (fruit) {\n    case \"banana\":\n        console.log(\"Banana\");\n        break;\n    case \"apple\":\n        console.log(\"Apple\");\n    case \"grape\":\n        console.log(\"Grape\");\n        break;\n    default:\n        console.log(\"Unknown\");\n}",
     "o": [
       "Apple\nGrape",
@@ -2991,7 +2992,6 @@
   },
   {
     "q": "Which of the following is a key difference between a for loop and a while loop in JavaScript?",
-    "c": null,
     "o": [
       "A for loop is typically used when the number of iterations is known beforehand, while a while loop is used when the number of iterations is unknown.",
       "A while loop always runs at least once, while a for loop does not.",
@@ -3001,6 +3001,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript code snippet?",
+    "l": "javascript",
     "c": "for (let i = 1; i <= 3; i++) {\n    for (let j = 1; j <= 2; j++) {\n        console.log(i, j);\n    }\n}",
     "o": [
       "1 1\n1 2\n2 1\n2 2\n3 1\n3 2",
@@ -3011,7 +3012,6 @@
   },
   {
     "q": "Which of the following loops guarantees at least one execution in JavaScript?",
-    "c": null,
     "o": [
       "do-while loop",
       "for loop",
@@ -3021,6 +3021,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript code snippet?",
+    "l": "javascript",
     "c": "let x = 10;\nwhile (x > 0) {\n    console.log(x);\n    x -= 3;\n}",
     "o": [
       "10\n7\n4\n1",
@@ -3031,7 +3032,6 @@
   },
   {
     "q": "Which of the following statements about break and continue is true?",
-    "c": null,
     "o": [
       "The 'break' statement exits the loop entirely, while 'continue' skips the current iteration and moves to the next one.",
       "The 'continue' statement exits the loop, while 'break' only pauses execution.",
@@ -3041,6 +3041,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript if-else statement?",
+    "l": "javascript",
     "c": "let score = 85;\nif (score >= 90) {\n    console.log(\"A\");\n} else if (score >= 80) {\n    console.log(\"B\");\n} else {\n    console.log(\"C\");\n}",
     "o": [
       "B",
@@ -3051,7 +3052,6 @@
   },
   {
     "q": "Which of the following best describes the execution order of a switch statement when a case matches?",
-    "c": null,
     "o": [
       "Execution starts from the matching case and continues until a break statement is encountered.",
       "Only the matching case executes, and then execution stops.",
@@ -3061,6 +3061,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript while loop?",
+    "l": "javascript",
     "c": "let i = 5;\nwhile (i > 0) {\n    console.log(i);\n    i -= 2;\n}",
     "o": [
       "5\n3\n1",
@@ -3071,7 +3072,6 @@
   },
   {
     "q": "Which of the following is true about the JavaScript do-while loop?",
-    "c": null,
     "o": [
       "It guarantees at least one execution of the loop body.",
       "It does not execute if the condition is false initially.",
@@ -3081,6 +3081,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript nested loop?",
+    "l": "javascript",
     "c": "for (let i = 1; i <= 2; i++) {\n    for (let j = 1; j <= 3; j++) {\n        console.log(i, j);\n    }\n}",
     "o": [
       "1 1\n1 2\n1 3\n2 1\n2 2\n2 3",
@@ -3091,7 +3092,6 @@
   },
   {
     "q": "Which statement about the 'break' keyword in JavaScript loops is correct?",
-    "c": null,
     "o": [
       "It exits the loop immediately and continues with the next statement after the loop.",
       "It skips only the current iteration and continues looping.",
@@ -3101,6 +3101,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript switch-case snippet?",
+    "l": "javascript",
     "c": "let day = 3;\nswitch (day) {\n    case 1:\n        console.log(\"Monday\");\n        break;\n    case 2:\n        console.log(\"Tuesday\");\n        break;\n    case 3:\n        console.log(\"Wednesday\");\n    case 4:\n        console.log(\"Thursday\");\n        break;\n    default:\n        console.log(\"Invalid day\");\n}",
     "o": [
       "Wednesday\nThursday",
@@ -3111,7 +3112,6 @@
   },
   {
     "q": "Which of the following is a valid JavaScript for loop syntax?",
-    "c": null,
     "o": [
       "for (let i = 0; i < 5; i++)",
       "for (i < 5; let i = 0; i++)",
@@ -3121,6 +3121,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript code snippet?",
+    "l": "javascript",
     "c": "let x = 3;\nif (x === \"3\") {\n    console.log(\"String\");\n} else {\n    console.log(\"Number\");\n}",
     "o": [
       "Number",
@@ -3131,7 +3132,6 @@
   },
   {
     "q": "Which of the following statements about the switch-case statement in JavaScript is correct?",
-    "c": null,
     "o": [
       "If no break statement is used, execution will continue to the next case.",
       "A switch-case statement must always have a default case.",
@@ -3141,6 +3141,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript for loop?",
+    "l": "javascript",
     "c": "for (let i = 0; i < 5; i += 2) {\n    console.log(i);\n}",
     "o": [
       "0\n2\n4",
@@ -3151,7 +3152,6 @@
   },
   {
     "q": "Which of the following is NOT a valid loop structure in JavaScript?",
-    "c": null,
     "o": [
       "repeat-until",
       "for",
@@ -3161,6 +3161,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript while loop?",
+    "l": "javascript",
     "c": "let count = 0;\nwhile (count < 3) {\n    console.log(\"Hello\");\n    count++;\n}",
     "o": [
       "Hello\nHello\nHello",
@@ -3171,7 +3172,6 @@
   },
   {
     "q": "Which of the following correctly explains the purpose of a do-while loop?",
-    "c": null,
     "o": [
       "It ensures that the loop body executes at least once before checking the condition.",
       "It is identical to a while loop, with no differences.",
@@ -3181,6 +3181,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript nested loop?",
+    "l": "javascript",
     "c": "for (let i = 0; i < 2; i++) {\n    for (let j = 0; j < 2; j++) {\n        console.log(i, j);\n    }\n}",
     "o": [
       "0 0\n0 1\n1 0\n1 1",
@@ -3191,7 +3192,6 @@
   },
   {
     "q": "Which statement about the 'continue' keyword in JavaScript is correct?",
-    "c": null,
     "o": [
       "It skips the current iteration and moves to the next iteration of the loop.",
       "It exits the loop immediately.",
@@ -3201,6 +3201,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript if-else statement?",
+    "l": "javascript",
     "c": "let num = -5;\nif (num > 0) {\n    console.log(\"Positive\");\n} else if (num < 0) {\n    console.log(\"Negative\");\n} else {\n    console.log(\"Zero\");\n}",
     "o": [
       "Negative",
@@ -3211,7 +3212,6 @@
   },
   {
     "q": "Which of the following is true about the default case in a switch statement?",
-    "c": null,
     "o": [
       "It executes if no matching case is found.",
       "It must always be the last case in the switch statement.",
@@ -3221,6 +3221,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript loop?",
+    "l": "javascript",
     "c": "let i = 1;\ndo {\n    console.log(i);\n    i *= 2;\n} while (i < 10);",
     "o": [
       "1\n2\n4\n8",
@@ -3231,7 +3232,6 @@
   },
   {
     "q": "Which of the following is NOT a correct syntax for a JavaScript while loop?",
-    "c": null,
     "o": [
       "while x > 0 { console.log(x); x--; }",
       "while (x > 0) { console.log(x); x--; }",
@@ -3241,6 +3241,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript for loop?",
+    "l": "javascript",
     "c": "for (let i = 0; i < 4; i++) {\n    if (i === 2) {\n        continue;\n    }\n    console.log(i);\n}",
     "o": [
       "0\n1\n3",
@@ -3251,7 +3252,6 @@
   },
   {
     "q": "Which of the following describes the behavior of a break statement inside a loop?",
-    "c": null,
     "o": [
       "It immediately exits the loop and continues execution after the loop.",
       "It skips the current iteration and moves to the next iteration.",
@@ -3261,6 +3261,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript code snippet?",
+    "l": "javascript",
     "c": "let count = 3;\nwhile (count) {\n    console.log(count);\n    count--;\n}",
     "o": [
       "3\n2\n1",
@@ -3271,7 +3272,6 @@
   },
   {
     "q": "Which of the following is true about a for loop in JavaScript?",
-    "c": null,
     "o": [
       "It consists of initialization, condition, and increment/decrement.",
       "It does not support iterating over arrays.",
@@ -3281,6 +3281,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript if-else statement?",
+    "l": "javascript",
     "c": "let x = 10;\nif (x > 10) {\n    console.log(\"Greater\");\n} else if (x >= 10) {\n    console.log(\"Equal or Greater\");\n} else {\n    console.log(\"Smaller\");\n}",
     "o": [
       "Equal or Greater",
@@ -3291,7 +3292,6 @@
   },
   {
     "q": "Which of the following is a key characteristic of a switch-case statement in JavaScript?",
-    "c": null,
     "o": [
       "It uses strict comparison (===) to match cases.",
       "It supports case ranges like 'case 1-5:'.",
@@ -3301,6 +3301,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript for loop?",
+    "l": "javascript",
     "c": "for (let i = 1; i <= 5; i += 2) {\n    console.log(i);\n}",
     "o": [
       "1\n3\n5",
@@ -3311,7 +3312,6 @@
   },
   {
     "q": "Which statement correctly explains the difference between while and do-while loops?",
-    "c": null,
     "o": [
       "A do-while loop always executes at least once before checking the condition.",
       "A while loop always executes at least once.",
@@ -3321,6 +3321,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript while loop?",
+    "l": "javascript",
     "c": "let num = 5;\nwhile (num > 0) {\n    console.log(num);\n    num -= 2;\n}",
     "o": [
       "5\n3\n1",
@@ -3331,7 +3332,6 @@
   },
   {
     "q": "Which of the following is NOT true about a break statement?",
-    "c": null,
     "o": [
       "It skips the rest of the loop and exits immediately.",
       "It can be used in both switch and loop statements.",
@@ -3341,6 +3341,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript switch-case statement?",
+    "l": "javascript",
     "c": "let value = 'B';\nswitch (value) {\n    case 'A':\n        console.log(\"Apple\");\n        break;\n    case 'B':\n        console.log(\"Banana\");\n    case 'C':\n        console.log(\"Cherry\");\n        break;\n    default:\n        console.log(\"Unknown\");\n}",
     "o": [
       "Banana\nCherry",
@@ -3351,7 +3352,6 @@
   },
   {
     "q": "Which of the following loops is best suited for iterating over an array in JavaScript?",
-    "c": null,
     "o": [
       "forEach",
       "while",
@@ -3361,6 +3361,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript if-else statement?",
+    "l": "javascript",
     "c": "let num = 0;\nif (num) {\n    console.log(\"Truthy\");\n} else {\n    console.log(\"Falsy\");\n}",
     "o": [
       "Falsy",
@@ -3371,7 +3372,6 @@
   },
   {
     "q": "Which of the following is NOT a valid way to write an if statement in JavaScript?",
-    "c": null,
     "o": [
       "if x > 5 console.log(\"Valid\");",
       "if (x > 5) console.log(\"Valid\");",
@@ -3381,6 +3381,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript loop?",
+    "l": "javascript",
     "c": "for (let i = 0; i < 3; i++) {\n    for (let j = 0; j < 2; j++) {\n        console.log(i, j);\n    }\n}",
     "o": [
       "0 0\n0 1\n1 0\n1 1\n2 0\n2 1",
@@ -3391,7 +3392,6 @@
   },
   {
     "q": "Which of the following statements about the switch-case statement in JavaScript is true?",
-    "c": null,
     "o": [
       "If break is omitted, execution falls through to the next case.",
       "The default case must be placed at the beginning of the switch statement.",
@@ -3401,6 +3401,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript do-while loop?",
+    "l": "javascript",
     "c": "let count = 3;\ndo {\n    console.log(count);\n    count--;\n} while (count > 3);",
     "o": [
       "3",
@@ -3411,7 +3412,6 @@
   },
   {
     "q": "Which of the following correctly describes the behavior of a continue statement?",
-    "c": null,
     "o": [
       "It skips the current iteration and moves to the next iteration of the loop.",
       "It terminates the loop immediately.",
@@ -3421,6 +3421,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript while loop?",
+    "l": "javascript",
     "c": "let i = 4;\nwhile (i) {\n    console.log(i);\n    i -= 2;\n}",
     "o": [
       "4\n2",
@@ -3431,7 +3432,6 @@
   },
   {
     "q": "Which loop is best suited for iterating over an object’s properties in JavaScript?",
-    "c": null,
     "o": [
       "for...in",
       "for...of",
@@ -3441,6 +3441,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript if-else statement?",
+    "l": "javascript",
     "c": "let str = \"\";\nif (str) {\n    console.log(\"Not Empty\");\n} else {\n    console.log(\"Empty\");\n}",
     "o": [
       "Empty",
@@ -3451,7 +3452,6 @@
   },
   {
     "q": "Which of the following best describes the execution of a switch-case statement when a case matches?",
-    "c": null,
     "o": [
       "It executes the matching case and continues execution until a break is encountered.",
       "It only executes the matching case and stops immediately.",
@@ -3461,6 +3461,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript for loop?",
+    "l": "javascript",
     "c": "for (let i = 2; i <= 8; i += 2) {\n    console.log(i);\n}",
     "o": [
       "2\n4\n6\n8",
@@ -3471,7 +3472,6 @@
   },
   {
     "q": "Which of the following correctly explains the behavior of a break statement inside a loop?",
-    "c": null,
     "o": [
       "It immediately exits the loop, skipping remaining iterations.",
       "It moves to the next iteration of the loop.",
@@ -3481,6 +3481,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript while loop?",
+    "l": "javascript",
     "c": "let n = 1;\nwhile (n < 4) {\n    console.log(n);\n    n++;\n}",
     "o": [
       "1\n2\n3",
@@ -3491,7 +3492,6 @@
   },
   {
     "q": "Which statement about JavaScript loops is correct?",
-    "c": null,
     "o": [
       "A do-while loop always executes at least once before checking the condition.",
       "A for loop does not allow initialization inside its parentheses.",
@@ -3501,6 +3501,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript switch-case statement?",
+    "l": "javascript",
     "c": "let day = \"Monday\";\nswitch (day) {\n    case \"Monday\":\n        console.log(\"Start of week\");\n    case \"Tuesday\":\n        console.log(\"Second day\");\n        break;\n    default:\n        console.log(\"Other day\");\n}",
     "o": [
       "Start of week\nSecond day",
@@ -3511,7 +3512,6 @@
   },
   {
     "q": "Which of the following loops is best suited for iterating over an array’s elements while keeping track of the index?",
-    "c": null,
     "o": [
       "for loop",
       "forEach loop",
@@ -3521,6 +3521,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript if-else statement?",
+    "l": "javascript",
     "c": "let value = null;\nif (value) {\n    console.log(\"Truthy\");\n} else {\n    console.log(\"Falsy\");\n}",
     "o": [
       "Falsy",
@@ -3531,7 +3532,6 @@
   },
   {
     "q": "Which of the following is true about the else-if ladder in JavaScript?",
-    "c": null,
     "o": [
       "It allows checking multiple conditions one after another.",
       "It executes all conditions even if one evaluates to true.",
@@ -3541,6 +3541,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript for loop?",
+    "l": "javascript",
     "c": "for (let i = 5; i > 0; i -= 2) {\n    console.log(i);\n}",
     "o": [
       "5\n3\n1",
@@ -3551,7 +3552,6 @@
   },
   {
     "q": "Which of the following correctly describes the execution of a do-while loop?",
-    "c": null,
     "o": [
       "It executes the block at least once before checking the condition.",
       "It first checks the condition and then executes the block.",
@@ -3561,6 +3561,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript while loop?",
+    "l": "javascript",
     "c": "let count = 2;\nwhile (count < 6) {\n    console.log(count);\n    count += 2;\n}",
     "o": [
       "2\n4",
@@ -3571,7 +3572,6 @@
   },
   {
     "q": "Which of the following is a valid reason to use a switch-case instead of multiple if-else statements?",
-    "c": null,
     "o": [
       "When multiple cases depend on the same variable or expression.",
       "When different conditions are based on different variables.",
@@ -3581,6 +3581,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript switch-case statement?",
+    "l": "javascript",
     "c": "let num = 3;\nswitch (num) {\n    case 1:\n        console.log(\"One\");\n        break;\n    case 2:\n        console.log(\"Two\");\n        break;\n    case 3:\n    case 4:\n        console.log(\"Three or Four\");\n        break;\n    default:\n        console.log(\"Other number\");\n}",
     "o": [
       "Three or Four",
@@ -3591,7 +3592,6 @@
   },
   {
     "q": "Which loop should be used when you need to execute a block of code at least once, regardless of the condition?",
-    "c": null,
     "o": [
       "do-while loop",
       "for loop",
@@ -3601,6 +3601,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript if-else statement?",
+    "l": "javascript",
     "c": "let num = 10;\nif (num % 2 === 0 && num > 5) {\n    console.log(\"Valid\");\n} else {\n    console.log(\"Invalid\");\n}",
     "o": [
       "Valid",
@@ -3611,7 +3612,6 @@
   },
   {
     "q": "Which of the following is NOT a valid way to control flow in JavaScript?",
-    "c": null,
     "o": [
       "goto statement",
       "if-else statement",
@@ -3621,6 +3621,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript for loop?",
+    "l": "javascript",
     "c": "for (let i = 1; i <= 5; i++) {\n    if (i === 3) break;\n    console.log(i);\n}",
     "o": [
       "1\n2",
@@ -3631,7 +3632,6 @@
   },
   {
     "q": "Which of the following best describes the continue statement in JavaScript?",
-    "c": null,
     "o": [
       "It skips the current iteration and moves to the next iteration of the loop.",
       "It immediately exits the loop.",
@@ -3641,6 +3641,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript while loop?",
+    "l": "javascript",
     "c": "let x = 6;\nwhile (x > 2) {\n    console.log(x);\n    x -= 2;\n}",
     "o": [
       "6\n4",
@@ -3651,7 +3652,6 @@
   },
   {
     "q": "Which of the following statements about the default case in a switch statement is true?",
-    "c": null,
     "o": [
       "It is executed if no case matches the switch expression.",
       "It must always be the first case in a switch statement.",
@@ -3661,6 +3661,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript switch-case statement?",
+    "l": "javascript",
     "c": "let fruit = \"apple\";\nswitch (fruit) {\n    case \"banana\":\n        console.log(\"Yellow\");\n        break;\n    case \"apple\":\n        console.log(\"Red\");\n    case \"cherry\":\n        console.log(\"Also Red\");\n        break;\n    default:\n        console.log(\"Unknown Color\");\n}",
     "o": [
       "Red\nAlso Red",
@@ -3671,7 +3672,6 @@
   },
   {
     "q": "Which loop is most suitable for executing code when the number of iterations is unknown beforehand?",
-    "c": null,
     "o": [
       "while loop",
       "for loop",
@@ -3681,6 +3681,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript if-else statement?",
+    "l": "javascript",
     "c": "let num = 7;\nif (num < 10) {\n    if (num % 2 === 0) {\n        console.log(\"Even and less than 10\");\n    } else {\n        console.log(\"Odd and less than 10\");\n    }\n} else {\n    console.log(\"Greater than or equal to 10\");\n}",
     "o": [
       "Odd and less than 10",
@@ -3691,7 +3692,6 @@
   },
   {
     "q": "Which statement about nested if-else statements in JavaScript is correct?",
-    "c": null,
     "o": [
       "They allow multiple levels of conditional checking inside each other.",
       "They must always end with an else statement.",
@@ -3701,6 +3701,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript for loop?",
+    "l": "javascript",
     "c": "for (let i = 0; i < 4; i++) {\n    for (let j = 0; j < 2; j++) {\n        console.log(i, j);\n    }\n}",
     "o": [
       "0 0\n0 1\n1 0\n1 1\n2 0\n2 1\n3 0\n3 1",
@@ -3711,7 +3712,6 @@
   },
   {
     "q": "Which of the following best describes the break statement in JavaScript?",
-    "c": null,
     "o": [
       "It immediately exits the loop or switch statement.",
       "It skips the current iteration and continues to the next.",
@@ -3721,6 +3721,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript while loop?",
+    "l": "javascript",
     "c": "let count = 10;\nwhile (count >= 6) {\n    console.log(count);\n    count -= 2;\n}",
     "o": [
       "10\n8\n6",
@@ -3731,7 +3732,6 @@
   },
   {
     "q": "Which of the following is true about the execution of a do-while loop?",
-    "c": null,
     "o": [
       "It executes at least once, even if the condition is false initially.",
       "It does not execute if the condition is false initially.",
@@ -3741,6 +3741,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript switch-case statement?",
+    "l": "javascript",
     "c": "let grade = 'B';\nswitch (grade) {\n    case 'A':\n        console.log(\"Excellent\");\n        break;\n    case 'B':\n    case 'C':\n        console.log(\"Good\");\n        break;\n    default:\n        console.log(\"Needs Improvement\");\n}",
     "o": [
       "Good",
@@ -3751,7 +3752,6 @@
   },
   {
     "q": "Which type of loop is best when you know exactly how many times you need to iterate?",
-    "c": null,
     "o": [
       "for loop",
       "while loop",
@@ -3761,6 +3761,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript if-else statement?",
+    "l": "javascript",
     "c": "let temperature = 30;\nif (temperature > 35) {\n    console.log(\"Hot\");\n} else if (temperature > 25) {\n    console.log(\"Warm\");\n} else {\n    console.log(\"Cold\");\n}",
     "o": [
       "Warm",
@@ -3771,7 +3772,6 @@
   },
   {
     "q": "Which of the following is NOT a valid way to write an if-else statement in JavaScript?",
-    "c": null,
     "o": [
       "if (x > 10) console.log(\"High\"); else console.log(\"Low\");",
       "if (x > 10) { console.log(\"High\"); } else { console.log(\"Low\"); }",
@@ -3781,6 +3781,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript for loop?",
+    "l": "javascript",
     "c": "for (let i = 3; i >= 0; i--) {\n    console.log(i);\n}",
     "o": [
       "3\n2\n1\n0",
@@ -3791,7 +3792,6 @@
   },
   {
     "q": "Which statement about the for loop in JavaScript is correct?",
-    "c": null,
     "o": [
       "It can have an empty condition, making it run indefinitely.",
       "It always requires an initialization, condition, and increment.",
@@ -3801,6 +3801,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript while loop?",
+    "l": "javascript",
     "c": "let n = 5;\nwhile (n > 0) {\n    console.log(n);\n    n -= 2;\n}",
     "o": [
       "5\n3\n1",
@@ -3811,7 +3812,6 @@
   },
   {
     "q": "Which statement about the default case in a switch statement is FALSE?",
-    "c": null,
     "o": [
       "It is mandatory for a switch-case statement to execute.",
       "It executes if no matching case is found.",
@@ -3821,6 +3821,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript switch-case statement?",
+    "l": "javascript",
     "c": "let day = 'Monday';\nswitch (day) {\n    case 'Monday':\n        console.log(\"Start of the week\");\n    case 'Tuesday':\n        console.log(\"Second day\");\n        break;\n    default:\n        console.log(\"Other day\");\n}",
     "o": [
       "Start of the week\nSecond day",
@@ -3831,7 +3832,6 @@
   },
   {
     "q": "Which loop executes at least once regardless of the condition?",
-    "c": null,
     "o": [
       "do-while loop",
       "while loop",
@@ -3841,6 +3841,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript if-else statement?",
+    "l": "javascript",
     "c": "let score = 80;\nif (score >= 90) {\n    console.log(\"A\");\n} else if (score >= 75) {\n    console.log(\"B\");\n} else if (score >= 60) {\n    console.log(\"C\");\n} else {\n    console.log(\"F\");\n}",
     "o": [
       "B",
@@ -3851,7 +3852,6 @@
   },
   {
     "q": "Which of the following is TRUE about the if-else statement in JavaScript?",
-    "c": null,
     "o": [
       "The 'else' block is optional.",
       "Every if statement must have an 'else' block.",
@@ -3861,6 +3861,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript for loop?",
+    "l": "javascript",
     "c": "for (let i = 2; i <= 10; i += 2) {\n    console.log(i);\n}",
     "o": [
       "2\n4\n6\n8\n10",
@@ -3871,7 +3872,6 @@
   },
   {
     "q": "Which statement about the for loop is FALSE?",
-    "c": null,
     "o": [
       "The increment part of a for loop can be omitted.",
       "A for loop can have multiple initializations and conditions.",
@@ -3881,6 +3881,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript while loop?",
+    "l": "javascript",
     "c": "let x = 1;\nwhile (x < 5) {\n    console.log(x);\n    x++;\n}",
     "o": [
       "1\n2\n3\n4",
@@ -3891,7 +3892,6 @@
   },
   {
     "q": "What happens if the condition in a while loop is initially false?",
-    "c": null,
     "o": [
       "The loop does not execute at all.",
       "The loop executes once before stopping.",
@@ -3901,6 +3901,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript switch-case statement?",
+    "l": "javascript",
     "c": "let fruit = 'apple';\nswitch (fruit) {\n    case 'banana':\n        console.log(\"Yellow\");\n        break;\n    case 'apple':\n        console.log(\"Red\");\n    case 'grape':\n        console.log(\"Purple\");\n        break;\n    default:\n        console.log(\"Unknown\");\n}",
     "o": [
       "Red\nPurple",
@@ -3911,7 +3912,6 @@
   },
   {
     "q": "Which of the following correctly describes the break statement in JavaScript?",
-    "c": null,
     "o": [
       "It immediately exits the loop or switch statement.",
       "It skips to the next iteration of the loop.",
@@ -3921,6 +3921,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript if-else statement?",
+    "l": "javascript",
     "c": "let num = -5;\nif (num > 0) {\n    console.log(\"Positive\");\n} else if (num < 0) {\n    console.log(\"Negative\");\n} else {\n    console.log(\"Zero\");\n}",
     "o": [
       "Negative",
@@ -3931,7 +3932,6 @@
   },
   {
     "q": "Which of the following statements about the if-else structure is FALSE?",
-    "c": null,
     "o": [
       "An if statement can exist without an else block.",
       "Multiple else if conditions can be used between if and else.",
@@ -3941,6 +3941,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript for loop?",
+    "l": "javascript",
     "c": "for (let i = 10; i > 0; i -= 3) {\n    console.log(i);\n}",
     "o": [
       "10\n7\n4\n1",
@@ -3951,7 +3952,6 @@
   },
   {
     "q": "Which of the following is a valid way to create an infinite loop using a for loop?",
-    "c": null,
     "o": [
       "for(;;) {}",
       "for (let i = 0; i < Infinity; i++) {}",
@@ -3961,6 +3961,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript while loop?",
+    "l": "javascript",
     "c": "let count = 3;\ndo {\n    console.log(count);\n    count--;\n} while (count > 0);",
     "o": [
       "3\n2\n1",
@@ -3971,7 +3972,6 @@
   },
   {
     "q": "Which statement about a do-while loop is TRUE?",
-    "c": null,
     "o": [
       "The loop executes at least once, regardless of the condition.",
       "It runs only if the condition is initially true.",
@@ -3981,6 +3981,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript switch-case statement?",
+    "l": "javascript",
     "c": "let letter = 'B';\nswitch (letter) {\n    case 'A':\n        console.log(\"Apple\");\n        break;\n    case 'B':\n        console.log(\"Banana\");\n    case 'C':\n        console.log(\"Cherry\");\n        break;\n    default:\n        console.log(\"Unknown\");\n}",
     "o": [
       "Banana\nCherry",
@@ -3991,7 +3992,6 @@
   },
   {
     "q": "Which of the following statements about the default case in a switch statement is TRUE?",
-    "c": null,
     "o": [
       "It executes when no matching case is found.",
       "It must always be the last case in a switch statement.",
@@ -4001,6 +4001,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript if-else statement?",
+    "l": "javascript",
     "c": "let value = 0;\nif (value) {\n    console.log(\"Truthy\");\n} else {\n    console.log(\"Falsy\");\n}",
     "o": [
       "Falsy",
@@ -4011,7 +4012,6 @@
   },
   {
     "q": "Which of the following values evaluates to false in a JavaScript if condition?",
-    "c": null,
     "o": [
       "0",
       "\"false\"",
@@ -4021,6 +4021,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript for loop?",
+    "l": "javascript",
     "c": "for (let i = 1; i <= 5; i *= 2) {\n    console.log(i);\n}",
     "o": [
       "1\n2\n4",
@@ -4031,7 +4032,6 @@
   },
   {
     "q": "Which statement about the for loop is TRUE?",
-    "c": null,
     "o": [
       "The loop can run infinitely if the condition is always true.",
       "A for loop must always have an increment expression.",
@@ -4041,6 +4041,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript while loop?",
+    "l": "javascript",
     "c": "let n = 5;\nwhile (n > 0) {\n    console.log(n);\n    n -= 2;\n}",
     "o": [
       "5\n3\n1",
@@ -4051,7 +4052,6 @@
   },
   {
     "q": "Which statement about a while loop is FALSE?",
-    "c": null,
     "o": [
       "The condition is checked before executing the loop body.",
       "A while loop may not execute at all if the condition is false initially.",
@@ -4061,6 +4061,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript switch-case statement?",
+    "l": "javascript",
     "c": "let day = 'Monday';\nswitch (day) {\n    case 'Sunday':\n        console.log(\"Weekend\");\n        break;\n    case 'Monday':\n    case 'Tuesday':\n        console.log(\"Weekday\");\n        break;\n    default:\n        console.log(\"Unknown\");\n}",
     "o": [
       "Weekday",
@@ -4071,7 +4072,6 @@
   },
   {
     "q": "Which of the following statements about the switch statement is FALSE?",
-    "c": null,
     "o": [
       "A switch statement can handle multiple cases with the same logic.",
       "A break statement is necessary to prevent fall-through.",
@@ -4081,6 +4081,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript if-else statement?",
+    "l": "javascript",
     "c": "let x = 10;\nif (x == '10') {\n    console.log(\"Equal\");\n} else {\n    console.log(\"Not Equal\");\n}",
     "o": [
       "Equal",
@@ -4091,7 +4092,6 @@
   },
   {
     "q": "Which of the following is the strict equality operator in JavaScript?",
-    "c": null,
     "o": [
       "===",
       "==",
@@ -4101,6 +4101,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript for loop?",
+    "l": "javascript",
     "c": "for (let i = 5; i > 0; i--) {\n    if (i === 3) break;\n    console.log(i);\n}",
     "o": [
       "5\n4",
@@ -4111,7 +4112,6 @@
   },
   {
     "q": "Which of the following statements is TRUE about a break statement in a loop?",
-    "c": null,
     "o": [
       "It immediately exits the loop.",
       "It skips the current iteration and continues to the next one.",
@@ -4121,6 +4121,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript while loop?",
+    "l": "javascript",
     "c": "let i = 0;\nwhile (i < 3) {\n    console.log(i);\n    i++;\n}",
     "o": [
       "0\n1\n2",
@@ -4131,7 +4132,6 @@
   },
   {
     "q": "Which statement about a do-while loop is FALSE?",
-    "c": null,
     "o": [
       "The loop always runs at least once.",
       "The condition is checked before executing the loop body.",
@@ -4141,6 +4141,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript switch-case statement?",
+    "l": "javascript",
     "c": "let num = 2;\nswitch (num) {\n    case 1:\n        console.log(\"One\");\n    case 2:\n        console.log(\"Two\");\n    case 3:\n        console.log(\"Three\");\n        break;\n    default:\n        console.log(\"Other\");\n}",
     "o": [
       "Two\nThree",
@@ -4151,7 +4152,6 @@
   },
   {
     "q": "Which of the following statements about the switch statement is TRUE?",
-    "c": null,
     "o": [
       "If a break statement is omitted, execution falls through to the next case.",
       "A switch statement cannot handle multiple cases with the same output.",
@@ -4161,6 +4161,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript if-else statement?",
+    "l": "javascript",
     "c": "let y = null;\nif (y) {\n    console.log(\"Truthy\");\n} else {\n    console.log(\"Falsy\");\n}",
     "o": [
       "Falsy",
@@ -4171,7 +4172,6 @@
   },
   {
     "q": "Which of the following conditions will NOT execute the if block?",
-    "c": null,
     "o": [
       "if (\"\")",
       "if (\"false\")",
@@ -4181,6 +4181,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript for loop?",
+    "l": "javascript",
     "c": "for (let i = 2; i <= 8; i += 2) {\n    console.log(i);\n}",
     "o": [
       "2\n4\n6\n8",
@@ -4191,7 +4192,6 @@
   },
   {
     "q": "Which of the following is a valid syntax for a JavaScript for loop?",
-    "c": null,
     "o": [
       "for (let i = 0; i < 5; i++)",
       "for (let i = 0; i < 5; i+)",
@@ -4201,6 +4201,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript while loop?",
+    "l": "javascript",
     "c": "let count = 3;\ndo {\n    console.log(count);\n    count--;\n} while (count > 0);",
     "o": [
       "3\n2\n1",
@@ -4211,7 +4212,6 @@
   },
   {
     "q": "Which of the following loops ensures at least one execution of the loop body?",
-    "c": null,
     "o": [
       "do-while loop",
       "while loop",
@@ -4221,6 +4221,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript switch-case statement?",
+    "l": "javascript",
     "c": "let grade = 'B';\nswitch (grade) {\n    case 'A':\n        console.log(\"Excellent\");\n        break;\n    case 'B':\n        console.log(\"Good\");\n    case 'C':\n        console.log(\"Average\");\n        break;\n    default:\n        console.log(\"Fail\");\n}",
     "o": [
       "Good\nAverage",
@@ -4231,7 +4232,6 @@
   },
   {
     "q": "Which statement about the switch-case default case is TRUE?",
-    "c": null,
     "o": [
       "It executes when no matching case is found.",
       "It must always be the last case.",
@@ -4241,6 +4241,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript if-else statement?",
+    "l": "javascript",
     "c": "let num = -5;\nif (num) {\n    console.log(\"Truthy\");\n} else {\n    console.log(\"Falsy\");\n}",
     "o": [
       "Truthy",
@@ -4251,7 +4252,6 @@
   },
   {
     "q": "Which of the following values is considered truthy in JavaScript?",
-    "c": null,
     "o": [
       "\"false\"",
       "0",
@@ -4261,6 +4261,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript loop?",
+    "l": "javascript",
     "c": "let i = 1;\nwhile (i <= 3) {\n    console.log(i);\n    i++;\n    if (i === 3) break;\n}",
     "o": [
       "1\n2",
@@ -4271,7 +4272,6 @@
   },
   {
     "q": "Which of the following statements about a for loop is TRUE?",
-    "c": null,
     "o": [
       "A for loop can have an empty condition and still run.",
       "A for loop must always have an increment or decrement.",
@@ -4281,6 +4281,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript do-while loop?",
+    "l": "javascript",
     "c": "let x = 5;\ndo {\n    console.log(x);\n    x++;\n} while (x < 5);",
     "o": [
       "5",
@@ -4291,7 +4292,6 @@
   },
   {
     "q": "Which of the following loops will execute at least once regardless of the condition?",
-    "c": null,
     "o": [
       "do-while loop",
       "while loop",
@@ -4301,6 +4301,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript switch-case statement?",
+    "l": "javascript",
     "c": "let value = 1;\nswitch (value) {\n    case 1:\n        console.log(\"One\");\n    case 2:\n        console.log(\"Two\");\n        break;\n    case 3:\n        console.log(\"Three\");\n    default:\n        console.log(\"Other\");\n}",
     "o": [
       "One\nTwo",
@@ -4311,7 +4312,6 @@
   },
   {
     "q": "Which of the following statements about the switch-case structure is FALSE?",
-    "c": null,
     "o": [
       "A break statement is required after each case to prevent fall-through.",
       "Switch statements can compare both numbers and strings.",
@@ -4321,6 +4321,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript if-else statement?",
+    "l": "javascript",
     "c": "let str = \"0\";\nif (str) {\n    console.log(\"Truthy\");\n} else {\n    console.log(\"Falsy\");\n}",
     "o": [
       "Truthy",
@@ -4331,7 +4332,6 @@
   },
   {
     "q": "Which of the following will result in a falsy value in JavaScript?",
-    "c": null,
     "o": [
       "Boolean(\"\")",
       "Boolean(\" \")",
@@ -4341,6 +4341,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript loop?",
+    "l": "javascript",
     "c": "for (let i = 0; i < 3; i++) {\n    if (i === 1) continue;\n    console.log(i);\n}",
     "o": [
       "0\n2",
@@ -4351,7 +4352,6 @@
   },
   {
     "q": "Which of the following is a correct way to declare an infinite loop in JavaScript?",
-    "c": null,
     "o": [
       "while (true) {}",
       "for (;;) {}",
@@ -4361,6 +4361,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript do-while loop?",
+    "l": "javascript",
     "c": "let count = 0;\ndo {\n    console.log(count);\n    count++;\n} while (count < 0);",
     "o": [
       "0",
@@ -4371,7 +4372,6 @@
   },
   {
     "q": "Which of the following statements about the break and continue keywords is TRUE?",
-    "c": null,
     "o": [
       "break exits the loop completely, while continue skips the current iteration.",
       "break and continue both stop the loop entirely.",
@@ -4381,6 +4381,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript switch-case statement?",
+    "l": "javascript",
     "c": "let fruit = \"banana\";\nswitch (fruit) {\n    case \"apple\":\n        console.log(\"Apple\");\n        break;\n    case \"banana\":\n    case \"mango\":\n        console.log(\"Tropical fruit\");\n        break;\n    default:\n        console.log(\"Other\");\n}",
     "o": [
       "Tropical fruit",
@@ -4391,7 +4392,6 @@
   },
   {
     "q": "Which of the following statements about the default case in a switch statement is FALSE?",
-    "c": null,
     "o": [
       "It is mandatory in a switch statement.",
       "It executes when no case matches the value.",
@@ -4401,6 +4401,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript if-else statement?",
+    "l": "javascript",
     "c": "let value = null;\nif (value == undefined) {\n    console.log(\"Equal\");\n} else {\n    console.log(\"Not Equal\");\n}",
     "o": [
       "Equal",
@@ -4411,7 +4412,6 @@
   },
   {
     "q": "Which of the following will result in a truthy value in JavaScript?",
-    "c": null,
     "o": [
       "Boolean(\"false\")",
       "Boolean(0)",
@@ -4421,6 +4421,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript loop?",
+    "l": "javascript",
     "c": "let i = 0;\nwhile (i < 5) {\n    console.log(i);\n    if (i === 2) break;\n    i++;\n}",
     "o": [
       "0\n1\n2",
@@ -4431,7 +4432,6 @@
   },
   {
     "q": "Which of the following statements about a do-while loop is TRUE?",
-    "c": null,
     "o": [
       "It executes the loop body at least once before checking the condition.",
       "It does not execute if the condition is false initially.",
@@ -4441,6 +4441,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript for loop?",
+    "l": "javascript",
     "c": "for (let i = 0; i < 3; i++) {\n    console.log(i);\n    if (i === 1) break;\n}",
     "o": [
       "0\n1",
@@ -4451,7 +4452,6 @@
   },
   {
     "q": "Which of the following is the correct syntax for a for loop with multiple conditions?",
-    "c": null,
     "o": [
       "for (let i = 0, j = 5; i < j; i++, j--)",
       "for (let i = 0; let j = 5; i < j; i++, j--)",
@@ -4461,6 +4461,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript switch-case statement?",
+    "l": "javascript",
     "c": "let num = 2;\nswitch (num) {\n    case 1:\n        console.log(\"One\");\n    case 2:\n        console.log(\"Two\");\n    case 3:\n        console.log(\"Three\");\n        break;\n    default:\n        console.log(\"Other\");\n}",
     "o": [
       "Two\nThree",
@@ -4471,7 +4472,6 @@
   },
   {
     "q": "Which of the following is a valid switch-case statement in JavaScript?",
-    "c": null,
     "o": [
       "switch (x) { case 1: console.log(\"One\"); break; default: console.log(\"Other\"); }",
       "switch x { case 1: console.log(\"One\"); break; default: console.log(\"Other\"); }",
@@ -4481,6 +4481,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript if-else statement?",
+    "l": "javascript",
     "c": "let num = 10;\nif (num % 2 === 0)\n    console.log(\"Even\");\nelse\n    console.log(\"Odd\");",
     "o": [
       "Even",
@@ -4491,7 +4492,6 @@
   },
   {
     "q": "Which of the following correctly demonstrates a for loop in JavaScript?",
-    "c": null,
     "o": [
       "for (let i = 0; i < 5; i++) {}",
       "for (let i = 5; i >= 0; i--) {}",
@@ -4501,6 +4501,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript while loop?",
+    "l": "javascript",
     "c": "let i = 0;\nwhile (i < 3) {\n    console.log(i);\n    i++;\n}",
     "o": [
       "0\n1\n2",
@@ -4511,7 +4512,6 @@
   },
   {
     "q": "Which statement about JavaScript switch-case is TRUE?",
-    "c": null,
     "o": [
       "Cases are evaluated using strict equality (===).",
       "You must always use a default case.",
@@ -4521,6 +4521,7 @@
   },
   {
     "q": "What will be the output of the following do-while loop?",
+    "l": "javascript",
     "c": "let x = 5;\ndo {\n    console.log(x);\n    x--;\n} while (x > 7);",
     "o": [
       "5",
@@ -4531,7 +4532,6 @@
   },
   {
     "q": "Which of the following loops will execute at least once?",
-    "c": null,
     "o": [
       "do-while",
       "for",
@@ -4541,6 +4541,7 @@
   },
   {
     "q": "What will be the output of the following switch-case statement?",
+    "l": "javascript",
     "c": "let value = 2;\nswitch (value) {\n    case 1:\n        console.log(\"One\");\n    case 2:\n        console.log(\"Two\");\n    case 3:\n        console.log(\"Three\");\n    default:\n        console.log(\"Default\");\n}",
     "o": [
       "Two\nThree\nDefault",
@@ -4551,7 +4552,6 @@
   },
   {
     "q": "Which of the following is NOT a valid use of break in JavaScript?",
-    "c": null,
     "o": [
       "Breaking out of a for loop",
       "Breaking out of a while loop",
@@ -4561,6 +4561,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript if-else statement?",
+    "l": "javascript",
     "c": "let a = 5, b = 10;\nif (a > b) {\n    console.log(\"A is greater\");\n} else if (a < b) {\n    console.log(\"B is greater\");\n} else {\n    console.log(\"Equal\");\n}",
     "o": [
       "B is greater",
@@ -4571,7 +4572,6 @@
   },
   {
     "q": "Which of the following is a correct way to write a while loop?",
-    "c": null,
     "o": [
       "while (condition) { /* code */ }",
       "while condition { /* code */ }",
@@ -4581,6 +4581,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript for loop?",
+    "l": "javascript",
     "c": "for (let i = 3; i > 0; i--) {\n    console.log(i);\n}",
     "o": [
       "3\n2\n1",
@@ -4591,7 +4592,6 @@
   },
   {
     "q": "Which of the following is NOT a valid case in a JavaScript switch statement?",
-    "c": null,
     "o": [
       "case true:",
       "case \"string\":",
@@ -4601,6 +4601,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript do-while loop?",
+    "l": "javascript",
     "c": "let count = 0;\ndo {\n    console.log(count);\n    count += 2;\n} while (count < 5);",
     "o": [
       "0\n2\n4",
@@ -4611,7 +4612,6 @@
   },
   {
     "q": "Which of the following statements about break and continue is TRUE?",
-    "c": null,
     "o": [
       "break exits the loop entirely, while continue skips the current iteration.",
       "continue exits the loop entirely, while break skips the current iteration.",
@@ -4621,6 +4621,7 @@
   },
   {
     "q": "What will be the output of the following switch-case statement?",
+    "l": "javascript",
     "c": "let color = \"red\";\nswitch (color) {\n    case \"blue\":\n        console.log(\"Blue selected\");\n        break;\n    case \"red\":\n        console.log(\"Red selected\");\n    case \"green\":\n        console.log(\"Green selected\");\n        break;\n    default:\n        console.log(\"No match\");\n}",
     "o": [
       "Red selected\nGreen selected",
@@ -4631,7 +4632,6 @@
   },
   {
     "q": "Which of the following will cause an infinite loop?",
-    "c": null,
     "o": [
       "while (true) { }",
       "for (let i = 0; i >= 0; i++) { }",
@@ -4641,6 +4641,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript if-else statement?",
+    "l": "javascript",
     "c": "let num = -5;\nif (num > 0) {\n    console.log(\"Positive\");\n} else if (num < 0) {\n    console.log(\"Negative\");\n} else {\n    console.log(\"Zero\");\n}",
     "o": [
       "Negative",
@@ -4651,7 +4652,6 @@
   },
   {
     "q": "Which of the following is TRUE about the switch-case statement in JavaScript?",
-    "c": null,
     "o": [
       "A switch statement compares values using strict equality (===).",
       "A break statement is optional but recommended in each case.",
@@ -4661,6 +4661,7 @@
   },
   {
     "q": "What will be the output of the following for loop?",
+    "l": "javascript",
     "c": "for (let i = 1; i <= 5; i *= 2) {\n    console.log(i);\n}",
     "o": [
       "1\n2\n4",
@@ -4671,7 +4672,6 @@
   },
   {
     "q": "Which of the following is a valid while loop?",
-    "c": null,
     "o": [
       "while (x > 0) { console.log(x); x--; }",
       "while { x > 0 } console.log(x); x--;",
@@ -4681,6 +4681,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript do-while loop?",
+    "l": "javascript",
     "c": "let n = 10;\ndo {\n    console.log(n);\n    n -= 5;\n} while (n > 0);",
     "o": [
       "10\n5",
@@ -4691,7 +4692,6 @@
   },
   {
     "q": "Which of the following is the correct syntax for a JavaScript switch-case statement?",
-    "c": null,
     "o": [
       "switch (value) { case 1: console.log('One'); break; }",
       "switch value { case 1: console.log('One'); break; }",
@@ -4701,6 +4701,7 @@
   },
   {
     "q": "What will be the output of the following switch-case statement?",
+    "l": "javascript",
     "c": "let num = 3;\nswitch (num) {\n    case 1:\n        console.log(\"One\");\n    case 2:\n        console.log(\"Two\");\n    case 3:\n        console.log(\"Three\");\n        break;\n    default:\n        console.log(\"Default\");\n}",
     "o": [
       "Three",
@@ -4711,7 +4712,6 @@
   },
   {
     "q": "Which of the following will result in an infinite loop?",
-    "c": null,
     "o": [
       "for (let i = 1; i > 0; i++) { console.log(i); }",
       "while (true) { console.log(\"Looping\"); }",
@@ -4721,6 +4721,7 @@
   },
   {
     "q": "What will be the output of the following if-else statement?",
+    "l": "javascript",
     "c": "let x = 5;\nif (x === '5') {\n    console.log(\"Equal\");\n} else {\n    console.log(\"Not Equal\");\n}",
     "o": [
       "Not Equal",
@@ -4731,7 +4732,6 @@
   },
   {
     "q": "Which of the following statements about JavaScript if-else is TRUE?",
-    "c": null,
     "o": [
       "The else block is optional in an if-else statement.",
       "An if statement must always be followed by an else block.",
@@ -4741,6 +4741,7 @@
   },
   {
     "q": "What will be the output of the following switch-case statement?",
+    "l": "javascript",
     "c": "let fruit = 'apple';\nswitch (fruit) {\n    case 'banana':\n        console.log('Banana');\n    case 'apple':\n        console.log('Apple');\n    case 'mango':\n        console.log('Mango');\n        break;\n    default:\n        console.log('Unknown');\n}",
     "o": [
       "Apple\nMango",
@@ -4751,7 +4752,6 @@
   },
   {
     "q": "Which of the following is TRUE about JavaScript switch-case?",
-    "c": null,
     "o": [
       "Without a break statement, execution continues to the next case.",
       "Each case must have a break statement.",
@@ -4761,6 +4761,7 @@
   },
   {
     "q": "What will be the output of the following for loop?",
+    "l": "javascript",
     "c": "for (let i = 10; i >= 0; i -= 3) {\n    console.log(i);\n}",
     "o": [
       "10\n7\n4\n1",
@@ -4771,7 +4772,6 @@
   },
   {
     "q": "Which of the following loops is guaranteed to execute at least once?",
-    "c": null,
     "o": [
       "do-while loop",
       "for loop",
@@ -4781,6 +4781,7 @@
   },
   {
     "q": "What will be the output of the following while loop?",
+    "l": "javascript",
     "c": "let count = 0;\nwhile (count < 3) {\n    console.log(count);\n    count++;\n}",
     "o": [
       "0\n1\n2",
@@ -4791,7 +4792,6 @@
   },
   {
     "q": "Which of the following do-while loops is valid?",
-    "c": null,
     "o": [
       "do { console.log(\"Hello\"); } while (true);",
       "do console.log(\"Hello\"); while true;",
@@ -4801,6 +4801,7 @@
   },
   {
     "q": "What will be the output of the following if-else statement?",
+    "l": "javascript",
     "c": "let num = 8;\nif (num % 2 === 0) {\n    console.log(\"Even\");\n} else if (num % 2 !== 0) {\n    console.log(\"Odd\");\n} else {\n    console.log(\"Unknown\");\n}",
     "o": [
       "Even",
@@ -4811,7 +4812,6 @@
   },
   {
     "q": "Which of the following statements about JavaScript if-else is FALSE?",
-    "c": null,
     "o": [
       "An if statement can exist without an else block.",
       "The condition inside an if statement must always be a boolean expression.",
@@ -4821,6 +4821,7 @@
   },
   {
     "q": "What will be the output of the following switch-case statement?",
+    "l": "javascript",
     "c": "let day = 'Monday';\nswitch (day) {\n    case 'Monday':\n    case 'Tuesday':\n        console.log('Weekday');\n        break;\n    case 'Saturday':\n    case 'Sunday':\n        console.log('Weekend');\n        break;\n    default:\n        console.log('Unknown');\n}",
     "o": [
       "Weekday",
@@ -4831,7 +4832,6 @@
   },
   {
     "q": "Which statement about JavaScript switch-case is FALSE?",
-    "c": null,
     "o": [
       "The case values must be of the same data type as the switch expression.",
       "A switch statement can handle different data types in different cases.",
@@ -4841,6 +4841,7 @@
   },
   {
     "q": "What will be the output of the following for loop?",
+    "l": "javascript",
     "c": "for (let i = 1; i <= 5; i++) {\n    if (i === 3) break;\n    console.log(i);\n}",
     "o": [
       "1\n2",
@@ -4851,7 +4852,6 @@
   },
   {
     "q": "Which of the following loop conditions will result in an infinite loop?",
-    "c": null,
     "o": [
       "while (true) { console.log(\"Running\"); }",
       "for (let i = 0; i < 10; i++) { console.log(i); }",
@@ -4861,6 +4861,7 @@
   },
   {
     "q": "What will be the output of the following do-while loop?",
+    "l": "javascript",
     "c": "let count = 5;\ndo {\n    console.log(count);\n    count--;\n} while (count > 2);",
     "o": [
       "5\n4\n3",
@@ -4871,7 +4872,6 @@
   },
   {
     "q": "Which of the following statements is TRUE about JavaScript loops?",
-    "c": null,
     "o": [
       "The for loop is generally used when the number of iterations is known beforehand.",
       "A while loop always executes at least once.",
@@ -4881,6 +4881,7 @@
   },
   {
     "q": "What will be the output of the following if-else statement?",
+    "l": "javascript",
     "c": "let x = 10;\nif (x > 10) {\n    console.log(\"Greater than 10\");\n} else if (x === 10) {\n    console.log(\"Exactly 10\");\n} else {\n    console.log(\"Less than 10\");\n}",
     "o": [
       "Exactly 10",
@@ -4891,7 +4892,6 @@
   },
   {
     "q": "Which of the following is a valid way to write an if-else statement in JavaScript?",
-    "c": null,
     "o": [
       "if (condition) { /* code */ } else { /* code */ }",
       "if condition then { /* code */ } else { /* code */ }",
@@ -4901,6 +4901,7 @@
   },
   {
     "q": "What will be the output of the following switch-case statement?",
+    "l": "javascript",
     "c": "let fruit = 'apple';\nswitch (fruit) {\n    case 'banana':\n        console.log('Yellow');\n        break;\n    case 'apple':\n        console.log('Red');\n    case 'grape':\n        console.log('Purple');\n        break;\n    default:\n        console.log('Unknown');\n}",
     "o": [
       "Red\nPurple",
@@ -4911,7 +4912,6 @@
   },
   {
     "q": "Which of the following is NOT true about switch-case in JavaScript?",
-    "c": null,
     "o": [
       "A switch statement can evaluate both numbers and strings.",
       "A case without a break statement will cause fall-through behavior.",
@@ -4921,6 +4921,7 @@
   },
   {
     "q": "What will be the output of the following for loop?",
+    "l": "javascript",
     "c": "for (let i = 1; i <= 3; i++) {\n    for (let j = 1; j <= 2; j++) {\n        console.log(i * j);\n    }\n}",
     "o": [
       "1\n2\n2\n4\n3\n6",
@@ -4931,7 +4932,6 @@
   },
   {
     "q": "Which of the following will result in an infinite loop?",
-    "c": null,
     "o": [
       "for (let i = 1; i > 0; i++) { console.log(i); }",
       "for (let i = 0; i < 5; i++) { console.log(i); }",
@@ -4941,6 +4941,7 @@
   },
   {
     "q": "What will be the output of the following while loop?",
+    "l": "javascript",
     "c": "let n = 3;\nwhile (n > 0) {\n    console.log(n);\n    n--;\n}",
     "o": [
       "3\n2\n1",
@@ -4951,7 +4952,6 @@
   },
   {
     "q": "Which statement about loops in JavaScript is TRUE?",
-    "c": null,
     "o": [
       "A while loop executes as long as the condition remains true.",
       "A do-while loop will not execute if the condition is false at the start.",
@@ -4961,6 +4961,7 @@
   },
   {
     "q": "What will be the output of the following if-else statement?",
+    "l": "javascript",
     "c": "let num = 7;\nif (num % 2 === 0) {\n    console.log(\"Even\");\n} else {\n    console.log(\"Odd\");\n}",
     "o": [
       "Odd",
@@ -4971,7 +4972,6 @@
   },
   {
     "q": "Which of the following is true about the if-else statement in JavaScript?",
-    "c": null,
     "o": [
       "An else block is optional in an if-else statement.",
       "The if block must always be followed by an else block.",
@@ -4981,6 +4981,7 @@
   },
   {
     "q": "What will be the output of the following switch statement?",
+    "l": "javascript",
     "c": "let day = 'Monday';\nswitch (day) {\n    case 'Monday':\n    case 'Tuesday':\n        console.log('Weekday');\n        break;\n    case 'Saturday':\n    case 'Sunday':\n        console.log('Weekend');\n        break;\n    default:\n        console.log('Invalid day');\n}",
     "o": [
       "Weekday",
@@ -4991,7 +4992,6 @@
   },
   {
     "q": "Which of the following is NOT a correct statement about switch-case in JavaScript?",
-    "c": null,
     "o": [
       "The case values must be of the same type as the switch expression.",
       "The break statement prevents fall-through between cases.",
@@ -5001,6 +5001,7 @@
   },
   {
     "q": "What will be the output of the following for loop?",
+    "l": "javascript",
     "c": "for (let i = 5; i > 0; i--) {\n    console.log(i);\n}",
     "o": [
       "5\n4\n3\n2\n1",
@@ -5011,7 +5012,6 @@
   },
   {
     "q": "Which of the following is a valid way to declare a for loop in JavaScript?",
-    "c": null,
     "o": [
       "for (let i = 0; i < 5; i++) { console.log(i); }",
       "for i = 0 to 5 { console.log(i); }",
@@ -5021,6 +5021,7 @@
   },
   {
     "q": "What will be the output of the following while loop?",
+    "l": "javascript",
     "c": "let count = 0;\nwhile (count < 3) {\n    console.log(count);\n    count++;\n}",
     "o": [
       "0\n1\n2",
@@ -5031,7 +5032,6 @@
   },
   {
     "q": "Which of the following statements about do-while loops is correct?",
-    "c": null,
     "o": [
       "A do-while loop executes at least once, even if the condition is false.",
       "A do-while loop is identical to a while loop in execution.",
@@ -5041,6 +5041,7 @@
   },
   {
     "q": "What will be the output of the following if-else statement?",
+    "l": "javascript",
     "c": "let x = 10;\nif (x > 5)\n    if (x < 15)\n        console.log(\"Inside range\");\n    else\n        console.log(\"Outside range\");",
     "o": [
       "Inside range",
@@ -5051,7 +5052,6 @@
   },
   {
     "q": "Which of the following is true for the else-if ladder?",
-    "c": null,
     "o": [
       "It allows checking multiple conditions sequentially.",
       "It can contain multiple else statements.",
@@ -5061,6 +5061,7 @@
   },
   {
     "q": "What will be the output of the following switch statement?",
+    "l": "javascript",
     "c": "let grade = 'B';\nswitch (grade) {\n    case 'A':\n        console.log('Excellent');\n    case 'B':\n        console.log('Good');\n    case 'C':\n        console.log('Average');\n        break;\n    default:\n        console.log('Fail');\n}",
     "o": [
       "Good\nAverage",
@@ -5071,7 +5072,6 @@
   },
   {
     "q": "Which of the following is NOT true about the switch statement?",
-    "c": null,
     "o": [
       "It supports fall-through behavior when 'break' is omitted.",
       "It can only compare numbers, not strings.",
@@ -5081,6 +5081,7 @@
   },
   {
     "q": "What will be the output of the following for loop?",
+    "l": "javascript",
     "c": "for (let i = 2; i <= 6; i += 2) {\n    console.log(i);\n}",
     "o": [
       "2\n4\n6",
@@ -5091,7 +5092,6 @@
   },
   {
     "q": "Which of the following is NOT a correct way to initialize a for loop?",
-    "c": null,
     "o": [
       "for (let i = 0; i < 5; i++)",
       "for (let i = 0; i < 5; i += 2) { console.log(i); }",
@@ -5101,6 +5101,7 @@
   },
   {
     "q": "What will be the output of the following while loop?",
+    "l": "javascript",
     "c": "let n = 3;\nwhile (n > 0) {\n    console.log(n);\n    n--;\n}",
     "o": [
       "3\n2\n1",
@@ -5111,6 +5112,7 @@
   },
   {
     "q": "What will be the output of the following do-while loop?",
+    "l": "javascript",
     "c": "let num = 5;\ndo {\n    console.log(num);\n    num++;\n} while (num < 8);",
     "o": [
       "5\n6\n7",
@@ -5121,7 +5123,6 @@
   },
   {
     "q": "Which of the following is a key difference between while and do-while loops?",
-    "c": null,
     "o": [
       "A do-while loop executes at least once, even if the condition is false.",
       "A while loop always executes at least once.",
@@ -5131,6 +5132,7 @@
   },
   {
     "q": "What will be the output of the following if-else statement?",
+    "l": "javascript",
     "c": "let num = 7;\nif (num % 2 === 0)\n    console.log(\"Even\");\nelse\n    console.log(\"Odd\");",
     "o": [
       "Odd",
@@ -5141,7 +5143,6 @@
   },
   {
     "q": "Which of the following correctly describes the working of an if-else statement?",
-    "c": null,
     "o": [
       "If the condition is true, the if block executes; otherwise, the else block executes.",
       "Both the if and else blocks execute regardless of the condition.",
@@ -5151,6 +5152,7 @@
   },
   {
     "q": "What will be the output of the following switch-case statement?",
+    "l": "javascript",
     "c": "let value = '2';\nswitch (value) {\n    case 2:\n        console.log(\"Number 2\");\n        break;\n    case '2':\n        console.log(\"String 2\");\n        break;\n    default:\n        console.log(\"Unknown\");\n}",
     "o": [
       "String 2",
@@ -5161,7 +5163,6 @@
   },
   {
     "q": "Which of the following statements about the switch-case statement is true?",
-    "c": null,
     "o": [
       "The case values are compared using strict equality (===).",
       "The case values are compared using loose equality (==).",
@@ -5171,6 +5172,7 @@
   },
   {
     "q": "What will be the output of the following for loop?",
+    "l": "javascript",
     "c": "for (let i = 1; i <= 5; i *= 2) {\n    console.log(i);\n}",
     "o": [
       "1\n2\n4",
@@ -5181,7 +5183,6 @@
   },
   {
     "q": "Which of the following statements about for loops is incorrect?",
-    "c": null,
     "o": [
       "A for loop can have multiple initialization expressions.",
       "A for loop must have an increment statement.",
@@ -5191,6 +5192,7 @@
   },
   {
     "q": "What will be the output of the following while loop?",
+    "l": "javascript",
     "c": "let count = 0;\nwhile (count < 3) {\n    console.log(count);\n    count++;\n}",
     "o": [
       "0\n1\n2",
@@ -5201,7 +5203,6 @@
   },
   {
     "q": "Which of the following statements is true about while loops?",
-    "c": null,
     "o": [
       "A while loop may not execute at all if the condition is false initially.",
       "A while loop always executes at least once.",
@@ -5211,6 +5212,7 @@
   },
   {
     "q": "What will be the output of the following do-while loop?",
+    "l": "javascript",
     "c": "let x = 10;\ndo {\n    console.log(x);\n    x += 5;\n} while (x < 15);",
     "o": [
       "10",
@@ -5221,7 +5223,6 @@
   },
   {
     "q": "Which of the following statements about the do-while loop is correct?",
-    "c": null,
     "o": [
       "A do-while loop executes the body at least once before checking the condition.",
       "A do-while loop is identical to a while loop in execution.",
@@ -5231,6 +5232,7 @@
   },
   {
     "q": "What will be the output of the following if-else statement?",
+    "l": "javascript",
     "c": "let x = 0;\nif (x) {\n    console.log(\"True\");\n} else {\n    console.log(\"False\");\n}",
     "o": [
       "False",
@@ -5241,7 +5243,6 @@
   },
   {
     "q": "Which of the following values will evaluate to false in an if condition?",
-    "c": null,
     "o": [
       "0",
       "1",
@@ -5251,6 +5252,7 @@
   },
   {
     "q": "What will be the output of the following switch statement?",
+    "l": "javascript",
     "c": "let fruit = \"apple\";\nswitch (fruit) {\n    case \"banana\":\n        console.log(\"Banana\");\n        break;\n    case \"apple\":\n    case \"mango\":\n        console.log(\"Apple or Mango\");\n        break;\n    default:\n        console.log(\"Unknown\");\n}",
     "o": [
       "Apple or Mango",
@@ -5261,7 +5263,6 @@
   },
   {
     "q": "What happens if a case in a switch statement does not include a break?",
-    "c": null,
     "o": [
       "Execution continues to the next case until a break is encountered.",
       "An error is thrown.",
@@ -5271,6 +5272,7 @@
   },
   {
     "q": "What will be the output of the following for loop?",
+    "l": "javascript",
     "c": "for (let i = 5; i > 0; i--) {\n    if (i === 3) break;\n    console.log(i);\n}",
     "o": [
       "5\n4",
@@ -5281,7 +5283,6 @@
   },
   {
     "q": "Which of the following statements about for loops is true?",
-    "c": null,
     "o": [
       "The initialization, condition, and update can be omitted.",
       "A for loop must always include an increment or decrement statement.",
@@ -5291,6 +5292,7 @@
   },
   {
     "q": "What will be the output of the following while loop?",
+    "l": "javascript",
     "c": "let num = 1;\nwhile (num < 10) {\n    console.log(num);\n    num *= 2;\n}",
     "o": [
       "1\n2\n4\n8",
@@ -5301,7 +5303,6 @@
   },
   {
     "q": "Which of the following statements is false about while loops?",
-    "c": null,
     "o": [
       "A while loop always runs at least once.",
       "A while loop executes as long as the condition remains true.",
@@ -5311,6 +5312,7 @@
   },
   {
     "q": "What will be the output of the following do-while loop?",
+    "l": "javascript",
     "c": "let count = 5;\ndo {\n    console.log(count);\n    count -= 2;\n} while (count > 0);",
     "o": [
       "5\n3\n1",
@@ -5321,7 +5323,6 @@
   },
   {
     "q": "Which of the following best describes a do-while loop?",
-    "c": null,
     "o": [
       "A do-while loop always executes its body at least once.",
       "A do-while loop behaves exactly like a while loop.",
@@ -5331,6 +5332,7 @@
   },
   {
     "q": "What will be the output of the following nested if-else statement?",
+    "l": "javascript",
     "c": "let num = 7;\nif (num > 5) {\n    if (num % 2 === 0) {\n        console.log(\"Even and greater than 5\");\n    } else {\n        console.log(\"Odd and greater than 5\");\n    }\n} else {\n    console.log(\"5 or less\");\n}",
     "o": [
       "Odd and greater than 5",
@@ -5341,7 +5343,6 @@
   },
   {
     "q": "Which of the following is the correct syntax for an if-else statement?",
-    "c": null,
     "o": [
       "if (condition) { /* code */ } else { /* code */ }",
       "if condition { /* code */ } else { /* code */ }",
@@ -5351,6 +5352,7 @@
   },
   {
     "q": "What will be the output of the following switch-case statement?",
+    "l": "javascript",
     "c": "let value = 10;\nswitch (value) {\n    case 5:\n        console.log(\"Five\");\n    case 10:\n        console.log(\"Ten\");\n    case 15:\n        console.log(\"Fifteen\");\n        break;\n    default:\n        console.log(\"Unknown\");\n}",
     "o": [
       "Ten\nFifteen",
@@ -5361,7 +5363,6 @@
   },
   {
     "q": "What happens if a switch case does not match any case and no default case is provided?",
-    "c": null,
     "o": [
       "Nothing happens, the switch block is skipped.",
       "An error is thrown.",
@@ -5371,6 +5372,7 @@
   },
   {
     "q": "What will be the output of the following for loop?",
+    "l": "javascript",
     "c": "for (let i = 1; i <= 10; i *= 2) {\n    console.log(i);\n}",
     "o": [
       "1\n2\n4\n8",
@@ -5381,7 +5383,6 @@
   },
   {
     "q": "Which statement is true regarding the for loop?",
-    "c": null,
     "o": [
       "The initialization, condition, and increment can all be omitted.",
       "A for loop must have a numeric counter.",
@@ -5391,6 +5392,7 @@
   },
   {
     "q": "What will be the output of the following while loop?",
+    "l": "javascript",
     "c": "let i = 1;\nwhile (i < 3) {\n    console.log(i);\n    i++;\n}\nconsole.log(\"Done\");",
     "o": [
       "1\n2\nDone",
@@ -5401,7 +5403,6 @@
   },
   {
     "q": "Which of the following statements is true about while loops?",
-    "c": null,
     "o": [
       "A while loop can run indefinitely if the condition never becomes false.",
       "A while loop must have an explicit counter.",
@@ -5411,6 +5412,7 @@
   },
   {
     "q": "What will be the output of the following do-while loop?",
+    "l": "javascript",
     "c": "let x = 5;\ndo {\n    console.log(x);\n    x -= 3;\n} while (x > 0);",
     "o": [
       "5\n2",
@@ -5421,7 +5423,6 @@
   },
   {
     "q": "Which statement about the do-while loop is false?",
-    "c": null,
     "o": [
       "A do-while loop may never execute if the condition is false initially.",
       "A do-while loop executes at least once before checking the condition.",
@@ -5431,6 +5432,7 @@
   },
   {
     "q": "What will be the output of the following if-else statement?",
+    "l": "javascript",
     "c": "let a = 10, b = 5;\nif (a < b) {\n    console.log(\"a is smaller\");\n} else if (a === b) {\n    console.log(\"a and b are equal\");\n} else {\n    console.log(\"a is greater\");\n}",
     "o": [
       "a is greater",
@@ -5441,7 +5443,6 @@
   },
   {
     "q": "Which of the following statements about the if-else structure is true?",
-    "c": null,
     "o": [
       "An if block can exist without an else block.",
       "An else block must always be included in an if statement.",
@@ -5451,6 +5452,7 @@
   },
   {
     "q": "What will be the output of the following switch-case statement?",
+    "l": "javascript",
     "c": "let day = \"Monday\";\nswitch (day) {\n    case \"Monday\":\n        console.log(\"Start of the week\");\n    case \"Friday\":\n        console.log(\"Almost weekend\");\n        break;\n    default:\n        console.log(\"Regular day\");\n}",
     "o": [
       "Start of the week\nAlmost weekend",
@@ -5461,7 +5463,6 @@
   },
   {
     "q": "Which of the following is NOT a valid switch-case rule in JavaScript?",
-    "c": null,
     "o": [
       "Cases must have a unique value.",
       "The break statement is optional but helps control flow.",
@@ -5471,6 +5472,7 @@
   },
   {
     "q": "What will be the output of the following for loop?",
+    "l": "javascript",
     "c": "for (let i = 10; i >= 0; i -= 3) {\n    console.log(i);\n}",
     "o": [
       "10\n7\n4\n1",
@@ -5481,7 +5483,6 @@
   },
   {
     "q": "Which statement is true regarding the for loop structure?",
-    "c": null,
     "o": [
       "The condition part of the loop determines whether the loop will continue.",
       "The increment part is mandatory in every for loop.",
@@ -5491,6 +5492,7 @@
   },
   {
     "q": "What will be the output of the following while loop?",
+    "l": "javascript",
     "c": "let count = 3;\nwhile (count > 0) {\n    console.log(count);\n    count--;\n}",
     "o": [
       "3\n2\n1",
@@ -5501,7 +5503,6 @@
   },
   {
     "q": "Which of the following best describes a while loop?",
-    "c": null,
     "o": [
       "It continues execution as long as the condition remains true.",
       "It runs a fixed number of times, always three times.",
@@ -5511,6 +5512,7 @@
   },
   {
     "q": "What will be the output of the following do-while loop?",
+    "l": "javascript",
     "c": "let num = 5;\ndo {\n    console.log(num);\n    num++;\n} while (num < 8);",
     "o": [
       "5\n6\n7",
@@ -5521,7 +5523,6 @@
   },
   {
     "q": "Which of the following is a key difference between while and do-while loops?",
-    "c": null,
     "o": [
       "A do-while loop executes at least once before checking the condition.",
       "A while loop executes at least once before checking the condition.",
@@ -5531,6 +5532,7 @@
   },
   {
     "q": "What will be the output of the following if-else statement?",
+    "l": "javascript",
     "c": "let x = 8;\nif (x % 2 === 0) {\n    console.log(\"Even number\");\n} else {\n    console.log(\"Odd number\");\n}",
     "o": [
       "Even number",
@@ -5541,7 +5543,6 @@
   },
   {
     "q": "Which of the following is true about the if-else statement in JavaScript?",
-    "c": null,
     "o": [
       "Multiple if-else statements can be nested.",
       "An if statement must always have an else block.",
@@ -5551,6 +5552,7 @@
   },
   {
     "q": "What will be the output of the following switch-case statement?",
+    "l": "javascript",
     "c": "let grade = 'B';\nswitch (grade) {\n    case 'A':\n        console.log('Excellent');\n        break;\n    case 'B':\n        console.log('Good');\n    case 'C':\n        console.log('Average');\n        break;\n    default:\n        console.log('Fail');\n}",
     "o": [
       "Good\nAverage",
@@ -5561,7 +5563,6 @@
   },
   {
     "q": "Which of the following is a correct rule for a switch-case statement?",
-    "c": null,
     "o": [
       "The default case is optional.",
       "A break statement must be present in every case block.",
@@ -5571,6 +5572,7 @@
   },
   {
     "q": "What will be the output of the following for loop?",
+    "l": "javascript",
     "c": "for (let i = 2; i <= 10; i *= 2) {\n    console.log(i);\n}",
     "o": [
       "2\n4\n8",
@@ -5581,7 +5583,6 @@
   },
   {
     "q": "Which statement about the for loop is correct?",
-    "c": null,
     "o": [
       "The increment part can contain any arithmetic operation.",
       "A for loop cannot be used to iterate over arrays.",
@@ -5591,6 +5592,7 @@
   },
   {
     "q": "What will be the output of the following while loop?",
+    "l": "javascript",
     "c": "let i = 1;\nwhile (i < 5) {\n    console.log(i);\n    i += 2;\n}",
     "o": [
       "1\n3",
@@ -5601,7 +5603,6 @@
   },
   {
     "q": "Which of the following statements is true about while loops?",
-    "c": null,
     "o": [
       "A while loop may never execute if the condition is false initially.",
       "A while loop always runs at least once.",
@@ -5611,6 +5612,7 @@
   },
   {
     "q": "What will be the output of the following do-while loop?",
+    "l": "javascript",
     "c": "let count = 3;\ndo {\n    console.log(count);\n    count -= 2;\n} while (count > 0);",
     "o": [
       "3\n1",
@@ -5621,7 +5623,6 @@
   },
   {
     "q": "Which of the following is a correct characteristic of a do-while loop?",
-    "c": null,
     "o": [
       "The loop body executes at least once before checking the condition.",
       "A do-while loop always runs infinitely.",
@@ -5631,6 +5632,7 @@
   },
   {
     "q": "What will be the output of the following if-else statement?",
+    "l": "javascript",
     "c": "let num = -5;\nif (num > 0) {\n    console.log(\"Positive\");\n} else if (num < 0) {\n    console.log(\"Negative\");\n} else {\n    console.log(\"Zero\");\n}",
     "o": [
       "Negative",
@@ -5641,7 +5643,6 @@
   },
   {
     "q": "Which statement about if-else is correct in JavaScript?",
-    "c": null,
     "o": [
       "An if block can exist without an else block.",
       "Every if statement must have an else block.",
@@ -5651,6 +5652,7 @@
   },
   {
     "q": "What will be the output of the following switch-case statement?",
+    "l": "javascript",
     "c": "let day = 3;\nswitch (day) {\n    case 1:\n        console.log(\"Monday\");\n        break;\n    case 2:\n        console.log(\"Tuesday\");\n        break;\n    case 3:\n    case 4:\n        console.log(\"Midweek\");\n        break;\n    default:\n        console.log(\"Weekend\");\n}",
     "o": [
       "Midweek",
@@ -5661,7 +5663,6 @@
   },
   {
     "q": "Which of the following is true about switch-case in JavaScript?",
-    "c": null,
     "o": [
       "Cases without a break statement will fall through.",
       "Switch-case cannot handle string values.",
@@ -5671,6 +5672,7 @@
   },
   {
     "q": "What will be the output of the following for loop?",
+    "l": "javascript",
     "c": "for (let i = 1; i < 5; i += 2) {\n    console.log(i);\n}",
     "o": [
       "1\n3",
@@ -5681,7 +5683,6 @@
   },
   {
     "q": "Which of the following is NOT true about the for loop in JavaScript?",
-    "c": null,
     "o": [
       "The increment step is optional.",
       "A for loop can be used to iterate over arrays.",
@@ -5691,6 +5692,7 @@
   },
   {
     "q": "What will be the output of the following while loop?",
+    "l": "javascript",
     "c": "let count = 5;\nwhile (count > 0) {\n    console.log(count);\n    count -= 2;\n}",
     "o": [
       "5\n3\n1",
@@ -5701,7 +5703,6 @@
   },
   {
     "q": "Which statement about while loops is correct?",
-    "c": null,
     "o": [
       "A while loop continues running as long as the condition is true.",
       "A while loop must have a break statement to terminate.",
@@ -5711,6 +5712,7 @@
   },
   {
     "q": "What will be the output of the following do-while loop?",
+    "l": "javascript",
     "c": "let x = 10;\ndo {\n    console.log(x);\n    x -= 3;\n} while (x > 4);",
     "o": [
       "10\n7\n4",
@@ -5721,7 +5723,6 @@
   },
   {
     "q": "Which of the following is a characteristic of a do-while loop?",
-    "c": null,
     "o": [
       "The loop body executes at least once regardless of the condition.",
       "A do-while loop does not allow break statements.",
@@ -5731,6 +5732,7 @@
   },
   {
     "q": "What will be the output of the following if-else statement?",
+    "l": "javascript",
     "c": "let temperature = 30;\nif (temperature > 35) {\n    console.log(\"Hot\");\n} else if (temperature >= 25) {\n    console.log(\"Warm\");\n} else {\n    console.log(\"Cold\");\n}",
     "o": [
       "Warm",
@@ -5741,7 +5743,6 @@
   },
   {
     "q": "Which of the following statements is true about JavaScript if-else?",
-    "c": null,
     "o": [
       "Multiple if-else conditions can be used to handle different cases.",
       "An if statement must always be followed by an else block.",
@@ -5751,6 +5752,7 @@
   },
   {
     "q": "What will be the output of the following switch-case statement?",
+    "l": "javascript",
     "c": "let fruit = \"apple\";\nswitch (fruit) {\n    case \"banana\":\n        console.log(\"Yellow\");\n        break;\n    case \"apple\":\n        console.log(\"Red\");\n        break;\n    case \"grape\":\n        console.log(\"Purple\");\n        break;\n    default:\n        console.log(\"Unknown\");\n}",
     "o": [
       "Red",
@@ -5761,7 +5763,6 @@
   },
   {
     "q": "Which of the following statements about switch-case is incorrect?",
-    "c": null,
     "o": [
       "A break statement prevents fall-through behavior.",
       "Switch cases compare values using strict equality (===).",
@@ -5771,6 +5772,7 @@
   },
   {
     "q": "What will be the output of the following for loop?",
+    "l": "javascript",
     "c": "for (let i = 10; i >= 6; i -= 2) {\n    console.log(i);\n}",
     "o": [
       "10\n8\n6",
@@ -5781,7 +5783,6 @@
   },
   {
     "q": "Which of the following best describes a for loop?",
-    "c": null,
     "o": [
       "A loop that runs a fixed number of times based on a condition.",
       "A loop that always runs indefinitely.",
@@ -5791,6 +5792,7 @@
   },
   {
     "q": "What will be the output of the following while loop?",
+    "l": "javascript",
     "c": "let num = 1;\nwhile (num < 4) {\n    console.log(num);\n    num++;\n}",
     "o": [
       "1\n2\n3",
@@ -5801,7 +5803,6 @@
   },
   {
     "q": "Which of the following is true about while loops?",
-    "c": null,
     "o": [
       "A while loop continues execution as long as the condition is true.",
       "A while loop must have a break statement to exit.",
@@ -5811,6 +5812,7 @@
   },
   {
     "q": "What will be the output of the following do-while loop?",
+    "l": "javascript",
     "c": "let count = 2;\ndo {\n    console.log(count);\n    count *= 2;\n} while (count < 10);",
     "o": [
       "2\n4\n8",
@@ -5821,7 +5823,6 @@
   },
   {
     "q": "Which of the following is a characteristic of a do-while loop?",
-    "c": null,
     "o": [
       "The loop executes at least once before checking the condition.",
       "The loop condition is checked before executing the loop body.",
@@ -5831,6 +5832,7 @@
   },
   {
     "q": "What will be the output of the following if-else statement?",
+    "l": "javascript",
     "c": "let num = 7;\nif (num % 2 === 0) {\n    console.log(\"Even\");\n} else {\n    console.log(\"Odd\");\n}",
     "o": [
       "Odd",
@@ -5841,7 +5843,6 @@
   },
   {
     "q": "Which of the following statements about if-else is correct?",
-    "c": null,
     "o": [
       "An if-else block can contain multiple else-if conditions.",
       "An else statement is required in every if-else block.",
@@ -5851,6 +5852,7 @@
   },
   {
     "q": "What will be the output of the following switch-case statement?",
+    "l": "javascript",
     "c": "let grade = \"B\";\nswitch (grade) {\n    case \"A\":\n        console.log(\"Excellent\");\n        break;\n    case \"B\":\n        console.log(\"Good\");\n        break;\n    case \"C\":\n        console.log(\"Average\");\n        break;\n    default:\n        console.log(\"Fail\");\n}",
     "o": [
       "Good",
@@ -5861,7 +5863,6 @@
   },
   {
     "q": "Which statement is false about switch-case in JavaScript?",
-    "c": null,
     "o": [
       "Switch statements can compare values using strict equality (===).",
       "A break statement is required to prevent fall-through behavior.",
@@ -5871,6 +5872,7 @@
   },
   {
     "q": "What will be the output of the following for loop?",
+    "l": "javascript",
     "c": "for (let i = 5; i < 10; i += 2) {\n    console.log(i);\n}",
     "o": [
       "5\n7\n9",
@@ -5881,7 +5883,6 @@
   },
   {
     "q": "Which of the following is NOT a valid for loop declaration?",
-    "c": null,
     "o": [
       "for (let i = 0; i < 5; i++)",
       "for (let i = 10; i >= 0; i--)",
@@ -5891,6 +5892,7 @@
   },
   {
     "q": "What will be the output of the following while loop?",
+    "l": "javascript",
     "c": "let count = 3;\nwhile (count > 0) {\n    console.log(count);\n    count--;\n}",
     "o": [
       "3\n2\n1",
@@ -5901,7 +5903,6 @@
   },
   {
     "q": "Which statement is true about while loops in JavaScript?",
-    "c": null,
     "o": [
       "A while loop runs as long as the condition is true.",
       "A while loop always runs at least once.",
@@ -5911,6 +5912,7 @@
   },
   {
     "q": "What will be the output of the following do-while loop?",
+    "l": "javascript",
     "c": "let x = 10;\ndo {\n    console.log(x);\n    x -= 4;\n} while (x > 0);",
     "o": [
       "10\n6\n2",
@@ -5921,7 +5923,6 @@
   },
   {
     "q": "Which of the following correctly describes the behavior of a do-while loop?",
-    "c": null,
     "o": [
       "It executes at least once, even if the condition is false initially.",
       "It checks the condition before executing the loop body.",
@@ -5931,6 +5932,7 @@
   },
   {
     "q": "What will be the output of the following if-else statement?",
+    "l": "javascript",
     "c": "let temperature = 35;\nif (temperature > 30) {\n    console.log(\"Hot\");\n} else if (temperature > 20) {\n    console.log(\"Warm\");\n} else {\n    console.log(\"Cold\");\n}",
     "o": [
       "Hot",
@@ -5941,7 +5943,6 @@
   },
   {
     "q": "Which of the following is a valid way to write an if-else statement?",
-    "c": null,
     "o": [
       "if (x > 10) { console.log(\"Big\"); } else { console.log(\"Small\"); }",
       "if x > 10 then console.log(\"Big\"); else console.log(\"Small\");",
@@ -5951,6 +5952,7 @@
   },
   {
     "q": "What will be the output of the following switch-case statement?",
+    "l": "javascript",
     "c": "let day = \"Monday\";\nswitch (day) {\n    case \"Monday\":\n    case \"Wednesday\":\n    case \"Friday\":\n        console.log(\"Workout Day\");\n        break;\n    case \"Sunday\":\n        console.log(\"Rest Day\");\n        break;\n    default:\n        console.log(\"Regular Day\");\n}",
     "o": [
       "Workout Day",
@@ -5961,7 +5963,6 @@
   },
   {
     "q": "What happens if you forget to include a break statement in a switch-case?",
-    "c": null,
     "o": [
       "The execution falls through to the next case until a break is encountered.",
       "The program throws an error.",
@@ -5971,6 +5972,7 @@
   },
   {
     "q": "What will be the output of the following for loop?",
+    "l": "javascript",
     "c": "for (let i = 1; i <= 10; i *= 3) {\n    console.log(i);\n}",
     "o": [
       "1\n3\n9",
@@ -5981,7 +5983,6 @@
   },
   {
     "q": "Which of the following for loop variations is incorrect?",
-    "c": null,
     "o": [
       "for (let i = 5; i >= 0; i--)",
       "for (let i = 1; i < 10; i += 2)",
@@ -5991,6 +5992,7 @@
   },
   {
     "q": "What will be the output of the following while loop?",
+    "l": "javascript",
     "c": "let num = 4;\nwhile (num < 20) {\n    console.log(num);\n    num *= 2;\n}",
     "o": [
       "4\n8\n16",
@@ -6001,7 +6003,6 @@
   },
   {
     "q": "Which of the following statements about while loops is false?",
-    "c": null,
     "o": [
       "While loops execute at least once before checking the condition.",
       "While loops continue executing as long as the condition remains true.",
@@ -6011,6 +6012,7 @@
   },
   {
     "q": "What will be the output of the following do-while loop?",
+    "l": "javascript",
     "c": "let y = 1;\ndo {\n    console.log(y);\n    y += 3;\n} while (y < 10);",
     "o": [
       "1\n4\n7",
@@ -6021,7 +6023,6 @@
   },
   {
     "q": "Which of the following correctly explains the do-while loop?",
-    "c": null,
     "o": [
       "It ensures that the loop body runs at least once before checking the condition.",
       "It does not require a condition to execute.",
@@ -6031,6 +6032,7 @@
   },
   {
     "q": "What will be the output of the following if-else statement?",
+    "l": "javascript",
     "c": "let score = 85;\nif (score >= 90) {\n    console.log(\"A\");\n} else if (score >= 80) {\n    console.log(\"B\");\n} else {\n    console.log(\"C\");\n}",
     "o": [
       "B",
@@ -6041,7 +6043,6 @@
   },
   {
     "q": "Which of the following statements about the if-else construct is true?",
-    "c": null,
     "o": [
       "An if statement can exist without an else.",
       "Every if must have an else block.",
@@ -6051,6 +6052,7 @@
   },
   {
     "q": "What will be the output of the following switch-case statement?",
+    "l": "javascript",
     "c": "let fruit = \"apple\";\nswitch (fruit) {\n    case \"banana\":\n        console.log(\"Yellow\");\n        break;\n    case \"apple\":\n        console.log(\"Red\");\n        break;\n    case \"grape\":\n        console.log(\"Purple\");\n        break;\n    default:\n        console.log(\"Unknown\");\n}",
     "o": [
       "Red",
@@ -6061,7 +6063,6 @@
   },
   {
     "q": "Which of the following is true about the switch statement?",
-    "c": null,
     "o": [
       "It compares values using strict comparison (===).",
       "It only works with numerical values.",
@@ -6071,6 +6072,7 @@
   },
   {
     "q": "What will be the output of the following for loop?",
+    "l": "javascript",
     "c": "for (let i = 2; i <= 8; i += 2) {\n    console.log(i);\n}",
     "o": [
       "2\n4\n6\n8",
@@ -6081,7 +6083,6 @@
   },
   {
     "q": "Which of the following will result in an infinite loop?",
-    "c": null,
     "o": [
       "for (let i = 5; i > 0; i--) { console.log(i); }",
       "while (true) { console.log(\"Looping\"); }",
@@ -6091,6 +6092,7 @@
   },
   {
     "q": "What will be the output of the following while loop?",
+    "l": "javascript",
     "c": "let count = 3;\nwhile (count > 0) {\n    console.log(count);\n    count--;\n}",
     "o": [
       "3\n2\n1",
@@ -6101,7 +6103,6 @@
   },
   {
     "q": "Which of the following is a correct way to use a do-while loop?",
-    "c": null,
     "o": [
       "do { console.log(\"Hello\"); } while (false);",
       "while (false) { console.log(\"Hello\"); }",
@@ -6111,6 +6112,7 @@
   },
   {
     "q": "What will be the output of the following do-while loop?",
+    "l": "javascript",
     "c": "let num = 10;\ndo {\n    console.log(num);\n    num -= 2;\n} while (num > 4);",
     "o": [
       "10\n8\n6",
@@ -6121,7 +6123,6 @@
   },
   {
     "q": "Which statement correctly describes how a do-while loop works?",
-    "c": null,
     "o": [
       "It always executes the loop body at least once before checking the condition.",
       "It is identical to a while loop in execution.",
@@ -6131,6 +6132,7 @@
   },
   {
     "q": "What will be the output of the following if-else statement?",
+    "l": "javascript",
     "c": "let num = 7;\nif (num % 2 === 0) {\n    console.log(\"Even\");\n} else {\n    console.log(\"Odd\");\n}",
     "o": [
       "Odd",
@@ -6141,7 +6143,6 @@
   },
   {
     "q": "Which of the following is true about an else block?",
-    "c": null,
     "o": [
       "It executes only if the if condition is false.",
       "It must always be followed by another if statement.",
@@ -6151,6 +6152,7 @@
   },
   {
     "q": "What will be the output of the following switch-case statement?",
+    "l": "javascript",
     "c": "let day = \"Monday\";\nswitch (day) {\n    case \"Monday\":\n    case \"Tuesday\":\n        console.log(\"Weekday\");\n        break;\n    case \"Saturday\":\n    case \"Sunday\":\n        console.log(\"Weekend\");\n        break;\n    default:\n        console.log(\"Invalid day\");\n}",
     "o": [
       "Weekday",
@@ -6161,7 +6163,6 @@
   },
   {
     "q": "Which of the following will cause a fall-through in a switch statement?",
-    "c": null,
     "o": [
       "Omitting the break statement in a case block.",
       "Using a return statement inside a case block.",
@@ -6171,6 +6172,7 @@
   },
   {
     "q": "What will be the output of the following for loop?",
+    "l": "javascript",
     "c": "for (let i = 10; i >= 5; i--) {\n    console.log(i);\n}",
     "o": [
       "10\n9\n8\n7\n6\n5",
@@ -6181,7 +6183,6 @@
   },
   {
     "q": "Which of the following is a correct way to declare an infinite loop using a for loop?",
-    "c": null,
     "o": [
       "for (;;) { console.log(\"Looping\"); }",
       "for (let i = 0; i < 10; i--) { console.log(i); }",
@@ -6191,6 +6192,7 @@
   },
   {
     "q": "What will be the output of the following while loop?",
+    "l": "javascript",
     "c": "let x = 1;\nwhile (x < 4) {\n    console.log(\"Iteration \" + x);\n    x++;\n}",
     "o": [
       "Iteration 1\nIteration 2\nIteration 3",
@@ -6201,7 +6203,6 @@
   },
   {
     "q": "Which of the following statements about a while loop is correct?",
-    "c": null,
     "o": [
       "It runs as long as the condition is true.",
       "It executes at least once even if the condition is false.",
@@ -6211,6 +6212,7 @@
   },
   {
     "q": "What will be the output of the following do-while loop?",
+    "l": "javascript",
     "c": "let i = 0;\ndo {\n    console.log(\"Count: \" + i);\n    i += 2;\n} while (i < 6);",
     "o": [
       "Count: 0\nCount: 2\nCount: 4",
@@ -6221,7 +6223,6 @@
   },
   {
     "q": "Which of the following is a key difference between a while loop and a do-while loop?",
-    "c": null,
     "o": [
       "A do-while loop always executes at least once.",
       "A while loop runs even if the condition is false initially.",
@@ -6231,6 +6232,7 @@
   },
   {
     "q": "What will be the output of the following if-else statement?",
+    "l": "javascript",
     "c": "let num = -3;\nif (num > 0) {\n    console.log(\"Positive\");\n} else if (num < 0) {\n    console.log(\"Negative\");\n} else {\n    console.log(\"Zero\");\n}",
     "o": [
       "Negative",
@@ -6241,7 +6243,6 @@
   },
   {
     "q": "Which of the following correctly uses the ternary operator to check if a number is even?",
-    "c": null,
     "o": [
       "let result = (num % 2 === 0) ? \"Even\" : \"Odd\";",
       "let result = num % 2 === 0 : \"Even\" ? \"Odd\";",
@@ -6251,6 +6252,7 @@
   },
   {
     "q": "What will be the output of the following switch-case statement?",
+    "l": "javascript",
     "c": "let color = \"red\";\nswitch (color) {\n    case \"blue\":\n        console.log(\"Sky\");\n        break;\n    case \"green\":\n        console.log(\"Grass\");\n        break;\n    case \"red\":\n        console.log(\"Apple\");\n        break;\n    default:\n        console.log(\"Unknown\");\n}",
     "o": [
       "Apple",
@@ -6261,7 +6263,6 @@
   },
   {
     "q": "Which of the following cases in a switch statement will execute if no matching case is found?",
-    "c": null,
     "o": [
       "default",
       "first case",
@@ -6271,6 +6272,7 @@
   },
   {
     "q": "What will be the output of the following for loop?",
+    "l": "javascript",
     "c": "for (let i = 2; i <= 8; i += 2) {\n    console.log(i);\n}",
     "o": [
       "2\n4\n6\n8",
@@ -6281,7 +6283,6 @@
   },
   {
     "q": "Which of the following correctly implements a nested for loop?",
-    "c": null,
     "o": [
       "for (let i = 1; i <= 3; i++) {\n    for (let j = 1; j <= 2; j++) {\n        console.log(i, j);\n    }\n}",
       "for (let i = 1; i <= 3; i++) {\n    console.log(i);\n    for (let j = 1; j >= 2; j--) {\n        console.log(j);\n    }\n}",
@@ -6291,6 +6292,7 @@
   },
   {
     "q": "What will be the output of the following while loop?",
+    "l": "javascript",
     "c": "let count = 5;\nwhile (count > 0) {\n    console.log(\"Countdown: \" + count);\n    count--;\n}",
     "o": [
       "Countdown: 5\nCountdown: 4\nCountdown: 3\nCountdown: 2\nCountdown: 1",
@@ -6301,7 +6303,6 @@
   },
   {
     "q": "Which of the following best describes the behavior of a do-while loop?",
-    "c": null,
     "o": [
       "Executes at least once before checking the condition.",
       "Does not execute if the condition is false initially.",
@@ -6311,6 +6312,7 @@
   },
   {
     "q": "What will be the output of the following if-else statement?",
+    "l": "javascript",
     "c": "let x = 10;\nif (x === '10') {\n    console.log(\"Equal\");\n} else {\n    console.log(\"Not Equal\");\n}",
     "o": [
       "Not Equal",
@@ -6321,7 +6323,6 @@
   },
   {
     "q": "Which statement correctly represents an if-else block in JavaScript?",
-    "c": null,
     "o": [
       "if (condition) { /* code */ } else { /* code */ }",
       "if condition then { /* code */ } else { /* code */ }",
@@ -6331,6 +6332,7 @@
   },
   {
     "q": "What will be the output of the following switch statement?",
+    "l": "javascript",
     "c": "let day = 3;\nswitch (day) {\n    case 1:\n        console.log(\"Monday\");\n        break;\n    case 2:\n        console.log(\"Tuesday\");\n        break;\n    case 3:\n        console.log(\"Wednesday\");\n        break;\n    default:\n        console.log(\"Invalid day\");\n}",
     "o": [
       "Wednesday",
@@ -6341,7 +6343,6 @@
   },
   {
     "q": "What happens if a break statement is missing in a switch-case structure?",
-    "c": null,
     "o": [
       "Execution falls through to the next case.",
       "The switch statement terminates immediately.",
@@ -6351,6 +6352,7 @@
   },
   {
     "q": "What will be the output of the following for loop?",
+    "l": "javascript",
     "c": "for (let i = 1; i <= 5; i++) {\n    if (i === 3) {\n        continue;\n    }\n    console.log(i);\n}",
     "o": [
       "1\n2\n4\n5",
@@ -6361,7 +6363,6 @@
   },
   {
     "q": "Which of the following loops ensures execution at least once, even if the condition is false?",
-    "c": null,
     "o": [
       "do-while loop",
       "while loop",
@@ -6371,6 +6372,7 @@
   },
   {
     "q": "What will be the output of the following while loop?",
+    "l": "javascript",
     "c": "let n = 3;\nwhile (n > 0) {\n    console.log(n);\n    n--;\n}",
     "o": [
       "3\n2\n1",
@@ -6381,7 +6383,6 @@
   },
   {
     "q": "Which of the following is a valid do-while loop syntax?",
-    "c": null,
     "o": [
       "do { console.log(\"Hello\"); } while (condition);",
       "while (condition) { console.log(\"Hello\"); } do;",
@@ -6391,6 +6392,7 @@
   },
   {
     "q": "What will be the output of the following if-else statement?",
+    "l": "javascript",
     "c": "let num = -5;\nif (num > 0) {\n    console.log(\"Positive\");\n} else if (num < 0) {\n    console.log(\"Negative\");\n} else {\n    console.log(\"Zero\");\n}",
     "o": [
       "Negative",
@@ -6401,7 +6403,6 @@
   },
   {
     "q": "Which of the following correctly represents a ternary (conditional) operator?",
-    "c": null,
     "o": [
       "condition ? expression1 : expression2",
       "if (condition) { expression1 } else { expression2 }",
@@ -6411,6 +6412,7 @@
   },
   {
     "q": "What will be the output of the following switch-case statement?",
+    "l": "javascript",
     "c": "let fruit = \"apple\";\nswitch (fruit) {\n    case \"banana\":\n        console.log(\"Banana\");\n        break;\n    case \"apple\":\n        console.log(\"Apple\");\n        break;\n    case \"grape\":\n        console.log(\"Grape\");\n        break;\n    default:\n        console.log(\"Unknown fruit\");\n}",
     "o": [
       "Apple",
@@ -6421,7 +6423,6 @@
   },
   {
     "q": "What is the purpose of the default case in a switch statement?",
-    "c": null,
     "o": [
       "It executes when no matching case is found.",
       "It always executes before any case.",
@@ -6431,6 +6432,7 @@
   },
   {
     "q": "What will be the output of the following for loop?",
+    "l": "javascript",
     "c": "for (let i = 10; i > 5; i--) {\n    console.log(i);\n}",
     "o": [
       "10\n9\n8\n7\n6",
@@ -6441,7 +6443,6 @@
   },
   {
     "q": "Which of the following correctly represents an infinite while loop?",
-    "c": null,
     "o": [
       "while (true) { console.log(\"Looping\"); }",
       "while (false) { console.log(\"Looping\"); }",
@@ -6451,6 +6452,7 @@
   },
   {
     "q": "What will be the output of the following do-while loop?",
+    "l": "javascript",
     "c": "let count = 1;\ndo {\n    console.log(count);\n    count++;\n} while (count <= 3);",
     "o": [
       "1\n2\n3",
@@ -6461,7 +6463,6 @@
   },
   {
     "q": "Which statement is true about a do-while loop?",
-    "c": null,
     "o": [
       "It executes the block at least once before checking the condition.",
       "It checks the condition before execution like a while loop.",
@@ -6471,6 +6472,7 @@
   },
   {
     "q": "What will be the output of the following if-else statement?",
+    "l": "javascript",
     "c": "let x = 10;\nif (x === '10') {\n    console.log('Equal');\n} else {\n    console.log('Not Equal');\n}",
     "o": [
       "Not Equal",
@@ -6481,7 +6483,6 @@
   },
   {
     "q": "Which of the following statements about if-else in JavaScript is true?",
-    "c": null,
     "o": [
       "The else block is optional.",
       "An if statement must always be followed by an else block.",
@@ -6491,6 +6492,7 @@
   },
   {
     "q": "What will be the output of the following switch-case statement?",
+    "l": "javascript",
     "c": "let num = 2;\nswitch (num) {\n    case 1:\n    case 2:\n        console.log('Matched');\n        break;\n    default:\n        console.log('Not Matched');\n}",
     "o": [
       "Matched",
@@ -6501,7 +6503,6 @@
   },
   {
     "q": "Which of the following is a valid use of a switch statement?",
-    "c": null,
     "o": [
       "switch(expression) { case value1: ... break; case value2: ... break; default: ... }",
       "switch(expression) ( case value1: ... break; case value2: ... break; default: ... )",
@@ -6511,6 +6512,7 @@
   },
   {
     "q": "What will be the output of the following for loop?",
+    "l": "javascript",
     "c": "for (let i = 1; i <= 5; i += 2) {\n    console.log(i);\n}",
     "o": [
       "1\n3\n5",
@@ -6521,7 +6523,6 @@
   },
   {
     "q": "Which statement about the for loop in JavaScript is correct?",
-    "c": null,
     "o": [
       "It consists of an initialization, condition, and an increment/decrement step.",
       "A for loop must always have all three components.",
@@ -6531,6 +6532,7 @@
   },
   {
     "q": "What will be the output of the following while loop?",
+    "l": "javascript",
     "c": "let i = 1;\nwhile (i < 4) {\n    console.log(i);\n    i++;\n}",
     "o": [
       "1\n2\n3",
@@ -6541,7 +6543,6 @@
   },
   {
     "q": "Which of the following best describes the while loop?",
-    "c": null,
     "o": [
       "It executes repeatedly as long as the condition is true.",
       "It executes at least once before checking the condition.",
@@ -6551,6 +6552,7 @@
   },
   {
     "q": "What will be the output of the following do-while loop?",
+    "l": "javascript",
     "c": "let count = 0;\ndo {\n    console.log('Running');\n} while (count > 0);",
     "o": [
       "Running",
@@ -6561,7 +6563,6 @@
   },
   {
     "q": "Which scenario is best suited for using a do-while loop?",
-    "c": null,
     "o": [
       "When you want the loop body to execute at least once before checking a condition.",
       "When you need a fixed number of iterations.",
@@ -6571,6 +6572,7 @@
   },
   {
     "q": "What will be the output of the following if-else statement?",
+    "l": "javascript",
     "c": "let a = 5, b = 10;\nif (a > b) {\n    console.log('A is greater');\n} else if (a === b) {\n    console.log('Equal');\n} else {\n    console.log('B is greater');\n}",
     "o": [
       "B is greater",
@@ -6581,7 +6583,6 @@
   },
   {
     "q": "Which of the following is a valid if-else statement in JavaScript?",
-    "c": null,
     "o": [
       "if (x > 5) { console.log('Greater'); } else { console.log('Smaller or Equal'); }",
       "if x > 5 then console.log('Greater') else console.log('Smaller or Equal')",
@@ -6591,6 +6592,7 @@
   },
   {
     "q": "What will be the output of the following switch-case statement?",
+    "l": "javascript",
     "c": "let fruit = 'apple';\nswitch (fruit) {\n    case 'banana':\n        console.log('Banana selected');\n        break;\n    case 'apple':\n        console.log('Apple selected');\n        break;\n    default:\n        console.log('Other fruit selected');\n}",
     "o": [
       "Apple selected",
@@ -6601,7 +6603,6 @@
   },
   {
     "q": "Which of the following is true about the switch statement in JavaScript?",
-    "c": null,
     "o": [
       "The break statement is needed to prevent fall-through to the next case.",
       "The default case must always be the last case in a switch statement.",
@@ -6611,6 +6612,7 @@
   },
   {
     "q": "What will be the output of the following for loop?",
+    "l": "javascript",
     "c": "for (let i = 0; i < 3; i++) {\n    console.log(i * 2);\n}",
     "o": [
       "0\n2\n4",
@@ -6621,7 +6623,6 @@
   },
   {
     "q": "Which of the following is a correct syntax for a for loop?",
-    "c": null,
     "o": [
       "for (let i = 0; i < 5; i++) { console.log(i); }",
       "for let i = 0; i < 5; i++ { console.log(i); }",
@@ -6631,6 +6632,7 @@
   },
   {
     "q": "What will be the output of the following while loop?",
+    "l": "javascript",
     "c": "let x = 4;\nwhile (x > 0) {\n    console.log(x);\n    x--;\n}",
     "o": [
       "4\n3\n2\n1",
@@ -6641,7 +6643,6 @@
   },
   {
     "q": "Which of the following is a correct while loop?",
-    "c": null,
     "o": [
       "while (x > 0) { console.log(x); x--; }",
       "while x > 0 { console.log(x); x--; }",
@@ -6651,6 +6652,7 @@
   },
   {
     "q": "What will be the output of the following do-while loop?",
+    "l": "javascript",
     "c": "let y = 0;\ndo {\n    console.log('Executing');\n    y++;\n} while (y < 2);",
     "o": [
       "Executing\nExecuting",
@@ -6661,7 +6663,6 @@
   },
   {
     "q": "Which of the following is a key characteristic of a do-while loop?",
-    "c": null,
     "o": [
       "It executes the loop body at least once before checking the condition.",
       "It always executes indefinitely.",
@@ -6671,7 +6672,6 @@
   },
   {
     "q": "What is the main difference between speed and velocity?",
-    "c": null,
     "o": [
       "Velocity includes direction, while speed does not.",
       "Speed includes direction, while velocity does not.",
@@ -6681,7 +6681,6 @@
   },
   {
     "q": "Which of Newton’s Laws explains why a person in a car moves forward when the brakes are suddenly applied?",
-    "c": null,
     "o": [
       "First Law (Inertia)",
       "Second Law (Force and Acceleration)",
@@ -6691,7 +6690,6 @@
   },
   {
     "q": "What type of friction occurs when an object is at rest and resists motion?",
-    "c": null,
     "o": [
       "Static friction",
       "Sliding friction",
@@ -6701,7 +6699,6 @@
   },
   {
     "q": "Which type of energy is stored in a stretched rubber band?",
-    "c": null,
     "o": [
       "Potential energy",
       "Kinetic energy",
@@ -6711,7 +6708,6 @@
   },
   {
     "q": "What happens to the kinetic energy of an object if its velocity doubles?",
-    "c": null,
     "o": [
       "It quadruples.",
       "It doubles.",
@@ -6721,7 +6717,6 @@
   },
   {
     "q": "Which law explains why rockets move forward by expelling gas backward?",
-    "c": null,
     "o": [
       "Newton's Third Law",
       "Newton's First Law",
@@ -6731,7 +6726,6 @@
   },
   {
     "q": "Which of the following is NOT an example of an inclined plane?",
-    "c": null,
     "o": [
       "A wheel",
       "A ramp",
@@ -6741,7 +6735,6 @@
   },
   {
     "q": "Which part of an atom is involved in electrical conductivity?",
-    "c": null,
     "o": [
       "Electrons",
       "Protons",
@@ -6751,7 +6744,6 @@
   },
   {
     "q": "What happens when like magnetic poles are brought close to each other?",
-    "c": null,
     "o": [
       "They repel.",
       "They attract.",
@@ -6761,7 +6753,6 @@
   },
   {
     "q": "Which type of wave requires a medium to travel through?",
-    "c": null,
     "o": [
       "Mechanical waves",
       "Electromagnetic waves",
@@ -6771,6 +6762,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript code snippet?\n",
+    "l": "javascript",
     "c": "let x = 10;\nif (x > 5) {\n    console.log(\"Greater than 5\");\n} else {\n    console.log(\"Less than or equal to 5\");\n}",
     "o": [
       "Greater than 5",
@@ -6781,7 +6773,6 @@
   },
   {
     "q": "Which statement correctly describes the 'switch' statement in JavaScript?",
-    "c": null,
     "o": [
       "It is used to execute one block of code out of multiple options based on a value.",
       "It can only handle numbers as cases.",
@@ -6791,6 +6782,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript code snippet?\n",
+    "l": "javascript",
     "c": "let num = 3;\nswitch (num) {\n    case 1:\n        console.log(\"One\");\n    case 2:\n        console.log(\"Two\");\n    case 3:\n        console.log(\"Three\");\n    default:\n        console.log(\"Default\");\n}",
     "o": [
       "Three\nDefault",
@@ -6801,7 +6793,6 @@
   },
   {
     "q": "Which loop is guaranteed to execute at least once?",
-    "c": null,
     "o": [
       "do-while loop",
       "for loop",
@@ -6811,6 +6802,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript code snippet?\n",
+    "l": "javascript",
     "c": "let i = 0;\ndo {\n    console.log(i);\n    i++;\n} while (i < 3);",
     "o": [
       "0\n1\n2",
@@ -6821,7 +6813,6 @@
   },
   {
     "q": "Which of the following is true about the 'for' loop in JavaScript?",
-    "c": null,
     "o": [
       "It consists of an initialization, condition, and iteration expression.",
       "It must always run at least once.",
@@ -6831,6 +6822,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript code snippet?\n",
+    "l": "javascript",
     "c": "for (let i = 0; i < 5; i += 2) {\n    console.log(i);\n}",
     "o": [
       "0\n2\n4",
@@ -6841,7 +6833,6 @@
   },
   {
     "q": "Which statement is used to exit a loop in JavaScript?",
-    "c": null,
     "o": [
       "break",
       "continue",
@@ -6851,7 +6842,6 @@
   },
   {
     "q": "What does the 'continue' statement do in a loop?",
-    "c": null,
     "o": [
       "Skips the current iteration and moves to the next one.",
       "Exits the loop completely.",
@@ -6861,6 +6851,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript code snippet?\n",
+    "l": "javascript",
     "c": "for (let i = 1; i <= 5; i++) {\n    if (i === 3) {\n        continue;\n    }\n    console.log(i);\n}",
     "o": [
       "1\n2\n4\n5",
@@ -6871,6 +6862,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript code snippet?\n",
+    "l": "javascript",
     "c": "let num = 10;\nif (num > 5) {\n  console.log(\"Greater than 5\");\n} else {\n  console.log(\"Less than or equal to 5\");\n}",
     "o": [
       "Greater than 5",
@@ -6881,7 +6873,6 @@
   },
   {
     "q": "Which of the following is the correct syntax for a switch-case statement in JavaScript?",
-    "c": null,
     "o": [
       "switch(expression) { case value: statement; break; }",
       "switch(expression) { case value => statement; break; }",
@@ -6891,6 +6882,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript code?\n",
+    "l": "javascript",
     "c": "let x = 3;\nswitch (x) {\n  case 1:\n    console.log(\"One\");\n    break;\n  case 3:\n    console.log(\"Three\");\n    break;\n  default:\n    console.log(\"Other\");\n}",
     "o": [
       "Three",
@@ -6901,7 +6893,6 @@
   },
   {
     "q": "Which loop is guaranteed to execute at least once in JavaScript?",
-    "c": null,
     "o": [
       "do-while loop",
       "for loop",
@@ -6911,6 +6902,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript code snippet?\n",
+    "l": "javascript",
     "c": "for (let i = 0; i < 3; i++) {\n  console.log(i);\n}",
     "o": [
       "0 1 2",
@@ -6921,7 +6913,6 @@
   },
   {
     "q": "Which statement is true about the while loop in JavaScript?",
-    "c": null,
     "o": [
       "It runs as long as the condition evaluates to true.",
       "It always runs at least once.",
@@ -6931,6 +6922,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript code?\n",
+    "l": "javascript",
     "c": "let i = 0;\ndo {\n  console.log(i);\n  i++;\n} while (i < 3);",
     "o": [
       "0 1 2",
@@ -6941,7 +6933,6 @@
   },
   {
     "q": "Which of the following loops is best suited when the number of iterations is known beforehand?",
-    "c": null,
     "o": [
       "for loop",
       "while loop",
@@ -6951,7 +6942,6 @@
   },
   {
     "q": "Which of the following correctly describes how the break statement works in a loop?",
-    "c": null,
     "o": [
       "It immediately exits the loop.",
       "It skips the current iteration and continues with the next iteration.",
@@ -6961,7 +6951,6 @@
   },
   {
     "q": "What is the purpose of the continue statement in a loop?",
-    "c": null,
     "o": [
       "It skips the current iteration and proceeds to the next iteration.",
       "It exits the loop completely.",
@@ -6971,6 +6960,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript code?\n",
+    "l": "javascript",
     "c": "let a = 5, b = '5';\nconsole.log(a == b);\nconsole.log(a === b);",
     "o": [
       "true false",
@@ -6981,7 +6971,6 @@
   },
   {
     "q": "Which of the following is NOT a valid way to declare a variable in JavaScript?",
-    "c": null,
     "o": [
       "using 'var'",
       "using 'let'",
@@ -6991,6 +6980,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript function?\n",
+    "l": "javascript",
     "c": "function test() {\n  console.log(x);\n  var x = 10;\n}\ntest();",
     "o": [
       "undefined",
@@ -7001,6 +6991,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript code?\n",
+    "l": "javascript",
     "c": "let arr = [1, 2, 3];\narr.push(4);\nconsole.log(arr.length);",
     "o": [
       "4",
@@ -7011,7 +7002,6 @@
   },
   {
     "q": "Which array method is used to remove the last element from an array in JavaScript?",
-    "c": null,
     "o": [
       "pop()",
       "shift()",
@@ -7021,6 +7011,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript code?\n",
+    "l": "javascript",
     "c": "let text = \"Hello\";\nconsole.log(text.charAt(1));",
     "o": [
       "e",
@@ -7031,7 +7022,6 @@
   },
   {
     "q": "Which of the following statements is true about JavaScript objects?",
-    "c": null,
     "o": [
       "Objects are key-value pairs.",
       "Objects are always immutable.",
@@ -7041,7 +7031,6 @@
   },
   {
     "q": "How do you correctly create a function in JavaScript?",
-    "c": null,
     "o": [
       "function myFunction() { }",
       "def myFunction() { }",
@@ -7051,7 +7040,6 @@
   },
   {
     "q": "Which method can be used to convert a JSON string into a JavaScript object?",
-    "c": null,
     "o": [
       "JSON.parse()",
       "JSON.stringify()",
@@ -7061,6 +7049,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript code?\n",
+    "l": "javascript",
     "c": "let obj = { a: 1, b: 2 };\ndelete obj.a;\nconsole.log(obj);",
     "o": [
       "{ b: 2 }",
@@ -7071,6 +7060,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript code using an if-else statement?\n",
+    "l": "javascript",
     "c": "let num = 10;\nif (num > 5) {\n  console.log(\"Greater\");\n} else {\n  console.log(\"Smaller\");\n}",
     "o": [
       "Greater",
@@ -7081,7 +7071,6 @@
   },
   {
     "q": "Which of the following statements about if-else in JavaScript is true?",
-    "c": null,
     "o": [
       "An if statement can exist without an else statement.",
       "An else statement must always be present.",
@@ -7091,6 +7080,7 @@
   },
   {
     "q": "What will be the output of the following switch-case statement?\n",
+    "l": "javascript",
     "c": "let color = \"red\";\nswitch(color) {\n  case \"blue\":\n    console.log(\"Blue selected\");\n    break;\n  case \"red\":\n    console.log(\"Red selected\");\n    break;\n  default:\n    console.log(\"No color matched\");\n}",
     "o": [
       "Red selected",
@@ -7101,7 +7091,6 @@
   },
   {
     "q": "Which of the following is true about switch-case statements in JavaScript?",
-    "c": null,
     "o": [
       "The 'break' statement prevents fall-through behavior.",
       "Each 'case' block must end with 'return'.",
@@ -7111,6 +7100,7 @@
   },
   {
     "q": "What will be the output of the following for loop?\n",
+    "l": "javascript",
     "c": "for (let i = 0; i < 3; i++) {\n  console.log(i);\n}",
     "o": [
       "0 1 2",
@@ -7121,7 +7111,6 @@
   },
   {
     "q": "Which of the following correctly initializes a for loop?",
-    "c": null,
     "o": [
       "for (let i = 0; i < 10; i++)",
       "for i = 0; i < 10; i++",
@@ -7131,6 +7120,7 @@
   },
   {
     "q": "What will be the output of the following while loop?\n",
+    "l": "javascript",
     "c": "let x = 0;\nwhile (x < 3) {\n  console.log(x);\n  x++;\n}",
     "o": [
       "0 1 2",
@@ -7141,7 +7131,6 @@
   },
   {
     "q": "Which of the following is true about while loops in JavaScript?",
-    "c": null,
     "o": [
       "A while loop continues as long as the condition is true.",
       "A while loop always executes at least once.",
@@ -7151,6 +7140,7 @@
   },
   {
     "q": "What will be the output of the following do-while loop?\n",
+    "l": "javascript",
     "c": "let y = 5;\ndo {\n  console.log(y);\n  y--;\n} while (y > 2);",
     "o": [
       "5 4 3",
@@ -7161,7 +7151,6 @@
   },
   {
     "q": "Which of the following best describes a do-while loop?",
-    "c": null,
     "o": [
       "It executes the loop body at least once before checking the condition.",
       "It behaves exactly like a while loop.",

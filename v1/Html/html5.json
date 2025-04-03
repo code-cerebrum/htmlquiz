@@ -1,7 +1,6 @@
 [
   {
     "q": "Which of the following is a semantic HTML5 tag?",
-    "c": null,
     "o": [
       "<article>",
       "<div>",
@@ -21,7 +20,6 @@
   },
   {
     "q": "Which of the following is NOT a valid HTML5 semantic tag?",
-    "c": null,
     "o": [
       "<bold>",
       "<nav>",
@@ -41,7 +39,6 @@
   },
   {
     "q": "Which attribute is required in the <audio> tag for user playback controls?",
-    "c": null,
     "o": [
       "controls",
       "autoplay",
@@ -51,7 +48,6 @@
   },
   {
     "q": "What is the purpose of the <section> tag in HTML5?",
-    "c": null,
     "o": [
       "To define a thematic grouping of content",
       "To create a navigational menu",
@@ -71,7 +67,6 @@
   },
   {
     "q": "Which of the following statements about the <canvas> element is true?",
-    "c": null,
     "o": [
       "It provides a way to draw graphics using JavaScript",
       "It is used to create responsive layouts",
@@ -91,7 +86,6 @@
   },
   {
     "q": "Which HTML5 element is used to define navigation links?",
-    "c": null,
     "o": [
       "<nav>",
       "<footer>",
@@ -101,7 +95,6 @@
   },
   {
     "q": "Which HTML5 tag is used to define self-contained content, such as a blog post or news article?",
-    "c": null,
     "o": [
       "<article>",
       "<div>",
@@ -121,7 +114,6 @@
   },
   {
     "q": "Which semantic HTML5 tag is used to define introductory content or navigation links?",
-    "c": null,
     "o": [
       "<header>",
       "<section>",
@@ -141,7 +133,6 @@
   },
   {
     "q": "Which attribute is required in the <video> tag to display playback controls?",
-    "c": null,
     "o": [
       "controls",
       "autoplay",
@@ -151,7 +142,6 @@
   },
   {
     "q": "Which HTML5 element is used to define a footer for a document or section?",
-    "c": null,
     "o": [
       "<footer>",
       "<section>",
@@ -171,7 +161,6 @@
   },
   {
     "q": "Which HTML5 tag is used to group related elements in a document, such as a chapter or a section of a webpage?",
-    "c": null,
     "o": [
       "<section>",
       "<article>",
@@ -191,7 +180,6 @@
   },
   {
     "q": "Which HTML5 element is used to define a sidebar or additional content that is indirectly related to the main content?",
-    "c": null,
     "o": [
       "<aside>",
       "<section>",
@@ -211,7 +199,6 @@
   },
   {
     "q": "Which of the following best describes the <nav> tag in HTML5?",
-    "c": null,
     "o": [
       "Defines a section for navigation links",
       "Creates a navigation menu with automatic styling",
@@ -231,7 +218,6 @@
   },
   {
     "q": "Which of the following is a correct way to embed an MP4 video in HTML5?",
-    "c": null,
     "o": [
       "<video controls>\n  <source src='video.mp4' type='video/mp4'>\n</video>",
       "<video>\n  <src='video.mp4' type='video/mp4'>\n</video>",
@@ -241,7 +227,6 @@
   },
   {
     "q": "Which of the following statements about the <canvas> element is true?",
-    "c": null,
     "o": [
       "It requires JavaScript to draw graphics",
       "It automatically creates a chart based on data",
@@ -251,7 +236,6 @@
   },
   {
     "q": "Which HTML5 tag is used to define an independent section of content, such as a blog post?",
-    "c": null,
     "o": [
       "<article>",
       "<section>",
@@ -271,7 +255,6 @@
   },
   {
     "q": "Which HTML5 tag is used to contain navigation links?",
-    "c": null,
     "o": [
       "<nav>",
       "<section>",
@@ -291,7 +274,6 @@
   },
   {
     "q": "Which attribute in the <audio> tag ensures the sound plays automatically?",
-    "c": null,
     "o": [
       "autoplay",
       "controls",
@@ -301,7 +283,6 @@
   },
   {
     "q": "Which of the following is a valid HTML5 semantic tag?",
-    "c": null,
     "o": [
       "<section>",
       "<div>",
@@ -311,7 +292,6 @@
   },
   {
     "q": "Which HTML5 element is used to group related heading content and subheadings?",
-    "c": null,
     "o": [
       "<header>",
       "<article>",
@@ -331,7 +311,6 @@
   },
   {
     "q": "Which HTML5 tag represents additional information that is indirectly related to the main content?",
-    "c": null,
     "o": [
       "<aside>",
       "<main>",
@@ -341,7 +320,6 @@
   },
   {
     "q": "Which HTML5 tag is used to embed an MP3 file with playback controls?",
-    "c": null,
     "o": [
       "<audio controls>\n  <source src='song.mp3' type='audio/mpeg'>\n</audio>",
       "<audio>\n  <mp3 src='song.mp3'>\n</audio>",
@@ -361,7 +339,6 @@
   },
   {
     "q": "Which HTML5 element is used to define the main content of a webpage?",
-    "c": null,
     "o": [
       "<main>",
       "<section>",
@@ -371,7 +348,6 @@
   },
   {
     "q": "What does the 'poster' attribute in the <video> tag do?",
-    "c": null,
     "o": [
       "Specifies an image to be shown before the video starts",
       "Enables subtitles for the video",
@@ -381,7 +357,6 @@
   },
   {
     "q": "Which of the following statements about the <canvas> element is true?",
-    "c": null,
     "o": [
       "It provides a way to draw graphics using JavaScript",
       "It replaces the <img> tag for displaying images",
@@ -401,7 +376,6 @@
   },
   {
     "q": "Which of the following is the correct way to define a <video> element in HTML5?",
-    "c": null,
     "o": [
       "<video controls>\n  <source src='video.mp4' type='video/mp4'>\n</video>",
       "<video>\n  <mp4 src='video.mp4'>\n</video>",
@@ -411,7 +385,6 @@
   },
   {
     "q": "Which HTML5 element is used to define navigation links?",
-    "c": null,
     "o": [
       "<nav>",
       "<header>",
@@ -421,7 +394,6 @@
   },
   {
     "q": "Which attribute in the <video> tag ensures the video starts playing automatically?",
-    "c": null,
     "o": [
       "autoplay",
       "controls",
@@ -431,7 +403,6 @@
   },
   {
     "q": "Which HTML5 tag is used to define self-contained content like a blog post or news article?",
-    "c": null,
     "o": [
       "<article>",
       "<section>",
@@ -451,7 +422,6 @@
   },
   {
     "q": "Which HTML5 tag is used for embedding a video file?",
-    "c": null,
     "o": [
       "<video>",
       "<media>",
@@ -461,7 +431,6 @@
   },
   {
     "q": "Which HTML5 tag is used to define a container for graphics drawn using JavaScript?",
-    "c": null,
     "o": [
       "<canvas>",
       "<svg>",
@@ -481,7 +450,6 @@
   },
   {
     "q": "Which HTML5 tag is used to define navigation links on a webpage?",
-    "c": null,
     "o": [
       "<nav>",
       "<header>",
@@ -501,7 +469,6 @@
   },
   {
     "q": "Which HTML5 tag is used to group introductory content and navigational links?",
-    "c": null,
     "o": [
       "<header>",
       "<footer>",
@@ -511,7 +478,6 @@
   },
   {
     "q": "Which attribute in the <video> tag makes the video start playing automatically?",
-    "c": null,
     "o": [
       "autoplay",
       "controls",
@@ -521,7 +487,6 @@
   },
   {
     "q": "Which HTML5 tag is used to define supplementary content that is indirectly related to the main content?",
-    "c": null,
     "o": [
       "<aside>",
       "<section>",
@@ -541,7 +506,6 @@
   },
   {
     "q": "Which HTML5 tag is used to define the main content of a document?",
-    "c": null,
     "o": [
       "<main>",
       "<section>",
@@ -551,7 +515,6 @@
   },
   {
     "q": "What is the purpose of the 'poster' attribute in the <video> tag?",
-    "c": null,
     "o": [
       "Specifies an image to be shown before the video starts",
       "Enables subtitles for the video",
@@ -561,7 +524,6 @@
   },
   {
     "q": "Which HTML5 element is used to define a section of a webpage that contains self-contained content, such as a news article?",
-    "c": null,
     "o": [
       "<article>",
       "<section>",
@@ -581,7 +543,6 @@
   },
   {
     "q": "Which HTML5 element is used to define navigation links?",
-    "c": null,
     "o": [
       "<nav>",
       "<header>",
@@ -591,7 +552,6 @@
   },
   {
     "q": "Which of the following is a valid HTML5 semantic element?",
-    "c": null,
     "o": [
       "<section>",
       "<div>",
@@ -611,7 +571,6 @@
   },
   {
     "q": "Which of the following is the correct way to define a <video> element in HTML5?",
-    "c": null,
     "o": [
       "<video controls>\n  <source src='video.mp4' type='video/mp4'>\n</video>",
       "<video>\n  <mp4 src='video.mp4'>\n</video>",
@@ -621,7 +580,6 @@
   },
   {
     "q": "Which HTML5 element is used to group related heading content and subheadings?",
-    "c": null,
     "o": [
       "<header>",
       "<article>",
@@ -631,7 +589,6 @@
   },
   {
     "q": "Which HTML5 tag is used to define a footer for a document or a section?",
-    "c": null,
     "o": [
       "<footer>",
       "<section>",
@@ -651,7 +608,6 @@
   },
   {
     "q": "Which attribute in the <audio> tag allows the audio to be played again automatically once it ends?",
-    "c": null,
     "o": [
       "loop",
       "autoplay",
@@ -661,7 +617,6 @@
   },
   {
     "q": "Which HTML5 tag is used to display video content?",
-    "c": null,
     "o": [
       "<video>",
       "<media>",
@@ -681,7 +636,6 @@
   },
   {
     "q": "Which of the following is a new HTML5 semantic tag?",
-    "c": null,
     "o": [
       "<section>",
       "<div>",
@@ -691,7 +645,6 @@
   },
   {
     "q": "Which HTML5 tag is used to define an independent, self-contained piece of content?",
-    "c": null,
     "o": [
       "<article>",
       "<section>",
@@ -701,7 +654,6 @@
   },
   {
     "q": "Which attribute in the <video> tag ensures that the video starts playing automatically?",
-    "c": null,
     "o": [
       "autoplay",
       "controls",
@@ -711,7 +663,6 @@
   },
   {
     "q": "Which of the following HTML5 tags is used for embedding an audio file?",
-    "c": null,
     "o": [
       "<audio>",
       "<sound>",
@@ -731,7 +682,6 @@
   },
   {
     "q": "Which semantic HTML5 element represents a self-contained piece of content such as a comment, forum post, or news article?",
-    "c": null,
     "o": [
       "<article>",
       "<section>",
@@ -751,7 +701,6 @@
   },
   {
     "q": "Which HTML5 element is used to group multiple headings together?",
-    "c": null,
     "o": [
       "<header>",
       "<section>",
@@ -761,7 +710,6 @@
   },
   {
     "q": "Which of the following HTML5 tags is used to define a part of a document that contains related content but is separate from the main content?",
-    "c": null,
     "o": [
       "<aside>",
       "<section>",
@@ -781,7 +729,6 @@
   },
   {
     "q": "Which of the following is NOT a semantic HTML5 element?",
-    "c": null,
     "o": [
       "<div>",
       "<article>",
@@ -801,7 +748,6 @@
   },
   {
     "q": "Which HTML5 tag is used to define content that is tangentially related to the main content?",
-    "c": null,
     "o": [
       "<aside>",
       "<footer>",
@@ -811,7 +757,6 @@
   },
   {
     "q": "Which attribute in the <video> tag allows the video to be muted by default?",
-    "c": null,
     "o": [
       "muted",
       "autoplay",
@@ -821,7 +766,6 @@
   },
   {
     "q": "Which HTML5 element is used to define a graphical area that can be drawn on using JavaScript?",
-    "c": null,
     "o": [
       "<canvas>",
       "<svg>",
@@ -831,7 +775,6 @@
   },
   {
     "q": "Which HTML5 semantic tag represents a section of navigation links?",
-    "c": null,
     "o": [
       "<nav>",
       "<menu>",
@@ -851,7 +794,6 @@
   },
   {
     "q": "Which HTML5 tag is used to mark up a specific time in a document?",
-    "c": null,
     "o": [
       "<time>",
       "<date>",
@@ -861,7 +803,6 @@
   },
   {
     "q": "Which attribute in the <audio> tag adds playback controls?",
-    "c": null,
     "o": [
       "controls",
       "autoplay",
@@ -871,7 +812,6 @@
   },
   {
     "q": "Which of the following is NOT a valid HTML5 semantic tag?",
-    "c": null,
     "o": [
       "<bold>",
       "<section>",
@@ -891,7 +831,6 @@
   },
   {
     "q": "Which HTML5 tag is used to define a group of related options in a form?",
-    "c": null,
     "o": [
       "<fieldset>",
       "<legend>",
@@ -911,7 +850,6 @@
   },
   {
     "q": "Which HTML5 tag is used to define a caption for a <figure> element?",
-    "c": null,
     "o": [
       "<figcaption>",
       "<legend>",
@@ -921,7 +859,6 @@
   },
   {
     "q": "Which of the following statements about the <canvas> element is true?",
-    "c": null,
     "o": [
       "It requires JavaScript to draw graphics",
       "It automatically renders graphics when added to a page",
@@ -941,7 +878,6 @@
   },
   {
     "q": "Which HTML5 tag is used to define self-contained content, such as an image with a caption?",
-    "c": null,
     "o": [
       "<figure>",
       "<section>",
@@ -961,7 +897,6 @@
   },
   {
     "q": "Which attribute of the <video> tag specifies an image to be shown before the video starts playing?",
-    "c": null,
     "o": [
       "poster",
       "thumbnail",
@@ -971,7 +906,6 @@
   },
   {
     "q": "Which of the following HTML5 tags is used to provide additional details that users can show or hide?",
-    "c": null,
     "o": [
       "<details>",
       "<summary>",
@@ -981,7 +915,6 @@
   },
   {
     "q": "Which method is used to draw a rectangle on an HTML5 canvas?",
-    "c": null,
     "o": [
       "fillRect()",
       "drawRect()",
@@ -991,7 +924,6 @@
   },
   {
     "q": "Which HTML5 element provides a way to summarize the contents of the <details> tag?",
-    "c": null,
     "o": [
       "<summary>",
       "<legend>",
@@ -1001,7 +933,6 @@
   },
   {
     "q": "Which event can be used to detect when an HTML5 video has finished playing?",
-    "c": null,
     "o": [
       "ended",
       "pause",
@@ -1011,7 +942,6 @@
   },
   {
     "q": "Which HTML5 semantic element is used to group together multiple articles?",
-    "c": null,
     "o": [
       "<section>",
       "<nav>",
@@ -1031,7 +961,6 @@
   },
   {
     "q": "Which HTML5 semantic tag is used to represent an independent piece of content?",
-    "c": null,
     "o": [
       "<article>",
       "<section>",
@@ -1051,7 +980,6 @@
   },
   {
     "q": "Which HTML5 tag is used to define a caption for a table?",
-    "c": null,
     "o": [
       "<caption>",
       "<figcaption>",
@@ -1061,7 +989,6 @@
   },
   {
     "q": "Which HTML5 attribute is used to specify multiple sources for a video?",
-    "c": null,
     "o": [
       "<source>",
       "<track>",
@@ -1081,7 +1008,6 @@
   },
   {
     "q": "Which HTML5 tag is used to define a self-contained sidebar?",
-    "c": null,
     "o": [
       "<aside>",
       "<section>",
@@ -1091,7 +1017,6 @@
   },
   {
     "q": "Which property in the <video> tag is used to enable automatic playback?",
-    "c": null,
     "o": [
       "autoplay",
       "loop",
@@ -1111,7 +1036,6 @@
   },
   {
     "q": "Which HTML5 tag represents the footer of a document or section?",
-    "c": null,
     "o": [
       "<footer>",
       "<bottom>",
@@ -1131,7 +1055,6 @@
   },
   {
     "q": "Which HTML5 tag is used to define a visible heading inside a <details> element?",
-    "c": null,
     "o": [
       "<summary>",
       "<legend>",
@@ -1141,7 +1064,6 @@
   },
   {
     "q": "Which HTML5 method is used to add text to a canvas?",
-    "c": null,
     "o": [
       "fillText()",
       "drawText()",
@@ -1151,7 +1073,6 @@
   },
   {
     "q": "Which of the following HTML5 elements is used to define navigation links?",
-    "c": null,
     "o": [
       "<nav>",
       "<aside>",
@@ -1171,7 +1092,6 @@
   },
   {
     "q": "Which HTML5 tag is used to embed an external webpage inside a document?",
-    "c": null,
     "o": [
       "<iframe>",
       "<embed>",
@@ -1181,7 +1101,6 @@
   },
   {
     "q": "Which attribute in the <audio> and <video> elements is used to mute the media by default?",
-    "c": null,
     "o": [
       "muted",
       "silence",
@@ -1201,7 +1120,6 @@
   },
   {
     "q": "Which of the following is a valid HTML5 semantic tag?",
-    "c": null,
     "o": [
       "<section>",
       "<div>",
@@ -1211,7 +1129,6 @@
   },
   {
     "q": "Which HTML5 element is used to define an area in a document that is thematically separate from the rest of the content?",
-    "c": null,
     "o": [
       "<section>",
       "<article>",
@@ -1231,7 +1148,6 @@
   },
   {
     "q": "Which HTML5 element is used to define a self-contained piece of content, such as a blog post or news article?",
-    "c": null,
     "o": [
       "<article>",
       "<section>",
@@ -1251,7 +1167,6 @@
   },
   {
     "q": "Which HTML5 tag is used to define an independent piece of content, such as a sidebar or callout box?",
-    "c": null,
     "o": [
       "<aside>",
       "<article>",
@@ -1271,7 +1186,6 @@
   },
   {
     "q": "Which HTML5 element is used to define navigation links?",
-    "c": null,
     "o": [
       "<nav>",
       "<menu>",
@@ -1281,7 +1195,6 @@
   },
   {
     "q": "Which HTML5 element is used to group headings and navigation elements at the top of a webpage?",
-    "c": null,
     "o": [
       "<header>",
       "<head>",
@@ -1291,7 +1204,6 @@
   },
   {
     "q": "What does the 'controls' attribute do in an HTML5 <video> element?",
-    "c": null,
     "o": [
       "Displays play, pause, and volume controls",
       "Plays the video in fullscreen mode",
@@ -1301,7 +1213,6 @@
   },
   {
     "q": "Which HTML5 element is used to define the footer of a document or section?",
-    "c": null,
     "o": [
       "<footer>",
       "<bottom>",
@@ -1311,7 +1222,6 @@
   },
   {
     "q": "Which HTML5 element is used to structure the main content of a webpage?",
-    "c": null,
     "o": [
       "<main>",
       "<body>",
@@ -1331,7 +1241,6 @@
   },
   {
     "q": "Which HTML5 element provides a fallback option if the browser does not support a specific multimedia format?",
-    "c": null,
     "o": [
       "<source>",
       "<media>",
@@ -1341,7 +1250,6 @@
   },
   {
     "q": "Which attribute in the HTML5 <video> element ensures that the video starts playing automatically?",
-    "c": null,
     "o": [
       "autoplay",
       "play",
@@ -1351,7 +1259,6 @@
   },
   {
     "q": "Which HTML5 element is used to provide captions for a <video> element?",
-    "c": null,
     "o": [
       "<track>",
       "<subtitle>",
@@ -1371,7 +1278,6 @@
   },
   {
     "q": "Which HTML5 tag is used to define an area on a webpage where JavaScript can dynamically draw graphics?",
-    "c": null,
     "o": [
       "<canvas>",
       "<svg>",
@@ -1381,7 +1287,6 @@
   },
   {
     "q": "Which method is used to draw a rectangle in an HTML5 canvas?",
-    "c": null,
     "o": [
       "fillRect()",
       "drawRect()",
@@ -1401,7 +1306,6 @@
   },
   {
     "q": "Which HTML5 tag is used to define a scalable vector graphic?",
-    "c": null,
     "o": [
       "<svg>",
       "<canvas>",
@@ -1411,7 +1315,6 @@
   },
   {
     "q": "Which HTML5 element is used to define alternative sources for different screen sizes in images?",
-    "c": null,
     "o": [
       "<picture>",
       "<source>",
@@ -1421,7 +1324,6 @@
   },
   {
     "q": "What does the 'loop' attribute do in an HTML5 video element?",
-    "c": null,
     "o": [
       "Repeats the video indefinitely",
       "Plays the video once",
@@ -1431,7 +1333,6 @@
   },
   {
     "q": "Which HTML5 element is used to define a section of a webpage that is related to the main content but can stand alone?",
-    "c": null,
     "o": [
       "<section>",
       "<div>",
@@ -1451,7 +1352,6 @@
   },
   {
     "q": "Which HTML5 element is used to define a container for graphics drawn with JavaScript?",
-    "c": null,
     "o": [
       "<canvas>",
       "<svg>",
@@ -1471,7 +1371,6 @@
   },
   {
     "q": "Which HTML5 tag is used to specify multiple alternative image sources for different screen sizes?",
-    "c": null,
     "o": [
       "<picture>",
       "<img>",
@@ -1481,7 +1380,6 @@
   },
   {
     "q": "Which HTML5 attribute ensures that a video starts playing only when the user clicks play?",
-    "c": null,
     "o": [
       "controls",
       "autoplay",
@@ -1491,7 +1389,6 @@
   },
   {
     "q": "What does the 'getContext' method do in an HTML5 canvas?",
-    "c": null,
     "o": [
       "Returns a drawing context",
       "Creates a new canvas",
@@ -1501,7 +1398,6 @@
   },
   {
     "q": "Which HTML5 tag is used to define important content that can be reused across multiple pages?",
-    "c": null,
     "o": [
       "<header>",
       "<footer>",
@@ -1511,7 +1407,6 @@
   },
   {
     "q": "Which of the following is a valid way to embed a video in HTML5?",
-    "c": null,
     "o": [
       "<video src='video.mp4' controls></video>",
       "<video controls='video.mp4'></video>",
@@ -1531,7 +1426,6 @@
   },
   {
     "q": "Which HTML5 tag is used to define a group of navigation links?",
-    "c": null,
     "o": [
       "<nav>",
       "<aside>",
@@ -1541,7 +1435,6 @@
   },
   {
     "q": "What does the 'muted' attribute do in an HTML5 video element?",
-    "c": null,
     "o": [
       "Starts the video with no sound",
       "Prevents autoplay",
@@ -1551,7 +1444,6 @@
   },
   {
     "q": "Which HTML5 element is used to define self-contained content such as blog posts or news articles?",
-    "c": null,
     "o": [
       "<article>",
       "<section>",
@@ -1561,7 +1453,6 @@
   },
   {
     "q": "Which method is used to clear a canvas in HTML5?",
-    "c": null,
     "o": [
       "clearRect()",
       "eraseCanvas()",
@@ -1571,7 +1462,6 @@
   },
   {
     "q": "Which HTML5 tag is used to define a video player?",
-    "c": null,
     "o": [
       "<video>",
       "<media>",
@@ -1591,7 +1481,6 @@
   },
   {
     "q": "Which HTML5 element is used to draw graphics using JavaScript?",
-    "c": null,
     "o": [
       "<canvas>",
       "<svg>",
@@ -1601,7 +1490,6 @@
   },
   {
     "q": "Which HTML5 element is used to specify subtitles for a video?",
-    "c": null,
     "o": [
       "<track>",
       "<caption>",
@@ -1621,7 +1509,6 @@
   },
   {
     "q": "Which of the following is a benefit of using semantic HTML5 elements?",
-    "c": null,
     "o": [
       "Improves accessibility and SEO",
       "Increases page load time",
@@ -1631,7 +1518,6 @@
   },
   {
     "q": "Which HTML5 element is best suited for displaying an embedded media player?",
-    "c": null,
     "o": [
       "<video>",
       "<media>",
@@ -1641,7 +1527,6 @@
   },
   {
     "q": "What is the purpose of the <aside> tag in HTML5?",
-    "c": null,
     "o": [
       "Defines content related to the main content",
       "Defines the main navigation",
@@ -1661,7 +1546,6 @@
   },
   {
     "q": "Which of the following HTML5 elements is used for embedding scalable vector graphics?",
-    "c": null,
     "o": [
       "<svg>",
       "<canvas>",
@@ -1681,7 +1565,6 @@
   },
   {
     "q": "Which of the following properties is used to set the color of a shape drawn on a canvas?",
-    "c": null,
     "o": [
       "fillStyle",
       "strokeText",
@@ -1691,7 +1574,6 @@
   },
   {
     "q": "Which attribute in the <video> tag allows the video to start playing automatically?",
-    "c": null,
     "o": [
       "autoplay",
       "play",
@@ -1711,7 +1593,6 @@
   },
   {
     "q": "Which HTML5 element is used to mark up a footer for a document or section?",
-    "c": null,
     "o": [
       "<footer>",
       "<bottom>",
@@ -1721,7 +1602,6 @@
   },
   {
     "q": "Which of the following is the correct way to preload a video?",
-    "c": null,
     "o": [
       "Use the 'preload' attribute in the <video> tag",
       "Use JavaScript to load the video",
@@ -1731,7 +1611,6 @@
   },
   {
     "q": "Which of the following HTML5 elements is used to mark up a piece of self-contained content?",
-    "c": null,
     "o": [
       "<article>",
       "<aside>",
@@ -1751,7 +1630,6 @@
   },
   {
     "q": "Which of the following HTML5 attributes ensures a video file is played in a continuous loop?",
-    "c": null,
     "o": [
       "loop",
       "repeat",
@@ -1761,7 +1639,6 @@
   },
   {
     "q": "Which of the following HTML5 elements is used for defining navigation links?",
-    "c": null,
     "o": [
       "<nav>",
       "<header>",
@@ -1771,7 +1648,6 @@
   },
   {
     "q": "Which JavaScript method is used to draw a rectangle on an HTML5 canvas?",
-    "c": null,
     "o": [
       "fillRect()",
       "drawRect()",
@@ -1781,7 +1657,6 @@
   },
   {
     "q": "Which HTML5 element is used to define a caption for an image, figure, or diagram?",
-    "c": null,
     "o": [
       "<figcaption>",
       "<caption>",
@@ -1791,7 +1666,6 @@
   },
   {
     "q": "What is the correct way to mute an HTML5 video by default?",
-    "c": null,
     "o": [
       "Use the 'muted' attribute",
       "Set the volume to 0 using JavaScript",
@@ -1801,7 +1675,6 @@
   },
   {
     "q": "Which method is used to clear an entire HTML5 canvas?",
-    "c": null,
     "o": [
       "clearRect(0, 0, canvas.width, canvas.height)",
       "canvas.clear()",
@@ -1811,7 +1684,6 @@
   },
   {
     "q": "Which of the following is NOT a new semantic element introduced in HTML5?",
-    "c": null,
     "o": [
       "<div>",
       "<article>",
@@ -1821,7 +1693,6 @@
   },
   {
     "q": "What does the <section> tag represent in HTML5?",
-    "c": null,
     "o": [
       "A thematic grouping of content",
       "A footer section of a page",
@@ -1841,7 +1712,6 @@
   },
   {
     "q": "Which HTML5 element is used for embedding an audio file?",
-    "c": null,
     "o": [
       "<audio>",
       "<sound>",
@@ -1851,7 +1721,6 @@
   },
   {
     "q": "Which HTML5 attribute specifies multiple sources for a <video> element?",
-    "c": null,
     "o": [
       "<source>",
       "<src>",
@@ -1871,7 +1740,6 @@
   },
   {
     "q": "Which of the following HTML5 elements is used to define a self-contained piece of content?",
-    "c": null,
     "o": [
       "<article>",
       "<aside>",
@@ -1881,7 +1749,6 @@
   },
   {
     "q": "Which HTML5 element provides text tracks for video subtitles or captions?",
-    "c": null,
     "o": [
       "<track>",
       "<caption>",
@@ -1891,7 +1758,6 @@
   },
   {
     "q": "Which attribute of the <canvas> element defines its width?",
-    "c": null,
     "o": [
       "width",
       "size",
@@ -1911,7 +1777,6 @@
   },
   {
     "q": "Which HTML5 attribute allows an audio file to play without user interaction?",
-    "c": null,
     "o": [
       "autoplay",
       "loop",
@@ -1931,7 +1796,6 @@
   },
   {
     "q": "Which HTML5 element is used to define a figure with a caption?",
-    "c": null,
     "o": [
       "<figure>",
       "<figcaption>",
@@ -1951,7 +1815,6 @@
   },
   {
     "q": "Which HTML5 attribute makes an audio or video element start over when finished?",
-    "c": null,
     "o": [
       "loop",
       "autoplay",
@@ -1961,7 +1824,6 @@
   },
   {
     "q": "Which HTML5 element is used for defining a container for an external application or interactive content?",
-    "c": null,
     "o": [
       "<embed>",
       "<iframe>",
@@ -1971,7 +1833,6 @@
   },
   {
     "q": "Which of the following HTML5 tags is used for defining the main content of a page?",
-    "c": null,
     "o": [
       "<main>",
       "<body>",
@@ -1981,7 +1842,6 @@
   },
   {
     "q": "Which property in the HTML5 <video> element allows the user to control playback?",
-    "c": null,
     "o": [
       "controls",
       "playback",
@@ -1991,7 +1851,6 @@
   },
   {
     "q": "Which JavaScript method is used to write text on an HTML5 canvas?",
-    "c": null,
     "o": [
       "fillText()",
       "writeText()",
@@ -2001,7 +1860,6 @@
   },
   {
     "q": "Which HTML5 element is used to group navigation links?",
-    "c": null,
     "o": [
       "<nav>",
       "<header>",
@@ -2011,7 +1869,6 @@
   },
   {
     "q": "What is the purpose of the <aside> element in HTML5?",
-    "c": null,
     "o": [
       "It represents content that is tangentially related to the main content",
       "It defines a section within an article",
@@ -2031,7 +1888,6 @@
   },
   {
     "q": "Which HTML5 tag is used to provide a caption for a <figure> element?",
-    "c": null,
     "o": [
       "<figcaption>",
       "<caption>",
@@ -2051,7 +1907,6 @@
   },
   {
     "q": "Which HTML5 element is used to define a caption for a table?",
-    "c": null,
     "o": [
       "<caption>",
       "<figcaption>",
@@ -2071,7 +1926,6 @@
   },
   {
     "q": "Which HTML5 element is used to mark up user-input fields?",
-    "c": null,
     "o": [
       "<input>",
       "<form>",
@@ -2081,7 +1935,6 @@
   },
   {
     "q": "Which attribute of the <audio> element ensures the audio plays in a loop?",
-    "c": null,
     "o": [
       "loop",
       "autoplay",
@@ -2091,7 +1944,6 @@
   },
   {
     "q": "Which of the following HTML5 elements defines self-contained, reusable content?",
-    "c": null,
     "o": [
       "<article>",
       "<section>",
@@ -2111,7 +1963,6 @@
   },
   {
     "q": "Which of the following is NOT a valid value for the 'preload' attribute of the <audio> element?",
-    "c": null,
     "o": [
       "autoplay",
       "metadata",
@@ -2121,7 +1972,6 @@
   },
   {
     "q": "Which HTML5 tag is used to provide fallback content for browsers that do not support scripts?",
-    "c": null,
     "o": [
       "<noscript>",
       "<fallback>",
@@ -2131,7 +1981,6 @@
   },
   {
     "q": "Which JavaScript method is used to detect if the browser supports the <canvas> element?",
-    "c": null,
     "o": [
       "document.createElement('canvas').getContext",
       "document.hasElement('canvas')",
@@ -2141,7 +1990,6 @@
   },
   {
     "q": "Which HTML5 element is used to define important introductory content?",
-    "c": null,
     "o": [
       "<header>",
       "<intro>",
@@ -2151,7 +1999,6 @@
   },
   {
     "q": "Which of the following attributes is used to mute an HTML5 video by default?",
-    "c": null,
     "o": [
       "muted",
       "silence",
@@ -2171,7 +2018,6 @@
   },
   {
     "q": "Which HTML5 element is used to define metadata for a document?",
-    "c": null,
     "o": [
       "<meta>",
       "<head>",
@@ -2181,7 +2027,6 @@
   },
   {
     "q": "Which HTML5 element is used to specify alternative media resources for the <picture> element?",
-    "c": null,
     "o": [
       "<source>",
       "<alt>",
@@ -2191,7 +2036,6 @@
   },
   {
     "q": "Which attribute is used to specify that an <audio> file should start playing as soon as it is loaded?",
-    "c": null,
     "o": [
       "autoplay",
       "loop",
@@ -2201,7 +2045,6 @@
   },
   {
     "q": "Which of the following is a new semantic tag introduced in HTML5?",
-    "c": null,
     "o": [
       "<article>",
       "<div>",
@@ -2221,7 +2064,6 @@
   },
   {
     "q": "Which of the following elements is used for drawing graphics in HTML5?",
-    "c": null,
     "o": [
       "<canvas>",
       "<graphic>",
@@ -2241,7 +2083,6 @@
   },
   {
     "q": "Which HTML5 element is used to embed audio content?",
-    "c": null,
     "o": [
       "<audio>",
       "<sound>",
@@ -2261,7 +2102,6 @@
   },
   {
     "q": "Which of the following is a semantic tag introduced in HTML5?",
-    "c": null,
     "o": [
       "<section>",
       "<div>",
@@ -2271,7 +2111,6 @@
   },
   {
     "q": "What is the purpose of the <figure> element in HTML5?",
-    "c": null,
     "o": [
       "It is used to group media content like images, diagrams, or illustrations.",
       "It is used to create a caption for a paragraph.",
@@ -2291,7 +2130,6 @@
   },
   {
     "q": "Which of the following is true about the <canvas> element in HTML5?",
-    "c": null,
     "o": [
       "It allows dynamic drawing of graphics via JavaScript.",
       "It replaces the <svg> element in HTML5.",
@@ -2311,7 +2149,6 @@
   },
   {
     "q": "Which attribute in the <audio> tag ensures the audio starts playing automatically?",
-    "c": null,
     "o": [
       "autoplay",
       "controls",
@@ -2331,7 +2168,6 @@
   },
   {
     "q": "Which of the following semantic elements is used to represent a self-contained section in a document?",
-    "c": null,
     "o": [
       "<article>",
       "<div>",
@@ -2351,7 +2187,6 @@
   },
   {
     "q": "Which attribute in the <video> tag ensures that the video file repeats indefinitely?",
-    "c": null,
     "o": [
       "loop",
       "autoplay",
@@ -2361,7 +2196,6 @@
   },
   {
     "q": "Which of the following HTML5 elements is used to define navigation links?",
-    "c": null,
     "o": [
       "<nav>",
       "<menu>",
@@ -2381,7 +2215,6 @@
   },
   {
     "q": "Which of the following HTML5 elements is used to display self-contained content, such as images with captions?",
-    "c": null,
     "o": [
       "<figure>",
       "<caption>",
@@ -2391,7 +2224,6 @@
   },
   {
     "q": "Which of the following statements about the <canvas> element is true?",
-    "c": null,
     "o": [
       "It provides a way to draw graphics using JavaScript.",
       "It can be used without JavaScript for displaying images.",
@@ -2411,7 +2243,6 @@
   },
   {
     "q": "Which attribute is used in the <audio> tag to enable looping playback?",
-    "c": null,
     "o": [
       "loop",
       "autoplay",
@@ -2421,7 +2252,6 @@
   },
   {
     "q": "What is the primary purpose of the <aside> element in HTML5?",
-    "c": null,
     "o": [
       "It represents content that is tangentially related to the main content.",
       "It is used to define the main section of a webpage.",
@@ -2451,7 +2281,6 @@
   },
   {
     "q": "Which HTML5 element is used to group related content together?",
-    "c": null,
     "o": [
       "<section>",
       "<group>",
@@ -2471,7 +2300,6 @@
   },
   {
     "q": "Which of the following HTML5 elements is used to define the footer of a document or section?",
-    "c": null,
     "o": [
       "<footer>",
       "<bottom>",
@@ -2481,7 +2309,6 @@
   },
   {
     "q": "Which of the following is NOT a semantic HTML5 element?",
-    "c": null,
     "o": [
       "<div>",
       "<article>",
@@ -2491,7 +2318,6 @@
   },
   {
     "q": "Which HTML5 tag is used to add a description or caption to a <figure> element?",
-    "c": null,
     "o": [
       "<figcaption>",
       "<caption>",
@@ -2511,7 +2337,6 @@
   },
   {
     "q": "Which semantic HTML5 element is used to define a self-contained piece of content that can be independently distributed?",
-    "c": null,
     "o": [
       "<article>",
       "<div>",
@@ -2521,7 +2346,6 @@
   },
   {
     "q": "Which attribute of the <video> tag specifies multiple text tracks, such as subtitles or captions?",
-    "c": null,
     "o": [
       "<track>",
       "<caption>",
@@ -2541,7 +2365,6 @@
   },
   {
     "q": "Which of the following statements about the <audio> tag in HTML5 is true?",
-    "c": null,
     "o": [
       "It allows embedding audio content with optional controls.",
       "It is used to create hyperlinks for audio files.",
@@ -2551,7 +2374,6 @@
   },
   {
     "q": "Which HTML5 element is used to define a footer for a document or section?",
-    "c": null,
     "o": [
       "<footer>",
       "<bottom>",
@@ -2571,7 +2393,6 @@
   },
   {
     "q": "Which of the following is NOT a valid HTML5 semantic element?",
-    "c": null,
     "o": [
       "<format>",
       "<article>",
@@ -2581,7 +2402,6 @@
   },
   {
     "q": "Which of the following attributes ensures an audio file plays automatically when the page loads?",
-    "c": null,
     "o": [
       "autoplay",
       "loop",
@@ -2601,7 +2421,6 @@
   },
   {
     "q": "Which of the following statements about the <canvas> element is true?",
-    "c": null,
     "o": [
       "It is used for drawing graphics using JavaScript.",
       "It automatically displays images without JavaScript.",
@@ -2621,7 +2440,6 @@
   },
   {
     "q": "Which HTML5 element is used to group navigation links?",
-    "c": null,
     "o": [
       "<nav>",
       "<aside>",
@@ -2651,7 +2469,6 @@
   },
   {
     "q": "Which of the following HTML5 elements is used to define supplementary content that is related to the main content?",
-    "c": null,
     "o": [
       "<aside>",
       "<footer>",
@@ -2661,7 +2478,6 @@
   },
   {
     "q": "Which of the following statements about HTML5 semantic elements is true?",
-    "c": null,
     "o": [
       "They help define the meaning of content in a document.",
       "They are used only for styling purposes.",
@@ -2671,7 +2487,6 @@
   },
   {
     "q": "Which HTML5 element is used to define the primary content of a document?",
-    "c": null,
     "o": [
       "<main>",
       "<section>",
@@ -2691,7 +2506,6 @@
   },
   {
     "q": "Which HTML5 element is used to define a heading section of a webpage?",
-    "c": null,
     "o": [
       "<header>",
       "<title>",
@@ -2701,7 +2515,6 @@
   },
   {
     "q": "Which of the following elements is NOT considered a semantic element in HTML5?",
-    "c": null,
     "o": [
       "<span>",
       "<article>",
@@ -2711,7 +2524,6 @@
   },
   {
     "q": "Which HTML5 tag is used to define a caption for a <figure> element?",
-    "c": null,
     "o": [
       "<figcaption>",
       "<caption>",
@@ -2721,7 +2533,6 @@
   },
   {
     "q": "Which of the following is true about the <section> element in HTML5?",
-    "c": null,
     "o": [
       "It is used to group related content within a document.",
       "It replaces the <div> tag in HTML5.",
@@ -2741,7 +2552,6 @@
   },
   {
     "q": "Which HTML5 element is used to define a container for multiple images and their captions?",
-    "c": null,
     "o": [
       "<figure>",
       "<img>",
@@ -2751,7 +2561,6 @@
   },
   {
     "q": "Which attribute is used in the <video> tag to display built-in controls for play, pause, and volume?",
-    "c": null,
     "o": [
       "controls",
       "autoplay",
@@ -2761,7 +2570,6 @@
   },
   {
     "q": "Which of the following statements about the <audio> element is correct?",
-    "c": null,
     "o": [
       "It allows embedding of audio files in a webpage.",
       "It only supports MP3 files.",
@@ -2781,7 +2589,6 @@
   },
   {
     "q": "Which HTML5 element is used to define navigation links?",
-    "c": null,
     "o": [
       "<nav>",
       "<menu>",
@@ -2791,7 +2598,6 @@
   },
   {
     "q": "Which HTML5 tag is used to define video subtitles or captions?",
-    "c": null,
     "o": [
       "<track>",
       "<caption>",
@@ -2811,7 +2617,6 @@
   },
   {
     "q": "Which attribute in the <audio> tag prevents sound from playing initially?",
-    "c": null,
     "o": [
       "muted",
       "autoplay",
@@ -2821,7 +2626,6 @@
   },
   {
     "q": "Which HTML5 tag is used to define an area in a webpage that is separate from the main content?",
-    "c": null,
     "o": [
       "<aside>",
       "<article>",
@@ -2841,7 +2645,6 @@
   },
   {
     "q": "Which of the following HTML5 elements is used to define the main content of a document?",
-    "c": null,
     "o": [
       "<main>",
       "<section>",
@@ -2851,7 +2654,6 @@
   },
   {
     "q": "Which of the following HTML5 attributes ensures a video loops indefinitely?",
-    "c": null,
     "o": [
       "loop",
       "autoplay",
@@ -2871,7 +2673,6 @@
   },
   {
     "q": "Which of the following HTML5 elements is used to define a heading section of a webpage?",
-    "c": null,
     "o": [
       "<header>",
       "<title>",
@@ -2881,7 +2682,6 @@
   },
   {
     "q": "Which HTML5 element is used to display dynamic, scriptable graphics?",
-    "c": null,
     "o": [
       "<canvas>",
       "<svg>",
@@ -2901,7 +2701,6 @@
   },
   {
     "q": "Which semantic HTML5 element represents a self-contained unit of content that can be independently distributed?",
-    "c": null,
     "o": [
       "<article>",
       "<section>",
@@ -2911,7 +2710,6 @@
   },
   {
     "q": "Which attribute in the <video> tag specifies that the video should start over again when it is finished?",
-    "c": null,
     "o": [
       "loop",
       "autoplay",
@@ -2931,7 +2729,6 @@
   },
   {
     "q": "Which semantic element should be used to group together a related set of navigation links?",
-    "c": null,
     "o": [
       "<nav>",
       "<aside>",
@@ -2941,7 +2738,6 @@
   },
   {
     "q": "Which HTML5 element represents supplementary content that is tangentially related to the main content?",
-    "c": null,
     "o": [
       "<aside>",
       "<footer>",
@@ -2961,7 +2757,6 @@
   },
   {
     "q": "Which HTML5 element is used to define a header section of a webpage?",
-    "c": null,
     "o": [
       "<header>",
       "<hgroup>",
@@ -2971,7 +2766,6 @@
   },
   {
     "q": "Which of the following HTML5 elements is used for rendering graphics dynamically using JavaScript?",
-    "c": null,
     "o": [
       "<canvas>",
       "<svg>",
@@ -2991,7 +2785,6 @@
   },
   {
     "q": "Which of the following statements is true about the <track> element in HTML5?",
-    "c": null,
     "o": [
       "It provides subtitles and captions for videos.",
       "It is required for all <audio> elements.",
@@ -3001,7 +2794,6 @@
   },
   {
     "q": "Which attribute of the <audio> tag specifies that playback should start as soon as the media file is ready?",
-    "c": null,
     "o": [
       "autoplay",
       "loop",
@@ -3011,7 +2803,6 @@
   },
   {
     "q": "Which semantic HTML5 tag is used to define the main navigation of a webpage?",
-    "c": null,
     "o": [
       "<nav>",
       "<menu>",
@@ -3031,7 +2822,6 @@
   },
   {
     "q": "Which HTML5 element represents a section of a document that contains interactive controls?",
-    "c": null,
     "o": [
       "<form>",
       "<button>",
@@ -3041,7 +2831,6 @@
   },
   {
     "q": "Which HTML5 element defines the primary content of a webpage?",
-    "c": null,
     "o": [
       "<main>",
       "<section>",
@@ -3061,7 +2850,6 @@
   },
   {
     "q": "Which of the following HTML5 elements is used to define a block of quoted content?",
-    "c": null,
     "o": [
       "<blockquote>",
       "<q>",
@@ -3081,7 +2869,6 @@
   },
   {
     "q": "Which of the following HTML5 elements is used to group related content together?",
-    "c": null,
     "o": [
       "<section>",
       "<article>",
@@ -3091,7 +2878,6 @@
   },
   {
     "q": "Which HTML5 tag is used to display text in a fixed-width font for computer code?",
-    "c": null,
     "o": [
       "<code>",
       "<pre>",
@@ -3101,7 +2887,6 @@
   },
   {
     "q": "Which HTML5 element is used to define a footer for a document or section?",
-    "c": null,
     "o": [
       "<footer>",
       "<bottom>",
@@ -3111,7 +2896,6 @@
   },
   {
     "q": "Which attribute of the <video> tag prevents the audio from playing initially?",
-    "c": null,
     "o": [
       "muted",
       "autoplay",
@@ -3131,7 +2915,6 @@
   },
   {
     "q": "Which HTML5 tag is used to define an independent, self-contained piece of content?",
-    "c": null,
     "o": [
       "<article>",
       "<section>",
@@ -3141,7 +2924,6 @@
   },
   {
     "q": "Which semantic HTML5 element is typically used to define introductory content in a section or page?",
-    "c": null,
     "o": [
       "<header>",
       "<nav>",
@@ -3161,7 +2943,6 @@
   },
   {
     "q": "Which of the following HTML5 elements is used to draw graphics using JavaScript?",
-    "c": null,
     "o": [
       "<canvas>",
       "<svg>",
@@ -3181,7 +2962,6 @@
   },
   {
     "q": "Which HTML5 element is used to provide a heading for a figure element?",
-    "c": null,
     "o": [
       "<figcaption>",
       "<caption>",
@@ -3191,7 +2971,6 @@
   },
   {
     "q": "Which HTML5 element should be used to define important text that should be emphasized?",
-    "c": null,
     "o": [
       "<strong>",
       "<em>",
@@ -3201,7 +2980,6 @@
   },
   {
     "q": "Which HTML5 attribute in the <video> tag allows a video to play automatically without requiring user input?",
-    "c": null,
     "o": [
       "autoplay",
       "loop",
@@ -3211,7 +2989,6 @@
   },
   {
     "q": "Which HTML5 element is used to define a group of related options in a form?",
-    "c": null,
     "o": [
       "<fieldset>",
       "<select>",
@@ -3231,7 +3008,6 @@
   },
   {
     "q": "Which of the following HTML5 tags is used to specify video subtitles and captions?",
-    "c": null,
     "o": [
       "<track>",
       "<caption>",
@@ -3241,7 +3017,6 @@
   },
   {
     "q": "Which HTML5 element is used to represent a piece of content that is tangentially related to the main content?",
-    "c": null,
     "o": [
       "<aside>",
       "<article>",
@@ -3261,7 +3036,6 @@
   },
   {
     "q": "Which HTML5 element is used to define a section with interactive user controls?",
-    "c": null,
     "o": [
       "<form>",
       "<fieldset>",
@@ -3271,7 +3045,6 @@
   },
   {
     "q": "Which of the following HTML5 elements is used to define a clickable button?",
-    "c": null,
     "o": [
       "<button>",
       "<input>",
@@ -3281,7 +3054,6 @@
   },
   {
     "q": "Which HTML5 element is used to define an interactive graphical chart?",
-    "c": null,
     "o": [
       "<canvas>",
       "<chart>",
@@ -3291,7 +3063,6 @@
   },
   {
     "q": "Which HTML5 element is used to define the main navigation of a webpage?",
-    "c": null,
     "o": [
       "<nav>",
       "<menu>",
@@ -3301,7 +3072,6 @@
   },
   {
     "q": "Which attribute of the <video> element specifies an image to be displayed before the video starts?",
-    "c": null,
     "o": [
       "poster",
       "preload",
@@ -3321,7 +3091,6 @@
   },
   {
     "q": "Which HTML5 element is used to group a set of navigation links?",
-    "c": null,
     "o": [
       "<nav>",
       "<aside>",
@@ -3331,7 +3100,6 @@
   },
   {
     "q": "Which HTML5 element is used to embed an audio file?",
-    "c": null,
     "o": [
       "<audio>",
       "<sound>",
@@ -3351,7 +3119,6 @@
   },
   {
     "q": "Which attribute is used in the <video> tag to specify an image to be shown before the video starts?",
-    "c": null,
     "o": [
       "poster",
       "preload",
@@ -3361,7 +3128,6 @@
   },
   {
     "q": "Which HTML5 element represents the main content of the document?",
-    "c": null,
     "o": [
       "<main>",
       "<section>",
@@ -3371,7 +3137,6 @@
   },
   {
     "q": "Which of the following is true about the HTML5 <canvas> element?",
-    "c": null,
     "o": [
       "It allows for dynamic, scriptable rendering of 2D shapes and images.",
       "It automatically scales images to fit the canvas size.",
@@ -3391,7 +3156,6 @@
   },
   {
     "q": "Which HTML5 tag is used to define self-contained content, such as a blog post?",
-    "c": null,
     "o": [
       "<article>",
       "<section>",
@@ -3401,7 +3165,6 @@
   },
   {
     "q": "Which attribute of the <audio> element ensures that the audio starts playing automatically?",
-    "c": null,
     "o": [
       "autoplay",
       "loop",
@@ -3421,7 +3184,6 @@
   },
   {
     "q": "Which of the following elements should be used for embedding a video?",
-    "c": null,
     "o": [
       "<video>",
       "<media>",
@@ -3431,7 +3193,6 @@
   },
   {
     "q": "Which HTML5 tag is used to specify additional information related to the main content?",
-    "c": null,
     "o": [
       "<aside>",
       "<article>",
@@ -3441,7 +3202,6 @@
   },
   {
     "q": "What does the <track> element do in the <video> tag?",
-    "c": null,
     "o": [
       "It provides subtitles and captions.",
       "It replaces the <source> tag.",
@@ -3451,7 +3211,6 @@
   },
   {
     "q": "Which HTML5 element is used to structure content into logical sections?",
-    "c": null,
     "o": [
       "<section>",
       "<div>",
@@ -3461,7 +3220,6 @@
   },
   {
     "q": "Which attribute of the <audio> tag tells the browser to load the audio when the page loads?",
-    "c": null,
     "o": [
       "preload",
       "autoplay",
@@ -3471,7 +3229,6 @@
   },
   {
     "q": "Which semantic HTML5 element is best suited for the main heading and introductory text of a webpage?",
-    "c": null,
     "o": [
       "<header>",
       "<nav>",
@@ -3491,7 +3248,6 @@
   },
   {
     "q": "Which HTML5 element is used to display vector graphics?",
-    "c": null,
     "o": [
       "<svg>",
       "<canvas>",
@@ -3501,7 +3257,6 @@
   },
   {
     "q": "Which attribute in the <video> tag ensures the video starts over again after finishing?",
-    "c": null,
     "o": [
       "loop",
       "autoplay",
@@ -3511,7 +3266,6 @@
   },
   {
     "q": "Which of the following HTML5 elements is used to define a caption for a <figure> element?",
-    "c": null,
     "o": [
       "<figcaption>",
       "<caption>",
@@ -3531,7 +3285,6 @@
   },
   {
     "q": "Which HTML5 element is used to define content that is tangentially related to the main content?",
-    "c": null,
     "o": [
       "<aside>",
       "<section>",
@@ -3541,7 +3294,6 @@
   },
   {
     "q": "Which HTML5 element is used to group headings and related content together?",
-    "c": null,
     "o": [
       "<header>",
       "<nav>",
@@ -3561,7 +3313,6 @@
   },
   {
     "q": "Which HTML5 tag is used to define a section of a document that includes navigation links?",
-    "c": null,
     "o": [
       "<nav>",
       "<header>",
@@ -3571,7 +3322,6 @@
   },
   {
     "q": "Which attribute of the <video> element ensures that the video starts playing as soon as it loads?",
-    "c": null,
     "o": [
       "autoplay",
       "loop",
@@ -3591,7 +3341,6 @@
   },
   {
     "q": "Which HTML5 element is used to define a self-contained piece of content such as a blog post?",
-    "c": null,
     "o": [
       "<article>",
       "<section>",
@@ -3601,7 +3350,6 @@
   },
   {
     "q": "Which HTML5 element is used to define a container for multiple images with optional captions?",
-    "c": null,
     "o": [
       "<figure>",
       "<img>",
@@ -3611,7 +3359,6 @@
   },
   {
     "q": "What is the purpose of the <track> element inside the <video> tag?",
-    "c": null,
     "o": [
       "To provide captions or subtitles.",
       "To define alternative video sources.",
@@ -3621,7 +3368,6 @@
   },
   {
     "q": "Which attribute in the <audio> tag specifies whether the audio should restart automatically after finishing?",
-    "c": null,
     "o": [
       "loop",
       "autoplay",
@@ -3631,7 +3377,6 @@
   },
   {
     "q": "Which HTML5 tag is used to display graphics using JavaScript?",
-    "c": null,
     "o": [
       "<canvas>",
       "<svg>",
@@ -3651,7 +3396,6 @@
   },
   {
     "q": "Which HTML5 tag is used to define subtitles for a video?",
-    "c": null,
     "o": [
       "<track>",
       "<subtitle>",
@@ -3661,7 +3405,6 @@
   },
   {
     "q": "Which HTML5 tag is used to define a container for a section of content?",
-    "c": null,
     "o": [
       "<section>",
       "<div>",
@@ -3671,7 +3414,6 @@
   },
   {
     "q": "Which attribute of the <video> tag provides an image to display before the video starts?",
-    "c": null,
     "o": [
       "poster",
       "preload",
@@ -3691,7 +3433,6 @@
   },
   {
     "q": "Which HTML5 element is used to define a block of related navigation links?",
-    "c": null,
     "o": [
       "<nav>",
       "<header>",
@@ -3701,7 +3442,6 @@
   },
   {
     "q": "Which HTML5 element is used to provide a description for an image or figure?",
-    "c": null,
     "o": [
       "<figcaption>",
       "<caption>",
@@ -3721,7 +3461,6 @@
   },
   {
     "q": "Which HTML5 element is used to represent the main content of the document?",
-    "c": null,
     "o": [
       "<main>",
       "<section>",
@@ -3731,7 +3470,6 @@
   },
   {
     "q": "Which attribute of the <video> element specifies an alternative video format?",
-    "c": null,
     "o": [
       "source",
       "format",
@@ -3751,7 +3489,6 @@
   },
   {
     "q": "Which HTML5 element is used to define a section of the document that contains introductory content?",
-    "c": null,
     "o": [
       "<header>",
       "<section>",
@@ -3761,7 +3498,6 @@
   },
   {
     "q": "Which HTML5 element is best for wrapping a group of navigation links?",
-    "c": null,
     "o": [
       "<nav>",
       "<menu>",
@@ -3781,7 +3517,6 @@
   },
   {
     "q": "Which HTML5 attribute is used in the <audio> element to mute the audio by default?",
-    "c": null,
     "o": [
       "muted",
       "autoplay",
@@ -3801,7 +3536,6 @@
   },
   {
     "q": "Which HTML5 tag is used to provide structured metadata about a webpage?",
-    "c": null,
     "o": [
       "<meta>",
       "<head>",
@@ -3821,7 +3555,6 @@
   },
   {
     "q": "Which HTML5 element is used to define a footer for a section or document?",
-    "c": null,
     "o": [
       "<footer>",
       "<bottom>",
@@ -3831,7 +3564,6 @@
   },
   {
     "q": "Which HTML5 element is used for embedding a YouTube video?",
-    "c": null,
     "o": [
       "<iframe>",
       "<video>",
@@ -3841,7 +3573,6 @@
   },
   {
     "q": "Which of the following is true about the <canvas> element in HTML5?",
-    "c": null,
     "o": [
       "It requires JavaScript to draw graphics.",
       "It automatically scales graphics.",
@@ -3861,7 +3592,6 @@
   },
   {
     "q": "Which HTML5 tag is used to define a caption for a table?",
-    "c": null,
     "o": [
       "<caption>",
       "<summary>",
@@ -3871,7 +3601,6 @@
   },
   {
     "q": "Which HTML5 tag is used to display inline audio controls?",
-    "c": null,
     "o": [
       "<audio>",
       "<sound>",
@@ -3881,7 +3610,6 @@
   },
   {
     "q": "Which attribute of the <video> element ensures the video plays in a continuous loop?",
-    "c": null,
     "o": [
       "loop",
       "autoplay",
@@ -3891,7 +3619,6 @@
   },
   {
     "q": "Which HTML5 element is used to create interactive web graphics?",
-    "c": null,
     "o": [
       "<canvas>",
       "<svg>",
@@ -3911,7 +3638,6 @@
   },
   {
     "q": "Which HTML5 element is used to define a self-contained piece of content?",
-    "c": null,
     "o": [
       "<article>",
       "<section>",
@@ -3931,7 +3657,6 @@
   },
   {
     "q": "Which HTML5 element is used to define a graphical representation of data?",
-    "c": null,
     "o": [
       "<canvas>",
       "<svg>",
@@ -3941,7 +3666,6 @@
   },
   {
     "q": "Which HTML5 element provides a user-friendly way to embed a video?",
-    "c": null,
     "o": [
       "<video>",
       "<embed>",
@@ -3951,7 +3675,6 @@
   },
   {
     "q": "What does the <source> element do inside a <video> tag?",
-    "c": null,
     "o": [
       "Specifies alternative video formats.",
       "Adds captions to a video.",
@@ -3961,7 +3684,6 @@
   },
   {
     "q": "Which HTML5 element is used to define a section of content that is independent and self-contained?",
-    "c": null,
     "o": [
       "<article>",
       "<section>",
@@ -3971,7 +3693,6 @@
   },
   {
     "q": "Which of the following is a new semantic tag introduced in HTML5?",
-    "c": null,
     "o": [
       "<section>",
       "<div>",
@@ -3981,7 +3702,6 @@
   },
   {
     "q": "Which attribute of the <video> element prevents the audio from playing?",
-    "c": null,
     "o": [
       "muted",
       "autoplay",
@@ -4001,7 +3721,6 @@
   },
   {
     "q": "Which HTML5 element is used to group related form elements together?",
-    "c": null,
     "o": [
       "<fieldset>",
       "<form>",
@@ -4011,7 +3730,6 @@
   },
   {
     "q": "Which HTML5 attribute specifies an image to be displayed while a video is loading?",
-    "c": null,
     "o": [
       "poster",
       "preload",
@@ -4021,7 +3739,6 @@
   },
   {
     "q": "Which HTML5 tag is used to contain graphics drawn via JavaScript?",
-    "c": null,
     "o": [
       "<canvas>",
       "<svg>",
@@ -4041,7 +3758,6 @@
   },
   {
     "q": "Which HTML5 tag is used to provide a caption for a figure?",
-    "c": null,
     "o": [
       "<figcaption>",
       "<caption>",
@@ -4051,7 +3767,6 @@
   },
   {
     "q": "Which HTML5 element is used to embed an audio file?",
-    "c": null,
     "o": [
       "<audio>",
       "<sound>",
@@ -4061,7 +3776,6 @@
   },
   {
     "q": "What does the 'controls' attribute do in the <video> element?",
-    "c": null,
     "o": [
       "Displays built-in video controls.",
       "Starts video playback automatically.",
@@ -4071,7 +3785,6 @@
   },
   {
     "q": "Which HTML5 tag is used to define navigation links?",
-    "c": null,
     "o": [
       "<nav>",
       "<header>",
@@ -4091,7 +3804,6 @@
   },
   {
     "q": "Which HTML5 tag is used to define the main content of a webpage?",
-    "c": null,
     "o": [
       "<main>",
       "<section>",
@@ -4101,7 +3813,6 @@
   },
   {
     "q": "Which HTML5 tag is used to define a container for a captioned image?",
-    "c": null,
     "o": [
       "<figure>",
       "<img>",
@@ -4121,7 +3832,6 @@
   },
   {
     "q": "Which HTML5 element is used to define a section of the document intended to be a sidebar?",
-    "c": null,
     "o": [
       "<aside>",
       "<section>",
@@ -4131,7 +3841,6 @@
   },
   {
     "q": "Which attribute of the <audio> element starts playback automatically?",
-    "c": null,
     "o": [
       "autoplay",
       "loop",
@@ -4151,7 +3860,6 @@
   },
   {
     "q": "Which HTML5 element is used to represent a group of related options in a form?",
-    "c": null,
     "o": [
       "<optgroup>",
       "<select>",
@@ -4161,7 +3869,6 @@
   },
   {
     "q": "What is the purpose of the <track> element in the <video> tag?",
-    "c": null,
     "o": [
       "To provide captions or subtitles.",
       "To preload the video file.",

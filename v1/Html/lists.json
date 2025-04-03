@@ -1,7 +1,6 @@
 [
   {
     "q": "Which HTML tag is used to create an ordered list?",
-    "c": null,
     "o": [
       "<ol>",
       "<ul>",
@@ -21,7 +20,6 @@
   },
   {
     "q": "Which HTML tag is used to create an unordered list?",
-    "c": null,
     "o": [
       "<ul>",
       "<ol>",
@@ -41,7 +39,6 @@
   },
   {
     "q": "Which HTML tag is used to create a description list?",
-    "c": null,
     "o": [
       "<dl>",
       "<ul>",
@@ -61,7 +58,6 @@
   },
   {
     "q": "Which of the following is a valid way to define a list item inside an ordered list?",
-    "c": null,
     "o": [
       "<li>Item</li>",
       "<ol>Item</ol>",
@@ -71,7 +67,6 @@
   },
   {
     "q": "What is the default style of an unordered list?",
-    "c": null,
     "o": [
       "Bullets",
       "Numbers",
@@ -81,7 +76,6 @@
   },
   {
     "q": "Which attribute can be used to change the numbering style of an ordered list?",
-    "c": null,
     "o": [
       "type",
       "style",
@@ -101,7 +95,6 @@
   },
   {
     "q": "Which HTML tag is used to define list items in both ordered and unordered lists?",
-    "c": null,
     "o": [
       "<li>",
       "<ol>",
@@ -121,7 +114,6 @@
   },
   {
     "q": "Which attribute is used to reverse the numbering order of an ordered list?",
-    "c": null,
     "o": [
       "reversed",
       "reverse",
@@ -141,7 +133,6 @@
   },
   {
     "q": "Which of the following is NOT a valid value for the 'type' attribute in an ordered list?",
-    "c": null,
     "o": [
       "square",
       "A",
@@ -151,7 +142,6 @@
   },
   {
     "q": "What does the 'type' attribute of an ordered list do?",
-    "c": null,
     "o": [
       "Changes the numbering style",
       "Adds a background color",
@@ -171,7 +161,6 @@
   },
   {
     "q": "Which tag is used to define terms in a description list?",
-    "c": null,
     "o": [
       "<dt>",
       "<dd>",
@@ -181,7 +170,6 @@
   },
   {
     "q": "Which tag is used to provide a description in a description list?",
-    "c": null,
     "o": [
       "<dd>",
       "<dt>",
@@ -191,7 +179,6 @@
   },
   {
     "q": "What is the difference between <ol> and <ul>?",
-    "c": null,
     "o": [
       "An ordered list has numbered items, an unordered list has bullets",
       "An unordered list is always styled with numbers",
@@ -211,7 +198,6 @@
   },
   {
     "q": "Which of the following values for the 'type' attribute in an ordered list results in uppercase letters?",
-    "c": null,
     "o": [
       "A",
       "a",
@@ -221,7 +207,6 @@
   },
   {
     "q": "Which of the following is the default numbering style for an ordered list?",
-    "c": null,
     "o": [
       "Numbers (1, 2, 3, ...)",
       "Uppercase letters (A, B, C, ...)",
@@ -251,7 +236,6 @@
   },
   {
     "q": "Which of the following is a correct HTML structure for a description list?",
-    "c": null,
     "o": [
       "<dl>\n  <dt>Term</dt>\n  <dd>Description</dd>\n</dl>",
       "<dl>\n  <dd>Term</dd>\n  <dt>Description</dt>\n</dl>",
@@ -261,7 +245,6 @@
   },
   {
     "q": "What is the default style of a description list?",
-    "c": null,
     "o": [
       "No markers, terms appear bold with descriptions indented",
       "Numbered items",
@@ -271,7 +254,6 @@
   },
   {
     "q": "How can you remove the default bullet points from an unordered list using CSS?",
-    "c": null,
     "o": [
       "list-style-type: none;",
       "display: none;",
@@ -291,7 +273,6 @@
   },
   {
     "q": "Which attribute can be used to change the starting number of an ordered list?",
-    "c": null,
     "o": [
       "start",
       "begin",
@@ -321,7 +302,6 @@
   },
   {
     "q": "Which CSS property can change the numbering format of an ordered list?",
-    "c": null,
     "o": [
       "list-style-type",
       "number-style",
@@ -341,7 +321,6 @@
   },
   {
     "q": "Which CSS property can be used to display list items inline?",
-    "c": null,
     "o": [
       "display: inline;",
       "list-style: inline;",
@@ -361,7 +340,6 @@
   },
   {
     "q": "What is the main difference between a description list and an unordered list?",
-    "c": null,
     "o": [
       "A description list pairs terms with descriptions, an unordered list has bullet points",
       "A description list is always styled with numbers",
@@ -371,7 +349,6 @@
   },
   {
     "q": "What happens when you set 'list-style-position: inside;' on a list?",
-    "c": null,
     "o": [
       "List markers appear inside the content area",
       "List markers disappear",
@@ -381,7 +358,6 @@
   },
   {
     "q": "Which HTML attribute can be used to specify a custom image for list bullets?",
-    "c": null,
     "o": [
       "list-style-image",
       "list-bullet-image",
@@ -411,7 +387,6 @@
   },
   {
     "q": "Which of the following is the correct CSS rule to change list item markers to circles?",
-    "c": null,
     "o": [
       "list-style-type: circle;",
       "list-style-type: square;",
@@ -421,7 +396,6 @@
   },
   {
     "q": "Which of the following list-style values is NOT valid for an unordered list?",
-    "c": null,
     "o": [
       "decimal",
       "disc",
@@ -431,7 +405,6 @@
   },
   {
     "q": "What will be the default bullet style for an unordered list?",
-    "c": null,
     "o": [
       "disc",
       "circle",
@@ -441,7 +414,6 @@
   },
   {
     "q": "Which CSS property is used to completely remove list markers from a list?",
-    "c": null,
     "o": [
       "list-style: none;",
       "display: none;",
@@ -461,7 +433,6 @@
   },
   {
     "q": "What is the primary purpose of a description list?",
-    "c": null,
     "o": [
       "To associate terms with descriptions",
       "To create a numbered list",
@@ -471,7 +442,6 @@
   },
   {
     "q": "What happens when you use the 'compact' attribute in an HTML list?",
-    "c": null,
     "o": [
       "The browser ignores it as it is obsolete",
       "The list items appear in a single line",
@@ -481,7 +451,6 @@
   },
   {
     "q": "Which CSS property can change the numbering style of an ordered list?",
-    "c": null,
     "o": [
       "list-style-type",
       "list-format",
@@ -491,7 +460,6 @@
   },
   {
     "q": "Which HTML element allows creating a multi-column list layout?",
-    "c": null,
     "o": [
       "<ul style=\"columns: 2;\">",
       "<multicol>",
@@ -501,7 +469,6 @@
   },
   {
     "q": "Which CSS rule would change an ordered list to display Roman numerals?",
-    "c": null,
     "o": [
       "list-style-type: upper-roman;",
       "list-style: roman;",
@@ -511,7 +478,6 @@
   },
   {
     "q": "Which HTML list type is best suited for presenting a glossary?",
-    "c": null,
     "o": [
       "Description list",
       "Unordered list",
@@ -521,7 +487,6 @@
   },
   {
     "q": "How can you make a list horizontal using CSS?",
-    "c": null,
     "o": [
       "display: flex;",
       "list-style: inline;",
@@ -541,7 +506,6 @@
   },
   {
     "q": "Which HTML tag is used to define an unordered list?",
-    "c": null,
     "o": [
       "<ul>",
       "<ol>",
@@ -551,7 +515,6 @@
   },
   {
     "q": "Which attribute can be used to specify that an ordered list should count down?",
-    "c": null,
     "o": [
       "reversed",
       "descend",
@@ -561,7 +524,6 @@
   },
   {
     "q": "Which of the following list styles is NOT valid for an ordered list?",
-    "c": null,
     "o": [
       "square",
       "decimal",
@@ -581,7 +543,6 @@
   },
   {
     "q": "Which HTML element is used to define the items in an ordered or unordered list?",
-    "c": null,
     "o": [
       "<li>",
       "<ul>",
@@ -591,7 +552,6 @@
   },
   {
     "q": "Which CSS property can be used to change the position of the list marker?",
-    "c": null,
     "o": [
       "list-style-position",
       "marker-position",
@@ -601,7 +561,6 @@
   },
   {
     "q": "What does setting 'list-style-type: none;' do to an unordered list?",
-    "c": null,
     "o": [
       "Removes the bullet points",
       "Changes bullets to numbers",
@@ -621,7 +580,6 @@
   },
   {
     "q": "Which attribute is used to change the starting value of an ordered list?",
-    "c": null,
     "o": [
       "start",
       "begin",
@@ -631,7 +589,6 @@
   },
   {
     "q": "Which of the following CSS properties allows you to use a custom image as a list marker?",
-    "c": null,
     "o": [
       "list-style-image",
       "background-image",
@@ -641,7 +598,6 @@
   },
   {
     "q": "Which HTML tag is used to create a description list?",
-    "c": null,
     "o": [
       "<dl>",
       "<ul>",
@@ -651,7 +607,6 @@
   },
   {
     "q": "Which tag represents a term inside a description list?",
-    "c": null,
     "o": [
       "<dt>",
       "<dd>",
@@ -671,7 +626,6 @@
   },
   {
     "q": "Which of the following is NOT a valid list type in HTML?",
-    "c": null,
     "o": [
       "Bullet list",
       "Ordered list",
@@ -711,7 +665,6 @@
   },
   {
     "q": "Which CSS property is used to set a different marker style for a list?",
-    "c": null,
     "o": [
       "list-style-type",
       "marker-style",
@@ -721,7 +674,6 @@
   },
   {
     "q": "What happens if you use an ordered list with the 'reversed' attribute?",
-    "c": null,
     "o": [
       "The list numbers count down instead of up",
       "The list switches to an unordered list",
@@ -741,7 +693,6 @@
   },
   {
     "q": "Which of the following HTML elements is used to create a numbered list?",
-    "c": null,
     "o": [
       "<ol>",
       "<ul>",
@@ -751,7 +702,6 @@
   },
   {
     "q": "Which of the following list types is best suited for displaying steps in a process?",
-    "c": null,
     "o": [
       "Ordered list",
       "Unordered list",
@@ -781,7 +731,6 @@
   },
   {
     "q": "Which HTML list type allows defining terms and their descriptions?",
-    "c": null,
     "o": [
       "Description list",
       "Ordered list",
@@ -791,7 +740,6 @@
   },
   {
     "q": "Which tag is used to specify a description within a description list?",
-    "c": null,
     "o": [
       "<dd>",
       "<dt>",
@@ -801,7 +749,6 @@
   },
   {
     "q": "Which attribute allows changing the numbering style of an ordered list?",
-    "c": null,
     "o": [
       "type",
       "style",
@@ -821,7 +768,6 @@
   },
   {
     "q": "Which CSS property removes the default list styling?",
-    "c": null,
     "o": [
       "list-style: none;",
       "display: block;",
@@ -831,7 +777,6 @@
   },
   {
     "q": "Which of the following HTML elements must always be used within an ordered or unordered list?",
-    "c": null,
     "o": [
       "<li>",
       "<ul>",
@@ -851,7 +796,6 @@
   },
   {
     "q": "Which CSS property allows you to set an image as a bullet point in an unordered list?",
-    "c": null,
     "o": [
       "list-style-image",
       "background-image",
@@ -871,7 +815,6 @@
   },
   {
     "q": "Which of the following list styles is NOT valid for an unordered list?",
-    "c": null,
     "o": [
       "decimal",
       "disc",
@@ -881,7 +824,6 @@
   },
   {
     "q": "What is the default bullet style for an unordered list?",
-    "c": null,
     "o": [
       "disc",
       "circle",
@@ -901,7 +843,6 @@
   },
   {
     "q": "Which attribute is used to specify the numbering format in an ordered list?",
-    "c": null,
     "o": [
       "type",
       "format",
@@ -921,7 +862,6 @@
   },
   {
     "q": "Which of the following correctly applies a square bullet to an unordered list using CSS?",
-    "c": null,
     "o": [
       "list-style-type: square;",
       "list-style: square;",
@@ -941,7 +881,6 @@
   },
   {
     "q": "Which attribute is used to change the numbering style of an ordered list?",
-    "c": null,
     "o": [
       "type",
       "style",
@@ -951,7 +890,6 @@
   },
   {
     "q": "What is the default numbering style for an ordered list?",
-    "c": null,
     "o": [
       "decimal",
       "roman",
@@ -971,7 +909,6 @@
   },
   {
     "q": "Which HTML attribute allows an ordered list to start numbering from a specific value?",
-    "c": null,
     "o": [
       "start",
       "begin",
@@ -981,7 +918,6 @@
   },
   {
     "q": "What is the effect of using the 'reversed' attribute in an ordered list?",
-    "c": null,
     "o": [
       "The list numbers count down instead of up",
       "The list switches to an unordered list",
@@ -1001,7 +937,6 @@
   },
   {
     "q": "Which of the following is NOT a valid list type in HTML?",
-    "c": null,
     "o": [
       "Bullet list",
       "Ordered list",
@@ -1021,7 +956,6 @@
   },
   {
     "q": "Which CSS property removes the default bullet points from an unordered list?",
-    "c": null,
     "o": [
       "list-style: none;",
       "display: block;",
@@ -1031,7 +965,6 @@
   },
   {
     "q": "Which CSS property allows changing the bullet style of an unordered list?",
-    "c": null,
     "o": [
       "list-style-type",
       "marker-style",
@@ -1041,7 +974,6 @@
   },
   {
     "q": "Which HTML tag is used to define a description term in a description list?",
-    "c": null,
     "o": [
       "<dt>",
       "<dd>",
@@ -1071,7 +1003,6 @@
   },
   {
     "q": "What is the purpose of the <li> tag in an ordered or unordered list?",
-    "c": null,
     "o": [
       "Defines each list item",
       "Creates a new list",
@@ -1081,7 +1012,6 @@
   },
   {
     "q": "Which of the following correctly sets a custom image as a bullet in an unordered list?",
-    "c": null,
     "o": [
       "list-style-image: url('bullet.png');",
       "background-image: url('bullet.png');",
@@ -1091,7 +1021,6 @@
   },
   {
     "q": "Which attribute is used to change the marker type in an ordered list?",
-    "c": null,
     "o": [
       "type",
       "marker",
@@ -1101,7 +1030,6 @@
   },
   {
     "q": "Which CSS property can be used to change the position of list markers?",
-    "c": null,
     "o": [
       "list-style-position",
       "marker-align",
@@ -1111,7 +1039,6 @@
   },
   {
     "q": "Which of the following statements about description lists is TRUE?",
-    "c": null,
     "o": [
       "They consist of terms and definitions.",
       "They are used only for navigation menus.",
@@ -1131,7 +1058,6 @@
   },
   {
     "q": "What does setting 'list-style-type: none;' do to an unordered list?",
-    "c": null,
     "o": [
       "Removes the bullet points",
       "Changes bullets to numbers",
@@ -1141,7 +1067,6 @@
   },
   {
     "q": "Which HTML tag is used to define an unordered list?",
-    "c": null,
     "o": [
       "<ul>",
       "<ol>",
@@ -1151,7 +1076,6 @@
   },
   {
     "q": "What is the default numbering type for an ordered list?",
-    "c": null,
     "o": [
       "Numbers (1, 2, 3...)",
       "Roman numerals (I, II, III...)",
@@ -1171,7 +1095,6 @@
   },
   {
     "q": "Which HTML attribute reverses the order of an ordered list?",
-    "c": null,
     "o": [
       "reversed",
       "order",
@@ -1191,7 +1114,6 @@
   },
   {
     "q": "Which CSS property changes the shape of bullets in an unordered list?",
-    "c": null,
     "o": [
       "list-style-type",
       "bullet-style",
@@ -1201,7 +1123,6 @@
   },
   {
     "q": "Which HTML element is used to define a description list?",
-    "c": null,
     "o": [
       "<dl>",
       "<ul>",
@@ -1211,7 +1132,6 @@
   },
   {
     "q": "Which HTML element is used to define the description term in a description list?",
-    "c": null,
     "o": [
       "<dt>",
       "<dd>",
@@ -1231,7 +1151,6 @@
   },
   {
     "q": "Which of the following will correctly remove the bullet points from an unordered list?",
-    "c": null,
     "o": [
       "list-style: none;",
       "list: hidden;",
@@ -1241,7 +1160,6 @@
   },
   {
     "q": "Which attribute is used to set a starting value for an ordered list?",
-    "c": null,
     "o": [
       "start",
       "begin",
@@ -1251,7 +1169,6 @@
   },
   {
     "q": "Which CSS property allows placing list markers inside the content flow?",
-    "c": null,
     "o": [
       "list-style-position: inside;",
       "list-position: inside;",
@@ -1281,7 +1198,6 @@
   },
   {
     "q": "Which of the following correctly applies a custom image as a bullet in an unordered list?",
-    "c": null,
     "o": [
       "list-style-image: url('bullet.png');",
       "background-image: url('bullet.png');",
@@ -1291,7 +1207,6 @@
   },
   {
     "q": "Which of the following correctly sets a square bullet style for an unordered list?",
-    "c": null,
     "o": [
       "list-style-type: square;",
       "list-style: square;",
@@ -1311,7 +1226,6 @@
   },
   {
     "q": "Which HTML element is used to define a list item?",
-    "c": null,
     "o": [
       "<li>",
       "<ul>",
@@ -1321,7 +1235,6 @@
   },
   {
     "q": "Which CSS property is used to change the position of list markers?",
-    "c": null,
     "o": [
       "list-style-position",
       "marker-position",
@@ -1331,7 +1244,6 @@
   },
   {
     "q": "Which list type is best for displaying a glossary of terms and their meanings?",
-    "c": null,
     "o": [
       "Description list",
       "Ordered list",
@@ -1341,7 +1253,6 @@
   },
   {
     "q": "Which attribute can be used to change the bullet type in an unordered list?",
-    "c": null,
     "o": [
       "type",
       "style",
@@ -1361,7 +1272,6 @@
   },
   {
     "q": "Which HTML attribute is used to define a custom starting number in an ordered list?",
-    "c": null,
     "o": [
       "start",
       "begin",
@@ -1371,7 +1281,6 @@
   },
   {
     "q": "What does setting the 'list-style-position' property to 'inside' do?",
-    "c": null,
     "o": [
       "Moves the list marker inside the content flow",
       "Hides the list marker",
@@ -1381,7 +1290,6 @@
   },
   {
     "q": "Which HTML element is used to group a set of list items?",
-    "c": null,
     "o": [
       "<ul> or <ol>",
       "<li>",
@@ -1401,7 +1309,6 @@
   },
   {
     "q": "Which CSS property is used to apply a custom image as a list bullet?",
-    "c": null,
     "o": [
       "list-style-image",
       "background-image",
@@ -1421,7 +1328,6 @@
   },
   {
     "q": "Which attribute is NOT valid for an ordered list?",
-    "c": null,
     "o": [
       "bullet",
       "type",
@@ -1441,7 +1347,6 @@
   },
   {
     "q": "Which CSS property is used to change the list marker color?",
-    "c": null,
     "o": [
       "color",
       "marker-color",
@@ -1461,7 +1366,6 @@
   },
   {
     "q": "Which CSS property controls the list marker shape?",
-    "c": null,
     "o": [
       "list-style-type",
       "marker-shape",
@@ -1471,7 +1375,6 @@
   },
   {
     "q": "What is the default bullet style for an unordered list?",
-    "c": null,
     "o": [
       "disc",
       "square",
@@ -1481,7 +1384,6 @@
   },
   {
     "q": "Which of the following list types is best suited for a step-by-step guide?",
-    "c": null,
     "o": [
       "Ordered list",
       "Unordered list",
@@ -1491,7 +1393,6 @@
   },
   {
     "q": "What will happen if 'list-style-type: none;' is applied to an unordered list?",
-    "c": null,
     "o": [
       "Bullet points will be removed",
       "Bullet points will change to squares",
@@ -1511,7 +1412,6 @@
   },
   {
     "q": "Which CSS property hides the list markers without affecting content layout?",
-    "c": null,
     "o": [
       "list-style: none;",
       "display: none;",
@@ -1521,7 +1421,6 @@
   },
   {
     "q": "Which of the following correctly applies a custom bullet image to a list?",
-    "c": null,
     "o": [
       "list-style-image: url('custom.png');",
       "background-image: url('custom.png');",
@@ -1541,7 +1440,6 @@
   },
   {
     "q": "What happens when you apply 'list-style-position: inside;' to a list?",
-    "c": null,
     "o": [
       "List markers move inside the text content",
       "List markers become hidden",
@@ -1551,7 +1449,6 @@
   },
   {
     "q": "Which of the following is NOT a valid value for 'list-style-type'?",
-    "c": null,
     "o": [
       "block",
       "circle",
@@ -1561,7 +1458,6 @@
   },
   {
     "q": "Which HTML tag is used to create a numbered list?",
-    "c": null,
     "o": [
       "<ol>",
       "<ul>",
@@ -1571,7 +1467,6 @@
   },
   {
     "q": "Which attribute is used to change the numbering style in an ordered list?",
-    "c": null,
     "o": [
       "type",
       "style",
@@ -1581,7 +1476,6 @@
   },
   {
     "q": "What is the default bullet type for an unordered list?",
-    "c": null,
     "o": [
       "disc",
       "circle",
@@ -1591,7 +1485,6 @@
   },
   {
     "q": "Which CSS property is used to hide list markers?",
-    "c": null,
     "o": [
       "list-style: none;",
       "visibility: hidden;",
@@ -1601,7 +1494,6 @@
   },
   {
     "q": "Which attribute is used to specify a starting number for an ordered list?",
-    "c": null,
     "o": [
       "start",
       "begin",
@@ -1631,7 +1523,6 @@
   },
   {
     "q": "What does the 'reversed' attribute do in an ordered list?",
-    "c": null,
     "o": [
       "Reverses the numbering order",
       "Removes the list markers",
@@ -1641,7 +1532,6 @@
   },
   {
     "q": "Which HTML element is used to define a list item?",
-    "c": null,
     "o": [
       "<li>",
       "<ul>",
@@ -1651,7 +1541,6 @@
   },
   {
     "q": "Which CSS property is used to change the position of list markers?",
-    "c": null,
     "o": [
       "list-style-position",
       "marker-position",
@@ -1661,7 +1550,6 @@
   },
   {
     "q": "Which list type is best for displaying a glossary of terms and their meanings?",
-    "c": null,
     "o": [
       "Description list",
       "Ordered list",
@@ -1671,7 +1559,6 @@
   },
   {
     "q": "What will be the effect of 'list-style-type: none;' on an unordered list?",
-    "c": null,
     "o": [
       "Removes bullet points",
       "Changes bullets to squares",
@@ -1691,7 +1578,6 @@
   },
   {
     "q": "Which of the following CSS rules will display list markers inside the content area?",
-    "c": null,
     "o": [
       "list-style-position: inside;",
       "list-position: inside;",
@@ -1711,7 +1597,6 @@
   },
   {
     "q": "Which HTML element represents a description term?",
-    "c": null,
     "o": [
       "<dt>",
       "<dd>",
@@ -1721,7 +1606,6 @@
   },
   {
     "q": "Which attribute is NOT valid for an ordered list?",
-    "c": null,
     "o": [
       "bullet",
       "start",
@@ -1731,7 +1615,6 @@
   },
   {
     "q": "Which CSS property applies a custom image as a list bullet?",
-    "c": null,
     "o": [
       "list-style-image",
       "background-image",
@@ -1741,7 +1624,6 @@
   },
   {
     "q": "What will happen if 'list-style: none;' is applied to an unordered list?",
-    "c": null,
     "o": [
       "Bullet points will be removed",
       "Bullet points will change to squares",
@@ -1761,7 +1643,6 @@
   },
   {
     "q": "Which accessibility attribute should be used to improve screen reader support for lists?",
-    "c": null,
     "o": [
       "aria-label",
       "alt",
@@ -1781,7 +1662,6 @@
   },
   {
     "q": "Which CSS property can be used to change the marker size in a list?",
-    "c": null,
     "o": [
       "font-size",
       "marker-size",
@@ -1791,7 +1671,6 @@
   },
   {
     "q": "Which HTML list type is best suited for a table of contents?",
-    "c": null,
     "o": [
       "Ordered list",
       "Unordered list",
@@ -1801,7 +1680,6 @@
   },
   {
     "q": "What happens when the 'compact' attribute is used in an HTML list?",
-    "c": null,
     "o": [
       "It has no effect in modern HTML",
       "It reduces the spacing between list items",
@@ -1811,7 +1689,6 @@
   },
   {
     "q": "Which of the following CSS rules will create a numbered list with Roman numerals?",
-    "c": null,
     "o": [
       "list-style-type: upper-roman;",
       "list-style-type: roman;",
@@ -1831,7 +1708,6 @@
   },
   {
     "q": "Which CSS property can be used to change the spacing between list items?",
-    "c": null,
     "o": [
       "margin",
       "padding",
@@ -1841,7 +1717,6 @@
   },
   {
     "q": "Which HTML element is recommended for navigation menus?",
-    "c": null,
     "o": [
       "<nav> with <ul>",
       "<ol> with <li>",
@@ -1851,7 +1726,6 @@
   },
   {
     "q": "Which of the following is NOT a valid list-style-type value?",
-    "c": null,
     "o": [
       "triangle",
       "disc",
@@ -1861,7 +1735,6 @@
   },
   {
     "q": "Which of the following will display an unordered list inline?",
-    "c": null,
     "o": [
       "display: inline;",
       "list-style: inline;",
@@ -1871,7 +1744,6 @@
   },
   {
     "q": "Which HTML element is used to represent a group of related list items?",
-    "c": null,
     "o": [
       "<ul> or <ol>",
       "<li>",
@@ -1891,7 +1763,6 @@
   },
   {
     "q": "Which CSS property controls the alignment of list markers?",
-    "c": null,
     "o": [
       "text-align",
       "list-style-align",
@@ -1911,7 +1782,6 @@
   },
   {
     "q": "Which of the following is the correct way to remove list indentation?",
-    "c": null,
     "o": [
       "padding-left: 0;",
       "list-style: none;",
@@ -1921,7 +1791,6 @@
   },
   {
     "q": "Which CSS property can be used to add space between list markers and text?",
-    "c": null,
     "o": [
       "padding-left",
       "margin-top",
@@ -1931,7 +1800,6 @@
   },
   {
     "q": "Which HTML attribute improves accessibility for screen readers in lists?",
-    "c": null,
     "o": [
       "aria-label",
       "alt",
@@ -1941,7 +1809,6 @@
   },
   {
     "q": "Which list type is best for listing ingredients in a recipe?",
-    "c": null,
     "o": [
       "Unordered list",
       "Ordered list",
@@ -1951,7 +1818,6 @@
   },
   {
     "q": "Which of the following is an advantage of using an ordered list?",
-    "c": null,
     "o": [
       "It provides a clear sequence for steps",
       "It allows for custom bullet points",
@@ -1961,7 +1827,6 @@
   },
   {
     "q": "Which CSS property is used to modify the numbering style of an ordered list?",
-    "c": null,
     "o": [
       "list-style-type",
       "numbering-style",
@@ -1971,7 +1836,6 @@
   },
   {
     "q": "Which list type would be best for displaying key-value pairs?",
-    "c": null,
     "o": [
       "Description list",
       "Ordered list",
@@ -1981,7 +1845,6 @@
   },
   {
     "q": "What will happen if 'list-style: none;' is applied to an ordered list?",
-    "c": null,
     "o": [
       "Numbers will be removed",
       "The list will be hidden",
@@ -1991,7 +1854,6 @@
   },
   {
     "q": "Which of the following can be used to create a horizontal navigation menu?",
-    "c": null,
     "o": [
       "display: flex;",
       "list-style: horizontal;",
@@ -2011,7 +1873,6 @@
   },
   {
     "q": "What is the purpose of the <menu> element in HTML?",
-    "c": null,
     "o": [
       "To create interactive menus in web applications",
       "To create a standard unordered list",
@@ -2031,7 +1892,6 @@
   },
   {
     "q": "Which list type is best suited for defining a set of related key-value pairs?",
-    "c": null,
     "o": [
       "Description list",
       "Unordered list",
@@ -2041,7 +1901,6 @@
   },
   {
     "q": "Which attribute is used to continue numbering from a previous list?",
-    "c": null,
     "o": [
       "start",
       "continue",
@@ -2051,7 +1910,6 @@
   },
   {
     "q": "What is the correct way to create a list with alternating row colors using CSS?",
-    "c": null,
     "o": [
       "li:nth-child(even) { background-color: #f2f2f2; }",
       "li:nth-row(even) { background-color: #f2f2f2; }",
@@ -2061,7 +1919,6 @@
   },
   {
     "q": "Which of the following is the best practice for creating a list of links?",
-    "c": null,
     "o": [
       "Using an unordered list inside a <nav> element",
       "Using an ordered list with <a> elements",
@@ -2071,7 +1928,6 @@
   },
   {
     "q": "What is the best way to remove default list indentation?",
-    "c": null,
     "o": [
       "padding-left: 0; margin-left: 0;",
       "text-indent: -10px;",
@@ -2081,7 +1937,6 @@
   },
   {
     "q": "What happens when the 'compact' attribute is used in an HTML list?",
-    "c": null,
     "o": [
       "It has no effect in modern HTML",
       "It removes list item markers",
@@ -2091,7 +1946,6 @@
   },
   {
     "q": "Which of the following will correctly align list markers inside the content box?",
-    "c": null,
     "o": [
       "list-style-position: inside;",
       "list-align: inside;",
@@ -2101,7 +1955,6 @@
   },
   {
     "q": "Which HTML list type is typically used for a multi-step process?",
-    "c": null,
     "o": [
       "Ordered list",
       "Unordered list",
@@ -2131,7 +1984,6 @@
   },
   {
     "q": "Which of the following CSS properties can change the appearance of list markers?",
-    "c": null,
     "o": [
       "list-style-type",
       "text-decoration",
@@ -2161,7 +2013,6 @@
   },
   {
     "q": "Which of the following is the correct way to apply a different bullet style for a single list item?",
-    "c": null,
     "o": [
       "li.special { list-style-type: square; }",
       "li:nth-child(2) { bullet-style: square; }",
@@ -2171,7 +2022,6 @@
   },
   {
     "q": "Which of the following is the correct way to add space between list items?",
-    "c": null,
     "o": [
       "li { margin-bottom: 10px; }",
       "ul { padding-spacing: 10px; }",
@@ -2201,7 +2051,6 @@
   },
   {
     "q": "What is the best way to make a list responsive?",
-    "c": null,
     "o": [
       "Using flexbox or grid with CSS",
       "Using only inline-block elements",
@@ -2211,7 +2060,6 @@
   },
   {
     "q": "Which HTML element is best suited for hierarchical navigation?",
-    "c": null,
     "o": [
       "<nav> with <ul>",
       "<section> with <ol>",
@@ -2231,7 +2079,6 @@
   },
   {
     "q": "Which attribute can be used to reverse the numbering order in an ordered list?",
-    "c": null,
     "o": [
       "reversed",
       "reverse",
@@ -2241,7 +2088,6 @@
   },
   {
     "q": "Which HTML element is best suited for displaying a glossary of terms?",
-    "c": null,
     "o": [
       "Description list",
       "Unordered list",
@@ -2261,7 +2107,6 @@
   },
   {
     "q": "Which CSS property is used to change the spacing between list items?",
-    "c": null,
     "o": [
       "margin-bottom",
       "list-spacing",
@@ -2291,7 +2136,6 @@
   },
   {
     "q": "Which of the following is the correct way to remove bullets from an unordered list?",
-    "c": null,
     "o": [
       "list-style: none;",
       "text-decoration: none;",
@@ -2301,7 +2145,6 @@
   },
   {
     "q": "What is the default bullet style for an unordered list?",
-    "c": null,
     "o": [
       "disc",
       "circle",
@@ -2311,7 +2154,6 @@
   },
   {
     "q": "Which CSS property controls the alignment of list markers?",
-    "c": null,
     "o": [
       "list-style-position",
       "text-align",
@@ -2331,7 +2173,6 @@
   },
   {
     "q": "Which list type is best for displaying a series of product features?",
-    "c": null,
     "o": [
       "Unordered list",
       "Ordered list",
@@ -2341,7 +2182,6 @@
   },
   {
     "q": "What is the best way to ensure an HTML list is accessible for screen readers?",
-    "c": null,
     "o": [
       "Using proper semantic HTML elements",
       "Adding role=\"list\" to the parent element",
@@ -2351,7 +2191,6 @@
   },
   {
     "q": "Which of the following is a valid way to style a specific list item?",
-    "c": null,
     "o": [
       "li.special { color: red; }",
       "li:nth-bullet(3) { color: blue; }",
@@ -2361,7 +2200,6 @@
   },
   {
     "q": "What happens when you apply 'display: flex;' to an unordered list?",
-    "c": null,
     "o": [
       "The list items will be displayed in a row",
       "The list will lose its bullet points",
@@ -2371,7 +2209,6 @@
   },
   {
     "q": "Which HTML attribute improves accessibility for a list by providing a description?",
-    "c": null,
     "o": [
       "aria-label",
       "alt",
@@ -2381,7 +2218,6 @@
   },
   {
     "q": "What is the best way to create an inline navigation list?",
-    "c": null,
     "o": [
       "Using 'display: inline-block;' on <li> elements",
       "Using 'list-style: none;' on <ul>",
@@ -2391,7 +2227,6 @@
   },
   {
     "q": "Which list type is best for creating a step-by-step tutorial?",
-    "c": null,
     "o": [
       "Ordered list",
       "Unordered list",
@@ -2411,7 +2246,6 @@
   },
   {
     "q": "Which CSS property can be used to add spacing between list markers and text?",
-    "c": null,
     "o": [
       "padding-left",
       "margin-top",
@@ -2421,7 +2255,6 @@
   },
   {
     "q": "What will happen if you apply 'list-style: none;' to an ordered list?",
-    "c": null,
     "o": [
       "Numbers will be removed",
       "The order will be reversed",
@@ -2441,7 +2274,6 @@
   },
   {
     "q": "Which list type is best suited for creating a table of contents?",
-    "c": null,
     "o": [
       "Ordered list",
       "Unordered list",
@@ -2451,7 +2283,6 @@
   },
   {
     "q": "Which HTML element is best suited for displaying a definition term and its explanation?",
-    "c": null,
     "o": [
       "<dl>",
       "<ul>",
@@ -2481,7 +2312,6 @@
   },
   {
     "q": "Which of the following CSS properties is used to change list marker color?",
-    "c": null,
     "o": [
       "color",
       "list-style-color",
@@ -2491,7 +2321,6 @@
   },
   {
     "q": "Which list type is best for creating an FAQ (Frequently Asked Questions) section?",
-    "c": null,
     "o": [
       "Description list",
       "Ordered list",
@@ -2511,7 +2340,6 @@
   },
   {
     "q": "Which CSS property allows numbers in an ordered list to be styled separately from text?",
-    "c": null,
     "o": [
       "::marker",
       "list-style",
@@ -2521,7 +2349,6 @@
   },
   {
     "q": "Which of the following is the correct way to remove indentation from a list?",
-    "c": null,
     "o": [
       "padding-left: 0; margin-left: 0;",
       "text-indent: -10px;",
@@ -2531,7 +2358,6 @@
   },
   {
     "q": "What is the default numbering style of an ordered list?",
-    "c": null,
     "o": [
       "Decimal (1, 2, 3, ...)",
       "Roman numerals (I, II, III, ...)",
@@ -2541,7 +2367,6 @@
   },
   {
     "q": "Which HTML attribute is used to specify the starting number of an ordered list?",
-    "c": null,
     "o": [
       "start",
       "begin",
@@ -2551,7 +2376,6 @@
   },
   {
     "q": "What will happen if you apply 'display: grid;' to a <ul> element?",
-    "c": null,
     "o": [
       "List items will be arranged in a grid layout",
       "The list markers will disappear",
@@ -2571,7 +2395,6 @@
   },
   {
     "q": "Which of the following is a best practice for creating accessible lists?",
-    "c": null,
     "o": [
       "Using proper semantic elements like <ul>, <ol>, and <dl>",
       "Adding role=\"list\" to <ul> elements",
@@ -2581,7 +2404,6 @@
   },
   {
     "q": "Which of the following will properly style every second list item differently?",
-    "c": null,
     "o": [
       "li:nth-child(even) { background-color: #f2f2f2; }",
       "li:alternate { background: gray; }",
@@ -2591,7 +2413,6 @@
   },
   {
     "q": "Which HTML list type is best suited for creating a step-by-step process?",
-    "c": null,
     "o": [
       "Ordered list",
       "Unordered list",
@@ -2631,7 +2452,6 @@
   },
   {
     "q": "Which of the following HTML elements should be used for a navigation menu?",
-    "c": null,
     "o": [
       "<nav> with <ul>",
       "<section> with <ol>",
@@ -2641,7 +2461,6 @@
   },
   {
     "q": "What is the best way to apply a different style to the first list item?",
-    "c": null,
     "o": [
       "li:first-child { color: red; }",
       "li:first { color: red; }",
@@ -2651,7 +2470,6 @@
   },
   {
     "q": "Which HTML list type is best for displaying ingredients in a recipe?",
-    "c": null,
     "o": [
       "Unordered list",
       "Ordered list",
@@ -2661,7 +2479,6 @@
   },
   {
     "q": "Which HTML attribute allows you to specify a custom numbering style for an ordered list?",
-    "c": null,
     "o": [
       "type",
       "style",
@@ -2671,7 +2488,6 @@
   },
   {
     "q": "Which CSS property controls whether the list marker appears inside or outside the content flow?",
-    "c": null,
     "o": [
       "list-style-position",
       "list-marker-align",
@@ -2681,7 +2497,6 @@
   },
   {
     "q": "What will happen if you use 'display: flex;' on a <ul> element?",
-    "c": null,
     "o": [
       "List items will be displayed in a row",
       "List items will be hidden",
@@ -2691,7 +2506,6 @@
   },
   {
     "q": "Which of the following CSS properties can be used to create a numbered list without using <ol>?",
-    "c": null,
     "o": [
       "counter-increment",
       "list-style",
@@ -2701,7 +2515,6 @@
   },
   {
     "q": "Which HTML element is best for structuring a navigation menu?",
-    "c": null,
     "o": [
       "<nav> with <ul>",
       "<section> with <ol>",
@@ -2721,7 +2534,6 @@
   },
   {
     "q": "Which of the following is a valid way to remove bullets from a list using CSS?",
-    "c": null,
     "o": [
       "list-style: none;",
       "text-decoration: none;",
@@ -2731,7 +2543,6 @@
   },
   {
     "q": "Which HTML list is best for displaying a set of related terms and their meanings?",
-    "c": null,
     "o": [
       "Description list",
       "Unordered list",
@@ -2751,7 +2562,6 @@
   },
   {
     "q": "What happens if you apply 'display: grid;' to an ordered list?",
-    "c": null,
     "o": [
       "List items will be arranged in a grid layout",
       "List markers will be hidden",
@@ -2761,7 +2571,6 @@
   },
   {
     "q": "Which of the following is the correct way to add a gap between list items?",
-    "c": null,
     "o": [
       "margin-bottom",
       "line-height",
@@ -2771,7 +2580,6 @@
   },
   {
     "q": "Which HTML element is best for grouping a set of navigation links?",
-    "c": null,
     "o": [
       "<ul>",
       "<nav>",
@@ -2781,7 +2589,6 @@
   },
   {
     "q": "What is the default value of the CSS 'list-style-position' property?",
-    "c": null,
     "o": [
       "outside",
       "inside",
@@ -2791,7 +2598,6 @@
   },
   {
     "q": "What happens when you add 'list-style-type: square;' to an unordered list?",
-    "c": null,
     "o": [
       "Bullets will change to squares",
       "The list will become numbered",
@@ -2811,7 +2617,6 @@
   },
   {
     "q": "Which of the following is the best way to style every third list item?",
-    "c": null,
     "o": [
       "li:nth-child(3n) { color: red; }",
       "li:every(3) { color: red; }",
@@ -2831,7 +2636,6 @@
   },
   {
     "q": "What is the correct HTML element for grouping multiple lists together?",
-    "c": null,
     "o": [
       "<ul>, <ol>, or <dl> inside a <div>",
       "<group>",
@@ -2841,7 +2645,6 @@
   },
   {
     "q": "Which of the following is a valid way to style the first item in an ordered list?",
-    "c": null,
     "o": [
       "li:first-child { font-weight: bold; }",
       "li:first { font-weight: bold; }",
@@ -2851,7 +2654,6 @@
   },
   {
     "q": "What is the correct way to apply a different style to the last list item?",
-    "c": null,
     "o": [
       "li:last-child { color: blue; }",
       "li:last { color: blue; }",
@@ -2861,7 +2663,6 @@
   },
   {
     "q": "Which HTML attribute improves accessibility by providing a description for a list?",
-    "c": null,
     "o": [
       "aria-label",
       "alt",
@@ -2871,7 +2672,6 @@
   },
   {
     "q": "Which CSS property is used to style the list numbering separately from the text?",
-    "c": null,
     "o": [
       "::marker",
       "list-style-number",
@@ -2881,7 +2681,6 @@
   },
   {
     "q": "Which of the following is the correct HTML tag for an ordered list?",
-    "c": null,
     "o": [
       "<ol>",
       "<ul>",
@@ -2901,7 +2700,6 @@
   },
   {
     "q": "Which tag is used to define an unordered list in HTML?",
-    "c": null,
     "o": [
       "<ul>",
       "<ol>",
@@ -2921,7 +2719,6 @@
   },
   {
     "q": "Which tag is used to create a description list in HTML?",
-    "c": null,
     "o": [
       "<dl>",
       "<ul>",
@@ -2941,7 +2738,6 @@
   },
   {
     "q": "Which of the following is NOT a valid HTML list type?",
-    "c": null,
     "o": [
       "Inline list",
       "Ordered list",
@@ -2951,7 +2747,6 @@
   },
   {
     "q": "How can you define a list item inside an ordered or unordered list?",
-    "c": null,
     "o": [
       "<li>",
       "<ol>",
@@ -2961,7 +2756,6 @@
   },
   {
     "q": "Which attribute is used to specify the starting number in an ordered list?",
-    "c": null,
     "o": [
       "start",
       "begin",
@@ -2971,7 +2765,6 @@
   },
   {
     "q": "What is the default numbering type for an ordered list?",
-    "c": null,
     "o": [
       "Numbers (1, 2, 3, ...)",
       "Roman numerals (I, II, III, ...)",
@@ -2981,7 +2774,6 @@
   },
   {
     "q": "Which attribute is used to change the bullet style of an unordered list?",
-    "c": null,
     "o": [
       "type",
       "style",
@@ -3001,7 +2793,6 @@
   },
   {
     "q": "What is the correct way to define a list item inside a description list?",
-    "c": null,
     "o": [
       "<dt> for the term, <dd> for the description",
       "<li> for the term, <p> for the description",
@@ -3021,7 +2812,6 @@
   },
   {
     "q": "What is the purpose of the <li> tag in HTML?",
-    "c": null,
     "o": [
       "Defines a list item inside <ul> or <ol>",
       "Defines a bullet point inside <dl>",
@@ -3041,7 +2831,6 @@
   },
   {
     "q": "Which of the following values is NOT valid for the 'type' attribute in an ordered list?",
-    "c": null,
     "o": [
       "diamond",
       "1",
@@ -3051,7 +2840,6 @@
   },
   {
     "q": "What happens if you nest an <ol> list inside a <ul> list?",
-    "c": null,
     "o": [
       "A mixed list with bullets and numbers",
       "An error occurs",
@@ -3071,7 +2859,6 @@
   },
   {
     "q": "What is the correct way to define a numbered list with Roman numerals?",
-    "c": null,
     "o": [
       "<ol type='I'>",
       "<ol type='roman'>",
@@ -3081,7 +2868,6 @@
   },
   {
     "q": "Which HTML list type should you use for a glossary of terms and their definitions?",
-    "c": null,
     "o": [
       "Description list",
       "Ordered list",
@@ -3091,7 +2877,6 @@
   },
   {
     "q": "What is the default bullet style for an unordered list?",
-    "c": null,
     "o": [
       "Disc",
       "Square",
@@ -3111,7 +2896,6 @@
   },
   {
     "q": "Which attribute allows reversing the order of items in an ordered list?",
-    "c": null,
     "o": [
       "reversed",
       "reverse",
@@ -3131,7 +2915,6 @@
   },
   {
     "q": "Which of the following is NOT a valid list-style-type value for unordered lists?",
-    "c": null,
     "o": [
       "numbered",
       "disc",
@@ -3141,7 +2924,6 @@
   },
   {
     "q": "What happens if you use the 'start' attribute in an unordered list?",
-    "c": null,
     "o": [
       "It has no effect",
       "It changes the starting bullet type",
@@ -3161,7 +2943,6 @@
   },
   {
     "q": "Which attribute is used to specify custom numbering in an ordered list?",
-    "c": null,
     "o": [
       "value",
       "number",
@@ -3181,7 +2962,6 @@
   },
   {
     "q": "Which HTML list type would be best suited for creating a step-by-step instruction guide?",
-    "c": null,
     "o": [
       "Ordered list",
       "Unordered list",
@@ -3191,7 +2971,6 @@
   },
   {
     "q": "How do you apply a custom list marker image to an unordered list?",
-    "c": null,
     "o": [
       "Using CSS with 'list-style-image'",
       "Using the 'type' attribute",
@@ -3201,7 +2980,6 @@
   },
   {
     "q": "Which tag is used inside an ordered or unordered list to define a list item?",
-    "c": null,
     "o": [
       "<li>",
       "<ol>",
@@ -3221,7 +2999,6 @@
   },
   {
     "q": "Which list type is best suited for creating a navigation menu?",
-    "c": null,
     "o": [
       "Unordered list",
       "Ordered list",
@@ -3231,7 +3008,6 @@
   },
   {
     "q": "How can you remove default list styling using CSS?",
-    "c": null,
     "o": [
       "list-style: none;",
       "list-style-type: hidden;",
@@ -3251,7 +3027,6 @@
   },
   {
     "q": "Which CSS property is used to change the position of list markers?",
-    "c": null,
     "o": [
       "list-style-position",
       "list-marker",
@@ -3261,7 +3036,6 @@
   },
   {
     "q": "Which list type is most appropriate for listing definitions with corresponding explanations?",
-    "c": null,
     "o": [
       "Description list",
       "Ordered list",
@@ -3271,7 +3045,6 @@
   },
   {
     "q": "What will happen if you add an <li> element outside a <ul> or <ol> list?",
-    "c": null,
     "o": [
       "It will not be properly rendered",
       "It will be treated as a paragraph",
@@ -3281,7 +3054,6 @@
   },
   {
     "q": "Which HTML tag is used to group related items inside a description list?",
-    "c": null,
     "o": [
       "<dl>",
       "<dt>",
@@ -3301,7 +3073,6 @@
   },
   {
     "q": "Which HTML attribute specifies the numbering type in an ordered list?",
-    "c": null,
     "o": [
       "type",
       "numbering",
@@ -3321,7 +3092,6 @@
   },
   {
     "q": "Which value for the 'type' attribute will create an ordered list with uppercase letters?",
-    "c": null,
     "o": [
       "A",
       "a",
@@ -3331,7 +3101,6 @@
   },
   {
     "q": "Which CSS property is used to change the appearance of list items?",
-    "c": null,
     "o": [
       "list-style",
       "text-style",
@@ -3341,7 +3110,6 @@
   },
   {
     "q": "Which of the following correctly defines a description list?",
-    "c": null,
     "o": [
       "<dl><dt>Term</dt><dd>Description</dd></dl>",
       "<list><term>Term</term><desc>Description</desc></list>",
@@ -3361,7 +3129,6 @@
   },
   {
     "q": "Which HTML element is used to define a term in a description list?",
-    "c": null,
     "o": [
       "<dt>",
       "<dl>",
@@ -3371,7 +3138,6 @@
   },
   {
     "q": "Which HTML element is used to define a description in a description list?",
-    "c": null,
     "o": [
       "<dd>",
       "<dt>",
@@ -3391,7 +3157,6 @@
   },
   {
     "q": "What is the default bullet type for an unordered list?",
-    "c": null,
     "o": [
       "disc",
       "circle",
@@ -3401,7 +3166,6 @@
   },
   {
     "q": "Which CSS property is used to display list items in a horizontal layout?",
-    "c": null,
     "o": [
       "display: inline;",
       "list-style: horizontal;",
@@ -3411,7 +3175,6 @@
   },
   {
     "q": "What will happen if you use the 'compact' attribute in a list?",
-    "c": null,
     "o": [
       "It has no effect in HTML5",
       "It reduces the space between list items",
@@ -3421,7 +3184,6 @@
   },
   {
     "q": "Which of the following is an example of an unordered list?",
-    "c": null,
     "o": [
       "<ul>\n  <li>Apple</li>\n  <li>Banana</li>\n</ul>",
       "<ol>\n  <li>First</li>\n  <li>Second</li>\n</ol>",
@@ -3431,7 +3193,6 @@
   },
   {
     "q": "How can you change the bullet style of an unordered list to squares?",
-    "c": null,
     "o": [
       "list-style-type: square;",
       "bullet-style: square;",
@@ -3451,7 +3212,6 @@
   },
   {
     "q": "Which of the following is true about the 'reversed' attribute in an ordered list?",
-    "c": null,
     "o": [
       "It makes the list items appear in descending order",
       "It applies only to unordered lists",
@@ -3471,7 +3231,6 @@
   },
   {
     "q": "Which CSS property removes the default numbering or bullets from a list?",
-    "c": null,
     "o": [
       "list-style: none;",
       "display: hidden;",
@@ -3481,7 +3240,6 @@
   },
   {
     "q": "Which HTML list type is best for listing key-value pairs?",
-    "c": null,
     "o": [
       "Description list",
       "Ordered list",
@@ -3491,7 +3249,6 @@
   },
   {
     "q": "Which HTML element is used to create an ordered list?",
-    "c": null,
     "o": [
       "<ol>",
       "<ul>",
@@ -3501,7 +3258,6 @@
   },
   {
     "q": "What is the purpose of the <li> tag in an HTML list?",
-    "c": null,
     "o": [
       "Defines a list item",
       "Defines an unordered list",
@@ -3521,7 +3277,6 @@
   },
   {
     "q": "Which attribute is used to start an ordered list at a specific number?",
-    "c": null,
     "o": [
       "start",
       "begin",
@@ -3531,7 +3286,6 @@
   },
   {
     "q": "Which value for the 'type' attribute will create an ordered list with lowercase Roman numerals?",
-    "c": null,
     "o": [
       "i",
       "I",
@@ -3551,7 +3305,6 @@
   },
   {
     "q": "Which list type is typically used for a table of contents?",
-    "c": null,
     "o": [
       "Ordered list",
       "Unordered list",
@@ -3561,7 +3314,6 @@
   },
   {
     "q": "How do you remove the default margin and padding from an HTML list using CSS?",
-    "c": null,
     "o": [
       "list-style: none; margin: 0; padding: 0;",
       "remove-style: true;",
@@ -3571,7 +3323,6 @@
   },
   {
     "q": "What will happen when the 'reversed' attribute is used in an ordered list?",
-    "c": null,
     "o": [
       "The list numbers will count down instead of up",
       "It will reverse the text of each list item",
@@ -3581,7 +3332,6 @@
   },
   {
     "q": "Which of the following list types supports custom bullet styles?",
-    "c": null,
     "o": [
       "Unordered list",
       "Ordered list",
@@ -3601,7 +3351,6 @@
   },
   {
     "q": "Which attribute is NOT valid for an unordered list?",
-    "c": null,
     "o": [
       "start",
       "type",
@@ -3611,7 +3360,6 @@
   },
   {
     "q": "What is the correct way to define a nested list?",
-    "c": null,
     "o": [
       "<ul>\n  <li>Item 1\n    <ul>\n      <li>Sub-item 1</li>\n    </ul>\n  </li>\n</ul>",
       "<ul>\n  <li>Item 1</li>\n</ul>\n<ul>\n  <li>Sub-item 1</li>\n</ul>",
@@ -3621,7 +3369,6 @@
   },
   {
     "q": "Which of the following statements is TRUE about ordered lists?",
-    "c": null,
     "o": [
       "Ordered lists display items in a specific sequence",
       "Ordered lists use bullets by default",
@@ -3641,7 +3388,6 @@
   },
   {
     "q": "Which HTML tag is used to group related list items in a list?",
-    "c": null,
     "o": [
       "<li>",
       "<group>",
@@ -3651,7 +3397,6 @@
   },
   {
     "q": "How can you make an unordered list display inline?",
-    "c": null,
     "o": [
       "display: inline;",
       "list-style: inline;",
@@ -3671,7 +3416,6 @@
   },
   {
     "q": "What does the 'list-style-position' CSS property do?",
-    "c": null,
     "o": [
       "Controls whether bullets or numbers appear inside or outside the list item",
       "Changes the bullet style of a list",
@@ -3681,7 +3425,6 @@
   },
   {
     "q": "Which HTML element is used to define a description list?",
-    "c": null,
     "o": [
       "<dl>",
       "<ul>",
@@ -3691,7 +3434,6 @@
   },
   {
     "q": "What does the <dt> tag represent inside a description list?",
-    "c": null,
     "o": [
       "A term being described",
       "A description of the term",
@@ -3701,7 +3443,6 @@
   },
   {
     "q": "What is the correct syntax for a description list?",
-    "c": null,
     "o": [
       "<dl>\n  <dt>HTML</dt>\n  <dd>HyperText Markup Language</dd>\n</dl>",
       "<dl>\n  <dd>HTML</dd>\n  <dt>HyperText Markup Language</dt>\n</dl>",
@@ -3711,7 +3452,6 @@
   },
   {
     "q": "What type of list should be used to display a set of steps in a recipe?",
-    "c": null,
     "o": [
       "Ordered list",
       "Unordered list",
@@ -3721,7 +3461,6 @@
   },
   {
     "q": "Which CSS property changes the bullet style of an unordered list?",
-    "c": null,
     "o": [
       "list-style-type",
       "bullet-type",
@@ -3731,7 +3470,6 @@
   },
   {
     "q": "What is the default bullet style for an unordered list?",
-    "c": null,
     "o": [
       "Disc",
       "Circle",
@@ -3741,7 +3479,6 @@
   },
   {
     "q": "How can you change an ordered list numbering to Roman numerals?",
-    "c": null,
     "o": [
       "<ol type='I'>",
       "<ol number='roman'>",
@@ -3751,7 +3488,6 @@
   },
   {
     "q": "What is the correct way to remove bullets from an unordered list?",
-    "c": null,
     "o": [
       "list-style-type: none;",
       "bullet-style: none;",
@@ -3771,7 +3507,6 @@
   },
   {
     "q": "Which attribute allows reversing the numbering in an ordered list?",
-    "c": null,
     "o": [
       "reversed",
       "start",
@@ -3781,7 +3516,6 @@
   },
   {
     "q": "Which of the following is NOT a valid type for an ordered list?",
-    "c": null,
     "o": [
       "square",
       "1",
@@ -3811,7 +3545,6 @@
   },
   {
     "q": "Which property is used to set the position of the list item markers?",
-    "c": null,
     "o": [
       "list-style-position",
       "marker-position",
@@ -3821,7 +3554,6 @@
   },
   {
     "q": "What is the default numbering style of an ordered list?",
-    "c": null,
     "o": [
       "Numbers (1, 2, 3)",
       "Uppercase letters (A, B, C)",
@@ -3831,7 +3563,6 @@
   },
   {
     "q": "Which CSS property allows custom images for list bullets?",
-    "c": null,
     "o": [
       "list-style-image",
       "bullet-image",
@@ -3841,7 +3572,6 @@
   },
   {
     "q": "How can you make a list display horizontally instead of vertically?",
-    "c": null,
     "o": [
       "display: flex;",
       "list-style: horizontal;",
@@ -3851,7 +3581,6 @@
   },
   {
     "q": "Which of the following list types is best for defining terms and their meanings?",
-    "c": null,
     "o": [
       "Description list",
       "Ordered list",
@@ -3861,7 +3590,6 @@
   },
   {
     "q": "What is the function of the <dd> tag in a description list?",
-    "c": null,
     "o": [
       "Defines the description of a term",
       "Defines the term",
@@ -3871,7 +3599,6 @@
   },
   {
     "q": "Which tag is used to create an unordered list in HTML?",
-    "c": null,
     "o": [
       "<ul>",
       "<ol>",
@@ -3891,7 +3618,6 @@
   },
   {
     "q": "Which attribute allows an ordered list to start from a specific number?",
-    "c": null,
     "o": [
       "start",
       "begin",
@@ -3901,7 +3627,6 @@
   },
   {
     "q": "What will be the default marker type for an ordered list?",
-    "c": null,
     "o": [
       "Numbers (1, 2, 3, ...)",
       "Uppercase letters (A, B, C, ...)",
@@ -3911,7 +3636,6 @@
   },
   {
     "q": "Which tag is used to define a list item?",
-    "c": null,
     "o": [
       "<li>",
       "<ul>",
@@ -3931,7 +3655,6 @@
   },
   {
     "q": "How can you create a multi-level nested list?",
-    "c": null,
     "o": [
       "By placing one list inside another",
       "Using the 'nested' attribute",
@@ -3941,7 +3664,6 @@
   },
   {
     "q": "Which CSS property changes the numbering format of an ordered list?",
-    "c": null,
     "o": [
       "list-style-type",
       "numbering-style",
@@ -3961,7 +3683,6 @@
   },
   {
     "q": "Which of the following list types is best for listing names in alphabetical order?",
-    "c": null,
     "o": [
       "Ordered list",
       "Unordered list",
@@ -3971,7 +3692,6 @@
   },
   {
     "q": "Which CSS property can you use to remove the default indentation of a list?",
-    "c": null,
     "o": [
       "padding: 0; margin: 0;",
       "list-style: none;",
@@ -3991,7 +3711,6 @@
   },
   {
     "q": "Which attribute is used to specify a custom numbering style in an ordered list?",
-    "c": null,
     "o": [
       "type",
       "style",
@@ -4001,7 +3720,6 @@
   },
   {
     "q": "What will be the default bullet style for an unordered list?",
-    "c": null,
     "o": [
       "Disc",
       "Circle",
@@ -4011,7 +3729,6 @@
   },
   {
     "q": "Which of the following lists would be best for defining glossary terms?",
-    "c": null,
     "o": [
       "Description list",
       "Ordered list",
@@ -4021,7 +3738,6 @@
   },
   {
     "q": "Which tag is used to define a description in a description list?",
-    "c": null,
     "o": [
       "<dd>",
       "<dt>",
@@ -4031,7 +3747,6 @@
   },
   {
     "q": "Which CSS property allows changing list numbering to Roman numerals?",
-    "c": null,
     "o": [
       "list-style-type: upper-roman;",
       "numbering: roman;",
@@ -4051,7 +3766,6 @@
   },
   {
     "q": "Which of the following is a valid list-style-type value?",
-    "c": null,
     "o": [
       "square",
       "dash",
@@ -4061,7 +3775,6 @@
   },
   {
     "q": "Which CSS property is used to align list items horizontally?",
-    "c": null,
     "o": [
       "display: flex;",
       "text-align: center;",
@@ -4071,7 +3784,6 @@
   },
   {
     "q": "Which of the following is the correct syntax for creating an ordered list?",
-    "c": null,
     "o": [
       "<ol><li>Item 1</li><li>Item 2</li></ol>",
       "<ul><li>Item 1</li><li>Item 2</li></ul>",
@@ -4091,7 +3803,6 @@
   },
   {
     "q": "Which list type is best for listing steps in a recipe?",
-    "c": null,
     "o": [
       "Ordered list",
       "Unordered list",
@@ -4101,7 +3812,6 @@
   },
   {
     "q": "Which of the following is NOT a valid value for the list-style-type property?",
-    "c": null,
     "o": [
       "triangle",
       "disc",
@@ -4111,7 +3821,6 @@
   },
   {
     "q": "Which of the following attributes is valid for an ordered list?",
-    "c": null,
     "o": [
       "type",
       "bullet",
@@ -4131,7 +3840,6 @@
   },
   {
     "q": "Which tag is used to define a term in a description list?",
-    "c": null,
     "o": [
       "<dt>",
       "<dd>",
@@ -4151,7 +3859,6 @@
   },
   {
     "q": "What is the default numbering style for an ordered list?",
-    "c": null,
     "o": [
       "Numbers (1, 2, 3, ...)",
       "Roman numerals (I, II, III, ...)",
@@ -4161,7 +3868,6 @@
   },
   {
     "q": "How can you change an unordered list bullet to a square?",
-    "c": null,
     "o": [
       "list-style-type: square;",
       "list-marker: square;",
@@ -4171,7 +3877,6 @@
   },
   {
     "q": "Which of the following CSS properties removes the default list bullets?",
-    "c": null,
     "o": [
       "list-style: none;",
       "text-decoration: none;",
@@ -4191,7 +3896,6 @@
   },
   {
     "q": "Which HTML element is used to define a list with items that have explanations?",
-    "c": null,
     "o": [
       "<dl>",
       "<ul>",
@@ -4201,7 +3905,6 @@
   },
   {
     "q": "What happens if you set list-style-type to none?",
-    "c": null,
     "o": [
       "Bullets or numbering are removed",
       "List items are removed",
@@ -4221,7 +3924,6 @@
   },
   {
     "q": "Which tag is used to create a multi-level nested list?",
-    "c": null,
     "o": [
       "<ul> or <ol> inside another <ul> or <ol>",
       "<nested-list>",
@@ -4231,7 +3933,6 @@
   },
   {
     "q": "Which CSS property is used to change the position of list markers?",
-    "c": null,
     "o": [
       "list-style-position",
       "marker-align",
@@ -4251,7 +3952,6 @@
   },
   {
     "q": "What is the correct way to create a list without any styling?",
-    "c": null,
     "o": [
       "list-style: none;",
       "list-type: none;",
@@ -4261,7 +3961,6 @@
   },
   {
     "q": "Which HTML tag is used to create an unordered list?",
-    "c": null,
     "o": [
       "<ul>",
       "<ol>",
@@ -4281,7 +3980,6 @@
   },
   {
     "q": "Which HTML tag is used to create an item in an ordered or unordered list?",
-    "c": null,
     "o": [
       "<li>",
       "<ul>",
@@ -4291,7 +3989,6 @@
   },
   {
     "q": "What happens if you use the <ol> tag without specifying a type attribute?",
-    "c": null,
     "o": [
       "The list will use numbers (1, 2, 3, ...)",
       "The list will be unordered",
@@ -4301,7 +3998,6 @@
   },
   {
     "q": "Which HTML attribute is used to start an ordered list at a specific number?",
-    "c": null,
     "o": [
       "start",
       "begin",
@@ -4321,7 +4017,6 @@
   },
   {
     "q": "Which CSS property is used to change the marker style of a list?",
-    "c": null,
     "o": [
       "list-style-type",
       "marker-type",
@@ -4331,7 +4026,6 @@
   },
   {
     "q": "Which of the following is the correct way to create a nested list?",
-    "c": null,
     "o": [
       "<ul>\n  <li>Item 1</li>\n  <li>Item 2\n    <ul>\n      <li>Sub-item 1</li>\n      <li>Sub-item 2</li>\n    </ul>\n  </li>\n</ul>",
       "<list>\n  <item>Item 1</item>\n  <item>Item 2\n    <list>\n      <item>Sub-item 1</item>\n      <item>Sub-item 2</item>\n    </list>\n  </item>\n</list>",
@@ -4341,7 +4035,6 @@
   },
   {
     "q": "Which tag is used to group terms and their descriptions in a description list?",
-    "c": null,
     "o": [
       "<dl>",
       "<ul>",
@@ -4361,7 +4054,6 @@
   },
   {
     "q": "Which attribute can be used to remove list item markers in HTML?",
-    "c": null,
     "o": [
       "style='list-style-type: none;'",
       "type='none'",
@@ -4371,7 +4063,6 @@
   },
   {
     "q": "Which of the following is NOT a valid ordered list type?",
-    "c": null,
     "o": [
       "diamond",
       "A",
@@ -4381,7 +4072,6 @@
   },
   {
     "q": "How can you change a list item marker from a circle to a square?",
-    "c": null,
     "o": [
       "list-style-type: square;",
       "marker-type: square;",
@@ -4391,7 +4081,6 @@
   },
   {
     "q": "Which CSS property can be used to move list markers inside the content?",
-    "c": null,
     "o": [
       "list-style-position: inside;",
       "marker-align: left;",
@@ -4401,7 +4090,6 @@
   },
   {
     "q": "Which of the following will create a description list with HTML?",
-    "c": null,
     "o": [
       "<dl>\n  <dt>Term 1</dt>\n  <dd>Definition 1</dd>\n</dl>",
       "<desc>\n  <term>Term 1</term>\n  <def>Definition 1</def>\n</desc>",
@@ -4411,7 +4099,6 @@
   },
   {
     "q": "Which HTML tag is used for list items?",
-    "c": null,
     "o": [
       "<li>",
       "<list>",
@@ -4431,7 +4118,6 @@
   },
   {
     "q": "Which CSS property can remove list item bullets?",
-    "c": null,
     "o": [
       "list-style: none;",
       "text-decoration: none;",
@@ -4441,7 +4127,6 @@
   },
   {
     "q": "Which tag is used to define a description in a description list?",
-    "c": null,
     "o": [
       "<dd>",
       "<dt>",
@@ -4461,7 +4146,6 @@
   },
   {
     "q": "Which attribute is used to change the numbering style of an ordered list?",
-    "c": null,
     "o": [
       "type",
       "style",
@@ -4471,7 +4155,6 @@
   },
   {
     "q": "Which HTML tag is used to create a description term in a description list?",
-    "c": null,
     "o": [
       "<dt>",
       "<dd>",
@@ -4501,7 +4184,6 @@
   },
   {
     "q": "Which of the following will create an ordered list with lowercase Roman numerals?",
-    "c": null,
     "o": [
       "<ol type='i'>",
       "<ul type='i'>",
@@ -4511,7 +4193,6 @@
   },
   {
     "q": "What does the 'reversed' attribute do in an ordered list?",
-    "c": null,
     "o": [
       "It makes the list count down instead of up",
       "It changes the marker style to bullets",
@@ -4521,7 +4202,6 @@
   },
   {
     "q": "Which attribute is used to specify the starting number of an ordered list?",
-    "c": null,
     "o": [
       "start",
       "begin",
@@ -4531,7 +4211,6 @@
   },
   {
     "q": "What is the default list marker for an unordered list?",
-    "c": null,
     "o": [
       "Disc",
       "Circle",
@@ -4541,7 +4220,6 @@
   },
   {
     "q": "Which CSS property is used to remove bullets from a list?",
-    "c": null,
     "o": [
       "list-style: none;",
       "marker-style: none;",
@@ -4551,7 +4229,6 @@
   },
   {
     "q": "Which HTML tag represents the definition in a description list?",
-    "c": null,
     "o": [
       "<dd>",
       "<dt>",
@@ -4561,7 +4238,6 @@
   },
   {
     "q": "Which of the following is a correct way to create an ordered list that starts from 5?",
-    "c": null,
     "o": [
       "<ol start='5'>",
       "<ol begin='5'>",
@@ -4581,7 +4257,6 @@
   },
   {
     "q": "Which HTML element is used to group related list items together?",
-    "c": null,
     "o": [
       "<ul>, <ol>, <dl>",
       "<li>",
@@ -4591,7 +4266,6 @@
   },
   {
     "q": "What is the default numbering type for an ordered list?",
-    "c": null,
     "o": [
       "Numbers (1, 2, 3, ...)",
       "Letters (A, B, C, ...)",
@@ -4601,7 +4275,6 @@
   },
   {
     "q": "Which of the following is the correct way to change an unordered list bullet style to squares?",
-    "c": null,
     "o": [
       "list-style-type: square;",
       "bullet-type: square;",
@@ -4611,7 +4284,6 @@
   },
   {
     "q": "What happens if you use <ul> instead of <ol> for a numbered list?",
-    "c": null,
     "o": [
       "The list will have bullets instead of numbers",
       "The list will be numbered",
@@ -4631,7 +4303,6 @@
   },
   {
     "q": "Which HTML tag is used to represent a list?",
-    "c": null,
     "o": [
       "<ul>, <ol>, <dl>",
       "<list>",
@@ -4641,7 +4312,6 @@
   },
   {
     "q": "Which of the following statements is true about HTML lists?",
-    "c": null,
     "o": [
       "An unordered list uses bullets by default",
       "An ordered list uses dashes by default",
@@ -4651,7 +4321,6 @@
   },
   {
     "q": "Which HTML tag is used to create an unordered list?",
-    "c": null,
     "o": [
       "<ul>",
       "<ol>",
@@ -4661,7 +4330,6 @@
   },
   {
     "q": "What is the correct HTML structure for a description list?",
-    "c": null,
     "o": [
       "<dl><dt>Term</dt><dd>Definition</dd></dl>",
       "<desc><dt>Term</dt><dd>Definition</dd></desc>",
@@ -4671,7 +4339,6 @@
   },
   {
     "q": "Which CSS property changes the style of unordered list bullets?",
-    "c": null,
     "o": [
       "list-style-type",
       "bullet-style",
@@ -4681,7 +4348,6 @@
   },
   {
     "q": "Which attribute controls the numbering format in an ordered list?",
-    "c": null,
     "o": [
       "type",
       "style",
@@ -4701,7 +4367,6 @@
   },
   {
     "q": "Which tag is used to define list items?",
-    "c": null,
     "o": [
       "<li>",
       "<ul>",
@@ -4711,7 +4376,6 @@
   },
   {
     "q": "Which HTML attribute is used to specify a custom starting number for an ordered list?",
-    "c": null,
     "o": [
       "start",
       "begin",
@@ -4721,7 +4385,6 @@
   },
   {
     "q": "What is the default bullet style of an unordered list?",
-    "c": null,
     "o": [
       "Disc",
       "Circle",
@@ -4731,7 +4394,6 @@
   },
   {
     "q": "Which HTML tag is used to create a description list?",
-    "c": null,
     "o": [
       "<dl>",
       "<dd>",
@@ -4741,7 +4403,6 @@
   },
   {
     "q": "What is the correct way to define a term in a description list?",
-    "c": null,
     "o": [
       "<dt>Term</dt>",
       "<dd>Term</dd>",
@@ -4751,7 +4412,6 @@
   },
   {
     "q": "What is the purpose of the `<dd>` tag in a description list?",
-    "c": null,
     "o": [
       "It defines the description of a term",
       "It defines a term in a list",
@@ -4761,7 +4421,6 @@
   },
   {
     "q": "Which of the following will create an ordered list with uppercase Roman numerals?",
-    "c": null,
     "o": [
       "<ol type='I'>",
       "<ol type='A'>",
@@ -4771,7 +4430,6 @@
   },
   {
     "q": "What happens if you set `list-style-type: none;` for a `<ul>`?",
-    "c": null,
     "o": [
       "The bullets will be removed",
       "The list will be converted into an ordered list",
@@ -4781,7 +4439,6 @@
   },
   {
     "q": "Which of the following is an invalid ordered list type?",
-    "c": null,
     "o": [
       "type='dot'",
       "type='1'",
@@ -4801,7 +4458,6 @@
   },
   {
     "q": "Which of the following statements is true about description lists?",
-    "c": null,
     "o": [
       "They use <dl>, <dt>, and <dd> tags",
       "They use <ol>, <li>, and <ul> tags",
@@ -4821,7 +4477,6 @@
   },
   {
     "q": "Which HTML attribute is used to reverse the numbering order in an ordered list?",
-    "c": null,
     "o": [
       "reversed",
       "order",
@@ -4841,7 +4496,6 @@
   },
   {
     "q": "Which of the following is NOT a valid list type in HTML?",
-    "c": null,
     "o": [
       "<ll>",
       "<ul>",
@@ -4851,7 +4505,6 @@
   },
   {
     "q": "How do you create a list with circle bullets?",
-    "c": null,
     "o": [
       "<ul style='list-style-type: circle;'>",
       "<ul type='circle'>",
@@ -4861,7 +4514,6 @@
   },
   {
     "q": "Which of the following is a correct way to remove list markers using CSS?",
-    "c": null,
     "o": [
       "list-style: none;",
       "marker-style: none;",
@@ -4871,7 +4523,6 @@
   },
   {
     "q": "What happens when you add the 'start' attribute to an ordered list?",
-    "c": null,
     "o": [
       "The numbering begins at the specified number",
       "The list style changes",
@@ -4881,7 +4532,6 @@
   },
   {
     "q": "What is the correct HTML tag to create an ordered list?",
-    "c": null,
     "o": [
       "<ol>",
       "<ul>",
@@ -4891,7 +4541,6 @@
   },
   {
     "q": "Which attribute can be used to change the numbering style of an ordered list?",
-    "c": null,
     "o": [
       "type",
       "style",
@@ -4901,7 +4550,6 @@
   },
   {
     "q": "What is the default numbering style of an ordered list?",
-    "c": null,
     "o": [
       "Numbers (1, 2, 3, ...)",
       "Uppercase letters (A, B, C, ...)",
@@ -4911,7 +4559,6 @@
   },
   {
     "q": "Which tag is used to define an item inside an ordered or unordered list?",
-    "c": null,
     "o": [
       "<li>",
       "<ul>",
@@ -4931,7 +4578,6 @@
   },
   {
     "q": "Which of the following is NOT a valid value for the 'type' attribute in an ordered list?",
-    "c": null,
     "o": [
       "dot",
       "1",
@@ -4941,7 +4587,6 @@
   },
   {
     "q": "What will happen if you apply 'list-style-type: none;' to a <ul> element?",
-    "c": null,
     "o": [
       "The bullets will be removed",
       "The list items will disappear",
@@ -4951,7 +4596,6 @@
   },
   {
     "q": "Which attribute is used to start an ordered list from a specific number?",
-    "c": null,
     "o": [
       "start",
       "begin",
@@ -4961,7 +4605,6 @@
   },
   {
     "q": "Which of the following correctly creates a list with square bullets?",
-    "c": null,
     "o": [
       "<ul style='list-style-type: square;'>",
       "<ul type='square'>",
@@ -4981,7 +4624,6 @@
   },
   {
     "q": "What is the purpose of the '<dt>' tag in an HTML description list?",
-    "c": null,
     "o": [
       "It defines the term being described",
       "It defines the description",
@@ -4991,7 +4633,6 @@
   },
   {
     "q": "Which CSS property is used to customize the appearance of list bullets?",
-    "c": null,
     "o": [
       "list-style-type",
       "marker-style",
@@ -5001,7 +4642,6 @@
   },
   {
     "q": "Which HTML tag is used to define the description of a term in a description list?",
-    "c": null,
     "o": [
       "<dd>",
       "<dt>",
@@ -5011,7 +4651,6 @@
   },
   {
     "q": "How can you reverse the numbering of an ordered list?",
-    "c": null,
     "o": [
       "Use the 'reversed' attribute",
       "Use 'order: reverse;' in CSS",
@@ -5021,7 +4660,6 @@
   },
   {
     "q": "Which HTML list is best suited for displaying key-value pairs?",
-    "c": null,
     "o": [
       "Description list",
       "Unordered list",
@@ -5041,7 +4679,6 @@
   },
   {
     "q": "Which list type does NOT support the 'type' attribute?",
-    "c": null,
     "o": [
       "Description list",
       "Ordered list",
@@ -5051,7 +4688,6 @@
   },
   {
     "q": "Which of the following properties is used to remove default list styling in CSS?",
-    "c": null,
     "o": [
       "list-style: none;",
       "display: none;",
@@ -5061,7 +4697,6 @@
   },
   {
     "q": "Which of the following statements about ordered lists is true?",
-    "c": null,
     "o": [
       "They can start at a custom number using the 'start' attribute",
       "They must always start at 1",
@@ -5071,7 +4706,6 @@
   },
   {
     "q": "Which of the following is the correct way to define a term in a description list?",
-    "c": null,
     "o": [
       "<dt>Term</dt>",
       "<dd>Term</dd>",
@@ -5081,7 +4715,6 @@
   },
   {
     "q": "Which HTML element represents a list with numbered items?",
-    "c": null,
     "o": [
       "<ol>",
       "<ul>",
@@ -5091,7 +4724,6 @@
   },
   {
     "q": "Which of the following is NOT a valid value for the 'list-style-type' property?",
-    "c": null,
     "o": [
       "box",
       "disc",
@@ -5101,7 +4733,6 @@
   },
   {
     "q": "What does the 'start' attribute in an ordered list do?",
-    "c": null,
     "o": [
       "It sets the starting number of the list",
       "It defines the list style",
@@ -5111,7 +4742,6 @@
   },
   {
     "q": "What is the correct way to create a numbered list starting at 5?",
-    "c": null,
     "o": [
       "<ol start='5'>",
       "<ul start='5'>",
@@ -5121,7 +4751,6 @@
   },
   {
     "q": "Which tag is used to create an unordered list in HTML?",
-    "c": null,
     "o": [
       "<ul>",
       "<ol>",
@@ -5131,7 +4760,6 @@
   },
   {
     "q": "What is the default bullet type in an unordered list?",
-    "c": null,
     "o": [
       "Disc",
       "Circle",
@@ -5141,7 +4769,6 @@
   },
   {
     "q": "Which CSS property can change the bullet style of an unordered list?",
-    "c": null,
     "o": [
       "list-style-type",
       "bullet-type",
@@ -5161,7 +4788,6 @@
   },
   {
     "q": "Which list type is best for defining a glossary?",
-    "c": null,
     "o": [
       "Description list",
       "Ordered list",
@@ -5171,7 +4797,6 @@
   },
   {
     "q": "Which attribute is used to specify that a list should display numbers in reverse order?",
-    "c": null,
     "o": [
       "reversed",
       "reverse",
@@ -5181,7 +4806,6 @@
   },
   {
     "q": "Which of the following list types does NOT support list-style-type property?",
-    "c": null,
     "o": [
       "Description list",
       "Ordered list",
@@ -5191,7 +4815,6 @@
   },
   {
     "q": "What happens when you apply 'list-style-type: none;' to an unordered list?",
-    "c": null,
     "o": [
       "The bullets will be removed",
       "The list items will disappear",
@@ -5201,7 +4824,6 @@
   },
   {
     "q": "Which HTML element is used to define a description term in a description list?",
-    "c": null,
     "o": [
       "<dt>",
       "<dd>",
@@ -5221,7 +4843,6 @@
   },
   {
     "q": "Which of the following is NOT a valid value for the 'type' attribute in an ordered list?",
-    "c": null,
     "o": [
       "triangle",
       "1",
@@ -5241,7 +4862,6 @@
   },
   {
     "q": "Which HTML list type should be used when order matters?",
-    "c": null,
     "o": [
       "Ordered list",
       "Unordered list",
@@ -5251,7 +4871,6 @@
   },
   {
     "q": "What will happen if you apply the 'start' attribute to an unordered list?",
-    "c": null,
     "o": [
       "It will have no effect",
       "The list items will be numbered",
@@ -5261,7 +4880,6 @@
   },
   {
     "q": "Which of the following statements about description lists is TRUE?",
-    "c": null,
     "o": [
       "They contain terms and their descriptions",
       "They are always numbered",
@@ -5281,7 +4899,6 @@
   },
   {
     "q": "Which of the following tags is NOT part of a description list?",
-    "c": null,
     "o": [
       "<li>",
       "<dt>",
@@ -5291,7 +4908,6 @@
   },
   {
     "q": "Which of the following is the correct way to define an ordered list starting from the letter 'C'?",
-    "c": null,
     "o": [
       "<ol type='A' start='3'>",
       "<ol type='C'>",
@@ -5301,7 +4917,6 @@
   },
   {
     "q": "What is the correct HTML to define a term in a description list?",
-    "c": null,
     "o": [
       "<dt>Term</dt>",
       "<dd>Term</dd>",
@@ -5311,7 +4926,6 @@
   },
   {
     "q": "Which tag is used to group terms and their descriptions together?",
-    "c": null,
     "o": [
       "<dl>",
       "<ul>",
@@ -5321,7 +4935,6 @@
   },
   {
     "q": "Which CSS property can remove the default numbering or bullets from a list?",
-    "c": null,
     "o": [
       "list-style: none;",
       "text-decoration: none;",
@@ -5331,7 +4944,6 @@
   },
   {
     "q": "Which HTML tag is used to create a bullet point?",
-    "c": null,
     "o": [
       "<li>",
       "<ul>",
@@ -5351,7 +4963,6 @@
   },
   {
     "q": "Which attribute allows an ordered list to start from a specific number?",
-    "c": null,
     "o": [
       "start",
       "begin",
@@ -5361,7 +4972,6 @@
   },
   {
     "q": "Which HTML tag is used to specify the description for a term in a description list?",
-    "c": null,
     "o": [
       "<dd>",
       "<dt>",
@@ -5371,7 +4981,6 @@
   },
   {
     "q": "Which tag is used to define an ordered list in HTML?",
-    "c": null,
     "o": [
       "<ol>",
       "<ul>",
@@ -5381,7 +4990,6 @@
   },
   {
     "q": "What is the default numbering style for an ordered list?",
-    "c": null,
     "o": [
       "Numbers (1, 2, 3, ...)",
       "Roman numerals (I, II, III, ...)",
@@ -5391,7 +4999,6 @@
   },
   {
     "q": "Which of the following attributes is used to change the numbering type of an ordered list?",
-    "c": null,
     "o": [
       "type",
       "style",
@@ -5411,7 +5018,6 @@
   },
   {
     "q": "Which tag is used to define an item inside an ordered or unordered list?",
-    "c": null,
     "o": [
       "<li>",
       "<ul>",
@@ -5421,7 +5027,6 @@
   },
   {
     "q": "Which HTML tag is used to define a list with terms and their corresponding descriptions?",
-    "c": null,
     "o": [
       "<dl>",
       "<ul>",
@@ -5431,7 +5036,6 @@
   },
   {
     "q": "Which CSS property can be used to change the bullet style of an unordered list?",
-    "c": null,
     "o": [
       "list-style-type",
       "bullet-type",
@@ -5441,7 +5045,6 @@
   },
   {
     "q": "What will happen if you apply 'list-style-type: circle;' to an unordered list?",
-    "c": null,
     "o": [
       "The bullets will change to circles",
       "The list will become numbered",
@@ -5451,7 +5054,6 @@
   },
   {
     "q": "Which attribute is used to make an ordered list display numbers in descending order?",
-    "c": null,
     "o": [
       "reversed",
       "desc",
@@ -5461,7 +5063,6 @@
   },
   {
     "q": "Which tag is used to define the description part of a term in a description list?",
-    "c": null,
     "o": [
       "<dd>",
       "<dt>",
@@ -5481,7 +5082,6 @@
   },
   {
     "q": "Which tag is used to define a term inside a description list?",
-    "c": null,
     "o": [
       "<dt>",
       "<dd>",
@@ -5491,7 +5091,6 @@
   },
   {
     "q": "Which of the following is NOT a valid list type in HTML?",
-    "c": null,
     "o": [
       "Dropdown list",
       "Ordered list",
@@ -5511,7 +5110,6 @@
   },
   {
     "q": "Which attribute is used to specify that an ordered list should start from a specific number?",
-    "c": null,
     "o": [
       "start",
       "begin",
@@ -5521,7 +5119,6 @@
   },
   {
     "q": "What happens if you apply 'list-style-type: none;' to an ordered list?",
-    "c": null,
     "o": [
       "The numbers will be removed",
       "The list will disappear",
@@ -5531,7 +5128,6 @@
   },
   {
     "q": "Which of the following HTML list types allows you to define custom bullet styles?",
-    "c": null,
     "o": [
       "Unordered list",
       "Ordered list",
@@ -5551,7 +5147,6 @@
   },
   {
     "q": "Which of the following is the correct way to create a nested list?",
-    "c": null,
     "o": [
       "<ul>\n  <li>Item 1\n    <ul>\n      <li>Sub-item 1</li>\n    </ul>\n  </li>\n</ul>",
       "<ul>\n  <li>Item 1</li>\n  <ul>\n    <li>Sub-item 1</li>\n  </ul>\n</ul>",
@@ -5561,7 +5156,6 @@
   },
   {
     "q": "Which CSS property can be used to remove the default margin and padding of a list?",
-    "c": null,
     "o": [
       "margin: 0; padding: 0;",
       "list-style: none;",
@@ -5571,7 +5165,6 @@
   },
   {
     "q": "What happens if an ordered list is nested inside another ordered list?",
-    "c": null,
     "o": [
       "It will create a multi-level numbering system",
       "It will cause an error",
@@ -5581,7 +5174,6 @@
   },
   {
     "q": "Which list type is best suited for creating a table of contents?",
-    "c": null,
     "o": [
       "Ordered list",
       "Unordered list",
@@ -5591,7 +5183,6 @@
   },
   {
     "q": "Which HTML tag is used to remove the default styling of a list?",
-    "c": null,
     "o": [
       "There is no specific tag, but 'list-style-type: none;' can be used",
       "<list>",
@@ -5601,7 +5192,6 @@
   },
   {
     "q": "Which HTML tag is used to create an unordered list?",
-    "c": null,
     "o": [
       "<ul>",
       "<ol>",
@@ -5611,7 +5201,6 @@
   },
   {
     "q": "What is the default bullet style for an unordered list?",
-    "c": null,
     "o": [
       "Disc",
       "Circle",
@@ -5621,7 +5210,6 @@
   },
   {
     "q": "Which HTML list is best suited for presenting items in a specific sequence?",
-    "c": null,
     "o": [
       "Ordered list",
       "Unordered list",
@@ -5641,7 +5229,6 @@
   },
   {
     "q": "Which attribute allows you to continue numbering from a previous ordered list?",
-    "c": null,
     "o": [
       "start",
       "continue",
@@ -5661,7 +5248,6 @@
   },
   {
     "q": "Which tag is NOT used inside a description list?",
-    "c": null,
     "o": [
       "<li>",
       "<dt>",
@@ -5681,7 +5267,6 @@
   },
   {
     "q": "Which CSS property removes list item markers?",
-    "c": null,
     "o": [
       "list-style-type: none;",
       "display: none;",
@@ -5711,7 +5296,6 @@
   },
   {
     "q": "Which list type is commonly used for menus and navigation bars?",
-    "c": null,
     "o": [
       "Unordered list",
       "Ordered list",
@@ -5741,7 +5325,6 @@
   },
   {
     "q": "Which HTML tag represents a term inside a description list?",
-    "c": null,
     "o": [
       "<dt>",
       "<dd>",
@@ -5781,7 +5364,6 @@
   },
   {
     "q": "Which HTML element is used to represent a set of related items with associated descriptions?",
-    "c": null,
     "o": [
       "<dl>",
       "<ul>",
@@ -5791,7 +5373,6 @@
   },
   {
     "q": "Which tag is used to define a list item inside an unordered or ordered list?",
-    "c": null,
     "o": [
       "<li>",
       "<ul>",
@@ -5811,7 +5392,6 @@
   },
   {
     "q": "Which HTML tag is used to create a numbered list?",
-    "c": null,
     "o": [
       "<ol>",
       "<ul>",
@@ -5861,7 +5441,6 @@
   },
   {
     "q": "Which CSS property allows you to change the bullet style of an unordered list?",
-    "c": null,
     "o": [
       "list-style-type",
       "bullet-style",
@@ -5871,7 +5450,6 @@
   },
   {
     "q": "Which of the following is NOT a valid value for the list-style-type property?",
-    "c": null,
     "o": [
       "block",
       "disc",
@@ -5881,7 +5459,6 @@
   },
   {
     "q": "What does the <dl> tag represent in HTML?",
-    "c": null,
     "o": [
       "A description list",
       "An ordered list",
@@ -5901,7 +5478,6 @@
   },
   {
     "q": "Which tag is used to define a description in a description list?",
-    "c": null,
     "o": [
       "<dd>",
       "<dt>",
@@ -5911,7 +5487,6 @@
   },
   {
     "q": "Which tag is used to define a term inside a description list?",
-    "c": null,
     "o": [
       "<dt>",
       "<dd>",
@@ -5931,7 +5506,6 @@
   },
   {
     "q": "What does the 'list-style: none;' property do?",
-    "c": null,
     "o": [
       "Removes list item markers",
       "Changes bullet style to squares",
@@ -5961,7 +5535,6 @@
   },
   {
     "q": "What does the 'list-style-position: inside;' property do?",
-    "c": null,
     "o": [
       "Places the bullet inside the list item's content area",
       "Moves the bullet outside the list",
@@ -5971,7 +5544,6 @@
   },
   {
     "q": "Which list type is often used for navigation menus?",
-    "c": null,
     "o": [
       "Unordered list",
       "Ordered list",
@@ -5991,7 +5563,6 @@
   },
   {
     "q": "Which tag pair correctly represents an unordered list in HTML?",
-    "c": null,
     "o": [
       "<ul>...</ul>",
       "<ol>...</ol>",
@@ -6011,7 +5582,6 @@
   },
   {
     "q": "Which list type is best suited for step-by-step instructions?",
-    "c": null,
     "o": [
       "Ordered list",
       "Unordered list",
@@ -6021,7 +5591,6 @@
   },
   {
     "q": "Which tag is used for each item in an ordered or unordered list?",
-    "c": null,
     "o": [
       "<li>",
       "<ul>",
@@ -6031,7 +5600,6 @@
   },
   {
     "q": "What is the difference between <ul> and <ol>?",
-    "c": null,
     "o": [
       "<ul> creates an unordered list with bullets, while <ol> creates an ordered list with numbers.",
       "<ol> is for nested lists only, while <ul> is for main lists.",
@@ -6041,7 +5609,6 @@
   },
   {
     "q": "Which CSS property is used to change the numbering style of an ordered list?",
-    "c": null,
     "o": [
       "list-style-type",
       "number-style",
@@ -6061,7 +5628,6 @@
   },
   {
     "q": "Which HTML element is used to group related list items together?",
-    "c": null,
     "o": [
       "<ul> or <ol>",
       "<dl>",
@@ -6071,7 +5637,6 @@
   },
   {
     "q": "Which HTML element defines a term in a description list?",
-    "c": null,
     "o": [
       "<dt>",
       "<dd>",
@@ -6081,7 +5646,6 @@
   },
   {
     "q": "Which HTML element defines the description in a description list?",
-    "c": null,
     "o": [
       "<dd>",
       "<dt>",
@@ -6091,7 +5655,6 @@
   },
   {
     "q": "What is the correct HTML code for a list of items where the order does not matter?",
-    "c": null,
     "o": [
       "<ul>\n  <li>Item 1</li>\n  <li>Item 2</li>\n</ul>",
       "<ol>\n  <li>Item 1</li>\n  <li>Item 2</li>\n</ol>",
@@ -6101,7 +5664,6 @@
   },
   {
     "q": "Which of the following HTML list types is best for a glossary?",
-    "c": null,
     "o": [
       "Description list",
       "Ordered list",
@@ -6111,7 +5673,6 @@
   },
   {
     "q": "How can you remove the default list item markers from an unordered list?",
-    "c": null,
     "o": [
       "Use CSS property 'list-style: none;'",
       "Use 'remove-markers' attribute",
@@ -6121,7 +5682,6 @@
   },
   {
     "q": "Which HTML list allows you to use images instead of bullet points?",
-    "c": null,
     "o": [
       "Unordered list with 'list-style-image' CSS property",
       "Ordered list with 'number-image' attribute",
@@ -6131,7 +5691,6 @@
   },
   {
     "q": "Which CSS property can be used to add custom numbering to an ordered list?",
-    "c": null,
     "o": [
       "counter-increment",
       "list-style",
@@ -6181,7 +5740,6 @@
   },
   {
     "q": "Which of the following is TRUE about HTML lists?",
-    "c": null,
     "o": [
       "Lists can be nested inside each other",
       "An unordered list must always have a type attribute",
@@ -6191,7 +5749,6 @@
   },
   {
     "q": "Which HTML tag is used to define a numbered list?",
-    "c": null,
     "o": [
       "<ol>",
       "<ul>",
@@ -6201,7 +5758,6 @@
   },
   {
     "q": "What is the default numbering type for an ordered list?",
-    "c": null,
     "o": [
       "Numbers (1, 2, 3, ...)",
       "Roman numerals (I, II, III, ...)",
@@ -6221,7 +5777,6 @@
   },
   {
     "q": "Which type of list is best for a set of related terms and definitions?",
-    "c": null,
     "o": [
       "Description list",
       "Ordered list",
@@ -6241,7 +5796,6 @@
   },
   {
     "q": "Which tag is used for each item in a description list?",
-    "c": null,
     "o": [
       "<dt>",
       "<dd>",
@@ -6261,7 +5815,6 @@
   },
   {
     "q": "Which CSS property removes bullets from an unordered list?",
-    "c": null,
     "o": [
       "list-style: none;",
       "text-decoration: none;",
@@ -6271,7 +5824,6 @@
   },
   {
     "q": "How do you make an unordered list display with square bullets?",
-    "c": null,
     "o": [
       "list-style-type: square;",
       "list-style: square;",
@@ -6281,7 +5833,6 @@
   },
   {
     "q": "Which tag pair is required to create an unordered list?",
-    "c": null,
     "o": [
       "<ul>...</ul>",
       "<ol>...</ol>",
@@ -6291,7 +5842,6 @@
   },
   {
     "q": "Which tag should be used to create a nested list inside an ordered list?",
-    "c": null,
     "o": [
       "<ul> or <ol>",
       "<dl>",
@@ -6311,7 +5861,6 @@
   },
   {
     "q": "Which tag defines a group of related terms and descriptions?",
-    "c": null,
     "o": [
       "<dl>",
       "<ul>",
@@ -6341,7 +5890,6 @@
   },
   {
     "q": "Which attribute allows you to start an ordered list at a specific number?",
-    "c": null,
     "o": [
       "start",
       "begin",
@@ -6361,7 +5909,6 @@
   },
   {
     "q": "Which CSS property allows you to customize the numbering style in an ordered list?",
-    "c": null,
     "o": [
       "list-style-type",
       "numbering-style",
@@ -6371,7 +5918,6 @@
   },
   {
     "q": "How can you create a list where each item has a custom icon instead of bullets?",
-    "c": null,
     "o": [
       "Use CSS 'list-style-image'",
       "Use 'bullet-icon' attribute",
@@ -6381,7 +5927,6 @@
   },
   {
     "q": "Which tag is used to create an unordered list?",
-    "c": null,
     "o": [
       "<ul>",
       "<ol>",
@@ -6391,7 +5936,6 @@
   },
   {
     "q": "What is the default bullet style for an unordered list?",
-    "c": null,
     "o": [
       "Disc",
       "Square",
@@ -6411,7 +5955,6 @@
   },
   {
     "q": "Which HTML element represents a term in a description list?",
-    "c": null,
     "o": [
       "<dt>",
       "<dd>",
@@ -6441,7 +5984,6 @@
   },
   {
     "q": "Which of the following is the correct syntax for an unordered list?",
-    "c": null,
     "o": [
       "<ul><li>Item 1</li><li>Item 2</li></ul>",
       "<ol><li>Item 1</li><li>Item 2</li></ol>",
@@ -6451,7 +5993,6 @@
   },
   {
     "q": "Which CSS property can be used to remove bullets from an unordered list?",
-    "c": null,
     "o": [
       "list-style: none;",
       "display: none;",
@@ -6481,7 +6022,6 @@
   },
   {
     "q": "Which list type would be most suitable for a step-by-step recipe?",
-    "c": null,
     "o": [
       "Ordered list",
       "Unordered list",
@@ -6501,7 +6041,6 @@
   },
   {
     "q": "Which HTML tag defines a list item?",
-    "c": null,
     "o": [
       "<li>",
       "<ul>",
@@ -6511,7 +6050,6 @@
   },
   {
     "q": "Which attribute is NOT valid for an ordered list?",
-    "c": null,
     "o": [
       "list-style",
       "start",
@@ -6521,7 +6059,6 @@
   },
   {
     "q": "Which list type is best suited for listing grocery items?",
-    "c": null,
     "o": [
       "Unordered list",
       "Ordered list",
@@ -6541,7 +6078,6 @@
   },
   {
     "q": "Which CSS property customizes the appearance of list numbering?",
-    "c": null,
     "o": [
       "list-style-type",
       "text-decoration",
@@ -6561,7 +6097,6 @@
   },
   {
     "q": "Which tag defines a list of terms and their descriptions?",
-    "c": null,
     "o": [
       "<dl>",
       "<ol>",
@@ -6571,7 +6106,6 @@
   },
   {
     "q": "Which list type is most suitable for a table of contents?",
-    "c": null,
     "o": [
       "Ordered list",
       "Unordered list",
@@ -6581,7 +6115,6 @@
   },
   {
     "q": "Which tag is used to create an ordered list?",
-    "c": null,
     "o": [
       "<ol>",
       "<ul>",
@@ -6591,7 +6124,6 @@
   },
   {
     "q": "What is the default numbering style for an ordered list?",
-    "c": null,
     "o": [
       "Numbers (1, 2, 3, ...)",
       "Uppercase letters (A, B, C, ...)",
@@ -6621,7 +6153,6 @@
   },
   {
     "q": "Which HTML element should wrap around all items in a description list?",
-    "c": null,
     "o": [
       "<dl>",
       "<ul>",
@@ -6651,7 +6182,6 @@
   },
   {
     "q": "Which tag is used to define items in an ordered or unordered list?",
-    "c": null,
     "o": [
       "<li>",
       "<dt>",
@@ -6661,7 +6191,6 @@
   },
   {
     "q": "Which HTML tag is required when creating a description list?",
-    "c": null,
     "o": [
       "<dl>",
       "<ul>",
@@ -6671,7 +6200,6 @@
   },
   {
     "q": "Which of the following is NOT a valid ordered list type?",
-    "c": null,
     "o": [
       "type='bullet'",
       "type='1'",
@@ -6691,7 +6219,6 @@
   },
   {
     "q": "Which of the following is NOT a valid list type in HTML?",
-    "c": null,
     "o": [
       "Numbered list",
       "Ordered list",
@@ -6721,7 +6248,6 @@
   },
   {
     "q": "Which of the following will remove bullet points from a list?",
-    "c": null,
     "o": [
       "list-style: none;",
       "list-style: hidden;",
@@ -6731,7 +6257,6 @@
   },
   {
     "q": "Which list type is best for showing a set of definitions?",
-    "c": null,
     "o": [
       "Description list",
       "Ordered list",
@@ -6751,7 +6276,6 @@
   },
   {
     "q": "Which attribute sets a custom numbering style for an ordered list?",
-    "c": null,
     "o": [
       "type",
       "list-style",
@@ -6761,7 +6285,6 @@
   },
   {
     "q": "Which CSS property can change the appearance of list markers?",
-    "c": null,
     "o": [
       "list-style-type",
       "text-decoration",
@@ -6771,7 +6294,6 @@
   },
   {
     "q": "Which list type is best suited for ranking items in a competition?",
-    "c": null,
     "o": [
       "Ordered list",
       "Unordered list",
@@ -8195,7 +7717,6 @@
     },
   {
     "q": "Which of the following list types automatically numbers its items?",
-    "c": null,
     "o": [
       "Ordered list",
       "Unordered list",
@@ -8205,7 +7726,6 @@
   },
   {
     "q": "Which type of list would be best suited for a list of steps in a recipe?",
-    "c": null,
     "o": [
       "Ordered list",
       "Unordered list",
@@ -8215,7 +7735,6 @@
   },
   {
     "q": "What is the default numbering type for an ordered list?",
-    "c": null,
     "o": [
       "Numbers (1, 2, 3, ...)",
       "Uppercase Roman (I, II, III, ...)",
@@ -8225,7 +7744,6 @@
   },
   {
     "q": "Which HTML tag is used to define a term in a description list?",
-    "c": null,
     "o": [
       "<dt>",
       "<dd>",
@@ -8235,7 +7753,6 @@
   },
   {
     "q": "Which HTML tag is used to define the description in a description list?",
-    "c": null,
     "o": [
       "<dd>",
       "<dt>",
@@ -8245,7 +7762,6 @@
   },
   {
     "q": "Which of the following is a valid way to create a numbered list in HTML?",
-    "c": null,
     "o": [
       "<ol><li>Item 1</li><li>Item 2</li></ol>",
       "<ul><li>Item 1</li><li>Item 2</li></ul>",
@@ -8275,7 +7791,6 @@
   },
   {
     "q": "What is the default bullet style for an unordered list?",
-    "c": null,
     "o": [
       "Disc",
       "Circle",
@@ -8285,7 +7800,6 @@
   },
   {
     "q": "Which attribute allows an ordered list to count down instead of up?",
-    "c": null,
     "o": [
       "reversed",
       "countdown",
@@ -8295,7 +7809,6 @@
   },
   {
     "q": "Which CSS property aligns list items inside a list?",
-    "c": null,
     "o": [
       "text-align",
       "align-items",
@@ -8325,7 +7838,6 @@
   },
   {
     "q": "Which HTML tag is NOT used for creating lists?",
-    "c": null,
     "o": [
       "<div>",
       "<ul>",
@@ -8345,7 +7857,6 @@
   },
   {
     "q": "Which of the following properties hides list bullets?",
-    "c": null,
     "o": [
       "list-style-type: none;",
       "list-style: hidden;",
@@ -8365,7 +7876,6 @@
   },
   {
     "q": "Which HTML tag is used to create a bullet list?",
-    "c": null,
     "o": [
       "<ul>",
       "<li>",
@@ -8385,7 +7895,6 @@
   },
   {
     "q": "Which attribute allows starting an ordered list from a specific number?",
-    "c": null,
     "o": [
       "start",
       "begin",
@@ -8405,7 +7914,6 @@
   },
   {
     "q": "Which of the following is a valid 'type' value for an ordered list?",
-    "c": null,
     "o": [
       "I",
       "square",
@@ -8415,7 +7923,6 @@
   },
   {
     "q": "Which CSS property is used to change the numbering style of an ordered list?",
-    "c": null,
     "o": [
       "list-style-type",
       "number-style",
@@ -8425,7 +7932,6 @@
   },
   {
     "q": "Which of the following HTML elements represent an unordered list?",
-    "c": null,
     "o": [
       "<ul>",
       "<ol>",
@@ -8445,7 +7951,6 @@
   },
   {
     "q": "Which tag is used to define a description list?",
-    "c": null,
     "o": [
       "<dl>",
       "<ol>",
@@ -8465,7 +7970,6 @@
   },
   {
     "q": "Which of the following best describes an unordered list?",
-    "c": null,
     "o": [
       "A list where the order does not matter",
       "A numbered list",
@@ -8485,7 +7989,6 @@
   },
   {
     "q": "Which HTML tag is used to create an item in a list?",
-    "c": null,
     "o": [
       "<li>",
       "<item>",
@@ -8495,7 +7998,6 @@
   },
   {
     "q": "Which attribute changes the bullet type in an unordered list?",
-    "c": null,
     "o": [
       "list-style-type",
       "bullet-style",
@@ -8505,7 +8007,6 @@
   },
   {
     "q": "Which CSS property is used to remove bullets from an unordered list?",
-    "c": null,
     "o": [
       "list-style-type: none;",
       "bullet: none;",
@@ -8515,7 +8016,6 @@
   },
   {
     "q": "Which HTML tag is used for a nested list inside another list?",
-    "c": null,
     "o": [
       "<ul> or <ol> inside <li>",
       "<nested-list>",
@@ -8525,7 +8025,6 @@
   },
   {
     "q": "What happens if you omit the closing </li> tag?",
-    "c": null,
     "o": [
       "The browser automatically closes it",
       "The list will not render",
@@ -8535,7 +8034,6 @@
   },
   {
     "q": "Which attribute specifies the list should display in reverse order?",
-    "c": null,
     "o": [
       "reversed",
       "backwards",
@@ -8555,7 +8053,6 @@
   },
   {
     "q": "Which CSS property is used to change the spacing between list items?",
-    "c": null,
     "o": [
       "margin or padding",
       "spacing",
@@ -8565,7 +8062,6 @@
   },
   {
     "q": "Which of the following is NOT a valid way to change list bullet styles?",
-    "c": null,
     "o": [
       "list-style-color",
       "list-style-type",

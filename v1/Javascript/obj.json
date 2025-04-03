@@ -1,6 +1,7 @@
 [
   {
     "q": "What will be the output of the following JavaScript code?",
+    "l": "javascript",
     "c": "const person = { name: 'Alice', age: 25 };\nconsole.log(person.name);",
     "o": [
       "'Alice'",
@@ -11,7 +12,6 @@
   },
   {
     "q": "Which of the following is a correct way to create an object in JavaScript?",
-    "c": null,
     "o": [
       "const obj = { key: 'value' };",
       "const obj = key: 'value';",
@@ -21,6 +21,7 @@
   },
   {
     "q": "What will be the output of the following code?",
+    "l": "javascript",
     "c": "const numbers = [1, 2, 3, 4, 5];\nconst [first, second] = numbers;\nconsole.log(first, second);",
     "o": [
       "1 2",
@@ -31,7 +32,6 @@
   },
   {
     "q": "Which method is used to add an element at the end of an array in JavaScript?",
-    "c": null,
     "o": [
       "push()",
       "pop()",
@@ -41,6 +41,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript snippet?",
+    "l": "javascript",
     "c": "const obj = { a: 10, b: 20 };\nconst { a, b } = obj;\nconsole.log(a + b);",
     "o": [
       "30",
@@ -51,7 +52,6 @@
   },
   {
     "q": "Which of the following is the correct syntax for destructuring an object?",
-    "c": null,
     "o": [
       "const { name, age } = person;",
       "const [ name, age ] = person;",
@@ -61,7 +61,6 @@
   },
   {
     "q": "What does the `map()` method do in JavaScript?",
-    "c": null,
     "o": [
       "Creates a new array by applying a function to each element",
       "Modifies the original array",
@@ -71,6 +70,7 @@
   },
   {
     "q": "What will be the output of the following code?",
+    "l": "javascript",
     "c": "const fruits = ['apple', 'banana', 'cherry'];\nconsole.log(fruits.length);",
     "o": [
       "3",
@@ -81,7 +81,6 @@
   },
   {
     "q": "Which method is used to remove the last element from an array in JavaScript?",
-    "c": null,
     "o": [
       "pop()",
       "push()",
@@ -91,6 +90,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript snippet?",
+    "l": "javascript",
     "c": "const arr = [10, 20, 30];\narr.unshift(5);\nconsole.log(arr);",
     "o": [
       "[5, 10, 20, 30]",
@@ -101,6 +101,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript code?",
+    "l": "javascript",
     "c": "const user = { name: 'John', age: 30 };\nconsole.log(user['name']);",
     "o": [
       "'John'",
@@ -111,7 +112,6 @@
   },
   {
     "q": "Which of the following is a valid way to create an empty array in JavaScript?",
-    "c": null,
     "o": [
       "const arr = [];",
       "const arr = {};",
@@ -121,6 +121,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript snippet?",
+    "l": "javascript",
     "c": "const numbers = [5, 10, 15, 20];\nnumbers.pop();\nconsole.log(numbers);",
     "o": [
       "[5, 10, 15]",
@@ -131,7 +132,6 @@
   },
   {
     "q": "Which JavaScript method is used to merge two or more arrays?",
-    "c": null,
     "o": [
       "concat()",
       "push()",
@@ -141,6 +141,7 @@
   },
   {
     "q": "What will be the output of the following code?",
+    "l": "javascript",
     "c": "const arr = [1, 2, 3, 4];\nconst newArr = arr.map(num => num * 2);\nconsole.log(newArr);",
     "o": [
       "[2, 4, 6, 8]",
@@ -151,7 +152,6 @@
   },
   {
     "q": "Which of the following is NOT a valid JavaScript object method?",
-    "c": null,
     "o": [
       "remove()",
       "hasOwnProperty()",
@@ -161,6 +161,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript code?",
+    "l": "javascript",
     "c": "const obj = { a: 1, b: 2, c: 3 };\nconst keys = Object.keys(obj);\nconsole.log(keys);",
     "o": [
       "['a', 'b', 'c']",
@@ -171,7 +172,6 @@
   },
   {
     "q": "Which method is used to check if an object has a specific property?",
-    "c": null,
     "o": [
       "hasOwnProperty()",
       "includes()",
@@ -181,6 +181,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript snippet?",
+    "l": "javascript",
     "c": "const user = { name: 'Alice', age: 25 };\nconst { age } = user;\nconsole.log(age);",
     "o": [
       "25",
@@ -191,7 +192,6 @@
   },
   {
     "q": "Which JavaScript method is used to convert an object into an array of key-value pairs?",
-    "c": null,
     "o": [
       "Object.entries()",
       "Object.keys()",
@@ -201,6 +201,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript code?",
+    "l": "javascript",
     "c": "const arr = ['a', 'b', 'c'];\narr.splice(1, 1);\nconsole.log(arr);",
     "o": [
       "['a', 'c']",
@@ -211,7 +212,6 @@
   },
   {
     "q": "Which method is used to combine all elements of an array into a single string?",
-    "c": null,
     "o": [
       "join()",
       "concat()",
@@ -221,6 +221,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript code?",
+    "l": "javascript",
     "c": "const arr = [1, 2, 3, 4, 5];\nconst result = arr.filter(num => num > 2);\nconsole.log(result);",
     "o": [
       "[3, 4, 5]",
@@ -231,7 +232,6 @@
   },
   {
     "q": "Which of the following is NOT a way to create an object in JavaScript?",
-    "c": null,
     "o": [
       "const obj = Object.create(null, { key: { value: 'value' } });",
       "const obj = new Object();",
@@ -241,6 +241,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript snippet?",
+    "l": "javascript",
     "c": "const obj = { a: 5, b: 10 };\nconst newObj = { ...obj, b: 20 };\nconsole.log(newObj.b);",
     "o": [
       "20",
@@ -251,6 +252,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript snippet?",
+    "l": "javascript",
     "c": "const obj = { a: 1, b: 2 };\nconsole.log(Object.values(obj));",
     "o": [
       "[1, 2]",
@@ -261,7 +263,6 @@
   },
   {
     "q": "Which of the following is a correct way to merge two objects in JavaScript?",
-    "c": null,
     "o": [
       "const newObj = { ...obj1, ...obj2 };",
       "const newObj = obj1 + obj2;",
@@ -271,6 +272,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript code?",
+    "l": "javascript",
     "c": "const arr = [1, 2, 3];\narr.push(4);\nconsole.log(arr);",
     "o": [
       "[1, 2, 3, 4]",
@@ -281,7 +283,6 @@
   },
   {
     "q": "Which method removes the last element from an array and returns it?",
-    "c": null,
     "o": [
       "pop()",
       "shift()",
@@ -291,6 +292,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript snippet?",
+    "l": "javascript",
     "c": "const obj = { x: 10, y: 20 };\ndelete obj.x;\nconsole.log(obj);",
     "o": [
       "{ y: 20 }",
@@ -301,7 +303,6 @@
   },
   {
     "q": "Which JavaScript method is used to check if an array includes a specific element?",
-    "c": null,
     "o": [
       "includes()",
       "contains()",
@@ -311,6 +312,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript code?",
+    "l": "javascript",
     "c": "const arr = [1, 2, 3, 4, 5];\nconst slicedArr = arr.slice(1, 4);\nconsole.log(slicedArr);",
     "o": [
       "[2, 3, 4]",
@@ -321,7 +323,6 @@
   },
   {
     "q": "Which method can be used to flatten a nested array in JavaScript?",
-    "c": null,
     "o": [
       "flat()",
       "reduce()",
@@ -331,6 +332,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript snippet?",
+    "l": "javascript",
     "c": "const person = { name: 'Alice', age: 25 };\nconst { name, age } = person;\nconsole.log(name, age);",
     "o": [
       "'Alice' 25",
@@ -341,7 +343,6 @@
   },
   {
     "q": "Which of the following is NOT a valid JavaScript array method?",
-    "c": null,
     "o": [
       "objectify()",
       "map()",
@@ -351,6 +352,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript snippet?",
+    "l": "javascript",
     "c": "const arr = [1, 2, 3, 4, 5];\narr.shift();\nconsole.log(arr);",
     "o": [
       "[2, 3, 4, 5]",
@@ -361,7 +363,6 @@
   },
   {
     "q": "Which method is used to iterate over an array and return a new array with modified values?",
-    "c": null,
     "o": [
       "map()",
       "forEach()",
@@ -371,6 +372,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript code?",
+    "l": "javascript",
     "c": "const arr = ['a', 'b', 'c'];\nconst newArr = arr.reverse();\nconsole.log(newArr);",
     "o": [
       "['c', 'b', 'a']",
@@ -381,7 +383,6 @@
   },
   {
     "q": "Which JavaScript method converts an object into an array of its property values?",
-    "c": null,
     "o": [
       "Object.values()",
       "Object.keys()",
@@ -391,6 +392,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript snippet?",
+    "l": "javascript",
     "c": "const obj = { name: 'John', age: 30 };\nconsole.log('name' in obj);",
     "o": [
       "true",
@@ -401,6 +403,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript snippet?",
+    "l": "javascript",
     "c": "const obj = { a: 10, b: 20 };\nconst key = 'a';\nconsole.log(obj[key]);",
     "o": [
       "10",
@@ -411,7 +414,6 @@
   },
   {
     "q": "Which of the following is a valid way to create an empty object in JavaScript?",
-    "c": null,
     "o": [
       "const obj = {};",
       "const obj = [];",
@@ -421,6 +423,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript code?",
+    "l": "javascript",
     "c": "const arr = [3, 6, 9];\nconst newArr = arr.map(x => x * 2);\nconsole.log(newArr);",
     "o": [
       "[6, 12, 18]",
@@ -431,7 +434,6 @@
   },
   {
     "q": "Which of the following is NOT a valid way to iterate over an array in JavaScript?",
-    "c": null,
     "o": [
       "for (item of arr.keys())",
       "arr.forEach(item => console.log(item))",
@@ -441,6 +443,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript snippet?",
+    "l": "javascript",
     "c": "const obj = { a: 1, b: 2, c: 3 };\nconst { a, ...rest } = obj;\nconsole.log(rest);",
     "o": [
       "{ b: 2, c: 3 }",
@@ -451,7 +454,6 @@
   },
   {
     "q": "Which JavaScript method can be used to find an object in an array based on a property value?",
-    "c": null,
     "o": [
       "find()",
       "map()",
@@ -461,6 +463,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript code?",
+    "l": "javascript",
     "c": "const obj = { name: 'Alice' };\nobj.age = 25;\nconsole.log(obj);",
     "o": [
       "{ name: 'Alice', age: 25 }",
@@ -471,7 +474,6 @@
   },
   {
     "q": "Which method is used to convert an array into a single value by applying a function?",
-    "c": null,
     "o": [
       "reduce()",
       "map()",
@@ -481,6 +483,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript snippet?",
+    "l": "javascript",
     "c": "const obj = { x: 1, y: 2, z: 3 };\nconsole.log(Object.keys(obj));",
     "o": [
       "['x', 'y', 'z']",
@@ -491,7 +494,6 @@
   },
   {
     "q": "Which method adds new elements to the beginning of an array?",
-    "c": null,
     "o": [
       "unshift()",
       "push()",
@@ -501,6 +503,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript snippet?",
+    "l": "javascript",
     "c": "const arr = [1, 2, 3, 4];\nconst [first, , third] = arr;\nconsole.log(first, third);",
     "o": [
       "1 3",
@@ -511,7 +514,6 @@
   },
   {
     "q": "Which JavaScript method removes elements from an array based on an index and count?",
-    "c": null,
     "o": [
       "splice()",
       "slice()",
@@ -521,6 +523,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript snippet?",
+    "l": "javascript",
     "c": "const arr = [1, 2, 3, 4];\nconsole.log(arr.includes(2));",
     "o": [
       "true",
@@ -531,7 +534,6 @@
   },
   {
     "q": "Which JavaScript method returns a new array with only elements that pass a certain condition?",
-    "c": null,
     "o": [
       "filter()",
       "map()",
@@ -541,6 +543,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript snippet?",
+    "l": "javascript",
     "c": "const obj1 = { a: 1, b: 2 };\nconst obj2 = { ...obj1, c: 3 };\nconsole.log(obj2);",
     "o": [
       "{ a: 1, b: 2, c: 3 }",
@@ -551,7 +554,6 @@
   },
   {
     "q": "Which method checks if an object has a specific property?",
-    "c": null,
     "o": [
       "hasOwnProperty()",
       "contains()",
@@ -561,6 +563,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript snippet?",
+    "l": "javascript",
     "c": "const arr = ['apple', 'banana', 'cherry'];\nconsole.log(arr.join(' - '));",
     "o": [
       "'apple - banana - cherry'",
@@ -571,7 +574,6 @@
   },
   {
     "q": "Which JavaScript method sorts the elements of an array in place?",
-    "c": null,
     "o": [
       "sort()",
       "order()",
@@ -581,6 +583,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript snippet?",
+    "l": "javascript",
     "c": "const arr = [10, 5, 20];\narr.sort();\nconsole.log(arr);",
     "o": [
       "[10, 20, 5]",
@@ -591,6 +594,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript snippet?",
+    "l": "javascript",
     "c": "const obj = { x: 42 };\nconst obj2 = obj;\nobj2.x = 100;\nconsole.log(obj.x);",
     "o": [
       "100",
@@ -601,7 +605,6 @@
   },
   {
     "q": "Which method is used to merge two objects in JavaScript?",
-    "c": null,
     "o": [
       "Object.assign()",
       "mergeObjects()",
@@ -611,6 +614,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript snippet?",
+    "l": "javascript",
     "c": "const arr = [1, 2, [3, 4], 5];\nconsole.log(arr.flat());",
     "o": [
       "[1, 2, 3, 4, 5]",
@@ -621,7 +625,6 @@
   },
   {
     "q": "Which of the following is NOT a valid way to access a property of an object in JavaScript?",
-    "c": null,
     "o": [
       "obj->key",
       "obj.key",
@@ -631,6 +634,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript snippet?",
+    "l": "javascript",
     "c": "const arr = [1, 2, 3];\narr.length = 5;\nconsole.log(arr);",
     "o": [
       "[1, 2, 3, empty × 2]",
@@ -641,7 +645,6 @@
   },
   {
     "q": "Which JavaScript method returns an array of an object's property values?",
-    "c": null,
     "o": [
       "Object.values()",
       "Object.keys()",
@@ -651,6 +654,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript snippet?",
+    "l": "javascript",
     "c": "const arr = [10, 20, 30];\nconst res = arr.reduce((acc, val) => acc + val, 0);\nconsole.log(res);",
     "o": [
       "60",
@@ -661,7 +665,6 @@
   },
   {
     "q": "Which method is used to convert an object into an array of key-value pairs?",
-    "c": null,
     "o": [
       "Object.entries()",
       "Object.keys()",
@@ -671,6 +674,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript snippet?",
+    "l": "javascript",
     "c": "const obj = { name: 'Bob' };\nconst { age = 30 } = obj;\nconsole.log(age);",
     "o": [
       "30",
@@ -681,7 +685,6 @@
   },
   {
     "q": "Which method removes the last element from an array and returns it?",
-    "c": null,
     "o": [
       "pop()",
       "shift()",
@@ -691,6 +694,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript snippet?",
+    "l": "javascript",
     "c": "const arr = ['apple', 'banana', 'cherry'];\nconsole.log(arr.indexOf('banana'));",
     "o": [
       "1",
@@ -701,7 +705,6 @@
   },
   {
     "q": "Which method adds new elements to the end of an array?",
-    "c": null,
     "o": [
       "push()",
       "unshift()",
@@ -711,6 +714,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript snippet?",
+    "l": "javascript",
     "c": "const obj = { a: 10 };\ndelete obj.a;\nconsole.log(obj);",
     "o": [
       "{}",
@@ -721,7 +725,6 @@
   },
   {
     "q": "Which JavaScript method creates a shallow copy of an object?",
-    "c": null,
     "o": [
       "Object.assign()",
       "copyObject()",
@@ -731,6 +734,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript snippet?",
+    "l": "javascript",
     "c": "const arr1 = [1, 2];\nconst arr2 = [...arr1, 3, 4];\nconsole.log(arr2);",
     "o": [
       "[1, 2, 3, 4]",
@@ -741,7 +745,6 @@
   },
   {
     "q": "Which method can be used to check if an array contains a specific element?",
-    "c": null,
     "o": [
       "includes()",
       "has()",
@@ -751,6 +754,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript snippet?",
+    "l": "javascript",
     "c": "const obj = { a: 1, b: 2 };\nconst obj2 = { ...obj, c: 3 };\nconsole.log(obj2);",
     "o": [
       "{ a: 1, b: 2, c: 3 }",
@@ -761,7 +765,6 @@
   },
   {
     "q": "Which method removes elements from an array without modifying the original array?",
-    "c": null,
     "o": [
       "slice()",
       "splice()",
@@ -771,6 +774,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript snippet?",
+    "l": "javascript",
     "c": "const arr = ['a', 'b', 'c'];\nconsole.log(arr.reverse());",
     "o": [
       "['c', 'b', 'a']",
@@ -781,6 +785,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript snippet?",
+    "l": "javascript",
     "c": "const obj = { a: 1, b: 2 };\nconst obj2 = Object.assign({}, obj, { c: 3 });\nconsole.log(obj2);",
     "o": [
       "{ a: 1, b: 2, c: 3 }",
@@ -791,7 +796,6 @@
   },
   {
     "q": "Which method is used to create an array from an iterable or array-like object?",
-    "c": null,
     "o": [
       "Array.from()",
       "Array.of()",
@@ -801,6 +805,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript snippet?",
+    "l": "javascript",
     "c": "const obj = { a: 10, b: 20 };\nconst keys = Object.keys(obj);\nconsole.log(keys);",
     "o": [
       "[\"a\", \"b\"]",
@@ -811,7 +816,6 @@
   },
   {
     "q": "Which JavaScript method returns a shallow copy of a portion of an array?",
-    "c": null,
     "o": [
       "slice()",
       "splice()",
@@ -821,6 +825,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript snippet?",
+    "l": "javascript",
     "c": "const arr = [1, 2, 3, 4];\nconst newArr = arr.map(x => x * 2);\nconsole.log(newArr);",
     "o": [
       "[2, 4, 6, 8]",
@@ -831,7 +836,6 @@
   },
   {
     "q": "Which method removes the first element from an array and returns it?",
-    "c": null,
     "o": [
       "shift()",
       "pop()",
@@ -841,6 +845,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript snippet?",
+    "l": "javascript",
     "c": "const obj = { x: 10, y: 20 };\nconst { x, y } = obj;\nconsole.log(x + y);",
     "o": [
       "30",
@@ -851,7 +856,6 @@
   },
   {
     "q": "Which JavaScript method is used to add new properties to an object?",
-    "c": null,
     "o": [
       "Object.defineProperty()",
       "Object.append()",
@@ -861,6 +865,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript snippet?",
+    "l": "javascript",
     "c": "const arr = [5, 10, 15, 20];\nconst filtered = arr.filter(num => num > 10);\nconsole.log(filtered);",
     "o": [
       "[15, 20]",
@@ -871,7 +876,6 @@
   },
   {
     "q": "Which method returns the first element in an array that satisfies a given condition?",
-    "c": null,
     "o": [
       "find()",
       "filter()",
@@ -881,6 +885,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript snippet?",
+    "l": "javascript",
     "c": "const obj = { a: 5, b: 10 };\nconst objCopy = { ...obj, c: 15 };\nconsole.log(objCopy);",
     "o": [
       "{ a: 5, b: 10, c: 15 }",
@@ -891,7 +896,6 @@
   },
   {
     "q": "Which JavaScript method merges multiple arrays into a single array?",
-    "c": null,
     "o": [
       "concat()",
       "merge()",
@@ -901,6 +905,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript snippet?",
+    "l": "javascript",
     "c": "const arr = [1, 2, 3];\nconst [first, ...rest] = arr;\nconsole.log(rest);",
     "o": [
       "[2, 3]",
@@ -911,7 +916,6 @@
   },
   {
     "q": "Which JavaScript method checks if an object has a specific property?",
-    "c": null,
     "o": [
       "hasOwnProperty()",
       "containsKey()",
@@ -921,6 +925,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript snippet?",
+    "l": "javascript",
     "c": "const arr = [2, 4, 6, 8];\nconsole.log(arr.every(num => num % 2 === 0));",
     "o": [
       "true",
@@ -931,7 +936,6 @@
   },
   {
     "q": "Which method is used to transform each element of an array and return a new array?",
-    "c": null,
     "o": [
       "map()",
       "reduce()",
@@ -941,6 +945,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript snippet?",
+    "l": "javascript",
     "c": "const obj = { a: 1, b: 2, c: 3 };\nconsole.log(Object.entries(obj));",
     "o": [
       "[[\"a\", 1], [\"b\", 2], [\"c\", 3]]",
@@ -951,7 +956,6 @@
   },
   {
     "q": "Which JavaScript method is used to iterate over an array and execute a function on each element?",
-    "c": null,
     "o": [
       "forEach()",
       "map()",
@@ -961,6 +965,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript snippet?",
+    "l": "javascript",
     "c": "const arr = ['a', 'b', 'c'];\narr.splice(1, 1, 'x');\nconsole.log(arr);",
     "o": [
       "[\"a\", \"x\", \"c\"]",
@@ -971,7 +976,6 @@
   },
   {
     "q": "Which method is used to sort the elements of an array in JavaScript?",
-    "c": null,
     "o": [
       "sort()",
       "order()",
@@ -981,6 +985,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript snippet?",
+    "l": "javascript",
     "c": "const obj = { a: 10, b: 20, a: 30 };\nconsole.log(obj.a);",
     "o": [
       "30",
@@ -991,7 +996,6 @@
   },
   {
     "q": "Which JavaScript method creates an array with a given length and fills it with values?",
-    "c": null,
     "o": [
       "Array.fill()",
       "Array.create()",
@@ -1001,6 +1005,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript snippet?",
+    "l": "javascript",
     "c": "const arr = [3, 1, 4, 2];\narr.sort();\nconsole.log(arr);",
     "o": [
       "[1, 2, 3, 4]",
@@ -1011,7 +1016,6 @@
   },
   {
     "q": "Which method is used to create a shallow copy of an array?",
-    "c": null,
     "o": [
       "slice()",
       "copy()",
@@ -1021,6 +1025,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript snippet?",
+    "l": "javascript",
     "c": "const obj = { name: 'John', age: 25 };\ndelete obj.age;\nconsole.log(obj);",
     "o": [
       "{ name: 'John' }",
@@ -1031,7 +1036,6 @@
   },
   {
     "q": "Which JavaScript method is used to check if an array includes a specific value?",
-    "c": null,
     "o": [
       "includes()",
       "contains()",
@@ -1041,6 +1045,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript snippet?",
+    "l": "javascript",
     "c": "const arr = [5, 10, 15, 20];\nconst doubled = arr.map(x => x * 2);\nconsole.log(doubled[1]);",
     "o": [
       "20",
@@ -1051,7 +1056,6 @@
   },
   {
     "q": "Which method is used to convert an array into a string, separating elements with a specified delimiter?",
-    "c": null,
     "o": [
       "join()",
       "concat()",
@@ -1061,6 +1065,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript snippet?",
+    "l": "javascript",
     "c": "const obj = { x: 5, y: 10 };\nconst { x, y, z = 15 } = obj;\nconsole.log(z);",
     "o": [
       "15",
@@ -1071,7 +1076,6 @@
   },
   {
     "q": "Which JavaScript method merges two or more objects into one?",
-    "c": null,
     "o": [
       "Object.assign()",
       "Object.combine()",
@@ -1081,6 +1085,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript snippet?",
+    "l": "javascript",
     "c": "const arr = ['a', 'b', 'c'];\narr.push('d');\nconsole.log(arr);",
     "o": [
       "[\"a\", \"b\", \"c\", \"d\"]",
@@ -1091,7 +1096,6 @@
   },
   {
     "q": "Which method is used to iterate over an object's properties?",
-    "c": null,
     "o": [
       "Object.keys()",
       "Object.iterate()",
@@ -1101,6 +1105,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript snippet?",
+    "l": "javascript",
     "c": "const obj = { a: 1, b: 2, c: 3 };\nconsole.log(Object.values(obj));",
     "o": [
       "[1, 2, 3]",
@@ -1111,7 +1116,6 @@
   },
   {
     "q": "Which method is used to reduce an array to a single value by applying a function?",
-    "c": null,
     "o": [
       "reduce()",
       "filter()",
@@ -1121,6 +1125,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript snippet?",
+    "l": "javascript",
     "c": "const obj = { x: 10, y: 20 };\nconst { x, ...rest } = obj;\nconsole.log(rest);",
     "o": [
       "{ y: 20 }",
@@ -1131,7 +1136,6 @@
   },
   {
     "q": "Which method removes the last element from an array and returns it?",
-    "c": null,
     "o": [
       "pop()",
       "shift()",
@@ -1141,6 +1145,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript snippet?",
+    "l": "javascript",
     "c": "const obj = { name: 'Alice', age: 25 };\nobj.city = 'New York';\nconsole.log(obj);",
     "o": [
       "{ name: 'Alice', age: 25, city: 'New York' }",
@@ -1151,7 +1156,6 @@
   },
   {
     "q": "Which method is used to find the index of the first occurrence of a value in an array?",
-    "c": null,
     "o": [
       "indexOf()",
       "findIndex()",
@@ -1161,6 +1165,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript snippet?",
+    "l": "javascript",
     "c": "const arr = [2, 4, 6, 8];\nconst sum = arr.reduce((acc, num) => acc + num, 0);\nconsole.log(sum);",
     "o": [
       "20",
@@ -1171,7 +1176,6 @@
   },
   {
     "q": "Which method returns a new array with all sub-array elements concatenated into it?",
-    "c": null,
     "o": [
       "flat()",
       "concat()",
@@ -1181,6 +1185,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript snippet?",
+    "l": "javascript",
     "c": "const person = { name: 'John', age: 30 };\nperson.gender = 'Male';\nconsole.log(person);",
     "o": [
       "{ name: 'John', age: 30, gender: 'Male' }",
@@ -1191,7 +1196,6 @@
   },
   {
     "q": "Which method is used to convert an object's properties into an array of key-value pairs?",
-    "c": null,
     "o": [
       "Object.entries()",
       "Object.toArray()",
@@ -1201,6 +1205,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript snippet?",
+    "l": "javascript",
     "c": "const obj1 = { a: 1, b: 2 };\nconst obj2 = { b: 3, c: 4 };\nconst merged = { ...obj1, ...obj2 };\nconsole.log(merged);",
     "o": [
       "{ a: 1, b: 3, c: 4 }",
@@ -1211,7 +1216,6 @@
   },
   {
     "q": "Which method removes the first element of an array and returns it?",
-    "c": null,
     "o": [
       "shift()",
       "pop()",
@@ -1221,6 +1225,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript snippet?",
+    "l": "javascript",
     "c": "const arr = ['x', 'y', 'z'];\nconst first = arr.shift();\nconsole.log(first, arr);",
     "o": [
       "\"x\", [\"y\", \"z\"]",
@@ -1231,7 +1236,6 @@
   },
   {
     "q": "Which method is used to check if all elements in an array satisfy a condition?",
-    "c": null,
     "o": [
       "every()",
       "some()",
@@ -1241,6 +1245,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript snippet?",
+    "l": "javascript",
     "c": "const obj = { a: 5, b: 10, c: 15 };\nconst keys = Object.keys(obj);\nconsole.log(keys.length);",
     "o": [
       "3",
@@ -1251,7 +1256,6 @@
   },
   {
     "q": "Which method is used to find the first element in an array that satisfies a condition?",
-    "c": null,
     "o": [
       "find()",
       "filter()",
@@ -1261,6 +1265,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript snippet?",
+    "l": "javascript",
     "c": "const obj = { p: 42, q: 50 };\nconst { p, q, r = 99 } = obj;\nconsole.log(r);",
     "o": [
       "99",
@@ -1271,7 +1276,6 @@
   },
   {
     "q": "Which method is used to sort elements in an array?",
-    "c": null,
     "o": [
       "sort()",
       "order()",
@@ -1281,6 +1285,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript snippet?",
+    "l": "javascript",
     "c": "const arr = [1, 2, 3, 4, 5];\nconst reversed = arr.reverse();\nconsole.log(reversed);",
     "o": [
       "[5, 4, 3, 2, 1]",
@@ -1291,7 +1296,6 @@
   },
   {
     "q": "Which method returns a portion of an array without modifying the original array?",
-    "c": null,
     "o": [
       "slice()",
       "splice()",
@@ -1301,6 +1305,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript snippet?",
+    "l": "javascript",
     "c": "const numbers = [2, 4, 6, 8];\nconst doubled = numbers.map(num => num * 2);\nconsole.log(doubled[2]);",
     "o": [
       "12",
@@ -1311,7 +1316,6 @@
   },
   {
     "q": "Which method removes elements from an array and can insert new elements at the same time?",
-    "c": null,
     "o": [
       "splice()",
       "slice()",
@@ -1321,6 +1325,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript snippet?",
+    "l": "javascript",
     "c": "const arr = [\"a\", \"b\", \"c\", \"d\"];\narr.splice(2, 1);\nconsole.log(arr);",
     "o": [
       "[\"a\", \"b\", \"d\"]",
@@ -1331,7 +1336,6 @@
   },
   {
     "q": "Which method combines two arrays and returns a new one?",
-    "c": null,
     "o": [
       "concat()",
       "merge()",
@@ -1341,6 +1345,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript snippet?",
+    "l": "javascript",
     "c": "const arr1 = [1, 2, 3];\nconst arr2 = [4, 5, 6];\nconst result = arr1.concat(arr2);\nconsole.log(result);",
     "o": [
       "[1, 2, 3, 4, 5, 6]",
@@ -1351,7 +1356,6 @@
   },
   {
     "q": "Which method is used to find the last index of a specified value in an array?",
-    "c": null,
     "o": [
       "lastIndexOf()",
       "findLast()",
@@ -1361,6 +1365,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript snippet?",
+    "l": "javascript",
     "c": "const numbers = [10, 20, 30, 40, 50];\nconsole.log(numbers.lastIndexOf(30));",
     "o": [
       "2",
@@ -1371,7 +1376,6 @@
   },
   {
     "q": "Which JavaScript method is used to check if at least one element in an array satisfies a condition?",
-    "c": null,
     "o": [
       "some()",
       "every()",
@@ -1381,7 +1385,6 @@
   },
   {
     "q": "Which of the following is a correct way to create an object in JavaScript?",
-    "c": null,
     "o": [
       "const obj = { key: 'value' };",
       "const obj = ( key: 'value' );",
@@ -1391,6 +1394,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript snippet?",
+    "l": "javascript",
     "c": "const user = { name: 'Alice', age: 25 };\nconsole.log(Object.keys(user));",
     "o": [
       "[\"name\", \"age\"]",
@@ -1401,7 +1405,6 @@
   },
   {
     "q": "Which method is used to merge multiple objects into one?",
-    "c": null,
     "o": [
       "Object.assign()",
       "Object.merge()",
@@ -1411,6 +1414,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript snippet?",
+    "l": "javascript",
     "c": "const numbers = [1, 2, 3, 4];\nnumbers.length = 2;\nconsole.log(numbers);",
     "o": [
       "[1, 2]",
@@ -1421,7 +1425,6 @@
   },
   {
     "q": "Which method is used to remove the last element from an array?",
-    "c": null,
     "o": [
       "pop()",
       "shift()",
@@ -1431,6 +1434,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript snippet?",
+    "l": "javascript",
     "c": "const arr = [10, 20, 30];\narr.push(40);\nconsole.log(arr);",
     "o": [
       "[10, 20, 30, 40]",
@@ -1441,7 +1445,6 @@
   },
   {
     "q": "Which method creates a new array by applying a function to each element of an existing array?",
-    "c": null,
     "o": [
       "map()",
       "forEach()",
@@ -1451,6 +1454,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript snippet?",
+    "l": "javascript",
     "c": "const numbers = [5, 10, 15, 20];\nconst filtered = numbers.filter(num => num > 10);\nconsole.log(filtered);",
     "o": [
       "[15, 20]",
@@ -1461,7 +1465,6 @@
   },
   {
     "q": "Which method is used to combine all elements of an array into a single value?",
-    "c": null,
     "o": [
       "reduce()",
       "concat()",
@@ -1471,6 +1474,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript snippet?",
+    "l": "javascript",
     "c": "const person = { name: 'John', age: 30 };\nconst { name, age } = person;\nconsole.log(name, age);",
     "o": [
       "\"John\", 30",
@@ -1481,7 +1485,6 @@
   },
   {
     "q": "Which method returns an array of an object's values?",
-    "c": null,
     "o": [
       "Object.values()",
       "Object.keys()",
@@ -1491,6 +1494,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript snippet?",
+    "l": "javascript",
     "c": "const obj = { a: 1, b: 2, c: 3 };\nconst { a, ...rest } = obj;\nconsole.log(rest);",
     "o": [
       "{ b: 2, c: 3 }",
@@ -1501,7 +1505,6 @@
   },
   {
     "q": "Which method checks if an object has a specific property?",
-    "c": null,
     "o": [
       "hasOwnProperty()",
       "includes()",
@@ -1511,6 +1514,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript snippet?",
+    "l": "javascript",
     "c": "const colors = ['red', 'blue', 'green'];\nconst newColors = [...colors, 'yellow'];\nconsole.log(newColors);",
     "o": [
       "[\"red\", \"blue\", \"green\", \"yellow\"]",
@@ -1521,7 +1525,6 @@
   },
   {
     "q": "Which method is used to check if an array contains a specific element?",
-    "c": null,
     "o": [
       "includes()",
       "exists()",
@@ -1531,6 +1534,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript snippet?",
+    "l": "javascript",
     "c": "const arr = [1, 2, 3, 4, 5];\nconst sliced = arr.slice(1, 4);\nconsole.log(sliced);",
     "o": [
       "[2, 3, 4]",
@@ -1541,7 +1545,6 @@
   },
   {
     "q": "Which method is used to loop through each element in an array without creating a new array?",
-    "c": null,
     "o": [
       "forEach()",
       "map()",
@@ -1551,6 +1554,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript snippet?",
+    "l": "javascript",
     "c": "const arr = [3, 6, 9];\nconst tripled = arr.map(num => num * 3);\nconsole.log(tripled);",
     "o": [
       "[9, 18, 27]",
@@ -1561,7 +1565,6 @@
   },
   {
     "q": "Which method is used to add elements to the beginning of an array?",
-    "c": null,
     "o": [
       "unshift()",
       "push()",
@@ -1571,6 +1574,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript snippet?",
+    "l": "javascript",
     "c": "const obj1 = { x: 10 };\nconst obj2 = { y: 20 };\nconst merged = Object.assign({}, obj1, obj2);\nconsole.log(merged);",
     "o": [
       "{ x: 10, y: 20 }",
@@ -1581,7 +1585,6 @@
   },
   {
     "q": "Which of the following is a correct way to create an array in JavaScript?",
-    "c": null,
     "o": [
       "const arr = [1, 2, 3];",
       "const arr = (1, 2, 3);",
@@ -1591,6 +1594,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript snippet?",
+    "l": "javascript",
     "c": "const obj = {a: 1, b: 2, a: 3};\nconsole.log(obj.a);",
     "o": [
       "3",
@@ -1601,7 +1605,6 @@
   },
   {
     "q": "Which method is used to get an array of key-value pairs from an object?",
-    "c": null,
     "o": [
       "Object.entries()",
       "Object.keys()",
@@ -1611,6 +1614,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript snippet?",
+    "l": "javascript",
     "c": "const fruits = ['apple', 'banana', 'cherry'];\nfruits.splice(1, 1, 'grape');\nconsole.log(fruits);",
     "o": [
       "[\"apple\", \"grape\", \"cherry\"]",
@@ -1621,7 +1625,6 @@
   },
   {
     "q": "Which method removes the first element of an array and returns it?",
-    "c": null,
     "o": [
       "shift()",
       "pop()",
@@ -1631,6 +1634,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript snippet?",
+    "l": "javascript",
     "c": "const arr = [2, 4, 6, 8];\nconst newArr = arr.map(num => num / 2);\nconsole.log(newArr);",
     "o": [
       "[1, 2, 3, 4]",
@@ -1641,7 +1645,6 @@
   },
   {
     "q": "Which statement is used to create a shallow copy of an object?",
-    "c": null,
     "o": [
       "const copy = {...original};",
       "const copy = original;",
@@ -1651,6 +1654,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript snippet?",
+    "l": "javascript",
     "c": "const obj = {name: 'Alice', age: 25};\nconst {name: firstName} = obj;\nconsole.log(firstName);",
     "o": [
       "\"Alice\"",
@@ -1661,7 +1665,6 @@
   },
   {
     "q": "Which method converts an array to a string by joining its elements?",
-    "c": null,
     "o": [
       "join()",
       "concat()",
@@ -1671,6 +1674,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript snippet?",
+    "l": "javascript",
     "c": "const numbers = [1, 2, 3, 4, 5];\nconsole.log(numbers.slice(2));",
     "o": [
       "[3, 4, 5]",
@@ -1681,7 +1685,6 @@
   },
   {
     "q": "Which of the following is NOT a valid way to iterate over an array?",
-    "c": null,
     "o": [
       "for (const item of arr)",
       "arr.forEach(item => console.log(item))",
@@ -1691,6 +1694,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript snippet?",
+    "l": "javascript",
     "c": "const obj = { x: 10, y: 20 };\ndelete obj.x;\nconsole.log(obj);",
     "o": [
       "{ y: 20 }",
@@ -1701,7 +1705,6 @@
   },
   {
     "q": "Which method is used to sort an array in JavaScript?",
-    "c": null,
     "o": [
       "sort()",
       "order()",
@@ -1711,6 +1714,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript snippet?",
+    "l": "javascript",
     "c": "const numbers = [10, 5, 20, 15];\nnumbers.sort();\nconsole.log(numbers);",
     "o": [
       "[10, 15, 20, 5]",
@@ -1721,7 +1725,6 @@
   },
   {
     "q": "Which method is used to reverse an array in JavaScript?",
-    "c": null,
     "o": [
       "reverse()",
       "invert()",
@@ -1731,6 +1734,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript snippet?",
+    "l": "javascript",
     "c": "const arr = ['a', 'b', 'c'];\nconst result = arr.concat(['d', 'e']);\nconsole.log(result);",
     "o": [
       "[\"a\", \"b\", \"c\", \"d\", \"e\"]",
@@ -1741,7 +1745,6 @@
   },
   {
     "q": "Which method returns a new array containing only the elements that satisfy a condition?",
-    "c": null,
     "o": [
       "filter()",
       "map()",
@@ -1751,6 +1754,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript snippet?",
+    "l": "javascript",
     "c": "const obj = {a: 1, b: 2, c: 3};\nconst keys = Object.keys(obj);\nconsole.log(keys);",
     "o": [
       "[\"a\", \"b\", \"c\"]",
@@ -1761,7 +1765,6 @@
   },
   {
     "q": "Which operator is used to spread elements of an array into another array?",
-    "c": null,
     "o": [
       "... (spread operator)",
       "* (multiplication operator)",
@@ -1771,6 +1774,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript snippet?",
+    "l": "javascript",
     "c": "const arr1 = [1, 2, 3];\nconst arr2 = [...arr1, 4, 5];\nconsole.log(arr2);",
     "o": [
       "[1, 2, 3, 4, 5]",
@@ -1781,7 +1785,6 @@
   },
   {
     "q": "Which of the following is a correct way to create an object in JavaScript?",
-    "c": null,
     "o": [
       "const obj = { name: 'John', age: 30 };",
       "const obj = ( name: 'John', age: 30 );",
@@ -1791,6 +1794,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript snippet?",
+    "l": "javascript",
     "c": "const obj = {a: 1, b: 2};\nconst newObj = { ...obj, c: 3 };\nconsole.log(newObj);",
     "o": [
       "{ a: 1, b: 2, c: 3 }",
@@ -1801,7 +1805,6 @@
   },
   {
     "q": "Which method is used to check if an object has a certain property?",
-    "c": null,
     "o": [
       "Object.hasOwnProperty()",
       "Object.contains()",
@@ -1811,6 +1814,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript snippet?",
+    "l": "javascript",
     "c": "const arr = [1, 2, 3];\nconst [first, ...rest] = arr;\nconsole.log(rest);",
     "o": [
       "[2, 3]",
@@ -1821,7 +1825,6 @@
   },
   {
     "q": "Which method is used to merge two arrays in JavaScript?",
-    "c": null,
     "o": [
       "concat()",
       "merge()",
@@ -1831,6 +1834,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript snippet?",
+    "l": "javascript",
     "c": "const obj = {name: 'Alice', age: 25};\nconst {age} = obj;\nconsole.log(age);",
     "o": [
       "25",
@@ -1841,7 +1845,6 @@
   },
   {
     "q": "Which statement correctly creates an array of object properties?",
-    "c": null,
     "o": [
       "const keys = Object.keys(obj);",
       "const keys = obj.keys();",
@@ -1851,6 +1854,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript snippet?",
+    "l": "javascript",
     "c": "const obj = {x: 10, y: 20};\nconsole.log(Object.values(obj));",
     "o": [
       "[10, 20]",
@@ -1861,7 +1865,6 @@
   },
   {
     "q": "Which method is used to loop through an array and return a new array?",
-    "c": null,
     "o": [
       "map()",
       "forEach()",
@@ -1871,6 +1874,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript snippet?",
+    "l": "javascript",
     "c": "const numbers = [5, 10, 15];\nconst result = numbers.find(num => num > 5);\nconsole.log(result);",
     "o": [
       "10",
@@ -1881,7 +1885,6 @@
   },
   {
     "q": "Which method adds an element to the beginning of an array?",
-    "c": null,
     "o": [
       "unshift()",
       "push()",
@@ -1891,6 +1894,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript snippet?",
+    "l": "javascript",
     "c": "const arr = ['red', 'blue', 'green'];\narr.length = 2;\nconsole.log(arr);",
     "o": [
       "[\"red\", \"blue\"]",
@@ -1901,7 +1905,6 @@
   },
   {
     "q": "Which operator is used to copy an object in JavaScript?",
-    "c": null,
     "o": [
       "... (spread operator)",
       "copy()",
@@ -1911,6 +1914,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript snippet?",
+    "l": "javascript",
     "c": "const arr = [1, 2, 3, 4];\nconst newArr = arr.filter(num => num % 2 === 0);\nconsole.log(newArr);",
     "o": [
       "[2, 4]",
@@ -1921,7 +1925,6 @@
   },
   {
     "q": "Which method returns the index of the first occurrence of an element in an array?",
-    "c": null,
     "o": [
       "indexOf()",
       "findIndex()",
@@ -1931,6 +1934,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript snippet?",
+    "l": "javascript",
     "c": "const arr = ['a', 'b', 'c'];\nconsole.log(arr.includes('b'));",
     "o": [
       "true",
@@ -1941,7 +1945,6 @@
   },
   {
     "q": "Which of the following is NOT a valid way to clone an object?",
-    "c": null,
     "o": [
       "const copy = Object.assign({}, obj);",
       "const copy = JSON.parse(JSON.stringify(obj));",
@@ -1951,6 +1954,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript snippet?",
+    "l": "javascript",
     "c": "const obj = {x: 5, y: 10};\nconst {x, y, z = 20} = obj;\nconsole.log(z);",
     "o": [
       "20",
@@ -1961,7 +1965,6 @@
   },
   {
     "q": "Which method combines all elements of an array into a single value?",
-    "c": null,
     "o": [
       "reduce()",
       "concat()",
@@ -1971,6 +1974,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript snippet?",
+    "l": "javascript",
     "c": "const arr = [10, 20, 30];\narr.reverse();\nconsole.log(arr);",
     "o": [
       "[30, 20, 10]",
@@ -1981,7 +1985,6 @@
   },
   {
     "q": "Which of the following is a valid way to create an array in JavaScript?",
-    "c": null,
     "o": [
       "const arr = [1, 2, 3];",
       "const arr = (1, 2, 3);",
@@ -1991,6 +1994,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript snippet?",
+    "l": "javascript",
     "c": "const obj = { a: 10, b: 20 };\nconst obj2 = Object.assign({}, obj, { c: 30 });\nconsole.log(obj2);",
     "o": [
       "{ a: 10, b: 20, c: 30 }",
@@ -2001,7 +2005,6 @@
   },
   {
     "q": "Which method returns an array containing all key-value pairs of an object?",
-    "c": null,
     "o": [
       "Object.entries()",
       "Object.values()",
@@ -2011,6 +2014,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript snippet?",
+    "l": "javascript",
     "c": "const arr = [1, 2, 3];\nconst newArr = arr.map(num => num * 2);\nconsole.log(newArr);",
     "o": [
       "[2, 4, 6]",
@@ -2021,7 +2025,6 @@
   },
   {
     "q": "Which method removes the last element from an array?",
-    "c": null,
     "o": [
       "pop()",
       "push()",
@@ -2031,6 +2034,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript snippet?",
+    "l": "javascript",
     "c": "const arr = [5, 10, 15, 20];\nconst slicedArr = arr.slice(1, 3);\nconsole.log(slicedArr);",
     "o": [
       "[10, 15]",
@@ -2041,7 +2045,6 @@
   },
   {
     "q": "Which method combines two or more arrays into one?",
-    "c": null,
     "o": [
       "concat()",
       "merge()",
@@ -2051,6 +2054,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript snippet?",
+    "l": "javascript",
     "c": "const obj = {x: 5, y: 10};\nconst {x, y, z = 15} = obj;\nconsole.log(z);",
     "o": [
       "15",
@@ -2061,7 +2065,6 @@
   },
   {
     "q": "Which method checks if an array contains a specific value?",
-    "c": null,
     "o": [
       "includes()",
       "find()",
@@ -2071,6 +2074,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript snippet?",
+    "l": "javascript",
     "c": "const arr = [1, 2, 3, 4];\nconst result = arr.find(num => num > 2);\nconsole.log(result);",
     "o": [
       "3",
@@ -2081,7 +2085,6 @@
   },
   {
     "q": "Which method removes the first element from an array?",
-    "c": null,
     "o": [
       "shift()",
       "pop()",
@@ -2091,6 +2094,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript snippet?",
+    "l": "javascript",
     "c": "const arr = [\"a\", \"b\", \"c\"];\narr.reverse();\nconsole.log(arr);",
     "o": [
       "[\"c\", \"b\", \"a\"]",
@@ -2101,7 +2105,6 @@
   },
   {
     "q": "Which method is used to iterate over an array without modifying it?",
-    "c": null,
     "o": [
       "forEach()",
       "map()",
@@ -2111,6 +2114,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript snippet?",
+    "l": "javascript",
     "c": "const arr = [1, 2, 3];\narr.length = 5;\nconsole.log(arr);",
     "o": [
       "[1, 2, 3, empty × 2]",
@@ -2121,7 +2125,6 @@
   },
   {
     "q": "Which method is used to merge two objects in JavaScript?",
-    "c": null,
     "o": [
       "Object.assign()",
       "Object.merge()",
@@ -2131,6 +2134,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript snippet?",
+    "l": "javascript",
     "c": "const obj = {a: 10, b: 20};\nconst objCopy = {...obj, c: 30};\nconsole.log(objCopy);",
     "o": [
       "{ a: 10, b: 20, c: 30 }",
@@ -2141,7 +2145,6 @@
   },
   {
     "q": "Which method removes elements from an array and optionally inserts new elements?",
-    "c": null,
     "o": [
       "splice()",
       "slice()",
@@ -2151,6 +2154,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript snippet?",
+    "l": "javascript",
     "c": "const obj = { p: 10, q: 20, r: 30 };\nconst keys = Object.keys(obj);\nconsole.log(keys);",
     "o": [
       "[\"p\", \"q\", \"r\"]",
@@ -2161,7 +2165,6 @@
   },
   {
     "q": "Which method returns a string by concatenating all elements of an array?",
-    "c": null,
     "o": [
       "join()",
       "concat()",
@@ -2171,6 +2174,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript snippet?",
+    "l": "javascript",
     "c": "const arr = [10, 20, 30];\nconsole.log(arr.indexOf(20));",
     "o": [
       "1",
@@ -2181,7 +2185,6 @@
   },
   {
     "q": "Which of the following correctly creates an object in JavaScript?",
-    "c": null,
     "o": [
       "const obj = { name: 'Alice', age: 25 };",
       "const obj = [ name: 'Alice', age: 25 ];",
@@ -2191,6 +2194,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript snippet?",
+    "l": "javascript",
     "c": "const obj = { x: 10, y: 20 };\ndelete obj.x;\nconsole.log(obj);",
     "o": [
       "{ y: 20 }",
@@ -2201,7 +2205,6 @@
   },
   {
     "q": "Which method returns an array of an object's values?",
-    "c": null,
     "o": [
       "Object.values()",
       "Object.keys()",
@@ -2211,6 +2214,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript snippet?",
+    "l": "javascript",
     "c": "const arr = [5, 10, 15];\narr.push(20);\nconsole.log(arr);",
     "o": [
       "[5, 10, 15, 20]",
@@ -2221,7 +2225,6 @@
   },
   {
     "q": "Which array method is used to create a new array with elements that pass a condition?",
-    "c": null,
     "o": [
       "filter()",
       "map()",
@@ -2231,6 +2234,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript snippet?",
+    "l": "javascript",
     "c": "const obj = { a: 1, b: 2, c: 3 };\nconst { a, b } = obj;\nconsole.log(a, b);",
     "o": [
       "1 2",
@@ -2241,7 +2245,6 @@
   },
   {
     "q": "Which method is used to convert an array to a string with a specified separator?",
-    "c": null,
     "o": [
       "join()",
       "split()",
@@ -2251,6 +2254,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript snippet?",
+    "l": "javascript",
     "c": "const arr = ['a', 'b', 'c'];\narr.unshift('z');\nconsole.log(arr);",
     "o": [
       "[\"z\", \"a\", \"b\", \"c\"]",
@@ -2261,7 +2265,6 @@
   },
   {
     "q": "Which array method is used to check if at least one element meets a condition?",
-    "c": null,
     "o": [
       "some()",
       "every()",
@@ -2271,6 +2274,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript snippet?",
+    "l": "javascript",
     "c": "const arr = [1, 2, 3, 4, 5];\nconst result = arr.findIndex(num => num > 3);\nconsole.log(result);",
     "o": [
       "3",
@@ -2281,7 +2285,6 @@
   },
   {
     "q": "Which method creates a shallow copy of an object?",
-    "c": null,
     "o": [
       "Object.assign()",
       "JSON.stringify()",
@@ -2291,6 +2294,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript snippet?",
+    "l": "javascript",
     "c": "const obj = { x: 5, y: 10 };\nconst obj2 = { ...obj, y: 15 };\nconsole.log(obj2);",
     "o": [
       "{ x: 5, y: 15 }",
@@ -2301,7 +2305,6 @@
   },
   {
     "q": "Which array method is used to execute a function on every element and return a single value?",
-    "c": null,
     "o": [
       "reduce()",
       "map()",
@@ -2311,6 +2314,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript snippet?",
+    "l": "javascript",
     "c": "const arr = [1, 2, 3];\nconst result = arr.includes(2);\nconsole.log(result);",
     "o": [
       "true",
@@ -2321,7 +2325,6 @@
   },
   {
     "q": "Which method merges two arrays without modifying the original ones?",
-    "c": null,
     "o": [
       "concat()",
       "push()",
@@ -2331,6 +2334,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript snippet?",
+    "l": "javascript",
     "c": "const obj = { a: 10, b: 20 };\nconst keys = Object.keys(obj);\nconsole.log(keys.length);",
     "o": [
       "2",
@@ -2341,7 +2345,6 @@
   },
   {
     "q": "Which method is used to sort an array in place?",
-    "c": null,
     "o": [
       "sort()",
       "order()",
@@ -2351,6 +2354,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript snippet?",
+    "l": "javascript",
     "c": "const arr = [1, 2, 3, 4, 5];\nconst newArr = arr.slice(2, 4);\nconsole.log(newArr);",
     "o": [
       "[3, 4]",
@@ -2361,7 +2365,6 @@
   },
   {
     "q": "Which method converts an object into an array of key-value pairs?",
-    "c": null,
     "o": [
       "Object.entries()",
       "Object.keys()",
@@ -2371,6 +2374,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript snippet?",
+    "l": "javascript",
     "c": "const arr = ['apple', 'banana', 'cherry'];\nconst result = arr.indexOf('banana');\nconsole.log(result);",
     "o": [
       "1",
@@ -2381,7 +2385,6 @@
   },
   {
     "q": "Which of the following correctly creates an array in JavaScript?",
-    "c": null,
     "o": [
       "const arr = [1, 2, 3];",
       "const arr = {1, 2, 3};",
@@ -2391,6 +2394,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript snippet?",
+    "l": "javascript",
     "c": "const person = { name: 'Alice', age: 30 };\nconsole.log('name' in person);",
     "o": [
       "true",
@@ -2401,7 +2405,6 @@
   },
   {
     "q": "Which method returns a new array with the results of calling a function on every element?",
-    "c": null,
     "o": [
       "map()",
       "forEach()",
@@ -2411,6 +2414,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript snippet?",
+    "l": "javascript",
     "c": "const obj = { a: 1, b: 2, c: 3 };\nconst keys = Object.keys(obj);\nconsole.log(keys);",
     "o": [
       "[\"a\", \"b\", \"c\"]",
@@ -2421,7 +2425,6 @@
   },
   {
     "q": "Which method removes the last element from an array and returns it?",
-    "c": null,
     "o": [
       "pop()",
       "shift()",
@@ -2431,6 +2434,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript snippet?",
+    "l": "javascript",
     "c": "const arr = ['apple', 'banana', 'cherry'];\nconst last = arr.pop();\nconsole.log(last);",
     "o": [
       "\"cherry\"",
@@ -2441,7 +2445,6 @@
   },
   {
     "q": "Which of the following is a valid way to merge two objects?",
-    "c": null,
     "o": [
       "const merged = { ...obj1, ...obj2 };",
       "const merged = obj1 + obj2;",
@@ -2451,6 +2454,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript snippet?",
+    "l": "javascript",
     "c": "const obj = { x: 5, y: 10 };\nconst obj2 = Object.assign({}, obj, { y: 15 });\nconsole.log(obj2);",
     "o": [
       "{ x: 5, y: 15 }",
@@ -2461,7 +2465,6 @@
   },
   {
     "q": "Which method is used to check if all elements in an array meet a condition?",
-    "c": null,
     "o": [
       "every()",
       "some()",
@@ -2471,6 +2474,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript snippet?",
+    "l": "javascript",
     "c": "const arr = [10, 20, 30, 40];\nconsole.log(arr.slice(1, 3));",
     "o": [
       "[20, 30]",
@@ -2481,7 +2485,6 @@
   },
   {
     "q": "Which method is used to find the first element that satisfies a condition in an array?",
-    "c": null,
     "o": [
       "find()",
       "filter()",
@@ -2491,6 +2494,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript snippet?",
+    "l": "javascript",
     "c": "const obj = { a: 5, b: 10, c: 15 };\nconst values = Object.values(obj);\nconsole.log(values);",
     "o": [
       "[5, 10, 15]",
@@ -2501,7 +2505,6 @@
   },
   {
     "q": "Which method converts an array into a single value by executing a reducer function?",
-    "c": null,
     "o": [
       "reduce()",
       "map()",
@@ -2511,6 +2514,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript snippet?",
+    "l": "javascript",
     "c": "const arr = [1, 2, 3, 4, 5];\nconst sum = arr.reduce((acc, num) => acc + num, 0);\nconsole.log(sum);",
     "o": [
       "15",
@@ -2521,7 +2525,6 @@
   },
   {
     "q": "Which method is used to add elements at the beginning of an array?",
-    "c": null,
     "o": [
       "unshift()",
       "push()",
@@ -2531,6 +2534,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript snippet?",
+    "l": "javascript",
     "c": "const arr = [\"apple\", \"banana\", \"cherry\"];\narr.reverse();\nconsole.log(arr);",
     "o": [
       "[\"cherry\", \"banana\", \"apple\"]",
@@ -2541,7 +2545,6 @@
   },
   {
     "q": "Which method checks if a value exists in an array?",
-    "c": null,
     "o": [
       "includes()",
       "find()",
@@ -2551,6 +2554,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript snippet?",
+    "l": "javascript",
     "c": "const arr = [\"red\", \"green\", \"blue\"];\nconst index = arr.indexOf(\"green\");\nconsole.log(index);",
     "o": [
       "1",
@@ -2561,7 +2565,6 @@
   },
   {
     "q": "Which method creates a new array with elements that pass a test?",
-    "c": null,
     "o": [
       "filter()",
       "map()",
@@ -2571,7 +2574,6 @@
   },
   {
     "q": "Which of the following is a correct way to create an object in JavaScript?",
-    "c": null,
     "o": [
       "const obj = { key: 'value' };",
       "const obj = (key: 'value');",
@@ -2581,6 +2583,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript snippet?",
+    "l": "javascript",
     "c": "const obj = { name: 'John', age: 25 };\ndelete obj.age;\nconsole.log(obj);",
     "o": [
       "{ name: 'John' }",
@@ -2591,7 +2594,6 @@
   },
   {
     "q": "Which method creates an array with all object keys?",
-    "c": null,
     "o": [
       "Object.keys()",
       "Object.values()",
@@ -2601,6 +2603,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript snippet?",
+    "l": "javascript",
     "c": "const obj = { a: 1, b: 2, c: 3 };\nconsole.log(Object.entries(obj));",
     "o": [
       "[[\"a\", 1], [\"b\", 2], [\"c\", 3]]",
@@ -2611,7 +2614,6 @@
   },
   {
     "q": "Which array method modifies the original array?",
-    "c": null,
     "o": [
       "splice()",
       "map()",
@@ -2621,6 +2623,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript snippet?",
+    "l": "javascript",
     "c": "const arr = [10, 20, 30, 40];\narr.splice(1, 2);\nconsole.log(arr);",
     "o": [
       "[10, 40]",
@@ -2631,7 +2634,6 @@
   },
   {
     "q": "Which syntax correctly destructures an object?",
-    "c": null,
     "o": [
       "const { name, age } = obj;",
       "const ( name, age ) = obj;",
@@ -2641,6 +2643,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript snippet?",
+    "l": "javascript",
     "c": "const user = { name: 'Alice', age: 30 };\nconst { name, age } = user;\nconsole.log(name, age);",
     "o": [
       "Alice 30",
@@ -2651,7 +2654,6 @@
   },
   {
     "q": "Which of the following is the correct way to spread an object?",
-    "c": null,
     "o": [
       "const newObj = { ...oldObj };",
       "const newObj = oldObj...;",
@@ -2661,6 +2663,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript snippet?",
+    "l": "javascript",
     "c": "const arr = [1, 2, 3];\nconst newArr = [...arr, 4, 5];\nconsole.log(newArr);",
     "o": [
       "[1, 2, 3, 4, 5]",
@@ -2671,7 +2674,6 @@
   },
   {
     "q": "Which method checks if at least one element in an array meets a condition?",
-    "c": null,
     "o": [
       "some()",
       "every()",
@@ -2681,6 +2683,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript snippet?",
+    "l": "javascript",
     "c": "const arr = [2, 4, 6, 8];\nconsole.log(arr.some(num => num > 5));",
     "o": [
       "true",
@@ -2691,7 +2694,6 @@
   },
   {
     "q": "Which method returns a shallow copy of a portion of an array?",
-    "c": null,
     "o": [
       "slice()",
       "splice()",
@@ -2701,6 +2703,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript snippet?",
+    "l": "javascript",
     "c": "const arr = ['a', 'b', 'c', 'd'];\nconsole.log(arr.slice(1, 3));",
     "o": [
       "[\"b\", \"c\"]",
@@ -2711,7 +2714,6 @@
   },
   {
     "q": "Which method is used to convert an array into a string?",
-    "c": null,
     "o": [
       "join()",
       "toString()",
@@ -2721,6 +2723,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript snippet?",
+    "l": "javascript",
     "c": "const arr = ['red', 'green', 'blue'];\nconsole.log(arr.join('-'));",
     "o": [
       "\"red-green-blue\"",
@@ -2731,7 +2734,6 @@
   },
   {
     "q": "Which method returns the index of the first matching element in an array?",
-    "c": null,
     "o": [
       "indexOf()",
       "findIndex()",
@@ -2741,6 +2743,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript snippet?",
+    "l": "javascript",
     "c": "const arr = ['apple', 'banana', 'cherry'];\nconsole.log(arr.indexOf('banana'));",
     "o": [
       "1",
@@ -2751,7 +2754,6 @@
   },
   {
     "q": "Which of the following correctly uses array destructuring?",
-    "c": null,
     "o": [
       "const [first, second] = arr;",
       "const first, second = arr;",
@@ -2761,6 +2763,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript snippet?",
+    "l": "javascript",
     "c": "const colors = ['red', 'green', 'blue'];\nconst [first, second] = colors;\nconsole.log(first, second);",
     "o": [
       "red green",
@@ -2771,7 +2774,6 @@
   },
   {
     "q": "Which of the following creates an empty object in JavaScript?",
-    "c": null,
     "o": [
       "const obj = {};",
       "const obj = [];",
@@ -2781,6 +2783,7 @@
   },
   {
     "q": "What will be the output of the following code snippet?",
+    "l": "javascript",
     "c": "const person = { name: 'John', age: 30 };\nperson.city = 'New York';\nconsole.log(person);",
     "o": [
       "{ name: 'John', age: 30, city: 'New York' }",
@@ -2791,7 +2794,6 @@
   },
   {
     "q": "Which method returns an array of an object's values?",
-    "c": null,
     "o": [
       "Object.values()",
       "Object.keys()",
@@ -2801,6 +2803,7 @@
   },
   {
     "q": "What will be the output of the following JavaScript snippet?",
+    "l": "javascript",
     "c": "const obj = { a: 10, b: 20 };\nconsole.log(Object.values(obj));",
     "o": [
       "[10, 20]",
@@ -2811,7 +2814,6 @@
   },
   {
     "q": "Which of the following is NOT a valid way to create an array?",
-    "c": null,
     "o": [
       "const arr = {1, 2, 3};",
       "const arr = [1, 2, 3];",
@@ -2821,6 +2823,7 @@
   },
   {
     "q": "What will be the output of the following code?",
+    "l": "javascript",
     "c": "const numbers = [1, 2, 3, 4];\nnumbers.push(5);\nconsole.log(numbers);",
     "o": [
       "[1, 2, 3, 4, 5]",
@@ -2831,7 +2834,6 @@
   },
   {
     "q": "Which method removes the last element from an array and returns it?",
-    "c": null,
     "o": [
       "pop()",
       "shift()",
@@ -2841,6 +2843,7 @@
   },
   {
     "q": "What will be the output of the following code snippet?",
+    "l": "javascript",
     "c": "const arr = [5, 10, 15];\nconst last = arr.pop();\nconsole.log(last, arr);",
     "o": [
       "15 [5, 10]",
@@ -2851,7 +2854,6 @@
   },
   {
     "q": "Which syntax correctly destructures an array?",
-    "c": null,
     "o": [
       "const [first, second] = arr;",
       "const (first, second) = arr;",
@@ -2861,6 +2863,7 @@
   },
   {
     "q": "What will be the output of the following code snippet?",
+    "l": "javascript",
     "c": "const fruits = ['apple', 'banana', 'cherry'];\nconst [first, , third] = fruits;\nconsole.log(first, third);",
     "o": [
       "apple cherry",
@@ -2871,7 +2874,6 @@
   },
   {
     "q": "Which method merges two arrays without modifying the original ones?",
-    "c": null,
     "o": [
       "concat()",
       "push()",
@@ -2881,6 +2883,7 @@
   },
   {
     "q": "What will be the output of the following code snippet?",
+    "l": "javascript",
     "c": "const arr1 = [1, 2];\nconst arr2 = [3, 4];\nconst result = arr1.concat(arr2);\nconsole.log(result);",
     "o": [
       "[1, 2, 3, 4]",
@@ -2891,7 +2894,6 @@
   },
   {
     "q": "Which of the following spreads an array into another array?",
-    "c": null,
     "o": [
       "const newArr = [...oldArr];",
       "const newArr = spread(oldArr);",
@@ -2901,6 +2903,7 @@
   },
   {
     "q": "What will be the output of the following code snippet?",
+    "l": "javascript",
     "c": "const arr = [1, 2, 3];\nconst newArr = [...arr, 4, 5];\nconsole.log(newArr);",
     "o": [
       "[1, 2, 3, 4, 5]",
@@ -2911,7 +2914,6 @@
   },
   {
     "q": "Which method checks if an object has a property?",
-    "c": null,
     "o": [
       "hasOwnProperty()",
       "includes()",
@@ -2921,6 +2923,7 @@
   },
   {
     "q": "What will be the output of the following code snippet?",
+    "l": "javascript",
     "c": "const obj = { a: 1, b: 2 };\nconsole.log(obj.hasOwnProperty('a'));",
     "o": [
       "true",
@@ -2931,7 +2934,6 @@
   },
   {
     "q": "Which method creates a copy of an object?",
-    "c": null,
     "o": [
       "Object.assign()",
       "Object.copy()",
@@ -2941,6 +2943,7 @@
   },
   {
     "q": "What will be the output of the following code snippet?",
+    "l": "javascript",
     "c": "const obj1 = { x: 10 };\nconst obj2 = Object.assign({}, obj1);\nconsole.log(obj2);",
     "o": [
       "{ x: 10 }",
@@ -2951,7 +2954,6 @@
   },
   {
     "q": "Which method converts an object into an array of key-value pairs?",
-    "c": null,
     "o": [
       "Object.entries()",
       "Object.keys()",
@@ -2961,6 +2963,7 @@
   },
   {
     "q": "What will be the output of the following code snippet?",
+    "l": "javascript",
     "c": "const obj = { a: 1, b: 2 };\nconsole.log(Object.entries(obj));",
     "o": [
       "[[\"a\", 1], [\"b\", 2]]",
@@ -2971,7 +2974,6 @@
   },
   {
     "q": "Which statement correctly creates an object with a property 'name'?",
-    "c": null,
     "o": [
       "const person = { name: 'Alice' };",
       "const person = [ name: 'Alice' ];",
@@ -2981,6 +2983,7 @@
   },
   {
     "q": "What will be the output of the following code snippet?",
+    "l": "javascript",
     "c": "const obj = { a: 1, b: 2, c: 3 };\ndelete obj.b;\nconsole.log(obj);",
     "o": [
       "{ a: 1, c: 3 }",
@@ -2991,7 +2994,6 @@
   },
   {
     "q": "Which method merges multiple objects into one?",
-    "c": null,
     "o": [
       "Object.assign()",
       "Object.merge()",
@@ -3001,6 +3003,7 @@
   },
   {
     "q": "What will be the output of the following code snippet?",
+    "l": "javascript",
     "c": "const obj1 = { x: 1 };\nconst obj2 = { y: 2 };\nconst obj3 = Object.assign({}, obj1, obj2);\nconsole.log(obj3);",
     "o": [
       "{ x: 1, y: 2 }",
@@ -3011,7 +3014,6 @@
   },
   {
     "q": "Which method checks if an array contains a specific value?",
-    "c": null,
     "o": [
       "includes()",
       "contains()",
@@ -3021,6 +3023,7 @@
   },
   {
     "q": "What will be the output of the following code snippet?",
+    "l": "javascript",
     "c": "const arr = [10, 20, 30, 40];\nconsole.log(arr.includes(20));",
     "o": [
       "true",
@@ -3031,7 +3034,6 @@
   },
   {
     "q": "Which syntax correctly destructures properties from an object?",
-    "c": null,
     "o": [
       "const { name, age } = person;",
       "const [ name, age ] = person;",
@@ -3041,6 +3043,7 @@
   },
   {
     "q": "What will be the output of the following code snippet?",
+    "l": "javascript",
     "c": "const person = { name: 'Alice', age: 25 };\nconst { name } = person;\nconsole.log(name);",
     "o": [
       "Alice",
@@ -3051,7 +3054,6 @@
   },
   {
     "q": "Which method returns the first element in an array that meets a condition?",
-    "c": null,
     "o": [
       "find()",
       "filter()",
@@ -3061,6 +3063,7 @@
   },
   {
     "q": "What will be the output of the following code snippet?",
+    "l": "javascript",
     "c": "const numbers = [5, 12, 8, 130, 44];\nconst result = numbers.find(num => num > 10);\nconsole.log(result);",
     "o": [
       "12",
@@ -3071,7 +3074,6 @@
   },
   {
     "q": "Which method creates a new array with only elements that meet a condition?",
-    "c": null,
     "o": [
       "filter()",
       "map()",
@@ -3081,6 +3083,7 @@
   },
   {
     "q": "What will be the output of the following code snippet?",
+    "l": "javascript",
     "c": "const words = ['apple', 'banana', 'grape', 'kiwi'];\nconst result = words.filter(word => word.length > 5);\nconsole.log(result);",
     "o": [
       "['banana', 'grape']",
@@ -3091,7 +3094,6 @@
   },
   {
     "q": "Which method transforms each element of an array?",
-    "c": null,
     "o": [
       "map()",
       "filter()",
@@ -3101,6 +3103,7 @@
   },
   {
     "q": "What will be the output of the following code snippet?",
+    "l": "javascript",
     "c": "const numbers = [1, 2, 3];\nconst doubled = numbers.map(num => num * 2);\nconsole.log(doubled);",
     "o": [
       "[2, 4, 6]",
@@ -3111,7 +3114,6 @@
   },
   {
     "q": "Which operator is used for object property spread?",
-    "c": null,
     "o": [
       "...",
       "->",
@@ -3121,6 +3123,7 @@
   },
   {
     "q": "What will be the output of the following code snippet?",
+    "l": "javascript",
     "c": "const obj1 = { a: 1, b: 2 };\nconst obj2 = { ...obj1, c: 3 };\nconsole.log(obj2);",
     "o": [
       "{ a: 1, b: 2, c: 3 }",
@@ -3131,7 +3134,6 @@
   },
   {
     "q": "Which method flattens a nested array?",
-    "c": null,
     "o": [
       "flat()",
       "reduce()",
@@ -3141,6 +3143,7 @@
   },
   {
     "q": "What will be the output of the following code snippet?",
+    "l": "javascript",
     "c": "const nestedArr = [1, [2, [3, 4]]];\nconsole.log(nestedArr.flat(2));",
     "o": [
       "[1, 2, 3, 4]",
@@ -3151,7 +3154,6 @@
   },
   {
     "q": "Which method removes the first element from an array and returns it?",
-    "c": null,
     "o": [
       "shift()",
       "pop()",
@@ -3161,6 +3163,7 @@
   },
   {
     "q": "What will be the output of the following code snippet?",
+    "l": "javascript",
     "c": "const arr = ['apple', 'banana', 'cherry'];\nconst first = arr.shift();\nconsole.log(first, arr);",
     "o": [
       "'apple' ['banana', 'cherry']",
@@ -3171,7 +3174,6 @@
   },
   {
     "q": "Which of the following is the correct way to create an empty object?",
-    "c": null,
     "o": [
       "const obj = {};",
       "const obj = [];",
@@ -3181,6 +3183,7 @@
   },
   {
     "q": "What will be the output of the following code snippet?",
+    "l": "javascript",
     "c": "const person = { name: 'John', age: 30 };\nconsole.log(Object.keys(person));",
     "o": [
       "['name', 'age']",
@@ -3191,7 +3194,6 @@
   },
   {
     "q": "Which method returns an array of an object's property values?",
-    "c": null,
     "o": [
       "Object.values()",
       "Object.keys()",
@@ -3201,6 +3203,7 @@
   },
   {
     "q": "What will be the output of the following code snippet?",
+    "l": "javascript",
     "c": "const person = { name: 'Alice', age: 25 };\nconsole.log(Object.entries(person));",
     "o": [
       "[['name', 'Alice'], ['age', 25]]",
@@ -3211,7 +3214,6 @@
   },
   {
     "q": "Which syntax correctly adds a new property to an object?",
-    "c": null,
     "o": [
       "person.city = 'New York';",
       "person->city = 'New York';",
@@ -3221,6 +3223,7 @@
   },
   {
     "q": "What will be the output of the following code snippet?",
+    "l": "javascript",
     "c": "const obj = { x: 5 };\nobj.y = 10;\nconsole.log(obj);",
     "o": [
       "{ x: 5, y: 10 }",
@@ -3231,7 +3234,6 @@
   },
   {
     "q": "Which method checks if an object has a specific property?",
-    "c": null,
     "o": [
       "hasOwnProperty()",
       "includes()",
@@ -3241,6 +3243,7 @@
   },
   {
     "q": "What will be the output of the following code snippet?",
+    "l": "javascript",
     "c": "const car = { brand: 'Toyota', model: 'Corolla' };\nconsole.log(car.hasOwnProperty('brand'));",
     "o": [
       "true",
@@ -3251,7 +3254,6 @@
   },
   {
     "q": "Which syntax correctly destructures an array?",
-    "c": null,
     "o": [
       "const [a, b] = arr;",
       "const { a, b } = arr;",
@@ -3261,6 +3263,7 @@
   },
   {
     "q": "What will be the output of the following code snippet?",
+    "l": "javascript",
     "c": "const numbers = [10, 20, 30];\nconst [first, second] = numbers;\nconsole.log(first, second);",
     "o": [
       "10 20",
@@ -3271,7 +3274,6 @@
   },
   {
     "q": "Which method returns a new array without modifying the original array?",
-    "c": null,
     "o": [
       "slice()",
       "splice()",
@@ -3281,6 +3283,7 @@
   },
   {
     "q": "What will be the output of the following code snippet?",
+    "l": "javascript",
     "c": "const fruits = ['apple', 'banana', 'cherry'];\nconst newFruits = fruits.slice(1);\nconsole.log(newFruits);",
     "o": [
       "['banana', 'cherry']",
@@ -3291,7 +3294,6 @@
   },
   {
     "q": "Which method is used to combine two arrays?",
-    "c": null,
     "o": [
       "concat()",
       "merge()",
@@ -3301,6 +3303,7 @@
   },
   {
     "q": "What will be the output of the following code snippet?",
+    "l": "javascript",
     "c": "const arr1 = [1, 2];\nconst arr2 = [3, 4];\nconst combined = arr1.concat(arr2);\nconsole.log(combined);",
     "o": [
       "[1, 2, 3, 4]",
@@ -3311,7 +3314,6 @@
   },
   {
     "q": "Which method removes an element from the end of an array?",
-    "c": null,
     "o": [
       "pop()",
       "shift()",
@@ -3321,6 +3323,7 @@
   },
   {
     "q": "What will be the output of the following code snippet?",
+    "l": "javascript",
     "c": "const colors = ['red', 'green', 'blue'];\nconst lastColor = colors.pop();\nconsole.log(lastColor, colors);",
     "o": [
       "'blue' ['red', 'green']",
@@ -3331,7 +3334,6 @@
   },
   {
     "q": "Which method converts an array into a string?",
-    "c": null,
     "o": [
       "join()",
       "toString()",
@@ -3341,6 +3343,7 @@
   },
   {
     "q": "What will be the output of the following code snippet?",
+    "l": "javascript",
     "c": "const letters = ['a', 'b', 'c'];\nconsole.log(letters.join('-'));",
     "o": [
       "'a-b-c'",
@@ -3351,7 +3354,6 @@
   },
   {
     "q": "Which method reduces an array to a single value?",
-    "c": null,
     "o": [
       "reduce()",
       "map()",
@@ -3361,6 +3363,7 @@
   },
   {
     "q": "What will be the output of the following code snippet?",
+    "l": "javascript",
     "c": "const numbers = [1, 2, 3, 4];\nconst sum = numbers.reduce((acc, num) => acc + num, 0);\nconsole.log(sum);",
     "o": [
       "10",
@@ -3371,7 +3374,6 @@
   },
   {
     "q": "Which of the following is the correct way to create an array in JavaScript?",
-    "c": null,
     "o": [
       "const arr = [];",
       "const arr = {};",
@@ -3381,6 +3383,7 @@
   },
   {
     "q": "What will be the output of the following code snippet?",
+    "l": "javascript",
     "c": "const user = { name: 'John', age: 25 };\ndelete user.age;\nconsole.log(user);",
     "o": [
       "{ name: 'John' }",
@@ -3391,7 +3394,6 @@
   },
   {
     "q": "Which method returns an array containing all properties of an object?",
-    "c": null,
     "o": [
       "Object.keys()",
       "Object.values()",
@@ -3401,6 +3403,7 @@
   },
   {
     "q": "What will be the output of the following code snippet?",
+    "l": "javascript",
     "c": "const obj = { a: 1, b: 2, c: 3 };\nconsole.log(Object.values(obj));",
     "o": [
       "[1, 2, 3]",
@@ -3411,7 +3414,6 @@
   },
   {
     "q": "Which syntax correctly destructures an object?",
-    "c": null,
     "o": [
       "const { name, age } = person;",
       "const ( name, age ) = person;",
@@ -3421,6 +3423,7 @@
   },
   {
     "q": "What will be the output of the following code snippet?",
+    "l": "javascript",
     "c": "const obj = { a: 1, b: 2, c: 3 };\nconst { a, c } = obj;\nconsole.log(a, c);",
     "o": [
       "1 3",
@@ -3431,7 +3434,6 @@
   },
   {
     "q": "Which method is used to create a shallow copy of an object?",
-    "c": null,
     "o": [
       "Object.assign()",
       "Object.clone()",
@@ -3441,6 +3443,7 @@
   },
   {
     "q": "What will be the output of the following code snippet?",
+    "l": "javascript",
     "c": "const obj1 = { x: 10, y: 20 };\nconst obj2 = Object.assign({}, obj1);\nobj2.x = 30;\nconsole.log(obj1.x, obj2.x);",
     "o": [
       "10 30",
@@ -3451,7 +3454,6 @@
   },
   {
     "q": "Which method merges two arrays without modifying them?",
-    "c": null,
     "o": [
       "concat()",
       "push()",
@@ -3461,6 +3463,7 @@
   },
   {
     "q": "What will be the output of the following code snippet?",
+    "l": "javascript",
     "c": "const arr1 = [1, 2];\nconst arr2 = [3, 4];\nconst arr3 = [...arr1, ...arr2];\nconsole.log(arr3);",
     "o": [
       "[1, 2, 3, 4]",
@@ -3471,7 +3474,6 @@
   },
   {
     "q": "Which method removes an element from the beginning of an array?",
-    "c": null,
     "o": [
       "shift()",
       "pop()",
@@ -3481,6 +3483,7 @@
   },
   {
     "q": "What will be the output of the following code snippet?",
+    "l": "javascript",
     "c": "const numbers = [5, 10, 15];\nnumbers.shift();\nconsole.log(numbers);",
     "o": [
       "[10, 15]",
@@ -3491,7 +3494,6 @@
   },
   {
     "q": "Which method creates a new array by applying a function to each element?",
-    "c": null,
     "o": [
       "map()",
       "filter()",
@@ -3501,6 +3503,7 @@
   },
   {
     "q": "What will be the output of the following code snippet?",
+    "l": "javascript",
     "c": "const nums = [1, 2, 3];\nconst doubled = nums.map(n => n * 2);\nconsole.log(doubled);",
     "o": [
       "[2, 4, 6]",
@@ -3511,7 +3514,6 @@
   },
   {
     "q": "Which method removes elements from an array based on a condition?",
-    "c": null,
     "o": [
       "filter()",
       "map()",
@@ -3521,6 +3523,7 @@
   },
   {
     "q": "What will be the output of the following code snippet?",
+    "l": "javascript",
     "c": "const numbers = [1, 2, 3, 4, 5];\nconst evens = numbers.filter(n => n % 2 === 0);\nconsole.log(evens);",
     "o": [
       "[2, 4]",
@@ -3531,7 +3534,6 @@
   },
   {
     "q": "Which method adds one or more elements to the end of an array?",
-    "c": null,
     "o": [
       "push()",
       "unshift()",
@@ -3541,6 +3543,7 @@
   },
   {
     "q": "What will be the output of the following code snippet?",
+    "l": "javascript",
     "c": "const fruits = ['apple', 'banana'];\nfruits.push('cherry');\nconsole.log(fruits);",
     "o": [
       "['apple', 'banana', 'cherry']",
@@ -3551,7 +3554,6 @@
   },
   {
     "q": "Which method checks if every element in an array passes a condition?",
-    "c": null,
     "o": [
       "every()",
       "some()",
@@ -3561,6 +3563,7 @@
   },
   {
     "q": "What will be the output of the following code snippet?",
+    "l": "javascript",
     "c": "const numbers = [10, 20, 30];\nconst allAboveFive = numbers.every(n => n > 5);\nconsole.log(allAboveFive);",
     "o": [
       "true",
@@ -3571,7 +3574,6 @@
   },
   {
     "q": "Which of the following is the correct way to create an object in JavaScript?",
-    "c": null,
     "o": [
       "const obj = {};",
       "const obj = [];",
@@ -3581,6 +3583,7 @@
   },
   {
     "q": "What will be the output of the following code snippet?",
+    "l": "javascript",
     "c": "const person = { name: 'Alice', age: 30 };\nconsole.log(Object.keys(person));",
     "o": [
       "['name', 'age']",
@@ -3591,7 +3594,6 @@
   },
   {
     "q": "Which method returns an array containing an object's values?",
-    "c": null,
     "o": [
       "Object.values()",
       "Object.keys()",
@@ -3601,6 +3603,7 @@
   },
   {
     "q": "What will be the output of the following code snippet?",
+    "l": "javascript",
     "c": "const arr = [1, 2, 3, 4];\narr.splice(1, 2);\nconsole.log(arr);",
     "o": [
       "[1, 4]",
@@ -3611,7 +3614,6 @@
   },
   {
     "q": "Which syntax correctly destructures an array?",
-    "c": null,
     "o": [
       "const [a, b] = [10, 20];",
       "const {a, b} = [10, 20];",
@@ -3621,6 +3623,7 @@
   },
   {
     "q": "What will be the output of the following code snippet?",
+    "l": "javascript",
     "c": "const obj = { x: 5, y: 10 };\nconst { x, y } = obj;\nconsole.log(x, y);",
     "o": [
       "5 10",
@@ -3631,7 +3634,6 @@
   },
   {
     "q": "Which method is used to merge multiple objects into one?",
-    "c": null,
     "o": [
       "Object.assign()",
       "Object.merge()",
@@ -3641,6 +3643,7 @@
   },
   {
     "q": "What will be the output of the following code snippet?",
+    "l": "javascript",
     "c": "const obj1 = { a: 1, b: 2 };\nconst obj2 = { b: 3, c: 4 };\nconst merged = Object.assign({}, obj1, obj2);\nconsole.log(merged);",
     "o": [
       "{ a: 1, b: 3, c: 4 }",
@@ -3651,7 +3654,6 @@
   },
   {
     "q": "Which method is used to check if an array contains a specific element?",
-    "c": null,
     "o": [
       "includes()",
       "indexOf()",
@@ -3661,6 +3663,7 @@
   },
   {
     "q": "What will be the output of the following code snippet?",
+    "l": "javascript",
     "c": "const numbers = [10, 20, 30];\nconsole.log(numbers.includes(20));",
     "o": [
       "true",
@@ -3671,7 +3674,6 @@
   },
   {
     "q": "Which method returns a new array with elements that satisfy a condition?",
-    "c": null,
     "o": [
       "filter()",
       "map()",
@@ -3681,6 +3683,7 @@
   },
   {
     "q": "What will be the output of the following code snippet?",
+    "l": "javascript",
     "c": "const nums = [1, 2, 3, 4, 5];\nconst greaterThanTwo = nums.filter(n => n > 2);\nconsole.log(greaterThanTwo);",
     "o": [
       "[3, 4, 5]",
@@ -3691,7 +3694,6 @@
   },
   {
     "q": "Which method returns a new array by applying a function to each element?",
-    "c": null,
     "o": [
       "map()",
       "filter()",
@@ -3701,6 +3703,7 @@
   },
   {
     "q": "What will be the output of the following code snippet?",
+    "l": "javascript",
     "c": "const numbers = [1, 2, 3];\nconst squared = numbers.map(n => n * n);\nconsole.log(squared);",
     "o": [
       "[1, 4, 9]",
@@ -3711,7 +3714,6 @@
   },
   {
     "q": "Which method finds the first element that matches a condition?",
-    "c": null,
     "o": [
       "find()",
       "filter()",
@@ -3721,6 +3723,7 @@
   },
   {
     "q": "What will be the output of the following code snippet?",
+    "l": "javascript",
     "c": "const numbers = [5, 10, 15, 20];\nconst firstEven = numbers.find(n => n % 2 === 0);\nconsole.log(firstEven);",
     "o": [
       "10",
@@ -3731,7 +3734,6 @@
   },
   {
     "q": "Which method combines two or more arrays?",
-    "c": null,
     "o": [
       "concat()",
       "push()",
@@ -3741,6 +3743,7 @@
   },
   {
     "q": "What will be the output of the following code snippet?",
+    "l": "javascript",
     "c": "const arr1 = [1, 2];\nconst arr2 = [3, 4];\nconst merged = arr1.concat(arr2);\nconsole.log(merged);",
     "o": [
       "[1, 2, 3, 4]",
@@ -3751,7 +3754,6 @@
   },
   {
     "q": "Which method checks if at least one array element passes a condition?",
-    "c": null,
     "o": [
       "some()",
       "every()",
@@ -3761,6 +3763,7 @@
   },
   {
     "q": "What will be the output of the following code snippet?",
+    "l": "javascript",
     "c": "const numbers = [3, 7, 11, 20];\nconst hasEven = numbers.some(n => n % 2 === 0);\nconsole.log(hasEven);",
     "o": [
       "true",
@@ -3771,7 +3774,6 @@
   },
   {
     "q": "Which method converts an object's properties into an array of key-value pairs?",
-    "c": null,
     "o": [
       "Object.entries()",
       "Object.values()",
@@ -3781,6 +3783,7 @@
   },
   {
     "q": "What will be the output of the following code snippet?",
+    "l": "javascript",
     "c": "const user = { id: 1, name: 'John', active: true };\nconsole.log(Object.values(user));",
     "o": [
       "[1, 'John', true]",
@@ -3791,7 +3794,6 @@
   },
   {
     "q": "Which method checks if an object has a specific property?",
-    "c": null,
     "o": [
       "hasOwnProperty()",
       "contains()",
@@ -3801,6 +3803,7 @@
   },
   {
     "q": "What will be the output of the following code snippet?",
+    "l": "javascript",
     "c": "const obj = { x: 10, y: 20 };\nconsole.log(obj.hasOwnProperty('x'));",
     "o": [
       "true",
@@ -3811,7 +3814,6 @@
   },
   {
     "q": "Which array method executes a function once for each element?",
-    "c": null,
     "o": [
       "forEach()",
       "map()",
@@ -3821,6 +3823,7 @@
   },
   {
     "q": "What will be the output of the following code snippet?",
+    "l": "javascript",
     "c": "const nums = [1, 2, 3];\nnums.forEach(n => console.log(n * 2));",
     "o": [
       "2 4 6",
@@ -3831,7 +3834,6 @@
   },
   {
     "q": "Which method removes the last element from an array?",
-    "c": null,
     "o": [
       "pop()",
       "shift()",
@@ -3841,6 +3843,7 @@
   },
   {
     "q": "What will be the output of the following code snippet?",
+    "l": "javascript",
     "c": "const arr = [1, 2, 3];\narr.pop();\nconsole.log(arr);",
     "o": [
       "[1, 2]",
@@ -3851,7 +3854,6 @@
   },
   {
     "q": "Which method removes the first element from an array?",
-    "c": null,
     "o": [
       "shift()",
       "pop()",
@@ -3861,6 +3863,7 @@
   },
   {
     "q": "What will be the output of the following code snippet?",
+    "l": "javascript",
     "c": "const arr = ['a', 'b', 'c'];\narr.shift();\nconsole.log(arr);",
     "o": [
       "['b', 'c']",
@@ -3871,7 +3874,6 @@
   },
   {
     "q": "Which method combines all elements of an array into a single string?",
-    "c": null,
     "o": [
       "join()",
       "concat()",
@@ -3881,6 +3883,7 @@
   },
   {
     "q": "What will be the output of the following code snippet?",
+    "l": "javascript",
     "c": "const fruits = ['Apple', 'Banana', 'Cherry'];\nconsole.log(fruits.join('-'));",
     "o": [
       "'Apple-Banana-Cherry'",
@@ -3891,7 +3894,6 @@
   },
   {
     "q": "Which method creates a shallow copy of an array?",
-    "c": null,
     "o": [
       "slice()",
       "splice()",
@@ -3901,6 +3903,7 @@
   },
   {
     "q": "What will be the output of the following code snippet?",
+    "l": "javascript",
     "c": "const arr = [1, 2, 3, 4];\nconst copy = arr.slice(1, 3);\nconsole.log(copy);",
     "o": [
       "[2, 3]",
@@ -3911,7 +3914,6 @@
   },
   {
     "q": "Which method adds elements to the beginning of an array?",
-    "c": null,
     "o": [
       "unshift()",
       "push()",
@@ -3921,6 +3923,7 @@
   },
   {
     "q": "What will be the output of the following code snippet?",
+    "l": "javascript",
     "c": "const arr = [2, 3, 4];\narr.unshift(1);\nconsole.log(arr);",
     "o": [
       "[1, 2, 3, 4]",
@@ -3931,7 +3934,6 @@
   },
   {
     "q": "Which method returns the index of the first occurrence of an element in an array?",
-    "c": null,
     "o": [
       "indexOf()",
       "find()",
@@ -3941,6 +3943,7 @@
   },
   {
     "q": "What will be the output of the following code snippet?",
+    "l": "javascript",
     "c": "const colors = ['red', 'blue', 'green', 'blue'];\nconsole.log(colors.indexOf('blue'));",
     "o": [
       "1",
@@ -3951,7 +3954,6 @@
   },
   {
     "q": "Which method reverses the elements in an array?",
-    "c": null,
     "o": [
       "reverse()",
       "sort()",
@@ -3961,6 +3963,7 @@
   },
   {
     "q": "What will be the output of the following code snippet?",
+    "l": "javascript",
     "c": "const nums = [1, 2, 3, 4];\nnums.reverse();\nconsole.log(nums);",
     "o": [
       "[4, 3, 2, 1]",
@@ -3971,7 +3974,6 @@
   },
   {
     "q": "Which syntax correctly creates an empty object in JavaScript?",
-    "c": null,
     "o": [
       "{}",
       "new Object[]",
@@ -3981,6 +3983,7 @@
   },
   {
     "q": "What will be the output of the following code snippet?",
+    "l": "javascript",
     "c": "const obj = { name: 'Alice', age: 25 };\nconsole.log(Object.keys(obj));",
     "o": [
       "['name', 'age']",
@@ -3991,7 +3994,6 @@
   },
   {
     "q": "Which method creates a new array by applying a function to each element?",
-    "c": null,
     "o": [
       "map()",
       "forEach()",
@@ -4001,6 +4003,7 @@
   },
   {
     "q": "What will be the output of the following code snippet?",
+    "l": "javascript",
     "c": "const numbers = [1, 2, 3, 4];\nconst doubled = numbers.map(n => n * 2);\nconsole.log(doubled);",
     "o": [
       "[2, 4, 6, 8]",
@@ -4011,7 +4014,6 @@
   },
   {
     "q": "Which syntax correctly creates an array in JavaScript?",
-    "c": null,
     "o": [
       "[1, 2, 3]",
       "new Array(1, 2, 3)",
@@ -4021,6 +4023,7 @@
   },
   {
     "q": "What will be the output of the following code snippet?",
+    "l": "javascript",
     "c": "const arr = [1, 2, 3];\nconsole.log(arr.length);",
     "o": [
       "3",
@@ -4031,7 +4034,6 @@
   },
   {
     "q": "Which method removes elements from an array and can also insert new ones?",
-    "c": null,
     "o": [
       "splice()",
       "slice()",
@@ -4041,6 +4043,7 @@
   },
   {
     "q": "What will be the output of the following code snippet?",
+    "l": "javascript",
     "c": "const arr = [1, 2, 3, 4, 5];\narr.splice(1, 2);\nconsole.log(arr);",
     "o": [
       "[1, 4, 5]",
@@ -4051,7 +4054,6 @@
   },
   {
     "q": "Which method checks if at least one element in an array meets a condition?",
-    "c": null,
     "o": [
       "some()",
       "every()",
@@ -4061,6 +4063,7 @@
   },
   {
     "q": "What will be the output of the following code snippet?",
+    "l": "javascript",
     "c": "const nums = [1, 3, 5, 7];\nconsole.log(nums.some(n => n % 2 === 0));",
     "o": [
       "false",
@@ -4071,7 +4074,6 @@
   },
   {
     "q": "Which method extracts properties from an object into variables?",
-    "c": null,
     "o": [
       "Destructuring assignment",
       "Object.assign()",
@@ -4081,6 +4083,7 @@
   },
   {
     "q": "What will be the output of the following code snippet?",
+    "l": "javascript",
     "c": "const person = { name: 'Alice', age: 25 };\nconst { name, age } = person;\nconsole.log(name, age);",
     "o": [
       "'Alice', 25",
@@ -4091,7 +4094,6 @@
   },
   {
     "q": "Which method merges two arrays into one?",
-    "c": null,
     "o": [
       "concat()",
       "merge()",
@@ -4101,6 +4103,7 @@
   },
   {
     "q": "What will be the output of the following code snippet?",
+    "l": "javascript",
     "c": "const arr1 = [1, 2];\nconst arr2 = [3, 4];\nconsole.log(arr1.concat(arr2));",
     "o": [
       "[1, 2, 3, 4]",
@@ -4111,7 +4114,6 @@
   },
   {
     "q": "Which method returns a copy of an array without modifying the original?",
-    "c": null,
     "o": [
       "slice()",
       "splice()",
@@ -4121,6 +4123,7 @@
   },
   {
     "q": "What will be the output of the following code snippet?",
+    "l": "javascript",
     "c": "const arr = [1, 2, 3, 4, 5];\nconst newArr = arr.slice(1, 4);\nconsole.log(newArr);",
     "o": [
       "[2, 3, 4]",
@@ -4131,7 +4134,6 @@
   },
   {
     "q": "Which method finds the first element that satisfies a condition in an array?",
-    "c": null,
     "o": [
       "find()",
       "filter()",
@@ -4141,6 +4143,7 @@
   },
   {
     "q": "What will be the output of the following code snippet?",
+    "l": "javascript",
     "c": "const nums = [10, 20, 30, 40];\nconsole.log(nums.find(n => n > 25));",
     "o": [
       "30",
@@ -4151,7 +4154,6 @@
   },
   {
     "q": "Which of the following is the correct way to spread an array?",
-    "c": null,
     "o": [
       "[...array]",
       "spread(array)",
@@ -4161,6 +4163,7 @@
   },
   {
     "q": "What will be the output of the following code snippet?",
+    "l": "javascript",
     "c": "const arr1 = [1, 2];\nconst arr2 = [...arr1, 3, 4];\nconsole.log(arr2);",
     "o": [
       "[1, 2, 3, 4]",
@@ -4171,7 +4174,6 @@
   },
   {
     "q": "Which of the following is the correct way to create an object with properties in JavaScript?",
-    "c": null,
     "o": [
       "{ name: 'John', age: 30 }",
       "new Object[name: 'John', age: 30]",
@@ -4181,6 +4183,7 @@
   },
   {
     "q": "What will be the output of the following code snippet?",
+    "l": "javascript",
     "c": "const obj = { a: 1, b: 2, c: 3 };\nconsole.log(Object.values(obj));",
     "o": [
       "[1, 2, 3]",
@@ -4191,7 +4194,6 @@
   },
   {
     "q": "Which method checks if a property exists in an object?",
-    "c": null,
     "o": [
       "hasOwnProperty()",
       "includes()",
@@ -4201,6 +4203,7 @@
   },
   {
     "q": "What will be the output of the following code snippet?",
+    "l": "javascript",
     "c": "const obj = { x: 10, y: 20 };\nconsole.log('x' in obj);",
     "o": [
       "true",
@@ -4211,7 +4214,6 @@
   },
   {
     "q": "Which of the following is the correct way to add a new property to an object?",
-    "c": null,
     "o": [
       "obj.newKey = 'value';",
       "addProperty(obj, 'newKey', 'value');",
@@ -4221,6 +4223,7 @@
   },
   {
     "q": "What will be the output of the following code snippet?",
+    "l": "javascript",
     "c": "const arr = [10, 20, 30, 40];\nconsole.log(arr.indexOf(30));",
     "o": [
       "2",
@@ -4231,7 +4234,6 @@
   },
   {
     "q": "Which method returns a shallow copy of an array?",
-    "c": null,
     "o": [
       "slice()",
       "splice()",
@@ -4241,6 +4243,7 @@
   },
   {
     "q": "What will be the output of the following code snippet?",
+    "l": "javascript",
     "c": "const nums = [1, 2, 3, 4, 5];\nconst part = nums.slice(1, 4);\nconsole.log(part);",
     "o": [
       "[2, 3, 4]",
@@ -4251,7 +4254,6 @@
   },
   {
     "q": "Which array method executes a function on each element without modifying the original array?",
-    "c": null,
     "o": [
       "forEach()",
       "map()",
@@ -4261,6 +4263,7 @@
   },
   {
     "q": "What will be the output of the following code snippet?",
+    "l": "javascript",
     "c": "const arr = [5, 10, 15];\narr.forEach(num => console.log(num * 2));",
     "o": [
       "10\n20\n30",
@@ -4271,7 +4274,6 @@
   },
   {
     "q": "Which syntax correctly uses destructuring to extract values from an object?",
-    "c": null,
     "o": [
       "const { name, age } = person;",
       "const [ name, age ] = person;",
@@ -4281,6 +4283,7 @@
   },
   {
     "q": "What will be the output of the following code snippet?",
+    "l": "javascript",
     "c": "const obj = { a: 5, b: 10, c: 15 };\nconst { a, b } = obj;\nconsole.log(a, b);",
     "o": [
       "5 10",
@@ -4291,7 +4294,6 @@
   },
   {
     "q": "Which method merges two objects into one?",
-    "c": null,
     "o": [
       "Object.assign()",
       "mergeObjects()",
@@ -4301,6 +4303,7 @@
   },
   {
     "q": "What will be the output of the following code snippet?",
+    "l": "javascript",
     "c": "const obj1 = { x: 1, y: 2 };\nconst obj2 = { y: 10, z: 3 };\nconst newObj = { ...obj1, ...obj2 };\nconsole.log(newObj);",
     "o": [
       "{ x: 1, y: 10, z: 3 }",
@@ -4311,7 +4314,6 @@
   },
   {
     "q": "Which array method combines all elements into a single value?",
-    "c": null,
     "o": [
       "reduce()",
       "concat()",
@@ -4321,6 +4323,7 @@
   },
   {
     "q": "What will be the output of the following code snippet?",
+    "l": "javascript",
     "c": "const numbers = [1, 2, 3, 4];\nconst sum = numbers.reduce((acc, num) => acc + num, 0);\nconsole.log(sum);",
     "o": [
       "10",
@@ -4331,7 +4334,6 @@
   },
   {
     "q": "Which of the following is the correct way to use the spread operator in an array?",
-    "c": null,
     "o": [
       "[...arr1, ...arr2]",
       "spread(arr1, arr2)",
@@ -4341,6 +4343,7 @@
   },
   {
     "q": "What will be the output of the following code snippet?",
+    "l": "javascript",
     "c": "const arr1 = [1, 2];\nconst arr2 = [...arr1, 3, 4];\nconsole.log(arr2);",
     "o": [
       "[1, 2, 3, 4]",
@@ -4351,7 +4354,6 @@
   },
   {
     "q": "Which of the following methods returns the last element of an array and removes it?",
-    "c": null,
     "o": [
       "pop()",
       "shift()",
@@ -4361,6 +4363,7 @@
   },
   {
     "q": "What will be the output of the following code snippet?",
+    "l": "javascript",
     "c": "const items = ['apple', 'banana', 'cherry'];\nconsole.log(items.pop());\nconsole.log(items);",
     "o": [
       "'cherry'\n['apple', 'banana']",
@@ -4371,6 +4374,7 @@
   },
   {
     "q": "What will be the output of the following code snippet?",
+    "l": "javascript",
     "c": "const obj = { a: 1, b: 2 };\nconst key = 'b';\nconsole.log(obj[key]);",
     "o": [
       "2",
@@ -4381,7 +4385,6 @@
   },
   {
     "q": "Which method creates an array from an object’s keys?",
-    "c": null,
     "o": [
       "Object.keys()",
       "Object.entries()",
@@ -4391,6 +4394,7 @@
   },
   {
     "q": "What will be the output of the following code snippet?",
+    "l": "javascript",
     "c": "const obj = { a: 1, b: 2 };\ndelete obj.a;\nconsole.log(obj);",
     "o": [
       "{ b: 2 }",
@@ -4401,7 +4405,6 @@
   },
   {
     "q": "How can you freeze an object so its properties cannot be changed?",
-    "c": null,
     "o": [
       "Object.freeze(obj)",
       "Object.lock(obj)",
@@ -4411,7 +4414,6 @@
   },
   {
     "q": "What does Object.seal() do?",
-    "c": null,
     "o": [
       "Prevents adding or removing properties but allows modifying existing ones",
       "Freezes the object completely",
@@ -4421,7 +4423,6 @@
   },
   {
     "q": "Which of the following is the correct way to merge two objects in JavaScript?",
-    "c": null,
     "o": [
       "const merged = { ...obj1, ...obj2 };",
       "const merged = merge(obj1, obj2);",
@@ -4431,6 +4432,7 @@
   },
   {
     "q": "What will be the output of the following code snippet?",
+    "l": "javascript",
     "c": "const obj = { x: 5, y: 10, z: 15 };\nconst { y, ...rest } = obj;\nconsole.log(rest);",
     "o": [
       "{ x: 5, z: 15 }",
@@ -4441,7 +4443,6 @@
   },
   {
     "q": "Which array method modifies the original array by adding or removing elements?",
-    "c": null,
     "o": [
       "splice()",
       "slice()",
@@ -4451,6 +4452,7 @@
   },
   {
     "q": "What will be the output of the following code snippet?",
+    "l": "javascript",
     "c": "const arr = ['a', 'b', 'c'];\narr.splice(1, 1);\nconsole.log(arr);",
     "o": [
       "['a', 'c']",
@@ -4461,7 +4463,6 @@
   },
   {
     "q": "Which method creates a new array with elements that pass a test function?",
-    "c": null,
     "o": [
       "filter()",
       "map()",
@@ -4471,6 +4472,7 @@
   },
   {
     "q": "What will be the output of the following code snippet?",
+    "l": "javascript",
     "c": "const numbers = [5, 10, 15, 20];\nconst filtered = numbers.filter(num => num > 10);\nconsole.log(filtered);",
     "o": [
       "[15, 20]",
@@ -4481,7 +4483,6 @@
   },
   {
     "q": "Which array method checks if at least one element satisfies a condition?",
-    "c": null,
     "o": [
       "some()",
       "every()",
@@ -4491,6 +4492,7 @@
   },
   {
     "q": "What will be the output of the following code snippet?",
+    "l": "javascript",
     "c": "const arr = [3, 6, 9];\nconsole.log(arr.some(num => num > 5));",
     "o": [
       "true",
@@ -4501,7 +4503,6 @@
   },
   {
     "q": "Which array method returns the first element that satisfies a condition?",
-    "c": null,
     "o": [
       "find()",
       "filter()",
@@ -4511,6 +4512,7 @@
   },
   {
     "q": "What will be the output of the following code snippet?",
+    "l": "javascript",
     "c": "const arr = [1, 2, 3, 4];\nconst found = arr.find(num => num % 2 === 0);\nconsole.log(found);",
     "o": [
       "2",
@@ -4521,7 +4523,6 @@
   },
   {
     "q": "What is the purpose of the map() method in JavaScript?",
-    "c": null,
     "o": [
       "Creates a new array by applying a function to each element",
       "Modifies the original array by applying a function",
@@ -4531,6 +4532,7 @@
   },
   {
     "q": "What will be the output of the following code snippet?",
+    "l": "javascript",
     "c": "const nums = [1, 2, 3];\nconst doubled = nums.map(n => n * 2);\nconsole.log(doubled);",
     "o": [
       "[2, 4, 6]",
@@ -4541,7 +4543,6 @@
   },
   {
     "q": "Which method sorts an array in place?",
-    "c": null,
     "o": [
       "sort()",
       "sorted()",
@@ -4551,6 +4552,7 @@
   },
   {
     "q": "What will be the output of the following code snippet?",
+    "l": "javascript",
     "c": "const numbers = [3, 1, 4, 2];\nnumbers.sort();\nconsole.log(numbers);",
     "o": [
       "[1, 2, 3, 4]",
@@ -4561,7 +4563,6 @@
   },
   {
     "q": "Which method removes the first element of an array and returns it?",
-    "c": null,
     "o": [
       "shift()",
       "pop()",
@@ -4571,6 +4572,7 @@
   },
   {
     "q": "What will be the output of the following code snippet?",
+    "l": "javascript",
     "c": "const fruits = ['apple', 'banana', 'cherry'];\nconsole.log(fruits.shift());\nconsole.log(fruits);",
     "o": [
       "'apple'\n['banana', 'cherry']",
@@ -4581,6 +4583,7 @@
   },
   {
     "q": "What will be the output of the following code snippet?",
+    "l": "javascript",
     "c": "const obj = { a: 5 };\nObject.defineProperty(obj, 'b', { value: 10, writable: false });\nobj.b = 20;\nconsole.log(obj.b);",
     "o": [
       "10",
@@ -4591,7 +4594,6 @@
   },
   {
     "q": "Which method checks if an object has a specific property?",
-    "c": null,
     "o": [
       "obj.hasOwnProperty('key')",
       "'key' in obj",
@@ -4601,6 +4603,7 @@
   },
   {
     "q": "What will be the output of the following code snippet?",
+    "l": "javascript",
     "c": "const obj = { a: 1, b: 2 };\nconst obj2 = Object.assign(obj, { b: 5, c: 3 });\nconsole.log(obj, obj2);",
     "o": [
       "{ a: 1, b: 5, c: 3 } { a: 1, b: 5, c: 3 }",
@@ -4611,7 +4614,6 @@
   },
   {
     "q": "Which method prevents adding new properties to an object but allows modification of existing ones?",
-    "c": null,
     "o": [
       "Object.preventExtensions()",
       "Object.freeze()",
@@ -4621,7 +4623,6 @@
   },
   {
     "q": "How can you deeply clone an object in JavaScript?",
-    "c": null,
     "o": [
       "JSON.parse(JSON.stringify(obj))",
       "Object.assign({}, obj)",
@@ -4631,6 +4632,7 @@
   },
   {
     "q": "What will be the output of the following code snippet?",
+    "l": "javascript",
     "c": "const arr = [1, 2, 3];\narr[10] = 4;\nconsole.log(arr.length);",
     "o": [
       "11",
@@ -4641,7 +4643,6 @@
   },
   {
     "q": "Which array method removes the last element and returns it?",
-    "c": null,
     "o": [
       "pop()",
       "push()",
@@ -4651,6 +4652,7 @@
   },
   {
     "q": "What will be the output of the following code snippet?",
+    "l": "javascript",
     "c": "const arr = ['a', 'b', 'c'];\narr.push('d');\nconsole.log(arr);",
     "o": [
       "['a', 'b', 'c', 'd']",
@@ -4661,7 +4663,6 @@
   },
   {
     "q": "Which array method reverses the elements in place?",
-    "c": null,
     "o": [
       "reverse()",
       "sort()",
@@ -4671,6 +4672,7 @@
   },
   {
     "q": "What will be the output of the following code snippet?",
+    "l": "javascript",
     "c": "const numbers = [1, 2, 3, 4];\nconst newArr = numbers.map(num => num * 2);\nconsole.log(newArr);",
     "o": [
       "[2, 4, 6, 8]",
@@ -4681,7 +4683,6 @@
   },
   {
     "q": "Which array method returns a single accumulated value?",
-    "c": null,
     "o": [
       "reduce()",
       "map()",
@@ -4691,6 +4692,7 @@
   },
   {
     "q": "What will be the output of the following code snippet?",
+    "l": "javascript",
     "c": "const numbers = [1, 2, 3, 4];\nconst sum = numbers.reduce((acc, num) => acc + num, 0);\nconsole.log(sum);",
     "o": [
       "10",
@@ -4701,7 +4703,6 @@
   },
   {
     "q": "Which of the following statements correctly checks if all elements in an array pass a test function?",
-    "c": null,
     "o": [
       "arr.every(callback)",
       "arr.all(callback)",
@@ -4711,6 +4712,7 @@
   },
   {
     "q": "What will be the output of the following code snippet?",
+    "l": "javascript",
     "c": "const arr = [3, 6, 9];\nconsole.log(arr.every(num => num > 2));",
     "o": [
       "true",
@@ -4721,7 +4723,6 @@
   },
   {
     "q": "Which array method finds the index of the first occurrence of an element?",
-    "c": null,
     "o": [
       "indexOf()",
       "findIndex()",
@@ -4731,6 +4732,7 @@
   },
   {
     "q": "What will be the output of the following code snippet?",
+    "l": "javascript",
     "c": "const arr = ['a', 'b', 'c', 'b'];\nconsole.log(arr.indexOf('b'));",
     "o": [
       "1",
@@ -4741,7 +4743,6 @@
   },
   {
     "q": "Which method is best suited to find the index of an element based on a condition?",
-    "c": null,
     "o": [
       "findIndex()",
       "indexOf()",
@@ -4751,6 +4752,7 @@
   },
   {
     "q": "What will be the output of the following code snippet?",
+    "l": "javascript",
     "c": "const arr = [5, 10, 15, 20];\nconsole.log(arr.findIndex(num => num > 10));",
     "o": [
       "2",
@@ -4761,7 +4763,6 @@
   },
   {
     "q": "Which array method removes and returns the first element?",
-    "c": null,
     "o": [
       "shift()",
       "pop()",
@@ -4771,6 +4772,7 @@
   },
   {
     "q": "What will be the output of the following code snippet?",
+    "l": "javascript",
     "c": "const fruits = ['apple', 'banana', 'cherry'];\nconsole.log(fruits.shift());\nconsole.log(fruits);",
     "o": [
       "'apple'\n['banana', 'cherry']",
@@ -4781,6 +4783,7 @@
   },
   {
     "q": "What will be the output of the following code snippet?",
+    "l": "javascript",
     "c": "const obj = { a: 10 };\nconst obj2 = { b: 20 };\nconst merged = { ...obj, ...obj2, a: 30 };\nconsole.log(merged);",
     "o": [
       "{ a: 30, b: 20 }",
@@ -4791,7 +4794,6 @@
   },
   {
     "q": "Which method creates an object with a null prototype?",
-    "c": null,
     "o": [
       "Object.create(null)",
       "Object.setPrototype(null)",
@@ -4801,6 +4803,7 @@
   },
   {
     "q": "What will be the output of the following code snippet?",
+    "l": "javascript",
     "c": "const obj = { a: 1, b: { c: 2 } };\nconst copy = Object.assign({}, obj);\ncopy.b.c = 5;\nconsole.log(obj.b.c);",
     "o": [
       "5",
@@ -4811,7 +4814,6 @@
   },
   {
     "q": "Which method is best for deeply freezing an object?",
-    "c": null,
     "o": [
       "A recursive function using Object.freeze()",
       "Object.seal()",
@@ -4821,6 +4823,7 @@
   },
   {
     "q": "What will be the output of the following code snippet?",
+    "l": "javascript",
     "c": "const obj = { a: 10 };\nObject.freeze(obj);\nobj.a = 20;\ndelete obj.a;\nconsole.log(obj);",
     "o": [
       "{ a: 10 }",
@@ -4831,7 +4834,6 @@
   },
   {
     "q": "Which of the following statements is true about JavaScript arrays?",
-    "c": null,
     "o": [
       "Arrays in JavaScript are dynamic and can hold multiple data types.",
       "Arrays in JavaScript are implemented as linked lists.",
@@ -4841,6 +4843,7 @@
   },
   {
     "q": "What will be the output of the following code snippet?",
+    "l": "javascript",
     "c": "const arr = [1, 2, 3];\ndelete arr[1];\nconsole.log(arr.length);",
     "o": [
       "3",
@@ -4851,7 +4854,6 @@
   },
   {
     "q": "Which method returns a new array with only elements that pass a test?",
-    "c": null,
     "o": [
       "filter()",
       "map()",
@@ -4861,6 +4863,7 @@
   },
   {
     "q": "What will be the output of the following code snippet?",
+    "l": "javascript",
     "c": "const arr = [5, 10, 15];\nconsole.log(arr.splice(1, 1, 20));\nconsole.log(arr);",
     "o": [
       "[10], [5, 20, 15]",
@@ -4871,7 +4874,6 @@
   },
   {
     "q": "Which method is best for flattening an array of arrays?",
-    "c": null,
     "o": [
       "flat()",
       "map()",
@@ -4881,6 +4883,7 @@
   },
   {
     "q": "What will be the output of the following code snippet?",
+    "l": "javascript",
     "c": "const arr = [[1, 2], [3, 4], [5, 6]];\nconsole.log(arr.flat());",
     "o": [
       "[1, 2, 3, 4, 5, 6]",
@@ -4891,7 +4894,6 @@
   },
   {
     "q": "Which array method applies a function to each element and flattens the result?",
-    "c": null,
     "o": [
       "flatMap()",
       "map()",
@@ -4901,6 +4903,7 @@
   },
   {
     "q": "What will be the output of the following code snippet?",
+    "l": "javascript",
     "c": "const arr = [2, 4, 6];\nconsole.log(arr.flatMap(num => [num, num * 2]));",
     "o": [
       "[2, 4, 4, 8, 6, 12]",
@@ -4911,7 +4914,6 @@
   },
   {
     "q": "Which array method returns the first element that passes a test?",
-    "c": null,
     "o": [
       "find()",
       "filter()",
@@ -4921,6 +4923,7 @@
   },
   {
     "q": "What will be the output of the following code snippet?",
+    "l": "javascript",
     "c": "const arr = [1, 2, 3, 4, 5];\nconsole.log(arr.find(num => num > 2));",
     "o": [
       "3",
@@ -4931,7 +4934,6 @@
   },
   {
     "q": "Which array method removes the last element and returns it?",
-    "c": null,
     "o": [
       "pop()",
       "push()",
@@ -4941,7 +4943,6 @@
   },
   {
     "q": "Which of the following statements about JavaScript objects is true?",
-    "c": null,
     "o": [
       "Objects in JavaScript are reference types.",
       "Objects in JavaScript are immutable.",
@@ -4951,7 +4952,6 @@
   },
   {
     "q": "Which of the following is a valid way to iterate over an object's properties?",
-    "c": null,
     "o": [
       "for...in loop",
       "forEach()",
@@ -4961,7 +4961,6 @@
   },
   {
     "q": "Which array method checks if at least one element passes a test?",
-    "c": null,
     "o": [
       "some()",
       "every()",
@@ -4971,6 +4970,7 @@
   },
   {
     "q": "What will be the output of the following code snippet?",
+    "l": "javascript",
     "c": "const arr = [1, 2, 3, 4];\nconsole.log(arr.some(num => num > 3));",
     "o": [
       "true",
@@ -4981,7 +4981,6 @@
   },
   {
     "q": "What is the correct way to create an empty object in JavaScript?",
-    "c": null,
     "o": [
       "let obj = {};",
       "let obj = new Object;",
@@ -4991,6 +4990,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "let arr = [1, 2, 3];\narr.push(4);\nconsole.log(arr.length);",
     "o": [
       "4",
@@ -5001,7 +5001,6 @@
   },
   {
     "q": "Which method is used to merge two or more arrays?",
-    "c": null,
     "o": [
       "concat()",
       "merge()",
@@ -5011,6 +5010,7 @@
   },
   {
     "q": "What does the following destructuring assignment do?",
+    "l": "javascript",
     "c": "const {name, age} = person;",
     "o": [
       "Extracts name and age properties from person object",
@@ -5021,6 +5021,7 @@
   },
   {
     "q": "What is the output of the following code?",
+    "l": "javascript",
     "c": "let obj = {a: 1, b: 2};\nconsole.log(Object.keys(obj));",
     "o": [
       "['a', 'b']",
@@ -5031,7 +5032,6 @@
   },
   {
     "q": "Which method creates a new array with all sub-array elements concatenated?",
-    "c": null,
     "o": [
       "flat()",
       "join()",
@@ -5041,6 +5041,7 @@
   },
   {
     "q": "What is the result of this array destructuring?",
+    "l": "javascript",
     "c": "const [first, , third] = [1, 2, 3, 4];",
     "o": [
       "first = 1, third = 3",
@@ -5051,7 +5052,6 @@
   },
   {
     "q": "How do you access the 'age' property in the object 'person'?",
-    "c": null,
     "o": [
       "person.age or person['age']",
       "person(age)",
@@ -5061,6 +5061,7 @@
   },
   {
     "q": "What does the following code output?",
+    "l": "javascript",
     "c": "const arr = [1, 2, 3];\nconsole.log(arr.includes(2));",
     "o": [
       "true",
@@ -5071,7 +5072,6 @@
   },
   {
     "q": "Which method removes the last element from an array?",
-    "c": null,
     "o": [
       "pop()",
       "shift()",
@@ -5081,6 +5081,7 @@
   },
   {
     "q": "What is the output of this object destructuring?",
+    "l": "javascript",
     "c": "const {x = 10, y = 20} = {x: 5};\nconsole.log(x, y);",
     "o": [
       "5 20",
@@ -5091,7 +5092,6 @@
   },
   {
     "q": "Which method creates a new array with elements that pass a test?",
-    "c": null,
     "o": [
       "filter()",
       "map()",
@@ -5101,7 +5101,6 @@
   },
   {
     "q": "What is the correct way to create an array with three numbers in JavaScript?",
-    "c": null,
     "o": [
       "let arr = [1, 2, 3];",
       "let arr = (1, 2, 3);",
@@ -5111,6 +5110,7 @@
   },
   {
     "q": "What is the output of the following code snippet?",
+    "l": "javascript",
     "c": "const obj = {a: 1, b: 2};\nobj.c = 3;\ndelete obj.b;\nconsole.log(Object.keys(obj));",
     "o": [
       "['a', 'c']",
@@ -5121,7 +5121,6 @@
   },
   {
     "q": "Which method is used to check if an object has a specific property?",
-    "c": null,
     "o": [
       "hasOwnProperty()",
       "contains()",
@@ -5131,6 +5130,7 @@
   },
   {
     "q": "What does the following destructuring assignment do?",
+    "l": "javascript",
     "c": "const [first, ...rest] = [1, 2, 3, 4];",
     "o": [
       "first = 1, rest = [2, 3, 4]",
@@ -5141,6 +5141,7 @@
   },
   {
     "q": "What is the output of the following code?",
+    "l": "javascript",
     "c": "const arr = ['a', 'b', 'c'];\nconsole.log(arr.slice(1));",
     "o": [
       "['b', 'c']",
@@ -5151,7 +5152,6 @@
   },
   {
     "q": "Which method creates a new array with the results of calling a function on every element?",
-    "c": null,
     "o": [
       "map()",
       "filter()",
@@ -5161,6 +5161,7 @@
   },
   {
     "q": "What is the result of this nested destructuring?",
+    "l": "javascript",
     "c": "const {a: {b}} = {a: {b: 5}};\nconsole.log(b);",
     "o": [
       "5",
@@ -5171,7 +5172,6 @@
   },
   {
     "q": "How do you create a shallow copy of an array in JavaScript?",
-    "c": null,
     "o": [
       "arr.slice() or [...arr]",
       "arr.copy()",
@@ -5181,6 +5181,7 @@
   },
   {
     "q": "What does the following code output?",
+    "l": "javascript",
     "c": "const obj = {x: 1, y: 2};\nconst {x: newX} = obj;\nconsole.log(newX);",
     "o": [
       "1",
@@ -5191,7 +5192,6 @@
   },
   {
     "q": "Which method converts an array to a string with elements separated by commas?",
-    "c": null,
     "o": [
       "toString()",
       "join()",
@@ -5201,6 +5201,7 @@
   },
   {
     "q": "What is the output of this array method chain?",
+    "l": "javascript",
     "c": "const arr = [1, 2, 3, 4];\nconsole.log(arr.filter(x => x > 2).map(x => x * 2));",
     "o": [
       "[6, 8]",
@@ -5211,6 +5212,7 @@
   },
   {
     "q": "What does the following object rest pattern do?",
+    "l": "javascript",
     "c": "const {a, ...rest} = {a: 1, b: 2, c: 3};",
     "o": [
       "a = 1, rest = {b: 2, c: 3}",
@@ -5221,7 +5223,6 @@
   },
   {
     "q": "Which method finds the first element that satisfies a condition?",
-    "c": null,
     "o": [
       "find()",
       "filter()",
@@ -5231,6 +5232,7 @@
   },
   {
     "q": "What is the output of the following code?",
+    "l": "javascript",
     "c": "const arr = [1, 2, 3];\narr.reverse();\nconsole.log(arr);",
     "o": [
       "[3, 2, 1]",
@@ -5241,6 +5243,7 @@
   },
   {
     "q": "What does this destructuring with default values do?",
+    "l": "javascript",
     "c": "const {width = 100, height = 200} = {width: 150};",
     "o": [
       "width = 150, height = 200",
@@ -5251,7 +5254,6 @@
   },
   {
     "q": "Which syntax creates an object with a computed property name?",
-    "c": null,
     "o": [
       "const key = 'name'; const obj = { [key]: 'Alice' };",
       "const obj = { 'name': 'Alice' };",
@@ -5261,6 +5263,7 @@
   },
   {
     "q": "What is the output of the following code?",
+    "l": "javascript",
     "c": "const arr = [10, 20, 30];\nconsole.log(arr.at(-1));",
     "o": [
       "30",
@@ -5271,7 +5274,6 @@
   },
   {
     "q": "Which method checks if an array includes a certain value?",
-    "c": null,
     "o": [
       "includes()",
       "contains()",
@@ -5281,6 +5283,7 @@
   },
   {
     "q": "What does this destructuring assignment do?",
+    "l": "javascript",
     "c": "const { name: userName } = { name: 'Bob' };",
     "o": [
       "Assigns 'Bob' to a variable named `userName`",
@@ -5291,6 +5294,7 @@
   },
   {
     "q": "What is the output of the following code?",
+    "l": "javascript",
     "c": "const obj = { a: 1, b: 2 };\nconsole.log('a' in obj);",
     "o": [
       "true",
@@ -5301,7 +5305,6 @@
   },
   {
     "q": "Which method removes the first element of an array and returns it?",
-    "c": null,
     "o": [
       "shift()",
       "pop()",
@@ -5311,6 +5314,7 @@
   },
   {
     "q": "What is the result of this destructuring?",
+    "l": "javascript",
     "c": "const [x, y = 5] = [1];\nconsole.log(y);",
     "o": [
       "5",
@@ -5321,7 +5325,6 @@
   },
   {
     "q": "How do you merge two objects into a new one?",
-    "c": null,
     "o": [
       "const merged = { ...obj1, ...obj2 };",
       "const merged = obj1 + obj2;",
@@ -5331,6 +5334,7 @@
   },
   {
     "q": "What does the following code output?",
+    "l": "javascript",
     "c": "const arr = [1, 2, 3];\narr.forEach(num => num * 2);\nconsole.log(arr);",
     "o": [
       "[1, 2, 3]",
@@ -5341,7 +5345,6 @@
   },
   {
     "q": "Which method converts an object to an array of its values?",
-    "c": null,
     "o": [
       "Object.values()",
       "Object.keys()",
@@ -5351,6 +5354,7 @@
   },
   {
     "q": "What is the output of this nested destructuring?",
+    "l": "javascript",
     "c": "const { a: { b: { c } } } = { a: { b: { c: 10 } } };\nconsole.log(c);",
     "o": [
       "10",
@@ -5361,7 +5365,6 @@
   },
   {
     "q": "Which method adds elements to the beginning of an array?",
-    "c": null,
     "o": [
       "unshift()",
       "push()",
@@ -5371,6 +5374,7 @@
   },
   {
     "q": "What does the following code log?",
+    "l": "javascript",
     "c": "const arr = [1, 2, 3];\nconst [first, ...others] = arr;\nconsole.log(others);",
     "o": [
       "[2, 3]",
@@ -5381,7 +5385,6 @@
   },
   {
     "q": "Which method returns the first index where a given element is found?",
-    "c": null,
     "o": [
       "indexOf()",
       "findIndex()",
@@ -5391,6 +5394,7 @@
   },
   {
     "q": "What is the output of this code?",
+    "l": "javascript",
     "c": "const obj = { x: 1, y: 2 };\nconst { x: newX, z = 0 } = obj;\nconsole.log(z);",
     "o": [
       "0",
@@ -5401,6 +5405,7 @@
   },
   {
     "q": "What is the output of the following code?",
+    "l": "javascript",
     "c": "const obj = { a: 1, b: 2 };\nconst { a: aliasA } = obj;\nconsole.log(aliasA);",
     "o": [
       "1",
@@ -5411,7 +5416,6 @@
   },
   {
     "q": "Which method creates a new array with all elements that pass a test implemented by a provided function?",
-    "c": null,
     "o": [
       "filter()",
       "map()",
@@ -5421,6 +5425,7 @@
   },
   {
     "q": "What does the following code output?",
+    "l": "javascript",
     "c": "const arr = [1, 2, 3];\nconst [first, , third] = arr;\nconsole.log(third);",
     "o": [
       "3",
@@ -5431,7 +5436,6 @@
   },
   {
     "q": "How do you create a deep copy of a nested object in JavaScript?",
-    "c": null,
     "o": [
       "JSON.parse(JSON.stringify(obj))",
       "Object.assign({}, obj)",
@@ -5441,6 +5445,7 @@
   },
   {
     "q": "What is the output of the following code?",
+    "l": "javascript",
     "c": "const obj = { a: 1 };\nObject.freeze(obj);\nobj.a = 2;\nconsole.log(obj.a);",
     "o": [
       "1",
@@ -5451,7 +5456,6 @@
   },
   {
     "q": "Which method executes a reducer function on each element of the array, resulting in a single output value?",
-    "c": null,
     "o": [
       "reduce()",
       "map()",
@@ -5461,6 +5465,7 @@
   },
   {
     "q": "What does the following destructuring assignment do?",
+    "l": "javascript",
     "c": "const { a, ...rest } = { a: 1, b: 2, c: 3 };",
     "o": [
       "a = 1, rest = { b: 2, c: 3 }",
@@ -5471,6 +5476,7 @@
   },
   {
     "q": "What is the output of the following code?",
+    "l": "javascript",
     "c": "const arr = [1, 2, 3];\narr.length = 0;\nconsole.log(arr);",
     "o": [
       "[]",
@@ -5481,7 +5487,6 @@
   },
   {
     "q": "Which method returns the first element in the array that satisfies a provided testing function?",
-    "c": null,
     "o": [
       "find()",
       "filter()",
@@ -5491,6 +5496,7 @@
   },
   {
     "q": "What does the following code output?",
+    "l": "javascript",
     "c": "const obj = { a: 1 };\nconst obj2 = obj;\nobj2.a = 2;\nconsole.log(obj.a);",
     "o": [
       "2",
@@ -5501,7 +5507,6 @@
   },
   {
     "q": "Which method checks if at least one element in the array passes the test implemented by the provided function?",
-    "c": null,
     "o": [
       "some()",
       "every()",
@@ -5511,6 +5516,7 @@
   },
   {
     "q": "What is the output of the following code?",
+    "l": "javascript",
     "c": "const arr = [1, 2, 3];\nconst newArr = arr.map(num => num * 2);\nconsole.log(newArr);",
     "o": [
       "[2, 4, 6]",
@@ -5521,6 +5527,7 @@
   },
   {
     "q": "What does the following destructuring assignment do?",
+    "l": "javascript",
     "c": "const [x, y, z = 3] = [1, 2];",
     "o": [
       "x = 1, y = 2, z = 3",
@@ -5531,7 +5538,6 @@
   },
   {
     "q": "Which method returns a new array with all sub-array elements concatenated into it recursively up to the specified depth?",
-    "c": null,
     "o": [
       "flat()",
       "concat()",
@@ -5541,6 +5547,7 @@
   },
   {
     "q": "What is the output of the following code?",
+    "l": "javascript",
     "c": "const obj = { a: 1, b: 2 };\nconst { a: newA, b: newB } = obj;\nconsole.log(newB);",
     "o": [
       "2",
@@ -5551,6 +5558,7 @@
   },
   {
     "q": "What is the output of the following code?",
+    "l": "javascript",
     "c": "const obj = { a: 1 };\nconst obj2 = Object.create(obj);\nconsole.log(obj2.a);",
     "o": [
       "1",
@@ -5561,7 +5569,6 @@
   },
   {
     "q": "Which method returns an array iterator object with key/value pairs for each index?",
-    "c": null,
     "o": [
       "entries()",
       "keys()",
@@ -5571,6 +5578,7 @@
   },
   {
     "q": "What does this destructuring assignment do?",
+    "l": "javascript",
     "c": "const { a: { b } = { b: 2 } } = {};",
     "o": [
       "b = 2 (fallback to default)",
@@ -5581,6 +5589,7 @@
   },
   {
     "q": "What is the output of the following code?",
+    "l": "javascript",
     "c": "const arr = [1, 2, , 4];\nconsole.log(arr.length);",
     "o": [
       "4",
@@ -5591,7 +5600,6 @@
   },
   {
     "q": "Which method creates a new array populated with results of calling a function on every element?",
-    "c": null,
     "o": [
       "map()",
       "forEach()",
@@ -5601,6 +5609,7 @@
   },
   {
     "q": "What does this code output?",
+    "l": "javascript",
     "c": "const obj = { a: 1 };\nconsole.log(Object.getOwnPropertyDescriptor(obj, 'a').value);",
     "o": [
       "1",
@@ -5611,6 +5620,7 @@
   },
   {
     "q": "What is the result of this destructuring?",
+    "l": "javascript",
     "c": "const [x, ...[y, z]] = [1, 2, 3];",
     "o": [
       "x = 1, y = 2, z = 3",
@@ -5621,7 +5631,6 @@
   },
   {
     "q": "Which method checks if all elements satisfy a condition?",
-    "c": null,
     "o": [
       "every()",
       "some()",
@@ -5631,6 +5640,7 @@
   },
   {
     "q": "What is the output of this code?",
+    "l": "javascript",
     "c": "const arr = [1, 2];\narr[10] = 3;\nconsole.log(arr.length);",
     "o": [
       "11",
@@ -5641,7 +5651,6 @@
   },
   {
     "q": "How do you make an object property non-enumerable?",
-    "c": null,
     "o": [
       "Object.defineProperty(obj, 'prop', { enumerable: false })",
       "obj.prop.enumerable = false",
@@ -5651,6 +5660,7 @@
   },
   {
     "q": "What does this code output?",
+    "l": "javascript",
     "c": "const { a = 1, b = 2 } = { a: null };\nconsole.log(a, b);",
     "o": [
       "null 2",
@@ -5661,7 +5671,6 @@
   },
   {
     "q": "Which method removes/adds elements anywhere in an array?",
-    "c": null,
     "o": [
       "splice()",
       "slice()",
@@ -5671,6 +5680,7 @@
   },
   {
     "q": "What is the output of this code?",
+    "l": "javascript",
     "c": "const obj = {};\nconsole.log(obj?.a?.b ?? 'default');",
     "o": [
       "'default'",
@@ -5681,6 +5691,7 @@
   },
   {
     "q": "What does this destructuring do?",
+    "l": "javascript",
     "c": "const { [1 + 1]: two } = { 2: 'two' };",
     "o": [
       "two = 'two' (computed property name)",
@@ -5691,7 +5702,6 @@
   },
   {
     "q": "Which method returns a string representation of an array?",
-    "c": null,
     "o": [
       "toString()",
       "join()",
@@ -5701,6 +5711,7 @@
   },
   {
     "q": "What is the output of the following code?",
+    "l": "javascript",
     "c": "const obj = { a: 1 };\nObject.defineProperty(obj, 'b', { value: 2, enumerable: false });\nconsole.log(Object.keys(obj));",
     "o": [
       "['a']",
@@ -5711,7 +5722,6 @@
   },
   {
     "q": "Which method creates a new array with all sub-array elements concatenated recursively up to the specified depth?",
-    "c": null,
     "o": [
       "flat()",
       "concat()",
@@ -5721,6 +5731,7 @@
   },
   {
     "q": "What does the following destructuring assignment do?",
+    "l": "javascript",
     "c": "const { a: { b = 2 } = {} } = {};",
     "o": [
       "b = 2 (with nested defaults)",
@@ -5731,6 +5742,7 @@
   },
   {
     "q": "What is the output of the following code?",
+    "l": "javascript",
     "c": "const arr = [1, 2];\narr[3] = 4;\nconsole.log(arr[2]);",
     "o": [
       "undefined",
@@ -5741,7 +5753,6 @@
   },
   {
     "q": "Which method returns a new array with elements in reverse order?",
-    "c": null,
     "o": [
       "toReversed()",
       "reverse()",
@@ -5751,6 +5762,7 @@
   },
   {
     "q": "What does this code output?",
+    "l": "javascript",
     "c": "const obj = { a: 1 };\nconst { a, ...rest } = obj;\nconsole.log(rest);",
     "o": [
       "{}",
@@ -5761,6 +5773,7 @@
   },
   {
     "q": "What is the result of this array destructuring?",
+    "l": "javascript",
     "c": "const [x = 1, y = x] = [];",
     "o": [
       "x = 1, y = 1",
@@ -5771,7 +5784,6 @@
   },
   {
     "q": "Which method creates a new array with a portion of the original array?",
-    "c": null,
     "o": [
       "slice()",
       "splice()",
@@ -5781,6 +5793,7 @@
   },
   {
     "q": "What is the output of this code?",
+    "l": "javascript",
     "c": "const obj = { a: 1 };\nObject.preventExtensions(obj);\nobj.b = 2;\nconsole.log(obj.b);",
     "o": [
       "undefined",
@@ -5791,6 +5804,7 @@
   },
   {
     "q": "What does this destructuring assignment do?",
+    "l": "javascript",
     "c": "const { a: { b }, c = 3 } = { a: { b: 2 } };",
     "o": [
       "b = 2, c = 3",
@@ -5801,7 +5815,6 @@
   },
   {
     "q": "Which method returns the last index at which a given element can be found?",
-    "c": null,
     "o": [
       "lastIndexOf()",
       "findLastIndex()",
@@ -5811,6 +5824,7 @@
   },
   {
     "q": "What is the output of the following code?",
+    "l": "javascript",
     "c": "const arr = [1, 2, 3];\narr.copyWithin(1, 0);\nconsole.log(arr);",
     "o": [
       "[1, 1, 2]",
@@ -5821,7 +5835,6 @@
   },
   {
     "q": "How do you check if an object is the prototype of another object?",
-    "c": null,
     "o": [
       "Object.prototype.isPrototypeOf()",
       "obj.isPrototype()",
@@ -5831,6 +5844,7 @@
   },
   {
     "q": "What does this code output?",
+    "l": "javascript",
     "c": "const obj = { a: 1 };\nObject.seal(obj);\nobj.a = 2;\ndelete obj.a;\nconsole.log(obj.a);",
     "o": [
       "2",
@@ -5841,7 +5855,6 @@
   },
   {
     "q": "Which method creates a new array with all elements that pass the test implemented by the provided function?",
-    "c": null,
     "o": [
       "filter()",
       "map()",
@@ -5851,6 +5864,7 @@
   },
   {
     "q": "What is the output of the following code?",
+    "l": "javascript",
     "c": "const obj = {};\nObject.defineProperty(obj, 'hidden', { value: 42, enumerable: false });\nconsole.log({...obj});",
     "o": [
       "{}",
@@ -5861,7 +5875,6 @@
   },
   {
     "q": "Which method creates a new array with elements from start to end (exclusive)?",
-    "c": null,
     "o": [
       "arr.slice(start, end)",
       "arr.splice(start, end)",
@@ -5871,6 +5884,7 @@
   },
   {
     "q": "What does this destructuring do when the value is null?",
+    "l": "javascript",
     "c": "const { a: { b } = {} } = { a: null };",
     "o": [
       "Throws TypeError",
@@ -5881,6 +5895,7 @@
   },
   {
     "q": "What is the output of this sparse array code?",
+    "l": "javascript",
     "c": "const arr = [1,,3];\nconsole.log(arr.map(x => x * 2));",
     "o": [
       "[2, empty, 6]",
@@ -5891,7 +5906,6 @@
   },
   {
     "q": "Which method creates an array from an array-like object?",
-    "c": null,
     "o": [
       "Array.from()",
       "Array.of()",
@@ -5901,6 +5915,7 @@
   },
   {
     "q": "What does this code output?",
+    "l": "javascript",
     "c": "const obj = { a: 1 };\nObject.preventExtensions(obj);\nconsole.log(Object.isExtensible(obj));",
     "o": [
       "false",
@@ -5911,6 +5926,7 @@
   },
   {
     "q": "What is the result of this nested destructuring?",
+    "l": "javascript",
     "c": "const { a: [x, , y] } = { a: [1, 2, 3] };",
     "o": [
       "x = 1, y = 3",
@@ -5921,7 +5937,6 @@
   },
   {
     "q": "Which method returns the first index where a predicate is true?",
-    "c": null,
     "o": [
       "findIndex()",
       "indexOf()",
@@ -5931,6 +5946,7 @@
   },
   {
     "q": "What is the output of this Proxy code?",
+    "l": "javascript",
     "c": "const target = {};\nconst handler = { get: () => 42 };\nconst proxy = new Proxy(target, handler);\nconsole.log(proxy.anyProperty);",
     "o": [
       "42",
@@ -5941,6 +5957,7 @@
   },
   {
     "q": "What does this destructuring with rename do?",
+    "l": "javascript",
     "c": "const { a: newName } = { a: 1 };\nconsole.log(newName);",
     "o": [
       "1",
@@ -5951,7 +5968,6 @@
   },
   {
     "q": "Which method creates a new array with all falsey values removed?",
-    "c": null,
     "o": [
       "arr.filter(Boolean)",
       "arr.compact()",
@@ -5961,6 +5977,7 @@
   },
   {
     "q": "What is the output of this Symbol property code?",
+    "l": "javascript",
     "c": "const sym = Symbol('key');\nconst obj = { [sym]: 42 };\nconsole.log(Object.keys(obj));",
     "o": [
       "[]",
@@ -5971,6 +5988,7 @@
   },
   {
     "q": "What does this array destructuring with default do?",
+    "l": "javascript",
     "c": "const [x = 1, y = x] = [undefined, 2];",
     "o": [
       "x = 1, y = 2",
@@ -5981,7 +5999,6 @@
   },
   {
     "q": "Which method checks if an object exists in another object's prototype chain?",
-    "c": null,
     "o": [
       "Object.prototype.isPrototypeOf()",
       "Object.hasPrototype()",
@@ -5991,6 +6008,7 @@
   },
   {
     "q": "What is the output of this spread operator code?",
+    "l": "javascript",
     "c": "const obj1 = { a: 1 };\nconst obj2 = { ...obj1, a: 2 };\nconsole.log(obj2);",
     "o": [
       "{a: 2}",
@@ -6001,6 +6019,7 @@
   },
   {
     "q": "What is the output of the following code?",
+    "l": "javascript",
     "c": "const obj = { a: 1, b: 2 };\nconst { a, ...rest } = obj;\nconsole.log(rest);",
     "o": [
       "{ b: 2 }",
@@ -6011,7 +6030,6 @@
   },
   {
     "q": "Which method is used to merge two or more arrays without modifying the original arrays?",
-    "c": null,
     "o": [
       "concat()",
       "push()",
@@ -6021,6 +6039,7 @@
   },
   {
     "q": "What does the following destructuring assignment do?",
+    "l": "javascript",
     "c": "const [x, y, z = 3] = [1, 2];",
     "o": [
       "x = 1, y = 2, z = 3",
@@ -6031,6 +6050,7 @@
   },
   {
     "q": "What is the output of the following code?",
+    "l": "javascript",
     "c": "const arr = [1, 2, 3];\narr.length = 0;\nconsole.log(arr);",
     "o": [
       "[]",
@@ -6041,7 +6061,6 @@
   },
   {
     "q": "Which method creates a new array with all elements that pass the test implemented by a provided function?",
-    "c": null,
     "o": [
       "filter()",
       "map()",
@@ -6051,6 +6070,7 @@
   },
   {
     "q": "What does the following code output?",
+    "l": "javascript",
     "c": "const obj = { a: 1 };\nconst obj2 = obj;\nobj2.a = 2;\nconsole.log(obj.a);",
     "o": [
       "2",
@@ -6061,6 +6081,7 @@
   },
   {
     "q": "What is the result of this destructuring assignment?",
+    "l": "javascript",
     "c": "const { a: { b } } = { a: { b: 5 } };\nconsole.log(b);",
     "o": [
       "5",
@@ -6071,7 +6092,6 @@
   },
   {
     "q": "Which method removes the first element from an array and returns it?",
-    "c": null,
     "o": [
       "shift()",
       "pop()",
@@ -6081,6 +6101,7 @@
   },
   {
     "q": "What is the output of the following code?",
+    "l": "javascript",
     "c": "const arr = [1, 2, 3];\nconsole.log(arr.slice(-1));",
     "o": [
       "[3]",
@@ -6091,6 +6112,7 @@
   },
   {
     "q": "What does the following destructuring assignment do?",
+    "l": "javascript",
     "c": "const [first, ...rest] = [1, 2, 3, 4];",
     "o": [
       "first = 1, rest = [2, 3, 4]",
@@ -6101,7 +6123,6 @@
   },
   {
     "q": "Which method checks if an array includes a certain value?",
-    "c": null,
     "o": [
       "includes()",
       "contains()",
@@ -6111,6 +6132,7 @@
   },
   {
     "q": "What is the output of the following code?",
+    "l": "javascript",
     "c": "const obj = { a: 1, b: 2 };\nconsole.log('a' in obj);",
     "o": [
       "true",
@@ -6121,6 +6143,7 @@
   },
   {
     "q": "What does the following destructuring assignment do?",
+    "l": "javascript",
     "c": "const { a = 10, b = 20 } = { a: 5 };\nconsole.log(a, b);",
     "o": [
       "5, 20",
@@ -6131,7 +6154,6 @@
   },
   {
     "q": "Which method executes a reducer function on each element of the array, resulting in a single output value?",
-    "c": null,
     "o": [
       "reduce()",
       "map()",
@@ -6141,6 +6163,7 @@
   },
   {
     "q": "What is the output of the following code?",
+    "l": "javascript",
     "c": "const arr = [1, 2, 3];\narr.forEach(num => num * 2);\nconsole.log(arr);",
     "o": [
       "[1, 2, 3]",
@@ -6151,6 +6174,7 @@
   },
   {
     "q": "What is the output of the following code?",
+    "l": "javascript",
     "c": "const obj = { a: 1 };\nObject.defineProperty(obj, 'b', { get: () => 2 });\nconsole.log(obj.b);",
     "o": [
       "2",
@@ -6161,7 +6185,6 @@
   },
   {
     "q": "Which method creates a new array with all falsey values removed?",
-    "c": null,
     "o": [
       "arr.filter(Boolean)",
       "arr.compact()",
@@ -6171,6 +6194,7 @@
   },
   {
     "q": "What does this destructuring do when the value is undefined?",
+    "l": "javascript",
     "c": "const { a = 1, b = 2 } = { a: undefined };",
     "o": [
       "a = 1, b = 2",
@@ -6181,6 +6205,7 @@
   },
   {
     "q": "What is the output of this Proxy trap code?",
+    "l": "javascript",
     "c": "const target = {};\nconst handler = { get: (target, prop) => prop in target ? target[prop] : 42 };\nconst proxy = new Proxy(target, handler);\nconsole.log(proxy.answer);",
     "o": [
       "42",
@@ -6191,7 +6216,6 @@
   },
   {
     "q": "Which method returns a new array with elements from sub-arrays concatenated recursively?",
-    "c": null,
     "o": [
       "flat()",
       "concat()",
@@ -6201,6 +6225,7 @@
   },
   {
     "q": "What does this code output?",
+    "l": "javascript",
     "c": "const obj = { a: 1 };\nObject.preventExtensions(obj);\nobj.b = 2;\nconsole.log(obj.b);",
     "o": [
       "undefined",
@@ -6211,6 +6236,7 @@
   },
   {
     "q": "What is the result of this nested destructuring?",
+    "l": "javascript",
     "c": "const { a: { b: { c } } } = { a: { b: { c: 10 } } };\nconsole.log(c);",
     "o": [
       "10",
@@ -6221,7 +6247,6 @@
   },
   {
     "q": "Which method creates an array from an iterable object?",
-    "c": null,
     "o": [
       "Array.from()",
       "Array.of()",
@@ -6231,6 +6256,7 @@
   },
   {
     "q": "What is the output of this Symbol-keyed property code?",
+    "l": "javascript",
     "c": "const sym = Symbol('key');\nconst obj = { [sym]: 42 };\nconsole.log(obj[sym]);",
     "o": [
       "42",
@@ -6241,6 +6267,7 @@
   },
   {
     "q": "What does this destructuring with aliasing do?",
+    "l": "javascript",
     "c": "const { a: alias } = { a: 1 };\nconsole.log(alias);",
     "o": [
       "1",
@@ -6251,7 +6278,6 @@
   },
   {
     "q": "Which method returns the last index at which a given element can be found?",
-    "c": null,
     "o": [
       "lastIndexOf()",
       "findLastIndex()",
@@ -6261,6 +6287,7 @@
   },
   {
     "q": "What is the output of this array initialization?",
+    "l": "javascript",
     "c": "const arr = Array(3).fill({});\narr[0].prop = 1;\nconsole.log(arr[2].prop);",
     "o": [
       "1",
@@ -6271,6 +6298,7 @@
   },
   {
     "q": "What does this code demonstrate about object references?",
+    "l": "javascript",
     "c": "const a = {};\nconst b = a;\nb.prop = 1;\nconsole.log(a.prop);",
     "o": [
       "1",
@@ -6281,7 +6309,6 @@
   },
   {
     "q": "Which method checks if all elements satisfy a condition?",
-    "c": null,
     "o": [
       "every()",
       "some()",
@@ -6291,6 +6318,7 @@
   },
   {
     "q": "What is the output of this destructuring with default values?",
+    "l": "javascript",
     "c": "const [x = 1, y = x] = [];\nconsole.log(x, y);",
     "o": [
       "1, 1",
@@ -6301,6 +6329,7 @@
   },
   {
     "q": "What is the output of the following code using Object.groupBy?",
+    "l": "javascript",
     "c": "const items = [{type: 'fruit', name: 'apple'}, {type: 'vegetable', name: 'carrot'}];\nconsole.log(Object.groupBy(items, ({type}) => type));",
     "o": [
       "{fruit: [{...}], vegetable: [{...}]}",
@@ -6311,6 +6340,7 @@
   },
   {
     "q": "What does this code output when using Array.prototype.with?",
+    "l": "javascript",
     "c": "const arr = [1, 2, 3];\nconsole.log(arr.with(1, 4));",
     "o": [
       "[1, 4, 3]",
@@ -6321,6 +6351,7 @@
   },
   {
     "q": "What is the result of this destructuring with private class fields?",
+    "l": "javascript",
     "c": "class Test { #secret = 42; getSecret() { return this.#secret; } }\nconst { getSecret } = new Test();\nconsole.log(getSecret());",
     "o": [
       "Error: Cannot read private member",
@@ -6331,7 +6362,6 @@
   },
   {
     "q": "Which method creates an array from an async iterable?",
-    "c": null,
     "o": [
       "Array.fromAsync()",
       "Array.from()",
@@ -6341,6 +6371,7 @@
   },
   {
     "q": "What does this code output using the new Record type?",
+    "l": "javascript",
     "c": "const record = #{\na: 1,\nb: 2\n};\nconsole.log(record.a);",
     "o": [
       "1",
@@ -6351,6 +6382,7 @@
   },
   {
     "q": "What is the output of this code using Temporal API?",
+    "l": "javascript",
     "c": "const date = Temporal.Now.plainDateISO();\nconsole.log(date instanceof Date);",
     "o": [
       "false",
@@ -6361,7 +6393,6 @@
   },
   {
     "q": "Which method creates an immutable copy of an array with a change?",
-    "c": null,
     "o": [
       "toSpliced()",
       "splice()",
@@ -6371,6 +6402,7 @@
   },
   {
     "q": "What does this destructuring do with a Symbol.iterator?",
+    "l": "javascript",
     "c": "const obj = { [Symbol.iterator]: function*() { yield 1; yield 2; } };\nconst [a, b] = obj;\nconsole.log(a, b);",
     "o": [
       "1 2",
@@ -6381,6 +6413,7 @@
   },
   {
     "q": "What is the output of this code using WeakRef?",
+    "l": "javascript",
     "c": "let obj = { data: 'important' };\nconst ref = new WeakRef(obj);\nobj = null;\nconsole.log(ref.deref()?.data);",
     "o": [
       "undefined (or 'important' if GC hasn't run)",
@@ -6391,7 +6424,6 @@
   },
   {
     "q": "Which decorator can be used to make a class method immutable?",
-    "c": null,
     "o": [
       "@readonly",
       "@immutable",
@@ -6401,6 +6433,7 @@
   },
   {
     "q": "What does this code output using Array.prototype.findLast?",
+    "l": "javascript",
     "c": "const arr = [1, 2, 3, 2, 1];\nconsole.log(arr.findLast(x => x === 2));",
     "o": [
       "2",
@@ -6411,6 +6444,7 @@
   },
   {
     "q": "What is the result of this destructuring with a Proxy?",
+    "l": "javascript",
     "c": "const proxy = new Proxy({ a: 1, b: 2 }, { get: (t, p) => p.toUpperCase() });\nconst { a, b } = proxy;\nconsole.log(a, b);",
     "o": [
       "A B",
@@ -6421,7 +6455,6 @@
   },
   {
     "q": "Which method creates a new array with all possible pairs from two arrays?",
-    "c": null,
     "o": [
       "Array.prototype.flatMap(a => b.map(c => [a, c]))",
       "Array.prototype.cartesian()",
@@ -6431,6 +6464,7 @@
   },
   {
     "q": "What does this code output using private methods?",
+    "l": "javascript",
     "c": "class Test { #method() { return 42; }\ncall() { return this.#method(); } }\nconst { call } = new Test();\nconsole.log(call());",
     "o": [
       "42",
@@ -6441,6 +6475,7 @@
   },
   {
     "q": "What is the output of this code using RegExp match indices?",
+    "l": "javascript",
     "c": "const str = 'test';\nconst re = /t/d;\nconsole.log(str.match(re).indices[0].join(','));",
     "o": [
       "0,1",
@@ -6451,6 +6486,7 @@
   },
   {
     "q": "What is the output of the following code using Object.seal?",
+    "l": "javascript",
     "c": "const obj = { a: 1 };\nObject.seal(obj);\nobj.a = 2;\ndelete obj.a;\nconsole.log(obj);",
     "o": [
       "{ a: 2 }",
@@ -6461,7 +6497,6 @@
   },
   {
     "q": "Which method creates a new array with all elements that are truthy?",
-    "c": null,
     "o": [
       "arr.filter(Boolean)",
       "arr.compact()",
@@ -6471,6 +6506,7 @@
   },
   {
     "q": "What does this destructuring do when the property doesn't exist?",
+    "l": "javascript",
     "c": "const { a = 1, b = 2 } = { a: undefined };",
     "o": [
       "a = 1, b = 2",
@@ -6481,6 +6517,7 @@
   },
   {
     "q": "What is the output of this Proxy get trap code?",
+    "l": "javascript",
     "c": "const target = {};\nconst handler = { get: (target, prop) => prop in target ? target[prop] : 42 };\nconst proxy = new Proxy(target, handler);\nconsole.log(proxy.answer);",
     "o": [
       "42",
@@ -6491,7 +6528,6 @@
   },
   {
     "q": "Which method flattens a nested array recursively up to the specified depth?",
-    "c": null,
     "o": [
       "flat()",
       "flatten()",
@@ -6501,6 +6537,7 @@
   },
   {
     "q": "What does this code output when using Object.preventExtensions?",
+    "l": "javascript",
     "c": "const obj = { a: 1 };\nObject.preventExtensions(obj);\nobj.b = 2;\nconsole.log(obj.b);",
     "o": [
       "undefined",
@@ -6511,6 +6548,7 @@
   },
   {
     "q": "What is the result of this nested destructuring?",
+    "l": "javascript",
     "c": "const { a: { b: { c } } } = { a: { b: { c: 10 } } };\nconsole.log(c);",
     "o": [
       "10",
@@ -6521,7 +6559,6 @@
   },
   {
     "q": "Which method creates an array from an array-like or iterable object?",
-    "c": null,
     "o": [
       "Array.from()",
       "Array.of()",
@@ -6531,6 +6568,7 @@
   },
   {
     "q": "What is the output of this Symbol-keyed property code?",
+    "l": "javascript",
     "c": "const sym = Symbol('key');\nconst obj = { [sym]: 42 };\nconsole.log(obj[sym]);",
     "o": [
       "42",
@@ -6541,6 +6579,7 @@
   },
   {
     "q": "What does this destructuring with property renaming do?",
+    "l": "javascript",
     "c": "const { a: newName } = { a: 1 };\nconsole.log(newName);",
     "o": [
       "1",
@@ -6551,7 +6590,6 @@
   },
   {
     "q": "Which method returns the last index at which a given element can be found?",
-    "c": null,
     "o": [
       "lastIndexOf()",
       "findLastIndex()",
@@ -6561,6 +6599,7 @@
   },
   {
     "q": "What is the output of this array initialization?",
+    "l": "javascript",
     "c": "const arr = Array(3).fill({});\narr[0].prop = 1;\nconsole.log(arr[2].prop);",
     "o": [
       "1",
@@ -6571,6 +6610,7 @@
   },
   {
     "q": "What does this code demonstrate about object references?",
+    "l": "javascript",
     "c": "const a = {};\nconst b = a;\nb.prop = 1;\nconsole.log(a.prop);",
     "o": [
       "1",
@@ -6581,7 +6621,6 @@
   },
   {
     "q": "Which method checks if all elements satisfy a condition?",
-    "c": null,
     "o": [
       "every()",
       "some()",
@@ -6591,6 +6630,7 @@
   },
   {
     "q": "What is the output of this destructuring with default values?",
+    "l": "javascript",
     "c": "const [x = 1, y = x] = [];\nconsole.log(x, y);",
     "o": [
       "1, 1",
@@ -6601,6 +6641,7 @@
   },
   {
     "q": "What is the output when trying to destructure a null value?",
+    "l": "javascript",
     "c": "const { a } = null;",
     "o": [
       "TypeError",
@@ -6611,7 +6652,6 @@
   },
   {
     "q": "Which method creates a new array with elements that are the results of calling a provided function on every element in the calling array?",
-    "c": null,
     "o": [
       "map()",
       "forEach()",
@@ -6621,6 +6661,7 @@
   },
   {
     "q": "What does this code output when using array destructuring with gaps?",
+    "l": "javascript",
     "c": "const [a, , b] = [1, 2, 3];\nconsole.log(a, b);",
     "o": [
       "1 3",
@@ -6631,6 +6672,7 @@
   },
   {
     "q": "What is the result when using Object.assign with property descriptors?",
+    "l": "javascript",
     "c": "const obj1 = {};\nObject.defineProperty(obj1, 'a', { value: 1, enumerable: false });\nconst obj2 = Object.assign({}, obj1);\nconsole.log(Object.keys(obj2));",
     "o": [
       "[]",
@@ -6641,7 +6683,6 @@
   },
   {
     "q": "Which method returns a new array with all sub-array elements concatenated recursively up to the specified depth?",
-    "c": null,
     "o": [
       "flat()",
       "concat()",
@@ -6651,6 +6692,7 @@
   },
   {
     "q": "What does this code output when using computed property names in destructuring?",
+    "l": "javascript",
     "c": "const prop = 'name';\nconst { [prop]: myName } = { name: 'Alice' };\nconsole.log(myName);",
     "o": [
       "'Alice'",
@@ -6661,6 +6703,7 @@
   },
   {
     "q": "What is the output when using Array.from with a mapping function?",
+    "l": "javascript",
     "c": "console.log(Array.from([1, 2, 3], x => x * 2));",
     "o": [
       "[2, 4, 6]",
@@ -6671,7 +6714,6 @@
   },
   {
     "q": "Which method checks if an object exists in another object's prototype chain?",
-    "c": null,
     "o": [
       "Object.prototype.isPrototypeOf()",
       "Object.hasPrototype()",
@@ -6681,6 +6723,7 @@
   },
   {
     "q": "What does this code output when using nested object destructuring with defaults?",
+    "l": "javascript",
     "c": "const { a: { b = 2 } = {} } = {};\nconsole.log(b);",
     "o": [
       "2",
@@ -6691,6 +6734,7 @@
   },
   {
     "q": "What is the result when using Array.prototype.keys() on a sparse array?",
+    "l": "javascript",
     "c": "const arr = [1, , 3];\nconsole.log([...arr.keys()]);",
     "o": [
       "[0, 1, 2]",
@@ -6701,7 +6745,6 @@
   },
   {
     "q": "Which method creates a new, shallow-copied array instance from an array-like or iterable object?",
-    "c": null,
     "o": [
       "Array.from()",
       "Array.of()",
@@ -6711,6 +6754,7 @@
   },
   {
     "q": "What does this code output when using object rest properties?",
+    "l": "javascript",
     "c": "const { a, ...rest } = { a: 1, b: 2, c: 3 };\nconsole.log(rest);",
     "o": [
       "{ b: 2, c: 3 }",
@@ -6721,6 +6765,7 @@
   },
   {
     "q": "What is the output when using Object.entries with a Symbol property?",
+    "l": "javascript",
     "c": "const sym = Symbol('key');\nconst obj = { [sym]: 'value', a: 1 };\nconsole.log(Object.entries(obj));",
     "o": [
       "[['a', 1]]",
@@ -6731,7 +6776,6 @@
   },
   {
     "q": "Which method returns the first element in the array that satisfies a provided testing function?",
-    "c": null,
     "o": [
       "find()",
       "filter()",
@@ -6741,6 +6785,7 @@
   },
   {
     "q": "What does this code output when using array destructuring with default values?",
+    "l": "javascript",
     "c": "const [x = 1, y = x] = [];\nconsole.log(x, y);",
     "o": [
       "1 1",
@@ -6751,6 +6796,7 @@
   },
   {
     "q": "What is the output when using Object.hasOwn() with a Symbol property?",
+    "l": "javascript",
     "c": "const sym = Symbol('key');\nconst obj = { [sym]: 'value' };\nconsole.log(Object.hasOwn(obj, sym));",
     "o": [
       "true",
@@ -6761,7 +6807,6 @@
   },
   {
     "q": "Which method creates a new array with all elements that pass the test implemented by a predicate function, starting from the end?",
-    "c": null,
     "o": [
       "findLast()",
       "findFromEnd()",
@@ -6771,6 +6816,7 @@
   },
   {
     "q": "What does this code output when using destructuring with a Proxy?",
+    "l": "javascript",
     "c": "const proxy = new Proxy({ a: 1 }, { get: (t, p) => p.toUpperCase() });\nconst { a } = proxy;\nconsole.log(a);",
     "o": [
       "A",
@@ -6781,6 +6827,7 @@
   },
   {
     "q": "What is the result when using Array.prototype.toSpliced() to replace elements?",
+    "l": "javascript",
     "c": "const arr = [1, 2, 3];\nconsole.log(arr.toSpliced(1, 1, 4));",
     "o": [
       "[1, 4, 3]",
@@ -6791,7 +6838,6 @@
   },
   {
     "q": "Which method creates a new array with all possible combinations of elements from two arrays?",
-    "c": null,
     "o": [
       "a.flatMap(x => b.map(y => [x, y]))",
       "a.combine(b)",
@@ -6801,6 +6847,7 @@
   },
   {
     "q": "What does this code output when using private class fields in destructuring?",
+    "l": "javascript",
     "c": "class Test { #secret = 42; getSecret() { return this.#secret; } }\nconst { getSecret } = new Test();\nconsole.log(getSecret());",
     "o": [
       "Error: Cannot read private member",
@@ -6811,6 +6858,7 @@
   },
   {
     "q": "What is the output when using Object.groupBy with a numeric key?",
+    "l": "javascript",
     "c": "const items = [{type: 1}, {type: 2}, {type: 1}];\nconsole.log(Object.groupBy(items, ({type}) => type));",
     "o": [
       "Map {1 => [...], 2 => [...]}",
@@ -6821,7 +6869,6 @@
   },
   {
     "q": "Which method creates an immutable copy of an array with one element changed?",
-    "c": null,
     "o": [
       "with()",
       "set()",
@@ -6831,6 +6878,7 @@
   },
   {
     "q": "What does this code output when using Temporal.Instant?",
+    "l": "javascript",
     "c": "console.log(Temporal.Instant.from('2023-01-01').epochMilliseconds > 0);",
     "o": [
       "true",
@@ -6841,6 +6889,7 @@
   },
   {
     "q": "What is the result when destructuring a Map iterator?",
+    "l": "javascript",
     "c": "const map = new Map([['a', 1]]);\nconst [first] = map;\nconsole.log(first);",
     "o": [
       "['a', 1]",
@@ -6851,7 +6900,6 @@
   },
   {
     "q": "Which method returns a new array with elements from start to end (exclusive) without modifying the original?",
-    "c": null,
     "o": [
       "slice()",
       "splice()",
@@ -6861,6 +6909,7 @@
   },
   {
     "q": "What does this code output when using a Symbol as a computed method name?",
+    "l": "javascript",
     "c": "const sym = Symbol('method');\nconst obj = { [sym]() { return 42; } };\nconsole.log(obj[sym]());",
     "o": [
       "42",
@@ -6871,6 +6920,7 @@
   },
   {
     "q": "What is the output when using Array.prototype.at() with a typed array?",
+    "l": "javascript",
     "c": "const arr = new Uint8Array([10, 20, 30]);\nconsole.log(arr.at(-1));",
     "o": [
       "30",
@@ -6881,7 +6931,6 @@
   },
   {
     "q": "Which decorator can be used to make a class property read-only?",
-    "c": null,
     "o": [
       "@readonly",
       "@immutable",
@@ -6891,6 +6940,7 @@
   },
   {
     "q": "What does this code output when using a WeakMap as an object property store?",
+    "l": "javascript",
     "c": "const wm = new WeakMap();\nconst obj = {};\nwm.set(obj, 'secret');\nconsole.log(wm.get(obj));",
     "o": [
       "'secret'",

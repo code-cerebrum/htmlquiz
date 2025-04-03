@@ -1008,8 +1008,7 @@
   {
     "q": "Which of the following is a valid use of the `at()` method for arrays?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "['a','b','c'].at(-1) // returns 'c'",
       "['a','b','c'].at(3) // returns 'a'",
       "['a','b','c'].at('1') // throws Error",
@@ -1030,8 +1029,7 @@
   {
     "q": "Which of the following is NOT a valid use of private class fields?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "class X { #private = 1; get #value() { return this.#private } }",
       "class X { #private = 1; static #secret = 2 }",
       "class X { #private = 1; accessor #value = 2 }",
@@ -1052,8 +1050,7 @@
   {
     "q": "Which of the following is the correct way to use top-level await?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "// In ES modules\nconst data = await fetch(url);",
       "// In CommonJS\nawait require('module');",
       "// Any script tag\nawait Promise.resolve();",
@@ -1074,8 +1071,7 @@
   {
     "q": "Which of the following is a valid use of the `cause` property in Error objects?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "throw new Error('Failed', { cause: originalError });",
       "throw new Error('Failed').cause(originalError);",
       "throw new Error('Failed', originalError);",
@@ -1096,8 +1092,7 @@
   {
     "q": "Which of the following is NOT a valid use of the Temporal API?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "Temporal.now.date()",
       "Temporal.PlainDate.from('2023-01-01')",
       "Temporal.Instant.compare(inst1, inst2)",
@@ -1118,8 +1113,7 @@
   {
     "q": "Which of the following is the correct way to use import attributes?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "import json from './data.json' assert { type: 'json' };",
       "import json from './data.json' with { type: 'json' };",
       "import json from './data.json' using 'json';",
@@ -1140,8 +1134,7 @@
   {
     "q": "Which of the following is NOT a valid use of the Object.groupBy method?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "Object.groupBy([1,2,3], x => x > 1 ? 'big' : 'small')",
       "Object.groupBy({a:1,b:2}, ([k,v]) => v > 1 ? 'big' : 'small')",
       "Object.groupBy(new Set([1,2,3]), x => x % 2 === 0 ? 'even' : 'odd')",
@@ -1173,8 +1166,7 @@
   {
     "q": "Which of the following is a valid use of the `toSpliced()` array method?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "const newArr = [1,2,3].toSpliced(1, 1, 99); // [1,99,3]",
       "const newArr = [1,2,3].toSpliced(1, 1); // mutates original",
       "const newArr = [1,2,3].toSpliced(-1); // throws Error",
@@ -1195,8 +1187,7 @@
   {
     "q": "Which of the following is NOT a valid use of the `findLast()` array method?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "[1,2,3].findLast(() => true); // returns 3",
       "[1,2,3].findLast(x => x > 1); // returns 3",
       "[1,2,3].findLast(x => x > 3); // returns undefined",
@@ -1217,8 +1208,7 @@
   {
     "q": "Which of the following is the correct way to use the `Array.prototype.with()` method?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "const newArr = [1,2,3].with(1, 99); // [1,99,3]",
       "const newArr = [1,2,3].with(1); // removes index 1",
       "const newArr = [1,2,3].with(-1, 99); // throws Error",
@@ -1239,8 +1229,7 @@
   {
     "q": "Which of the following is NOT a valid use of the `Intl.NumberFormat` API?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "new Intl.NumberFormat('en').formatToParts(1000.5)[0].value",
       "new Intl.NumberFormat('en', { style: 'currency' }).format(1000)",
       "new Intl.NumberFormat('en', { notation: 'compact' }).format(1000)",
@@ -1261,8 +1250,7 @@
   {
     "q": "Which of the following is a valid use of the `Object.hasOwn()` method?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "Object.hasOwn({ a: 1 }, 'a') // true",
       "Object.hasOwn({ a: 1 }, 'toString') // true",
       "Object.hasOwn({}, 1) // true",
@@ -1283,8 +1271,7 @@
   {
     "q": "Which of the following is NOT a valid use of the `Intl.Segmenter` API?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "new Intl.Segmenter('en').segment('hello')[0]",
       "Array.from(new Intl.Segmenter('en').segment('hello'))",
       "const segments = new Intl.Segmenter('en').segment('hello');\nsegments.containing(2)",
@@ -1305,8 +1292,7 @@
   {
     "q": "Which of the following is a valid use of the `at()` method for strings?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "'abc'.at(-1) // 'c'",
       "'abc'.at(3) // 'a'",
       "'abc'.at('1') // throws Error",
@@ -1338,8 +1324,7 @@
   {
     "q": "Which of the following is a valid use of the new `Array.prototype.groupBy` method?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "const groups = [1, 2, 3].groupBy(x => x % 2 === 0 ? 'even' : 'odd');",
       "const groups = [1, 2, 3].groupBy(x => { even: x % 2 === 0 });",
       "const groups = [1, 2, 3].groupBy('even');",
@@ -1360,8 +1345,7 @@
   {
     "q": "Which of the following is NOT a valid use of the `Intl.DurationFormat` API?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "new Intl.DurationFormat('en').format({ days: 1, hours: 12 });",
       "new Intl.DurationFormat('en', { style: 'long' }).format({ hours: 2 });",
       "new Intl.DurationFormat('en').format(Promise.resolve({ minutes: 30 }));",
@@ -1382,8 +1366,7 @@
   {
     "q": "Which of the following is a valid use of the `Array.prototype.findLastIndex` method?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "[1, 2, 3, 2].findLastIndex(x => x === 2); // returns 3",
       "[1, 2, 3].findLastIndex(2); // returns 1",
       "[1, 2, 3].findLastIndex(); // returns -1",
@@ -1404,8 +1387,7 @@
   {
     "q": "Which of the following is NOT a valid use of the `Object.groupBy` method?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "Object.groupBy([1, 2, 3], x => x % 2);",
       "Object.groupBy('hello', c => c === 'l' ? 'l' : 'other');",
       "Object.groupBy(new Set([1, 2, 3]), x => x > 1);",
@@ -1426,8 +1408,7 @@
   {
     "q": "Which of the following is a valid use of the `Array.prototype.toSorted` method?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "[3, 1, 2].toSorted((a, b) => a - b); // [1, 2, 3]",
       "[3, 1, 2].toSorted(); // mutates original array",
       "[3, 1, 2].toSorted('asc'); // throws Error",
@@ -1448,8 +1429,7 @@
   {
     "q": "Which of the following is NOT a valid use of the `Intl.NumberFormat` v3 API?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "new Intl.NumberFormat('en', { roundingMode: 'halfEven' }).format(1.5);",
       "new Intl.NumberFormat('en', { roundingPriority: 'auto' }).format(1.234);",
       "new Intl.NumberFormat('en', { trailingZeroDisplay: 'stripIfInteger' }).format(1.0);",
@@ -1470,8 +1450,7 @@
   {
     "q": "Which of the following is a valid use of the `Array.prototype.toSpliced` method?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "[1, 2, 3].toSpliced(1, 1, 4, 5); // [1, 4, 5, 3]",
       "[1, 2, 3].toSpliced(1); // removes all elements after index 1",
       "[1, 2, 3].toSpliced(-1); // throws RangeError",
@@ -1503,8 +1482,7 @@
   {
     "q": "Which of the following is a valid use of the `Array.prototype.toSorted` method with a sparse array?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "[1,,3].toSorted() // [1, 3, undefined]",
       "[1,,3].toSorted() // [1, 3, empty]",
       "[1,,3].toSorted() // throws Error",
@@ -1525,8 +1503,7 @@
   {
     "q": "Which of the following is NOT a valid use of the `Intl.DisplayNames` API?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "new Intl.DisplayNames('en', {type: 'emoji'}).of('👍')",
       "new Intl.DisplayNames('en', {type: 'language'}).of('en-US')",
       "new Intl.DisplayNames('en', {type: 'region'}).of('US')",
@@ -1547,8 +1524,7 @@
   {
     "q": "Which of the following is a valid use of the `Array.prototype.findLast` method with objects?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "[{id:1}, {id:2}].findLast(obj => obj.id > 1) // {id:2}",
       "[{id:1}, {id:2}].findLast('id') // undefined",
       "[{id:1}, {id:2}].findLast() // throws Error",
@@ -1569,8 +1545,7 @@
   {
     "q": "Which of the following is NOT a valid use of the `Intl.Locale` API?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "new Intl.Locale('en-US').getCalendars()",
       "new Intl.Locale('en-US').hourCycle",
       "new Intl.Locale('en-US').maximize()",
@@ -1591,8 +1566,7 @@
   {
     "q": "Which of the following is a valid use of the `Array.prototype.toSpliced` method with negative indices?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "[1,2,3].toSpliced(-2, 1) // [1,3]",
       "[1,2,3].toSpliced(-1) // throws Error",
       "[1,2,3].toSpliced(-4) // returns empty array",
@@ -1613,8 +1587,7 @@
   {
     "q": "Which of the following is NOT a valid use of the `Intl.supportedValuesOf` function?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "Intl.supportedValuesOf('locale')",
       "Intl.supportedValuesOf('currency')",
       "Intl.supportedValuesOf('timeZone')",
@@ -1635,8 +1608,7 @@
   {
     "q": "Which of the following is a valid use of the `Array.prototype.groupByToMap` method?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "[1,2,3].groupByToMap(x => x % 2 === 0 ? 'even' : 'odd')",
       "[1,2,3].groupByToMap('even')",
       "[1,2,3].groupByToMap()",
@@ -1668,8 +1640,7 @@
   {
     "q": "Which of the following is a valid use of the new `Array.prototype.toSorted` method with a custom compare function?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "[3,1,2].toSorted((a,b) => a - b) // [1,2,3]",
       "[3,1,2].toSorted('asc') // throws Error",
       "[3,1,2].toSorted(null) // returns same array",
@@ -1690,8 +1661,7 @@
   {
     "q": "Which of the following is NOT a valid use of the `Intl.Segmenter` API?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "new Intl.Segmenter('en').segment(12345)",
       "new Intl.Segmenter('en', {granularity:'word'}).segment('Hello world')",
       "Array.from(new Intl.Segmenter('en').segment('hello'))",
@@ -1712,8 +1682,7 @@
   {
     "q": "Which of the following is a valid use of the `Array.prototype.toSpliced` method with negative indices?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "[1,2,3].toSpliced(-2,1,4) // [1,4,3]",
       "[1,2,3].toSpliced(-1) // throws Error",
       "[1,2,3].toSpliced(-4) // returns empty array",
@@ -1734,8 +1703,7 @@
   {
     "q": "Which of the following is NOT a valid use of the `Intl.NumberFormat` v3 API?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "new Intl.NumberFormat('en', {roundingIncrement: 3}).format(10)",
       "new Intl.NumberFormat('en', {trailingZeroDisplay:'auto'}).format(1.0)",
       "new Intl.NumberFormat('en', {roundingMode:'expand'}).format(1.5)",
@@ -1756,8 +1724,7 @@
   {
     "q": "Which of the following is a valid use of the `Array.prototype.groupByToMap` method?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "[1,2,3].groupByToMap(x => x % 2 ? 'odd':'even')",
       "[1,2,3].groupByToMap('odd')",
       "[1,2,3].groupByToMap()",
@@ -1778,8 +1745,7 @@
   {
     "q": "Which of the following is NOT a valid use of the `Intl.DurationFormat` API?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "new Intl.DurationFormat('en').format(Promise.resolve({hours:2}))",
       "new Intl.DurationFormat('en').format({hours:2,minutes:30})",
       "new Intl.DurationFormat('en',{style:'long'}).format({seconds:45})",
@@ -1800,8 +1766,7 @@
   {
     "q": "Which of the following is a valid use of the `Array.prototype.with` method?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "[1,2,3].with(1,4) // [1,4,3]",
       "[1,2,3].with(-1,4) // throws Error",
       "[1,2,3].with(3,4) // [1,2,3,4]",
@@ -1833,8 +1798,7 @@
   {
     "q": "Which of the following is a valid use of the Import Attributes proposal?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "import json from './data.json' with { type: 'json' };",
       "import json from './data.json' using 'json';",
       "import json from './data.json' assert { type: 'json' };",
@@ -1855,8 +1819,7 @@
   {
     "q": "Which of the following is NOT a valid use of the CSSOM View API?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "window.scrollTo({ top: 0, behavior: 'instant' });",
       "element.scrollIntoView({ block: 'nearest' });",
       "window.matchMedia('(prefers-color-scheme: dark)').matches;",
@@ -1877,8 +1840,7 @@
   {
     "q": "Which of the following is a valid use of the Web Locks API?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "navigator.locks.request('resource', async lock => {});",
       "window.requestLock('resource', () => {});",
       "document.lock('resource', { mode: 'exclusive' });",
@@ -1899,8 +1861,7 @@
   {
     "q": "Which of the following is NOT a valid use of the Web Animations API?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "element.animate({ opacity: [0, 1] }, 1000).reverse();",
       "document.timeline.getAnimations();",
       "new Animation(new KeyframeEffect(element, { opacity: [0, 1] }));",
@@ -1921,8 +1882,7 @@
   {
     "q": "Which of the following is a valid use of the EyeDropper API?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "new EyeDropper().open().then(result => console.log(result.sRGBHex));",
       "navigator.eyeDropper.pickColor().then(console.log);",
       "window.selectColor().then(hexValue => {});",
@@ -1943,8 +1903,7 @@
   {
     "q": "Which of the following is NOT a valid use of the WebCodecs API?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "new VideoEncoder({ output: frame => {} });",
       "new AudioDecoder({ output: sample => {} });",
       "new ImageDecoder({ type: 'image/png' });",
@@ -1965,8 +1924,7 @@
   {
     "q": "Which of the following is a valid use of the File System Access API?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "window.showSaveFilePicker().then(handle => {});",
       "navigator.filesystem.save(new Blob());",
       "document.saveToDisk('file.txt', 'content');",
@@ -1998,8 +1956,7 @@
   {
     "q": "Which of the following is a valid use of the new `Array.prototype.groupByToMap` method?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "[1,2,3].groupByToMap(x => x % 2 ? 'odd' : 'even')",
       "[1,2,3].groupByToMap('odd')",
       "[1,2,3].groupByToMap()",
@@ -2020,8 +1977,7 @@
   {
     "q": "Which of the following is NOT a valid use of the `Intl.DurationFormat` API?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "new Intl.DurationFormat('en').format(Promise.resolve({hours: 2}))",
       "new Intl.DurationFormat('en').format({hours: 2, minutes: 30})",
       "new Intl.DurationFormat('en', {style: 'long'}).format({seconds: 45})",
@@ -2042,8 +1998,7 @@
   {
     "q": "Which of the following is a valid use of the `Array.prototype.toSpliced` method with negative indices?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "[1,2,3].toSpliced(-2, 1, 4) // [1,4,3]",
       "[1,2,3].toSpliced(-1) // throws Error",
       "[1,2,3].toSpliced(-4) // returns empty array",
@@ -2064,8 +2019,7 @@
   {
     "q": "Which of the following is NOT a valid use of the `Intl.NumberFormat` v3 API?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "new Intl.NumberFormat('en', {roundingIncrement: 3}).format(10)",
       "new Intl.NumberFormat('en', {trailingZeroDisplay: 'auto'}).format(1.0)",
       "new Intl.NumberFormat('en', {roundingMode: 'expand'}).format(1.5)",
@@ -2086,8 +2040,7 @@
   {
     "q": "Which of the following is a valid use of the `Array.prototype.with` method?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "[1,2,3].with(1, 4) // [1,4,3]",
       "[1,2,3].with(-1, 4) // throws Error",
       "[1,2,3].with(3, 4) // [1,2,3,4]",
@@ -2108,8 +2061,7 @@
   {
     "q": "Which of the following is NOT a valid use of the `Intl.supportedValuesOf` function?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "Intl.supportedValuesOf('locale')",
       "Intl.supportedValuesOf('currency')",
       "Intl.supportedValuesOf('timeZone')",
@@ -2130,8 +2082,7 @@
   {
     "q": "Which of the following is a valid use of the `Array.prototype.toReversed` method?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "[1,2,3].toReversed() // [3,2,1]",
       "[1,2,3].toReversed('desc') // throws Error",
       "[1,2,3].toReversed(null) // returns same array",
@@ -2163,8 +2114,7 @@
   {
     "q": "Which of the following is a valid use of the new `Array.prototype.findLastIndex` method?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "[1, 2, 3, 2].findLastIndex(x => x === 2) // returns 3",
       "[1, 2, 3].findLastIndex(2) // returns 1",
       "[1, 2, 3].findLastIndex() // returns -1",
@@ -2185,8 +2135,7 @@
   {
     "q": "Which of the following is NOT a valid use of the `Intl.NumberFormat` v3 API's new rounding options?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "new Intl.NumberFormat('en', {roundingPriority: 'morePrecision'})",
       "new Intl.NumberFormat('en', {roundingIncrement: 5})",
       "new Intl.NumberFormat('en', {roundingMode: 'halfExpand'})",
@@ -2207,8 +2156,7 @@
   {
     "q": "Which of the following is a valid use of the `Intl.Segmenter` API to count graphemes?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "const segmenter = new Intl.Segmenter('en', {granularity: 'grapheme'});\n[...segmenter.segment('👨‍👩‍👧‍👦')].length",
       "new Intl.Segmenter('en').countGraphemes('text')",
       "Intl.segment('en', 'text', {unit: 'grapheme'})",
@@ -2229,8 +2177,7 @@
   {
     "q": "Which of the following is NOT a valid use of the `Intl.Locale` API?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "new Intl.Locale('en-US').getCalendars()",
       "new Intl.Locale('en-US').hourCycle",
       "new Intl.Locale('en-US').maximize()",
@@ -2251,8 +2198,7 @@
   {
     "q": "Which of the following is a valid use of the `Intl.DisplayNames` API for region names?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "new Intl.DisplayNames('en', {type: 'region'}).of('US')",
       "new Intl.DisplayNames('en').getRegionName('US')",
       "Intl.getRegionDisplayName('en', 'US')",
@@ -2273,8 +2219,7 @@
   {
     "q": "Which of the following is NOT a valid use of the `Intl.supportedValuesOf` function?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "Intl.supportedValuesOf('locale')",
       "Intl.supportedValuesOf('calendar')",
       "Intl.supportedValuesOf('numberingSystem')",
@@ -2295,8 +2240,7 @@
   {
     "q": "Which of the following is a valid use of the `Intl.RelativeTimeFormat` API with numeric: 'auto'?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "new Intl.RelativeTimeFormat('en', {numeric: 'auto'}).format(1, 'day')",
       "new Intl.RelativeTimeFormat('en').formatAuto(1, 'day')",
       "Intl.formatRelativeTime('en', 1, 'day', {numeric: 'auto'})",
@@ -2328,8 +2272,7 @@
   {
     "q": "Which of the following is a valid use of the new `Array.prototype.toSorted` method with a sparse array?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "[1,,3].toSorted() // [1, 3, undefined]",
       "[1,,3].toSorted() // [1, 3, empty]",
       "[1,,3].toSorted() // throws Error",
@@ -2350,8 +2293,7 @@
   {
     "q": "Which of the following is NOT a valid use of the `Intl.NumberFormat` v3 API's new rounding options?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "new Intl.NumberFormat('en', {roundingPriority: 'morePrecision'})",
       "new Intl.NumberFormat('en', {roundingIncrement: 5})",
       "new Intl.NumberFormat('en', {roundingMode: 'halfExpand'})",
@@ -2372,8 +2314,7 @@
   {
     "q": "Which of the following is a valid use of the `Array.prototype.groupByToMap` method?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "[1,2,3].groupByToMap(x => x % 2 ? 'odd':'even')",
       "[1,2,3].groupByToMap('odd')",
       "[1,2,3].groupByToMap()",
@@ -2394,8 +2335,7 @@
   {
     "q": "Which of the following is NOT a valid use of the `Intl.DurationFormat` API?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "new Intl.DurationFormat('en').format(Promise.resolve({hours:2}))",
       "new Intl.DurationFormat('en').format({hours:2,minutes:30})",
       "new Intl.DurationFormat('en',{style:'long'}).format({seconds:45})",
@@ -2416,8 +2356,7 @@
   {
     "q": "Which of the following is a valid use of the `Array.prototype.with` method?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "[1,2,3].with(1,4) // [1,4,3]",
       "[1,2,3].with(-1,4) // throws Error",
       "[1,2,3].with(3,4) // [1,2,3,4]",
@@ -2438,8 +2377,7 @@
   {
     "q": "Which of the following is NOT a valid use of the `Intl.supportedValuesOf` function?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "Intl.supportedValuesOf('locale')",
       "Intl.supportedValuesOf('currency')",
       "Intl.supportedValuesOf('timeZone')",
@@ -2460,8 +2398,7 @@
   {
     "q": "Which of the following is a valid use of the `Array.prototype.toReversed` method?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "[1,2,3].toReversed() // [3,2,1]",
       "[1,2,3].toReversed('desc') // throws Error",
       "[1,2,3].toReversed(null) // returns same array",
@@ -2493,8 +2430,7 @@
   {
     "q": "Which of the following is a valid use of the Import Attributes proposal?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "import json from './data.json' with { type: 'json' };",
       "import json from './data.json' using 'json';",
       "import json from './data.json' assert { type: 'json' };",
@@ -2515,8 +2451,7 @@
   {
     "q": "Which of the following is NOT a valid use of the CSSOM View API?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "window.scrollTo({ top: 0, behavior: 'instant' });",
       "element.scrollIntoView({ block: 'nearest' });",
       "window.matchMedia('(prefers-color-scheme: dark)').matches;",
@@ -2537,8 +2472,7 @@
   {
     "q": "Which of the following is a valid use of the Web Locks API?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "navigator.locks.request('resource', async lock => {});",
       "window.requestLock('resource', () => {});",
       "document.lock('resource', { mode: 'exclusive' });",
@@ -2559,8 +2493,7 @@
   {
     "q": "Which of the following is NOT a valid use of the Web Animations API?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "element.animate({ opacity: [0, 1] }, 1000).reverse();",
       "document.timeline.getAnimations();",
       "new Animation(new KeyframeEffect(element, { opacity: [0, 1] }));",
@@ -2581,8 +2514,7 @@
   {
     "q": "Which of the following is a valid use of the EyeDropper API?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "new EyeDropper().open().then(result => console.log(result.sRGBHex));",
       "navigator.eyeDropper.pickColor().then(console.log);",
       "window.selectColor().then(hexValue => {});",
@@ -2603,8 +2535,7 @@
   {
     "q": "Which of the following is NOT a valid use of the WebCodecs API?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "new VideoEncoder({ output: frame => {} });",
       "new AudioDecoder({ output: sample => {} });",
       "new ImageDecoder({ type: 'image/png' });",
@@ -2625,8 +2556,7 @@
   {
     "q": "Which of the following is a valid use of the File System Access API?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "window.showSaveFilePicker().then(handle => {});",
       "navigator.filesystem.save(new Blob());",
       "document.saveToDisk('file.txt', 'content');",
@@ -2658,8 +2588,7 @@
   {
     "q": "Which of the following is a valid use of the new `Intl.DurationFormat` API?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "new Intl.DurationFormat('en').format({hours: 2, minutes: 30})",
       "new Intl.DurationFormat('en').format(9000)",
       "Intl.formatDuration('en', {seconds: 45})",
@@ -2680,8 +2609,7 @@
   {
     "q": "Which of the following is NOT a valid use of the `Array.prototype.with` method?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "[1,2,3].with(1.5, 4)",
       "[1,2,3].with(1, 4)",
       "[1,2,3].with(-1, 4)",
@@ -2702,8 +2630,7 @@
   {
     "q": "Which of the following is a valid use of the `AudioWorklet` API?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "audioContext.audioWorklet.addModule('processor.js')",
       "new AudioWorklet('processor.js')",
       "navigator.audioWorklet.registerProcessor()",
@@ -2724,8 +2651,7 @@
   {
     "q": "Which of the following is NOT a valid use of the `Permissions` API?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "navigator.permissions.set('camera', 'granted')",
       "navigator.permissions.query({name: 'geolocation'})",
       "navigator.permissions.request('notifications')",
@@ -2746,8 +2672,7 @@
   {
     "q": "Which of the following is a valid use of the `Sanitizer` API?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "new Sanitizer().sanitizeFor('div', '<script>alert()</script>')",
       "document.sanitizeHTML('<b>safe</b>')",
       "HTMLSanitizer.clean('<i>text</i>')",
@@ -2768,8 +2693,7 @@
   {
     "q": "Which of the following is NOT a valid use of the `WebTransport` API?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "new WebTransport('https://example.com').send(data)",
       "new WebTransport('https://example.com').createBidirectionalStream()",
       "new WebTransport('https://example.com').ready",
@@ -2790,8 +2714,7 @@
   {
     "q": "Which of the following is a valid use of the `WebAssembly.Global` API?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "new WebAssembly.Global({value: 'i32', mutable: true}, 0)",
       "WebAssembly.createGlobal('i32', 42)",
       "new WasmGlobal('i32', false, 100)",
@@ -2812,8 +2735,7 @@
   {
     "q": "Which of the following is a valid use of the new `Array.prototype.groupByToMap` method?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "[1,2,3].groupByToMap(x => x % 2 ? 'odd' : 'even')",
       "[1,2,3].groupByToMap('odd')",
       "[1,2,3].groupByToMap()",
@@ -2834,8 +2756,7 @@
   {
     "q": "Which of the following is NOT a valid use of the `Intl.NumberFormat` v3 API?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "new Intl.NumberFormat('en', {roundingIncrement: 7})",
       "new Intl.NumberFormat('en', {trailingZeroDisplay: 'stripIfInteger'})",
       "new Intl.NumberFormat('en', {roundingMode: 'halfExpand'})",
@@ -2856,8 +2777,7 @@
   {
     "q": "Which of the following is a valid use of the `Array.prototype.toSpliced` method?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "[1,2,3].toSpliced(1,1,4) // [1,4,3]",
       "[1,2,3].toSpliced(1) // throws Error",
       "[1,2,3].toSpliced(-1) // returns empty array",
@@ -2878,8 +2798,7 @@
   {
     "q": "Which of the following is NOT a valid use of the `Intl.supportedValuesOf` function?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "Intl.supportedValuesOf('locale')",
       "Intl.supportedValuesOf('calendar')",
       "Intl.supportedValuesOf('numberingSystem')",
@@ -2900,8 +2819,7 @@
   {
     "q": "Which of the following is a valid use of the `Array.prototype.with` method?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "[1,2,3].with(1,4) // [1,4,3]",
       "[1,2,3].with(-1,4) // throws Error",
       "[1,2,3].with(3,4) // [1,2,3,4]",
@@ -2922,8 +2840,7 @@
   {
     "q": "Which of the following is a valid use of the `Intl.DisplayNames` API for region names?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "new Intl.DisplayNames('en', {type: 'region'}).of('US')",
       "new Intl.DisplayNames('en').getRegionName('US')",
       "Intl.getRegionDisplayName('en', 'US')",
@@ -2944,8 +2861,7 @@
   {
     "q": "Which of the following is NOT a valid use of the `Intl.Locale` API?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "new Intl.Locale('en-US').getCalendars()",
       "new Intl.Locale('en-US').hourCycle",
       "new Intl.Locale('en-US').maximize()",
@@ -2966,8 +2882,7 @@
   {
     "q": "What is the correct way to declare a variable in JavaScript?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "let x = 10;",
       "variable x = 10;",
       "x := 10;",
@@ -2988,8 +2903,7 @@
   {
     "q": "Which data type in JavaScript is used to store a collection of key-value pairs?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "Object",
       "Array",
       "String",
@@ -3010,8 +2924,7 @@
   {
     "q": "Which operator is used for strict equality comparison in JavaScript?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "===",
       "==",
       "=",
@@ -3032,8 +2945,7 @@
   {
     "q": "Which of the following is NOT a valid JavaScript data type?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "Character",
       "Boolean",
       "Symbol",
@@ -3054,8 +2966,7 @@
   {
     "q": "Which keyword is used to declare a constant variable in JavaScript?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "const",
       "let",
       "var",
@@ -3076,8 +2987,7 @@
   {
     "q": "Which keyword is used to define a function in JavaScript?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "function",
       "def",
       "fn",
@@ -3098,8 +3008,7 @@
   {
     "q": "Which of the following is NOT a valid way to declare a variable in JavaScript?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "const myVar;",
       "let myVar = 5;",
       "var myVar = 'Hello';",
@@ -3120,8 +3029,7 @@
   {
     "q": "Which of the following symbols is used for single-line comments in JavaScript?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "//",
       "#",
       "/* */",
@@ -3142,8 +3050,7 @@
   {
     "q": "Which of the following is a falsy value in JavaScript?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "0",
       "1",
       "'false'",
@@ -3164,8 +3071,7 @@
   {
     "q": "Which operator is used to check both value and type in JavaScript?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "===",
       "==",
       "!=",
@@ -3186,8 +3092,7 @@
   {
     "q": "Which statement is used to exit a loop in JavaScript?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "break",
       "exit",
       "stop",
@@ -3208,8 +3113,7 @@
   {
     "q": "Which operator is used to assign a value to a variable in JavaScript?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "=",
       "==",
       ":=",
@@ -3230,8 +3134,7 @@
   {
     "q": "Which JavaScript method can be used to convert a string into an integer?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "parseInt()",
       "toInteger()",
       "int()",
@@ -3252,8 +3155,7 @@
   {
     "q": "Which of the following values is considered truthy in JavaScript?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "'false'",
       "0",
       "null",
@@ -3274,8 +3176,7 @@
   {
     "q": "Which of the following is NOT a valid JavaScript variable name?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "2value",
       "_value",
       "$value",
@@ -3296,8 +3197,7 @@
   {
     "q": "Which keyword is used to declare a block-scoped variable in JavaScript?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "let",
       "var",
       "const",
@@ -3318,8 +3218,7 @@
   {
     "q": "Which function is used to print something in the console in JavaScript?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "console.log()",
       "print()",
       "log()",
@@ -3340,8 +3239,7 @@
   {
     "q": "Which symbol is used to represent the ternary operator in JavaScript?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "?:",
       "??",
       "=>",
@@ -3362,8 +3260,7 @@
   {
     "q": "Which built-in function is used to convert a number to a string in JavaScript?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "toString()",
       "String()",
       "convertToString()",
@@ -3384,8 +3281,7 @@
   {
     "q": "Which statement is used to handle exceptions in JavaScript?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "try...catch",
       "catch...try",
       "error...catch",
@@ -3406,8 +3302,7 @@
   {
     "q": "Which data type is NOT primitive in JavaScript?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "Object",
       "Number",
       "Boolean",
@@ -3428,8 +3323,7 @@
   {
     "q": "Which of the following is NOT a valid way to define a function in JavaScript?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "function myFunc() {}",
       "const myFunc = function() {};",
       "let myFunc = () => {};",
@@ -3450,8 +3344,7 @@
   {
     "q": "Which of the following statements is true about JavaScript?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "JavaScript is a loosely typed language.",
       "JavaScript requires variable types to be declared explicitly.",
       "JavaScript does not support asynchronous programming.",
@@ -3472,8 +3365,7 @@
   {
     "q": "Which of the following is NOT a valid JavaScript operator?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "%%",
       "===",
       "!==",
@@ -3494,8 +3386,7 @@
   {
     "q": "Which method is used to remove the last element from an array in JavaScript?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "pop()",
       "shift()",
       "remove()",
@@ -3516,8 +3407,7 @@
   {
     "q": "Which keyword is used to declare a constant variable in JavaScript?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "const",
       "let",
       "var",
@@ -3538,8 +3428,7 @@
   {
     "q": "Which built-in method is used to round a number to the nearest integer in JavaScript?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "Math.round()",
       "Math.floor()",
       "Math.ceil()",
@@ -3560,8 +3449,7 @@
   {
     "q": "Which of the following is NOT a falsy value in JavaScript?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "'false'",
       "0",
       "null",
@@ -3582,8 +3470,7 @@
   {
     "q": "Which of the following symbols is used to define a template literal in JavaScript?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "``",
       "''",
       "\"\"",
@@ -3604,8 +3491,7 @@
   {
     "q": "Which of the following methods is used to check if an array contains a specific value in JavaScript?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "includes()",
       "contains()",
       "has()",
@@ -3626,8 +3512,7 @@
   {
     "q": "Which statement is true about 'var', 'let', and 'const' in JavaScript?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "'var' is function-scoped, while 'let' and 'const' are block-scoped.",
       "'var' and 'let' are block-scoped, while 'const' is function-scoped.",
       "All three are function-scoped.",
@@ -3648,8 +3533,7 @@
   {
     "q": "Which of the following is NOT a valid JavaScript data type?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "character",
       "number",
       "boolean",
@@ -3670,8 +3554,7 @@
   {
     "q": "Which operator is used for optional chaining in JavaScript?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "?.",
       "??",
       "||",
@@ -3692,8 +3575,7 @@
   {
     "q": "Which of the following array methods is used to remove the first element of an array?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "shift()",
       "pop()",
       "splice()",
@@ -3714,8 +3596,7 @@
   {
     "q": "Which statement correctly describes '===' in JavaScript?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "It checks both value and type equality.",
       "It only checks value equality.",
       "It performs type conversion before comparing.",
@@ -3736,8 +3617,7 @@
   {
     "q": "Which of the following correctly declares a variable in JavaScript?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "let x = 10;",
       "variable x = 10;",
       "const x;",
@@ -3758,8 +3638,7 @@
   {
     "q": "Which of the following symbols is used to perform the exponentiation operation in JavaScript?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "**",
       "^",
       "^^",
@@ -3780,8 +3659,7 @@
   {
     "q": "Which of the following JavaScript values is considered falsy?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "0",
       "[]",
       "{}",
@@ -3802,8 +3680,7 @@
   {
     "q": "Which method is used to convert a string into an integer in JavaScript?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "parseInt()",
       "toInteger()",
       "int()",
@@ -3824,8 +3701,7 @@
   {
     "q": "Which of the following JavaScript operators is used for nullish coalescing?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "??",
       "||",
       "&&",
@@ -3857,8 +3733,7 @@
   {
     "q": "Which of the following is NOT a valid way to declare a function in JavaScript?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "def myFunction() {}",
       "function myFunction() {}",
       "const myFunction = function() {};",
@@ -3879,8 +3754,7 @@
   {
     "q": "Which statement about JavaScript objects is true?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "Objects store key-value pairs.",
       "Objects can only store numbers and strings.",
       "Objects must be created using the 'new' keyword.",
@@ -3901,8 +3775,7 @@
   {
     "q": "Which of the following is NOT a valid primitive data type in JavaScript?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "array",
       "boolean",
       "string",
@@ -3923,8 +3796,7 @@
   {
     "q": "Which JavaScript operator is used to check both value and type equality?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "===",
       "==",
       "=",
@@ -3945,8 +3817,7 @@
   {
     "q": "Which method is used to convert a JavaScript object into a JSON string?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "JSON.stringify()",
       "JSON.parse()",
       "toJSON()",
@@ -3967,8 +3838,7 @@
   {
     "q": "Which keyword is used to define a constant variable in JavaScript?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "const",
       "var",
       "let",
@@ -3989,8 +3859,7 @@
   {
     "q": "Which of the following correctly represents the logical AND operator in JavaScript?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "&&",
       "&",
       "AND",
@@ -4011,8 +3880,7 @@
   {
     "q": "Which of the following values is considered truthy in JavaScript?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "\"0\"",
       "0",
       "null",
@@ -4033,8 +3901,7 @@
   {
     "q": "Which function is used to execute a piece of code after a specified delay in JavaScript?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "setTimeout()",
       "setInterval()",
       "delay()",
@@ -4055,8 +3922,7 @@
   {
     "q": "Which of the following statements about JavaScript arrays is true?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "Arrays can hold mixed data types.",
       "Arrays have a fixed size in JavaScript.",
       "Arrays must contain only numbers.",
@@ -4077,8 +3943,7 @@
   {
     "q": "Which JavaScript operator is used to check if a value is NOT equal to another value, considering type?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "!==",
       "!=",
       "==",
@@ -4099,8 +3964,7 @@
   {
     "q": "Which of the following is NOT a valid JavaScript variable name?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "2variable",
       "_variable",
       "$variable",
@@ -4121,8 +3985,7 @@
   {
     "q": "Which of the following methods removes the last element from an array and returns it?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "pop()",
       "shift()",
       "slice()",
@@ -4143,8 +4006,7 @@
   {
     "q": "Which method is used to convert a string into an integer in JavaScript?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "parseInt()",
       "Number()",
       "toFixed()",
@@ -4165,8 +4027,7 @@
   {
     "q": "Which of the following statements about JavaScript functions is true?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "A function can return another function.",
       "Functions must always have parameters.",
       "Functions cannot be assigned to variables.",
@@ -4187,8 +4048,7 @@
   {
     "q": "Which of the following is NOT a primitive data type in JavaScript?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "Object",
       "String",
       "Boolean",
@@ -4209,8 +4069,7 @@
   {
     "q": "Which method is used to merge two or more arrays in JavaScript?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "concat()",
       "push()",
       "merge()",
@@ -4231,8 +4090,7 @@
   {
     "q": "Which operator in JavaScript is used to check both value and type equality?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "===",
       "==",
       "=",
@@ -4253,8 +4111,7 @@
   {
     "q": "Which function can be used to execute a function repeatedly at a fixed time interval?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "setInterval()",
       "setTimeout()",
       "clearInterval()",
@@ -4275,8 +4132,7 @@
   {
     "q": "Which statement about JavaScript 'let' and 'var' is true?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "'let' has block scope while 'var' has function scope.",
       "'let' and 'var' have the same scope.",
       "'var' is block-scoped while 'let' is function-scoped.",
@@ -4297,8 +4153,7 @@
   {
     "q": "Which keyword is used to declare a constant variable in JavaScript?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "const",
       "let",
       "var",
@@ -4319,8 +4174,7 @@
   {
     "q": "Which method is used to remove the first element from an array in JavaScript?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "shift()",
       "pop()",
       "slice()",
@@ -4341,8 +4195,7 @@
   {
     "q": "Which of the following values is considered falsy in JavaScript?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "0",
       "1",
       "'false'",
@@ -4363,8 +4216,7 @@
   {
     "q": "Which function is used to execute a function once after a specified delay?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "setTimeout()",
       "setInterval()",
       "clearTimeout()",
@@ -4385,8 +4237,7 @@
   {
     "q": "Which symbol is used to define an arrow function in JavaScript?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "=>",
       "->",
       ":>",
@@ -4407,8 +4258,7 @@
   {
     "q": "Which operator is used to check if a property exists in an object?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "in",
       "exists",
       "has",
@@ -4429,8 +4279,7 @@
   {
     "q": "Which function is used to convert a string to an integer in JavaScript?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "parseInt()",
       "toInteger()",
       "convertToInt()",
@@ -4451,8 +4300,7 @@
   {
     "q": "Which of the following is a valid way to declare a variable in JavaScript?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "let x = 10;",
       "variable x = 10;",
       "var x : 10;",
@@ -4473,8 +4321,7 @@
   {
     "q": "Which method is used to convert an array into a string in JavaScript?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "join()",
       "concat()",
       "split()",
@@ -4495,8 +4342,7 @@
   {
     "q": "Which statement about JavaScript closures is true?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "A closure allows a function to remember variables from its outer scope even after the function has finished executing.",
       "Closures are only used in asynchronous JavaScript.",
       "A closure is another name for a callback function.",
@@ -4517,8 +4363,7 @@
   {
     "q": "Which of the following is NOT a JavaScript data type?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "Character",
       "Number",
       "Boolean",
@@ -4539,8 +4384,7 @@
   {
     "q": "Which keyword is used to define a block scope variable in JavaScript?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "let",
       "var",
       "const",
@@ -4561,8 +4405,7 @@
   {
     "q": "Which of the following is the correct way to check if a variable is an array?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "Array.isArray(varName)",
       "typeof varName === 'array'",
       "varName instanceof array",
@@ -4583,8 +4426,7 @@
   {
     "q": "Which method is used to add an element to the end of an array?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "push()",
       "unshift()",
       "append()",
@@ -4605,8 +4447,7 @@
   {
     "q": "Which symbol is used to perform strict equality comparison in JavaScript?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "===",
       "==",
       "=>",
@@ -4627,8 +4468,7 @@
   {
     "q": "Which of the following is a falsy value in JavaScript?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "0",
       "[]",
       "'false'",
@@ -4649,8 +4489,7 @@
   {
     "q": "Which operator can be used to merge two objects in JavaScript?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "Object.assign()",
       "merge()",
       "concat()",
@@ -4671,8 +4510,7 @@
   {
     "q": "Which method is used to remove the last element from an array?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "pop()",
       "shift()",
       "splice()",
@@ -4693,8 +4531,7 @@
   {
     "q": "Which built-in object is used to work with dates and times in JavaScript?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "Date",
       "Time",
       "Clock",
@@ -4715,8 +4552,7 @@
   {
     "q": "Which loop is best suited for iterating over object properties?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "for...in",
       "for...of",
       "while",
@@ -4737,8 +4573,7 @@
   {
     "q": "Which keyword is used to declare a constant variable in JavaScript?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "const",
       "let",
       "var",
@@ -4759,8 +4594,7 @@
   {
     "q": "Which method converts a JSON string into a JavaScript object?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "JSON.parse()",
       "JSON.stringify()",
       "JSON.toObject()",
@@ -4781,8 +4615,7 @@
   {
     "q": "Which of the following is NOT a valid JavaScript variable name?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "2name",
       "_name",
       "$value",
@@ -4803,8 +4636,7 @@
   {
     "q": "Which symbol is used for the ternary operator in JavaScript?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "? :",
       "??",
       "->",
@@ -4825,8 +4657,7 @@
   {
     "q": "Which of the following values is considered 'truthy' in JavaScript?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "'0'",
       "0",
       "null",
@@ -4847,8 +4678,7 @@
   {
     "q": "Which statement is used to exit a loop in JavaScript?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "break",
       "exit",
       "return",
@@ -4869,8 +4699,7 @@
   {
     "q": "Which of the following is a correct way to declare an arrow function?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "const add = (a, b) => a + b;",
       "const add => (a, b) { return a + b; }",
       "const add = (a, b) : a + b;",
@@ -4891,8 +4720,7 @@
   {
     "q": "Which method is used to add a new element to the beginning of an array?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "unshift()",
       "push()",
       "append()",
@@ -4913,8 +4741,7 @@
   {
     "q": "Which keyword is used to define a block of code that handles exceptions?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "try",
       "catch",
       "finally",
@@ -4935,8 +4762,7 @@
   {
     "q": "Which operator is used to check if a property exists in an object?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "\"in\"",
       "\"has\"",
       "\"exists\"",
@@ -4957,8 +4783,7 @@
   {
     "q": "Which of the following is NOT a JavaScript primitive data type?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "Object",
       "String",
       "Boolean",
@@ -4979,8 +4804,7 @@
   {
     "q": "Which method is used to remove the last element from an array?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "pop()",
       "shift()",
       "splice()",
@@ -5001,8 +4825,7 @@
   {
     "q": "Which operator is used to perform exponentiation in JavaScript?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "**",
       "^",
       "exp()",
@@ -5023,8 +4846,7 @@
   {
     "q": "Which function is used to convert a string into an integer in JavaScript?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "parseInt()",
       "parseFloat()",
       "Number()",
@@ -5045,8 +4867,7 @@
   {
     "q": "Which of the following is the correct way to declare a block-scoped variable in JavaScript?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "let x = 5;",
       "var x = 5;",
       "const x;",
@@ -5067,8 +4888,7 @@
   {
     "q": "Which of the following is the correct way to declare a constant in JavaScript?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "const PI = 3.14;",
       "let PI = 3.14;",
       "var PI = 3.14;",
@@ -5089,8 +4909,7 @@
   {
     "q": "Which method can be used to convert a JSON string into a JavaScript object?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "JSON.parse()",
       "JSON.stringify()",
       "parseJSON()",
@@ -5111,8 +4930,7 @@
   {
     "q": "Which of the following values is considered a falsy value in JavaScript?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "0",
       "\"0\"",
       "\"false\"",
@@ -5133,8 +4951,7 @@
   {
     "q": "Which method is used to check if a string contains a certain substring?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "includes()",
       "contains()",
       "has()",
@@ -5155,8 +4972,7 @@
   {
     "q": "Which of the following is NOT a valid JavaScript variable name?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "2value",
       "_value",
       "$value",
@@ -5177,8 +4993,7 @@
   {
     "q": "Which keyword is used to define a function in JavaScript?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "function",
       "def",
       "func",
@@ -5199,8 +5014,7 @@
   {
     "q": "Which of the following is the correct way to declare an arrow function?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "const add = (a, b) => a + b;",
       "const add = function(a, b) => a + b;",
       "const add = (a, b) { return a + b; };",
@@ -5221,8 +5035,7 @@
   {
     "q": "Which built-in object allows you to work with dates and times in JavaScript?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "Date",
       "Time",
       "Clock",
@@ -5243,8 +5056,7 @@
   {
     "q": "Which operator is used to check both value and type equality in JavaScript?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "===",
       "==",
       "=",
@@ -5265,8 +5077,7 @@
   {
     "q": "Which method is used to remove whitespace from both sides of a string?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "trim()",
       "strip()",
       "clean()",
@@ -5287,8 +5098,7 @@
   {
     "q": "Which statement is used to stop the execution of a loop in JavaScript?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "break",
       "continue",
       "exit",
@@ -5309,8 +5119,7 @@
   {
     "q": "Which of the following is NOT a primitive data type in JavaScript?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "Array",
       "String",
       "Boolean",
@@ -5331,8 +5140,7 @@
   {
     "q": "Which of the following statements correctly declares an object in JavaScript?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "const obj = { name: 'Alice', age: 25 };",
       "const obj = [ name: 'Alice', age: 25 ];",
       "const obj = ( name: 'Alice', age: 25 );",
@@ -5353,8 +5161,7 @@
   {
     "q": "Which of the following is used to merge two arrays in JavaScript?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "concat()",
       "merge()",
       "combine()",
@@ -5375,8 +5182,7 @@
   {
     "q": "Which method is used to remove the last element from an array in JavaScript?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "pop()",
       "shift()",
       "slice()",
@@ -5397,8 +5203,7 @@
   {
     "q": "Which keyword is used to declare a block-scoped variable in JavaScript?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "let",
       "var",
       "const",
@@ -5419,8 +5224,7 @@
   {
     "q": "Which operator is used to determine whether a value exists in an array?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "includes()",
       "contains()",
       "has()",
@@ -5441,8 +5245,7 @@
   {
     "q": "Which of the following is NOT a valid way to declare a variable in JavaScript?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "const x = 10;",
       "let x = 10;",
       "var x = 10;",
@@ -5463,8 +5266,7 @@
   {
     "q": "Which of the following methods is used to convert a string into an integer?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "parseInt()",
       "Number()",
       "toFixed()",
@@ -5485,8 +5287,7 @@
   {
     "q": "Which JavaScript method is used to iterate over an array?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "forEach()",
       "map()",
       "loop()",
@@ -5507,8 +5308,7 @@
   {
     "q": "Which of the following is used to check if a variable is an array in JavaScript?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "Array.isArray()",
       "typeof",
       "instanceof",
@@ -5529,8 +5329,7 @@
   {
     "q": "Which JavaScript operator returns the remainder of a division?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "%",
       "/",
       "//",
@@ -5551,8 +5350,7 @@
   {
     "q": "Which of the following is a falsy value in JavaScript?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "0",
       "1",
       "{}",
@@ -5573,8 +5371,7 @@
   {
     "q": "Which method is used to remove the first element from an array?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "shift()",
       "pop()",
       "splice()",
@@ -5595,8 +5392,7 @@
   {
     "q": "Which symbol is used for the strict equality operator in JavaScript?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "===",
       "==",
       "!==",
@@ -5617,8 +5413,7 @@
   {
     "q": "Which of the following is NOT a valid JavaScript data type?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "character",
       "number",
       "boolean",
@@ -5639,8 +5434,7 @@
   {
     "q": "Which of the following is used to convert a value to a string in JavaScript?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "toString()",
       "String()",
       "convertToString()",
@@ -5661,8 +5455,7 @@
   {
     "q": "Which of the following correctly declares a constant variable in JavaScript?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "const x = 10;",
       "let x = 10;",
       "var x = 10;",
@@ -5683,8 +5476,7 @@
   {
     "q": "Which function is used to execute a piece of code after a specified delay?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "setTimeout()",
       "setInterval()",
       "delay()",
@@ -5705,8 +5497,7 @@
   {
     "q": "Which of the following loops is NOT available in JavaScript?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "repeat-until",
       "for",
       "while",
@@ -5727,8 +5518,7 @@
   {
     "q": "Which of the following is the correct way to declare a block-scoped variable?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "let x = 5;",
       "var x = 5;",
       "block x = 5;",
@@ -5749,8 +5539,7 @@
   {
     "q": "Which method is used to convert a JSON string into a JavaScript object?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "JSON.parse()",
       "JSON.stringify()",
       "parseJSON()",
@@ -5771,8 +5560,7 @@
   {
     "q": "Which operator is used to check both value and type equality?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "===",
       "==",
       "=",
@@ -5793,8 +5581,7 @@
   {
     "q": "Which method is used to join all elements of an array into a single string?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "join()",
       "concat()",
       "merge()",
@@ -5815,8 +5602,7 @@
   {
     "q": "Which keyword is used to declare a variable that cannot be reassigned?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "const",
       "let",
       "var",
@@ -5837,8 +5623,7 @@
   {
     "q": "Which of the following is NOT a primitive data type in JavaScript?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "Object",
       "String",
       "Number",
@@ -5859,8 +5644,7 @@
   {
     "q": "Which of the following correctly declares an arrow function?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "const add = (a, b) => a + b;",
       "const add = => (a, b) { return a + b; }",
       "const add = (a, b) => { return a + b }",
@@ -5881,8 +5665,7 @@
   {
     "q": "Which of the following methods removes the last element from an array and returns it?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "pop()",
       "shift()",
       "splice()",
@@ -5903,8 +5686,7 @@
   {
     "q": "Which JavaScript operator is used to determine the data type of a variable?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "typeof",
       "instanceof",
       "isType()",
@@ -5925,8 +5707,7 @@
   {
     "q": "Which method is used to add one or more elements to the beginning of an array?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "unshift()",
       "push()",
       "shift()",
@@ -5947,8 +5728,7 @@
   {
     "q": "Which of the following is a falsy value in JavaScript?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "0",
       "1",
       "{}",
@@ -5969,8 +5749,7 @@
   {
     "q": "Which keyword is used to define a constant variable in JavaScript?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "const",
       "let",
       "var",
@@ -5991,8 +5770,7 @@
   {
     "q": "Which method is used to find the index of an element in an array?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "indexOf()",
       "find()",
       "search()",
@@ -6013,8 +5791,7 @@
   {
     "q": "Which of the following is NOT a valid JavaScript variable name?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "2variable",
       "_variable",
       "$variable",
@@ -6035,8 +5812,7 @@
   {
     "q": "Which method is used to convert a number to a string?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "toString()",
       "parseInt()",
       "stringify()",
@@ -6057,8 +5833,7 @@
   {
     "q": "Which operator is used for strict equality comparison in JavaScript?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "===",
       "==",
       "=",
@@ -6079,8 +5854,7 @@
   {
     "q": "Which method is used to remove the first element from an array and return it?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "shift()",
       "pop()",
       "splice()",
@@ -6101,8 +5875,7 @@
   {
     "q": "Which statement is used to exit a loop in JavaScript?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "break",
       "exit",
       "stop",
@@ -6123,8 +5896,7 @@
   {
     "q": "Which of the following is used to define a block scope variable in JavaScript?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "let",
       "var",
       "static",
@@ -6145,8 +5917,7 @@
   {
     "q": "Which function is used to parse a string into an integer in JavaScript?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "parseInt()",
       "toInteger()",
       "Number()",
@@ -6167,8 +5938,7 @@
   {
     "q": "Which data type in JavaScript represents an absence of an object value?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "null",
       "undefined",
       "NaN",
@@ -6189,8 +5959,7 @@
   {
     "q": "Which operator is used to check if two values are NOT equal in JavaScript?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "!=",
       "==",
       "=",
@@ -6211,8 +5980,7 @@
   {
     "q": "Which method is used to merge two or more arrays in JavaScript?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "concat()",
       "merge()",
       "combine()",
@@ -6233,8 +6001,7 @@
   {
     "q": "Which built-in function is used to convert a JSON string into a JavaScript object?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "JSON.parse()",
       "JSON.stringify()",
       "JSON.toObject()",
@@ -6255,8 +6022,7 @@
   {
     "q": "Which keyword is used to define a function in JavaScript?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "function",
       "def",
       "func",
@@ -6277,8 +6043,7 @@
   {
     "q": "Which of the following correctly declares a constant variable in JavaScript?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "const PI = 3.14;",
       "let PI = 3.14;",
       "var PI = 3.14;",
@@ -6299,8 +6064,7 @@
   {
     "q": "Which symbol is used for single-line comments in JavaScript?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "//",
       "/* */",
       "#",
@@ -6321,8 +6085,7 @@
   {
     "q": "Which of the following is the correct syntax for an arrow function in JavaScript?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "() => {}",
       "=> () {}",
       "function => ()",
@@ -6343,8 +6106,7 @@
   {
     "q": "Which of the following correctly checks if a variable is an array in JavaScript?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "Array.isArray(value)",
       "value instanceof array",
       "typeof value === \"array\"",
@@ -6365,8 +6127,7 @@
   {
     "q": "Which function is used to execute a function after a specified delay in JavaScript?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "setTimeout()",
       "setInterval()",
       "delay()",
@@ -6387,8 +6148,7 @@
   {
     "q": "Which of the following keywords is used to define a block-scoped variable in JavaScript?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "let",
       "var",
       "const",
@@ -6409,8 +6169,7 @@
   {
     "q": "Which operator is used to check both value and type equality in JavaScript?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "===",
       "==",
       "=",
@@ -6431,8 +6190,7 @@
   {
     "q": "Which of the following statements is true about JavaScript variables?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "Variables declared with let are block-scoped.",
       "Variables declared with var are block-scoped.",
       "Variables declared with const can be reassigned.",
@@ -6453,8 +6211,7 @@
   {
     "q": "Which of the following is a valid way to declare a function in JavaScript?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "function myFunction() {}",
       "def myFunction() {}",
       "func myFunction() {}",
@@ -6475,8 +6232,7 @@
   {
     "q": "Which JavaScript function is used to execute a function repeatedly after a fixed time interval?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "setInterval()",
       "setTimeout()",
       "repeat()",
@@ -6497,8 +6253,7 @@
   {
     "q": "Which of the following correctly declares an object in JavaScript?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "let obj = { name: 'John', age: 25 };",
       "let obj = ( name: 'John', age: 25 );",
       "let obj = [ name: 'John', age: 25 ];",
@@ -6519,8 +6274,7 @@
   {
     "q": "Which JavaScript keyword is used to create a variable that cannot be reassigned?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "const",
       "let",
       "var",
@@ -6541,8 +6295,7 @@
   {
     "q": "Which of the following is the correct syntax to check if a variable is `null` in JavaScript?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "if (variable === null)",
       "if (typeof variable === 'null')",
       "if (variable == undefined)",
@@ -6563,8 +6316,7 @@
   {
     "q": "Which of the following statements about JavaScript objects is true?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "Objects in JavaScript are key-value pairs.",
       "Objects in JavaScript are a type of array.",
       "Objects in JavaScript can only store primitive values.",
@@ -6585,8 +6337,7 @@
   {
     "q": "Which JavaScript method is used to remove the last element from an array?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "array.pop()",
       "array.shift()",
       "array.splice()",
@@ -6607,8 +6358,7 @@
   {
     "q": "Which statement correctly declares a variable in JavaScript?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "let x = 10;",
       "variable x = 10;",
       "x : 10;",
@@ -6629,8 +6379,7 @@
   {
     "q": "Which of the following statements about JavaScript arrays is correct?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "Arrays in JavaScript can contain multiple data types.",
       "Arrays in JavaScript must contain only numbers.",
       "JavaScript arrays have a fixed length.",
@@ -6651,8 +6400,7 @@
   {
     "q": "Which of the following is used to define a constant variable in JavaScript?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "const",
       "var",
       "let",
@@ -6673,8 +6421,7 @@
   {
     "q": "Which method is used to convert a string to an integer in JavaScript?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "parseInt()",
       "parseFloat()",
       "Number()",
@@ -6695,8 +6442,7 @@
   {
     "q": "Which of the following is a correct way to define an arrow function in JavaScript?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "const add = (a, b) => a + b;",
       "function => add(a, b) { return a + b; }",
       "const add(a, b) -> { return a + b; }",
@@ -6717,8 +6463,7 @@
   {
     "q": "Which of the following is a falsy value in JavaScript?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "0",
       "\"false\"",
       "{}",
@@ -6739,8 +6484,7 @@
   {
     "q": "Which of the following is NOT a valid JavaScript data type?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "character",
       "number",
       "boolean",
@@ -6761,8 +6505,7 @@
   {
     "q": "Which keyword is used to declare a block-scoped variable in JavaScript?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "let",
       "var",
       "define",
@@ -6783,8 +6526,7 @@
   {
     "q": "Which operator is used to check both value and type equality in JavaScript?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "===",
       "==",
       "=",
@@ -6805,8 +6547,7 @@
   {
     "q": "Which of the following statements is true about JavaScript objects?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "Objects are collections of key-value pairs.",
       "Objects must have numeric keys.",
       "Objects cannot store functions.",
@@ -6827,8 +6568,7 @@
   {
     "q": "Which of the following is the correct way to declare a constant variable in JavaScript?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "const PI = 3.14;",
       "let PI = 3.14;",
       "var PI = 3.14;",
@@ -6849,8 +6589,7 @@
   {
     "q": "Which of the following statements is true about JavaScript variables?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "Variables declared with 'var' are function-scoped.",
       "Variables declared with 'let' are hoisted and initialized to undefined.",
       "Variables declared with 'const' can be reassigned.",
@@ -6871,8 +6610,7 @@
   {
     "q": "Which operator is used to perform exponentiation in JavaScript?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "**",
       "^",
       "exp()",
@@ -6893,8 +6631,7 @@
   {
     "q": "Which of the following correctly declares a JavaScript function?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "function greet() { console.log('Hello!'); }",
       "def greet() { console.log('Hello!'); }",
       "function = greet() { console.log('Hello!'); }",
@@ -6915,8 +6652,7 @@
   {
     "q": "Which of the following values evaluates to false in a Boolean context?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "'' (empty string)",
       "'false' (string)",
       "'0' (string)",
@@ -6937,8 +6673,7 @@
   {
     "q": "Which of the following correctly initializes a variable with a value of `null`?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "let x = null;",
       "let x = NULL;",
       "let x = 'null';",
@@ -6959,8 +6694,7 @@
   {
     "q": "Which JavaScript operator returns the remainder of a division operation?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "%",
       "/",
       "//",
@@ -6981,8 +6715,7 @@
   {
     "q": "Which of the following statements about `var`, `let`, and `const` is true?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "'let' allows reassignment, while 'const' does not.",
       "'var' is block-scoped.",
       "'const' variables can be declared without initialization.",
@@ -7003,8 +6736,7 @@
   {
     "q": "Which JavaScript method converts a string to an integer?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "parseInt()",
       "toInteger()",
       "Number.parse()",
@@ -7025,8 +6757,7 @@
   {
     "q": "Which of the following is NOT a primitive data type in JavaScript?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "Object",
       "String",
       "Number",
@@ -7047,8 +6778,7 @@
   {
     "q": "Which of the following correctly declares a constant in JavaScript?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "const PI = 3.14;",
       "let PI = 3.14;",
       "var PI = 3.14;",
@@ -7069,8 +6799,7 @@
   {
     "q": "Which operator is used to check both value and type equality in JavaScript?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "===",
       "==",
       "=",
@@ -7091,8 +6820,7 @@
   {
     "q": "Which of the following is a valid way to declare a JavaScript function?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "function myFunction() {}",
       "def myFunction() {}",
       "func myFunction() {}",
@@ -7113,8 +6841,7 @@
   {
     "q": "Which JavaScript keyword is used to define a block of code that can be executed later when called?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "function",
       "execute",
       "method",
@@ -7135,8 +6862,7 @@
   {
     "q": "Which statement is true about JavaScript?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "JavaScript is a loosely typed language.",
       "JavaScript is only used for back-end development.",
       "JavaScript does not support object-oriented programming.",
@@ -7157,8 +6883,7 @@
   {
     "q": "Which of the following is NOT a valid JavaScript variable name?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "2value",
       "_value",
       "$value",
@@ -7179,8 +6904,7 @@
   {
     "q": "Which of the following correctly declares a block-scoped variable?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "let myVar = 10;",
       "var myVar = 10;",
       "const myVar;",
@@ -7201,8 +6925,7 @@
   {
     "q": "Which of the following values is considered falsy in JavaScript?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "'' (empty string)",
       "'false' (string with value 'false')",
       "{} (empty object)",
@@ -7223,8 +6946,7 @@
   {
     "q": "Which of the following is NOT a valid way to declare a function in JavaScript?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "function = myFunction() {}",
       "function myFunction() {}",
       "let myFunction = function() {}",
@@ -7245,8 +6967,7 @@
   {
     "q": "Which of the following statements is true about JavaScript?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "JavaScript is a dynamically typed language.",
       "JavaScript requires explicit type declaration for variables.",
       "JavaScript does not support asynchronous operations.",
@@ -7267,8 +6988,7 @@
   {
     "q": "Which of the following is NOT a primitive data type in JavaScript?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "Object",
       "String",
       "Number",
@@ -7289,8 +7009,7 @@
   {
     "q": "Which of the following correctly checks if a variable is an array?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "Array.isArray(variable)",
       "typeof variable === 'array'",
       "variable instanceof Object",
@@ -7311,8 +7030,7 @@
   {
     "q": "Which operator is used for strict equality comparison in JavaScript?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "===",
       "==",
       "=",
@@ -7333,8 +7051,7 @@
   {
     "q": "Which of the following is a valid way to declare a constant variable?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "const myVar = 10;",
       "var myVar = 10;",
       "let const myVar = 10;",
@@ -7355,8 +7072,7 @@
   {
     "q": "Which of the following best describes JavaScript?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "A lightweight, interpreted programming language.",
       "A strongly typed programming language.",
       "A language that only runs on servers.",
@@ -7377,8 +7093,7 @@
   {
     "q": "Which of the following is the correct way to declare a block-scoped variable?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "let x = 10;",
       "var x = 10;",
       "block x = 10;",
@@ -7399,8 +7114,7 @@
   {
     "q": "Which statement about 'const' in JavaScript is true?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "A 'const' variable cannot be reassigned after declaration.",
       "'const' variables are block-scoped but can be updated.",
       "'const' variables are function-scoped.",
@@ -7421,8 +7135,7 @@
   {
     "q": "Which of the following is NOT a valid way to declare a function?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "function myFunction() {}",
       "let myFunction = function() {};",
       "const myFunction = () => {};",
@@ -7443,8 +7156,7 @@
   {
     "q": "Which JavaScript operator is used to check both value and type?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "===",
       "==",
       "!=",
@@ -7465,8 +7177,7 @@
   {
     "q": "Which of the following is a falsy value in JavaScript?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "0",
       "'false'",
       "[]",
@@ -7487,8 +7198,7 @@
   {
     "q": "Which keyword is used to define a constant variable in JavaScript?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "const",
       "var",
       "let",
@@ -7509,8 +7219,7 @@
   {
     "q": "Which statement is true about the 'let' keyword?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "'let' allows reassignment but is block-scoped.",
       "'let' creates a global variable.",
       "'let' variables cannot be reassigned after initialization.",
@@ -7531,8 +7240,7 @@
   {
     "q": "Which of the following is NOT a valid JavaScript data type?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "character",
       "boolean",
       "symbol",
@@ -7553,8 +7261,7 @@
   {
     "q": "Which operator is used for exponentiation in JavaScript?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "**",
       "^",
       "exp()",
@@ -7564,8 +7271,7 @@
   {
     "q": "What is the value of 'typeof undefined' in JavaScript?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "'undefined'",
       "'null'",
       "'object'",
@@ -7597,8 +7303,7 @@
   {
     "q": "Which of the following correctly declares a variable in JavaScript?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "let x = 10;",
       "variable x = 10;",
       "const x;",
@@ -7619,8 +7324,7 @@
   {
     "q": "Which statement is true about the 'const' keyword?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "'const' variables must be assigned a value when declared.",
       "'const' variables can be reassigned later.",
       "'const' is function-scoped like 'var'.",
@@ -7641,8 +7345,7 @@
   {
     "q": "Which of the following is NOT a valid JavaScript loop?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "repeat",
       "for",
       "while",
@@ -7663,8 +7366,7 @@
   {
     "q": "Which operator is used for strict equality in JavaScript?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "===",
       "==",
       "=",
@@ -7674,8 +7376,7 @@
   {
     "q": "What is the value of 'typeof function(){}' in JavaScript?",
     "l": "javascript",
-      "c": null,
-    "o": [
+      "o": [
       "'function'",
       "'object'",
       "'undefined'",
